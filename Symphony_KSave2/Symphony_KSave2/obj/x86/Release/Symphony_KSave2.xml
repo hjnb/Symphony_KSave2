@@ -6,7 +6,19 @@ Symphony_KSave2
 </name>
 </assembly>
 <members>
-<member name="P:Symphony_KSave2.My.Resources.Resources.ResourceManager">
+<member name="M:Symphony_KSave2.Util.EnableDoubleBuffering(System.Windows.Forms.Control)">
+	<summary>
+ コントロールのDoubleBufferedプロパティをTrueにする
+ </summary>
+	<param name="control">対象のコントロール</param>
+</member><member name="M:Symphony_KSave2.Util.checkDBNullValue(System.Object)">
+	<summary>
+ dgvのセルの値がNullかチェック、Nullの場合空文字を返す
+ </summary>
+	<param name="dgvCellValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Symphony_KSave2.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>

@@ -10,6 +10,7 @@
     '.iniファイルのパス
     Public iniFilePath As String = My.Application.Info.DirectoryPath & "\KSave2.ini"
 
+    'フォーム
     Private surveySlipForm As 認定調査票
     Private masterForm As マスタ
 
