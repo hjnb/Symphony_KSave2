@@ -22,6 +22,13 @@ Public Class 認定調査票
 
         'dgv初期設定
         initDgvNumInput()
+        initDgvSp(SpDgv1)
+        initDgvSp(SpDgv2)
+        initDgvSp(SpDgv3)
+        initDgvSp(SpDgv4)
+        initDgvSp(SpDgv5)
+        initDgvSp(SpDgv6)
+        initDgvSp(SpDgv7)
 
         '初期フォーカス
         dgvNumInput.Focus()
@@ -175,6 +182,54 @@ Public Class 認定調査票
         End With
     End Sub
 
+    Private Sub initDgvSp(dgv As SpDgv)
+        Util.EnableDoubleBuffering(dgv)
+
+        With dgv
+            .AllowUserToAddRows = False '行追加禁止
+            .AllowUserToResizeColumns = False '列の幅をユーザーが変更できないようにする
+            .AllowUserToResizeRows = False '行の高さをユーザーが変更できないようにする
+            .AllowUserToDeleteRows = False '行削除禁止
+            .MultiSelect = False
+            .RowHeadersVisible = False
+            .RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing
+            .ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+            .ColumnHeadersHeight = 19
+            .RowTemplate.Height = 17
+            .BackgroundColor = Color.FromKnownColor(KnownColor.Control)
+            .DefaultCellStyle.SelectionBackColor = Color.White
+            .DefaultCellStyle.SelectionForeColor = Color.Black
+            .ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
+            .ShowCellToolTips = False
+            .EnableHeadersVisualStyles = False
+        End With
+
+        '列追加、空の行追加
+        dgv.dt.Columns.Add("Listing", Type.GetType("System.String"))
+        dgv.dt.Columns.Add("Content", Type.GetType("System.String"))
+        Dim row As DataRow
+        For i = 0 To 59
+            row = dgv.dt.NewRow()
+            row(0) = ""
+            row(1) = ""
+            dgv.dt.Rows.Add(row)
+        Next
+
+        dgv.DataSource = dgv.dt
+
+        With dgv
+            With .Columns("Listing")
+                .HeaderText = "項目"
+                .Width = 47
+            End With
+            With .Columns("Content")
+                .HeaderText = "内容"
+                .Width = 530
+            End With
+        End With
+
+    End Sub
+
     Private Sub settingInputBox()
         '実施者ボックス
         Dim cnn As New ADODB.Connection
@@ -272,4 +327,27 @@ Public Class 認定調査票
             ageLabel.Text = birthYmdBox.getAge()
         End If
     End Sub
+
+    Private Sub spTabBtnClear_Click(sender As System.Object, e As System.EventArgs) Handles btnClear1.Click, btnClear2.Click, btnClear3.Click, btnClear4.Click, btnClear5.Click, btnClear6.Click, btnClear7.Click
+        Dim b As Button = CType(sender, Button)
+        Dim tp As TabPage = b.Parent
+        Dim num As String = b.Name.Substring(b.Name.Length - 1)
+        CType(tp.Controls("SpDgv" & num), SpDgv).clearText()
+    End Sub
+
+    Private Sub spTabBtnRowInsert_Click(sender As System.Object, e As System.EventArgs) Handles btnRowInsert1.Click, btnRowInsert2.Click, btnRowInsert3.Click, btnRowInsert4.Click, btnRowInsert5.Click, btnRowInsert6.Click, btnRowInsert7.Click
+        Dim b As Button = CType(sender, Button)
+        Dim tp As TabPage = b.Parent
+        Dim num As String = b.Name.Substring(b.Name.Length - 1)
+        CType(tp.Controls("SpDgv" & num), SpDgv).rowInsert()
+    End Sub
+
+    Private Sub spTabBtnRowDelete_Click(sender As System.Object, e As System.EventArgs) Handles btnRowDelete1.Click, btnRowDelete2.Click, btnRowDelete3.Click, btnRowDelete4.Click, btnRowDelete5.Click, btnRowDelete6.Click, btnRowDelete7.Click
+        Dim b As Button = CType(sender, Button)
+        Dim tp As TabPage = b.Parent
+        Dim num As String = b.Name.Substring(b.Name.Length - 1)
+        CType(tp.Controls("SpDgv" & num), SpDgv).rowDelete()
+    End Sub
+
+
 End Class

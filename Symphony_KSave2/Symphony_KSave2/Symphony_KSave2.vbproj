@@ -78,7 +78,16 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExCheckBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ExDataGridView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExRadioButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SpDgv.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="topForm.vb">
