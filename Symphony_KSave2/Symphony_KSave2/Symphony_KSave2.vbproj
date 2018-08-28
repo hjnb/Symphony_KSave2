@@ -87,6 +87,9 @@
     <Compile Include="ExRadioButton.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="ExTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="SpDgv.vb">
       <SubType>Component</SubType>
     </Compile>

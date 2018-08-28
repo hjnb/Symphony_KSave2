@@ -1,6 +1,9 @@
 ﻿Imports System.Data.OleDb
+Imports System.Text
 
 Public Class 認定調査票
+
+    Private Const INPUT_NUMBER As Integer = 1
 
     Public Sub New()
         InitializeComponent()
@@ -247,14 +250,99 @@ Public Class 認定調査票
 
         '所属機関ボックス
         companyBox.Items.AddRange({"特別養護老人ホーム シンフォニー", "居宅介護支援事業所 シンフォニー"})
+        companyBox.ImeMode = Windows.Forms.ImeMode.Hiragana
+
+        '実施場所自宅外ボックス
+        houseTextBox.LimitLengthByte = 34 '全角17文字
+        houseTextBox.ImeMode = Windows.Forms.ImeMode.Hiragana
 
         '前回認定結果ボックス
         certifiedResultBox.Items.AddRange({"非該当", "要支援1", "要支援2", "要介護1", "要介護2", "要介護3", "要介護4", "要介護5"})
+        certifiedResultBox.ImeMode = Windows.Forms.ImeMode.Hiragana
 
+        '現在所
+        With currentPostCode1
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 3
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With currentPostCode2
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With currentAddress
+            .LimitLengthByte = 60
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+        With currentTel1
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With currentTel2
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With currentTel3
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+
+        '家族等
+        With familyPostCode1
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 3
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With familyPostCode2
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With familyAddress
+            .LimitLengthByte = 60
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+        With familyTel1
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With familyTel2
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With familyTel3
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+
+        '氏名ボックス
+        With namBox
+            .LimitLengthByte = 16
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+        
         '調査対象者との関係ボックス
         relationBox.Items.AddRange({"夫", "妻", "息子", "娘", "長男", "二男", "三男", "四男", "長女", "二女", "三女", "四女", "五女", "子の嫁", "子の夫", "兄", "弟", "姉", "妹", "父", "母", "孫", "伯父", "叔父", "伯母", "叔母", "知人", "その他", "姪", "甥"})
         relationBox.MaxDropDownItems = 8
         relationBox.IntegralHeight = False
+        relationBox.ImeMode = Windows.Forms.ImeMode.Hiragana
 
     End Sub
 
@@ -328,6 +416,34 @@ Public Class 認定調査票
         End If
     End Sub
 
+    Private Sub spText1_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles spText1.KeyDown
+        If e.KeyCode = Keys.Down Then
+            spText2.Focus()
+        End If
+    End Sub
+
+    Private Sub spText2_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles spText2.KeyDown
+        If e.KeyCode = Keys.Down Then
+            spText3.Focus()
+        ElseIf e.KeyCode = Keys.Up Then
+            spText1.Focus()
+        End If
+    End Sub
+
+    Private Sub spText3_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles spText3.KeyDown
+        If e.KeyCode = Keys.Down Then
+            spText4.Focus()
+        ElseIf e.KeyCode = Keys.Up Then
+            spText2.Focus()
+        End If
+    End Sub
+
+    Private Sub spText4_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles spText4.KeyDown
+        If e.KeyCode = Keys.Up Then
+            spText3.Focus()
+        End If
+    End Sub
+
     Private Sub spTabBtnClear_Click(sender As System.Object, e As System.EventArgs) Handles btnClear1.Click, btnClear2.Click, btnClear3.Click, btnClear4.Click, btnClear5.Click, btnClear6.Click, btnClear7.Click
         Dim b As Button = CType(sender, Button)
         Dim tp As TabPage = b.Parent
@@ -348,6 +464,5 @@ Public Class 認定調査票
         Dim num As String = b.Name.Substring(b.Name.Length - 1)
         CType(tp.Controls("SpDgv" & num), SpDgv).rowDelete()
     End Sub
-
 
 End Class
