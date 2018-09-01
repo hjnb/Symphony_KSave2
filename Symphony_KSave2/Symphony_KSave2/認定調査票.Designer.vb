@@ -35,7 +35,7 @@ Partial Class 認定調査票
         Me.spText3 = New Symphony_KSave2.ExTextBox()
         Me.spText2 = New Symphony_KSave2.ExTextBox()
         Me.spText1 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox21 = New Symphony_KSave2.ExTextBox()
+        Me.Gentxt1 = New Symphony_KSave2.ExTextBox()
         Me.houseTextBox = New Symphony_KSave2.ExTextBox()
         Me.Label77 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
@@ -54,44 +54,44 @@ Partial Class 認定調査票
         Me.facilityNameBox = New Symphony_KSave2.ExTextBox()
         Me.Label75 = New System.Windows.Forms.Label()
         Me.Label61 = New System.Windows.Forms.Label()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.CheckBox29 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox30 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox31 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox37 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox40 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox41 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox42 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox48 = New System.Windows.Forms.CheckBox()
+        Me.facilityPanel = New System.Windows.Forms.Panel()
+        Me.checkStay6 = New System.Windows.Forms.CheckBox()
+        Me.checkStay7 = New System.Windows.Forms.CheckBox()
+        Me.checkStay8 = New System.Windows.Forms.CheckBox()
+        Me.checkStay5 = New System.Windows.Forms.CheckBox()
+        Me.checkStay2 = New System.Windows.Forms.CheckBox()
+        Me.checkStay3 = New System.Windows.Forms.CheckBox()
+        Me.checkStay4 = New System.Windows.Forms.CheckBox()
+        Me.checkStay1 = New System.Windows.Forms.CheckBox()
         Me.Label54 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.ExTextBox22 = New Symphony_KSave2.ExTextBox()
-        Me.CheckBox25 = New System.Windows.Forms.CheckBox()
+        Me.Gentxt2 = New Symphony_KSave2.ExTextBox()
+        Me.checkGen22 = New System.Windows.Forms.CheckBox()
         Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.CheckBox24 = New System.Windows.Forms.CheckBox()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.ExTextBox20 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox19 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox18 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox17 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox16 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox15 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox14 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox13 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox12 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox11 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox10 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox9 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox8 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox7 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox6 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox5 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox4 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox3 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox2 = New Symphony_KSave2.ExTextBox()
-        Me.ExTextBox1 = New Symphony_KSave2.ExTextBox()
-        Me.CheckBox23 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
+        Me.checkGen21 = New System.Windows.Forms.CheckBox()
+        Me.overview3Panel = New System.Windows.Forms.Panel()
+        Me.txtNum20 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum19 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum18 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum17 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum16 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum15 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum14 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum12 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum11 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum21 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum10 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum9 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum8 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum7 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum6 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum5 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum4 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum3 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum2 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum1 = New Symphony_KSave2.ExTextBox()
+        Me.CheckNum13None = New System.Windows.Forms.CheckBox()
+        Me.CheckNum13Exists = New System.Windows.Forms.CheckBox()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.Label55 = New System.Windows.Forms.Label()
         Me.Label56 = New System.Windows.Forms.Label()
@@ -108,16 +108,16 @@ Partial Class 認定調査票
         Me.Label69 = New System.Windows.Forms.Label()
         Me.Label70 = New System.Windows.Forms.Label()
         Me.Label71 = New System.Windows.Forms.Label()
-        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox18 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox20 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox21 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox22 = New System.Windows.Forms.CheckBox()
+        Me.checkGen20 = New System.Windows.Forms.CheckBox()
+        Me.checkGen12 = New System.Windows.Forms.CheckBox()
+        Me.checkGen13 = New System.Windows.Forms.CheckBox()
+        Me.checkGen14 = New System.Windows.Forms.CheckBox()
+        Me.checkGen15 = New System.Windows.Forms.CheckBox()
+        Me.checkGen16 = New System.Windows.Forms.CheckBox()
+        Me.checkGen17 = New System.Windows.Forms.CheckBox()
+        Me.checkGen18 = New System.Windows.Forms.CheckBox()
+        Me.checkGen19 = New System.Windows.Forms.CheckBox()
+        Me.checkGen11 = New System.Windows.Forms.CheckBox()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.Label50 = New System.Windows.Forms.Label()
@@ -140,17 +140,17 @@ Partial Class 認定調査票
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.checkGen10 = New System.Windows.Forms.CheckBox()
+        Me.checkGen23 = New System.Windows.Forms.CheckBox()
+        Me.checkGen2 = New System.Windows.Forms.CheckBox()
+        Me.checkGen3 = New System.Windows.Forms.CheckBox()
+        Me.checkGen4 = New System.Windows.Forms.CheckBox()
+        Me.checkGen5 = New System.Windows.Forms.CheckBox()
+        Me.checkGen6 = New System.Windows.Forms.CheckBox()
+        Me.checkGen7 = New System.Windows.Forms.CheckBox()
+        Me.checkGen8 = New System.Windows.Forms.CheckBox()
+        Me.checkGen9 = New System.Windows.Forms.CheckBox()
+        Me.checkGen1 = New System.Windows.Forms.CheckBox()
         Me.relationBox = New System.Windows.Forms.ComboBox()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
@@ -669,10 +669,10 @@ Partial Class 認定調査票
         Me.overviewPage.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel11.SuspendLayout()
-        Me.Panel10.SuspendLayout()
+        Me.facilityPanel.SuspendLayout()
         Me.Panel9.SuspendLayout()
         Me.Panel8.SuspendLayout()
-        Me.Panel7.SuspendLayout()
+        Me.overview3Panel.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.Panel4.SuspendLayout()
@@ -804,7 +804,7 @@ Partial Class 認定調査票
         '
         'btnRegist
         '
-        Me.btnRegist.Location = New System.Drawing.Point(32, 612)
+        Me.btnRegist.Location = New System.Drawing.Point(32, 594)
         Me.btnRegist.Name = "btnRegist"
         Me.btnRegist.Size = New System.Drawing.Size(67, 30)
         Me.btnRegist.TabIndex = 1002
@@ -813,7 +813,7 @@ Partial Class 認定調査票
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(32, 645)
+        Me.btnDelete.Location = New System.Drawing.Point(32, 627)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(67, 30)
         Me.btnDelete.TabIndex = 1003
@@ -822,7 +822,7 @@ Partial Class 認定調査票
         '
         'btnPrint
         '
-        Me.btnPrint.Location = New System.Drawing.Point(32, 679)
+        Me.btnPrint.Location = New System.Drawing.Point(32, 661)
         Me.btnPrint.Name = "btnPrint"
         Me.btnPrint.Size = New System.Drawing.Size(67, 30)
         Me.btnPrint.TabIndex = 1004
@@ -837,7 +837,7 @@ Partial Class 認定調査票
         Me.inputTab.Location = New System.Drawing.Point(135, 12)
         Me.inputTab.Name = "inputTab"
         Me.inputTab.SelectedIndex = 0
-        Me.inputTab.Size = New System.Drawing.Size(852, 782)
+        Me.inputTab.Size = New System.Drawing.Size(852, 761)
         Me.inputTab.TabIndex = 8
         '
         'overviewPage
@@ -847,17 +847,17 @@ Partial Class 認定調査票
         Me.overviewPage.Controls.Add(Me.spText3)
         Me.overviewPage.Controls.Add(Me.spText2)
         Me.overviewPage.Controls.Add(Me.spText1)
-        Me.overviewPage.Controls.Add(Me.ExTextBox21)
+        Me.overviewPage.Controls.Add(Me.Gentxt1)
         Me.overviewPage.Controls.Add(Me.houseTextBox)
         Me.overviewPage.Controls.Add(Me.Label77)
         Me.overviewPage.Controls.Add(Me.Panel12)
         Me.overviewPage.Controls.Add(Me.Panel11)
         Me.overviewPage.Controls.Add(Me.Label61)
-        Me.overviewPage.Controls.Add(Me.Panel10)
+        Me.overviewPage.Controls.Add(Me.facilityPanel)
         Me.overviewPage.Controls.Add(Me.Label54)
         Me.overviewPage.Controls.Add(Me.Panel9)
         Me.overviewPage.Controls.Add(Me.Panel8)
-        Me.overviewPage.Controls.Add(Me.Panel7)
+        Me.overviewPage.Controls.Add(Me.overview3Panel)
         Me.overviewPage.Controls.Add(Me.relationBox)
         Me.overviewPage.Controls.Add(Me.Label30)
         Me.overviewPage.Controls.Add(Me.Panel6)
@@ -898,7 +898,7 @@ Partial Class 認定調査票
         Me.overviewPage.Location = New System.Drawing.Point(4, 22)
         Me.overviewPage.Name = "overviewPage"
         Me.overviewPage.Padding = New System.Windows.Forms.Padding(3)
-        Me.overviewPage.Size = New System.Drawing.Size(844, 756)
+        Me.overviewPage.Size = New System.Drawing.Size(844, 735)
         Me.overviewPage.TabIndex = 0
         Me.overviewPage.Text = "概　況　調　査"
         '
@@ -906,55 +906,55 @@ Partial Class 認定調査票
         '
         Me.spText4.InputType = 0
         Me.spText4.LimitLengthByte = 100
-        Me.spText4.Location = New System.Drawing.Point(37, 699)
+        Me.spText4.Location = New System.Drawing.Point(37, 680)
         Me.spText4.Name = "spText4"
-        Me.spText4.Size = New System.Drawing.Size(713, 19)
+        Me.spText4.Size = New System.Drawing.Size(733, 19)
         Me.spText4.TabIndex = 210
         '
         'spText3
         '
         Me.spText3.InputType = 0
         Me.spText3.LimitLengthByte = 100
-        Me.spText3.Location = New System.Drawing.Point(37, 680)
+        Me.spText3.Location = New System.Drawing.Point(37, 661)
         Me.spText3.Name = "spText3"
-        Me.spText3.Size = New System.Drawing.Size(713, 19)
+        Me.spText3.Size = New System.Drawing.Size(733, 19)
         Me.spText3.TabIndex = 209
         '
         'spText2
         '
         Me.spText2.InputType = 0
         Me.spText2.LimitLengthByte = 100
-        Me.spText2.Location = New System.Drawing.Point(37, 661)
+        Me.spText2.Location = New System.Drawing.Point(37, 642)
         Me.spText2.Name = "spText2"
-        Me.spText2.Size = New System.Drawing.Size(713, 19)
+        Me.spText2.Size = New System.Drawing.Size(733, 19)
         Me.spText2.TabIndex = 208
         '
         'spText1
         '
         Me.spText1.InputType = 0
         Me.spText1.LimitLengthByte = 100
-        Me.spText1.Location = New System.Drawing.Point(37, 642)
+        Me.spText1.Location = New System.Drawing.Point(37, 623)
         Me.spText1.Name = "spText1"
-        Me.spText1.Size = New System.Drawing.Size(713, 19)
+        Me.spText1.Size = New System.Drawing.Size(733, 19)
         Me.spText1.TabIndex = 207
         '
-        'ExTextBox21
+        'Gentxt1
         '
-        Me.ExTextBox21.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox21.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox21.InputType = 0
-        Me.ExTextBox21.LimitLengthByte = 100
-        Me.ExTextBox21.Location = New System.Drawing.Point(161, 469)
-        Me.ExTextBox21.Name = "ExTextBox21"
-        Me.ExTextBox21.Size = New System.Drawing.Size(528, 14)
-        Me.ExTextBox21.TabIndex = 206
+        Me.Gentxt1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Gentxt1.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Gentxt1.InputType = 0
+        Me.Gentxt1.LimitLengthByte = 100
+        Me.Gentxt1.Location = New System.Drawing.Point(161, 450)
+        Me.Gentxt1.Name = "Gentxt1"
+        Me.Gentxt1.Size = New System.Drawing.Size(528, 14)
+        Me.Gentxt1.TabIndex = 206
         '
         'houseTextBox
         '
         Me.houseTextBox.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.houseTextBox.InputType = 0
         Me.houseTextBox.LimitLengthByte = 34
-        Me.houseTextBox.Location = New System.Drawing.Point(280, 88)
+        Me.houseTextBox.Location = New System.Drawing.Point(280, 82)
         Me.houseTextBox.Name = "houseTextBox"
         Me.houseTextBox.Size = New System.Drawing.Size(208, 20)
         Me.houseTextBox.TabIndex = 12
@@ -962,7 +962,7 @@ Partial Class 認定調査票
         'Label77
         '
         Me.Label77.AutoSize = True
-        Me.Label77.Location = New System.Drawing.Point(13, 645)
+        Me.Label77.Location = New System.Drawing.Point(13, 626)
         Me.Label77.Name = "Label77"
         Me.Label77.Size = New System.Drawing.Size(17, 12)
         Me.Label77.TabIndex = 201
@@ -982,7 +982,7 @@ Partial Class 認定調査票
         Me.Panel12.Controls.Add(Me.Label73)
         Me.Panel12.Controls.Add(Me.Label74)
         Me.Panel12.Controls.Add(Me.Label76)
-        Me.Panel12.Location = New System.Drawing.Point(110, 611)
+        Me.Panel12.Location = New System.Drawing.Point(110, 592)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(734, 21)
         Me.Panel12.TabIndex = 47
@@ -1093,7 +1093,7 @@ Partial Class 認定調査票
         Me.Panel11.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
         Me.Panel11.Controls.Add(Me.facilityNameBox)
         Me.Panel11.Controls.Add(Me.Label75)
-        Me.Panel11.Location = New System.Drawing.Point(110, 585)
+        Me.Panel11.Location = New System.Drawing.Point(110, 566)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(308, 21)
         Me.Panel11.TabIndex = 200
@@ -1120,113 +1120,113 @@ Partial Class 認定調査票
         '
         Me.Label61.AutoSize = True
         Me.Label61.ForeColor = System.Drawing.Color.Blue
-        Me.Label61.Location = New System.Drawing.Point(35, 587)
+        Me.Label61.Location = New System.Drawing.Point(35, 568)
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(65, 12)
         Me.Label61.TabIndex = 199
         Me.Label61.Text = "施設連絡先"
         '
-        'Panel10
+        'facilityPanel
         '
-        Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
-        Me.Panel10.Controls.Add(Me.CheckBox29)
-        Me.Panel10.Controls.Add(Me.CheckBox30)
-        Me.Panel10.Controls.Add(Me.CheckBox31)
-        Me.Panel10.Controls.Add(Me.CheckBox37)
-        Me.Panel10.Controls.Add(Me.CheckBox40)
-        Me.Panel10.Controls.Add(Me.CheckBox41)
-        Me.Panel10.Controls.Add(Me.CheckBox42)
-        Me.Panel10.Controls.Add(Me.CheckBox48)
-        Me.Panel10.Location = New System.Drawing.Point(110, 509)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(580, 69)
-        Me.Panel10.TabIndex = 196
+        Me.facilityPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
+        Me.facilityPanel.Controls.Add(Me.checkStay6)
+        Me.facilityPanel.Controls.Add(Me.checkStay7)
+        Me.facilityPanel.Controls.Add(Me.checkStay8)
+        Me.facilityPanel.Controls.Add(Me.checkStay5)
+        Me.facilityPanel.Controls.Add(Me.checkStay2)
+        Me.facilityPanel.Controls.Add(Me.checkStay3)
+        Me.facilityPanel.Controls.Add(Me.checkStay4)
+        Me.facilityPanel.Controls.Add(Me.checkStay1)
+        Me.facilityPanel.Location = New System.Drawing.Point(110, 490)
+        Me.facilityPanel.Name = "facilityPanel"
+        Me.facilityPanel.Size = New System.Drawing.Size(580, 69)
+        Me.facilityPanel.TabIndex = 196
         '
-        'CheckBox29
+        'checkStay6
         '
-        Me.CheckBox29.AutoSize = True
-        Me.CheckBox29.Location = New System.Drawing.Point(307, 19)
-        Me.CheckBox29.Name = "CheckBox29"
-        Me.CheckBox29.Size = New System.Drawing.Size(200, 16)
-        Me.CheckBox29.TabIndex = 158
-        Me.CheckBox29.Text = "医療機関(医療保険適用療養病床)"
-        Me.CheckBox29.UseVisualStyleBackColor = True
+        Me.checkStay6.AutoSize = True
+        Me.checkStay6.Location = New System.Drawing.Point(307, 19)
+        Me.checkStay6.Name = "checkStay6"
+        Me.checkStay6.Size = New System.Drawing.Size(200, 16)
+        Me.checkStay6.TabIndex = 158
+        Me.checkStay6.Text = "医療機関(医療保険適用療養病床)"
+        Me.checkStay6.UseVisualStyleBackColor = True
         '
-        'CheckBox30
+        'checkStay7
         '
-        Me.CheckBox30.AutoSize = True
-        Me.CheckBox30.Location = New System.Drawing.Point(307, 35)
-        Me.CheckBox30.Name = "CheckBox30"
-        Me.CheckBox30.Size = New System.Drawing.Size(152, 16)
-        Me.CheckBox30.TabIndex = 157
-        Me.CheckBox30.Text = "医療機関(療養病床以外)"
-        Me.CheckBox30.UseVisualStyleBackColor = True
+        Me.checkStay7.AutoSize = True
+        Me.checkStay7.Location = New System.Drawing.Point(307, 35)
+        Me.checkStay7.Name = "checkStay7"
+        Me.checkStay7.Size = New System.Drawing.Size(152, 16)
+        Me.checkStay7.TabIndex = 157
+        Me.checkStay7.Text = "医療機関(療養病床以外)"
+        Me.checkStay7.UseVisualStyleBackColor = True
         '
-        'CheckBox31
+        'checkStay8
         '
-        Me.CheckBox31.AutoSize = True
-        Me.CheckBox31.Location = New System.Drawing.Point(307, 51)
-        Me.CheckBox31.Name = "CheckBox31"
-        Me.CheckBox31.Size = New System.Drawing.Size(89, 16)
-        Me.CheckBox31.TabIndex = 156
-        Me.CheckBox31.Text = "その他の施設"
-        Me.CheckBox31.UseVisualStyleBackColor = True
+        Me.checkStay8.AutoSize = True
+        Me.checkStay8.Location = New System.Drawing.Point(307, 51)
+        Me.checkStay8.Name = "checkStay8"
+        Me.checkStay8.Size = New System.Drawing.Size(89, 16)
+        Me.checkStay8.TabIndex = 156
+        Me.checkStay8.Text = "その他の施設"
+        Me.checkStay8.UseVisualStyleBackColor = True
         '
-        'CheckBox37
+        'checkStay5
         '
-        Me.CheckBox37.AutoSize = True
-        Me.CheckBox37.Location = New System.Drawing.Point(307, 4)
-        Me.CheckBox37.Name = "CheckBox37"
-        Me.CheckBox37.Size = New System.Drawing.Size(262, 16)
-        Me.CheckBox37.TabIndex = 150
-        Me.CheckBox37.Text = "特定施設入所者生活介護適用施設(ｹｱﾊｳｽ等)"
-        Me.CheckBox37.UseVisualStyleBackColor = True
+        Me.checkStay5.AutoSize = True
+        Me.checkStay5.Location = New System.Drawing.Point(307, 4)
+        Me.checkStay5.Name = "checkStay5"
+        Me.checkStay5.Size = New System.Drawing.Size(262, 16)
+        Me.checkStay5.TabIndex = 150
+        Me.checkStay5.Text = "特定施設入所者生活介護適用施設(ｹｱﾊｳｽ等)"
+        Me.checkStay5.UseVisualStyleBackColor = True
         '
-        'CheckBox40
+        'checkStay2
         '
-        Me.CheckBox40.AutoSize = True
-        Me.CheckBox40.Location = New System.Drawing.Point(2, 19)
-        Me.CheckBox40.Name = "CheckBox40"
-        Me.CheckBox40.Size = New System.Drawing.Size(120, 16)
-        Me.CheckBox40.TabIndex = 112
-        Me.CheckBox40.Text = "介護老人保健施設"
-        Me.CheckBox40.UseVisualStyleBackColor = True
+        Me.checkStay2.AutoSize = True
+        Me.checkStay2.Location = New System.Drawing.Point(2, 19)
+        Me.checkStay2.Name = "checkStay2"
+        Me.checkStay2.Size = New System.Drawing.Size(120, 16)
+        Me.checkStay2.TabIndex = 112
+        Me.checkStay2.Text = "介護老人保健施設"
+        Me.checkStay2.UseVisualStyleBackColor = True
         '
-        'CheckBox41
+        'checkStay3
         '
-        Me.CheckBox41.AutoSize = True
-        Me.CheckBox41.Location = New System.Drawing.Point(2, 35)
-        Me.CheckBox41.Name = "CheckBox41"
-        Me.CheckBox41.Size = New System.Drawing.Size(132, 16)
-        Me.CheckBox41.TabIndex = 111
-        Me.CheckBox41.Text = "介護療養型医療施設"
-        Me.CheckBox41.UseVisualStyleBackColor = True
+        Me.checkStay3.AutoSize = True
+        Me.checkStay3.Location = New System.Drawing.Point(2, 35)
+        Me.checkStay3.Name = "checkStay3"
+        Me.checkStay3.Size = New System.Drawing.Size(132, 16)
+        Me.checkStay3.TabIndex = 111
+        Me.checkStay3.Text = "介護療養型医療施設"
+        Me.checkStay3.UseVisualStyleBackColor = True
         '
-        'CheckBox42
+        'checkStay4
         '
-        Me.CheckBox42.AutoSize = True
-        Me.CheckBox42.Location = New System.Drawing.Point(2, 51)
-        Me.CheckBox42.Name = "CheckBox42"
-        Me.CheckBox42.Size = New System.Drawing.Size(283, 16)
-        Me.CheckBox42.TabIndex = 110
-        Me.CheckBox42.Text = "認知症対応型共同生活介護適用施設(ｸﾞﾙｰﾌﾟﾎｰﾑ)"
-        Me.CheckBox42.UseVisualStyleBackColor = True
+        Me.checkStay4.AutoSize = True
+        Me.checkStay4.Location = New System.Drawing.Point(2, 51)
+        Me.checkStay4.Name = "checkStay4"
+        Me.checkStay4.Size = New System.Drawing.Size(283, 16)
+        Me.checkStay4.TabIndex = 110
+        Me.checkStay4.Text = "認知症対応型共同生活介護適用施設(ｸﾞﾙｰﾌﾟﾎｰﾑ)"
+        Me.checkStay4.UseVisualStyleBackColor = True
         '
-        'CheckBox48
+        'checkStay1
         '
-        Me.CheckBox48.AutoSize = True
-        Me.CheckBox48.Location = New System.Drawing.Point(2, 3)
-        Me.CheckBox48.Name = "CheckBox48"
-        Me.CheckBox48.Size = New System.Drawing.Size(120, 16)
-        Me.CheckBox48.TabIndex = 104
-        Me.CheckBox48.Text = "介護老人福祉施設"
-        Me.CheckBox48.UseVisualStyleBackColor = True
+        Me.checkStay1.AutoSize = True
+        Me.checkStay1.Location = New System.Drawing.Point(2, 3)
+        Me.checkStay1.Name = "checkStay1"
+        Me.checkStay1.Size = New System.Drawing.Size(120, 16)
+        Me.checkStay1.TabIndex = 104
+        Me.checkStay1.Text = "介護老人福祉施設"
+        Me.checkStay1.UseVisualStyleBackColor = True
         '
         'Label54
         '
         Me.Label54.AutoSize = True
         Me.Label54.ForeColor = System.Drawing.Color.Blue
-        Me.Label54.Location = New System.Drawing.Point(35, 509)
+        Me.Label54.Location = New System.Drawing.Point(35, 490)
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(53, 12)
         Me.Label54.TabIndex = 198
@@ -1235,383 +1235,383 @@ Partial Class 認定調査票
         'Panel9
         '
         Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
-        Me.Panel9.Controls.Add(Me.ExTextBox22)
-        Me.Panel9.Controls.Add(Me.CheckBox25)
-        Me.Panel9.Location = New System.Drawing.Point(37, 485)
+        Me.Panel9.Controls.Add(Me.Gentxt2)
+        Me.Panel9.Controls.Add(Me.checkGen22)
+        Me.Panel9.Location = New System.Drawing.Point(37, 466)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(653, 18)
         Me.Panel9.TabIndex = 197
         '
-        'ExTextBox22
+        'Gentxt2
         '
-        Me.ExTextBox22.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox22.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox22.InputType = 0
-        Me.ExTextBox22.LimitLengthByte = 100
-        Me.ExTextBox22.Location = New System.Drawing.Point(192, 1)
-        Me.ExTextBox22.Name = "ExTextBox22"
-        Me.ExTextBox22.Size = New System.Drawing.Size(460, 14)
-        Me.ExTextBox22.TabIndex = 207
+        Me.Gentxt2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Gentxt2.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Gentxt2.InputType = 0
+        Me.Gentxt2.LimitLengthByte = 100
+        Me.Gentxt2.Location = New System.Drawing.Point(192, 1)
+        Me.Gentxt2.Name = "Gentxt2"
+        Me.Gentxt2.Size = New System.Drawing.Size(460, 14)
+        Me.Gentxt2.TabIndex = 207
         '
-        'CheckBox25
+        'checkGen22
         '
-        Me.CheckBox25.AutoSize = True
-        Me.CheckBox25.Location = New System.Drawing.Point(2, 1)
-        Me.CheckBox25.Name = "CheckBox25"
-        Me.CheckBox25.Size = New System.Drawing.Size(179, 16)
-        Me.CheckBox25.TabIndex = 196
-        Me.CheckBox25.Text = "介護保険給付外の在宅サービス"
-        Me.CheckBox25.UseVisualStyleBackColor = True
+        Me.checkGen22.AutoSize = True
+        Me.checkGen22.Location = New System.Drawing.Point(2, 1)
+        Me.checkGen22.Name = "checkGen22"
+        Me.checkGen22.Size = New System.Drawing.Size(179, 16)
+        Me.checkGen22.TabIndex = 196
+        Me.checkGen22.Text = "介護保険給付外の在宅サービス"
+        Me.checkGen22.UseVisualStyleBackColor = True
         '
         'Panel8
         '
         Me.Panel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
-        Me.Panel8.Controls.Add(Me.CheckBox24)
-        Me.Panel8.Location = New System.Drawing.Point(37, 467)
+        Me.Panel8.Controls.Add(Me.checkGen21)
+        Me.Panel8.Location = New System.Drawing.Point(37, 448)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(653, 18)
         Me.Panel8.TabIndex = 103
         '
-        'CheckBox24
+        'checkGen21
         '
-        Me.CheckBox24.AutoSize = True
-        Me.CheckBox24.Location = New System.Drawing.Point(2, 1)
-        Me.CheckBox24.Name = "CheckBox24"
-        Me.CheckBox24.Size = New System.Drawing.Size(108, 16)
-        Me.CheckBox24.TabIndex = 196
-        Me.CheckBox24.Text = "市町村特別給付"
-        Me.CheckBox24.UseVisualStyleBackColor = True
+        Me.checkGen21.AutoSize = True
+        Me.checkGen21.Location = New System.Drawing.Point(2, 1)
+        Me.checkGen21.Name = "checkGen21"
+        Me.checkGen21.Size = New System.Drawing.Size(108, 16)
+        Me.checkGen21.TabIndex = 196
+        Me.checkGen21.Text = "市町村特別給付"
+        Me.checkGen21.UseVisualStyleBackColor = True
         '
-        'Panel7
+        'overview3Panel
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
-        Me.Panel7.Controls.Add(Me.ExTextBox20)
-        Me.Panel7.Controls.Add(Me.ExTextBox19)
-        Me.Panel7.Controls.Add(Me.ExTextBox18)
-        Me.Panel7.Controls.Add(Me.ExTextBox17)
-        Me.Panel7.Controls.Add(Me.ExTextBox16)
-        Me.Panel7.Controls.Add(Me.ExTextBox15)
-        Me.Panel7.Controls.Add(Me.ExTextBox14)
-        Me.Panel7.Controls.Add(Me.ExTextBox13)
-        Me.Panel7.Controls.Add(Me.ExTextBox12)
-        Me.Panel7.Controls.Add(Me.ExTextBox11)
-        Me.Panel7.Controls.Add(Me.ExTextBox10)
-        Me.Panel7.Controls.Add(Me.ExTextBox9)
-        Me.Panel7.Controls.Add(Me.ExTextBox8)
-        Me.Panel7.Controls.Add(Me.ExTextBox7)
-        Me.Panel7.Controls.Add(Me.ExTextBox6)
-        Me.Panel7.Controls.Add(Me.ExTextBox5)
-        Me.Panel7.Controls.Add(Me.ExTextBox4)
-        Me.Panel7.Controls.Add(Me.ExTextBox3)
-        Me.Panel7.Controls.Add(Me.ExTextBox2)
-        Me.Panel7.Controls.Add(Me.ExTextBox1)
-        Me.Panel7.Controls.Add(Me.CheckBox23)
-        Me.Panel7.Controls.Add(Me.CheckBox13)
-        Me.Panel7.Controls.Add(Me.Label53)
-        Me.Panel7.Controls.Add(Me.Label55)
-        Me.Panel7.Controls.Add(Me.Label56)
-        Me.Panel7.Controls.Add(Me.Label57)
-        Me.Panel7.Controls.Add(Me.Label58)
-        Me.Panel7.Controls.Add(Me.Label59)
-        Me.Panel7.Controls.Add(Me.Label60)
-        Me.Panel7.Controls.Add(Me.Label62)
-        Me.Panel7.Controls.Add(Me.Label63)
-        Me.Panel7.Controls.Add(Me.Label65)
-        Me.Panel7.Controls.Add(Me.Label66)
-        Me.Panel7.Controls.Add(Me.Label67)
-        Me.Panel7.Controls.Add(Me.Label68)
-        Me.Panel7.Controls.Add(Me.Label69)
-        Me.Panel7.Controls.Add(Me.Label70)
-        Me.Panel7.Controls.Add(Me.Label71)
-        Me.Panel7.Controls.Add(Me.CheckBox10)
-        Me.Panel7.Controls.Add(Me.CheckBox14)
-        Me.Panel7.Controls.Add(Me.CheckBox15)
-        Me.Panel7.Controls.Add(Me.CheckBox16)
-        Me.Panel7.Controls.Add(Me.CheckBox17)
-        Me.Panel7.Controls.Add(Me.CheckBox18)
-        Me.Panel7.Controls.Add(Me.CheckBox19)
-        Me.Panel7.Controls.Add(Me.CheckBox20)
-        Me.Panel7.Controls.Add(Me.CheckBox21)
-        Me.Panel7.Controls.Add(Me.CheckBox22)
-        Me.Panel7.Controls.Add(Me.Label52)
-        Me.Panel7.Controls.Add(Me.Label51)
-        Me.Panel7.Controls.Add(Me.Label50)
-        Me.Panel7.Controls.Add(Me.Label48)
-        Me.Panel7.Controls.Add(Me.Label49)
-        Me.Panel7.Controls.Add(Me.Label47)
-        Me.Panel7.Controls.Add(Me.Label46)
-        Me.Panel7.Controls.Add(Me.Label45)
-        Me.Panel7.Controls.Add(Me.Label44)
-        Me.Panel7.Controls.Add(Me.Label43)
-        Me.Panel7.Controls.Add(Me.Label42)
-        Me.Panel7.Controls.Add(Me.Label41)
-        Me.Panel7.Controls.Add(Me.Label40)
-        Me.Panel7.Controls.Add(Me.Label39)
-        Me.Panel7.Controls.Add(Me.Label38)
-        Me.Panel7.Controls.Add(Me.Label37)
-        Me.Panel7.Controls.Add(Me.Label36)
-        Me.Panel7.Controls.Add(Me.Label35)
-        Me.Panel7.Controls.Add(Me.Label34)
-        Me.Panel7.Controls.Add(Me.Label33)
-        Me.Panel7.Controls.Add(Me.Label32)
-        Me.Panel7.Controls.Add(Me.Label31)
-        Me.Panel7.Controls.Add(Me.CheckBox12)
-        Me.Panel7.Controls.Add(Me.CheckBox11)
-        Me.Panel7.Controls.Add(Me.CheckBox9)
-        Me.Panel7.Controls.Add(Me.CheckBox8)
-        Me.Panel7.Controls.Add(Me.CheckBox7)
-        Me.Panel7.Controls.Add(Me.CheckBox6)
-        Me.Panel7.Controls.Add(Me.CheckBox5)
-        Me.Panel7.Controls.Add(Me.CheckBox4)
-        Me.Panel7.Controls.Add(Me.CheckBox3)
-        Me.Panel7.Controls.Add(Me.CheckBox2)
-        Me.Panel7.Controls.Add(Me.CheckBox1)
-        Me.Panel7.Location = New System.Drawing.Point(37, 287)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(728, 180)
-        Me.Panel7.TabIndex = 103
+        Me.overview3Panel.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
+        Me.overview3Panel.Controls.Add(Me.txtNum20)
+        Me.overview3Panel.Controls.Add(Me.txtNum19)
+        Me.overview3Panel.Controls.Add(Me.txtNum18)
+        Me.overview3Panel.Controls.Add(Me.txtNum17)
+        Me.overview3Panel.Controls.Add(Me.txtNum16)
+        Me.overview3Panel.Controls.Add(Me.txtNum15)
+        Me.overview3Panel.Controls.Add(Me.txtNum14)
+        Me.overview3Panel.Controls.Add(Me.txtNum12)
+        Me.overview3Panel.Controls.Add(Me.txtNum11)
+        Me.overview3Panel.Controls.Add(Me.txtNum21)
+        Me.overview3Panel.Controls.Add(Me.txtNum10)
+        Me.overview3Panel.Controls.Add(Me.txtNum9)
+        Me.overview3Panel.Controls.Add(Me.txtNum8)
+        Me.overview3Panel.Controls.Add(Me.txtNum7)
+        Me.overview3Panel.Controls.Add(Me.txtNum6)
+        Me.overview3Panel.Controls.Add(Me.txtNum5)
+        Me.overview3Panel.Controls.Add(Me.txtNum4)
+        Me.overview3Panel.Controls.Add(Me.txtNum3)
+        Me.overview3Panel.Controls.Add(Me.txtNum2)
+        Me.overview3Panel.Controls.Add(Me.txtNum1)
+        Me.overview3Panel.Controls.Add(Me.CheckNum13None)
+        Me.overview3Panel.Controls.Add(Me.CheckNum13Exists)
+        Me.overview3Panel.Controls.Add(Me.Label53)
+        Me.overview3Panel.Controls.Add(Me.Label55)
+        Me.overview3Panel.Controls.Add(Me.Label56)
+        Me.overview3Panel.Controls.Add(Me.Label57)
+        Me.overview3Panel.Controls.Add(Me.Label58)
+        Me.overview3Panel.Controls.Add(Me.Label59)
+        Me.overview3Panel.Controls.Add(Me.Label60)
+        Me.overview3Panel.Controls.Add(Me.Label62)
+        Me.overview3Panel.Controls.Add(Me.Label63)
+        Me.overview3Panel.Controls.Add(Me.Label65)
+        Me.overview3Panel.Controls.Add(Me.Label66)
+        Me.overview3Panel.Controls.Add(Me.Label67)
+        Me.overview3Panel.Controls.Add(Me.Label68)
+        Me.overview3Panel.Controls.Add(Me.Label69)
+        Me.overview3Panel.Controls.Add(Me.Label70)
+        Me.overview3Panel.Controls.Add(Me.Label71)
+        Me.overview3Panel.Controls.Add(Me.checkGen20)
+        Me.overview3Panel.Controls.Add(Me.checkGen12)
+        Me.overview3Panel.Controls.Add(Me.checkGen13)
+        Me.overview3Panel.Controls.Add(Me.checkGen14)
+        Me.overview3Panel.Controls.Add(Me.checkGen15)
+        Me.overview3Panel.Controls.Add(Me.checkGen16)
+        Me.overview3Panel.Controls.Add(Me.checkGen17)
+        Me.overview3Panel.Controls.Add(Me.checkGen18)
+        Me.overview3Panel.Controls.Add(Me.checkGen19)
+        Me.overview3Panel.Controls.Add(Me.checkGen11)
+        Me.overview3Panel.Controls.Add(Me.Label52)
+        Me.overview3Panel.Controls.Add(Me.Label51)
+        Me.overview3Panel.Controls.Add(Me.Label50)
+        Me.overview3Panel.Controls.Add(Me.Label48)
+        Me.overview3Panel.Controls.Add(Me.Label49)
+        Me.overview3Panel.Controls.Add(Me.Label47)
+        Me.overview3Panel.Controls.Add(Me.Label46)
+        Me.overview3Panel.Controls.Add(Me.Label45)
+        Me.overview3Panel.Controls.Add(Me.Label44)
+        Me.overview3Panel.Controls.Add(Me.Label43)
+        Me.overview3Panel.Controls.Add(Me.Label42)
+        Me.overview3Panel.Controls.Add(Me.Label41)
+        Me.overview3Panel.Controls.Add(Me.Label40)
+        Me.overview3Panel.Controls.Add(Me.Label39)
+        Me.overview3Panel.Controls.Add(Me.Label38)
+        Me.overview3Panel.Controls.Add(Me.Label37)
+        Me.overview3Panel.Controls.Add(Me.Label36)
+        Me.overview3Panel.Controls.Add(Me.Label35)
+        Me.overview3Panel.Controls.Add(Me.Label34)
+        Me.overview3Panel.Controls.Add(Me.Label33)
+        Me.overview3Panel.Controls.Add(Me.Label32)
+        Me.overview3Panel.Controls.Add(Me.Label31)
+        Me.overview3Panel.Controls.Add(Me.checkGen10)
+        Me.overview3Panel.Controls.Add(Me.checkGen23)
+        Me.overview3Panel.Controls.Add(Me.checkGen2)
+        Me.overview3Panel.Controls.Add(Me.checkGen3)
+        Me.overview3Panel.Controls.Add(Me.checkGen4)
+        Me.overview3Panel.Controls.Add(Me.checkGen5)
+        Me.overview3Panel.Controls.Add(Me.checkGen6)
+        Me.overview3Panel.Controls.Add(Me.checkGen7)
+        Me.overview3Panel.Controls.Add(Me.checkGen8)
+        Me.overview3Panel.Controls.Add(Me.checkGen9)
+        Me.overview3Panel.Controls.Add(Me.checkGen1)
+        Me.overview3Panel.Location = New System.Drawing.Point(37, 268)
+        Me.overview3Panel.Name = "overview3Panel"
+        Me.overview3Panel.Size = New System.Drawing.Size(728, 180)
+        Me.overview3Panel.TabIndex = 103
         '
-        'ExTextBox20
+        'txtNum20
         '
-        Me.ExTextBox20.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox20.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox20.InputType = 0
-        Me.ExTextBox20.LimitLengthByte = 100
-        Me.ExTextBox20.Location = New System.Drawing.Point(657, 147)
-        Me.ExTextBox20.Name = "ExTextBox20"
-        Me.ExTextBox20.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox20.TabIndex = 215
+        Me.txtNum20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum20.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum20.InputType = 0
+        Me.txtNum20.LimitLengthByte = 100
+        Me.txtNum20.Location = New System.Drawing.Point(657, 147)
+        Me.txtNum20.Name = "txtNum20"
+        Me.txtNum20.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum20.TabIndex = 215
         '
-        'ExTextBox19
+        'txtNum19
         '
-        Me.ExTextBox19.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox19.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox19.InputType = 0
-        Me.ExTextBox19.LimitLengthByte = 100
-        Me.ExTextBox19.Location = New System.Drawing.Point(657, 131)
-        Me.ExTextBox19.Name = "ExTextBox19"
-        Me.ExTextBox19.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox19.TabIndex = 214
+        Me.txtNum19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum19.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum19.InputType = 0
+        Me.txtNum19.LimitLengthByte = 100
+        Me.txtNum19.Location = New System.Drawing.Point(657, 131)
+        Me.txtNum19.Name = "txtNum19"
+        Me.txtNum19.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum19.TabIndex = 214
         '
-        'ExTextBox18
+        'txtNum18
         '
-        Me.ExTextBox18.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox18.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox18.InputType = 0
-        Me.ExTextBox18.LimitLengthByte = 100
-        Me.ExTextBox18.Location = New System.Drawing.Point(657, 115)
-        Me.ExTextBox18.Name = "ExTextBox18"
-        Me.ExTextBox18.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox18.TabIndex = 213
+        Me.txtNum18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum18.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum18.InputType = 0
+        Me.txtNum18.LimitLengthByte = 100
+        Me.txtNum18.Location = New System.Drawing.Point(657, 115)
+        Me.txtNum18.Name = "txtNum18"
+        Me.txtNum18.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum18.TabIndex = 213
         '
-        'ExTextBox17
+        'txtNum17
         '
-        Me.ExTextBox17.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox17.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox17.InputType = 0
-        Me.ExTextBox17.LimitLengthByte = 100
-        Me.ExTextBox17.Location = New System.Drawing.Point(657, 99)
-        Me.ExTextBox17.Name = "ExTextBox17"
-        Me.ExTextBox17.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox17.TabIndex = 212
+        Me.txtNum17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum17.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum17.InputType = 0
+        Me.txtNum17.LimitLengthByte = 100
+        Me.txtNum17.Location = New System.Drawing.Point(657, 99)
+        Me.txtNum17.Name = "txtNum17"
+        Me.txtNum17.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum17.TabIndex = 212
         '
-        'ExTextBox16
+        'txtNum16
         '
-        Me.ExTextBox16.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox16.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox16.InputType = 0
-        Me.ExTextBox16.LimitLengthByte = 100
-        Me.ExTextBox16.Location = New System.Drawing.Point(657, 83)
-        Me.ExTextBox16.Name = "ExTextBox16"
-        Me.ExTextBox16.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox16.TabIndex = 211
+        Me.txtNum16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum16.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum16.InputType = 0
+        Me.txtNum16.LimitLengthByte = 100
+        Me.txtNum16.Location = New System.Drawing.Point(657, 83)
+        Me.txtNum16.Name = "txtNum16"
+        Me.txtNum16.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum16.TabIndex = 211
         '
-        'ExTextBox15
+        'txtNum15
         '
-        Me.ExTextBox15.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox15.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox15.InputType = 0
-        Me.ExTextBox15.LimitLengthByte = 100
-        Me.ExTextBox15.Location = New System.Drawing.Point(657, 67)
-        Me.ExTextBox15.Name = "ExTextBox15"
-        Me.ExTextBox15.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox15.TabIndex = 210
+        Me.txtNum15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum15.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum15.InputType = 0
+        Me.txtNum15.LimitLengthByte = 100
+        Me.txtNum15.Location = New System.Drawing.Point(657, 67)
+        Me.txtNum15.Name = "txtNum15"
+        Me.txtNum15.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum15.TabIndex = 210
         '
-        'ExTextBox14
+        'txtNum14
         '
-        Me.ExTextBox14.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox14.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox14.InputType = 0
-        Me.ExTextBox14.LimitLengthByte = 100
-        Me.ExTextBox14.Location = New System.Drawing.Point(657, 51)
-        Me.ExTextBox14.Name = "ExTextBox14"
-        Me.ExTextBox14.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox14.TabIndex = 209
+        Me.txtNum14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum14.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum14.InputType = 0
+        Me.txtNum14.LimitLengthByte = 100
+        Me.txtNum14.Location = New System.Drawing.Point(657, 51)
+        Me.txtNum14.Name = "txtNum14"
+        Me.txtNum14.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum14.TabIndex = 209
         '
-        'ExTextBox13
+        'txtNum12
         '
-        Me.ExTextBox13.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox13.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox13.InputType = 0
-        Me.ExTextBox13.LimitLengthByte = 100
-        Me.ExTextBox13.Location = New System.Drawing.Point(657, 19)
-        Me.ExTextBox13.Name = "ExTextBox13"
-        Me.ExTextBox13.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox13.TabIndex = 208
+        Me.txtNum12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum12.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum12.InputType = 0
+        Me.txtNum12.LimitLengthByte = 100
+        Me.txtNum12.Location = New System.Drawing.Point(657, 19)
+        Me.txtNum12.Name = "txtNum12"
+        Me.txtNum12.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum12.TabIndex = 208
         '
-        'ExTextBox12
+        'txtNum11
         '
-        Me.ExTextBox12.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox12.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox12.InputType = 0
-        Me.ExTextBox12.LimitLengthByte = 100
-        Me.ExTextBox12.Location = New System.Drawing.Point(657, 3)
-        Me.ExTextBox12.Name = "ExTextBox12"
-        Me.ExTextBox12.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox12.TabIndex = 207
+        Me.txtNum11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum11.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum11.InputType = 0
+        Me.txtNum11.LimitLengthByte = 100
+        Me.txtNum11.Location = New System.Drawing.Point(657, 3)
+        Me.txtNum11.Name = "txtNum11"
+        Me.txtNum11.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum11.TabIndex = 207
         '
-        'ExTextBox11
+        'txtNum21
         '
-        Me.ExTextBox11.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox11.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox11.InputType = 0
-        Me.ExTextBox11.LimitLengthByte = 100
-        Me.ExTextBox11.Location = New System.Drawing.Point(285, 163)
-        Me.ExTextBox11.Name = "ExTextBox11"
-        Me.ExTextBox11.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox11.TabIndex = 206
+        Me.txtNum21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum21.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum21.InputType = 0
+        Me.txtNum21.LimitLengthByte = 100
+        Me.txtNum21.Location = New System.Drawing.Point(285, 163)
+        Me.txtNum21.Name = "txtNum21"
+        Me.txtNum21.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum21.TabIndex = 206
         '
-        'ExTextBox10
+        'txtNum10
         '
-        Me.ExTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox10.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox10.InputType = 0
-        Me.ExTextBox10.LimitLengthByte = 100
-        Me.ExTextBox10.Location = New System.Drawing.Point(285, 147)
-        Me.ExTextBox10.Name = "ExTextBox10"
-        Me.ExTextBox10.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox10.TabIndex = 205
+        Me.txtNum10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum10.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum10.InputType = 0
+        Me.txtNum10.LimitLengthByte = 100
+        Me.txtNum10.Location = New System.Drawing.Point(285, 147)
+        Me.txtNum10.Name = "txtNum10"
+        Me.txtNum10.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum10.TabIndex = 205
         '
-        'ExTextBox9
+        'txtNum9
         '
-        Me.ExTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox9.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox9.InputType = 0
-        Me.ExTextBox9.LimitLengthByte = 100
-        Me.ExTextBox9.Location = New System.Drawing.Point(285, 131)
-        Me.ExTextBox9.Name = "ExTextBox9"
-        Me.ExTextBox9.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox9.TabIndex = 204
+        Me.txtNum9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum9.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum9.InputType = 0
+        Me.txtNum9.LimitLengthByte = 100
+        Me.txtNum9.Location = New System.Drawing.Point(285, 131)
+        Me.txtNum9.Name = "txtNum9"
+        Me.txtNum9.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum9.TabIndex = 204
         '
-        'ExTextBox8
+        'txtNum8
         '
-        Me.ExTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox8.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox8.InputType = 0
-        Me.ExTextBox8.LimitLengthByte = 100
-        Me.ExTextBox8.Location = New System.Drawing.Point(285, 115)
-        Me.ExTextBox8.Name = "ExTextBox8"
-        Me.ExTextBox8.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox8.TabIndex = 203
+        Me.txtNum8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum8.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum8.InputType = 0
+        Me.txtNum8.LimitLengthByte = 100
+        Me.txtNum8.Location = New System.Drawing.Point(285, 115)
+        Me.txtNum8.Name = "txtNum8"
+        Me.txtNum8.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum8.TabIndex = 203
         '
-        'ExTextBox7
+        'txtNum7
         '
-        Me.ExTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox7.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox7.InputType = 0
-        Me.ExTextBox7.LimitLengthByte = 100
-        Me.ExTextBox7.Location = New System.Drawing.Point(285, 99)
-        Me.ExTextBox7.Name = "ExTextBox7"
-        Me.ExTextBox7.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox7.TabIndex = 202
+        Me.txtNum7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum7.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum7.InputType = 0
+        Me.txtNum7.LimitLengthByte = 100
+        Me.txtNum7.Location = New System.Drawing.Point(285, 99)
+        Me.txtNum7.Name = "txtNum7"
+        Me.txtNum7.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum7.TabIndex = 202
         '
-        'ExTextBox6
+        'txtNum6
         '
-        Me.ExTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox6.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox6.InputType = 0
-        Me.ExTextBox6.LimitLengthByte = 100
-        Me.ExTextBox6.Location = New System.Drawing.Point(285, 83)
-        Me.ExTextBox6.Name = "ExTextBox6"
-        Me.ExTextBox6.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox6.TabIndex = 201
+        Me.txtNum6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum6.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum6.InputType = 0
+        Me.txtNum6.LimitLengthByte = 100
+        Me.txtNum6.Location = New System.Drawing.Point(285, 83)
+        Me.txtNum6.Name = "txtNum6"
+        Me.txtNum6.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum6.TabIndex = 201
         '
-        'ExTextBox5
+        'txtNum5
         '
-        Me.ExTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox5.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox5.InputType = 0
-        Me.ExTextBox5.LimitLengthByte = 100
-        Me.ExTextBox5.Location = New System.Drawing.Point(285, 67)
-        Me.ExTextBox5.Name = "ExTextBox5"
-        Me.ExTextBox5.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox5.TabIndex = 200
+        Me.txtNum5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum5.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum5.InputType = 0
+        Me.txtNum5.LimitLengthByte = 100
+        Me.txtNum5.Location = New System.Drawing.Point(285, 67)
+        Me.txtNum5.Name = "txtNum5"
+        Me.txtNum5.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum5.TabIndex = 200
         '
-        'ExTextBox4
+        'txtNum4
         '
-        Me.ExTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox4.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox4.InputType = 0
-        Me.ExTextBox4.LimitLengthByte = 100
-        Me.ExTextBox4.Location = New System.Drawing.Point(285, 51)
-        Me.ExTextBox4.Name = "ExTextBox4"
-        Me.ExTextBox4.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox4.TabIndex = 199
+        Me.txtNum4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum4.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum4.InputType = 0
+        Me.txtNum4.LimitLengthByte = 100
+        Me.txtNum4.Location = New System.Drawing.Point(285, 51)
+        Me.txtNum4.Name = "txtNum4"
+        Me.txtNum4.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum4.TabIndex = 199
         '
-        'ExTextBox3
+        'txtNum3
         '
-        Me.ExTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox3.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox3.InputType = 0
-        Me.ExTextBox3.LimitLengthByte = 100
-        Me.ExTextBox3.Location = New System.Drawing.Point(285, 35)
-        Me.ExTextBox3.Name = "ExTextBox3"
-        Me.ExTextBox3.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox3.TabIndex = 198
+        Me.txtNum3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum3.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum3.InputType = 0
+        Me.txtNum3.LimitLengthByte = 100
+        Me.txtNum3.Location = New System.Drawing.Point(285, 35)
+        Me.txtNum3.Name = "txtNum3"
+        Me.txtNum3.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum3.TabIndex = 198
         '
-        'ExTextBox2
+        'txtNum2
         '
-        Me.ExTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox2.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox2.InputType = 0
-        Me.ExTextBox2.LimitLengthByte = 100
-        Me.ExTextBox2.Location = New System.Drawing.Point(285, 19)
-        Me.ExTextBox2.Name = "ExTextBox2"
-        Me.ExTextBox2.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox2.TabIndex = 197
+        Me.txtNum2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum2.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum2.InputType = 0
+        Me.txtNum2.LimitLengthByte = 100
+        Me.txtNum2.Location = New System.Drawing.Point(285, 19)
+        Me.txtNum2.Name = "txtNum2"
+        Me.txtNum2.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum2.TabIndex = 197
         '
-        'ExTextBox1
+        'txtNum1
         '
-        Me.ExTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.ExTextBox1.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ExTextBox1.InputType = 0
-        Me.ExTextBox1.LimitLengthByte = 100
-        Me.ExTextBox1.Location = New System.Drawing.Point(285, 3)
-        Me.ExTextBox1.Name = "ExTextBox1"
-        Me.ExTextBox1.Size = New System.Drawing.Size(35, 13)
-        Me.ExTextBox1.TabIndex = 196
+        Me.txtNum1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum1.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum1.InputType = 0
+        Me.txtNum1.LimitLengthByte = 100
+        Me.txtNum1.Location = New System.Drawing.Point(285, 3)
+        Me.txtNum1.Name = "txtNum1"
+        Me.txtNum1.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum1.TabIndex = 196
         '
-        'CheckBox23
+        'CheckNum13None
         '
-        Me.CheckBox23.AutoSize = True
-        Me.CheckBox23.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.CheckBox23.Location = New System.Drawing.Point(691, 35)
-        Me.CheckBox23.Name = "CheckBox23"
-        Me.CheckBox23.Size = New System.Drawing.Size(36, 16)
-        Me.CheckBox23.TabIndex = 195
-        Me.CheckBox23.Text = "無"
-        Me.CheckBox23.UseVisualStyleBackColor = True
+        Me.CheckNum13None.AutoSize = True
+        Me.CheckNum13None.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.CheckNum13None.Location = New System.Drawing.Point(691, 35)
+        Me.CheckNum13None.Name = "CheckNum13None"
+        Me.CheckNum13None.Size = New System.Drawing.Size(36, 16)
+        Me.CheckNum13None.TabIndex = 195
+        Me.CheckNum13None.Text = "無"
+        Me.CheckNum13None.UseVisualStyleBackColor = True
         '
-        'CheckBox13
+        'CheckNum13Exists
         '
-        Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.CheckBox13.Location = New System.Drawing.Point(657, 35)
-        Me.CheckBox13.Name = "CheckBox13"
-        Me.CheckBox13.Size = New System.Drawing.Size(36, 16)
-        Me.CheckBox13.TabIndex = 194
-        Me.CheckBox13.Text = "有"
-        Me.CheckBox13.UseVisualStyleBackColor = True
+        Me.CheckNum13Exists.AutoSize = True
+        Me.CheckNum13Exists.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.CheckNum13Exists.Location = New System.Drawing.Point(657, 35)
+        Me.CheckNum13Exists.Name = "CheckNum13Exists"
+        Me.CheckNum13Exists.Size = New System.Drawing.Size(36, 16)
+        Me.CheckNum13Exists.TabIndex = 194
+        Me.CheckNum13Exists.Text = "有"
+        Me.CheckNum13Exists.UseVisualStyleBackColor = True
         '
         'Label53
         '
@@ -1766,105 +1766,105 @@ Partial Class 認定調査票
         Me.Label71.TabIndex = 164
         Me.Label71.Text = "月"
         '
-        'CheckBox10
+        'checkGen20
         '
-        Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.Location = New System.Drawing.Point(365, 147)
-        Me.CheckBox10.Name = "CheckBox10"
-        Me.CheckBox10.Size = New System.Drawing.Size(210, 16)
-        Me.CheckBox10.TabIndex = 160
-        Me.CheckBox10.Text = "定期巡回・随時対応型訪問介護看護"
-        Me.CheckBox10.UseVisualStyleBackColor = True
+        Me.checkGen20.AutoSize = True
+        Me.checkGen20.Location = New System.Drawing.Point(365, 147)
+        Me.checkGen20.Name = "checkGen20"
+        Me.checkGen20.Size = New System.Drawing.Size(210, 16)
+        Me.checkGen20.TabIndex = 160
+        Me.checkGen20.Text = "定期巡回・随時対応型訪問介護看護"
+        Me.checkGen20.UseVisualStyleBackColor = True
         '
-        'CheckBox14
+        'checkGen12
         '
-        Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.Location = New System.Drawing.Point(365, 19)
-        Me.CheckBox14.Name = "CheckBox14"
-        Me.CheckBox14.Size = New System.Drawing.Size(176, 16)
-        Me.CheckBox14.TabIndex = 158
-        Me.CheckBox14.Text = "特定(介護予防)福祉用具販売"
-        Me.CheckBox14.UseVisualStyleBackColor = True
+        Me.checkGen12.AutoSize = True
+        Me.checkGen12.Location = New System.Drawing.Point(365, 19)
+        Me.checkGen12.Name = "checkGen12"
+        Me.checkGen12.Size = New System.Drawing.Size(176, 16)
+        Me.checkGen12.TabIndex = 158
+        Me.checkGen12.Text = "特定(介護予防)福祉用具販売"
+        Me.checkGen12.UseVisualStyleBackColor = True
         '
-        'CheckBox15
+        'checkGen13
         '
-        Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.Location = New System.Drawing.Point(365, 35)
-        Me.CheckBox15.Name = "CheckBox15"
-        Me.CheckBox15.Size = New System.Drawing.Size(72, 16)
-        Me.CheckBox15.TabIndex = 157
-        Me.CheckBox15.Text = "住宅改修"
-        Me.CheckBox15.UseVisualStyleBackColor = True
+        Me.checkGen13.AutoSize = True
+        Me.checkGen13.Location = New System.Drawing.Point(365, 35)
+        Me.checkGen13.Name = "checkGen13"
+        Me.checkGen13.Size = New System.Drawing.Size(72, 16)
+        Me.checkGen13.TabIndex = 157
+        Me.checkGen13.Text = "住宅改修"
+        Me.checkGen13.UseVisualStyleBackColor = True
         '
-        'CheckBox16
+        'checkGen14
         '
-        Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.Location = New System.Drawing.Point(365, 51)
-        Me.CheckBox16.Name = "CheckBox16"
-        Me.CheckBox16.Size = New System.Drawing.Size(132, 16)
-        Me.CheckBox16.TabIndex = 156
-        Me.CheckBox16.Text = "夜間対応型訪問介護"
-        Me.CheckBox16.UseVisualStyleBackColor = True
+        Me.checkGen14.AutoSize = True
+        Me.checkGen14.Location = New System.Drawing.Point(365, 51)
+        Me.checkGen14.Name = "checkGen14"
+        Me.checkGen14.Size = New System.Drawing.Size(132, 16)
+        Me.checkGen14.TabIndex = 156
+        Me.checkGen14.Text = "夜間対応型訪問介護"
+        Me.checkGen14.UseVisualStyleBackColor = True
         '
-        'CheckBox17
+        'checkGen15
         '
-        Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.Location = New System.Drawing.Point(365, 67)
-        Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(200, 16)
-        Me.CheckBox17.TabIndex = 155
-        Me.CheckBox17.Text = "(介護予防)認知症対応型通所介護"
-        Me.CheckBox17.UseVisualStyleBackColor = True
+        Me.checkGen15.AutoSize = True
+        Me.checkGen15.Location = New System.Drawing.Point(365, 67)
+        Me.checkGen15.Name = "checkGen15"
+        Me.checkGen15.Size = New System.Drawing.Size(200, 16)
+        Me.checkGen15.TabIndex = 155
+        Me.checkGen15.Text = "(介護予防)認知症対応型通所介護"
+        Me.checkGen15.UseVisualStyleBackColor = True
         '
-        'CheckBox18
+        'checkGen16
         '
-        Me.CheckBox18.AutoSize = True
-        Me.CheckBox18.Location = New System.Drawing.Point(365, 83)
-        Me.CheckBox18.Name = "CheckBox18"
-        Me.CheckBox18.Size = New System.Drawing.Size(212, 16)
-        Me.CheckBox18.TabIndex = 154
-        Me.CheckBox18.Text = "(介護予防)小規模多機能型居宅介護"
-        Me.CheckBox18.UseVisualStyleBackColor = True
+        Me.checkGen16.AutoSize = True
+        Me.checkGen16.Location = New System.Drawing.Point(365, 83)
+        Me.checkGen16.Name = "checkGen16"
+        Me.checkGen16.Size = New System.Drawing.Size(212, 16)
+        Me.checkGen16.TabIndex = 154
+        Me.checkGen16.Text = "(介護予防)小規模多機能型居宅介護"
+        Me.checkGen16.UseVisualStyleBackColor = True
         '
-        'CheckBox19
+        'checkGen17
         '
-        Me.CheckBox19.AutoSize = True
-        Me.CheckBox19.Location = New System.Drawing.Point(365, 99)
-        Me.CheckBox19.Name = "CheckBox19"
-        Me.CheckBox19.Size = New System.Drawing.Size(224, 16)
-        Me.CheckBox19.TabIndex = 153
-        Me.CheckBox19.Text = "(介護予防)認知症対応型共同生活介護"
-        Me.CheckBox19.UseVisualStyleBackColor = True
+        Me.checkGen17.AutoSize = True
+        Me.checkGen17.Location = New System.Drawing.Point(365, 99)
+        Me.checkGen17.Name = "checkGen17"
+        Me.checkGen17.Size = New System.Drawing.Size(224, 16)
+        Me.checkGen17.TabIndex = 153
+        Me.checkGen17.Text = "(介護予防)認知症対応型共同生活介護"
+        Me.checkGen17.UseVisualStyleBackColor = True
         '
-        'CheckBox20
+        'checkGen18
         '
-        Me.CheckBox20.AutoSize = True
-        Me.CheckBox20.Location = New System.Drawing.Point(365, 115)
-        Me.CheckBox20.Name = "CheckBox20"
-        Me.CheckBox20.Size = New System.Drawing.Size(216, 16)
-        Me.CheckBox20.TabIndex = 152
-        Me.CheckBox20.Text = "地域密着型特定施設入居者生活介護"
-        Me.CheckBox20.UseVisualStyleBackColor = True
+        Me.checkGen18.AutoSize = True
+        Me.checkGen18.Location = New System.Drawing.Point(365, 115)
+        Me.checkGen18.Name = "checkGen18"
+        Me.checkGen18.Size = New System.Drawing.Size(216, 16)
+        Me.checkGen18.TabIndex = 152
+        Me.checkGen18.Text = "地域密着型特定施設入居者生活介護"
+        Me.checkGen18.UseVisualStyleBackColor = True
         '
-        'CheckBox21
+        'checkGen19
         '
-        Me.CheckBox21.AutoSize = True
-        Me.CheckBox21.Location = New System.Drawing.Point(365, 131)
-        Me.CheckBox21.Name = "CheckBox21"
-        Me.CheckBox21.Size = New System.Drawing.Size(264, 16)
-        Me.CheckBox21.TabIndex = 151
-        Me.CheckBox21.Text = "地域密着型介護老人福祉施設入所者生活介護"
-        Me.CheckBox21.UseVisualStyleBackColor = True
+        Me.checkGen19.AutoSize = True
+        Me.checkGen19.Location = New System.Drawing.Point(365, 131)
+        Me.checkGen19.Name = "checkGen19"
+        Me.checkGen19.Size = New System.Drawing.Size(264, 16)
+        Me.checkGen19.TabIndex = 151
+        Me.checkGen19.Text = "地域密着型介護老人福祉施設入所者生活介護"
+        Me.checkGen19.UseVisualStyleBackColor = True
         '
-        'CheckBox22
+        'checkGen11
         '
-        Me.CheckBox22.AutoSize = True
-        Me.CheckBox22.Location = New System.Drawing.Point(365, 3)
-        Me.CheckBox22.Name = "CheckBox22"
-        Me.CheckBox22.Size = New System.Drawing.Size(152, 16)
-        Me.CheckBox22.TabIndex = 150
-        Me.CheckBox22.Text = "(介護予防)福祉用具貸与"
-        Me.CheckBox22.UseVisualStyleBackColor = True
+        Me.checkGen11.AutoSize = True
+        Me.checkGen11.Location = New System.Drawing.Point(365, 3)
+        Me.checkGen11.Name = "checkGen11"
+        Me.checkGen11.Size = New System.Drawing.Size(152, 16)
+        Me.checkGen11.TabIndex = 150
+        Me.checkGen11.Text = "(介護予防)福祉用具貸与"
+        Me.checkGen11.UseVisualStyleBackColor = True
         '
         'Label52
         '
@@ -2075,120 +2075,120 @@ Partial Class 認定調査票
         Me.Label31.TabIndex = 116
         Me.Label31.Text = "月"
         '
-        'CheckBox12
+        'checkGen10
         '
-        Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(2, 147)
-        Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(212, 16)
-        Me.CheckBox12.TabIndex = 115
-        Me.CheckBox12.Text = "(介護予防)特定施設入居者生活介護"
-        Me.CheckBox12.UseVisualStyleBackColor = True
+        Me.checkGen10.AutoSize = True
+        Me.checkGen10.Location = New System.Drawing.Point(2, 147)
+        Me.checkGen10.Name = "checkGen10"
+        Me.checkGen10.Size = New System.Drawing.Size(212, 16)
+        Me.checkGen10.TabIndex = 115
+        Me.checkGen10.Text = "(介護予防)特定施設入居者生活介護"
+        Me.checkGen10.UseVisualStyleBackColor = True
         '
-        'CheckBox11
+        'checkGen23
         '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Location = New System.Drawing.Point(2, 163)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(97, 16)
-        Me.CheckBox11.TabIndex = 114
-        Me.CheckBox11.Text = "複合型サービス"
-        Me.CheckBox11.UseVisualStyleBackColor = True
+        Me.checkGen23.AutoSize = True
+        Me.checkGen23.Location = New System.Drawing.Point(2, 163)
+        Me.checkGen23.Name = "checkGen23"
+        Me.checkGen23.Size = New System.Drawing.Size(97, 16)
+        Me.checkGen23.TabIndex = 114
+        Me.checkGen23.Text = "複合型サービス"
+        Me.checkGen23.UseVisualStyleBackColor = True
         '
-        'CheckBox9
+        'checkGen2
         '
-        Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Location = New System.Drawing.Point(2, 19)
-        Me.CheckBox9.Name = "CheckBox9"
-        Me.CheckBox9.Size = New System.Drawing.Size(152, 16)
-        Me.CheckBox9.TabIndex = 112
-        Me.CheckBox9.Text = "(介護予防)訪問入浴介護"
-        Me.CheckBox9.UseVisualStyleBackColor = True
+        Me.checkGen2.AutoSize = True
+        Me.checkGen2.Location = New System.Drawing.Point(2, 19)
+        Me.checkGen2.Name = "checkGen2"
+        Me.checkGen2.Size = New System.Drawing.Size(152, 16)
+        Me.checkGen2.TabIndex = 112
+        Me.checkGen2.Text = "(介護予防)訪問入浴介護"
+        Me.checkGen2.UseVisualStyleBackColor = True
         '
-        'CheckBox8
+        'checkGen3
         '
-        Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Location = New System.Drawing.Point(2, 35)
-        Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(128, 16)
-        Me.CheckBox8.TabIndex = 111
-        Me.CheckBox8.Text = "(介護予防)訪問看護"
-        Me.CheckBox8.UseVisualStyleBackColor = True
+        Me.checkGen3.AutoSize = True
+        Me.checkGen3.Location = New System.Drawing.Point(2, 35)
+        Me.checkGen3.Name = "checkGen3"
+        Me.checkGen3.Size = New System.Drawing.Size(128, 16)
+        Me.checkGen3.TabIndex = 111
+        Me.checkGen3.Text = "(介護予防)訪問看護"
+        Me.checkGen3.UseVisualStyleBackColor = True
         '
-        'CheckBox7
+        'checkGen4
         '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(2, 51)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(167, 16)
-        Me.CheckBox7.TabIndex = 110
-        Me.CheckBox7.Text = "(介護予防)訪問ﾘﾊﾋﾞﾘﾃｰｼｮﾝ"
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.checkGen4.AutoSize = True
+        Me.checkGen4.Location = New System.Drawing.Point(2, 51)
+        Me.checkGen4.Name = "checkGen4"
+        Me.checkGen4.Size = New System.Drawing.Size(167, 16)
+        Me.checkGen4.TabIndex = 110
+        Me.checkGen4.Text = "(介護予防)訪問ﾘﾊﾋﾞﾘﾃｰｼｮﾝ"
+        Me.checkGen4.UseVisualStyleBackColor = True
         '
-        'CheckBox6
+        'checkGen5
         '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(2, 67)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(176, 16)
-        Me.CheckBox6.TabIndex = 109
-        Me.CheckBox6.Text = "(介護予防)居宅療養管理指導"
-        Me.CheckBox6.UseVisualStyleBackColor = True
+        Me.checkGen5.AutoSize = True
+        Me.checkGen5.Location = New System.Drawing.Point(2, 67)
+        Me.checkGen5.Name = "checkGen5"
+        Me.checkGen5.Size = New System.Drawing.Size(176, 16)
+        Me.checkGen5.TabIndex = 109
+        Me.checkGen5.Text = "(介護予防)居宅療養管理指導"
+        Me.checkGen5.UseVisualStyleBackColor = True
         '
-        'CheckBox5
+        'checkGen6
         '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(2, 83)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(186, 16)
-        Me.CheckBox5.TabIndex = 108
-        Me.CheckBox5.Text = "(介護予防)通所介護(ﾃﾞｲｻｰﾋﾞｽ)"
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.checkGen6.AutoSize = True
+        Me.checkGen6.Location = New System.Drawing.Point(2, 83)
+        Me.checkGen6.Name = "checkGen6"
+        Me.checkGen6.Size = New System.Drawing.Size(186, 16)
+        Me.checkGen6.TabIndex = 108
+        Me.checkGen6.Text = "(介護予防)通所介護(ﾃﾞｲｻｰﾋﾞｽ)"
+        Me.checkGen6.UseVisualStyleBackColor = True
         '
-        'CheckBox4
+        'checkGen7
         '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(2, 99)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(206, 16)
-        Me.CheckBox4.TabIndex = 107
-        Me.CheckBox4.Text = "(介護予防)通所ﾘﾊﾋﾞﾘﾃｰｼｮﾝ(ﾃﾞｲｹｱ)"
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.checkGen7.AutoSize = True
+        Me.checkGen7.Location = New System.Drawing.Point(2, 99)
+        Me.checkGen7.Name = "checkGen7"
+        Me.checkGen7.Size = New System.Drawing.Size(206, 16)
+        Me.checkGen7.TabIndex = 107
+        Me.checkGen7.Text = "(介護予防)通所ﾘﾊﾋﾞﾘﾃｰｼｮﾝ(ﾃﾞｲｹｱ)"
+        Me.checkGen7.UseVisualStyleBackColor = True
         '
-        'CheckBox3
+        'checkGen8
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(2, 115)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(220, 16)
-        Me.CheckBox3.TabIndex = 106
-        Me.CheckBox3.Text = "(介護予防)短期入所生活介護(特養等)"
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.checkGen8.AutoSize = True
+        Me.checkGen8.Location = New System.Drawing.Point(2, 115)
+        Me.checkGen8.Name = "checkGen8"
+        Me.checkGen8.Size = New System.Drawing.Size(220, 16)
+        Me.checkGen8.TabIndex = 106
+        Me.checkGen8.Text = "(介護予防)短期入所生活介護(特養等)"
+        Me.checkGen8.UseVisualStyleBackColor = True
         '
-        'CheckBox2
+        'checkGen9
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(2, 131)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(250, 16)
-        Me.CheckBox2.TabIndex = 105
-        Me.CheckBox2.Text = "(介護予防)短期入所療養介護(老健・診療所)"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.checkGen9.AutoSize = True
+        Me.checkGen9.Location = New System.Drawing.Point(2, 131)
+        Me.checkGen9.Name = "checkGen9"
+        Me.checkGen9.Size = New System.Drawing.Size(250, 16)
+        Me.checkGen9.TabIndex = 105
+        Me.checkGen9.Text = "(介護予防)短期入所療養介護(老健・診療所)"
+        Me.checkGen9.UseVisualStyleBackColor = True
         '
-        'CheckBox1
+        'checkGen1
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(2, 3)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(218, 16)
-        Me.CheckBox1.TabIndex = 104
-        Me.CheckBox1.Text = "(介護予防)訪問介護(ﾎｰﾑﾍﾙﾌﾟｻｰﾋﾞｽ)"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.checkGen1.AutoSize = True
+        Me.checkGen1.Location = New System.Drawing.Point(2, 3)
+        Me.checkGen1.Name = "checkGen1"
+        Me.checkGen1.Size = New System.Drawing.Size(218, 16)
+        Me.checkGen1.TabIndex = 104
+        Me.checkGen1.Text = "(介護予防)訪問介護(ﾎｰﾑﾍﾙﾌﾟｻｰﾋﾞｽ)"
+        Me.checkGen1.UseVisualStyleBackColor = True
         '
         'relationBox
         '
         Me.relationBox.FormattingEnabled = True
-        Me.relationBox.Location = New System.Drawing.Point(367, 256)
+        Me.relationBox.Location = New System.Drawing.Point(367, 237)
         Me.relationBox.Name = "relationBox"
         Me.relationBox.Size = New System.Drawing.Size(75, 20)
         Me.relationBox.TabIndex = 50
@@ -2196,7 +2196,7 @@ Partial Class 認定調査票
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(254, 261)
+        Me.Label30.Location = New System.Drawing.Point(254, 242)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(107, 12)
         Me.Label30.TabIndex = 102
@@ -2207,7 +2207,7 @@ Partial Class 認定調査票
         Me.Panel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
         Me.Panel6.Controls.Add(Me.namBox)
         Me.Panel6.Controls.Add(Me.Label29)
-        Me.Panel6.Location = New System.Drawing.Point(88, 257)
+        Me.Panel6.Location = New System.Drawing.Point(88, 238)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(148, 21)
         Me.Panel6.TabIndex = 41
@@ -2233,7 +2233,7 @@ Partial Class 認定調査票
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(13, 263)
+        Me.Label28.Location = New System.Drawing.Point(13, 244)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(17, 12)
         Me.Label28.TabIndex = 101
@@ -2253,7 +2253,7 @@ Partial Class 認定調査票
         Me.Panel5.Controls.Add(Me.Label25)
         Me.Panel5.Controls.Add(Me.Label26)
         Me.Panel5.Controls.Add(Me.Label27)
-        Me.Panel5.Location = New System.Drawing.Point(98, 228)
+        Me.Panel5.Location = New System.Drawing.Point(98, 209)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(734, 21)
         Me.Panel5.TabIndex = 40
@@ -2371,7 +2371,7 @@ Partial Class 認定調査票
         Me.Panel4.Controls.Add(Me.Label21)
         Me.Panel4.Controls.Add(Me.Label20)
         Me.Panel4.Controls.Add(Me.Label19)
-        Me.Panel4.Location = New System.Drawing.Point(98, 200)
+        Me.Panel4.Location = New System.Drawing.Point(98, 181)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(734, 21)
         Me.Panel4.TabIndex = 30
@@ -2481,7 +2481,7 @@ Partial Class 認定調査票
         '
         Me.Label17.AutoSize = True
         Me.Label17.ForeColor = System.Drawing.Color.Blue
-        Me.Label17.Location = New System.Drawing.Point(35, 234)
+        Me.Label17.Location = New System.Drawing.Point(35, 215)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(53, 12)
         Me.Label17.TabIndex = 29
@@ -2491,7 +2491,7 @@ Partial Class 認定調査票
         '
         Me.Label16.AutoSize = True
         Me.Label16.ForeColor = System.Drawing.Color.Blue
-        Me.Label16.Location = New System.Drawing.Point(35, 204)
+        Me.Label16.Location = New System.Drawing.Point(35, 185)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(53, 12)
         Me.Label16.TabIndex = 28
@@ -2501,7 +2501,7 @@ Partial Class 認定調査票
         '
         Me.ageLabel.AutoSize = True
         Me.ageLabel.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ageLabel.Location = New System.Drawing.Point(482, 164)
+        Me.ageLabel.Location = New System.Drawing.Point(482, 152)
         Me.ageLabel.Name = "ageLabel"
         Me.ageLabel.Size = New System.Drawing.Size(0, 16)
         Me.ageLabel.TabIndex = 27
@@ -2509,7 +2509,7 @@ Partial Class 認定調査票
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(520, 167)
+        Me.Label15.Location = New System.Drawing.Point(520, 155)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(62, 12)
         Me.Label15.TabIndex = 26
@@ -2518,7 +2518,7 @@ Partial Class 認定調査票
         'btnCalcAge
         '
         Me.btnCalcAge.Font = New System.Drawing.Font("MS UI Gothic", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.btnCalcAge.Location = New System.Drawing.Point(406, 162)
+        Me.btnCalcAge.Location = New System.Drawing.Point(406, 150)
         Me.btnCalcAge.Name = "btnCalcAge"
         Me.btnCalcAge.Size = New System.Drawing.Size(53, 20)
         Me.btnCalcAge.TabIndex = 25
@@ -2531,7 +2531,7 @@ Partial Class 認定調査票
         Me.birthYmdBox.DateText = ""
         Me.birthYmdBox.EraLabelText = "H30"
         Me.birthYmdBox.EraText = ""
-        Me.birthYmdBox.Location = New System.Drawing.Point(280, 156)
+        Me.birthYmdBox.Location = New System.Drawing.Point(280, 144)
         Me.birthYmdBox.MonthLabelText = "08"
         Me.birthYmdBox.MonthText = ""
         Me.birthYmdBox.Name = "birthYmdBox"
@@ -2542,7 +2542,7 @@ Partial Class 認定調査票
         '
         Me.Label14.AutoSize = True
         Me.Label14.ForeColor = System.Drawing.Color.Blue
-        Me.Label14.Location = New System.Drawing.Point(204, 168)
+        Me.Label14.Location = New System.Drawing.Point(204, 156)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(65, 12)
         Me.Label14.TabIndex = 23
@@ -2552,7 +2552,7 @@ Partial Class 認定調査票
         '
         Me.Panel3.Controls.Add(Me.rbtnWoman)
         Me.Panel3.Controls.Add(Me.rbtnMan)
-        Me.Panel3.Location = New System.Drawing.Point(86, 160)
+        Me.Panel3.Location = New System.Drawing.Point(86, 148)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(102, 25)
         Me.Panel3.TabIndex = 11
@@ -2583,7 +2583,7 @@ Partial Class 認定調査票
         '
         Me.Label13.AutoSize = True
         Me.Label13.ForeColor = System.Drawing.Color.Blue
-        Me.Label13.Location = New System.Drawing.Point(35, 166)
+        Me.Label13.Location = New System.Drawing.Point(35, 154)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(41, 12)
         Me.Label13.TabIndex = 22
@@ -2592,7 +2592,7 @@ Partial Class 認定調査票
         'certifiedResultBox
         '
         Me.certifiedResultBox.FormattingEnabled = True
-        Me.certifiedResultBox.Location = New System.Drawing.Point(629, 122)
+        Me.certifiedResultBox.Location = New System.Drawing.Point(629, 115)
         Me.certifiedResultBox.Name = "certifiedResultBox"
         Me.certifiedResultBox.Size = New System.Drawing.Size(116, 20)
         Me.certifiedResultBox.TabIndex = 21
@@ -2601,7 +2601,7 @@ Partial Class 認定調査票
         '
         Me.Label12.AutoSize = True
         Me.Label12.ForeColor = System.Drawing.Color.Blue
-        Me.Label12.Location = New System.Drawing.Point(534, 127)
+        Me.Label12.Location = New System.Drawing.Point(534, 120)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(89, 12)
         Me.Label12.TabIndex = 20
@@ -2613,7 +2613,7 @@ Partial Class 認定調査票
         Me.lastCertifiedYmdBox.DateText = ""
         Me.lastCertifiedYmdBox.EraLabelText = "H30"
         Me.lastCertifiedYmdBox.EraText = ""
-        Me.lastCertifiedYmdBox.Location = New System.Drawing.Point(379, 116)
+        Me.lastCertifiedYmdBox.Location = New System.Drawing.Point(379, 109)
         Me.lastCertifiedYmdBox.MonthLabelText = "08"
         Me.lastCertifiedYmdBox.MonthText = ""
         Me.lastCertifiedYmdBox.Name = "lastCertifiedYmdBox"
@@ -2624,7 +2624,7 @@ Partial Class 認定調査票
         'lastCertifiedCheckBox
         '
         Me.lastCertifiedCheckBox.AutoSize = True
-        Me.lastCertifiedCheckBox.Location = New System.Drawing.Point(302, 126)
+        Me.lastCertifiedCheckBox.Location = New System.Drawing.Point(302, 119)
         Me.lastCertifiedCheckBox.Name = "lastCertifiedCheckBox"
         Me.lastCertifiedCheckBox.Size = New System.Drawing.Size(72, 16)
         Me.lastCertifiedCheckBox.TabIndex = 18
@@ -2634,7 +2634,7 @@ Partial Class 認定調査票
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(500, 127)
+        Me.Label11.Location = New System.Drawing.Point(500, 120)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(9, 12)
         Me.Label11.TabIndex = 17
@@ -2643,7 +2643,7 @@ Partial Class 認定調査票
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(290, 128)
+        Me.Label10.Location = New System.Drawing.Point(290, 121)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(9, 12)
         Me.Label10.TabIndex = 16
@@ -2653,7 +2653,7 @@ Partial Class 認定調査票
         '
         Me.Panel2.Controls.Add(Me.rbtnSecondCount)
         Me.Panel2.Controls.Add(Me.rbtnFirstCount)
-        Me.Panel2.Location = New System.Drawing.Point(115, 120)
+        Me.Panel2.Location = New System.Drawing.Point(115, 113)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(169, 25)
         Me.Panel2.TabIndex = 11
@@ -2684,7 +2684,7 @@ Partial Class 認定調査票
         '
         Me.Label9.AutoSize = True
         Me.Label9.ForeColor = System.Drawing.Color.Blue
-        Me.Label9.Location = New System.Drawing.Point(35, 127)
+        Me.Label9.Location = New System.Drawing.Point(35, 120)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(75, 12)
         Me.Label9.TabIndex = 15
@@ -2693,7 +2693,7 @@ Partial Class 認定調査票
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(9, 127)
+        Me.Label8.Location = New System.Drawing.Point(9, 120)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(17, 12)
         Me.Label8.TabIndex = 14
@@ -2702,7 +2702,7 @@ Partial Class 認定調査票
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(493, 92)
+        Me.Label7.Location = New System.Drawing.Point(493, 86)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(9, 12)
         Me.Label7.TabIndex = 13
@@ -2711,7 +2711,7 @@ Partial Class 認定調査票
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(269, 92)
+        Me.Label6.Location = New System.Drawing.Point(269, 86)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(9, 12)
         Me.Label6.TabIndex = 11
@@ -2721,7 +2721,7 @@ Partial Class 認定調査票
         '
         Me.Panel1.Controls.Add(Me.rbtnHouseOut)
         Me.Panel1.Controls.Add(Me.rbtnHouseIn)
-        Me.Panel1.Location = New System.Drawing.Point(115, 85)
+        Me.Panel1.Location = New System.Drawing.Point(115, 79)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(150, 25)
         Me.Panel1.TabIndex = 10
@@ -2752,7 +2752,7 @@ Partial Class 認定調査票
         '
         Me.Label5.AutoSize = True
         Me.Label5.ForeColor = System.Drawing.Color.Blue
-        Me.Label5.Location = New System.Drawing.Point(35, 90)
+        Me.Label5.Location = New System.Drawing.Point(35, 84)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(65, 12)
         Me.Label5.TabIndex = 9
@@ -2851,7 +2851,7 @@ Partial Class 認定調査票
         Me.specialNotePage.Location = New System.Drawing.Point(4, 22)
         Me.specialNotePage.Name = "specialNotePage"
         Me.specialNotePage.Padding = New System.Windows.Forms.Padding(3)
-        Me.specialNotePage.Size = New System.Drawing.Size(844, 756)
+        Me.specialNotePage.Size = New System.Drawing.Size(844, 735)
         Me.specialNotePage.TabIndex = 1
         Me.specialNotePage.Text = "特　記　事　項"
         '
@@ -2864,10 +2864,10 @@ Partial Class 認定調査票
         Me.spTab.Controls.Add(Me.spTabP5)
         Me.spTab.Controls.Add(Me.spTabP6)
         Me.spTab.Controls.Add(Me.spTabP7)
-        Me.spTab.Location = New System.Drawing.Point(19, 32)
+        Me.spTab.Location = New System.Drawing.Point(19, 25)
         Me.spTab.Name = "spTab"
         Me.spTab.SelectedIndex = 0
-        Me.spTab.Size = New System.Drawing.Size(810, 705)
+        Me.spTab.Size = New System.Drawing.Size(810, 697)
         Me.spTab.TabIndex = 0
         '
         'spTabP1
@@ -2894,7 +2894,7 @@ Partial Class 認定調査票
         Me.spTabP1.Location = New System.Drawing.Point(4, 22)
         Me.spTabP1.Name = "spTabP1"
         Me.spTabP1.Padding = New System.Windows.Forms.Padding(3)
-        Me.spTabP1.Size = New System.Drawing.Size(802, 679)
+        Me.spTabP1.Size = New System.Drawing.Size(802, 671)
         Me.spTabP1.TabIndex = 0
         Me.spTabP1.Text = "１．身体機能・起居動作"
         '
@@ -3097,7 +3097,7 @@ Partial Class 認定調査票
         Me.spTabP2.Location = New System.Drawing.Point(4, 22)
         Me.spTabP2.Name = "spTabP2"
         Me.spTabP2.Padding = New System.Windows.Forms.Padding(3)
-        Me.spTabP2.Size = New System.Drawing.Size(802, 679)
+        Me.spTabP2.Size = New System.Drawing.Size(802, 671)
         Me.spTabP2.TabIndex = 1
         Me.spTabP2.Text = "２．生活機能"
         '
@@ -3286,7 +3286,7 @@ Partial Class 認定調査票
         Me.spTabP3.Controls.Add(Me.Label118)
         Me.spTabP3.Location = New System.Drawing.Point(4, 22)
         Me.spTabP3.Name = "spTabP3"
-        Me.spTabP3.Size = New System.Drawing.Size(802, 679)
+        Me.spTabP3.Size = New System.Drawing.Size(802, 671)
         Me.spTabP3.TabIndex = 2
         Me.spTabP3.Text = "３．認知機能"
         '
@@ -3959,7 +3959,7 @@ Partial Class 認定調査票
         Me.basicSurveyPage.Location = New System.Drawing.Point(4, 22)
         Me.basicSurveyPage.Name = "basicSurveyPage"
         Me.basicSurveyPage.Padding = New System.Windows.Forms.Padding(3)
-        Me.basicSurveyPage.Size = New System.Drawing.Size(844, 756)
+        Me.basicSurveyPage.Size = New System.Drawing.Size(844, 735)
         Me.basicSurveyPage.TabIndex = 2
         Me.basicSurveyPage.Text = "基　本　調　査"
         '
@@ -3972,10 +3972,10 @@ Partial Class 認定調査票
         Me.bsTab.Controls.Add(Me.bsTabP5)
         Me.bsTab.Controls.Add(Me.bsTabP6)
         Me.bsTab.Controls.Add(Me.bsTabP7)
-        Me.bsTab.Location = New System.Drawing.Point(19, 32)
+        Me.bsTab.Location = New System.Drawing.Point(19, 25)
         Me.bsTab.Name = "bsTab"
         Me.bsTab.SelectedIndex = 0
-        Me.bsTab.Size = New System.Drawing.Size(810, 705)
+        Me.bsTab.Size = New System.Drawing.Size(810, 697)
         Me.bsTab.TabIndex = 1
         '
         'bsTabP1
@@ -3999,7 +3999,7 @@ Partial Class 認定調査票
         Me.bsTabP1.Location = New System.Drawing.Point(4, 22)
         Me.bsTabP1.Name = "bsTabP1"
         Me.bsTabP1.Padding = New System.Windows.Forms.Padding(3)
-        Me.bsTabP1.Size = New System.Drawing.Size(802, 679)
+        Me.bsTabP1.Size = New System.Drawing.Size(802, 671)
         Me.bsTabP1.TabIndex = 0
         Me.bsTabP1.Text = "１．身体機能・起居動作"
         '
@@ -7794,14 +7794,14 @@ Partial Class 認定調査票
         Me.Panel12.PerformLayout()
         Me.Panel11.ResumeLayout(False)
         Me.Panel11.PerformLayout()
-        Me.Panel10.ResumeLayout(False)
-        Me.Panel10.PerformLayout()
+        Me.facilityPanel.ResumeLayout(False)
+        Me.facilityPanel.PerformLayout()
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout()
         Me.Panel8.ResumeLayout(False)
         Me.Panel8.PerformLayout()
-        Me.Panel7.ResumeLayout(False)
-        Me.Panel7.PerformLayout()
+        Me.overview3Panel.ResumeLayout(False)
+        Me.overview3Panel.PerformLayout()
         Me.Panel6.ResumeLayout(False)
         Me.Panel6.PerformLayout()
         Me.Panel5.ResumeLayout(False)
@@ -8033,18 +8033,18 @@ Partial Class 認定調査票
     Friend WithEvents Panel6 As System.Windows.Forms.Panel
     Friend WithEvents Label29 As System.Windows.Forms.Label
     Friend WithEvents Label28 As System.Windows.Forms.Label
-    Friend WithEvents Panel7 As System.Windows.Forms.Panel
-    Friend WithEvents CheckBox12 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox11 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox9 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox8 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox7 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox6 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox5 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox4 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents overview3Panel As System.Windows.Forms.Panel
+    Friend WithEvents checkGen10 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen23 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen2 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen3 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen4 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen5 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen6 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen7 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen8 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen9 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen1 As System.Windows.Forms.CheckBox
     Friend WithEvents Label31 As System.Windows.Forms.Label
     Friend WithEvents Label41 As System.Windows.Forms.Label
     Friend WithEvents Label40 As System.Windows.Forms.Label
@@ -8081,33 +8081,33 @@ Partial Class 認定調査票
     Friend WithEvents Label69 As System.Windows.Forms.Label
     Friend WithEvents Label70 As System.Windows.Forms.Label
     Friend WithEvents Label71 As System.Windows.Forms.Label
-    Friend WithEvents CheckBox10 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox14 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox15 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox16 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox17 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox18 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox19 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox20 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox21 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox22 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox13 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen20 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen12 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen13 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen14 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen15 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen16 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen17 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen18 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen19 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen11 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckNum13Exists As System.Windows.Forms.CheckBox
     Friend WithEvents Label62 As System.Windows.Forms.Label
     Friend WithEvents Label63 As System.Windows.Forms.Label
-    Friend WithEvents CheckBox23 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckNum13None As System.Windows.Forms.CheckBox
     Friend WithEvents Panel8 As System.Windows.Forms.Panel
-    Friend WithEvents CheckBox24 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen21 As System.Windows.Forms.CheckBox
     Friend WithEvents Panel9 As System.Windows.Forms.Panel
-    Friend WithEvents CheckBox25 As System.Windows.Forms.CheckBox
-    Friend WithEvents Panel10 As System.Windows.Forms.Panel
-    Friend WithEvents CheckBox29 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox30 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox31 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox37 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox40 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox41 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox42 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox48 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkGen22 As System.Windows.Forms.CheckBox
+    Friend WithEvents facilityPanel As System.Windows.Forms.Panel
+    Friend WithEvents checkStay6 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkStay7 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkStay8 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkStay5 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkStay2 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkStay3 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkStay4 As System.Windows.Forms.CheckBox
+    Friend WithEvents checkStay1 As System.Windows.Forms.CheckBox
     Friend WithEvents Label54 As System.Windows.Forms.Label
     Friend WithEvents Label61 As System.Windows.Forms.Label
     Friend WithEvents Panel12 As System.Windows.Forms.Panel
@@ -8577,28 +8577,28 @@ Partial Class 認定調査票
     Friend WithEvents familyTel2 As Symphony_KSave2.ExTextBox
     Friend WithEvents familyTel1 As Symphony_KSave2.ExTextBox
     Friend WithEvents namBox As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox20 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox19 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox18 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox17 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox16 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox15 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox14 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox13 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox12 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox11 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox10 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox9 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox8 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox7 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox6 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox5 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox4 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox3 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox2 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox1 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox21 As Symphony_KSave2.ExTextBox
-    Friend WithEvents ExTextBox22 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum20 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum19 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum18 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum17 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum16 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum15 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum14 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum12 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum11 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum21 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum10 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum9 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum8 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum7 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum6 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum5 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum4 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum3 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum2 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtNum1 As Symphony_KSave2.ExTextBox
+    Friend WithEvents Gentxt1 As Symphony_KSave2.ExTextBox
+    Friend WithEvents Gentxt2 As Symphony_KSave2.ExTextBox
     Friend WithEvents facilityAddress As Symphony_KSave2.ExTextBox
     Friend WithEvents facilityPostCode2 As Symphony_KSave2.ExTextBox
     Friend WithEvents facilityPostCode1 As Symphony_KSave2.ExTextBox

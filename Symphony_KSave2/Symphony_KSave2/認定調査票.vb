@@ -94,6 +94,7 @@ Public Class 認定調査票
         rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly)
         recordList.Items.Clear()
         While Not rs.EOF
+            'ymdBox.ymdBox.convADStrToWarekiStr(rs.Fields("Ymd1").Value)
             recordList.Items.Add(rs.Fields("Ymd1").Value)
             rs.MoveNext()
         End While
@@ -344,6 +345,93 @@ Public Class 認定調査票
         relationBox.IntegralHeight = False
         relationBox.ImeMode = Windows.Forms.ImeMode.Hiragana
 
+        'txtNum1～txtNum21ボックス
+        For i = 1 To 21
+            If i = 13 Then
+                Continue For
+            End If
+            With CType(overview3Panel.Controls("txtNum" & i), ExTextBox)
+                .InputType = INPUT_NUMBER
+                .LimitLengthByte = 4
+                .ImeMode = Windows.Forms.ImeMode.Disable
+                .TextAlign = HorizontalAlignment.Center
+            End With
+        Next
+
+        '市町村特別給付
+        With Gentxt1
+            .LimitLengthByte = 90
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+
+        '介護保険給付外の在宅サービス
+        With Gentxt2
+            .LimitLengthByte = 76
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+
+        '施設連絡先
+        With facilityNameBox
+            .LimitLengthByte = 40
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+        With facilityPostCode1
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 3
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With facilityPostCode2
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With facilityAddress
+            .LimitLengthByte = 60
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+        With facilityTel1
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With facilityTel2
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+        With facilityTel3
+            .InputType = INPUT_NUMBER
+            .LimitLengthByte = 4
+            .ImeMode = Windows.Forms.ImeMode.Disable
+            .TextAlign = HorizontalAlignment.Center
+        End With
+
+        '特記テキスト
+        With spText1
+            .Font = New Font("MS UI Gothic", 9.4)
+            .LimitLengthByte = 128
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+        With spText2
+            .Font = New Font("MS UI Gothic", 9.4)
+            .LimitLengthByte = 128
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+        With spText3
+            .Font = New Font("MS UI Gothic", 9.4)
+            .LimitLengthByte = 128
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+        With spText4
+            .Font = New Font("MS UI Gothic", 9.4)
+            .LimitLengthByte = 128
+            .ImeMode = Windows.Forms.ImeMode.Hiragana
+        End With
+
     End Sub
 
     Private Sub clearInputBox()
@@ -395,6 +483,223 @@ Public Class 認定調査票
         namBox.Text = ""
         '調査対象者との関係
         relationBox.Text = ""
+        '（介護予防）訪問介護（ホームヘルプサービス）
+        checkGen1.Checked = False
+        txtNum1.Text = ""
+        '（介護予防）訪問入浴介護
+        checkGen2.Checked = False
+        txtNum2.Text = ""
+        '（介護予防）訪問看護
+        checkGen3.Checked = False
+        txtNum3.Text = ""
+        '（介護予防）訪問リハビリテーション
+        checkGen4.Checked = False
+        txtNum4.Text = ""
+        '（介護予防）居宅療養管理指導
+        checkGen5.Checked = False
+        txtNum5.Text = ""
+        '（介護予防）通所介護（デイサービス）
+        checkGen6.Checked = False
+        txtNum6.Text = ""
+        '（介護予防）通所リハビリテーション（デイケア）
+        checkGen7.Checked = False
+        txtNum7.Text = ""
+        '（介護予防）短期入所生活介護（特養等）
+        checkGen8.Checked = False
+        txtNum8.Text = ""
+        '（介護予防）短期入所療養介護（老健・診療所）
+        checkGen9.Checked = False
+        txtNum9.Text = ""
+        '（介護予防）特定施設入居者生活介護
+        checkGen10.Checked = False
+        txtNum10.Text = ""
+        '（介護予防）福祉用具貸与
+        checkGen11.Checked = False
+        txtNum11.Text = ""
+        '特定（介護予防）福祉用具販売
+        checkGen12.Checked = False
+        txtNum12.Text = ""
+        '住宅改修
+        checkGen13.Checked = False
+        CheckNum13Exists.Checked = False
+        CheckNum13None.Checked = False
+        '夜間対応型訪問介護
+        checkGen14.Checked = False
+        txtNum14.Text = ""
+        '（介護予防）認知症対応型通所介護
+        checkGen15.Checked = False
+        txtNum15.Text = ""
+        '（介護予防）小規模多機能型居宅介護
+        checkGen16.Checked = False
+        txtNum16.Text = ""
+        '（介護予防）認知症対応型共同生活介護
+        checkGen17.Checked = False
+        txtNum17.Text = ""
+        '地域密着型特定施設入居者生活介護
+        checkGen18.Checked = False
+        txtNum18.Text = ""
+        '地域密着型介護老人福祉施設入所者生活介護
+        checkGen19.Checked = False
+        txtNum19.Text = ""
+        '定期巡回・随時対応型訪問介護看護
+        checkGen20.Checked = False
+        txtNum20.Text = ""
+        '複合型サービス
+        checkGen23.Checked = False
+        txtNum21.Text = ""
+        '市町村特別給付
+        checkGen21.Checked = False
+        Gentxt1.Text = ""
+        '介護保険給付外の在宅サービス
+        checkGen22.Checked = False
+        Gentxt2.Text = ""
+        '利用施設
+        '介護老人福祉施設
+        checkStay1.Checked = False
+        '介護老人保健施設
+        checkStay2.Checked = False
+        '介護療養型医療施設
+        checkStay3.Checked = False
+        '認知症対応型共同生活介護適用施設（ｸﾞﾙｰﾌﾟﾎｰﾑ）
+        checkStay4.Checked = False
+        '特定施設入所者生活介護適用施設（ｹｱﾊｳｽ等）
+        checkStay5.Checked = False
+        '医療機関（医療保険適用療養病床）
+        checkStay6.Checked = False
+        '医療機関（療養病床以外）
+        checkStay7.Checked = False
+        'その他の施設
+        checkStay8.Checked = False
+        '施設連絡先
+        facilityNameBox.Text = ""
+        facilityPostCode1.Text = ""
+        facilityPostCode2.Text = ""
+        facilityAddress.Text = ""
+        facilityTel1.Text = ""
+        facilityTel2.Text = ""
+        facilityTel3.Text = ""
+        '特記テキスト
+        spText1.Text = ""
+        spText2.Text = ""
+        spText3.Text = ""
+        spText4.Text = ""
+
+    End Sub
+
+    Private Sub displayUserData(nam As String, kana As String, ymd1 As String)
+        clearInputBox()
+        Dim cnn As New ADODB.Connection
+        Dim rs As New ADODB.Recordset
+        Dim sql As String = "select * from Auth1 where Nam='" & nam & "' and Ymd1='" & ymd1 & "'"
+        cnn.Open(topForm.DB_KSave2)
+        rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockReadOnly)
+
+        '概況調査タブの表示処理
+        rs.Find("Gyo=61")
+        '調査日
+        For i = 1 To 6
+            dgvNumInput("GDay" & i, 0).Value = Util.checkDBNullValue(rs.Fields("GDay" & i).Value)
+        Next
+        '被保険者番号
+        For i = 1 To 10
+            dgvNumInput("GNum" & i, 0).Value = Util.checkDBNullValue(rs.Fields("GNum" & i).Value)
+        Next
+        dateYmdBox.setADStr(Util.checkDBNullValue(rs.Fields("Ymd1").Value)) '実施日
+        etcBox.Text = Util.checkDBNullValue(rs.Fields("Tanto").Value) '実施者
+        companyBox.Text = Util.checkDBNullValue(rs.Fields("Kikan").Value) '所属機関
+        '実施場所
+        If Util.checkDBNullValue(rs.Fields("Home").Value) = "0" Then
+            rbtnHouseIn.Checked = True '自宅内
+        ElseIf Util.checkDBNullValue(rs.Fields("Home").Value) = "1" Then
+            rbtnHouseOut.Checked = True '自宅外
+            houseTextBox.Text = Util.checkDBNullValue(rs.Fields("Nonhm").Value) '自宅外の詳細
+        End If
+        '過去の認定
+        If Util.checkDBNullValue(rs.Fields("Kako").Value) = "0" Then
+            rbtnFirstCount.Checked = True '初回
+        ElseIf Util.checkDBNullValue(rs.Fields("Kako").Value) = "1" Then
+            rbtnSecondCount.Checked = True '2回目以降
+        End If
+        '前回認定
+        If Util.checkDBNullValue(rs.Fields("Ymd2").Value) <> "" Then
+            lastCertifiedCheckBox.Checked = True
+            lastCertifiedYmdBox.setADStr(Util.checkDBNullValue(rs.Fields("Ymd2").Value))
+        End If
+        certifiedResultBox.Text = If(Util.checkDBNullValue(rs.Fields("Kai").Value) = "", "", certifiedResultBox.Items.Item(rs.Fields("Kai").Value)) '前回認定結果
+        If Util.checkDBNullValue(rs.Fields("Sex").Value) = "0" Then
+            rbtnMan.Checked = True '男
+        ElseIf Util.checkDBNullValue(rs.Fields("Sex").Value) = "1" Then
+            rbtnWoman.Checked = True '女
+        End If
+        birthYmdBox.setADStr(Util.checkDBNullValue(rs.Fields("Ymd3").Value)) '生年月日
+        '現在所
+        currentPostCode1.Text = Util.checkDBNullValue(rs.Fields("Pn11").Value)
+        currentPostCode2.Text = Util.checkDBNullValue(rs.Fields("Pn12").Value)
+        currentAddress.Text = Util.checkDBNullValue(rs.Fields("Ad1").Value)
+        currentTel1.Text = Util.checkDBNullValue(rs.Fields("Tel11").Value)
+        currentTel2.Text = Util.checkDBNullValue(rs.Fields("Tel12").Value)
+        currentTel3.Text = Util.checkDBNullValue(rs.Fields("Tel13").Value)
+        '家族等
+        familyPostCode1.Text = Util.checkDBNullValue(rs.Fields("Pn21").Value)
+        familyPostCode2.Text = Util.checkDBNullValue(rs.Fields("Pn22").Value)
+        familyAddress.Text = Util.checkDBNullValue(rs.Fields("Ad2").Value)
+        familyTel1.Text = Util.checkDBNullValue(rs.Fields("Tel21").Value)
+        familyTel2.Text = Util.checkDBNullValue(rs.Fields("Tel22").Value)
+        familyTel3.Text = Util.checkDBNullValue(rs.Fields("Tel23").Value)
+        'Ⅲ
+        namBox.Text = Util.checkDBNullValue(rs.Fields("Fa").Value) '氏名
+        relationBox.Text = Util.checkDBNullValue(rs.Fields("Far").Value) '調査対象者との関係
+        For i = 1 To 20
+            'Gen1～20,Num1～20部分
+            If Util.checkDBNullValue(rs.Fields("Gen" & i).Value) = "1" Then
+                CType(overview3Panel.Controls("checkGen" & i), CheckBox).Checked = True
+            End If
+            If i <> 13 Then
+                CType(overview3Panel.Controls("txtNum" & i), ExTextBox).Text = Util.checkDBNullValue(rs.Fields("Num" & i).Value)
+            Else
+                If Util.checkDBNullValue(rs.Fields("Num" & i).Value) = "1" Then
+                    CheckNum13Exists.Checked = True
+                ElseIf Util.checkDBNullValue(rs.Fields("Num" & i).Value) = "2" Then
+                    CheckNum13None.Checked = True
+                End If
+            End If
+        Next
+        '複合型サービス
+        If Util.checkDBNullValue(rs.Fields("Gen23").Value) = "1" Then
+            checkGen23.Checked = True
+        End If
+        txtNum21.Text = Util.checkDBNullValue(rs.Fields("Num21").Value)
+        '市町村特別給付
+        If Util.checkDBNullValue(rs.Fields("Gen21").Value) = "1" Then
+            checkGen21.Checked = True
+        End If
+        Gentxt1.Text = Util.checkDBNullValue(rs.Fields("Gentxt1").Value)
+        '介護保険給付外の在宅サービス
+        If Util.checkDBNullValue(rs.Fields("Gen22").Value) = "1" Then
+            checkGen22.Checked = True
+        End If
+        Gentxt2.Text = Util.checkDBNullValue(rs.Fields("Gentxt2").Value)
+        '利用施設
+        For i = 1 To 8
+            If Util.checkDBNullValue(rs.Fields("Stay" & i).Value) = "1" Then
+                CType(facilityPanel.Controls("checkStay" & i), CheckBox).Checked = True
+            End If
+        Next
+        '施設連絡先
+        facilityNameBox.Text = Util.checkDBNullValue(rs.Fields("Name").Value) '連絡先
+        facilityPostCode1.Text = Util.checkDBNullValue(rs.Fields("Pn31").Value)
+        facilityPostCode2.Text = Util.checkDBNullValue(rs.Fields("Pn32").Value)
+        facilityAddress.Text = Util.checkDBNullValue(rs.Fields("Ad3").Value)
+        facilityTel1.Text = Util.checkDBNullValue(rs.Fields("Tel31").Value)
+        facilityTel2.Text = Util.checkDBNullValue(rs.Fields("Tel32").Value)
+        facilityTel3.Text = Util.checkDBNullValue(rs.Fields("Tel33").Value)
+        'Ⅳ
+        spText1.Text = Util.checkDBNullValue(rs.Fields("GTokki1").Value)
+        spText2.Text = Util.checkDBNullValue(rs.Fields("GTokki2").Value)
+        spText3.Text = Util.checkDBNullValue(rs.Fields("GTokki3").Value)
+        spText4.Text = Util.checkDBNullValue(rs.Fields("GTokki4").Value)
+
+        cnn.Close()
     End Sub
 
     Private Sub lastCertifiedCheckBox_CheckedChanged(sender As Object, e As System.EventArgs) Handles lastCertifiedCheckBox.CheckedChanged
@@ -465,4 +770,9 @@ Public Class 認定調査票
         CType(tp.Controls("SpDgv" & num), SpDgv).rowDelete()
     End Sub
 
+    Private Sub recordList_SelectedIndexChanged(sender As Object, e As System.EventArgs) Handles recordList.SelectedIndexChanged
+        If Not IsNothing(recordList.SelectedItem) Then
+            displayUserData(userLabel.Text, kanaLabel.Text, recordList.SelectedItem.ToString())
+        End If
+    End Sub
 End Class
