@@ -1,5 +1,6 @@
 ﻿Imports System.Data.OleDb
 Imports System.Text
+Imports ymdBox.ymdBox
 
 Public Class 認定調査票
 
@@ -94,8 +95,7 @@ Public Class 認定調査票
         rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly)
         recordList.Items.Clear()
         While Not rs.EOF
-            'ymdBox.ymdBox.convADStrToWarekiStr(rs.Fields("Ymd1").Value)
-            recordList.Items.Add(rs.Fields("Ymd1").Value)
+            recordList.Items.Add(convADStrToWarekiStr(rs.Fields("Ymd1").Value))
             rs.MoveNext()
         End While
         rs.Close()
@@ -123,7 +123,7 @@ Public Class 認定調査票
             .ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing
             .ColumnHeadersVisible = False
             .RowHeadersVisible = False
-            .RowTemplate.Height = 25
+            .RowTemplate.Height = 29
             .DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomCenter
             .DefaultCellStyle.Font = New Font("MS UI Gothic", 14, FontStyle.Bold)
             .DefaultCellStyle.BackColor = Color.FromArgb(145, 172, 244)
@@ -133,6 +133,7 @@ Public Class 認定調査票
             .ShowCellToolTips = False
             .BorderStyle = BorderStyle.None
             .GridColor = Color.FromArgb(236, 233, 216)
+            .DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomCenter
         End With
 
         '空セル作成
@@ -772,7 +773,7 @@ Public Class 認定調査票
 
     Private Sub recordList_SelectedIndexChanged(sender As Object, e As System.EventArgs) Handles recordList.SelectedIndexChanged
         If Not IsNothing(recordList.SelectedItem) Then
-            displayUserData(userLabel.Text, kanaLabel.Text, recordList.SelectedItem.ToString())
+            displayUserData(userLabel.Text, kanaLabel.Text, convWarekiStrToADStr(recordList.SelectedItem.ToString()))
         End If
     End Sub
 End Class

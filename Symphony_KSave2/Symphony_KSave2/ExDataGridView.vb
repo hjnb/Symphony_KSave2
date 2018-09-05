@@ -1,8 +1,13 @@
 ﻿Public Class ExDataGridView
     Inherits DataGridView
 
+    Private editingColumnIndex As Integer = 0
+
     Protected Overrides Function ProcessDialogKey(keyData As System.Windows.Forms.Keys) As Boolean
-        If keyData = Keys.Enter Then
+        If keyData = Keys.Enter OrElse keyData = Keys.Tab Then
+            If editingColumnIndex = 5 Then
+                Me.CurrentCell = Me(11, 0)
+            End If
             Return Me.ProcessTabKey(keyData)
         Else
             Return MyBase.ProcessDialogKey(keyData)
@@ -10,10 +15,6 @@
     End Function
 
     Protected Overrides Function ProcessDataGridViewKey(e As System.Windows.Forms.KeyEventArgs) As Boolean
-        If e.KeyCode = Keys.Enter Then
-            Return Me.ProcessTabKey(e.KeyCode)
-        End If
-
         Dim tb As DataGridViewTextBoxEditingControl = CType(Me.EditingControl, DataGridViewTextBoxEditingControl)
         If Not IsNothing(tb) AndAlso ((e.KeyCode = Keys.Left AndAlso tb.SelectionStart = 0) OrElse (e.KeyCode = Keys.Right AndAlso tb.SelectionStart = tb.TextLength)) Then
             Return False
@@ -23,7 +24,15 @@
     End Function
 
     Private Sub ExDataGridView_CellEnter(sender As Object, e As System.Windows.Forms.DataGridViewCellEventArgs) Handles Me.CellEnter
-        Me.BeginEdit(False)
+        If Me(e.ColumnIndex, e.RowIndex).ReadOnly = False Then
+            Me.BeginEdit(False)
+            editingColumnIndex = e.ColumnIndex
+            Me(e.ColumnIndex, e.RowIndex).Style.Alignment = DataGridViewContentAlignment.TopCenter
+        End If
+    End Sub
+
+    Private Sub ExDataGridView_CellLeave(sender As Object, e As System.Windows.Forms.DataGridViewCellEventArgs) Handles Me.CellLeave
+        Me(e.ColumnIndex, e.RowIndex).Style.Alignment = DataGridViewContentAlignment.BottomCenter
     End Sub
 
     Private Sub ExDataGridView_EditingControlShowing(sender As Object, e As System.Windows.Forms.DataGridViewEditingControlShowingEventArgs) Handles Me.EditingControlShowing

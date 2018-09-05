@@ -39,6 +39,20 @@ ymdBox
  </summary>
 	<returns>和暦の数値部分</returns>
 	<remarks></remarks>
+</member><member name="M:ymdBox.ymdBox.convADStrToWarekiStr(System.String)">
+	<summary>
+ 西暦(yyyy/MM/dd)を和暦に変換
+ </summary>
+	<param name="adStr"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ymdBox.ymdBox.convWarekiStrToADStr(System.String)">
+	<summary>
+ 和暦を西暦に変換
+ </summary>
+	<param name="warekiStr"></param>
+	<returns></returns>
+	<remarks></remarks>
 </member><member name="M:ymdBox.ymdBox.getADStr">
 	<summary>
  入力されている和暦日付を西暦(yyyy/MM/dd)に変換して返す

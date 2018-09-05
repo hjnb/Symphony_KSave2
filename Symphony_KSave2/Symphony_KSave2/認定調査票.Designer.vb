@@ -31,27 +31,14 @@ Partial Class 認定調査票
         Me.btnPrint = New System.Windows.Forms.Button()
         Me.inputTab = New System.Windows.Forms.TabControl()
         Me.overviewPage = New System.Windows.Forms.TabPage()
-        Me.spText4 = New Symphony_KSave2.ExTextBox()
-        Me.spText3 = New Symphony_KSave2.ExTextBox()
-        Me.spText2 = New Symphony_KSave2.ExTextBox()
-        Me.spText1 = New Symphony_KSave2.ExTextBox()
-        Me.Gentxt1 = New Symphony_KSave2.ExTextBox()
-        Me.houseTextBox = New Symphony_KSave2.ExTextBox()
         Me.Label77 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.facilityTel3 = New Symphony_KSave2.ExTextBox()
-        Me.facilityTel2 = New Symphony_KSave2.ExTextBox()
-        Me.facilityTel1 = New Symphony_KSave2.ExTextBox()
-        Me.facilityAddress = New Symphony_KSave2.ExTextBox()
-        Me.facilityPostCode2 = New Symphony_KSave2.ExTextBox()
-        Me.facilityPostCode1 = New Symphony_KSave2.ExTextBox()
         Me.Label64 = New System.Windows.Forms.Label()
         Me.Label72 = New System.Windows.Forms.Label()
         Me.Label73 = New System.Windows.Forms.Label()
         Me.Label74 = New System.Windows.Forms.Label()
         Me.Label76 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.facilityNameBox = New Symphony_KSave2.ExTextBox()
         Me.Label75 = New System.Windows.Forms.Label()
         Me.Label61 = New System.Windows.Forms.Label()
         Me.facilityPanel = New System.Windows.Forms.Panel()
@@ -65,31 +52,10 @@ Partial Class 認定調査票
         Me.checkStay1 = New System.Windows.Forms.CheckBox()
         Me.Label54 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Gentxt2 = New Symphony_KSave2.ExTextBox()
         Me.checkGen22 = New System.Windows.Forms.CheckBox()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.checkGen21 = New System.Windows.Forms.CheckBox()
         Me.overview3Panel = New System.Windows.Forms.Panel()
-        Me.txtNum20 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum19 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum18 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum17 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum16 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum15 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum14 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum12 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum11 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum21 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum10 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum9 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum8 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum7 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum6 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum5 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum4 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum3 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum2 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum1 = New Symphony_KSave2.ExTextBox()
         Me.CheckNum13None = New System.Windows.Forms.CheckBox()
         Me.CheckNum13Exists = New System.Windows.Forms.CheckBox()
         Me.Label53 = New System.Windows.Forms.Label()
@@ -154,28 +120,15 @@ Partial Class 認定調査票
         Me.relationBox = New System.Windows.Forms.ComboBox()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.namBox = New Symphony_KSave2.ExTextBox()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.familyTel3 = New Symphony_KSave2.ExTextBox()
-        Me.familyTel2 = New Symphony_KSave2.ExTextBox()
-        Me.familyTel1 = New Symphony_KSave2.ExTextBox()
-        Me.familyAddress = New Symphony_KSave2.ExTextBox()
-        Me.familyPostCode2 = New Symphony_KSave2.ExTextBox()
-        Me.familyPostCode1 = New Symphony_KSave2.ExTextBox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.currentTel3 = New Symphony_KSave2.ExTextBox()
-        Me.currentTel2 = New Symphony_KSave2.ExTextBox()
-        Me.currentTel1 = New Symphony_KSave2.ExTextBox()
-        Me.currentAddress = New Symphony_KSave2.ExTextBox()
-        Me.currentPostCode2 = New Symphony_KSave2.ExTextBox()
-        Me.currentPostCode1 = New Symphony_KSave2.ExTextBox()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
@@ -217,11 +170,9 @@ Partial Class 認定調査票
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnClear = New System.Windows.Forms.Button()
-        Me.dgvNumInput = New Symphony_KSave2.ExDataGridView()
         Me.specialNotePage = New System.Windows.Forms.TabPage()
         Me.spTab = New System.Windows.Forms.TabControl()
         Me.spTabP1 = New System.Windows.Forms.TabPage()
-        Me.SpDgv1 = New Symphony_KSave2.SpDgv()
         Me.Label91 = New System.Windows.Forms.Label()
         Me.Label90 = New System.Windows.Forms.Label()
         Me.Label89 = New System.Windows.Forms.Label()
@@ -240,7 +191,6 @@ Partial Class 認定調査票
         Me.btnRowInsert1 = New System.Windows.Forms.Button()
         Me.Label78 = New System.Windows.Forms.Label()
         Me.spTabP2 = New System.Windows.Forms.TabPage()
-        Me.SpDgv2 = New Symphony_KSave2.SpDgv()
         Me.Label93 = New System.Windows.Forms.Label()
         Me.Label94 = New System.Windows.Forms.Label()
         Me.Label95 = New System.Windows.Forms.Label()
@@ -258,7 +208,6 @@ Partial Class 認定調査票
         Me.btnRowInsert2 = New System.Windows.Forms.Button()
         Me.Label105 = New System.Windows.Forms.Label()
         Me.spTabP3 = New System.Windows.Forms.TabPage()
-        Me.SpDgv3 = New Symphony_KSave2.SpDgv()
         Me.Label109 = New System.Windows.Forms.Label()
         Me.Label110 = New System.Windows.Forms.Label()
         Me.Label111 = New System.Windows.Forms.Label()
@@ -292,9 +241,7 @@ Partial Class 認定調査票
         Me.btnClear4 = New System.Windows.Forms.Button()
         Me.btnRowInsert4 = New System.Windows.Forms.Button()
         Me.Label128 = New System.Windows.Forms.Label()
-        Me.SpDgv4 = New Symphony_KSave2.SpDgv()
         Me.spTabP5 = New System.Windows.Forms.TabPage()
-        Me.SpDgv5 = New Symphony_KSave2.SpDgv()
         Me.Label140 = New System.Windows.Forms.Label()
         Me.Label141 = New System.Windows.Forms.Label()
         Me.Label142 = New System.Windows.Forms.Label()
@@ -306,14 +253,12 @@ Partial Class 認定調査票
         Me.btnRowInsert5 = New System.Windows.Forms.Button()
         Me.Label146 = New System.Windows.Forms.Label()
         Me.spTabP6 = New System.Windows.Forms.TabPage()
-        Me.SpDgv6 = New Symphony_KSave2.SpDgv()
         Me.Label136 = New System.Windows.Forms.Label()
         Me.btnRowDelete6 = New System.Windows.Forms.Button()
         Me.btnClear6 = New System.Windows.Forms.Button()
         Me.btnRowInsert6 = New System.Windows.Forms.Button()
         Me.Label137 = New System.Windows.Forms.Label()
         Me.spTabP7 = New System.Windows.Forms.TabPage()
-        Me.SpDgv7 = New Symphony_KSave2.SpDgv()
         Me.Label133 = New System.Windows.Forms.Label()
         Me.Label134 = New System.Windows.Forms.Label()
         Me.Label135 = New System.Windows.Forms.Label()
@@ -328,301 +273,368 @@ Partial Class 認定調査票
         Me.Label171 = New System.Windows.Forms.Label()
         Me.Label158 = New System.Windows.Forms.Label()
         Me.GroupBox13 = New System.Windows.Forms.GroupBox()
+        Me.Label131 = New System.Windows.Forms.Label()
+        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
+        Me.Label132 = New System.Windows.Forms.Label()
+        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.Label147 = New System.Windows.Forms.Label()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.Label148 = New System.Windows.Forms.Label()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.Label149 = New System.Windows.Forms.Label()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.Label150 = New System.Windows.Forms.Label()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.Label151 = New System.Windows.Forms.Label()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Label152 = New System.Windows.Forms.Label()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.Label153 = New System.Windows.Forms.Label()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label154 = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Label155 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label156 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label157 = New System.Windows.Forms.Label()
+        Me.bsTabP2 = New System.Windows.Forms.TabPage()
+        Me.GroupBox25 = New System.Windows.Forms.GroupBox()
+        Me.Label159 = New System.Windows.Forms.Label()
+        Me.GroupBox14 = New System.Windows.Forms.GroupBox()
+        Me.Label161 = New System.Windows.Forms.Label()
+        Me.GroupBox15 = New System.Windows.Forms.GroupBox()
+        Me.Label160 = New System.Windows.Forms.Label()
+        Me.GroupBox16 = New System.Windows.Forms.GroupBox()
+        Me.Label162 = New System.Windows.Forms.Label()
+        Me.GroupBox17 = New System.Windows.Forms.GroupBox()
+        Me.Label163 = New System.Windows.Forms.Label()
+        Me.GroupBox18 = New System.Windows.Forms.GroupBox()
+        Me.Label164 = New System.Windows.Forms.Label()
+        Me.GroupBox19 = New System.Windows.Forms.GroupBox()
+        Me.Label165 = New System.Windows.Forms.Label()
+        Me.GroupBox20 = New System.Windows.Forms.GroupBox()
+        Me.Label166 = New System.Windows.Forms.Label()
+        Me.GroupBox21 = New System.Windows.Forms.GroupBox()
+        Me.Label167 = New System.Windows.Forms.Label()
+        Me.GroupBox22 = New System.Windows.Forms.GroupBox()
+        Me.Label168 = New System.Windows.Forms.Label()
+        Me.GroupBox23 = New System.Windows.Forms.GroupBox()
+        Me.Label169 = New System.Windows.Forms.Label()
+        Me.GroupBox24 = New System.Windows.Forms.GroupBox()
+        Me.Label170 = New System.Windows.Forms.Label()
+        Me.bsTabP3 = New System.Windows.Forms.TabPage()
+        Me.GroupBox31 = New System.Windows.Forms.GroupBox()
+        Me.Label172 = New System.Windows.Forms.Label()
+        Me.GroupBox30 = New System.Windows.Forms.GroupBox()
+        Me.Label176 = New System.Windows.Forms.Label()
+        Me.GroupBox32 = New System.Windows.Forms.GroupBox()
+        Me.Label173 = New System.Windows.Forms.Label()
+        Me.GroupBox29 = New System.Windows.Forms.GroupBox()
+        Me.Label177 = New System.Windows.Forms.Label()
+        Me.GroupBox33 = New System.Windows.Forms.GroupBox()
+        Me.Label174 = New System.Windows.Forms.Label()
+        Me.GroupBox28 = New System.Windows.Forms.GroupBox()
+        Me.Label178 = New System.Windows.Forms.Label()
+        Me.GroupBox34 = New System.Windows.Forms.GroupBox()
+        Me.Label175 = New System.Windows.Forms.Label()
+        Me.GroupBox27 = New System.Windows.Forms.GroupBox()
+        Me.Label179 = New System.Windows.Forms.Label()
+        Me.GroupBox26 = New System.Windows.Forms.GroupBox()
+        Me.Label180 = New System.Windows.Forms.Label()
+        Me.bsTabP4 = New System.Windows.Forms.TabPage()
+        Me.GroupBox46 = New System.Windows.Forms.GroupBox()
+        Me.Label182 = New System.Windows.Forms.Label()
+        Me.GroupBox47 = New System.Windows.Forms.GroupBox()
+        Me.Label183 = New System.Windows.Forms.Label()
+        Me.GroupBox48 = New System.Windows.Forms.GroupBox()
+        Me.Label184 = New System.Windows.Forms.Label()
+        Me.GroupBox49 = New System.Windows.Forms.GroupBox()
+        Me.Label185 = New System.Windows.Forms.Label()
+        Me.GroupBox35 = New System.Windows.Forms.GroupBox()
+        Me.Label186 = New System.Windows.Forms.Label()
+        Me.GroupBox36 = New System.Windows.Forms.GroupBox()
+        Me.Label187 = New System.Windows.Forms.Label()
+        Me.GroupBox37 = New System.Windows.Forms.GroupBox()
+        Me.Label188 = New System.Windows.Forms.Label()
+        Me.GroupBox38 = New System.Windows.Forms.GroupBox()
+        Me.Label189 = New System.Windows.Forms.Label()
+        Me.GroupBox39 = New System.Windows.Forms.GroupBox()
+        Me.Label190 = New System.Windows.Forms.Label()
+        Me.GroupBox40 = New System.Windows.Forms.GroupBox()
+        Me.Label191 = New System.Windows.Forms.Label()
+        Me.GroupBox41 = New System.Windows.Forms.GroupBox()
+        Me.Label192 = New System.Windows.Forms.Label()
+        Me.GroupBox42 = New System.Windows.Forms.GroupBox()
+        Me.Label193 = New System.Windows.Forms.Label()
+        Me.GroupBox43 = New System.Windows.Forms.GroupBox()
+        Me.Label194 = New System.Windows.Forms.Label()
+        Me.GroupBox44 = New System.Windows.Forms.GroupBox()
+        Me.Label195 = New System.Windows.Forms.Label()
+        Me.GroupBox45 = New System.Windows.Forms.GroupBox()
+        Me.Label196 = New System.Windows.Forms.Label()
+        Me.bsTabP5 = New System.Windows.Forms.TabPage()
+        Me.GroupBox50 = New System.Windows.Forms.GroupBox()
+        Me.Label200 = New System.Windows.Forms.Label()
+        Me.GroupBox51 = New System.Windows.Forms.GroupBox()
+        Me.Label201 = New System.Windows.Forms.Label()
+        Me.GroupBox52 = New System.Windows.Forms.GroupBox()
+        Me.Label198 = New System.Windows.Forms.Label()
+        Me.GroupBox53 = New System.Windows.Forms.GroupBox()
+        Me.Label202 = New System.Windows.Forms.Label()
+        Me.GroupBox54 = New System.Windows.Forms.GroupBox()
+        Me.Label199 = New System.Windows.Forms.Label()
+        Me.GroupBox55 = New System.Windows.Forms.GroupBox()
+        Me.Label203 = New System.Windows.Forms.Label()
+        Me.bsTabP6 = New System.Windows.Forms.TabPage()
+        Me.Label204 = New System.Windows.Forms.Label()
+        Me.Label197 = New System.Windows.Forms.Label()
+        Me.Label181 = New System.Windows.Forms.Label()
+        Me.Label205 = New System.Windows.Forms.Label()
+        Me.bsTabP7 = New System.Windows.Forms.TabPage()
+        Me.GroupBox57 = New System.Windows.Forms.GroupBox()
+        Me.Label207 = New System.Windows.Forms.Label()
+        Me.GroupBox56 = New System.Windows.Forms.GroupBox()
+        Me.Label209 = New System.Windows.Forms.Label()
+        Me.Label210 = New System.Windows.Forms.Label()
+        Me.ListingDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ContentDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.spText4 = New Symphony_KSave2.ExTextBox()
+        Me.spText3 = New Symphony_KSave2.ExTextBox()
+        Me.spText2 = New Symphony_KSave2.ExTextBox()
+        Me.spText1 = New Symphony_KSave2.ExTextBox()
+        Me.Gentxt1 = New Symphony_KSave2.ExTextBox()
+        Me.houseTextBox = New Symphony_KSave2.ExTextBox()
+        Me.facilityTel3 = New Symphony_KSave2.ExTextBox()
+        Me.facilityTel2 = New Symphony_KSave2.ExTextBox()
+        Me.facilityTel1 = New Symphony_KSave2.ExTextBox()
+        Me.facilityAddress = New Symphony_KSave2.ExTextBox()
+        Me.facilityPostCode2 = New Symphony_KSave2.ExTextBox()
+        Me.facilityPostCode1 = New Symphony_KSave2.ExTextBox()
+        Me.facilityNameBox = New Symphony_KSave2.ExTextBox()
+        Me.Gentxt2 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum20 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum19 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum18 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum17 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum16 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum15 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum14 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum12 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum11 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum21 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum10 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum9 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum8 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum7 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum6 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum5 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum4 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum3 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum2 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum1 = New Symphony_KSave2.ExTextBox()
+        Me.namBox = New Symphony_KSave2.ExTextBox()
+        Me.familyTel3 = New Symphony_KSave2.ExTextBox()
+        Me.familyTel2 = New Symphony_KSave2.ExTextBox()
+        Me.familyTel1 = New Symphony_KSave2.ExTextBox()
+        Me.familyAddress = New Symphony_KSave2.ExTextBox()
+        Me.familyPostCode2 = New Symphony_KSave2.ExTextBox()
+        Me.familyPostCode1 = New Symphony_KSave2.ExTextBox()
+        Me.currentTel3 = New Symphony_KSave2.ExTextBox()
+        Me.currentTel2 = New Symphony_KSave2.ExTextBox()
+        Me.currentTel1 = New Symphony_KSave2.ExTextBox()
+        Me.currentAddress = New Symphony_KSave2.ExTextBox()
+        Me.currentPostCode2 = New Symphony_KSave2.ExTextBox()
+        Me.currentPostCode1 = New Symphony_KSave2.ExTextBox()
+        Me.dgvNumInput = New Symphony_KSave2.ExDataGridView()
+        Me.SpDgv1 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv2 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv3 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv4 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv5 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv6 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv7 = New Symphony_KSave2.SpDgv()
         Me.ExRadioButton35 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton36 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton37 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton38 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton39 = New Symphony_KSave2.ExRadioButton()
-        Me.Label131 = New System.Windows.Forms.Label()
-        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton34 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton33 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton32 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton31 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton30 = New Symphony_KSave2.ExRadioButton()
-        Me.Label132 = New System.Windows.Forms.Label()
-        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton27 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton28 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton29 = New Symphony_KSave2.ExRadioButton()
-        Me.Label147 = New System.Windows.Forms.Label()
-        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton23 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton24 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton25 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton26 = New Symphony_KSave2.ExRadioButton()
-        Me.Label148 = New System.Windows.Forms.Label()
-        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton20 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton21 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton22 = New Symphony_KSave2.ExRadioButton()
-        Me.Label149 = New System.Windows.Forms.Label()
-        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton17 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton18 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton19 = New Symphony_KSave2.ExRadioButton()
-        Me.Label150 = New System.Windows.Forms.Label()
-        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton14 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton15 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton16 = New Symphony_KSave2.ExRadioButton()
-        Me.Label151 = New System.Windows.Forms.Label()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton11 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton12 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton13 = New Symphony_KSave2.ExRadioButton()
-        Me.Label152 = New System.Windows.Forms.Label()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton10 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton7 = New Symphony_KSave2.ExRadioButton()
-        Me.Label153 = New System.Windows.Forms.Label()
         Me.ExRadioButton8 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton9 = New Symphony_KSave2.ExRadioButton()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton4 = New Symphony_KSave2.ExRadioButton()
-        Me.Label154 = New System.Windows.Forms.Label()
         Me.ExRadioButton5 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton6 = New Symphony_KSave2.ExRadioButton()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton3 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton2 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label155 = New System.Windows.Forms.Label()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.ExCheckBox7 = New Symphony_KSave2.ExCheckBox()
-        Me.Label156 = New System.Windows.Forms.Label()
         Me.ExCheckBox8 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox11 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox9 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox10 = New Symphony_KSave2.ExCheckBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.ExCheckBox6 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox5 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox4 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox3 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox2 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox1 = New Symphony_KSave2.ExCheckBox()
-        Me.Label157 = New System.Windows.Forms.Label()
-        Me.bsTabP2 = New System.Windows.Forms.TabPage()
-        Me.GroupBox25 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton80 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton81 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton82 = New Symphony_KSave2.ExRadioButton()
-        Me.Label159 = New System.Windows.Forms.Label()
-        Me.GroupBox14 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton72 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton73 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton74 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton75 = New Symphony_KSave2.ExRadioButton()
-        Me.Label161 = New System.Windows.Forms.Label()
-        Me.GroupBox15 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton76 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton77 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton78 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton79 = New Symphony_KSave2.ExRadioButton()
-        Me.Label160 = New System.Windows.Forms.Label()
-        Me.GroupBox16 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton69 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton70 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton71 = New Symphony_KSave2.ExRadioButton()
-        Me.Label162 = New System.Windows.Forms.Label()
-        Me.GroupBox17 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton63 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton67 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton68 = New Symphony_KSave2.ExRadioButton()
-        Me.Label163 = New System.Windows.Forms.Label()
-        Me.GroupBox18 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton64 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton65 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton66 = New Symphony_KSave2.ExRadioButton()
-        Me.Label164 = New System.Windows.Forms.Label()
-        Me.GroupBox19 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton59 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton60 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton61 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton62 = New Symphony_KSave2.ExRadioButton()
-        Me.Label165 = New System.Windows.Forms.Label()
-        Me.GroupBox20 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton55 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton56 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton57 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton58 = New Symphony_KSave2.ExRadioButton()
-        Me.Label166 = New System.Windows.Forms.Label()
-        Me.GroupBox21 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton48 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton52 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton53 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton54 = New Symphony_KSave2.ExRadioButton()
-        Me.Label167 = New System.Windows.Forms.Label()
-        Me.GroupBox22 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton49 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton50 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton51 = New Symphony_KSave2.ExRadioButton()
-        Me.Label168 = New System.Windows.Forms.Label()
-        Me.GroupBox23 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton44 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton45 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton46 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton47 = New Symphony_KSave2.ExRadioButton()
-        Me.Label169 = New System.Windows.Forms.Label()
-        Me.GroupBox24 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton40 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton41 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton42 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton43 = New Symphony_KSave2.ExRadioButton()
-        Me.Label170 = New System.Windows.Forms.Label()
-        Me.bsTabP3 = New System.Windows.Forms.TabPage()
-        Me.GroupBox31 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton102 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton103 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton104 = New Symphony_KSave2.ExRadioButton()
-        Me.Label172 = New System.Windows.Forms.Label()
-        Me.GroupBox30 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton93 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton94 = New Symphony_KSave2.ExRadioButton()
-        Me.Label176 = New System.Windows.Forms.Label()
-        Me.GroupBox32 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton101 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton99 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton100 = New Symphony_KSave2.ExRadioButton()
-        Me.Label173 = New System.Windows.Forms.Label()
-        Me.GroupBox29 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton91 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton92 = New Symphony_KSave2.ExRadioButton()
-        Me.Label177 = New System.Windows.Forms.Label()
-        Me.GroupBox33 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton97 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton98 = New Symphony_KSave2.ExRadioButton()
-        Me.Label174 = New System.Windows.Forms.Label()
-        Me.GroupBox28 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton89 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton90 = New Symphony_KSave2.ExRadioButton()
-        Me.Label178 = New System.Windows.Forms.Label()
-        Me.GroupBox34 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton95 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton96 = New Symphony_KSave2.ExRadioButton()
-        Me.Label175 = New System.Windows.Forms.Label()
-        Me.GroupBox27 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton88 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton87 = New Symphony_KSave2.ExRadioButton()
-        Me.Label179 = New System.Windows.Forms.Label()
-        Me.GroupBox26 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton86 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton85 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton84 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton83 = New Symphony_KSave2.ExRadioButton()
-        Me.Label180 = New System.Windows.Forms.Label()
-        Me.bsTabP4 = New System.Windows.Forms.TabPage()
-        Me.GroupBox46 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton147 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton148 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton149 = New Symphony_KSave2.ExRadioButton()
-        Me.Label182 = New System.Windows.Forms.Label()
-        Me.GroupBox47 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton144 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton145 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton146 = New Symphony_KSave2.ExRadioButton()
-        Me.Label183 = New System.Windows.Forms.Label()
-        Me.GroupBox48 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton141 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton142 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton143 = New Symphony_KSave2.ExRadioButton()
-        Me.Label184 = New System.Windows.Forms.Label()
-        Me.GroupBox49 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton138 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton139 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton140 = New Symphony_KSave2.ExRadioButton()
-        Me.Label185 = New System.Windows.Forms.Label()
-        Me.GroupBox35 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton135 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton136 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton137 = New Symphony_KSave2.ExRadioButton()
-        Me.Label186 = New System.Windows.Forms.Label()
-        Me.GroupBox36 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton132 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton133 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton134 = New Symphony_KSave2.ExRadioButton()
-        Me.Label187 = New System.Windows.Forms.Label()
-        Me.GroupBox37 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton129 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton130 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton131 = New Symphony_KSave2.ExRadioButton()
-        Me.Label188 = New System.Windows.Forms.Label()
-        Me.GroupBox38 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton126 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton127 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton128 = New Symphony_KSave2.ExRadioButton()
-        Me.Label189 = New System.Windows.Forms.Label()
-        Me.GroupBox39 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton123 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton124 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton125 = New Symphony_KSave2.ExRadioButton()
-        Me.Label190 = New System.Windows.Forms.Label()
-        Me.GroupBox40 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton120 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton121 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton122 = New Symphony_KSave2.ExRadioButton()
-        Me.Label191 = New System.Windows.Forms.Label()
-        Me.GroupBox41 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton117 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton118 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton119 = New Symphony_KSave2.ExRadioButton()
-        Me.Label192 = New System.Windows.Forms.Label()
-        Me.GroupBox42 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton114 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton115 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton116 = New Symphony_KSave2.ExRadioButton()
-        Me.Label193 = New System.Windows.Forms.Label()
-        Me.GroupBox43 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton111 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton112 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton113 = New Symphony_KSave2.ExRadioButton()
-        Me.Label194 = New System.Windows.Forms.Label()
-        Me.GroupBox44 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton108 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton109 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton110 = New Symphony_KSave2.ExRadioButton()
-        Me.Label195 = New System.Windows.Forms.Label()
-        Me.GroupBox45 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton105 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton106 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton107 = New Symphony_KSave2.ExRadioButton()
-        Me.Label196 = New System.Windows.Forms.Label()
-        Me.bsTabP5 = New System.Windows.Forms.TabPage()
-        Me.GroupBox50 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton160 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton161 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton162 = New Symphony_KSave2.ExRadioButton()
-        Me.Label200 = New System.Windows.Forms.Label()
-        Me.GroupBox51 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton159 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton156 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton157 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton158 = New Symphony_KSave2.ExRadioButton()
-        Me.Label201 = New System.Windows.Forms.Label()
-        Me.GroupBox52 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton167 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton168 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton169 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton170 = New Symphony_KSave2.ExRadioButton()
-        Me.Label198 = New System.Windows.Forms.Label()
-        Me.GroupBox53 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton153 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton154 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton155 = New Symphony_KSave2.ExRadioButton()
-        Me.Label202 = New System.Windows.Forms.Label()
-        Me.GroupBox54 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton163 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton164 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton165 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton166 = New Symphony_KSave2.ExRadioButton()
-        Me.Label199 = New System.Windows.Forms.Label()
-        Me.GroupBox55 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton150 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton151 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton152 = New Symphony_KSave2.ExRadioButton()
-        Me.Label203 = New System.Windows.Forms.Label()
-        Me.bsTabP6 = New System.Windows.Forms.TabPage()
         Me.ExCheckBox23 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox22 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox21 = New Symphony_KSave2.ExCheckBox()
@@ -635,12 +647,6 @@ Partial Class 認定調査票
         Me.ExCheckBox14 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox13 = New Symphony_KSave2.ExCheckBox()
         Me.ExCheckBox12 = New Symphony_KSave2.ExCheckBox()
-        Me.Label204 = New System.Windows.Forms.Label()
-        Me.Label197 = New System.Windows.Forms.Label()
-        Me.Label181 = New System.Windows.Forms.Label()
-        Me.Label205 = New System.Windows.Forms.Label()
-        Me.bsTabP7 = New System.Windows.Forms.TabPage()
-        Me.GroupBox57 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton181 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton182 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton183 = New Symphony_KSave2.ExRadioButton()
@@ -649,8 +655,6 @@ Partial Class 認定調査票
         Me.ExRadioButton186 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton187 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton188 = New Symphony_KSave2.ExRadioButton()
-        Me.Label207 = New System.Windows.Forms.Label()
-        Me.GroupBox56 = New System.Windows.Forms.GroupBox()
         Me.ExRadioButton179 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton178 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton177 = New Symphony_KSave2.ExRadioButton()
@@ -660,10 +664,6 @@ Partial Class 認定調査票
         Me.ExRadioButton173 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton172 = New Symphony_KSave2.ExRadioButton()
         Me.ExRadioButton171 = New Symphony_KSave2.ExRadioButton()
-        Me.Label209 = New System.Windows.Forms.Label()
-        Me.Label210 = New System.Windows.Forms.Label()
-        Me.ListingDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ContentDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.userList, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.inputTab.SuspendLayout()
         Me.overviewPage.SuspendLayout()
@@ -679,23 +679,15 @@ Partial Class 認定調査票
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.specialNotePage.SuspendLayout()
         Me.spTab.SuspendLayout()
         Me.spTabP1.SuspendLayout()
-        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP2.SuspendLayout()
-        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP3.SuspendLayout()
-        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP4.SuspendLayout()
-        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP5.SuspendLayout()
-        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP6.SuspendLayout()
-        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP7.SuspendLayout()
-        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.basicSurveyPage.SuspendLayout()
         Me.bsTab.SuspendLayout()
         Me.bsTabP1.SuspendLayout()
@@ -762,6 +754,14 @@ Partial Class 認定調査票
         Me.bsTabP7.SuspendLayout()
         Me.GroupBox57.SuspendLayout()
         Me.GroupBox56.SuspendLayout()
+        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'userList
@@ -902,67 +902,10 @@ Partial Class 認定調査票
         Me.overviewPage.TabIndex = 0
         Me.overviewPage.Text = "概　況　調　査"
         '
-        'spText4
-        '
-        Me.spText4.InputType = 0
-        Me.spText4.LimitLengthByte = 100
-        Me.spText4.Location = New System.Drawing.Point(37, 680)
-        Me.spText4.Name = "spText4"
-        Me.spText4.Size = New System.Drawing.Size(733, 19)
-        Me.spText4.TabIndex = 210
-        '
-        'spText3
-        '
-        Me.spText3.InputType = 0
-        Me.spText3.LimitLengthByte = 100
-        Me.spText3.Location = New System.Drawing.Point(37, 661)
-        Me.spText3.Name = "spText3"
-        Me.spText3.Size = New System.Drawing.Size(733, 19)
-        Me.spText3.TabIndex = 209
-        '
-        'spText2
-        '
-        Me.spText2.InputType = 0
-        Me.spText2.LimitLengthByte = 100
-        Me.spText2.Location = New System.Drawing.Point(37, 642)
-        Me.spText2.Name = "spText2"
-        Me.spText2.Size = New System.Drawing.Size(733, 19)
-        Me.spText2.TabIndex = 208
-        '
-        'spText1
-        '
-        Me.spText1.InputType = 0
-        Me.spText1.LimitLengthByte = 100
-        Me.spText1.Location = New System.Drawing.Point(37, 623)
-        Me.spText1.Name = "spText1"
-        Me.spText1.Size = New System.Drawing.Size(733, 19)
-        Me.spText1.TabIndex = 207
-        '
-        'Gentxt1
-        '
-        Me.Gentxt1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Gentxt1.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Gentxt1.InputType = 0
-        Me.Gentxt1.LimitLengthByte = 100
-        Me.Gentxt1.Location = New System.Drawing.Point(161, 450)
-        Me.Gentxt1.Name = "Gentxt1"
-        Me.Gentxt1.Size = New System.Drawing.Size(528, 14)
-        Me.Gentxt1.TabIndex = 206
-        '
-        'houseTextBox
-        '
-        Me.houseTextBox.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.houseTextBox.InputType = 0
-        Me.houseTextBox.LimitLengthByte = 34
-        Me.houseTextBox.Location = New System.Drawing.Point(280, 82)
-        Me.houseTextBox.Name = "houseTextBox"
-        Me.houseTextBox.Size = New System.Drawing.Size(208, 20)
-        Me.houseTextBox.TabIndex = 12
-        '
         'Label77
         '
         Me.Label77.AutoSize = True
-        Me.Label77.Location = New System.Drawing.Point(13, 626)
+        Me.Label77.Location = New System.Drawing.Point(13, 631)
         Me.Label77.Name = "Label77"
         Me.Label77.Size = New System.Drawing.Size(17, 12)
         Me.Label77.TabIndex = 201
@@ -982,66 +925,10 @@ Partial Class 認定調査票
         Me.Panel12.Controls.Add(Me.Label73)
         Me.Panel12.Controls.Add(Me.Label74)
         Me.Panel12.Controls.Add(Me.Label76)
-        Me.Panel12.Location = New System.Drawing.Point(110, 592)
+        Me.Panel12.Location = New System.Drawing.Point(110, 597)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(734, 21)
         Me.Panel12.TabIndex = 47
-        '
-        'facilityTel3
-        '
-        Me.facilityTel3.InputType = 1
-        Me.facilityTel3.LimitLengthByte = 4
-        Me.facilityTel3.Location = New System.Drawing.Point(670, 1)
-        Me.facilityTel3.Name = "facilityTel3"
-        Me.facilityTel3.Size = New System.Drawing.Size(63, 19)
-        Me.facilityTel3.TabIndex = 40
-        '
-        'facilityTel2
-        '
-        Me.facilityTel2.InputType = 1
-        Me.facilityTel2.LimitLengthByte = 4
-        Me.facilityTel2.Location = New System.Drawing.Point(589, 1)
-        Me.facilityTel2.Name = "facilityTel2"
-        Me.facilityTel2.Size = New System.Drawing.Size(63, 19)
-        Me.facilityTel2.TabIndex = 40
-        '
-        'facilityTel1
-        '
-        Me.facilityTel1.InputType = 1
-        Me.facilityTel1.LimitLengthByte = 4
-        Me.facilityTel1.Location = New System.Drawing.Point(508, 1)
-        Me.facilityTel1.Name = "facilityTel1"
-        Me.facilityTel1.Size = New System.Drawing.Size(63, 19)
-        Me.facilityTel1.TabIndex = 40
-        Me.facilityTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'facilityAddress
-        '
-        Me.facilityAddress.InputType = 0
-        Me.facilityAddress.LimitLengthByte = 60
-        Me.facilityAddress.Location = New System.Drawing.Point(156, 1)
-        Me.facilityAddress.Name = "facilityAddress"
-        Me.facilityAddress.Size = New System.Drawing.Size(313, 19)
-        Me.facilityAddress.TabIndex = 46
-        '
-        'facilityPostCode2
-        '
-        Me.facilityPostCode2.InputType = 1
-        Me.facilityPostCode2.LimitLengthByte = 4
-        Me.facilityPostCode2.Location = New System.Drawing.Point(83, 1)
-        Me.facilityPostCode2.Name = "facilityPostCode2"
-        Me.facilityPostCode2.Size = New System.Drawing.Size(55, 19)
-        Me.facilityPostCode2.TabIndex = 40
-        '
-        'facilityPostCode1
-        '
-        Me.facilityPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.facilityPostCode1.InputType = 1
-        Me.facilityPostCode1.LimitLengthByte = 3
-        Me.facilityPostCode1.Location = New System.Drawing.Point(21, 1)
-        Me.facilityPostCode1.Name = "facilityPostCode1"
-        Me.facilityPostCode1.Size = New System.Drawing.Size(46, 19)
-        Me.facilityPostCode1.TabIndex = 40
         '
         'Label64
         '
@@ -1093,19 +980,10 @@ Partial Class 認定調査票
         Me.Panel11.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
         Me.Panel11.Controls.Add(Me.facilityNameBox)
         Me.Panel11.Controls.Add(Me.Label75)
-        Me.Panel11.Location = New System.Drawing.Point(110, 566)
+        Me.Panel11.Location = New System.Drawing.Point(110, 571)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(308, 21)
         Me.Panel11.TabIndex = 200
-        '
-        'facilityNameBox
-        '
-        Me.facilityNameBox.InputType = 0
-        Me.facilityNameBox.LimitLengthByte = 100
-        Me.facilityNameBox.Location = New System.Drawing.Point(54, 1)
-        Me.facilityNameBox.Name = "facilityNameBox"
-        Me.facilityNameBox.Size = New System.Drawing.Size(254, 19)
-        Me.facilityNameBox.TabIndex = 34
         '
         'Label75
         '
@@ -1120,7 +998,7 @@ Partial Class 認定調査票
         '
         Me.Label61.AutoSize = True
         Me.Label61.ForeColor = System.Drawing.Color.Blue
-        Me.Label61.Location = New System.Drawing.Point(35, 568)
+        Me.Label61.Location = New System.Drawing.Point(35, 573)
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(65, 12)
         Me.Label61.TabIndex = 199
@@ -1137,7 +1015,7 @@ Partial Class 認定調査票
         Me.facilityPanel.Controls.Add(Me.checkStay3)
         Me.facilityPanel.Controls.Add(Me.checkStay4)
         Me.facilityPanel.Controls.Add(Me.checkStay1)
-        Me.facilityPanel.Location = New System.Drawing.Point(110, 490)
+        Me.facilityPanel.Location = New System.Drawing.Point(110, 495)
         Me.facilityPanel.Name = "facilityPanel"
         Me.facilityPanel.Size = New System.Drawing.Size(580, 69)
         Me.facilityPanel.TabIndex = 196
@@ -1226,7 +1104,7 @@ Partial Class 認定調査票
         '
         Me.Label54.AutoSize = True
         Me.Label54.ForeColor = System.Drawing.Color.Blue
-        Me.Label54.Location = New System.Drawing.Point(35, 490)
+        Me.Label54.Location = New System.Drawing.Point(35, 495)
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(53, 12)
         Me.Label54.TabIndex = 198
@@ -1237,21 +1115,10 @@ Partial Class 認定調査票
         Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
         Me.Panel9.Controls.Add(Me.Gentxt2)
         Me.Panel9.Controls.Add(Me.checkGen22)
-        Me.Panel9.Location = New System.Drawing.Point(37, 466)
+        Me.Panel9.Location = New System.Drawing.Point(37, 471)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(653, 18)
         Me.Panel9.TabIndex = 197
-        '
-        'Gentxt2
-        '
-        Me.Gentxt2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Gentxt2.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Gentxt2.InputType = 0
-        Me.Gentxt2.LimitLengthByte = 100
-        Me.Gentxt2.Location = New System.Drawing.Point(192, 1)
-        Me.Gentxt2.Name = "Gentxt2"
-        Me.Gentxt2.Size = New System.Drawing.Size(460, 14)
-        Me.Gentxt2.TabIndex = 207
         '
         'checkGen22
         '
@@ -1267,7 +1134,7 @@ Partial Class 認定調査票
         '
         Me.Panel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
         Me.Panel8.Controls.Add(Me.checkGen21)
-        Me.Panel8.Location = New System.Drawing.Point(37, 448)
+        Me.Panel8.Location = New System.Drawing.Point(37, 453)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(653, 18)
         Me.Panel8.TabIndex = 103
@@ -1366,230 +1233,10 @@ Partial Class 認定調査票
         Me.overview3Panel.Controls.Add(Me.checkGen8)
         Me.overview3Panel.Controls.Add(Me.checkGen9)
         Me.overview3Panel.Controls.Add(Me.checkGen1)
-        Me.overview3Panel.Location = New System.Drawing.Point(37, 268)
+        Me.overview3Panel.Location = New System.Drawing.Point(37, 273)
         Me.overview3Panel.Name = "overview3Panel"
         Me.overview3Panel.Size = New System.Drawing.Size(728, 180)
         Me.overview3Panel.TabIndex = 103
-        '
-        'txtNum20
-        '
-        Me.txtNum20.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum20.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum20.InputType = 0
-        Me.txtNum20.LimitLengthByte = 100
-        Me.txtNum20.Location = New System.Drawing.Point(657, 147)
-        Me.txtNum20.Name = "txtNum20"
-        Me.txtNum20.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum20.TabIndex = 215
-        '
-        'txtNum19
-        '
-        Me.txtNum19.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum19.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum19.InputType = 0
-        Me.txtNum19.LimitLengthByte = 100
-        Me.txtNum19.Location = New System.Drawing.Point(657, 131)
-        Me.txtNum19.Name = "txtNum19"
-        Me.txtNum19.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum19.TabIndex = 214
-        '
-        'txtNum18
-        '
-        Me.txtNum18.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum18.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum18.InputType = 0
-        Me.txtNum18.LimitLengthByte = 100
-        Me.txtNum18.Location = New System.Drawing.Point(657, 115)
-        Me.txtNum18.Name = "txtNum18"
-        Me.txtNum18.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum18.TabIndex = 213
-        '
-        'txtNum17
-        '
-        Me.txtNum17.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum17.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum17.InputType = 0
-        Me.txtNum17.LimitLengthByte = 100
-        Me.txtNum17.Location = New System.Drawing.Point(657, 99)
-        Me.txtNum17.Name = "txtNum17"
-        Me.txtNum17.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum17.TabIndex = 212
-        '
-        'txtNum16
-        '
-        Me.txtNum16.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum16.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum16.InputType = 0
-        Me.txtNum16.LimitLengthByte = 100
-        Me.txtNum16.Location = New System.Drawing.Point(657, 83)
-        Me.txtNum16.Name = "txtNum16"
-        Me.txtNum16.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum16.TabIndex = 211
-        '
-        'txtNum15
-        '
-        Me.txtNum15.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum15.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum15.InputType = 0
-        Me.txtNum15.LimitLengthByte = 100
-        Me.txtNum15.Location = New System.Drawing.Point(657, 67)
-        Me.txtNum15.Name = "txtNum15"
-        Me.txtNum15.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum15.TabIndex = 210
-        '
-        'txtNum14
-        '
-        Me.txtNum14.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum14.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum14.InputType = 0
-        Me.txtNum14.LimitLengthByte = 100
-        Me.txtNum14.Location = New System.Drawing.Point(657, 51)
-        Me.txtNum14.Name = "txtNum14"
-        Me.txtNum14.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum14.TabIndex = 209
-        '
-        'txtNum12
-        '
-        Me.txtNum12.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum12.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum12.InputType = 0
-        Me.txtNum12.LimitLengthByte = 100
-        Me.txtNum12.Location = New System.Drawing.Point(657, 19)
-        Me.txtNum12.Name = "txtNum12"
-        Me.txtNum12.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum12.TabIndex = 208
-        '
-        'txtNum11
-        '
-        Me.txtNum11.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum11.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum11.InputType = 0
-        Me.txtNum11.LimitLengthByte = 100
-        Me.txtNum11.Location = New System.Drawing.Point(657, 3)
-        Me.txtNum11.Name = "txtNum11"
-        Me.txtNum11.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum11.TabIndex = 207
-        '
-        'txtNum21
-        '
-        Me.txtNum21.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum21.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum21.InputType = 0
-        Me.txtNum21.LimitLengthByte = 100
-        Me.txtNum21.Location = New System.Drawing.Point(285, 163)
-        Me.txtNum21.Name = "txtNum21"
-        Me.txtNum21.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum21.TabIndex = 206
-        '
-        'txtNum10
-        '
-        Me.txtNum10.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum10.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum10.InputType = 0
-        Me.txtNum10.LimitLengthByte = 100
-        Me.txtNum10.Location = New System.Drawing.Point(285, 147)
-        Me.txtNum10.Name = "txtNum10"
-        Me.txtNum10.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum10.TabIndex = 205
-        '
-        'txtNum9
-        '
-        Me.txtNum9.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum9.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum9.InputType = 0
-        Me.txtNum9.LimitLengthByte = 100
-        Me.txtNum9.Location = New System.Drawing.Point(285, 131)
-        Me.txtNum9.Name = "txtNum9"
-        Me.txtNum9.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum9.TabIndex = 204
-        '
-        'txtNum8
-        '
-        Me.txtNum8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum8.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum8.InputType = 0
-        Me.txtNum8.LimitLengthByte = 100
-        Me.txtNum8.Location = New System.Drawing.Point(285, 115)
-        Me.txtNum8.Name = "txtNum8"
-        Me.txtNum8.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum8.TabIndex = 203
-        '
-        'txtNum7
-        '
-        Me.txtNum7.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum7.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum7.InputType = 0
-        Me.txtNum7.LimitLengthByte = 100
-        Me.txtNum7.Location = New System.Drawing.Point(285, 99)
-        Me.txtNum7.Name = "txtNum7"
-        Me.txtNum7.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum7.TabIndex = 202
-        '
-        'txtNum6
-        '
-        Me.txtNum6.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum6.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum6.InputType = 0
-        Me.txtNum6.LimitLengthByte = 100
-        Me.txtNum6.Location = New System.Drawing.Point(285, 83)
-        Me.txtNum6.Name = "txtNum6"
-        Me.txtNum6.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum6.TabIndex = 201
-        '
-        'txtNum5
-        '
-        Me.txtNum5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum5.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum5.InputType = 0
-        Me.txtNum5.LimitLengthByte = 100
-        Me.txtNum5.Location = New System.Drawing.Point(285, 67)
-        Me.txtNum5.Name = "txtNum5"
-        Me.txtNum5.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum5.TabIndex = 200
-        '
-        'txtNum4
-        '
-        Me.txtNum4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum4.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum4.InputType = 0
-        Me.txtNum4.LimitLengthByte = 100
-        Me.txtNum4.Location = New System.Drawing.Point(285, 51)
-        Me.txtNum4.Name = "txtNum4"
-        Me.txtNum4.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum4.TabIndex = 199
-        '
-        'txtNum3
-        '
-        Me.txtNum3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum3.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum3.InputType = 0
-        Me.txtNum3.LimitLengthByte = 100
-        Me.txtNum3.Location = New System.Drawing.Point(285, 35)
-        Me.txtNum3.Name = "txtNum3"
-        Me.txtNum3.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum3.TabIndex = 198
-        '
-        'txtNum2
-        '
-        Me.txtNum2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum2.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum2.InputType = 0
-        Me.txtNum2.LimitLengthByte = 100
-        Me.txtNum2.Location = New System.Drawing.Point(285, 19)
-        Me.txtNum2.Name = "txtNum2"
-        Me.txtNum2.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum2.TabIndex = 197
-        '
-        'txtNum1
-        '
-        Me.txtNum1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum1.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum1.InputType = 0
-        Me.txtNum1.LimitLengthByte = 100
-        Me.txtNum1.Location = New System.Drawing.Point(285, 3)
-        Me.txtNum1.Name = "txtNum1"
-        Me.txtNum1.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum1.TabIndex = 196
         '
         'CheckNum13None
         '
@@ -2188,7 +1835,7 @@ Partial Class 認定調査票
         'relationBox
         '
         Me.relationBox.FormattingEnabled = True
-        Me.relationBox.Location = New System.Drawing.Point(367, 237)
+        Me.relationBox.Location = New System.Drawing.Point(367, 242)
         Me.relationBox.Name = "relationBox"
         Me.relationBox.Size = New System.Drawing.Size(75, 20)
         Me.relationBox.TabIndex = 50
@@ -2196,7 +1843,7 @@ Partial Class 認定調査票
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(254, 242)
+        Me.Label30.Location = New System.Drawing.Point(254, 247)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(107, 12)
         Me.Label30.TabIndex = 102
@@ -2207,19 +1854,10 @@ Partial Class 認定調査票
         Me.Panel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
         Me.Panel6.Controls.Add(Me.namBox)
         Me.Panel6.Controls.Add(Me.Label29)
-        Me.Panel6.Location = New System.Drawing.Point(88, 238)
+        Me.Panel6.Location = New System.Drawing.Point(88, 243)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(148, 21)
         Me.Panel6.TabIndex = 41
-        '
-        'namBox
-        '
-        Me.namBox.InputType = 0
-        Me.namBox.LimitLengthByte = 100
-        Me.namBox.Location = New System.Drawing.Point(43, 1)
-        Me.namBox.Name = "namBox"
-        Me.namBox.Size = New System.Drawing.Size(105, 19)
-        Me.namBox.TabIndex = 48
         '
         'Label29
         '
@@ -2233,7 +1871,7 @@ Partial Class 認定調査票
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(13, 244)
+        Me.Label28.Location = New System.Drawing.Point(13, 249)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(17, 12)
         Me.Label28.TabIndex = 101
@@ -2253,64 +1891,10 @@ Partial Class 認定調査票
         Me.Panel5.Controls.Add(Me.Label25)
         Me.Panel5.Controls.Add(Me.Label26)
         Me.Panel5.Controls.Add(Me.Label27)
-        Me.Panel5.Location = New System.Drawing.Point(98, 209)
+        Me.Panel5.Location = New System.Drawing.Point(98, 214)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(734, 21)
         Me.Panel5.TabIndex = 40
-        '
-        'familyTel3
-        '
-        Me.familyTel3.InputType = 1
-        Me.familyTel3.LimitLengthByte = 4
-        Me.familyTel3.Location = New System.Drawing.Point(670, 1)
-        Me.familyTel3.Name = "familyTel3"
-        Me.familyTel3.Size = New System.Drawing.Size(63, 19)
-        Me.familyTel3.TabIndex = 45
-        '
-        'familyTel2
-        '
-        Me.familyTel2.InputType = 1
-        Me.familyTel2.LimitLengthByte = 4
-        Me.familyTel2.Location = New System.Drawing.Point(589, 1)
-        Me.familyTel2.Name = "familyTel2"
-        Me.familyTel2.Size = New System.Drawing.Size(63, 19)
-        Me.familyTel2.TabIndex = 44
-        '
-        'familyTel1
-        '
-        Me.familyTel1.InputType = 1
-        Me.familyTel1.LimitLengthByte = 4
-        Me.familyTel1.Location = New System.Drawing.Point(508, 1)
-        Me.familyTel1.Name = "familyTel1"
-        Me.familyTel1.Size = New System.Drawing.Size(63, 19)
-        Me.familyTel1.TabIndex = 43
-        '
-        'familyAddress
-        '
-        Me.familyAddress.InputType = 0
-        Me.familyAddress.LimitLengthByte = 60
-        Me.familyAddress.Location = New System.Drawing.Point(156, 1)
-        Me.familyAddress.Name = "familyAddress"
-        Me.familyAddress.Size = New System.Drawing.Size(313, 19)
-        Me.familyAddress.TabIndex = 42
-        '
-        'familyPostCode2
-        '
-        Me.familyPostCode2.InputType = 1
-        Me.familyPostCode2.LimitLengthByte = 4
-        Me.familyPostCode2.Location = New System.Drawing.Point(83, 1)
-        Me.familyPostCode2.Name = "familyPostCode2"
-        Me.familyPostCode2.Size = New System.Drawing.Size(55, 19)
-        Me.familyPostCode2.TabIndex = 41
-        '
-        'familyPostCode1
-        '
-        Me.familyPostCode1.InputType = 1
-        Me.familyPostCode1.LimitLengthByte = 3
-        Me.familyPostCode1.Location = New System.Drawing.Point(21, 1)
-        Me.familyPostCode1.Name = "familyPostCode1"
-        Me.familyPostCode1.Size = New System.Drawing.Size(46, 19)
-        Me.familyPostCode1.TabIndex = 40
         '
         'Label18
         '
@@ -2371,66 +1955,10 @@ Partial Class 認定調査票
         Me.Panel4.Controls.Add(Me.Label21)
         Me.Panel4.Controls.Add(Me.Label20)
         Me.Panel4.Controls.Add(Me.Label19)
-        Me.Panel4.Location = New System.Drawing.Point(98, 181)
+        Me.Panel4.Location = New System.Drawing.Point(98, 186)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(734, 21)
         Me.Panel4.TabIndex = 30
-        '
-        'currentTel3
-        '
-        Me.currentTel3.InputType = 1
-        Me.currentTel3.LimitLengthByte = 4
-        Me.currentTel3.Location = New System.Drawing.Point(670, 1)
-        Me.currentTel3.Name = "currentTel3"
-        Me.currentTel3.Size = New System.Drawing.Size(63, 19)
-        Me.currentTel3.TabIndex = 38
-        '
-        'currentTel2
-        '
-        Me.currentTel2.InputType = 1
-        Me.currentTel2.LimitLengthByte = 4
-        Me.currentTel2.Location = New System.Drawing.Point(589, 1)
-        Me.currentTel2.Name = "currentTel2"
-        Me.currentTel2.Size = New System.Drawing.Size(63, 19)
-        Me.currentTel2.TabIndex = 37
-        '
-        'currentTel1
-        '
-        Me.currentTel1.InputType = 1
-        Me.currentTel1.LimitLengthByte = 4
-        Me.currentTel1.Location = New System.Drawing.Point(508, 1)
-        Me.currentTel1.Name = "currentTel1"
-        Me.currentTel1.Size = New System.Drawing.Size(63, 19)
-        Me.currentTel1.TabIndex = 36
-        Me.currentTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'currentAddress
-        '
-        Me.currentAddress.InputType = 0
-        Me.currentAddress.LimitLengthByte = 60
-        Me.currentAddress.Location = New System.Drawing.Point(156, 1)
-        Me.currentAddress.Name = "currentAddress"
-        Me.currentAddress.Size = New System.Drawing.Size(313, 19)
-        Me.currentAddress.TabIndex = 35
-        '
-        'currentPostCode2
-        '
-        Me.currentPostCode2.InputType = 1
-        Me.currentPostCode2.LimitLengthByte = 4
-        Me.currentPostCode2.Location = New System.Drawing.Point(83, 1)
-        Me.currentPostCode2.Name = "currentPostCode2"
-        Me.currentPostCode2.Size = New System.Drawing.Size(55, 19)
-        Me.currentPostCode2.TabIndex = 34
-        '
-        'currentPostCode1
-        '
-        Me.currentPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.currentPostCode1.InputType = 1
-        Me.currentPostCode1.LimitLengthByte = 3
-        Me.currentPostCode1.Location = New System.Drawing.Point(21, 1)
-        Me.currentPostCode1.Name = "currentPostCode1"
-        Me.currentPostCode1.Size = New System.Drawing.Size(46, 19)
-        Me.currentPostCode1.TabIndex = 32
         '
         'Label23
         '
@@ -2481,7 +2009,7 @@ Partial Class 認定調査票
         '
         Me.Label17.AutoSize = True
         Me.Label17.ForeColor = System.Drawing.Color.Blue
-        Me.Label17.Location = New System.Drawing.Point(35, 215)
+        Me.Label17.Location = New System.Drawing.Point(35, 220)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(53, 12)
         Me.Label17.TabIndex = 29
@@ -2491,7 +2019,7 @@ Partial Class 認定調査票
         '
         Me.Label16.AutoSize = True
         Me.Label16.ForeColor = System.Drawing.Color.Blue
-        Me.Label16.Location = New System.Drawing.Point(35, 185)
+        Me.Label16.Location = New System.Drawing.Point(35, 190)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(53, 12)
         Me.Label16.TabIndex = 28
@@ -2501,7 +2029,7 @@ Partial Class 認定調査票
         '
         Me.ageLabel.AutoSize = True
         Me.ageLabel.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ageLabel.Location = New System.Drawing.Point(482, 152)
+        Me.ageLabel.Location = New System.Drawing.Point(482, 157)
         Me.ageLabel.Name = "ageLabel"
         Me.ageLabel.Size = New System.Drawing.Size(0, 16)
         Me.ageLabel.TabIndex = 27
@@ -2509,7 +2037,7 @@ Partial Class 認定調査票
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(520, 155)
+        Me.Label15.Location = New System.Drawing.Point(520, 160)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(62, 12)
         Me.Label15.TabIndex = 26
@@ -2518,7 +2046,7 @@ Partial Class 認定調査票
         'btnCalcAge
         '
         Me.btnCalcAge.Font = New System.Drawing.Font("MS UI Gothic", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.btnCalcAge.Location = New System.Drawing.Point(406, 150)
+        Me.btnCalcAge.Location = New System.Drawing.Point(406, 155)
         Me.btnCalcAge.Name = "btnCalcAge"
         Me.btnCalcAge.Size = New System.Drawing.Size(53, 20)
         Me.btnCalcAge.TabIndex = 25
@@ -2531,8 +2059,8 @@ Partial Class 認定調査票
         Me.birthYmdBox.DateText = ""
         Me.birthYmdBox.EraLabelText = "H30"
         Me.birthYmdBox.EraText = ""
-        Me.birthYmdBox.Location = New System.Drawing.Point(280, 144)
-        Me.birthYmdBox.MonthLabelText = "08"
+        Me.birthYmdBox.Location = New System.Drawing.Point(280, 149)
+        Me.birthYmdBox.MonthLabelText = "09"
         Me.birthYmdBox.MonthText = ""
         Me.birthYmdBox.Name = "birthYmdBox"
         Me.birthYmdBox.Size = New System.Drawing.Size(110, 34)
@@ -2542,7 +2070,7 @@ Partial Class 認定調査票
         '
         Me.Label14.AutoSize = True
         Me.Label14.ForeColor = System.Drawing.Color.Blue
-        Me.Label14.Location = New System.Drawing.Point(204, 156)
+        Me.Label14.Location = New System.Drawing.Point(204, 161)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(65, 12)
         Me.Label14.TabIndex = 23
@@ -2552,7 +2080,7 @@ Partial Class 認定調査票
         '
         Me.Panel3.Controls.Add(Me.rbtnWoman)
         Me.Panel3.Controls.Add(Me.rbtnMan)
-        Me.Panel3.Location = New System.Drawing.Point(86, 148)
+        Me.Panel3.Location = New System.Drawing.Point(86, 153)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(102, 25)
         Me.Panel3.TabIndex = 11
@@ -2583,7 +2111,7 @@ Partial Class 認定調査票
         '
         Me.Label13.AutoSize = True
         Me.Label13.ForeColor = System.Drawing.Color.Blue
-        Me.Label13.Location = New System.Drawing.Point(35, 154)
+        Me.Label13.Location = New System.Drawing.Point(35, 159)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(41, 12)
         Me.Label13.TabIndex = 22
@@ -2592,7 +2120,7 @@ Partial Class 認定調査票
         'certifiedResultBox
         '
         Me.certifiedResultBox.FormattingEnabled = True
-        Me.certifiedResultBox.Location = New System.Drawing.Point(629, 115)
+        Me.certifiedResultBox.Location = New System.Drawing.Point(629, 120)
         Me.certifiedResultBox.Name = "certifiedResultBox"
         Me.certifiedResultBox.Size = New System.Drawing.Size(116, 20)
         Me.certifiedResultBox.TabIndex = 21
@@ -2601,7 +2129,7 @@ Partial Class 認定調査票
         '
         Me.Label12.AutoSize = True
         Me.Label12.ForeColor = System.Drawing.Color.Blue
-        Me.Label12.Location = New System.Drawing.Point(534, 120)
+        Me.Label12.Location = New System.Drawing.Point(534, 125)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(89, 12)
         Me.Label12.TabIndex = 20
@@ -2613,8 +2141,8 @@ Partial Class 認定調査票
         Me.lastCertifiedYmdBox.DateText = ""
         Me.lastCertifiedYmdBox.EraLabelText = "H30"
         Me.lastCertifiedYmdBox.EraText = ""
-        Me.lastCertifiedYmdBox.Location = New System.Drawing.Point(379, 109)
-        Me.lastCertifiedYmdBox.MonthLabelText = "08"
+        Me.lastCertifiedYmdBox.Location = New System.Drawing.Point(379, 114)
+        Me.lastCertifiedYmdBox.MonthLabelText = "09"
         Me.lastCertifiedYmdBox.MonthText = ""
         Me.lastCertifiedYmdBox.Name = "lastCertifiedYmdBox"
         Me.lastCertifiedYmdBox.Size = New System.Drawing.Size(110, 34)
@@ -2624,7 +2152,7 @@ Partial Class 認定調査票
         'lastCertifiedCheckBox
         '
         Me.lastCertifiedCheckBox.AutoSize = True
-        Me.lastCertifiedCheckBox.Location = New System.Drawing.Point(302, 119)
+        Me.lastCertifiedCheckBox.Location = New System.Drawing.Point(302, 124)
         Me.lastCertifiedCheckBox.Name = "lastCertifiedCheckBox"
         Me.lastCertifiedCheckBox.Size = New System.Drawing.Size(72, 16)
         Me.lastCertifiedCheckBox.TabIndex = 18
@@ -2634,7 +2162,7 @@ Partial Class 認定調査票
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(500, 120)
+        Me.Label11.Location = New System.Drawing.Point(500, 125)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(9, 12)
         Me.Label11.TabIndex = 17
@@ -2643,7 +2171,7 @@ Partial Class 認定調査票
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(290, 121)
+        Me.Label10.Location = New System.Drawing.Point(290, 126)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(9, 12)
         Me.Label10.TabIndex = 16
@@ -2653,7 +2181,7 @@ Partial Class 認定調査票
         '
         Me.Panel2.Controls.Add(Me.rbtnSecondCount)
         Me.Panel2.Controls.Add(Me.rbtnFirstCount)
-        Me.Panel2.Location = New System.Drawing.Point(115, 113)
+        Me.Panel2.Location = New System.Drawing.Point(115, 118)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(169, 25)
         Me.Panel2.TabIndex = 11
@@ -2684,7 +2212,7 @@ Partial Class 認定調査票
         '
         Me.Label9.AutoSize = True
         Me.Label9.ForeColor = System.Drawing.Color.Blue
-        Me.Label9.Location = New System.Drawing.Point(35, 120)
+        Me.Label9.Location = New System.Drawing.Point(35, 125)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(75, 12)
         Me.Label9.TabIndex = 15
@@ -2693,7 +2221,7 @@ Partial Class 認定調査票
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(9, 120)
+        Me.Label8.Location = New System.Drawing.Point(9, 125)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(17, 12)
         Me.Label8.TabIndex = 14
@@ -2702,7 +2230,7 @@ Partial Class 認定調査票
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(493, 86)
+        Me.Label7.Location = New System.Drawing.Point(493, 91)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(9, 12)
         Me.Label7.TabIndex = 13
@@ -2711,7 +2239,7 @@ Partial Class 認定調査票
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(269, 86)
+        Me.Label6.Location = New System.Drawing.Point(269, 91)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(9, 12)
         Me.Label6.TabIndex = 11
@@ -2721,7 +2249,7 @@ Partial Class 認定調査票
         '
         Me.Panel1.Controls.Add(Me.rbtnHouseOut)
         Me.Panel1.Controls.Add(Me.rbtnHouseIn)
-        Me.Panel1.Location = New System.Drawing.Point(115, 79)
+        Me.Panel1.Location = New System.Drawing.Point(115, 84)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(150, 25)
         Me.Panel1.TabIndex = 10
@@ -2752,7 +2280,7 @@ Partial Class 認定調査票
         '
         Me.Label5.AutoSize = True
         Me.Label5.ForeColor = System.Drawing.Color.Blue
-        Me.Label5.Location = New System.Drawing.Point(35, 84)
+        Me.Label5.Location = New System.Drawing.Point(35, 89)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(65, 12)
         Me.Label5.TabIndex = 9
@@ -2761,7 +2289,7 @@ Partial Class 認定調査票
         'companyBox
         '
         Me.companyBox.FormattingEnabled = True
-        Me.companyBox.Location = New System.Drawing.Point(567, 49)
+        Me.companyBox.Location = New System.Drawing.Point(567, 54)
         Me.companyBox.Name = "companyBox"
         Me.companyBox.Size = New System.Drawing.Size(265, 20)
         Me.companyBox.TabIndex = 3
@@ -2770,7 +2298,7 @@ Partial Class 認定調査票
         '
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.Color.Blue
-        Me.Label4.Location = New System.Drawing.Point(492, 54)
+        Me.Label4.Location = New System.Drawing.Point(492, 59)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(65, 12)
         Me.Label4.TabIndex = 7
@@ -2779,7 +2307,7 @@ Partial Class 認定調査票
         'etcBox
         '
         Me.etcBox.FormattingEnabled = True
-        Me.etcBox.Location = New System.Drawing.Point(341, 49)
+        Me.etcBox.Location = New System.Drawing.Point(341, 54)
         Me.etcBox.Name = "etcBox"
         Me.etcBox.Size = New System.Drawing.Size(117, 20)
         Me.etcBox.TabIndex = 2
@@ -2788,7 +2316,7 @@ Partial Class 認定調査票
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.Blue
-        Me.Label3.Location = New System.Drawing.Point(279, 54)
+        Me.Label3.Location = New System.Drawing.Point(279, 59)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(53, 12)
         Me.Label3.TabIndex = 5
@@ -2800,8 +2328,8 @@ Partial Class 認定調査票
         Me.dateYmdBox.DateText = ""
         Me.dateYmdBox.EraLabelText = "H30"
         Me.dateYmdBox.EraText = ""
-        Me.dateYmdBox.Location = New System.Drawing.Point(110, 43)
-        Me.dateYmdBox.MonthLabelText = "08"
+        Me.dateYmdBox.Location = New System.Drawing.Point(110, 48)
+        Me.dateYmdBox.MonthLabelText = "09"
         Me.dateYmdBox.MonthText = ""
         Me.dateYmdBox.Name = "dateYmdBox"
         Me.dateYmdBox.Size = New System.Drawing.Size(145, 34)
@@ -2811,7 +2339,7 @@ Partial Class 認定調査票
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.Color.Blue
-        Me.Label2.Location = New System.Drawing.Point(35, 54)
+        Me.Label2.Location = New System.Drawing.Point(35, 59)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(53, 12)
         Me.Label2.TabIndex = 3
@@ -2820,7 +2348,7 @@ Partial Class 認定調査票
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(9, 54)
+        Me.Label1.Location = New System.Drawing.Point(9, 59)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(17, 12)
         Me.Label1.TabIndex = 2
@@ -2834,15 +2362,6 @@ Partial Class 認定調査票
         Me.btnClear.TabIndex = 100
         Me.btnClear.Text = "クリア"
         Me.btnClear.UseVisualStyleBackColor = True
-        '
-        'dgvNumInput
-        '
-        Me.dgvNumInput.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvNumInput.Location = New System.Drawing.Point(15, 10)
-        Me.dgvNumInput.Name = "dgvNumInput"
-        Me.dgvNumInput.RowTemplate.Height = 21
-        Me.dgvNumInput.Size = New System.Drawing.Size(493, 27)
-        Me.dgvNumInput.TabIndex = 0
         '
         'specialNotePage
         '
@@ -2897,15 +2416,6 @@ Partial Class 認定調査票
         Me.spTabP1.Size = New System.Drawing.Size(802, 671)
         Me.spTabP1.TabIndex = 0
         Me.spTabP1.Text = "１．身体機能・起居動作"
-        '
-        'SpDgv1
-        '
-        Me.SpDgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv1.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv1.Name = "SpDgv1"
-        Me.SpDgv1.RowTemplate.Height = 21
-        Me.SpDgv1.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv1.TabIndex = 17
         '
         'Label91
         '
@@ -3101,15 +2611,6 @@ Partial Class 認定調査票
         Me.spTabP2.TabIndex = 1
         Me.spTabP2.Text = "２．生活機能"
         '
-        'SpDgv2
-        '
-        Me.SpDgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv2.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv2.Name = "SpDgv2"
-        Me.SpDgv2.RowTemplate.Height = 21
-        Me.SpDgv2.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv2.TabIndex = 35
-        '
         'Label93
         '
         Me.Label93.AutoSize = True
@@ -3290,15 +2791,6 @@ Partial Class 認定調査票
         Me.spTabP3.TabIndex = 2
         Me.spTabP3.Text = "３．認知機能"
         '
-        'SpDgv3
-        '
-        Me.SpDgv3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv3.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv3.Name = "SpDgv3"
-        Me.SpDgv3.RowTemplate.Height = 21
-        Me.SpDgv3.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv3.TabIndex = 35
-        '
         'Label109
         '
         Me.Label109.AutoSize = True
@@ -3451,7 +2943,7 @@ Partial Class 認定調査票
         Me.spTabP4.Controls.Add(Me.SpDgv4)
         Me.spTabP4.Location = New System.Drawing.Point(4, 22)
         Me.spTabP4.Name = "spTabP4"
-        Me.spTabP4.Size = New System.Drawing.Size(802, 679)
+        Me.spTabP4.Size = New System.Drawing.Size(802, 671)
         Me.spTabP4.TabIndex = 3
         Me.spTabP4.Text = "４．精神・行動障害"
         '
@@ -3642,15 +3134,6 @@ Partial Class 認定調査票
         Me.Label128.TabIndex = 18
         Me.Label128.Text = "4. 精神・行動障害に関連する項目"
         '
-        'SpDgv4
-        '
-        Me.SpDgv4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv4.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv4.Name = "SpDgv4"
-        Me.SpDgv4.RowTemplate.Height = 21
-        Me.SpDgv4.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv4.TabIndex = 35
-        '
         'spTabP5
         '
         Me.spTabP5.BackColor = System.Drawing.SystemColors.Control
@@ -3667,18 +3150,9 @@ Partial Class 認定調査票
         Me.spTabP5.Controls.Add(Me.Label146)
         Me.spTabP5.Location = New System.Drawing.Point(4, 22)
         Me.spTabP5.Name = "spTabP5"
-        Me.spTabP5.Size = New System.Drawing.Size(802, 679)
+        Me.spTabP5.Size = New System.Drawing.Size(802, 671)
         Me.spTabP5.TabIndex = 4
         Me.spTabP5.Text = "５．社会生活への適応"
-        '
-        'SpDgv5
-        '
-        Me.SpDgv5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv5.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv5.Name = "SpDgv5"
-        Me.SpDgv5.RowTemplate.Height = 21
-        Me.SpDgv5.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv5.TabIndex = 55
         '
         'Label140
         '
@@ -3788,18 +3262,9 @@ Partial Class 認定調査票
         Me.spTabP6.Controls.Add(Me.Label137)
         Me.spTabP6.Location = New System.Drawing.Point(4, 22)
         Me.spTabP6.Name = "spTabP6"
-        Me.spTabP6.Size = New System.Drawing.Size(802, 679)
+        Me.spTabP6.Size = New System.Drawing.Size(802, 671)
         Me.spTabP6.TabIndex = 5
         Me.spTabP6.Text = "６．特別な医療"
-        '
-        'SpDgv6
-        '
-        Me.SpDgv6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv6.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv6.Name = "SpDgv6"
-        Me.SpDgv6.RowTemplate.Height = 21
-        Me.SpDgv6.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv6.TabIndex = 66
         '
         'Label136
         '
@@ -3862,18 +3327,9 @@ Partial Class 認定調査票
         Me.spTabP7.Controls.Add(Me.Label139)
         Me.spTabP7.Location = New System.Drawing.Point(4, 22)
         Me.spTabP7.Name = "spTabP7"
-        Me.spTabP7.Size = New System.Drawing.Size(802, 679)
+        Me.spTabP7.Size = New System.Drawing.Size(802, 671)
         Me.spTabP7.TabIndex = 6
         Me.spTabP7.Text = "７．日常生活自立度"
-        '
-        'SpDgv7
-        '
-        Me.SpDgv7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv7.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv7.Name = "SpDgv7"
-        Me.SpDgv7.RowTemplate.Height = 21
-        Me.SpDgv7.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv7.TabIndex = 66
         '
         'Label133
         '
@@ -4037,6 +3493,1997 @@ Partial Class 認定調査票
         Me.GroupBox13.TabIndex = 30
         Me.GroupBox13.TabStop = False
         '
+        'Label131
+        '
+        Me.Label131.AutoSize = True
+        Me.Label131.ForeColor = System.Drawing.Color.Blue
+        Me.Label131.Location = New System.Drawing.Point(6, 15)
+        Me.Label131.Name = "Label131"
+        Me.Label131.Size = New System.Drawing.Size(94, 12)
+        Me.Label131.TabIndex = 16
+        Me.Label131.Text = "1-13 聴力について"
+        '
+        'GroupBox12
+        '
+        Me.GroupBox12.Controls.Add(Me.ExRadioButton34)
+        Me.GroupBox12.Controls.Add(Me.ExRadioButton33)
+        Me.GroupBox12.Controls.Add(Me.ExRadioButton32)
+        Me.GroupBox12.Controls.Add(Me.ExRadioButton31)
+        Me.GroupBox12.Controls.Add(Me.ExRadioButton30)
+        Me.GroupBox12.Controls.Add(Me.Label132)
+        Me.GroupBox12.Location = New System.Drawing.Point(23, 462)
+        Me.GroupBox12.Name = "GroupBox12"
+        Me.GroupBox12.Size = New System.Drawing.Size(358, 133)
+        Me.GroupBox12.TabIndex = 29
+        Me.GroupBox12.TabStop = False
+        '
+        'Label132
+        '
+        Me.Label132.AutoSize = True
+        Me.Label132.ForeColor = System.Drawing.Color.Blue
+        Me.Label132.Location = New System.Drawing.Point(6, 15)
+        Me.Label132.Name = "Label132"
+        Me.Label132.Size = New System.Drawing.Size(94, 12)
+        Me.Label132.TabIndex = 15
+        Me.Label132.Text = "1-12 視力について"
+        '
+        'GroupBox11
+        '
+        Me.GroupBox11.Controls.Add(Me.ExRadioButton27)
+        Me.GroupBox11.Controls.Add(Me.ExRadioButton28)
+        Me.GroupBox11.Controls.Add(Me.ExRadioButton29)
+        Me.GroupBox11.Controls.Add(Me.Label147)
+        Me.GroupBox11.Location = New System.Drawing.Point(23, 422)
+        Me.GroupBox11.Name = "GroupBox11"
+        Me.GroupBox11.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox11.TabIndex = 28
+        Me.GroupBox11.TabStop = False
+        '
+        'Label147
+        '
+        Me.Label147.AutoSize = True
+        Me.Label147.ForeColor = System.Drawing.Color.Blue
+        Me.Label147.Location = New System.Drawing.Point(6, 12)
+        Me.Label147.Name = "Label147"
+        Me.Label147.Size = New System.Drawing.Size(72, 12)
+        Me.Label147.TabIndex = 14
+        Me.Label147.Text = "1-11 つめ切り"
+        '
+        'GroupBox10
+        '
+        Me.GroupBox10.Controls.Add(Me.ExRadioButton23)
+        Me.GroupBox10.Controls.Add(Me.ExRadioButton24)
+        Me.GroupBox10.Controls.Add(Me.ExRadioButton25)
+        Me.GroupBox10.Controls.Add(Me.ExRadioButton26)
+        Me.GroupBox10.Controls.Add(Me.Label148)
+        Me.GroupBox10.Location = New System.Drawing.Point(23, 382)
+        Me.GroupBox10.Name = "GroupBox10"
+        Me.GroupBox10.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox10.TabIndex = 27
+        Me.GroupBox10.TabStop = False
+        '
+        'Label148
+        '
+        Me.Label148.AutoSize = True
+        Me.Label148.ForeColor = System.Drawing.Color.Blue
+        Me.Label148.Location = New System.Drawing.Point(6, 12)
+        Me.Label148.Name = "Label148"
+        Me.Label148.Size = New System.Drawing.Size(57, 12)
+        Me.Label148.TabIndex = 13
+        Me.Label148.Text = "1-10 洗身"
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.Controls.Add(Me.ExRadioButton20)
+        Me.GroupBox9.Controls.Add(Me.ExRadioButton21)
+        Me.GroupBox9.Controls.Add(Me.ExRadioButton22)
+        Me.GroupBox9.Controls.Add(Me.Label149)
+        Me.GroupBox9.Location = New System.Drawing.Point(23, 342)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox9.TabIndex = 26
+        Me.GroupBox9.TabStop = False
+        '
+        'Label149
+        '
+        Me.Label149.AutoSize = True
+        Me.Label149.ForeColor = System.Drawing.Color.Blue
+        Me.Label149.Location = New System.Drawing.Point(6, 12)
+        Me.Label149.Name = "Label149"
+        Me.Label149.Size = New System.Drawing.Size(119, 12)
+        Me.Label149.TabIndex = 12
+        Me.Label149.Text = "1-9 片足での立位保持"
+        '
+        'GroupBox8
+        '
+        Me.GroupBox8.Controls.Add(Me.ExRadioButton17)
+        Me.GroupBox8.Controls.Add(Me.ExRadioButton18)
+        Me.GroupBox8.Controls.Add(Me.ExRadioButton19)
+        Me.GroupBox8.Controls.Add(Me.Label150)
+        Me.GroupBox8.Location = New System.Drawing.Point(23, 302)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox8.TabIndex = 25
+        Me.GroupBox8.TabStop = False
+        '
+        'Label150
+        '
+        Me.Label150.AutoSize = True
+        Me.Label150.ForeColor = System.Drawing.Color.Blue
+        Me.Label150.Location = New System.Drawing.Point(6, 12)
+        Me.Label150.Name = "Label150"
+        Me.Label150.Size = New System.Drawing.Size(78, 12)
+        Me.Label150.TabIndex = 11
+        Me.Label150.Text = "1-8 立ち上がり"
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.Controls.Add(Me.ExRadioButton14)
+        Me.GroupBox7.Controls.Add(Me.ExRadioButton15)
+        Me.GroupBox7.Controls.Add(Me.ExRadioButton16)
+        Me.GroupBox7.Controls.Add(Me.Label151)
+        Me.GroupBox7.Location = New System.Drawing.Point(23, 262)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox7.TabIndex = 24
+        Me.GroupBox7.TabStop = False
+        '
+        'Label151
+        '
+        Me.Label151.AutoSize = True
+        Me.Label151.ForeColor = System.Drawing.Color.Blue
+        Me.Label151.Location = New System.Drawing.Point(6, 12)
+        Me.Label151.Name = "Label151"
+        Me.Label151.Size = New System.Drawing.Size(51, 12)
+        Me.Label151.TabIndex = 10
+        Me.Label151.Text = "1-7 歩行"
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.ExRadioButton11)
+        Me.GroupBox6.Controls.Add(Me.ExRadioButton12)
+        Me.GroupBox6.Controls.Add(Me.ExRadioButton13)
+        Me.GroupBox6.Controls.Add(Me.Label152)
+        Me.GroupBox6.Location = New System.Drawing.Point(23, 222)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox6.TabIndex = 23
+        Me.GroupBox6.TabStop = False
+        '
+        'Label152
+        '
+        Me.Label152.AutoSize = True
+        Me.Label152.ForeColor = System.Drawing.Color.Blue
+        Me.Label152.Location = New System.Drawing.Point(6, 12)
+        Me.Label152.Name = "Label152"
+        Me.Label152.Size = New System.Drawing.Size(119, 12)
+        Me.Label152.TabIndex = 9
+        Me.Label152.Text = "1-6 両足での立位保持"
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.ExRadioButton10)
+        Me.GroupBox5.Controls.Add(Me.ExRadioButton7)
+        Me.GroupBox5.Controls.Add(Me.Label153)
+        Me.GroupBox5.Controls.Add(Me.ExRadioButton8)
+        Me.GroupBox5.Controls.Add(Me.ExRadioButton9)
+        Me.GroupBox5.Location = New System.Drawing.Point(23, 182)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox5.TabIndex = 22
+        Me.GroupBox5.TabStop = False
+        '
+        'Label153
+        '
+        Me.Label153.AutoSize = True
+        Me.Label153.ForeColor = System.Drawing.Color.Blue
+        Me.Label153.Location = New System.Drawing.Point(6, 12)
+        Me.Label153.Name = "Label153"
+        Me.Label153.Size = New System.Drawing.Size(75, 12)
+        Me.Label153.TabIndex = 8
+        Me.Label153.Text = "1-5 座位保持"
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.ExRadioButton4)
+        Me.GroupBox4.Controls.Add(Me.Label154)
+        Me.GroupBox4.Controls.Add(Me.ExRadioButton5)
+        Me.GroupBox4.Controls.Add(Me.ExRadioButton6)
+        Me.GroupBox4.Location = New System.Drawing.Point(23, 142)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox4.TabIndex = 21
+        Me.GroupBox4.TabStop = False
+        '
+        'Label154
+        '
+        Me.Label154.AutoSize = True
+        Me.Label154.ForeColor = System.Drawing.Color.Blue
+        Me.Label154.Location = New System.Drawing.Point(6, 12)
+        Me.Label154.Name = "Label154"
+        Me.Label154.Size = New System.Drawing.Size(78, 12)
+        Me.Label154.TabIndex = 7
+        Me.Label154.Text = "1-4 起き上がり"
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.ExRadioButton3)
+        Me.GroupBox3.Controls.Add(Me.ExRadioButton2)
+        Me.GroupBox3.Controls.Add(Me.ExRadioButton1)
+        Me.GroupBox3.Controls.Add(Me.Label155)
+        Me.GroupBox3.Location = New System.Drawing.Point(23, 102)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox3.TabIndex = 20
+        Me.GroupBox3.TabStop = False
+        '
+        'Label155
+        '
+        Me.Label155.AutoSize = True
+        Me.Label155.ForeColor = System.Drawing.Color.Blue
+        Me.Label155.Location = New System.Drawing.Point(6, 12)
+        Me.Label155.Name = "Label155"
+        Me.Label155.Size = New System.Drawing.Size(59, 12)
+        Me.Label155.TabIndex = 6
+        Me.Label155.Text = "1-3 寝返り"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.ExCheckBox7)
+        Me.GroupBox2.Controls.Add(Me.Label156)
+        Me.GroupBox2.Controls.Add(Me.ExCheckBox8)
+        Me.GroupBox2.Controls.Add(Me.ExCheckBox11)
+        Me.GroupBox2.Controls.Add(Me.ExCheckBox9)
+        Me.GroupBox2.Controls.Add(Me.ExCheckBox10)
+        Me.GroupBox2.Location = New System.Drawing.Point(23, 62)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(648, 31)
+        Me.GroupBox2.TabIndex = 19
+        Me.GroupBox2.TabStop = False
+        '
+        'Label156
+        '
+        Me.Label156.AutoSize = True
+        Me.Label156.ForeColor = System.Drawing.Color.Blue
+        Me.Label156.Location = New System.Drawing.Point(6, 12)
+        Me.Label156.Name = "Label156"
+        Me.Label156.Size = New System.Drawing.Size(85, 12)
+        Me.Label156.TabIndex = 5
+        Me.Label156.Text = "1-2 拘縮の有無"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.ExCheckBox6)
+        Me.GroupBox1.Controls.Add(Me.ExCheckBox5)
+        Me.GroupBox1.Controls.Add(Me.ExCheckBox4)
+        Me.GroupBox1.Controls.Add(Me.ExCheckBox3)
+        Me.GroupBox1.Controls.Add(Me.ExCheckBox2)
+        Me.GroupBox1.Controls.Add(Me.ExCheckBox1)
+        Me.GroupBox1.Controls.Add(Me.Label157)
+        Me.GroupBox1.Location = New System.Drawing.Point(23, 22)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(648, 31)
+        Me.GroupBox1.TabIndex = 18
+        Me.GroupBox1.TabStop = False
+        '
+        'Label157
+        '
+        Me.Label157.AutoSize = True
+        Me.Label157.ForeColor = System.Drawing.Color.Blue
+        Me.Label157.Location = New System.Drawing.Point(6, 12)
+        Me.Label157.Name = "Label157"
+        Me.Label157.Size = New System.Drawing.Size(97, 12)
+        Me.Label157.TabIndex = 4
+        Me.Label157.Text = "1-1 麻痺等の有無"
+        '
+        'bsTabP2
+        '
+        Me.bsTabP2.BackColor = System.Drawing.SystemColors.Control
+        Me.bsTabP2.Controls.Add(Me.GroupBox25)
+        Me.bsTabP2.Controls.Add(Me.GroupBox14)
+        Me.bsTabP2.Controls.Add(Me.GroupBox15)
+        Me.bsTabP2.Controls.Add(Me.GroupBox16)
+        Me.bsTabP2.Controls.Add(Me.GroupBox17)
+        Me.bsTabP2.Controls.Add(Me.GroupBox18)
+        Me.bsTabP2.Controls.Add(Me.GroupBox19)
+        Me.bsTabP2.Controls.Add(Me.GroupBox20)
+        Me.bsTabP2.Controls.Add(Me.GroupBox21)
+        Me.bsTabP2.Controls.Add(Me.GroupBox22)
+        Me.bsTabP2.Controls.Add(Me.GroupBox23)
+        Me.bsTabP2.Controls.Add(Me.GroupBox24)
+        Me.bsTabP2.Location = New System.Drawing.Point(4, 22)
+        Me.bsTabP2.Name = "bsTabP2"
+        Me.bsTabP2.Padding = New System.Windows.Forms.Padding(3)
+        Me.bsTabP2.Size = New System.Drawing.Size(802, 671)
+        Me.bsTabP2.TabIndex = 1
+        Me.bsTabP2.Text = "２．生活機能"
+        '
+        'GroupBox25
+        '
+        Me.GroupBox25.Controls.Add(Me.ExRadioButton80)
+        Me.GroupBox25.Controls.Add(Me.ExRadioButton81)
+        Me.GroupBox25.Controls.Add(Me.ExRadioButton82)
+        Me.GroupBox25.Controls.Add(Me.Label159)
+        Me.GroupBox25.Location = New System.Drawing.Point(23, 572)
+        Me.GroupBox25.Name = "GroupBox25"
+        Me.GroupBox25.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox25.TabIndex = 45
+        Me.GroupBox25.TabStop = False
+        '
+        'Label159
+        '
+        Me.Label159.AutoSize = True
+        Me.Label159.ForeColor = System.Drawing.Color.Blue
+        Me.Label159.Location = New System.Drawing.Point(6, 12)
+        Me.Label159.Name = "Label159"
+        Me.Label159.Size = New System.Drawing.Size(81, 12)
+        Me.Label159.TabIndex = 33
+        Me.Label159.Text = "2-12 外出頻度"
+        '
+        'GroupBox14
+        '
+        Me.GroupBox14.Controls.Add(Me.ExRadioButton72)
+        Me.GroupBox14.Controls.Add(Me.ExRadioButton73)
+        Me.GroupBox14.Controls.Add(Me.ExRadioButton74)
+        Me.GroupBox14.Controls.Add(Me.ExRadioButton75)
+        Me.GroupBox14.Controls.Add(Me.Label161)
+        Me.GroupBox14.Location = New System.Drawing.Point(23, 472)
+        Me.GroupBox14.Name = "GroupBox14"
+        Me.GroupBox14.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox14.TabIndex = 44
+        Me.GroupBox14.TabStop = False
+        '
+        'Label161
+        '
+        Me.Label161.AutoSize = True
+        Me.Label161.ForeColor = System.Drawing.Color.Blue
+        Me.Label161.Location = New System.Drawing.Point(6, 12)
+        Me.Label161.Name = "Label161"
+        Me.Label161.Size = New System.Drawing.Size(91, 12)
+        Me.Label161.TabIndex = 31
+        Me.Label161.Text = "2-10 上衣の着脱"
+        '
+        'GroupBox15
+        '
+        Me.GroupBox15.Controls.Add(Me.ExRadioButton76)
+        Me.GroupBox15.Controls.Add(Me.ExRadioButton77)
+        Me.GroupBox15.Controls.Add(Me.ExRadioButton78)
+        Me.GroupBox15.Controls.Add(Me.ExRadioButton79)
+        Me.GroupBox15.Controls.Add(Me.Label160)
+        Me.GroupBox15.Location = New System.Drawing.Point(23, 522)
+        Me.GroupBox15.Name = "GroupBox15"
+        Me.GroupBox15.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox15.TabIndex = 43
+        Me.GroupBox15.TabStop = False
+        '
+        'Label160
+        '
+        Me.Label160.AutoSize = True
+        Me.Label160.ForeColor = System.Drawing.Color.Blue
+        Me.Label160.Location = New System.Drawing.Point(6, 12)
+        Me.Label160.Name = "Label160"
+        Me.Label160.Size = New System.Drawing.Size(108, 12)
+        Me.Label160.TabIndex = 32
+        Me.Label160.Text = "2-11 ズボン等の着脱"
+        '
+        'GroupBox16
+        '
+        Me.GroupBox16.Controls.Add(Me.ExRadioButton69)
+        Me.GroupBox16.Controls.Add(Me.ExRadioButton70)
+        Me.GroupBox16.Controls.Add(Me.ExRadioButton71)
+        Me.GroupBox16.Controls.Add(Me.Label162)
+        Me.GroupBox16.Location = New System.Drawing.Point(23, 422)
+        Me.GroupBox16.Name = "GroupBox16"
+        Me.GroupBox16.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox16.TabIndex = 42
+        Me.GroupBox16.TabStop = False
+        '
+        'Label162
+        '
+        Me.Label162.AutoSize = True
+        Me.Label162.ForeColor = System.Drawing.Color.Blue
+        Me.Label162.Location = New System.Drawing.Point(6, 12)
+        Me.Label162.Name = "Label162"
+        Me.Label162.Size = New System.Drawing.Size(51, 12)
+        Me.Label162.TabIndex = 30
+        Me.Label162.Text = "2-9 整髪"
+        '
+        'GroupBox17
+        '
+        Me.GroupBox17.Controls.Add(Me.ExRadioButton63)
+        Me.GroupBox17.Controls.Add(Me.ExRadioButton67)
+        Me.GroupBox17.Controls.Add(Me.ExRadioButton68)
+        Me.GroupBox17.Controls.Add(Me.Label163)
+        Me.GroupBox17.Location = New System.Drawing.Point(23, 372)
+        Me.GroupBox17.Name = "GroupBox17"
+        Me.GroupBox17.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox17.TabIndex = 41
+        Me.GroupBox17.TabStop = False
+        '
+        'Label163
+        '
+        Me.Label163.AutoSize = True
+        Me.Label163.ForeColor = System.Drawing.Color.Blue
+        Me.Label163.Location = New System.Drawing.Point(6, 12)
+        Me.Label163.Name = "Label163"
+        Me.Label163.Size = New System.Drawing.Size(51, 12)
+        Me.Label163.TabIndex = 29
+        Me.Label163.Text = "2-8 洗顔"
+        '
+        'GroupBox18
+        '
+        Me.GroupBox18.Controls.Add(Me.ExRadioButton64)
+        Me.GroupBox18.Controls.Add(Me.ExRadioButton65)
+        Me.GroupBox18.Controls.Add(Me.ExRadioButton66)
+        Me.GroupBox18.Controls.Add(Me.Label164)
+        Me.GroupBox18.Location = New System.Drawing.Point(23, 322)
+        Me.GroupBox18.Name = "GroupBox18"
+        Me.GroupBox18.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox18.TabIndex = 40
+        Me.GroupBox18.TabStop = False
+        '
+        'Label164
+        '
+        Me.Label164.AutoSize = True
+        Me.Label164.ForeColor = System.Drawing.Color.Blue
+        Me.Label164.Location = New System.Drawing.Point(6, 12)
+        Me.Label164.Name = "Label164"
+        Me.Label164.Size = New System.Drawing.Size(75, 12)
+        Me.Label164.TabIndex = 28
+        Me.Label164.Text = "2-7 口腔清潔"
+        '
+        'GroupBox19
+        '
+        Me.GroupBox19.Controls.Add(Me.ExRadioButton59)
+        Me.GroupBox19.Controls.Add(Me.ExRadioButton60)
+        Me.GroupBox19.Controls.Add(Me.ExRadioButton61)
+        Me.GroupBox19.Controls.Add(Me.ExRadioButton62)
+        Me.GroupBox19.Controls.Add(Me.Label165)
+        Me.GroupBox19.Location = New System.Drawing.Point(23, 272)
+        Me.GroupBox19.Name = "GroupBox19"
+        Me.GroupBox19.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox19.TabIndex = 39
+        Me.GroupBox19.TabStop = False
+        '
+        'Label165
+        '
+        Me.Label165.AutoSize = True
+        Me.Label165.ForeColor = System.Drawing.Color.Blue
+        Me.Label165.Location = New System.Drawing.Point(6, 12)
+        Me.Label165.Name = "Label165"
+        Me.Label165.Size = New System.Drawing.Size(51, 12)
+        Me.Label165.TabIndex = 27
+        Me.Label165.Text = "2-6 排便"
+        '
+        'GroupBox20
+        '
+        Me.GroupBox20.Controls.Add(Me.ExRadioButton55)
+        Me.GroupBox20.Controls.Add(Me.ExRadioButton56)
+        Me.GroupBox20.Controls.Add(Me.ExRadioButton57)
+        Me.GroupBox20.Controls.Add(Me.ExRadioButton58)
+        Me.GroupBox20.Controls.Add(Me.Label166)
+        Me.GroupBox20.Location = New System.Drawing.Point(23, 222)
+        Me.GroupBox20.Name = "GroupBox20"
+        Me.GroupBox20.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox20.TabIndex = 38
+        Me.GroupBox20.TabStop = False
+        '
+        'Label166
+        '
+        Me.Label166.AutoSize = True
+        Me.Label166.ForeColor = System.Drawing.Color.Blue
+        Me.Label166.Location = New System.Drawing.Point(6, 12)
+        Me.Label166.Name = "Label166"
+        Me.Label166.Size = New System.Drawing.Size(51, 12)
+        Me.Label166.TabIndex = 26
+        Me.Label166.Text = "2-5 排尿"
+        '
+        'GroupBox21
+        '
+        Me.GroupBox21.Controls.Add(Me.ExRadioButton48)
+        Me.GroupBox21.Controls.Add(Me.ExRadioButton52)
+        Me.GroupBox21.Controls.Add(Me.ExRadioButton53)
+        Me.GroupBox21.Controls.Add(Me.ExRadioButton54)
+        Me.GroupBox21.Controls.Add(Me.Label167)
+        Me.GroupBox21.Location = New System.Drawing.Point(23, 172)
+        Me.GroupBox21.Name = "GroupBox21"
+        Me.GroupBox21.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox21.TabIndex = 37
+        Me.GroupBox21.TabStop = False
+        '
+        'Label167
+        '
+        Me.Label167.AutoSize = True
+        Me.Label167.ForeColor = System.Drawing.Color.Blue
+        Me.Label167.Location = New System.Drawing.Point(6, 12)
+        Me.Label167.Name = "Label167"
+        Me.Label167.Size = New System.Drawing.Size(75, 12)
+        Me.Label167.TabIndex = 25
+        Me.Label167.Text = "2-4 食事摂取"
+        '
+        'GroupBox22
+        '
+        Me.GroupBox22.Controls.Add(Me.ExRadioButton49)
+        Me.GroupBox22.Controls.Add(Me.ExRadioButton50)
+        Me.GroupBox22.Controls.Add(Me.ExRadioButton51)
+        Me.GroupBox22.Controls.Add(Me.Label168)
+        Me.GroupBox22.Location = New System.Drawing.Point(23, 122)
+        Me.GroupBox22.Name = "GroupBox22"
+        Me.GroupBox22.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox22.TabIndex = 36
+        Me.GroupBox22.TabStop = False
+        '
+        'Label168
+        '
+        Me.Label168.AutoSize = True
+        Me.Label168.ForeColor = System.Drawing.Color.Blue
+        Me.Label168.Location = New System.Drawing.Point(6, 12)
+        Me.Label168.Name = "Label168"
+        Me.Label168.Size = New System.Drawing.Size(58, 12)
+        Me.Label168.TabIndex = 24
+        Me.Label168.Text = "2-3 えん下"
+        '
+        'GroupBox23
+        '
+        Me.GroupBox23.Controls.Add(Me.ExRadioButton44)
+        Me.GroupBox23.Controls.Add(Me.ExRadioButton45)
+        Me.GroupBox23.Controls.Add(Me.ExRadioButton46)
+        Me.GroupBox23.Controls.Add(Me.ExRadioButton47)
+        Me.GroupBox23.Controls.Add(Me.Label169)
+        Me.GroupBox23.Location = New System.Drawing.Point(23, 72)
+        Me.GroupBox23.Name = "GroupBox23"
+        Me.GroupBox23.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox23.TabIndex = 35
+        Me.GroupBox23.TabStop = False
+        '
+        'Label169
+        '
+        Me.Label169.AutoSize = True
+        Me.Label169.ForeColor = System.Drawing.Color.Blue
+        Me.Label169.Location = New System.Drawing.Point(6, 12)
+        Me.Label169.Name = "Label169"
+        Me.Label169.Size = New System.Drawing.Size(51, 12)
+        Me.Label169.TabIndex = 23
+        Me.Label169.Text = "2-2 移動"
+        '
+        'GroupBox24
+        '
+        Me.GroupBox24.Controls.Add(Me.ExRadioButton40)
+        Me.GroupBox24.Controls.Add(Me.ExRadioButton41)
+        Me.GroupBox24.Controls.Add(Me.ExRadioButton42)
+        Me.GroupBox24.Controls.Add(Me.ExRadioButton43)
+        Me.GroupBox24.Controls.Add(Me.Label170)
+        Me.GroupBox24.Location = New System.Drawing.Point(23, 22)
+        Me.GroupBox24.Name = "GroupBox24"
+        Me.GroupBox24.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox24.TabIndex = 34
+        Me.GroupBox24.TabStop = False
+        '
+        'Label170
+        '
+        Me.Label170.AutoSize = True
+        Me.Label170.ForeColor = System.Drawing.Color.Blue
+        Me.Label170.Location = New System.Drawing.Point(6, 12)
+        Me.Label170.Name = "Label170"
+        Me.Label170.Size = New System.Drawing.Size(51, 12)
+        Me.Label170.TabIndex = 22
+        Me.Label170.Text = "2-1 移乗"
+        '
+        'bsTabP3
+        '
+        Me.bsTabP3.BackColor = System.Drawing.SystemColors.Control
+        Me.bsTabP3.Controls.Add(Me.GroupBox31)
+        Me.bsTabP3.Controls.Add(Me.GroupBox30)
+        Me.bsTabP3.Controls.Add(Me.GroupBox32)
+        Me.bsTabP3.Controls.Add(Me.GroupBox29)
+        Me.bsTabP3.Controls.Add(Me.GroupBox33)
+        Me.bsTabP3.Controls.Add(Me.GroupBox28)
+        Me.bsTabP3.Controls.Add(Me.GroupBox34)
+        Me.bsTabP3.Controls.Add(Me.GroupBox27)
+        Me.bsTabP3.Controls.Add(Me.GroupBox26)
+        Me.bsTabP3.Location = New System.Drawing.Point(4, 22)
+        Me.bsTabP3.Name = "bsTabP3"
+        Me.bsTabP3.Size = New System.Drawing.Size(802, 671)
+        Me.bsTabP3.TabIndex = 2
+        Me.bsTabP3.Text = "３．認知機能"
+        '
+        'GroupBox31
+        '
+        Me.GroupBox31.Controls.Add(Me.ExRadioButton102)
+        Me.GroupBox31.Controls.Add(Me.ExRadioButton103)
+        Me.GroupBox31.Controls.Add(Me.ExRadioButton104)
+        Me.GroupBox31.Controls.Add(Me.Label172)
+        Me.GroupBox31.Location = New System.Drawing.Point(23, 476)
+        Me.GroupBox31.Name = "GroupBox31"
+        Me.GroupBox31.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox31.TabIndex = 43
+        Me.GroupBox31.TabStop = False
+        '
+        'Label172
+        '
+        Me.Label172.AutoSize = True
+        Me.Label172.ForeColor = System.Drawing.Color.Blue
+        Me.Label172.Location = New System.Drawing.Point(6, 12)
+        Me.Label172.Name = "Label172"
+        Me.Label172.Size = New System.Drawing.Size(121, 12)
+        Me.Label172.TabIndex = 30
+        Me.Label172.Text = "3-9 外出すると戻れない"
+        '
+        'GroupBox30
+        '
+        Me.GroupBox30.Controls.Add(Me.ExRadioButton93)
+        Me.GroupBox30.Controls.Add(Me.ExRadioButton94)
+        Me.GroupBox30.Controls.Add(Me.Label176)
+        Me.GroupBox30.Location = New System.Drawing.Point(23, 284)
+        Me.GroupBox30.Name = "GroupBox30"
+        Me.GroupBox30.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox30.TabIndex = 39
+        Me.GroupBox30.TabStop = False
+        '
+        'Label176
+        '
+        Me.Label176.AutoSize = True
+        Me.Label176.ForeColor = System.Drawing.Color.Blue
+        Me.Label176.Location = New System.Drawing.Point(6, 12)
+        Me.Label176.Name = "Label176"
+        Me.Label176.Size = New System.Drawing.Size(113, 12)
+        Me.Label176.TabIndex = 26
+        Me.Label176.Text = "3-5 自分の名前を言う"
+        '
+        'GroupBox32
+        '
+        Me.GroupBox32.Controls.Add(Me.ExRadioButton101)
+        Me.GroupBox32.Controls.Add(Me.ExRadioButton99)
+        Me.GroupBox32.Controls.Add(Me.ExRadioButton100)
+        Me.GroupBox32.Controls.Add(Me.Label173)
+        Me.GroupBox32.Location = New System.Drawing.Point(23, 428)
+        Me.GroupBox32.Name = "GroupBox32"
+        Me.GroupBox32.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox32.TabIndex = 42
+        Me.GroupBox32.TabStop = False
+        '
+        'Label173
+        '
+        Me.Label173.AutoSize = True
+        Me.Label173.ForeColor = System.Drawing.Color.Blue
+        Me.Label173.Location = New System.Drawing.Point(6, 12)
+        Me.Label173.Name = "Label173"
+        Me.Label173.Size = New System.Drawing.Size(51, 12)
+        Me.Label173.TabIndex = 29
+        Me.Label173.Text = "3-8 徘徊"
+        '
+        'GroupBox29
+        '
+        Me.GroupBox29.Controls.Add(Me.ExRadioButton91)
+        Me.GroupBox29.Controls.Add(Me.ExRadioButton92)
+        Me.GroupBox29.Controls.Add(Me.Label177)
+        Me.GroupBox29.Location = New System.Drawing.Point(23, 236)
+        Me.GroupBox29.Name = "GroupBox29"
+        Me.GroupBox29.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox29.TabIndex = 38
+        Me.GroupBox29.TabStop = False
+        '
+        'Label177
+        '
+        Me.Label177.AutoSize = True
+        Me.Label177.ForeColor = System.Drawing.Color.Blue
+        Me.Label177.Location = New System.Drawing.Point(6, 12)
+        Me.Label177.Name = "Label177"
+        Me.Label177.Size = New System.Drawing.Size(290, 12)
+        Me.Label177.TabIndex = 25
+        Me.Label177.Text = "3-4 短期記憶（面接調査の直前に何をしていたか思い出す）"
+        '
+        'GroupBox33
+        '
+        Me.GroupBox33.Controls.Add(Me.ExRadioButton97)
+        Me.GroupBox33.Controls.Add(Me.ExRadioButton98)
+        Me.GroupBox33.Controls.Add(Me.Label174)
+        Me.GroupBox33.Location = New System.Drawing.Point(23, 380)
+        Me.GroupBox33.Name = "GroupBox33"
+        Me.GroupBox33.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox33.TabIndex = 41
+        Me.GroupBox33.TabStop = False
+        '
+        'Label174
+        '
+        Me.Label174.AutoSize = True
+        Me.Label174.ForeColor = System.Drawing.Color.Blue
+        Me.Label174.Location = New System.Drawing.Point(6, 12)
+        Me.Label174.Name = "Label174"
+        Me.Label174.Size = New System.Drawing.Size(213, 12)
+        Me.Label174.TabIndex = 28
+        Me.Label174.Text = "3-7 場所の理解（自分がいる場所を答える）"
+        '
+        'GroupBox28
+        '
+        Me.GroupBox28.Controls.Add(Me.ExRadioButton89)
+        Me.GroupBox28.Controls.Add(Me.ExRadioButton90)
+        Me.GroupBox28.Controls.Add(Me.Label178)
+        Me.GroupBox28.Location = New System.Drawing.Point(23, 188)
+        Me.GroupBox28.Name = "GroupBox28"
+        Me.GroupBox28.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox28.TabIndex = 37
+        Me.GroupBox28.TabStop = False
+        '
+        'Label178
+        '
+        Me.Label178.AutoSize = True
+        Me.Label178.ForeColor = System.Drawing.Color.Blue
+        Me.Label178.Location = New System.Drawing.Point(6, 12)
+        Me.Label178.Name = "Label178"
+        Me.Label178.Size = New System.Drawing.Size(137, 12)
+        Me.Label178.TabIndex = 24
+        Me.Label178.Text = "3-3 生年月日や年齢を言う"
+        '
+        'GroupBox34
+        '
+        Me.GroupBox34.Controls.Add(Me.ExRadioButton95)
+        Me.GroupBox34.Controls.Add(Me.ExRadioButton96)
+        Me.GroupBox34.Controls.Add(Me.Label175)
+        Me.GroupBox34.Location = New System.Drawing.Point(23, 332)
+        Me.GroupBox34.Name = "GroupBox34"
+        Me.GroupBox34.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox34.TabIndex = 40
+        Me.GroupBox34.TabStop = False
+        '
+        'Label175
+        '
+        Me.Label175.AutoSize = True
+        Me.Label175.ForeColor = System.Drawing.Color.Blue
+        Me.Label175.Location = New System.Drawing.Point(6, 12)
+        Me.Label175.Name = "Label175"
+        Me.Label175.Size = New System.Drawing.Size(106, 12)
+        Me.Label175.TabIndex = 27
+        Me.Label175.Text = "3-6 今の季節を理解"
+        '
+        'GroupBox27
+        '
+        Me.GroupBox27.Controls.Add(Me.ExRadioButton88)
+        Me.GroupBox27.Controls.Add(Me.ExRadioButton87)
+        Me.GroupBox27.Controls.Add(Me.Label179)
+        Me.GroupBox27.Location = New System.Drawing.Point(23, 140)
+        Me.GroupBox27.Name = "GroupBox27"
+        Me.GroupBox27.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox27.TabIndex = 36
+        Me.GroupBox27.TabStop = False
+        '
+        'Label179
+        '
+        Me.Label179.AutoSize = True
+        Me.Label179.ForeColor = System.Drawing.Color.Blue
+        Me.Label179.Location = New System.Drawing.Point(6, 12)
+        Me.Label179.Name = "Label179"
+        Me.Label179.Size = New System.Drawing.Size(118, 12)
+        Me.Label179.TabIndex = 23
+        Me.Label179.Text = "3-2 毎日の日課を理解"
+        '
+        'GroupBox26
+        '
+        Me.GroupBox26.Controls.Add(Me.ExRadioButton86)
+        Me.GroupBox26.Controls.Add(Me.ExRadioButton85)
+        Me.GroupBox26.Controls.Add(Me.ExRadioButton84)
+        Me.GroupBox26.Controls.Add(Me.ExRadioButton83)
+        Me.GroupBox26.Controls.Add(Me.Label180)
+        Me.GroupBox26.Location = New System.Drawing.Point(23, 22)
+        Me.GroupBox26.Name = "GroupBox26"
+        Me.GroupBox26.Size = New System.Drawing.Size(360, 100)
+        Me.GroupBox26.TabIndex = 31
+        Me.GroupBox26.TabStop = False
+        '
+        'Label180
+        '
+        Me.Label180.AutoSize = True
+        Me.Label180.ForeColor = System.Drawing.Color.Blue
+        Me.Label180.Location = New System.Drawing.Point(6, 15)
+        Me.Label180.Name = "Label180"
+        Me.Label180.Size = New System.Drawing.Size(85, 12)
+        Me.Label180.TabIndex = 22
+        Me.Label180.Text = "3-1 意思の伝達"
+        '
+        'bsTabP4
+        '
+        Me.bsTabP4.BackColor = System.Drawing.SystemColors.Control
+        Me.bsTabP4.Controls.Add(Me.GroupBox46)
+        Me.bsTabP4.Controls.Add(Me.GroupBox47)
+        Me.bsTabP4.Controls.Add(Me.GroupBox48)
+        Me.bsTabP4.Controls.Add(Me.GroupBox49)
+        Me.bsTabP4.Controls.Add(Me.GroupBox35)
+        Me.bsTabP4.Controls.Add(Me.GroupBox36)
+        Me.bsTabP4.Controls.Add(Me.GroupBox37)
+        Me.bsTabP4.Controls.Add(Me.GroupBox38)
+        Me.bsTabP4.Controls.Add(Me.GroupBox39)
+        Me.bsTabP4.Controls.Add(Me.GroupBox40)
+        Me.bsTabP4.Controls.Add(Me.GroupBox41)
+        Me.bsTabP4.Controls.Add(Me.GroupBox42)
+        Me.bsTabP4.Controls.Add(Me.GroupBox43)
+        Me.bsTabP4.Controls.Add(Me.GroupBox44)
+        Me.bsTabP4.Controls.Add(Me.GroupBox45)
+        Me.bsTabP4.Location = New System.Drawing.Point(4, 22)
+        Me.bsTabP4.Name = "bsTabP4"
+        Me.bsTabP4.Size = New System.Drawing.Size(802, 671)
+        Me.bsTabP4.TabIndex = 3
+        Me.bsTabP4.Text = "４．精神・行動障害"
+        '
+        'GroupBox46
+        '
+        Me.GroupBox46.Controls.Add(Me.ExRadioButton147)
+        Me.GroupBox46.Controls.Add(Me.ExRadioButton148)
+        Me.GroupBox46.Controls.Add(Me.ExRadioButton149)
+        Me.GroupBox46.Controls.Add(Me.Label182)
+        Me.GroupBox46.Location = New System.Drawing.Point(23, 582)
+        Me.GroupBox46.Name = "GroupBox46"
+        Me.GroupBox46.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox46.TabIndex = 52
+        Me.GroupBox46.TabStop = False
+        '
+        'Label182
+        '
+        Me.Label182.AutoSize = True
+        Me.Label182.ForeColor = System.Drawing.Color.Blue
+        Me.Label182.Location = New System.Drawing.Point(6, 12)
+        Me.Label182.Name = "Label182"
+        Me.Label182.Size = New System.Drawing.Size(178, 12)
+        Me.Label182.TabIndex = 37
+        Me.Label182.Text = "4-15 話がまとまらず、会話にならない"
+        '
+        'GroupBox47
+        '
+        Me.GroupBox47.Controls.Add(Me.ExRadioButton144)
+        Me.GroupBox47.Controls.Add(Me.ExRadioButton145)
+        Me.GroupBox47.Controls.Add(Me.ExRadioButton146)
+        Me.GroupBox47.Controls.Add(Me.Label183)
+        Me.GroupBox47.Location = New System.Drawing.Point(23, 542)
+        Me.GroupBox47.Name = "GroupBox47"
+        Me.GroupBox47.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox47.TabIndex = 51
+        Me.GroupBox47.TabStop = False
+        '
+        'Label183
+        '
+        Me.Label183.AutoSize = True
+        Me.Label183.ForeColor = System.Drawing.Color.Blue
+        Me.Label183.Location = New System.Drawing.Point(6, 12)
+        Me.Label183.Name = "Label183"
+        Me.Label183.Size = New System.Drawing.Size(133, 12)
+        Me.Label183.TabIndex = 36
+        Me.Label183.Text = "4-14 自分勝手に行動する"
+        '
+        'GroupBox48
+        '
+        Me.GroupBox48.Controls.Add(Me.ExRadioButton141)
+        Me.GroupBox48.Controls.Add(Me.ExRadioButton142)
+        Me.GroupBox48.Controls.Add(Me.ExRadioButton143)
+        Me.GroupBox48.Controls.Add(Me.Label184)
+        Me.GroupBox48.Location = New System.Drawing.Point(23, 502)
+        Me.GroupBox48.Name = "GroupBox48"
+        Me.GroupBox48.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox48.TabIndex = 50
+        Me.GroupBox48.TabStop = False
+        '
+        'Label184
+        '
+        Me.Label184.AutoSize = True
+        Me.Label184.ForeColor = System.Drawing.Color.Blue
+        Me.Label184.Location = New System.Drawing.Point(6, 12)
+        Me.Label184.Name = "Label184"
+        Me.Label184.Size = New System.Drawing.Size(194, 12)
+        Me.Label184.TabIndex = 34
+        Me.Label184.Text = "4-13 意味もなく独り言や独り笑いをする"
+        '
+        'GroupBox49
+        '
+        Me.GroupBox49.Controls.Add(Me.ExRadioButton138)
+        Me.GroupBox49.Controls.Add(Me.ExRadioButton139)
+        Me.GroupBox49.Controls.Add(Me.ExRadioButton140)
+        Me.GroupBox49.Controls.Add(Me.Label185)
+        Me.GroupBox49.Location = New System.Drawing.Point(23, 462)
+        Me.GroupBox49.Name = "GroupBox49"
+        Me.GroupBox49.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox49.TabIndex = 49
+        Me.GroupBox49.TabStop = False
+        '
+        'Label185
+        '
+        Me.Label185.AutoSize = True
+        Me.Label185.ForeColor = System.Drawing.Color.Blue
+        Me.Label185.Location = New System.Drawing.Point(6, 12)
+        Me.Label185.Name = "Label185"
+        Me.Label185.Size = New System.Drawing.Size(97, 12)
+        Me.Label185.TabIndex = 33
+        Me.Label185.Text = "4-12 ひどい物忘れ"
+        '
+        'GroupBox35
+        '
+        Me.GroupBox35.Controls.Add(Me.ExRadioButton135)
+        Me.GroupBox35.Controls.Add(Me.ExRadioButton136)
+        Me.GroupBox35.Controls.Add(Me.ExRadioButton137)
+        Me.GroupBox35.Controls.Add(Me.Label186)
+        Me.GroupBox35.Location = New System.Drawing.Point(23, 422)
+        Me.GroupBox35.Name = "GroupBox35"
+        Me.GroupBox35.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox35.TabIndex = 48
+        Me.GroupBox35.TabStop = False
+        '
+        'Label186
+        '
+        Me.Label186.AutoSize = True
+        Me.Label186.ForeColor = System.Drawing.Color.Blue
+        Me.Label186.Location = New System.Drawing.Point(6, 12)
+        Me.Label186.Name = "Label186"
+        Me.Label186.Size = New System.Drawing.Size(191, 12)
+        Me.Label186.TabIndex = 32
+        Me.Label186.Text = "4-11 物を壊したり、衣類を破いたりする"
+        '
+        'GroupBox36
+        '
+        Me.GroupBox36.Controls.Add(Me.ExRadioButton132)
+        Me.GroupBox36.Controls.Add(Me.ExRadioButton133)
+        Me.GroupBox36.Controls.Add(Me.ExRadioButton134)
+        Me.GroupBox36.Controls.Add(Me.Label187)
+        Me.GroupBox36.Location = New System.Drawing.Point(23, 382)
+        Me.GroupBox36.Name = "GroupBox36"
+        Me.GroupBox36.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox36.TabIndex = 47
+        Me.GroupBox36.TabStop = False
+        '
+        'Label187
+        '
+        Me.Label187.AutoSize = True
+        Me.Label187.ForeColor = System.Drawing.Color.Blue
+        Me.Label187.Location = New System.Drawing.Point(6, 12)
+        Me.Label187.Name = "Label187"
+        Me.Label187.Size = New System.Drawing.Size(231, 12)
+        Me.Label187.TabIndex = 31
+        Me.Label187.Text = "4-10 いろいろなものを集めたり、無断でもってくる"
+        '
+        'GroupBox37
+        '
+        Me.GroupBox37.Controls.Add(Me.ExRadioButton129)
+        Me.GroupBox37.Controls.Add(Me.ExRadioButton130)
+        Me.GroupBox37.Controls.Add(Me.ExRadioButton131)
+        Me.GroupBox37.Controls.Add(Me.Label188)
+        Me.GroupBox37.Location = New System.Drawing.Point(23, 342)
+        Me.GroupBox37.Name = "GroupBox37"
+        Me.GroupBox37.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox37.TabIndex = 46
+        Me.GroupBox37.TabStop = False
+        '
+        'Label188
+        '
+        Me.Label188.AutoSize = True
+        Me.Label188.ForeColor = System.Drawing.Color.Blue
+        Me.Label188.Location = New System.Drawing.Point(6, 12)
+        Me.Label188.Name = "Label188"
+        Me.Label188.Size = New System.Drawing.Size(185, 12)
+        Me.Label188.TabIndex = 30
+        Me.Label188.Text = "4-9 一人で外に出たがり目が離せない"
+        '
+        'GroupBox38
+        '
+        Me.GroupBox38.Controls.Add(Me.ExRadioButton126)
+        Me.GroupBox38.Controls.Add(Me.ExRadioButton127)
+        Me.GroupBox38.Controls.Add(Me.ExRadioButton128)
+        Me.GroupBox38.Controls.Add(Me.Label189)
+        Me.GroupBox38.Location = New System.Drawing.Point(23, 302)
+        Me.GroupBox38.Name = "GroupBox38"
+        Me.GroupBox38.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox38.TabIndex = 45
+        Me.GroupBox38.TabStop = False
+        '
+        'Label189
+        '
+        Me.Label189.AutoSize = True
+        Me.Label189.ForeColor = System.Drawing.Color.Blue
+        Me.Label189.Location = New System.Drawing.Point(6, 12)
+        Me.Label189.Name = "Label189"
+        Me.Label189.Size = New System.Drawing.Size(195, 12)
+        Me.Label189.TabIndex = 29
+        Me.Label189.Text = "4-8 「家に帰る」等と言い落ち着きがない"
+        '
+        'GroupBox39
+        '
+        Me.GroupBox39.Controls.Add(Me.ExRadioButton123)
+        Me.GroupBox39.Controls.Add(Me.ExRadioButton124)
+        Me.GroupBox39.Controls.Add(Me.ExRadioButton125)
+        Me.GroupBox39.Controls.Add(Me.Label190)
+        Me.GroupBox39.Location = New System.Drawing.Point(23, 262)
+        Me.GroupBox39.Name = "GroupBox39"
+        Me.GroupBox39.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox39.TabIndex = 44
+        Me.GroupBox39.TabStop = False
+        '
+        'Label190
+        '
+        Me.Label190.AutoSize = True
+        Me.Label190.ForeColor = System.Drawing.Color.Blue
+        Me.Label190.Location = New System.Drawing.Point(6, 12)
+        Me.Label190.Name = "Label190"
+        Me.Label190.Size = New System.Drawing.Size(103, 12)
+        Me.Label190.TabIndex = 28
+        Me.Label190.Text = "4-7 介護に抵抗する"
+        '
+        'GroupBox40
+        '
+        Me.GroupBox40.Controls.Add(Me.ExRadioButton120)
+        Me.GroupBox40.Controls.Add(Me.ExRadioButton121)
+        Me.GroupBox40.Controls.Add(Me.ExRadioButton122)
+        Me.GroupBox40.Controls.Add(Me.Label191)
+        Me.GroupBox40.Location = New System.Drawing.Point(23, 222)
+        Me.GroupBox40.Name = "GroupBox40"
+        Me.GroupBox40.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox40.TabIndex = 43
+        Me.GroupBox40.TabStop = False
+        '
+        'Label191
+        '
+        Me.Label191.AutoSize = True
+        Me.Label191.ForeColor = System.Drawing.Color.Blue
+        Me.Label191.Location = New System.Drawing.Point(6, 12)
+        Me.Label191.Name = "Label191"
+        Me.Label191.Size = New System.Drawing.Size(82, 12)
+        Me.Label191.TabIndex = 27
+        Me.Label191.Text = "4-6 大声を出す"
+        '
+        'GroupBox41
+        '
+        Me.GroupBox41.Controls.Add(Me.ExRadioButton117)
+        Me.GroupBox41.Controls.Add(Me.ExRadioButton118)
+        Me.GroupBox41.Controls.Add(Me.ExRadioButton119)
+        Me.GroupBox41.Controls.Add(Me.Label192)
+        Me.GroupBox41.Location = New System.Drawing.Point(23, 182)
+        Me.GroupBox41.Name = "GroupBox41"
+        Me.GroupBox41.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox41.TabIndex = 42
+        Me.GroupBox41.TabStop = False
+        '
+        'Label192
+        '
+        Me.Label192.AutoSize = True
+        Me.Label192.ForeColor = System.Drawing.Color.Blue
+        Me.Label192.Location = New System.Drawing.Point(6, 12)
+        Me.Label192.Name = "Label192"
+        Me.Label192.Size = New System.Drawing.Size(120, 12)
+        Me.Label192.TabIndex = 26
+        Me.Label192.Text = "4-5 しつこく同じ話をする"
+        '
+        'GroupBox42
+        '
+        Me.GroupBox42.Controls.Add(Me.ExRadioButton114)
+        Me.GroupBox42.Controls.Add(Me.ExRadioButton115)
+        Me.GroupBox42.Controls.Add(Me.ExRadioButton116)
+        Me.GroupBox42.Controls.Add(Me.Label193)
+        Me.GroupBox42.Location = New System.Drawing.Point(23, 142)
+        Me.GroupBox42.Name = "GroupBox42"
+        Me.GroupBox42.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox42.TabIndex = 41
+        Me.GroupBox42.TabStop = False
+        '
+        'Label193
+        '
+        Me.Label193.AutoSize = True
+        Me.Label193.ForeColor = System.Drawing.Color.Blue
+        Me.Label193.Location = New System.Drawing.Point(6, 12)
+        Me.Label193.Name = "Label193"
+        Me.Label193.Size = New System.Drawing.Size(85, 12)
+        Me.Label193.TabIndex = 25
+        Me.Label193.Text = "4-4 昼夜の逆転"
+        '
+        'GroupBox43
+        '
+        Me.GroupBox43.Controls.Add(Me.ExRadioButton111)
+        Me.GroupBox43.Controls.Add(Me.ExRadioButton112)
+        Me.GroupBox43.Controls.Add(Me.ExRadioButton113)
+        Me.GroupBox43.Controls.Add(Me.Label194)
+        Me.GroupBox43.Location = New System.Drawing.Point(23, 102)
+        Me.GroupBox43.Name = "GroupBox43"
+        Me.GroupBox43.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox43.TabIndex = 40
+        Me.GroupBox43.TabStop = False
+        '
+        'Label194
+        '
+        Me.Label194.AutoSize = True
+        Me.Label194.ForeColor = System.Drawing.Color.Blue
+        Me.Label194.Location = New System.Drawing.Point(6, 12)
+        Me.Label194.Name = "Label194"
+        Me.Label194.Size = New System.Drawing.Size(227, 12)
+        Me.Label194.TabIndex = 24
+        Me.Label194.Text = "4-3 泣いたり、笑ったりして感情が不安定になる"
+        '
+        'GroupBox44
+        '
+        Me.GroupBox44.Controls.Add(Me.ExRadioButton108)
+        Me.GroupBox44.Controls.Add(Me.ExRadioButton109)
+        Me.GroupBox44.Controls.Add(Me.ExRadioButton110)
+        Me.GroupBox44.Controls.Add(Me.Label195)
+        Me.GroupBox44.Location = New System.Drawing.Point(23, 62)
+        Me.GroupBox44.Name = "GroupBox44"
+        Me.GroupBox44.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox44.TabIndex = 39
+        Me.GroupBox44.TabStop = False
+        '
+        'Label195
+        '
+        Me.Label195.AutoSize = True
+        Me.Label195.ForeColor = System.Drawing.Color.Blue
+        Me.Label195.Location = New System.Drawing.Point(6, 12)
+        Me.Label195.Name = "Label195"
+        Me.Label195.Size = New System.Drawing.Size(95, 12)
+        Me.Label195.TabIndex = 23
+        Me.Label195.Text = "4-2 作話をすること"
+        '
+        'GroupBox45
+        '
+        Me.GroupBox45.Controls.Add(Me.ExRadioButton105)
+        Me.GroupBox45.Controls.Add(Me.ExRadioButton106)
+        Me.GroupBox45.Controls.Add(Me.ExRadioButton107)
+        Me.GroupBox45.Controls.Add(Me.Label196)
+        Me.GroupBox45.Location = New System.Drawing.Point(23, 22)
+        Me.GroupBox45.Name = "GroupBox45"
+        Me.GroupBox45.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox45.TabIndex = 38
+        Me.GroupBox45.TabStop = False
+        '
+        'Label196
+        '
+        Me.Label196.AutoSize = True
+        Me.Label196.ForeColor = System.Drawing.Color.Blue
+        Me.Label196.Location = New System.Drawing.Point(6, 12)
+        Me.Label196.Name = "Label196"
+        Me.Label196.Size = New System.Drawing.Size(179, 12)
+        Me.Label196.TabIndex = 22
+        Me.Label196.Text = "4-1 物を盗られたなどと被害的になる"
+        '
+        'bsTabP5
+        '
+        Me.bsTabP5.BackColor = System.Drawing.SystemColors.Control
+        Me.bsTabP5.Controls.Add(Me.GroupBox50)
+        Me.bsTabP5.Controls.Add(Me.GroupBox51)
+        Me.bsTabP5.Controls.Add(Me.GroupBox52)
+        Me.bsTabP5.Controls.Add(Me.GroupBox53)
+        Me.bsTabP5.Controls.Add(Me.GroupBox54)
+        Me.bsTabP5.Controls.Add(Me.GroupBox55)
+        Me.bsTabP5.Location = New System.Drawing.Point(4, 22)
+        Me.bsTabP5.Name = "bsTabP5"
+        Me.bsTabP5.Size = New System.Drawing.Size(802, 671)
+        Me.bsTabP5.TabIndex = 4
+        Me.bsTabP5.Text = "５．社会生活への適応"
+        '
+        'GroupBox50
+        '
+        Me.GroupBox50.Controls.Add(Me.ExRadioButton160)
+        Me.GroupBox50.Controls.Add(Me.ExRadioButton161)
+        Me.GroupBox50.Controls.Add(Me.ExRadioButton162)
+        Me.GroupBox50.Controls.Add(Me.Label200)
+        Me.GroupBox50.Location = New System.Drawing.Point(23, 166)
+        Me.GroupBox50.Name = "GroupBox50"
+        Me.GroupBox50.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox50.TabIndex = 51
+        Me.GroupBox50.TabStop = False
+        '
+        'Label200
+        '
+        Me.Label200.AutoSize = True
+        Me.Label200.ForeColor = System.Drawing.Color.Blue
+        Me.Label200.Location = New System.Drawing.Point(6, 12)
+        Me.Label200.Name = "Label200"
+        Me.Label200.Size = New System.Drawing.Size(107, 12)
+        Me.Label200.TabIndex = 45
+        Me.Label200.Text = "5-4 集団への不適応"
+        '
+        'GroupBox51
+        '
+        Me.GroupBox51.Controls.Add(Me.ExRadioButton159)
+        Me.GroupBox51.Controls.Add(Me.ExRadioButton156)
+        Me.GroupBox51.Controls.Add(Me.ExRadioButton157)
+        Me.GroupBox51.Controls.Add(Me.ExRadioButton158)
+        Me.GroupBox51.Controls.Add(Me.Label201)
+        Me.GroupBox51.Location = New System.Drawing.Point(23, 118)
+        Me.GroupBox51.Name = "GroupBox51"
+        Me.GroupBox51.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox51.TabIndex = 50
+        Me.GroupBox51.TabStop = False
+        '
+        'Label201
+        '
+        Me.Label201.AutoSize = True
+        Me.Label201.ForeColor = System.Drawing.Color.Blue
+        Me.Label201.Location = New System.Drawing.Point(6, 12)
+        Me.Label201.Name = "Label201"
+        Me.Label201.Size = New System.Drawing.Size(109, 12)
+        Me.Label201.TabIndex = 44
+        Me.Label201.Text = "5-3 日常の意思決定"
+        '
+        'GroupBox52
+        '
+        Me.GroupBox52.Controls.Add(Me.ExRadioButton167)
+        Me.GroupBox52.Controls.Add(Me.ExRadioButton168)
+        Me.GroupBox52.Controls.Add(Me.ExRadioButton169)
+        Me.GroupBox52.Controls.Add(Me.ExRadioButton170)
+        Me.GroupBox52.Controls.Add(Me.Label198)
+        Me.GroupBox52.Location = New System.Drawing.Point(23, 262)
+        Me.GroupBox52.Name = "GroupBox52"
+        Me.GroupBox52.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox52.TabIndex = 53
+        Me.GroupBox52.TabStop = False
+        '
+        'Label198
+        '
+        Me.Label198.AutoSize = True
+        Me.Label198.ForeColor = System.Drawing.Color.Blue
+        Me.Label198.Location = New System.Drawing.Point(6, 12)
+        Me.Label198.Name = "Label198"
+        Me.Label198.Size = New System.Drawing.Size(85, 12)
+        Me.Label198.TabIndex = 47
+        Me.Label198.Text = "5-6 簡単な調理"
+        '
+        'GroupBox53
+        '
+        Me.GroupBox53.Controls.Add(Me.ExRadioButton153)
+        Me.GroupBox53.Controls.Add(Me.ExRadioButton154)
+        Me.GroupBox53.Controls.Add(Me.ExRadioButton155)
+        Me.GroupBox53.Controls.Add(Me.Label202)
+        Me.GroupBox53.Location = New System.Drawing.Point(23, 70)
+        Me.GroupBox53.Name = "GroupBox53"
+        Me.GroupBox53.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox53.TabIndex = 49
+        Me.GroupBox53.TabStop = False
+        '
+        'Label202
+        '
+        Me.Label202.AutoSize = True
+        Me.Label202.ForeColor = System.Drawing.Color.Blue
+        Me.Label202.Location = New System.Drawing.Point(6, 12)
+        Me.Label202.Name = "Label202"
+        Me.Label202.Size = New System.Drawing.Size(85, 12)
+        Me.Label202.TabIndex = 43
+        Me.Label202.Text = "5-2 金銭の管理"
+        '
+        'GroupBox54
+        '
+        Me.GroupBox54.Controls.Add(Me.ExRadioButton163)
+        Me.GroupBox54.Controls.Add(Me.ExRadioButton164)
+        Me.GroupBox54.Controls.Add(Me.ExRadioButton165)
+        Me.GroupBox54.Controls.Add(Me.ExRadioButton166)
+        Me.GroupBox54.Controls.Add(Me.Label199)
+        Me.GroupBox54.Location = New System.Drawing.Point(23, 214)
+        Me.GroupBox54.Name = "GroupBox54"
+        Me.GroupBox54.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox54.TabIndex = 52
+        Me.GroupBox54.TabStop = False
+        '
+        'Label199
+        '
+        Me.Label199.AutoSize = True
+        Me.Label199.ForeColor = System.Drawing.Color.Blue
+        Me.Label199.Location = New System.Drawing.Point(6, 12)
+        Me.Label199.Name = "Label199"
+        Me.Label199.Size = New System.Drawing.Size(61, 12)
+        Me.Label199.TabIndex = 46
+        Me.Label199.Text = "5-5 買い物"
+        '
+        'GroupBox55
+        '
+        Me.GroupBox55.Controls.Add(Me.ExRadioButton150)
+        Me.GroupBox55.Controls.Add(Me.ExRadioButton151)
+        Me.GroupBox55.Controls.Add(Me.ExRadioButton152)
+        Me.GroupBox55.Controls.Add(Me.Label203)
+        Me.GroupBox55.Location = New System.Drawing.Point(23, 22)
+        Me.GroupBox55.Name = "GroupBox55"
+        Me.GroupBox55.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox55.TabIndex = 48
+        Me.GroupBox55.TabStop = False
+        '
+        'Label203
+        '
+        Me.Label203.AutoSize = True
+        Me.Label203.ForeColor = System.Drawing.Color.Blue
+        Me.Label203.Location = New System.Drawing.Point(6, 12)
+        Me.Label203.Name = "Label203"
+        Me.Label203.Size = New System.Drawing.Size(73, 12)
+        Me.Label203.TabIndex = 42
+        Me.Label203.Text = "5-1 薬の内薬"
+        '
+        'bsTabP6
+        '
+        Me.bsTabP6.BackColor = System.Drawing.SystemColors.Control
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox23)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox22)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox21)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox20)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox16)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox17)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox18)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox19)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox15)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox14)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox13)
+        Me.bsTabP6.Controls.Add(Me.ExCheckBox12)
+        Me.bsTabP6.Controls.Add(Me.Label204)
+        Me.bsTabP6.Controls.Add(Me.Label197)
+        Me.bsTabP6.Controls.Add(Me.Label181)
+        Me.bsTabP6.Controls.Add(Me.Label205)
+        Me.bsTabP6.Location = New System.Drawing.Point(4, 22)
+        Me.bsTabP6.Name = "bsTabP6"
+        Me.bsTabP6.Size = New System.Drawing.Size(802, 671)
+        Me.bsTabP6.TabIndex = 5
+        Me.bsTabP6.Text = "６．特別な医療"
+        '
+        'Label204
+        '
+        Me.Label204.AutoSize = True
+        Me.Label204.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label204.ForeColor = System.Drawing.Color.Blue
+        Me.Label204.Location = New System.Drawing.Point(215, 198)
+        Me.Label204.Name = "Label204"
+        Me.Label204.Size = New System.Drawing.Size(63, 12)
+        Me.Label204.TabIndex = 63
+        Me.Label204.Text = "特別な対応"
+        '
+        'Label197
+        '
+        Me.Label197.AutoSize = True
+        Me.Label197.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label197.ForeColor = System.Drawing.Color.Blue
+        Me.Label197.Location = New System.Drawing.Point(215, 41)
+        Me.Label197.Name = "Label197"
+        Me.Label197.Size = New System.Drawing.Size(53, 12)
+        Me.Label197.TabIndex = 62
+        Me.Label197.Text = "処置内容"
+        '
+        'Label181
+        '
+        Me.Label181.AutoSize = True
+        Me.Label181.ForeColor = System.Drawing.Color.Blue
+        Me.Label181.Location = New System.Drawing.Point(111, 62)
+        Me.Label181.Name = "Label181"
+        Me.Label181.Size = New System.Drawing.Size(73, 12)
+        Me.Label181.TabIndex = 61
+        Me.Label181.Text = "(複数回答可)"
+        '
+        'Label205
+        '
+        Me.Label205.AutoSize = True
+        Me.Label205.ForeColor = System.Drawing.Color.Blue
+        Me.Label205.Location = New System.Drawing.Point(45, 41)
+        Me.Label205.Name = "Label205"
+        Me.Label205.Size = New System.Drawing.Size(139, 12)
+        Me.Label205.TabIndex = 60
+        Me.Label205.Text = "6 過去14日間に受けた医療"
+        '
+        'bsTabP7
+        '
+        Me.bsTabP7.BackColor = System.Drawing.SystemColors.Control
+        Me.bsTabP7.Controls.Add(Me.GroupBox57)
+        Me.bsTabP7.Controls.Add(Me.GroupBox56)
+        Me.bsTabP7.Controls.Add(Me.Label210)
+        Me.bsTabP7.Location = New System.Drawing.Point(4, 22)
+        Me.bsTabP7.Name = "bsTabP7"
+        Me.bsTabP7.Size = New System.Drawing.Size(802, 671)
+        Me.bsTabP7.TabIndex = 6
+        Me.bsTabP7.Text = "７．日常生活自立度"
+        '
+        'GroupBox57
+        '
+        Me.GroupBox57.Controls.Add(Me.ExRadioButton181)
+        Me.GroupBox57.Controls.Add(Me.ExRadioButton182)
+        Me.GroupBox57.Controls.Add(Me.ExRadioButton183)
+        Me.GroupBox57.Controls.Add(Me.ExRadioButton184)
+        Me.GroupBox57.Controls.Add(Me.ExRadioButton185)
+        Me.GroupBox57.Controls.Add(Me.ExRadioButton186)
+        Me.GroupBox57.Controls.Add(Me.ExRadioButton187)
+        Me.GroupBox57.Controls.Add(Me.ExRadioButton188)
+        Me.GroupBox57.Controls.Add(Me.Label207)
+        Me.GroupBox57.Location = New System.Drawing.Point(47, 125)
+        Me.GroupBox57.Name = "GroupBox57"
+        Me.GroupBox57.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox57.TabIndex = 65
+        Me.GroupBox57.TabStop = False
+        '
+        'Label207
+        '
+        Me.Label207.AutoSize = True
+        Me.Label207.ForeColor = System.Drawing.Color.Blue
+        Me.Label207.Location = New System.Drawing.Point(6, 12)
+        Me.Label207.Name = "Label207"
+        Me.Label207.Size = New System.Drawing.Size(171, 12)
+        Me.Label207.TabIndex = 63
+        Me.Label207.Text = "認知症高齢者の日常生活自立度"
+        '
+        'GroupBox56
+        '
+        Me.GroupBox56.Controls.Add(Me.ExRadioButton179)
+        Me.GroupBox56.Controls.Add(Me.ExRadioButton178)
+        Me.GroupBox56.Controls.Add(Me.ExRadioButton177)
+        Me.GroupBox56.Controls.Add(Me.ExRadioButton176)
+        Me.GroupBox56.Controls.Add(Me.ExRadioButton175)
+        Me.GroupBox56.Controls.Add(Me.ExRadioButton174)
+        Me.GroupBox56.Controls.Add(Me.ExRadioButton173)
+        Me.GroupBox56.Controls.Add(Me.ExRadioButton172)
+        Me.GroupBox56.Controls.Add(Me.ExRadioButton171)
+        Me.GroupBox56.Controls.Add(Me.Label209)
+        Me.GroupBox56.Location = New System.Drawing.Point(47, 74)
+        Me.GroupBox56.Name = "GroupBox56"
+        Me.GroupBox56.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox56.TabIndex = 64
+        Me.GroupBox56.TabStop = False
+        '
+        'Label209
+        '
+        Me.Label209.AutoSize = True
+        Me.Label209.ForeColor = System.Drawing.Color.Blue
+        Me.Label209.Location = New System.Drawing.Point(6, 12)
+        Me.Label209.Name = "Label209"
+        Me.Label209.Size = New System.Drawing.Size(221, 12)
+        Me.Label209.TabIndex = 61
+        Me.Label209.Text = "障害高齢者の日常生活自立度（寝たきり度）"
+        '
+        'Label210
+        '
+        Me.Label210.AutoSize = True
+        Me.Label210.ForeColor = System.Drawing.Color.Blue
+        Me.Label210.Location = New System.Drawing.Point(45, 41)
+        Me.Label210.Name = "Label210"
+        Me.Label210.Size = New System.Drawing.Size(99, 12)
+        Me.Label210.TabIndex = 60
+        Me.Label210.Text = "7 日常生活自立度"
+        '
+        'ListingDataGridViewTextBoxColumn
+        '
+        Me.ListingDataGridViewTextBoxColumn.DataPropertyName = "Listing"
+        Me.ListingDataGridViewTextBoxColumn.HeaderText = "Listing"
+        Me.ListingDataGridViewTextBoxColumn.Name = "ListingDataGridViewTextBoxColumn"
+        '
+        'ContentDataGridViewTextBoxColumn
+        '
+        Me.ContentDataGridViewTextBoxColumn.DataPropertyName = "Content"
+        Me.ContentDataGridViewTextBoxColumn.HeaderText = "Content"
+        Me.ContentDataGridViewTextBoxColumn.Name = "ContentDataGridViewTextBoxColumn"
+        '
+        'spText4
+        '
+        Me.spText4.InputType = 0
+        Me.spText4.LimitLengthByte = 100
+        Me.spText4.Location = New System.Drawing.Point(37, 685)
+        Me.spText4.Name = "spText4"
+        Me.spText4.Size = New System.Drawing.Size(733, 19)
+        Me.spText4.TabIndex = 210
+        '
+        'spText3
+        '
+        Me.spText3.InputType = 0
+        Me.spText3.LimitLengthByte = 100
+        Me.spText3.Location = New System.Drawing.Point(37, 666)
+        Me.spText3.Name = "spText3"
+        Me.spText3.Size = New System.Drawing.Size(733, 19)
+        Me.spText3.TabIndex = 209
+        '
+        'spText2
+        '
+        Me.spText2.InputType = 0
+        Me.spText2.LimitLengthByte = 100
+        Me.spText2.Location = New System.Drawing.Point(37, 647)
+        Me.spText2.Name = "spText2"
+        Me.spText2.Size = New System.Drawing.Size(733, 19)
+        Me.spText2.TabIndex = 208
+        '
+        'spText1
+        '
+        Me.spText1.InputType = 0
+        Me.spText1.LimitLengthByte = 100
+        Me.spText1.Location = New System.Drawing.Point(37, 628)
+        Me.spText1.Name = "spText1"
+        Me.spText1.Size = New System.Drawing.Size(733, 19)
+        Me.spText1.TabIndex = 207
+        '
+        'Gentxt1
+        '
+        Me.Gentxt1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Gentxt1.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Gentxt1.InputType = 0
+        Me.Gentxt1.LimitLengthByte = 100
+        Me.Gentxt1.Location = New System.Drawing.Point(161, 455)
+        Me.Gentxt1.Name = "Gentxt1"
+        Me.Gentxt1.Size = New System.Drawing.Size(528, 14)
+        Me.Gentxt1.TabIndex = 206
+        '
+        'houseTextBox
+        '
+        Me.houseTextBox.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.houseTextBox.InputType = 0
+        Me.houseTextBox.LimitLengthByte = 34
+        Me.houseTextBox.Location = New System.Drawing.Point(280, 87)
+        Me.houseTextBox.Name = "houseTextBox"
+        Me.houseTextBox.Size = New System.Drawing.Size(208, 20)
+        Me.houseTextBox.TabIndex = 12
+        '
+        'facilityTel3
+        '
+        Me.facilityTel3.InputType = 1
+        Me.facilityTel3.LimitLengthByte = 4
+        Me.facilityTel3.Location = New System.Drawing.Point(670, 1)
+        Me.facilityTel3.Name = "facilityTel3"
+        Me.facilityTel3.Size = New System.Drawing.Size(63, 19)
+        Me.facilityTel3.TabIndex = 40
+        '
+        'facilityTel2
+        '
+        Me.facilityTel2.InputType = 1
+        Me.facilityTel2.LimitLengthByte = 4
+        Me.facilityTel2.Location = New System.Drawing.Point(589, 1)
+        Me.facilityTel2.Name = "facilityTel2"
+        Me.facilityTel2.Size = New System.Drawing.Size(63, 19)
+        Me.facilityTel2.TabIndex = 40
+        '
+        'facilityTel1
+        '
+        Me.facilityTel1.InputType = 1
+        Me.facilityTel1.LimitLengthByte = 4
+        Me.facilityTel1.Location = New System.Drawing.Point(508, 1)
+        Me.facilityTel1.Name = "facilityTel1"
+        Me.facilityTel1.Size = New System.Drawing.Size(63, 19)
+        Me.facilityTel1.TabIndex = 40
+        Me.facilityTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'facilityAddress
+        '
+        Me.facilityAddress.InputType = 0
+        Me.facilityAddress.LimitLengthByte = 60
+        Me.facilityAddress.Location = New System.Drawing.Point(156, 1)
+        Me.facilityAddress.Name = "facilityAddress"
+        Me.facilityAddress.Size = New System.Drawing.Size(313, 19)
+        Me.facilityAddress.TabIndex = 46
+        '
+        'facilityPostCode2
+        '
+        Me.facilityPostCode2.InputType = 1
+        Me.facilityPostCode2.LimitLengthByte = 4
+        Me.facilityPostCode2.Location = New System.Drawing.Point(83, 1)
+        Me.facilityPostCode2.Name = "facilityPostCode2"
+        Me.facilityPostCode2.Size = New System.Drawing.Size(55, 19)
+        Me.facilityPostCode2.TabIndex = 40
+        '
+        'facilityPostCode1
+        '
+        Me.facilityPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.facilityPostCode1.InputType = 1
+        Me.facilityPostCode1.LimitLengthByte = 3
+        Me.facilityPostCode1.Location = New System.Drawing.Point(21, 1)
+        Me.facilityPostCode1.Name = "facilityPostCode1"
+        Me.facilityPostCode1.Size = New System.Drawing.Size(46, 19)
+        Me.facilityPostCode1.TabIndex = 40
+        '
+        'facilityNameBox
+        '
+        Me.facilityNameBox.InputType = 0
+        Me.facilityNameBox.LimitLengthByte = 100
+        Me.facilityNameBox.Location = New System.Drawing.Point(54, 1)
+        Me.facilityNameBox.Name = "facilityNameBox"
+        Me.facilityNameBox.Size = New System.Drawing.Size(254, 19)
+        Me.facilityNameBox.TabIndex = 34
+        '
+        'Gentxt2
+        '
+        Me.Gentxt2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Gentxt2.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Gentxt2.InputType = 0
+        Me.Gentxt2.LimitLengthByte = 100
+        Me.Gentxt2.Location = New System.Drawing.Point(192, 1)
+        Me.Gentxt2.Name = "Gentxt2"
+        Me.Gentxt2.Size = New System.Drawing.Size(460, 14)
+        Me.Gentxt2.TabIndex = 207
+        '
+        'txtNum20
+        '
+        Me.txtNum20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum20.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum20.InputType = 0
+        Me.txtNum20.LimitLengthByte = 100
+        Me.txtNum20.Location = New System.Drawing.Point(657, 147)
+        Me.txtNum20.Name = "txtNum20"
+        Me.txtNum20.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum20.TabIndex = 215
+        '
+        'txtNum19
+        '
+        Me.txtNum19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum19.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum19.InputType = 0
+        Me.txtNum19.LimitLengthByte = 100
+        Me.txtNum19.Location = New System.Drawing.Point(657, 131)
+        Me.txtNum19.Name = "txtNum19"
+        Me.txtNum19.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum19.TabIndex = 214
+        '
+        'txtNum18
+        '
+        Me.txtNum18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum18.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum18.InputType = 0
+        Me.txtNum18.LimitLengthByte = 100
+        Me.txtNum18.Location = New System.Drawing.Point(657, 115)
+        Me.txtNum18.Name = "txtNum18"
+        Me.txtNum18.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum18.TabIndex = 213
+        '
+        'txtNum17
+        '
+        Me.txtNum17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum17.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum17.InputType = 0
+        Me.txtNum17.LimitLengthByte = 100
+        Me.txtNum17.Location = New System.Drawing.Point(657, 99)
+        Me.txtNum17.Name = "txtNum17"
+        Me.txtNum17.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum17.TabIndex = 212
+        '
+        'txtNum16
+        '
+        Me.txtNum16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum16.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum16.InputType = 0
+        Me.txtNum16.LimitLengthByte = 100
+        Me.txtNum16.Location = New System.Drawing.Point(657, 83)
+        Me.txtNum16.Name = "txtNum16"
+        Me.txtNum16.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum16.TabIndex = 211
+        '
+        'txtNum15
+        '
+        Me.txtNum15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum15.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum15.InputType = 0
+        Me.txtNum15.LimitLengthByte = 100
+        Me.txtNum15.Location = New System.Drawing.Point(657, 67)
+        Me.txtNum15.Name = "txtNum15"
+        Me.txtNum15.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum15.TabIndex = 210
+        '
+        'txtNum14
+        '
+        Me.txtNum14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum14.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum14.InputType = 0
+        Me.txtNum14.LimitLengthByte = 100
+        Me.txtNum14.Location = New System.Drawing.Point(657, 51)
+        Me.txtNum14.Name = "txtNum14"
+        Me.txtNum14.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum14.TabIndex = 209
+        '
+        'txtNum12
+        '
+        Me.txtNum12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum12.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum12.InputType = 0
+        Me.txtNum12.LimitLengthByte = 100
+        Me.txtNum12.Location = New System.Drawing.Point(657, 19)
+        Me.txtNum12.Name = "txtNum12"
+        Me.txtNum12.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum12.TabIndex = 208
+        '
+        'txtNum11
+        '
+        Me.txtNum11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum11.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum11.InputType = 0
+        Me.txtNum11.LimitLengthByte = 100
+        Me.txtNum11.Location = New System.Drawing.Point(657, 3)
+        Me.txtNum11.Name = "txtNum11"
+        Me.txtNum11.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum11.TabIndex = 207
+        '
+        'txtNum21
+        '
+        Me.txtNum21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum21.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum21.InputType = 0
+        Me.txtNum21.LimitLengthByte = 100
+        Me.txtNum21.Location = New System.Drawing.Point(285, 163)
+        Me.txtNum21.Name = "txtNum21"
+        Me.txtNum21.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum21.TabIndex = 206
+        '
+        'txtNum10
+        '
+        Me.txtNum10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum10.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum10.InputType = 0
+        Me.txtNum10.LimitLengthByte = 100
+        Me.txtNum10.Location = New System.Drawing.Point(285, 147)
+        Me.txtNum10.Name = "txtNum10"
+        Me.txtNum10.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum10.TabIndex = 205
+        '
+        'txtNum9
+        '
+        Me.txtNum9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum9.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum9.InputType = 0
+        Me.txtNum9.LimitLengthByte = 100
+        Me.txtNum9.Location = New System.Drawing.Point(285, 131)
+        Me.txtNum9.Name = "txtNum9"
+        Me.txtNum9.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum9.TabIndex = 204
+        '
+        'txtNum8
+        '
+        Me.txtNum8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum8.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum8.InputType = 0
+        Me.txtNum8.LimitLengthByte = 100
+        Me.txtNum8.Location = New System.Drawing.Point(285, 115)
+        Me.txtNum8.Name = "txtNum8"
+        Me.txtNum8.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum8.TabIndex = 203
+        '
+        'txtNum7
+        '
+        Me.txtNum7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum7.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum7.InputType = 0
+        Me.txtNum7.LimitLengthByte = 100
+        Me.txtNum7.Location = New System.Drawing.Point(285, 99)
+        Me.txtNum7.Name = "txtNum7"
+        Me.txtNum7.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum7.TabIndex = 202
+        '
+        'txtNum6
+        '
+        Me.txtNum6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum6.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum6.InputType = 0
+        Me.txtNum6.LimitLengthByte = 100
+        Me.txtNum6.Location = New System.Drawing.Point(285, 83)
+        Me.txtNum6.Name = "txtNum6"
+        Me.txtNum6.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum6.TabIndex = 201
+        '
+        'txtNum5
+        '
+        Me.txtNum5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum5.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum5.InputType = 0
+        Me.txtNum5.LimitLengthByte = 100
+        Me.txtNum5.Location = New System.Drawing.Point(285, 67)
+        Me.txtNum5.Name = "txtNum5"
+        Me.txtNum5.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum5.TabIndex = 200
+        '
+        'txtNum4
+        '
+        Me.txtNum4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum4.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum4.InputType = 0
+        Me.txtNum4.LimitLengthByte = 100
+        Me.txtNum4.Location = New System.Drawing.Point(285, 51)
+        Me.txtNum4.Name = "txtNum4"
+        Me.txtNum4.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum4.TabIndex = 199
+        '
+        'txtNum3
+        '
+        Me.txtNum3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum3.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum3.InputType = 0
+        Me.txtNum3.LimitLengthByte = 100
+        Me.txtNum3.Location = New System.Drawing.Point(285, 35)
+        Me.txtNum3.Name = "txtNum3"
+        Me.txtNum3.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum3.TabIndex = 198
+        '
+        'txtNum2
+        '
+        Me.txtNum2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum2.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum2.InputType = 0
+        Me.txtNum2.LimitLengthByte = 100
+        Me.txtNum2.Location = New System.Drawing.Point(285, 19)
+        Me.txtNum2.Name = "txtNum2"
+        Me.txtNum2.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum2.TabIndex = 197
+        '
+        'txtNum1
+        '
+        Me.txtNum1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum1.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum1.InputType = 0
+        Me.txtNum1.LimitLengthByte = 100
+        Me.txtNum1.Location = New System.Drawing.Point(285, 3)
+        Me.txtNum1.Name = "txtNum1"
+        Me.txtNum1.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum1.TabIndex = 196
+        '
+        'namBox
+        '
+        Me.namBox.InputType = 0
+        Me.namBox.LimitLengthByte = 100
+        Me.namBox.Location = New System.Drawing.Point(43, 1)
+        Me.namBox.Name = "namBox"
+        Me.namBox.Size = New System.Drawing.Size(105, 19)
+        Me.namBox.TabIndex = 48
+        '
+        'familyTel3
+        '
+        Me.familyTel3.InputType = 1
+        Me.familyTel3.LimitLengthByte = 4
+        Me.familyTel3.Location = New System.Drawing.Point(670, 1)
+        Me.familyTel3.Name = "familyTel3"
+        Me.familyTel3.Size = New System.Drawing.Size(63, 19)
+        Me.familyTel3.TabIndex = 45
+        '
+        'familyTel2
+        '
+        Me.familyTel2.InputType = 1
+        Me.familyTel2.LimitLengthByte = 4
+        Me.familyTel2.Location = New System.Drawing.Point(589, 1)
+        Me.familyTel2.Name = "familyTel2"
+        Me.familyTel2.Size = New System.Drawing.Size(63, 19)
+        Me.familyTel2.TabIndex = 44
+        '
+        'familyTel1
+        '
+        Me.familyTel1.InputType = 1
+        Me.familyTel1.LimitLengthByte = 4
+        Me.familyTel1.Location = New System.Drawing.Point(508, 1)
+        Me.familyTel1.Name = "familyTel1"
+        Me.familyTel1.Size = New System.Drawing.Size(63, 19)
+        Me.familyTel1.TabIndex = 43
+        '
+        'familyAddress
+        '
+        Me.familyAddress.InputType = 0
+        Me.familyAddress.LimitLengthByte = 60
+        Me.familyAddress.Location = New System.Drawing.Point(156, 1)
+        Me.familyAddress.Name = "familyAddress"
+        Me.familyAddress.Size = New System.Drawing.Size(313, 19)
+        Me.familyAddress.TabIndex = 42
+        '
+        'familyPostCode2
+        '
+        Me.familyPostCode2.InputType = 1
+        Me.familyPostCode2.LimitLengthByte = 4
+        Me.familyPostCode2.Location = New System.Drawing.Point(83, 1)
+        Me.familyPostCode2.Name = "familyPostCode2"
+        Me.familyPostCode2.Size = New System.Drawing.Size(55, 19)
+        Me.familyPostCode2.TabIndex = 41
+        '
+        'familyPostCode1
+        '
+        Me.familyPostCode1.InputType = 1
+        Me.familyPostCode1.LimitLengthByte = 3
+        Me.familyPostCode1.Location = New System.Drawing.Point(21, 1)
+        Me.familyPostCode1.Name = "familyPostCode1"
+        Me.familyPostCode1.Size = New System.Drawing.Size(46, 19)
+        Me.familyPostCode1.TabIndex = 40
+        '
+        'currentTel3
+        '
+        Me.currentTel3.InputType = 1
+        Me.currentTel3.LimitLengthByte = 4
+        Me.currentTel3.Location = New System.Drawing.Point(670, 1)
+        Me.currentTel3.Name = "currentTel3"
+        Me.currentTel3.Size = New System.Drawing.Size(63, 19)
+        Me.currentTel3.TabIndex = 38
+        '
+        'currentTel2
+        '
+        Me.currentTel2.InputType = 1
+        Me.currentTel2.LimitLengthByte = 4
+        Me.currentTel2.Location = New System.Drawing.Point(589, 1)
+        Me.currentTel2.Name = "currentTel2"
+        Me.currentTel2.Size = New System.Drawing.Size(63, 19)
+        Me.currentTel2.TabIndex = 37
+        '
+        'currentTel1
+        '
+        Me.currentTel1.InputType = 1
+        Me.currentTel1.LimitLengthByte = 4
+        Me.currentTel1.Location = New System.Drawing.Point(508, 1)
+        Me.currentTel1.Name = "currentTel1"
+        Me.currentTel1.Size = New System.Drawing.Size(63, 19)
+        Me.currentTel1.TabIndex = 36
+        Me.currentTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'currentAddress
+        '
+        Me.currentAddress.InputType = 0
+        Me.currentAddress.LimitLengthByte = 60
+        Me.currentAddress.Location = New System.Drawing.Point(156, 1)
+        Me.currentAddress.Name = "currentAddress"
+        Me.currentAddress.Size = New System.Drawing.Size(313, 19)
+        Me.currentAddress.TabIndex = 35
+        '
+        'currentPostCode2
+        '
+        Me.currentPostCode2.InputType = 1
+        Me.currentPostCode2.LimitLengthByte = 4
+        Me.currentPostCode2.Location = New System.Drawing.Point(83, 1)
+        Me.currentPostCode2.Name = "currentPostCode2"
+        Me.currentPostCode2.Size = New System.Drawing.Size(55, 19)
+        Me.currentPostCode2.TabIndex = 34
+        '
+        'currentPostCode1
+        '
+        Me.currentPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.currentPostCode1.InputType = 1
+        Me.currentPostCode1.LimitLengthByte = 3
+        Me.currentPostCode1.Location = New System.Drawing.Point(21, 1)
+        Me.currentPostCode1.Name = "currentPostCode1"
+        Me.currentPostCode1.Size = New System.Drawing.Size(46, 19)
+        Me.currentPostCode1.TabIndex = 32
+        '
+        'dgvNumInput
+        '
+        Me.dgvNumInput.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvNumInput.Location = New System.Drawing.Point(15, 10)
+        Me.dgvNumInput.Name = "dgvNumInput"
+        Me.dgvNumInput.RowTemplate.Height = 21
+        Me.dgvNumInput.Size = New System.Drawing.Size(493, 34)
+        Me.dgvNumInput.TabIndex = 0
+        '
+        'SpDgv1
+        '
+        Me.SpDgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv1.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv1.Name = "SpDgv1"
+        Me.SpDgv1.RowTemplate.Height = 21
+        Me.SpDgv1.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv1.TabIndex = 17
+        '
+        'SpDgv2
+        '
+        Me.SpDgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv2.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv2.Name = "SpDgv2"
+        Me.SpDgv2.RowTemplate.Height = 21
+        Me.SpDgv2.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv2.TabIndex = 35
+        '
+        'SpDgv3
+        '
+        Me.SpDgv3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv3.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv3.Name = "SpDgv3"
+        Me.SpDgv3.RowTemplate.Height = 21
+        Me.SpDgv3.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv3.TabIndex = 35
+        '
+        'SpDgv4
+        '
+        Me.SpDgv4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv4.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv4.Name = "SpDgv4"
+        Me.SpDgv4.RowTemplate.Height = 21
+        Me.SpDgv4.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv4.TabIndex = 35
+        '
+        'SpDgv5
+        '
+        Me.SpDgv5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv5.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv5.Name = "SpDgv5"
+        Me.SpDgv5.RowTemplate.Height = 21
+        Me.SpDgv5.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv5.TabIndex = 55
+        '
+        'SpDgv6
+        '
+        Me.SpDgv6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv6.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv6.Name = "SpDgv6"
+        Me.SpDgv6.RowTemplate.Height = 21
+        Me.SpDgv6.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv6.TabIndex = 66
+        '
+        'SpDgv7
+        '
+        Me.SpDgv7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv7.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv7.Name = "SpDgv7"
+        Me.SpDgv7.RowTemplate.Height = 21
+        Me.SpDgv7.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv7.TabIndex = 66
+        '
         'ExRadioButton35
         '
         Me.ExRadioButton35.AutoSize = True
@@ -4091,30 +5538,6 @@ Partial Class 認定調査票
         Me.ExRadioButton39.TabStop = True
         Me.ExRadioButton39.Text = "1.普通"
         Me.ExRadioButton39.UseVisualStyleBackColor = True
-        '
-        'Label131
-        '
-        Me.Label131.AutoSize = True
-        Me.Label131.ForeColor = System.Drawing.Color.Blue
-        Me.Label131.Location = New System.Drawing.Point(6, 15)
-        Me.Label131.Name = "Label131"
-        Me.Label131.Size = New System.Drawing.Size(94, 12)
-        Me.Label131.TabIndex = 16
-        Me.Label131.Text = "1-13 聴力について"
-        '
-        'GroupBox12
-        '
-        Me.GroupBox12.Controls.Add(Me.ExRadioButton34)
-        Me.GroupBox12.Controls.Add(Me.ExRadioButton33)
-        Me.GroupBox12.Controls.Add(Me.ExRadioButton32)
-        Me.GroupBox12.Controls.Add(Me.ExRadioButton31)
-        Me.GroupBox12.Controls.Add(Me.ExRadioButton30)
-        Me.GroupBox12.Controls.Add(Me.Label132)
-        Me.GroupBox12.Location = New System.Drawing.Point(23, 462)
-        Me.GroupBox12.Name = "GroupBox12"
-        Me.GroupBox12.Size = New System.Drawing.Size(358, 133)
-        Me.GroupBox12.TabIndex = 29
-        Me.GroupBox12.TabStop = False
         '
         'ExRadioButton34
         '
@@ -4171,28 +5594,6 @@ Partial Class 認定調査票
         Me.ExRadioButton30.Text = "1.普通（日常生活に支障がない）"
         Me.ExRadioButton30.UseVisualStyleBackColor = True
         '
-        'Label132
-        '
-        Me.Label132.AutoSize = True
-        Me.Label132.ForeColor = System.Drawing.Color.Blue
-        Me.Label132.Location = New System.Drawing.Point(6, 15)
-        Me.Label132.Name = "Label132"
-        Me.Label132.Size = New System.Drawing.Size(94, 12)
-        Me.Label132.TabIndex = 15
-        Me.Label132.Text = "1-12 視力について"
-        '
-        'GroupBox11
-        '
-        Me.GroupBox11.Controls.Add(Me.ExRadioButton27)
-        Me.GroupBox11.Controls.Add(Me.ExRadioButton28)
-        Me.GroupBox11.Controls.Add(Me.ExRadioButton29)
-        Me.GroupBox11.Controls.Add(Me.Label147)
-        Me.GroupBox11.Location = New System.Drawing.Point(23, 422)
-        Me.GroupBox11.Name = "GroupBox11"
-        Me.GroupBox11.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox11.TabIndex = 28
-        Me.GroupBox11.TabStop = False
-        '
         'ExRadioButton27
         '
         Me.ExRadioButton27.AutoSize = True
@@ -4225,29 +5626,6 @@ Partial Class 認定調査票
         Me.ExRadioButton29.TabStop = True
         Me.ExRadioButton29.Text = "1.自立（介助なし）"
         Me.ExRadioButton29.UseVisualStyleBackColor = True
-        '
-        'Label147
-        '
-        Me.Label147.AutoSize = True
-        Me.Label147.ForeColor = System.Drawing.Color.Blue
-        Me.Label147.Location = New System.Drawing.Point(6, 12)
-        Me.Label147.Name = "Label147"
-        Me.Label147.Size = New System.Drawing.Size(72, 12)
-        Me.Label147.TabIndex = 14
-        Me.Label147.Text = "1-11 つめ切り"
-        '
-        'GroupBox10
-        '
-        Me.GroupBox10.Controls.Add(Me.ExRadioButton23)
-        Me.GroupBox10.Controls.Add(Me.ExRadioButton24)
-        Me.GroupBox10.Controls.Add(Me.ExRadioButton25)
-        Me.GroupBox10.Controls.Add(Me.ExRadioButton26)
-        Me.GroupBox10.Controls.Add(Me.Label148)
-        Me.GroupBox10.Location = New System.Drawing.Point(23, 382)
-        Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox10.TabIndex = 27
-        Me.GroupBox10.TabStop = False
         '
         'ExRadioButton23
         '
@@ -4293,28 +5671,6 @@ Partial Class 認定調査票
         Me.ExRadioButton26.Text = "1.自立（介助なし）"
         Me.ExRadioButton26.UseVisualStyleBackColor = True
         '
-        'Label148
-        '
-        Me.Label148.AutoSize = True
-        Me.Label148.ForeColor = System.Drawing.Color.Blue
-        Me.Label148.Location = New System.Drawing.Point(6, 12)
-        Me.Label148.Name = "Label148"
-        Me.Label148.Size = New System.Drawing.Size(57, 12)
-        Me.Label148.TabIndex = 13
-        Me.Label148.Text = "1-10 洗身"
-        '
-        'GroupBox9
-        '
-        Me.GroupBox9.Controls.Add(Me.ExRadioButton20)
-        Me.GroupBox9.Controls.Add(Me.ExRadioButton21)
-        Me.GroupBox9.Controls.Add(Me.ExRadioButton22)
-        Me.GroupBox9.Controls.Add(Me.Label149)
-        Me.GroupBox9.Location = New System.Drawing.Point(23, 342)
-        Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox9.TabIndex = 26
-        Me.GroupBox9.TabStop = False
-        '
         'ExRadioButton20
         '
         Me.ExRadioButton20.AutoSize = True
@@ -4347,28 +5703,6 @@ Partial Class 認定調査票
         Me.ExRadioButton22.TabStop = True
         Me.ExRadioButton22.Text = "1.支えなしでできる"
         Me.ExRadioButton22.UseVisualStyleBackColor = True
-        '
-        'Label149
-        '
-        Me.Label149.AutoSize = True
-        Me.Label149.ForeColor = System.Drawing.Color.Blue
-        Me.Label149.Location = New System.Drawing.Point(6, 12)
-        Me.Label149.Name = "Label149"
-        Me.Label149.Size = New System.Drawing.Size(119, 12)
-        Me.Label149.TabIndex = 12
-        Me.Label149.Text = "1-9 片足での立位保持"
-        '
-        'GroupBox8
-        '
-        Me.GroupBox8.Controls.Add(Me.ExRadioButton17)
-        Me.GroupBox8.Controls.Add(Me.ExRadioButton18)
-        Me.GroupBox8.Controls.Add(Me.ExRadioButton19)
-        Me.GroupBox8.Controls.Add(Me.Label150)
-        Me.GroupBox8.Location = New System.Drawing.Point(23, 302)
-        Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox8.TabIndex = 25
-        Me.GroupBox8.TabStop = False
         '
         'ExRadioButton17
         '
@@ -4403,28 +5737,6 @@ Partial Class 認定調査票
         Me.ExRadioButton19.Text = "1.つかまらないでできる"
         Me.ExRadioButton19.UseVisualStyleBackColor = True
         '
-        'Label150
-        '
-        Me.Label150.AutoSize = True
-        Me.Label150.ForeColor = System.Drawing.Color.Blue
-        Me.Label150.Location = New System.Drawing.Point(6, 12)
-        Me.Label150.Name = "Label150"
-        Me.Label150.Size = New System.Drawing.Size(78, 12)
-        Me.Label150.TabIndex = 11
-        Me.Label150.Text = "1-8 立ち上がり"
-        '
-        'GroupBox7
-        '
-        Me.GroupBox7.Controls.Add(Me.ExRadioButton14)
-        Me.GroupBox7.Controls.Add(Me.ExRadioButton15)
-        Me.GroupBox7.Controls.Add(Me.ExRadioButton16)
-        Me.GroupBox7.Controls.Add(Me.Label151)
-        Me.GroupBox7.Location = New System.Drawing.Point(23, 262)
-        Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox7.TabIndex = 24
-        Me.GroupBox7.TabStop = False
-        '
         'ExRadioButton14
         '
         Me.ExRadioButton14.AutoSize = True
@@ -4457,28 +5769,6 @@ Partial Class 認定調査票
         Me.ExRadioButton16.TabStop = True
         Me.ExRadioButton16.Text = "1.つかまらないでできる"
         Me.ExRadioButton16.UseVisualStyleBackColor = True
-        '
-        'Label151
-        '
-        Me.Label151.AutoSize = True
-        Me.Label151.ForeColor = System.Drawing.Color.Blue
-        Me.Label151.Location = New System.Drawing.Point(6, 12)
-        Me.Label151.Name = "Label151"
-        Me.Label151.Size = New System.Drawing.Size(51, 12)
-        Me.Label151.TabIndex = 10
-        Me.Label151.Text = "1-7 歩行"
-        '
-        'GroupBox6
-        '
-        Me.GroupBox6.Controls.Add(Me.ExRadioButton11)
-        Me.GroupBox6.Controls.Add(Me.ExRadioButton12)
-        Me.GroupBox6.Controls.Add(Me.ExRadioButton13)
-        Me.GroupBox6.Controls.Add(Me.Label152)
-        Me.GroupBox6.Location = New System.Drawing.Point(23, 222)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox6.TabIndex = 23
-        Me.GroupBox6.TabStop = False
         '
         'ExRadioButton11
         '
@@ -4513,29 +5803,6 @@ Partial Class 認定調査票
         Me.ExRadioButton13.Text = "1.支えなしでできる"
         Me.ExRadioButton13.UseVisualStyleBackColor = True
         '
-        'Label152
-        '
-        Me.Label152.AutoSize = True
-        Me.Label152.ForeColor = System.Drawing.Color.Blue
-        Me.Label152.Location = New System.Drawing.Point(6, 12)
-        Me.Label152.Name = "Label152"
-        Me.Label152.Size = New System.Drawing.Size(119, 12)
-        Me.Label152.TabIndex = 9
-        Me.Label152.Text = "1-6 両足での立位保持"
-        '
-        'GroupBox5
-        '
-        Me.GroupBox5.Controls.Add(Me.ExRadioButton10)
-        Me.GroupBox5.Controls.Add(Me.ExRadioButton7)
-        Me.GroupBox5.Controls.Add(Me.Label153)
-        Me.GroupBox5.Controls.Add(Me.ExRadioButton8)
-        Me.GroupBox5.Controls.Add(Me.ExRadioButton9)
-        Me.GroupBox5.Location = New System.Drawing.Point(23, 182)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox5.TabIndex = 22
-        Me.GroupBox5.TabStop = False
-        '
         'ExRadioButton10
         '
         Me.ExRadioButton10.AutoSize = True
@@ -4557,16 +5824,6 @@ Partial Class 認定調査票
         Me.ExRadioButton7.TabStop = True
         Me.ExRadioButton7.Text = "3.支えてもらえればできる"
         Me.ExRadioButton7.UseVisualStyleBackColor = True
-        '
-        'Label153
-        '
-        Me.Label153.AutoSize = True
-        Me.Label153.ForeColor = System.Drawing.Color.Blue
-        Me.Label153.Location = New System.Drawing.Point(6, 12)
-        Me.Label153.Name = "Label153"
-        Me.Label153.Size = New System.Drawing.Size(75, 12)
-        Me.Label153.TabIndex = 8
-        Me.Label153.Text = "1-5 座位保持"
         '
         'ExRadioButton8
         '
@@ -4590,18 +5847,6 @@ Partial Class 認定調査票
         Me.ExRadioButton9.Text = "1.できる"
         Me.ExRadioButton9.UseVisualStyleBackColor = True
         '
-        'GroupBox4
-        '
-        Me.GroupBox4.Controls.Add(Me.ExRadioButton4)
-        Me.GroupBox4.Controls.Add(Me.Label154)
-        Me.GroupBox4.Controls.Add(Me.ExRadioButton5)
-        Me.GroupBox4.Controls.Add(Me.ExRadioButton6)
-        Me.GroupBox4.Location = New System.Drawing.Point(23, 142)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox4.TabIndex = 21
-        Me.GroupBox4.TabStop = False
-        '
         'ExRadioButton4
         '
         Me.ExRadioButton4.AutoSize = True
@@ -4612,16 +5857,6 @@ Partial Class 認定調査票
         Me.ExRadioButton4.TabStop = True
         Me.ExRadioButton4.Text = "3.できない"
         Me.ExRadioButton4.UseVisualStyleBackColor = True
-        '
-        'Label154
-        '
-        Me.Label154.AutoSize = True
-        Me.Label154.ForeColor = System.Drawing.Color.Blue
-        Me.Label154.Location = New System.Drawing.Point(6, 12)
-        Me.Label154.Name = "Label154"
-        Me.Label154.Size = New System.Drawing.Size(78, 12)
-        Me.Label154.TabIndex = 7
-        Me.Label154.Text = "1-4 起き上がり"
         '
         'ExRadioButton5
         '
@@ -4644,18 +5879,6 @@ Partial Class 認定調査票
         Me.ExRadioButton6.TabStop = True
         Me.ExRadioButton6.Text = "1.つかまらないでできる"
         Me.ExRadioButton6.UseVisualStyleBackColor = True
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.ExRadioButton3)
-        Me.GroupBox3.Controls.Add(Me.ExRadioButton2)
-        Me.GroupBox3.Controls.Add(Me.ExRadioButton1)
-        Me.GroupBox3.Controls.Add(Me.Label155)
-        Me.GroupBox3.Location = New System.Drawing.Point(23, 102)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox3.TabIndex = 20
-        Me.GroupBox3.TabStop = False
         '
         'ExRadioButton3
         '
@@ -4690,30 +5913,6 @@ Partial Class 認定調査票
         Me.ExRadioButton1.Text = "1.つかまらないでできる"
         Me.ExRadioButton1.UseVisualStyleBackColor = True
         '
-        'Label155
-        '
-        Me.Label155.AutoSize = True
-        Me.Label155.ForeColor = System.Drawing.Color.Blue
-        Me.Label155.Location = New System.Drawing.Point(6, 12)
-        Me.Label155.Name = "Label155"
-        Me.Label155.Size = New System.Drawing.Size(59, 12)
-        Me.Label155.TabIndex = 6
-        Me.Label155.Text = "1-3 寝返り"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.ExCheckBox7)
-        Me.GroupBox2.Controls.Add(Me.Label156)
-        Me.GroupBox2.Controls.Add(Me.ExCheckBox8)
-        Me.GroupBox2.Controls.Add(Me.ExCheckBox11)
-        Me.GroupBox2.Controls.Add(Me.ExCheckBox9)
-        Me.GroupBox2.Controls.Add(Me.ExCheckBox10)
-        Me.GroupBox2.Location = New System.Drawing.Point(23, 62)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(648, 31)
-        Me.GroupBox2.TabIndex = 19
-        Me.GroupBox2.TabStop = False
-        '
         'ExCheckBox7
         '
         Me.ExCheckBox7.AutoSize = True
@@ -4723,16 +5922,6 @@ Partial Class 認定調査票
         Me.ExCheckBox7.TabIndex = 15
         Me.ExCheckBox7.Text = "5.その他（四肢の欠損）"
         Me.ExCheckBox7.UseVisualStyleBackColor = True
-        '
-        'Label156
-        '
-        Me.Label156.AutoSize = True
-        Me.Label156.ForeColor = System.Drawing.Color.Blue
-        Me.Label156.Location = New System.Drawing.Point(6, 12)
-        Me.Label156.Name = "Label156"
-        Me.Label156.Size = New System.Drawing.Size(85, 12)
-        Me.Label156.TabIndex = 5
-        Me.Label156.Text = "1-2 拘縮の有無"
         '
         'ExCheckBox8
         '
@@ -4773,21 +5962,6 @@ Partial Class 認定調査票
         Me.ExCheckBox10.TabIndex = 12
         Me.ExCheckBox10.Text = "2.肩関節"
         Me.ExCheckBox10.UseVisualStyleBackColor = True
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox6)
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox5)
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox4)
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox3)
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox2)
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox1)
-        Me.GroupBox1.Controls.Add(Me.Label157)
-        Me.GroupBox1.Location = New System.Drawing.Point(23, 22)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(648, 31)
-        Me.GroupBox1.TabIndex = 18
-        Me.GroupBox1.TabStop = False
         '
         'ExCheckBox6
         '
@@ -4849,50 +6023,6 @@ Partial Class 認定調査票
         Me.ExCheckBox1.Text = "1.ない"
         Me.ExCheckBox1.UseVisualStyleBackColor = True
         '
-        'Label157
-        '
-        Me.Label157.AutoSize = True
-        Me.Label157.ForeColor = System.Drawing.Color.Blue
-        Me.Label157.Location = New System.Drawing.Point(6, 12)
-        Me.Label157.Name = "Label157"
-        Me.Label157.Size = New System.Drawing.Size(97, 12)
-        Me.Label157.TabIndex = 4
-        Me.Label157.Text = "1-1 麻痺等の有無"
-        '
-        'bsTabP2
-        '
-        Me.bsTabP2.BackColor = System.Drawing.SystemColors.Control
-        Me.bsTabP2.Controls.Add(Me.GroupBox25)
-        Me.bsTabP2.Controls.Add(Me.GroupBox14)
-        Me.bsTabP2.Controls.Add(Me.GroupBox15)
-        Me.bsTabP2.Controls.Add(Me.GroupBox16)
-        Me.bsTabP2.Controls.Add(Me.GroupBox17)
-        Me.bsTabP2.Controls.Add(Me.GroupBox18)
-        Me.bsTabP2.Controls.Add(Me.GroupBox19)
-        Me.bsTabP2.Controls.Add(Me.GroupBox20)
-        Me.bsTabP2.Controls.Add(Me.GroupBox21)
-        Me.bsTabP2.Controls.Add(Me.GroupBox22)
-        Me.bsTabP2.Controls.Add(Me.GroupBox23)
-        Me.bsTabP2.Controls.Add(Me.GroupBox24)
-        Me.bsTabP2.Location = New System.Drawing.Point(4, 22)
-        Me.bsTabP2.Name = "bsTabP2"
-        Me.bsTabP2.Padding = New System.Windows.Forms.Padding(3)
-        Me.bsTabP2.Size = New System.Drawing.Size(802, 679)
-        Me.bsTabP2.TabIndex = 1
-        Me.bsTabP2.Text = "２．生活機能"
-        '
-        'GroupBox25
-        '
-        Me.GroupBox25.Controls.Add(Me.ExRadioButton80)
-        Me.GroupBox25.Controls.Add(Me.ExRadioButton81)
-        Me.GroupBox25.Controls.Add(Me.ExRadioButton82)
-        Me.GroupBox25.Controls.Add(Me.Label159)
-        Me.GroupBox25.Location = New System.Drawing.Point(23, 572)
-        Me.GroupBox25.Name = "GroupBox25"
-        Me.GroupBox25.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox25.TabIndex = 45
-        Me.GroupBox25.TabStop = False
-        '
         'ExRadioButton80
         '
         Me.ExRadioButton80.AutoSize = True
@@ -4925,29 +6055,6 @@ Partial Class 認定調査票
         Me.ExRadioButton82.TabStop = True
         Me.ExRadioButton82.Text = "1.週１回以上"
         Me.ExRadioButton82.UseVisualStyleBackColor = True
-        '
-        'Label159
-        '
-        Me.Label159.AutoSize = True
-        Me.Label159.ForeColor = System.Drawing.Color.Blue
-        Me.Label159.Location = New System.Drawing.Point(6, 12)
-        Me.Label159.Name = "Label159"
-        Me.Label159.Size = New System.Drawing.Size(81, 12)
-        Me.Label159.TabIndex = 33
-        Me.Label159.Text = "2-12 外出頻度"
-        '
-        'GroupBox14
-        '
-        Me.GroupBox14.Controls.Add(Me.ExRadioButton72)
-        Me.GroupBox14.Controls.Add(Me.ExRadioButton73)
-        Me.GroupBox14.Controls.Add(Me.ExRadioButton74)
-        Me.GroupBox14.Controls.Add(Me.ExRadioButton75)
-        Me.GroupBox14.Controls.Add(Me.Label161)
-        Me.GroupBox14.Location = New System.Drawing.Point(23, 472)
-        Me.GroupBox14.Name = "GroupBox14"
-        Me.GroupBox14.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox14.TabIndex = 44
-        Me.GroupBox14.TabStop = False
         '
         'ExRadioButton72
         '
@@ -4993,29 +6100,6 @@ Partial Class 認定調査票
         Me.ExRadioButton75.Text = "1.自立（介助なし）"
         Me.ExRadioButton75.UseVisualStyleBackColor = True
         '
-        'Label161
-        '
-        Me.Label161.AutoSize = True
-        Me.Label161.ForeColor = System.Drawing.Color.Blue
-        Me.Label161.Location = New System.Drawing.Point(6, 12)
-        Me.Label161.Name = "Label161"
-        Me.Label161.Size = New System.Drawing.Size(91, 12)
-        Me.Label161.TabIndex = 31
-        Me.Label161.Text = "2-10 上衣の着脱"
-        '
-        'GroupBox15
-        '
-        Me.GroupBox15.Controls.Add(Me.ExRadioButton76)
-        Me.GroupBox15.Controls.Add(Me.ExRadioButton77)
-        Me.GroupBox15.Controls.Add(Me.ExRadioButton78)
-        Me.GroupBox15.Controls.Add(Me.ExRadioButton79)
-        Me.GroupBox15.Controls.Add(Me.Label160)
-        Me.GroupBox15.Location = New System.Drawing.Point(23, 522)
-        Me.GroupBox15.Name = "GroupBox15"
-        Me.GroupBox15.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox15.TabIndex = 43
-        Me.GroupBox15.TabStop = False
-        '
         'ExRadioButton76
         '
         Me.ExRadioButton76.AutoSize = True
@@ -5060,28 +6144,6 @@ Partial Class 認定調査票
         Me.ExRadioButton79.Text = "1.自立（介助なし）"
         Me.ExRadioButton79.UseVisualStyleBackColor = True
         '
-        'Label160
-        '
-        Me.Label160.AutoSize = True
-        Me.Label160.ForeColor = System.Drawing.Color.Blue
-        Me.Label160.Location = New System.Drawing.Point(6, 12)
-        Me.Label160.Name = "Label160"
-        Me.Label160.Size = New System.Drawing.Size(108, 12)
-        Me.Label160.TabIndex = 32
-        Me.Label160.Text = "2-11 ズボン等の着脱"
-        '
-        'GroupBox16
-        '
-        Me.GroupBox16.Controls.Add(Me.ExRadioButton69)
-        Me.GroupBox16.Controls.Add(Me.ExRadioButton70)
-        Me.GroupBox16.Controls.Add(Me.ExRadioButton71)
-        Me.GroupBox16.Controls.Add(Me.Label162)
-        Me.GroupBox16.Location = New System.Drawing.Point(23, 422)
-        Me.GroupBox16.Name = "GroupBox16"
-        Me.GroupBox16.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox16.TabIndex = 42
-        Me.GroupBox16.TabStop = False
-        '
         'ExRadioButton69
         '
         Me.ExRadioButton69.AutoSize = True
@@ -5114,28 +6176,6 @@ Partial Class 認定調査票
         Me.ExRadioButton71.TabStop = True
         Me.ExRadioButton71.Text = "1.自立（介助なし）"
         Me.ExRadioButton71.UseVisualStyleBackColor = True
-        '
-        'Label162
-        '
-        Me.Label162.AutoSize = True
-        Me.Label162.ForeColor = System.Drawing.Color.Blue
-        Me.Label162.Location = New System.Drawing.Point(6, 12)
-        Me.Label162.Name = "Label162"
-        Me.Label162.Size = New System.Drawing.Size(51, 12)
-        Me.Label162.TabIndex = 30
-        Me.Label162.Text = "2-9 整髪"
-        '
-        'GroupBox17
-        '
-        Me.GroupBox17.Controls.Add(Me.ExRadioButton63)
-        Me.GroupBox17.Controls.Add(Me.ExRadioButton67)
-        Me.GroupBox17.Controls.Add(Me.ExRadioButton68)
-        Me.GroupBox17.Controls.Add(Me.Label163)
-        Me.GroupBox17.Location = New System.Drawing.Point(23, 372)
-        Me.GroupBox17.Name = "GroupBox17"
-        Me.GroupBox17.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox17.TabIndex = 41
-        Me.GroupBox17.TabStop = False
         '
         'ExRadioButton63
         '
@@ -5170,28 +6210,6 @@ Partial Class 認定調査票
         Me.ExRadioButton68.Text = "1.自立（介助なし）"
         Me.ExRadioButton68.UseVisualStyleBackColor = True
         '
-        'Label163
-        '
-        Me.Label163.AutoSize = True
-        Me.Label163.ForeColor = System.Drawing.Color.Blue
-        Me.Label163.Location = New System.Drawing.Point(6, 12)
-        Me.Label163.Name = "Label163"
-        Me.Label163.Size = New System.Drawing.Size(51, 12)
-        Me.Label163.TabIndex = 29
-        Me.Label163.Text = "2-8 洗顔"
-        '
-        'GroupBox18
-        '
-        Me.GroupBox18.Controls.Add(Me.ExRadioButton64)
-        Me.GroupBox18.Controls.Add(Me.ExRadioButton65)
-        Me.GroupBox18.Controls.Add(Me.ExRadioButton66)
-        Me.GroupBox18.Controls.Add(Me.Label164)
-        Me.GroupBox18.Location = New System.Drawing.Point(23, 322)
-        Me.GroupBox18.Name = "GroupBox18"
-        Me.GroupBox18.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox18.TabIndex = 40
-        Me.GroupBox18.TabStop = False
-        '
         'ExRadioButton64
         '
         Me.ExRadioButton64.AutoSize = True
@@ -5224,29 +6242,6 @@ Partial Class 認定調査票
         Me.ExRadioButton66.TabStop = True
         Me.ExRadioButton66.Text = "1.自立（介助なし）"
         Me.ExRadioButton66.UseVisualStyleBackColor = True
-        '
-        'Label164
-        '
-        Me.Label164.AutoSize = True
-        Me.Label164.ForeColor = System.Drawing.Color.Blue
-        Me.Label164.Location = New System.Drawing.Point(6, 12)
-        Me.Label164.Name = "Label164"
-        Me.Label164.Size = New System.Drawing.Size(75, 12)
-        Me.Label164.TabIndex = 28
-        Me.Label164.Text = "2-7 口腔清潔"
-        '
-        'GroupBox19
-        '
-        Me.GroupBox19.Controls.Add(Me.ExRadioButton59)
-        Me.GroupBox19.Controls.Add(Me.ExRadioButton60)
-        Me.GroupBox19.Controls.Add(Me.ExRadioButton61)
-        Me.GroupBox19.Controls.Add(Me.ExRadioButton62)
-        Me.GroupBox19.Controls.Add(Me.Label165)
-        Me.GroupBox19.Location = New System.Drawing.Point(23, 272)
-        Me.GroupBox19.Name = "GroupBox19"
-        Me.GroupBox19.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox19.TabIndex = 39
-        Me.GroupBox19.TabStop = False
         '
         'ExRadioButton59
         '
@@ -5292,29 +6287,6 @@ Partial Class 認定調査票
         Me.ExRadioButton62.Text = "1.自立（介助なし）"
         Me.ExRadioButton62.UseVisualStyleBackColor = True
         '
-        'Label165
-        '
-        Me.Label165.AutoSize = True
-        Me.Label165.ForeColor = System.Drawing.Color.Blue
-        Me.Label165.Location = New System.Drawing.Point(6, 12)
-        Me.Label165.Name = "Label165"
-        Me.Label165.Size = New System.Drawing.Size(51, 12)
-        Me.Label165.TabIndex = 27
-        Me.Label165.Text = "2-6 排便"
-        '
-        'GroupBox20
-        '
-        Me.GroupBox20.Controls.Add(Me.ExRadioButton55)
-        Me.GroupBox20.Controls.Add(Me.ExRadioButton56)
-        Me.GroupBox20.Controls.Add(Me.ExRadioButton57)
-        Me.GroupBox20.Controls.Add(Me.ExRadioButton58)
-        Me.GroupBox20.Controls.Add(Me.Label166)
-        Me.GroupBox20.Location = New System.Drawing.Point(23, 222)
-        Me.GroupBox20.Name = "GroupBox20"
-        Me.GroupBox20.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox20.TabIndex = 38
-        Me.GroupBox20.TabStop = False
-        '
         'ExRadioButton55
         '
         Me.ExRadioButton55.AutoSize = True
@@ -5358,29 +6330,6 @@ Partial Class 認定調査票
         Me.ExRadioButton58.TabStop = True
         Me.ExRadioButton58.Text = "1.自立（介助なし）"
         Me.ExRadioButton58.UseVisualStyleBackColor = True
-        '
-        'Label166
-        '
-        Me.Label166.AutoSize = True
-        Me.Label166.ForeColor = System.Drawing.Color.Blue
-        Me.Label166.Location = New System.Drawing.Point(6, 12)
-        Me.Label166.Name = "Label166"
-        Me.Label166.Size = New System.Drawing.Size(51, 12)
-        Me.Label166.TabIndex = 26
-        Me.Label166.Text = "2-5 排尿"
-        '
-        'GroupBox21
-        '
-        Me.GroupBox21.Controls.Add(Me.ExRadioButton48)
-        Me.GroupBox21.Controls.Add(Me.ExRadioButton52)
-        Me.GroupBox21.Controls.Add(Me.ExRadioButton53)
-        Me.GroupBox21.Controls.Add(Me.ExRadioButton54)
-        Me.GroupBox21.Controls.Add(Me.Label167)
-        Me.GroupBox21.Location = New System.Drawing.Point(23, 172)
-        Me.GroupBox21.Name = "GroupBox21"
-        Me.GroupBox21.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox21.TabIndex = 37
-        Me.GroupBox21.TabStop = False
         '
         'ExRadioButton48
         '
@@ -5426,28 +6375,6 @@ Partial Class 認定調査票
         Me.ExRadioButton54.Text = "1.自立（介助なし）"
         Me.ExRadioButton54.UseVisualStyleBackColor = True
         '
-        'Label167
-        '
-        Me.Label167.AutoSize = True
-        Me.Label167.ForeColor = System.Drawing.Color.Blue
-        Me.Label167.Location = New System.Drawing.Point(6, 12)
-        Me.Label167.Name = "Label167"
-        Me.Label167.Size = New System.Drawing.Size(75, 12)
-        Me.Label167.TabIndex = 25
-        Me.Label167.Text = "2-4 食事摂取"
-        '
-        'GroupBox22
-        '
-        Me.GroupBox22.Controls.Add(Me.ExRadioButton49)
-        Me.GroupBox22.Controls.Add(Me.ExRadioButton50)
-        Me.GroupBox22.Controls.Add(Me.ExRadioButton51)
-        Me.GroupBox22.Controls.Add(Me.Label168)
-        Me.GroupBox22.Location = New System.Drawing.Point(23, 122)
-        Me.GroupBox22.Name = "GroupBox22"
-        Me.GroupBox22.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox22.TabIndex = 36
-        Me.GroupBox22.TabStop = False
-        '
         'ExRadioButton49
         '
         Me.ExRadioButton49.AutoSize = True
@@ -5480,29 +6407,6 @@ Partial Class 認定調査票
         Me.ExRadioButton51.TabStop = True
         Me.ExRadioButton51.Text = "1.できる"
         Me.ExRadioButton51.UseVisualStyleBackColor = True
-        '
-        'Label168
-        '
-        Me.Label168.AutoSize = True
-        Me.Label168.ForeColor = System.Drawing.Color.Blue
-        Me.Label168.Location = New System.Drawing.Point(6, 12)
-        Me.Label168.Name = "Label168"
-        Me.Label168.Size = New System.Drawing.Size(58, 12)
-        Me.Label168.TabIndex = 24
-        Me.Label168.Text = "2-3 えん下"
-        '
-        'GroupBox23
-        '
-        Me.GroupBox23.Controls.Add(Me.ExRadioButton44)
-        Me.GroupBox23.Controls.Add(Me.ExRadioButton45)
-        Me.GroupBox23.Controls.Add(Me.ExRadioButton46)
-        Me.GroupBox23.Controls.Add(Me.ExRadioButton47)
-        Me.GroupBox23.Controls.Add(Me.Label169)
-        Me.GroupBox23.Location = New System.Drawing.Point(23, 72)
-        Me.GroupBox23.Name = "GroupBox23"
-        Me.GroupBox23.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox23.TabIndex = 35
-        Me.GroupBox23.TabStop = False
         '
         'ExRadioButton44
         '
@@ -5548,29 +6452,6 @@ Partial Class 認定調査票
         Me.ExRadioButton47.Text = "1.自立（介助なし）"
         Me.ExRadioButton47.UseVisualStyleBackColor = True
         '
-        'Label169
-        '
-        Me.Label169.AutoSize = True
-        Me.Label169.ForeColor = System.Drawing.Color.Blue
-        Me.Label169.Location = New System.Drawing.Point(6, 12)
-        Me.Label169.Name = "Label169"
-        Me.Label169.Size = New System.Drawing.Size(51, 12)
-        Me.Label169.TabIndex = 23
-        Me.Label169.Text = "2-2 移動"
-        '
-        'GroupBox24
-        '
-        Me.GroupBox24.Controls.Add(Me.ExRadioButton40)
-        Me.GroupBox24.Controls.Add(Me.ExRadioButton41)
-        Me.GroupBox24.Controls.Add(Me.ExRadioButton42)
-        Me.GroupBox24.Controls.Add(Me.ExRadioButton43)
-        Me.GroupBox24.Controls.Add(Me.Label170)
-        Me.GroupBox24.Location = New System.Drawing.Point(23, 22)
-        Me.GroupBox24.Name = "GroupBox24"
-        Me.GroupBox24.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox24.TabIndex = 34
-        Me.GroupBox24.TabStop = False
-        '
         'ExRadioButton40
         '
         Me.ExRadioButton40.AutoSize = True
@@ -5615,46 +6496,6 @@ Partial Class 認定調査票
         Me.ExRadioButton43.Text = "1.自立（介助なし）"
         Me.ExRadioButton43.UseVisualStyleBackColor = True
         '
-        'Label170
-        '
-        Me.Label170.AutoSize = True
-        Me.Label170.ForeColor = System.Drawing.Color.Blue
-        Me.Label170.Location = New System.Drawing.Point(6, 12)
-        Me.Label170.Name = "Label170"
-        Me.Label170.Size = New System.Drawing.Size(51, 12)
-        Me.Label170.TabIndex = 22
-        Me.Label170.Text = "2-1 移乗"
-        '
-        'bsTabP3
-        '
-        Me.bsTabP3.BackColor = System.Drawing.SystemColors.Control
-        Me.bsTabP3.Controls.Add(Me.GroupBox31)
-        Me.bsTabP3.Controls.Add(Me.GroupBox30)
-        Me.bsTabP3.Controls.Add(Me.GroupBox32)
-        Me.bsTabP3.Controls.Add(Me.GroupBox29)
-        Me.bsTabP3.Controls.Add(Me.GroupBox33)
-        Me.bsTabP3.Controls.Add(Me.GroupBox28)
-        Me.bsTabP3.Controls.Add(Me.GroupBox34)
-        Me.bsTabP3.Controls.Add(Me.GroupBox27)
-        Me.bsTabP3.Controls.Add(Me.GroupBox26)
-        Me.bsTabP3.Location = New System.Drawing.Point(4, 22)
-        Me.bsTabP3.Name = "bsTabP3"
-        Me.bsTabP3.Size = New System.Drawing.Size(802, 679)
-        Me.bsTabP3.TabIndex = 2
-        Me.bsTabP3.Text = "３．認知機能"
-        '
-        'GroupBox31
-        '
-        Me.GroupBox31.Controls.Add(Me.ExRadioButton102)
-        Me.GroupBox31.Controls.Add(Me.ExRadioButton103)
-        Me.GroupBox31.Controls.Add(Me.ExRadioButton104)
-        Me.GroupBox31.Controls.Add(Me.Label172)
-        Me.GroupBox31.Location = New System.Drawing.Point(23, 476)
-        Me.GroupBox31.Name = "GroupBox31"
-        Me.GroupBox31.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox31.TabIndex = 43
-        Me.GroupBox31.TabStop = False
-        '
         'ExRadioButton102
         '
         Me.ExRadioButton102.AutoSize = True
@@ -5688,27 +6529,6 @@ Partial Class 認定調査票
         Me.ExRadioButton104.Text = "1.ない"
         Me.ExRadioButton104.UseVisualStyleBackColor = True
         '
-        'Label172
-        '
-        Me.Label172.AutoSize = True
-        Me.Label172.ForeColor = System.Drawing.Color.Blue
-        Me.Label172.Location = New System.Drawing.Point(6, 12)
-        Me.Label172.Name = "Label172"
-        Me.Label172.Size = New System.Drawing.Size(121, 12)
-        Me.Label172.TabIndex = 30
-        Me.Label172.Text = "3-9 外出すると戻れない"
-        '
-        'GroupBox30
-        '
-        Me.GroupBox30.Controls.Add(Me.ExRadioButton93)
-        Me.GroupBox30.Controls.Add(Me.ExRadioButton94)
-        Me.GroupBox30.Controls.Add(Me.Label176)
-        Me.GroupBox30.Location = New System.Drawing.Point(23, 284)
-        Me.GroupBox30.Name = "GroupBox30"
-        Me.GroupBox30.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox30.TabIndex = 39
-        Me.GroupBox30.TabStop = False
-        '
         'ExRadioButton93
         '
         Me.ExRadioButton93.AutoSize = True
@@ -5730,28 +6550,6 @@ Partial Class 認定調査票
         Me.ExRadioButton94.TabStop = True
         Me.ExRadioButton94.Text = "1.できる"
         Me.ExRadioButton94.UseVisualStyleBackColor = True
-        '
-        'Label176
-        '
-        Me.Label176.AutoSize = True
-        Me.Label176.ForeColor = System.Drawing.Color.Blue
-        Me.Label176.Location = New System.Drawing.Point(6, 12)
-        Me.Label176.Name = "Label176"
-        Me.Label176.Size = New System.Drawing.Size(113, 12)
-        Me.Label176.TabIndex = 26
-        Me.Label176.Text = "3-5 自分の名前を言う"
-        '
-        'GroupBox32
-        '
-        Me.GroupBox32.Controls.Add(Me.ExRadioButton101)
-        Me.GroupBox32.Controls.Add(Me.ExRadioButton99)
-        Me.GroupBox32.Controls.Add(Me.ExRadioButton100)
-        Me.GroupBox32.Controls.Add(Me.Label173)
-        Me.GroupBox32.Location = New System.Drawing.Point(23, 428)
-        Me.GroupBox32.Name = "GroupBox32"
-        Me.GroupBox32.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox32.TabIndex = 42
-        Me.GroupBox32.TabStop = False
         '
         'ExRadioButton101
         '
@@ -5786,27 +6584,6 @@ Partial Class 認定調査票
         Me.ExRadioButton100.Text = "1.ない"
         Me.ExRadioButton100.UseVisualStyleBackColor = True
         '
-        'Label173
-        '
-        Me.Label173.AutoSize = True
-        Me.Label173.ForeColor = System.Drawing.Color.Blue
-        Me.Label173.Location = New System.Drawing.Point(6, 12)
-        Me.Label173.Name = "Label173"
-        Me.Label173.Size = New System.Drawing.Size(51, 12)
-        Me.Label173.TabIndex = 29
-        Me.Label173.Text = "3-8 徘徊"
-        '
-        'GroupBox29
-        '
-        Me.GroupBox29.Controls.Add(Me.ExRadioButton91)
-        Me.GroupBox29.Controls.Add(Me.ExRadioButton92)
-        Me.GroupBox29.Controls.Add(Me.Label177)
-        Me.GroupBox29.Location = New System.Drawing.Point(23, 236)
-        Me.GroupBox29.Name = "GroupBox29"
-        Me.GroupBox29.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox29.TabIndex = 38
-        Me.GroupBox29.TabStop = False
-        '
         'ExRadioButton91
         '
         Me.ExRadioButton91.AutoSize = True
@@ -5828,27 +6605,6 @@ Partial Class 認定調査票
         Me.ExRadioButton92.TabStop = True
         Me.ExRadioButton92.Text = "1.できる"
         Me.ExRadioButton92.UseVisualStyleBackColor = True
-        '
-        'Label177
-        '
-        Me.Label177.AutoSize = True
-        Me.Label177.ForeColor = System.Drawing.Color.Blue
-        Me.Label177.Location = New System.Drawing.Point(6, 12)
-        Me.Label177.Name = "Label177"
-        Me.Label177.Size = New System.Drawing.Size(290, 12)
-        Me.Label177.TabIndex = 25
-        Me.Label177.Text = "3-4 短期記憶（面接調査の直前に何をしていたか思い出す）"
-        '
-        'GroupBox33
-        '
-        Me.GroupBox33.Controls.Add(Me.ExRadioButton97)
-        Me.GroupBox33.Controls.Add(Me.ExRadioButton98)
-        Me.GroupBox33.Controls.Add(Me.Label174)
-        Me.GroupBox33.Location = New System.Drawing.Point(23, 380)
-        Me.GroupBox33.Name = "GroupBox33"
-        Me.GroupBox33.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox33.TabIndex = 41
-        Me.GroupBox33.TabStop = False
         '
         'ExRadioButton97
         '
@@ -5872,27 +6628,6 @@ Partial Class 認定調査票
         Me.ExRadioButton98.Text = "1.できる"
         Me.ExRadioButton98.UseVisualStyleBackColor = True
         '
-        'Label174
-        '
-        Me.Label174.AutoSize = True
-        Me.Label174.ForeColor = System.Drawing.Color.Blue
-        Me.Label174.Location = New System.Drawing.Point(6, 12)
-        Me.Label174.Name = "Label174"
-        Me.Label174.Size = New System.Drawing.Size(213, 12)
-        Me.Label174.TabIndex = 28
-        Me.Label174.Text = "3-7 場所の理解（自分がいる場所を答える）"
-        '
-        'GroupBox28
-        '
-        Me.GroupBox28.Controls.Add(Me.ExRadioButton89)
-        Me.GroupBox28.Controls.Add(Me.ExRadioButton90)
-        Me.GroupBox28.Controls.Add(Me.Label178)
-        Me.GroupBox28.Location = New System.Drawing.Point(23, 188)
-        Me.GroupBox28.Name = "GroupBox28"
-        Me.GroupBox28.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox28.TabIndex = 37
-        Me.GroupBox28.TabStop = False
-        '
         'ExRadioButton89
         '
         Me.ExRadioButton89.AutoSize = True
@@ -5914,27 +6649,6 @@ Partial Class 認定調査票
         Me.ExRadioButton90.TabStop = True
         Me.ExRadioButton90.Text = "1.できる"
         Me.ExRadioButton90.UseVisualStyleBackColor = True
-        '
-        'Label178
-        '
-        Me.Label178.AutoSize = True
-        Me.Label178.ForeColor = System.Drawing.Color.Blue
-        Me.Label178.Location = New System.Drawing.Point(6, 12)
-        Me.Label178.Name = "Label178"
-        Me.Label178.Size = New System.Drawing.Size(137, 12)
-        Me.Label178.TabIndex = 24
-        Me.Label178.Text = "3-3 生年月日や年齢を言う"
-        '
-        'GroupBox34
-        '
-        Me.GroupBox34.Controls.Add(Me.ExRadioButton95)
-        Me.GroupBox34.Controls.Add(Me.ExRadioButton96)
-        Me.GroupBox34.Controls.Add(Me.Label175)
-        Me.GroupBox34.Location = New System.Drawing.Point(23, 332)
-        Me.GroupBox34.Name = "GroupBox34"
-        Me.GroupBox34.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox34.TabIndex = 40
-        Me.GroupBox34.TabStop = False
         '
         'ExRadioButton95
         '
@@ -5958,27 +6672,6 @@ Partial Class 認定調査票
         Me.ExRadioButton96.Text = "1.できる"
         Me.ExRadioButton96.UseVisualStyleBackColor = True
         '
-        'Label175
-        '
-        Me.Label175.AutoSize = True
-        Me.Label175.ForeColor = System.Drawing.Color.Blue
-        Me.Label175.Location = New System.Drawing.Point(6, 12)
-        Me.Label175.Name = "Label175"
-        Me.Label175.Size = New System.Drawing.Size(106, 12)
-        Me.Label175.TabIndex = 27
-        Me.Label175.Text = "3-6 今の季節を理解"
-        '
-        'GroupBox27
-        '
-        Me.GroupBox27.Controls.Add(Me.ExRadioButton88)
-        Me.GroupBox27.Controls.Add(Me.ExRadioButton87)
-        Me.GroupBox27.Controls.Add(Me.Label179)
-        Me.GroupBox27.Location = New System.Drawing.Point(23, 140)
-        Me.GroupBox27.Name = "GroupBox27"
-        Me.GroupBox27.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox27.TabIndex = 36
-        Me.GroupBox27.TabStop = False
-        '
         'ExRadioButton88
         '
         Me.ExRadioButton88.AutoSize = True
@@ -6000,29 +6693,6 @@ Partial Class 認定調査票
         Me.ExRadioButton87.TabStop = True
         Me.ExRadioButton87.Text = "1.できる"
         Me.ExRadioButton87.UseVisualStyleBackColor = True
-        '
-        'Label179
-        '
-        Me.Label179.AutoSize = True
-        Me.Label179.ForeColor = System.Drawing.Color.Blue
-        Me.Label179.Location = New System.Drawing.Point(6, 12)
-        Me.Label179.Name = "Label179"
-        Me.Label179.Size = New System.Drawing.Size(118, 12)
-        Me.Label179.TabIndex = 23
-        Me.Label179.Text = "3-2 毎日の日課を理解"
-        '
-        'GroupBox26
-        '
-        Me.GroupBox26.Controls.Add(Me.ExRadioButton86)
-        Me.GroupBox26.Controls.Add(Me.ExRadioButton85)
-        Me.GroupBox26.Controls.Add(Me.ExRadioButton84)
-        Me.GroupBox26.Controls.Add(Me.ExRadioButton83)
-        Me.GroupBox26.Controls.Add(Me.Label180)
-        Me.GroupBox26.Location = New System.Drawing.Point(23, 22)
-        Me.GroupBox26.Name = "GroupBox26"
-        Me.GroupBox26.Size = New System.Drawing.Size(360, 100)
-        Me.GroupBox26.TabIndex = 31
-        Me.GroupBox26.TabStop = False
         '
         'ExRadioButton86
         '
@@ -6068,52 +6738,6 @@ Partial Class 認定調査票
         Me.ExRadioButton83.Text = "1.調査対象者が意思を他者に伝達できる"
         Me.ExRadioButton83.UseVisualStyleBackColor = True
         '
-        'Label180
-        '
-        Me.Label180.AutoSize = True
-        Me.Label180.ForeColor = System.Drawing.Color.Blue
-        Me.Label180.Location = New System.Drawing.Point(6, 15)
-        Me.Label180.Name = "Label180"
-        Me.Label180.Size = New System.Drawing.Size(85, 12)
-        Me.Label180.TabIndex = 22
-        Me.Label180.Text = "3-1 意思の伝達"
-        '
-        'bsTabP4
-        '
-        Me.bsTabP4.BackColor = System.Drawing.SystemColors.Control
-        Me.bsTabP4.Controls.Add(Me.GroupBox46)
-        Me.bsTabP4.Controls.Add(Me.GroupBox47)
-        Me.bsTabP4.Controls.Add(Me.GroupBox48)
-        Me.bsTabP4.Controls.Add(Me.GroupBox49)
-        Me.bsTabP4.Controls.Add(Me.GroupBox35)
-        Me.bsTabP4.Controls.Add(Me.GroupBox36)
-        Me.bsTabP4.Controls.Add(Me.GroupBox37)
-        Me.bsTabP4.Controls.Add(Me.GroupBox38)
-        Me.bsTabP4.Controls.Add(Me.GroupBox39)
-        Me.bsTabP4.Controls.Add(Me.GroupBox40)
-        Me.bsTabP4.Controls.Add(Me.GroupBox41)
-        Me.bsTabP4.Controls.Add(Me.GroupBox42)
-        Me.bsTabP4.Controls.Add(Me.GroupBox43)
-        Me.bsTabP4.Controls.Add(Me.GroupBox44)
-        Me.bsTabP4.Controls.Add(Me.GroupBox45)
-        Me.bsTabP4.Location = New System.Drawing.Point(4, 22)
-        Me.bsTabP4.Name = "bsTabP4"
-        Me.bsTabP4.Size = New System.Drawing.Size(802, 679)
-        Me.bsTabP4.TabIndex = 3
-        Me.bsTabP4.Text = "４．精神・行動障害"
-        '
-        'GroupBox46
-        '
-        Me.GroupBox46.Controls.Add(Me.ExRadioButton147)
-        Me.GroupBox46.Controls.Add(Me.ExRadioButton148)
-        Me.GroupBox46.Controls.Add(Me.ExRadioButton149)
-        Me.GroupBox46.Controls.Add(Me.Label182)
-        Me.GroupBox46.Location = New System.Drawing.Point(23, 582)
-        Me.GroupBox46.Name = "GroupBox46"
-        Me.GroupBox46.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox46.TabIndex = 52
-        Me.GroupBox46.TabStop = False
-        '
         'ExRadioButton147
         '
         Me.ExRadioButton147.AutoSize = True
@@ -6146,28 +6770,6 @@ Partial Class 認定調査票
         Me.ExRadioButton149.TabStop = True
         Me.ExRadioButton149.Text = "1.ない"
         Me.ExRadioButton149.UseVisualStyleBackColor = True
-        '
-        'Label182
-        '
-        Me.Label182.AutoSize = True
-        Me.Label182.ForeColor = System.Drawing.Color.Blue
-        Me.Label182.Location = New System.Drawing.Point(6, 12)
-        Me.Label182.Name = "Label182"
-        Me.Label182.Size = New System.Drawing.Size(178, 12)
-        Me.Label182.TabIndex = 37
-        Me.Label182.Text = "4-15 話がまとまらず、会話にならない"
-        '
-        'GroupBox47
-        '
-        Me.GroupBox47.Controls.Add(Me.ExRadioButton144)
-        Me.GroupBox47.Controls.Add(Me.ExRadioButton145)
-        Me.GroupBox47.Controls.Add(Me.ExRadioButton146)
-        Me.GroupBox47.Controls.Add(Me.Label183)
-        Me.GroupBox47.Location = New System.Drawing.Point(23, 542)
-        Me.GroupBox47.Name = "GroupBox47"
-        Me.GroupBox47.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox47.TabIndex = 51
-        Me.GroupBox47.TabStop = False
         '
         'ExRadioButton144
         '
@@ -6202,28 +6804,6 @@ Partial Class 認定調査票
         Me.ExRadioButton146.Text = "1.ない"
         Me.ExRadioButton146.UseVisualStyleBackColor = True
         '
-        'Label183
-        '
-        Me.Label183.AutoSize = True
-        Me.Label183.ForeColor = System.Drawing.Color.Blue
-        Me.Label183.Location = New System.Drawing.Point(6, 12)
-        Me.Label183.Name = "Label183"
-        Me.Label183.Size = New System.Drawing.Size(133, 12)
-        Me.Label183.TabIndex = 36
-        Me.Label183.Text = "4-14 自分勝手に行動する"
-        '
-        'GroupBox48
-        '
-        Me.GroupBox48.Controls.Add(Me.ExRadioButton141)
-        Me.GroupBox48.Controls.Add(Me.ExRadioButton142)
-        Me.GroupBox48.Controls.Add(Me.ExRadioButton143)
-        Me.GroupBox48.Controls.Add(Me.Label184)
-        Me.GroupBox48.Location = New System.Drawing.Point(23, 502)
-        Me.GroupBox48.Name = "GroupBox48"
-        Me.GroupBox48.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox48.TabIndex = 50
-        Me.GroupBox48.TabStop = False
-        '
         'ExRadioButton141
         '
         Me.ExRadioButton141.AutoSize = True
@@ -6256,28 +6836,6 @@ Partial Class 認定調査票
         Me.ExRadioButton143.TabStop = True
         Me.ExRadioButton143.Text = "1.ない"
         Me.ExRadioButton143.UseVisualStyleBackColor = True
-        '
-        'Label184
-        '
-        Me.Label184.AutoSize = True
-        Me.Label184.ForeColor = System.Drawing.Color.Blue
-        Me.Label184.Location = New System.Drawing.Point(6, 12)
-        Me.Label184.Name = "Label184"
-        Me.Label184.Size = New System.Drawing.Size(194, 12)
-        Me.Label184.TabIndex = 34
-        Me.Label184.Text = "4-13 意味もなく独り言や独り笑いをする"
-        '
-        'GroupBox49
-        '
-        Me.GroupBox49.Controls.Add(Me.ExRadioButton138)
-        Me.GroupBox49.Controls.Add(Me.ExRadioButton139)
-        Me.GroupBox49.Controls.Add(Me.ExRadioButton140)
-        Me.GroupBox49.Controls.Add(Me.Label185)
-        Me.GroupBox49.Location = New System.Drawing.Point(23, 462)
-        Me.GroupBox49.Name = "GroupBox49"
-        Me.GroupBox49.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox49.TabIndex = 49
-        Me.GroupBox49.TabStop = False
         '
         'ExRadioButton138
         '
@@ -6312,28 +6870,6 @@ Partial Class 認定調査票
         Me.ExRadioButton140.Text = "1.ない"
         Me.ExRadioButton140.UseVisualStyleBackColor = True
         '
-        'Label185
-        '
-        Me.Label185.AutoSize = True
-        Me.Label185.ForeColor = System.Drawing.Color.Blue
-        Me.Label185.Location = New System.Drawing.Point(6, 12)
-        Me.Label185.Name = "Label185"
-        Me.Label185.Size = New System.Drawing.Size(97, 12)
-        Me.Label185.TabIndex = 33
-        Me.Label185.Text = "4-12 ひどい物忘れ"
-        '
-        'GroupBox35
-        '
-        Me.GroupBox35.Controls.Add(Me.ExRadioButton135)
-        Me.GroupBox35.Controls.Add(Me.ExRadioButton136)
-        Me.GroupBox35.Controls.Add(Me.ExRadioButton137)
-        Me.GroupBox35.Controls.Add(Me.Label186)
-        Me.GroupBox35.Location = New System.Drawing.Point(23, 422)
-        Me.GroupBox35.Name = "GroupBox35"
-        Me.GroupBox35.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox35.TabIndex = 48
-        Me.GroupBox35.TabStop = False
-        '
         'ExRadioButton135
         '
         Me.ExRadioButton135.AutoSize = True
@@ -6366,28 +6902,6 @@ Partial Class 認定調査票
         Me.ExRadioButton137.TabStop = True
         Me.ExRadioButton137.Text = "1.ない"
         Me.ExRadioButton137.UseVisualStyleBackColor = True
-        '
-        'Label186
-        '
-        Me.Label186.AutoSize = True
-        Me.Label186.ForeColor = System.Drawing.Color.Blue
-        Me.Label186.Location = New System.Drawing.Point(6, 12)
-        Me.Label186.Name = "Label186"
-        Me.Label186.Size = New System.Drawing.Size(191, 12)
-        Me.Label186.TabIndex = 32
-        Me.Label186.Text = "4-11 物を壊したり、衣類を破いたりする"
-        '
-        'GroupBox36
-        '
-        Me.GroupBox36.Controls.Add(Me.ExRadioButton132)
-        Me.GroupBox36.Controls.Add(Me.ExRadioButton133)
-        Me.GroupBox36.Controls.Add(Me.ExRadioButton134)
-        Me.GroupBox36.Controls.Add(Me.Label187)
-        Me.GroupBox36.Location = New System.Drawing.Point(23, 382)
-        Me.GroupBox36.Name = "GroupBox36"
-        Me.GroupBox36.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox36.TabIndex = 47
-        Me.GroupBox36.TabStop = False
         '
         'ExRadioButton132
         '
@@ -6422,28 +6936,6 @@ Partial Class 認定調査票
         Me.ExRadioButton134.Text = "1.ない"
         Me.ExRadioButton134.UseVisualStyleBackColor = True
         '
-        'Label187
-        '
-        Me.Label187.AutoSize = True
-        Me.Label187.ForeColor = System.Drawing.Color.Blue
-        Me.Label187.Location = New System.Drawing.Point(6, 12)
-        Me.Label187.Name = "Label187"
-        Me.Label187.Size = New System.Drawing.Size(231, 12)
-        Me.Label187.TabIndex = 31
-        Me.Label187.Text = "4-10 いろいろなものを集めたり、無断でもってくる"
-        '
-        'GroupBox37
-        '
-        Me.GroupBox37.Controls.Add(Me.ExRadioButton129)
-        Me.GroupBox37.Controls.Add(Me.ExRadioButton130)
-        Me.GroupBox37.Controls.Add(Me.ExRadioButton131)
-        Me.GroupBox37.Controls.Add(Me.Label188)
-        Me.GroupBox37.Location = New System.Drawing.Point(23, 342)
-        Me.GroupBox37.Name = "GroupBox37"
-        Me.GroupBox37.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox37.TabIndex = 46
-        Me.GroupBox37.TabStop = False
-        '
         'ExRadioButton129
         '
         Me.ExRadioButton129.AutoSize = True
@@ -6476,28 +6968,6 @@ Partial Class 認定調査票
         Me.ExRadioButton131.TabStop = True
         Me.ExRadioButton131.Text = "1.ない"
         Me.ExRadioButton131.UseVisualStyleBackColor = True
-        '
-        'Label188
-        '
-        Me.Label188.AutoSize = True
-        Me.Label188.ForeColor = System.Drawing.Color.Blue
-        Me.Label188.Location = New System.Drawing.Point(6, 12)
-        Me.Label188.Name = "Label188"
-        Me.Label188.Size = New System.Drawing.Size(185, 12)
-        Me.Label188.TabIndex = 30
-        Me.Label188.Text = "4-9 一人で外に出たがり目が離せない"
-        '
-        'GroupBox38
-        '
-        Me.GroupBox38.Controls.Add(Me.ExRadioButton126)
-        Me.GroupBox38.Controls.Add(Me.ExRadioButton127)
-        Me.GroupBox38.Controls.Add(Me.ExRadioButton128)
-        Me.GroupBox38.Controls.Add(Me.Label189)
-        Me.GroupBox38.Location = New System.Drawing.Point(23, 302)
-        Me.GroupBox38.Name = "GroupBox38"
-        Me.GroupBox38.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox38.TabIndex = 45
-        Me.GroupBox38.TabStop = False
         '
         'ExRadioButton126
         '
@@ -6532,28 +7002,6 @@ Partial Class 認定調査票
         Me.ExRadioButton128.Text = "1.ない"
         Me.ExRadioButton128.UseVisualStyleBackColor = True
         '
-        'Label189
-        '
-        Me.Label189.AutoSize = True
-        Me.Label189.ForeColor = System.Drawing.Color.Blue
-        Me.Label189.Location = New System.Drawing.Point(6, 12)
-        Me.Label189.Name = "Label189"
-        Me.Label189.Size = New System.Drawing.Size(195, 12)
-        Me.Label189.TabIndex = 29
-        Me.Label189.Text = "4-8 「家に帰る」等と言い落ち着きがない"
-        '
-        'GroupBox39
-        '
-        Me.GroupBox39.Controls.Add(Me.ExRadioButton123)
-        Me.GroupBox39.Controls.Add(Me.ExRadioButton124)
-        Me.GroupBox39.Controls.Add(Me.ExRadioButton125)
-        Me.GroupBox39.Controls.Add(Me.Label190)
-        Me.GroupBox39.Location = New System.Drawing.Point(23, 262)
-        Me.GroupBox39.Name = "GroupBox39"
-        Me.GroupBox39.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox39.TabIndex = 44
-        Me.GroupBox39.TabStop = False
-        '
         'ExRadioButton123
         '
         Me.ExRadioButton123.AutoSize = True
@@ -6586,28 +7034,6 @@ Partial Class 認定調査票
         Me.ExRadioButton125.TabStop = True
         Me.ExRadioButton125.Text = "1.ない"
         Me.ExRadioButton125.UseVisualStyleBackColor = True
-        '
-        'Label190
-        '
-        Me.Label190.AutoSize = True
-        Me.Label190.ForeColor = System.Drawing.Color.Blue
-        Me.Label190.Location = New System.Drawing.Point(6, 12)
-        Me.Label190.Name = "Label190"
-        Me.Label190.Size = New System.Drawing.Size(103, 12)
-        Me.Label190.TabIndex = 28
-        Me.Label190.Text = "4-7 介護に抵抗する"
-        '
-        'GroupBox40
-        '
-        Me.GroupBox40.Controls.Add(Me.ExRadioButton120)
-        Me.GroupBox40.Controls.Add(Me.ExRadioButton121)
-        Me.GroupBox40.Controls.Add(Me.ExRadioButton122)
-        Me.GroupBox40.Controls.Add(Me.Label191)
-        Me.GroupBox40.Location = New System.Drawing.Point(23, 222)
-        Me.GroupBox40.Name = "GroupBox40"
-        Me.GroupBox40.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox40.TabIndex = 43
-        Me.GroupBox40.TabStop = False
         '
         'ExRadioButton120
         '
@@ -6642,28 +7068,6 @@ Partial Class 認定調査票
         Me.ExRadioButton122.Text = "1.ない"
         Me.ExRadioButton122.UseVisualStyleBackColor = True
         '
-        'Label191
-        '
-        Me.Label191.AutoSize = True
-        Me.Label191.ForeColor = System.Drawing.Color.Blue
-        Me.Label191.Location = New System.Drawing.Point(6, 12)
-        Me.Label191.Name = "Label191"
-        Me.Label191.Size = New System.Drawing.Size(82, 12)
-        Me.Label191.TabIndex = 27
-        Me.Label191.Text = "4-6 大声を出す"
-        '
-        'GroupBox41
-        '
-        Me.GroupBox41.Controls.Add(Me.ExRadioButton117)
-        Me.GroupBox41.Controls.Add(Me.ExRadioButton118)
-        Me.GroupBox41.Controls.Add(Me.ExRadioButton119)
-        Me.GroupBox41.Controls.Add(Me.Label192)
-        Me.GroupBox41.Location = New System.Drawing.Point(23, 182)
-        Me.GroupBox41.Name = "GroupBox41"
-        Me.GroupBox41.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox41.TabIndex = 42
-        Me.GroupBox41.TabStop = False
-        '
         'ExRadioButton117
         '
         Me.ExRadioButton117.AutoSize = True
@@ -6696,28 +7100,6 @@ Partial Class 認定調査票
         Me.ExRadioButton119.TabStop = True
         Me.ExRadioButton119.Text = "1.ない"
         Me.ExRadioButton119.UseVisualStyleBackColor = True
-        '
-        'Label192
-        '
-        Me.Label192.AutoSize = True
-        Me.Label192.ForeColor = System.Drawing.Color.Blue
-        Me.Label192.Location = New System.Drawing.Point(6, 12)
-        Me.Label192.Name = "Label192"
-        Me.Label192.Size = New System.Drawing.Size(120, 12)
-        Me.Label192.TabIndex = 26
-        Me.Label192.Text = "4-5 しつこく同じ話をする"
-        '
-        'GroupBox42
-        '
-        Me.GroupBox42.Controls.Add(Me.ExRadioButton114)
-        Me.GroupBox42.Controls.Add(Me.ExRadioButton115)
-        Me.GroupBox42.Controls.Add(Me.ExRadioButton116)
-        Me.GroupBox42.Controls.Add(Me.Label193)
-        Me.GroupBox42.Location = New System.Drawing.Point(23, 142)
-        Me.GroupBox42.Name = "GroupBox42"
-        Me.GroupBox42.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox42.TabIndex = 41
-        Me.GroupBox42.TabStop = False
         '
         'ExRadioButton114
         '
@@ -6752,28 +7134,6 @@ Partial Class 認定調査票
         Me.ExRadioButton116.Text = "1.ない"
         Me.ExRadioButton116.UseVisualStyleBackColor = True
         '
-        'Label193
-        '
-        Me.Label193.AutoSize = True
-        Me.Label193.ForeColor = System.Drawing.Color.Blue
-        Me.Label193.Location = New System.Drawing.Point(6, 12)
-        Me.Label193.Name = "Label193"
-        Me.Label193.Size = New System.Drawing.Size(85, 12)
-        Me.Label193.TabIndex = 25
-        Me.Label193.Text = "4-4 昼夜の逆転"
-        '
-        'GroupBox43
-        '
-        Me.GroupBox43.Controls.Add(Me.ExRadioButton111)
-        Me.GroupBox43.Controls.Add(Me.ExRadioButton112)
-        Me.GroupBox43.Controls.Add(Me.ExRadioButton113)
-        Me.GroupBox43.Controls.Add(Me.Label194)
-        Me.GroupBox43.Location = New System.Drawing.Point(23, 102)
-        Me.GroupBox43.Name = "GroupBox43"
-        Me.GroupBox43.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox43.TabIndex = 40
-        Me.GroupBox43.TabStop = False
-        '
         'ExRadioButton111
         '
         Me.ExRadioButton111.AutoSize = True
@@ -6806,28 +7166,6 @@ Partial Class 認定調査票
         Me.ExRadioButton113.TabStop = True
         Me.ExRadioButton113.Text = "1.ない"
         Me.ExRadioButton113.UseVisualStyleBackColor = True
-        '
-        'Label194
-        '
-        Me.Label194.AutoSize = True
-        Me.Label194.ForeColor = System.Drawing.Color.Blue
-        Me.Label194.Location = New System.Drawing.Point(6, 12)
-        Me.Label194.Name = "Label194"
-        Me.Label194.Size = New System.Drawing.Size(227, 12)
-        Me.Label194.TabIndex = 24
-        Me.Label194.Text = "4-3 泣いたり、笑ったりして感情が不安定になる"
-        '
-        'GroupBox44
-        '
-        Me.GroupBox44.Controls.Add(Me.ExRadioButton108)
-        Me.GroupBox44.Controls.Add(Me.ExRadioButton109)
-        Me.GroupBox44.Controls.Add(Me.ExRadioButton110)
-        Me.GroupBox44.Controls.Add(Me.Label195)
-        Me.GroupBox44.Location = New System.Drawing.Point(23, 62)
-        Me.GroupBox44.Name = "GroupBox44"
-        Me.GroupBox44.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox44.TabIndex = 39
-        Me.GroupBox44.TabStop = False
         '
         'ExRadioButton108
         '
@@ -6862,28 +7200,6 @@ Partial Class 認定調査票
         Me.ExRadioButton110.Text = "1.ない"
         Me.ExRadioButton110.UseVisualStyleBackColor = True
         '
-        'Label195
-        '
-        Me.Label195.AutoSize = True
-        Me.Label195.ForeColor = System.Drawing.Color.Blue
-        Me.Label195.Location = New System.Drawing.Point(6, 12)
-        Me.Label195.Name = "Label195"
-        Me.Label195.Size = New System.Drawing.Size(95, 12)
-        Me.Label195.TabIndex = 23
-        Me.Label195.Text = "4-2 作話をすること"
-        '
-        'GroupBox45
-        '
-        Me.GroupBox45.Controls.Add(Me.ExRadioButton105)
-        Me.GroupBox45.Controls.Add(Me.ExRadioButton106)
-        Me.GroupBox45.Controls.Add(Me.ExRadioButton107)
-        Me.GroupBox45.Controls.Add(Me.Label196)
-        Me.GroupBox45.Location = New System.Drawing.Point(23, 22)
-        Me.GroupBox45.Name = "GroupBox45"
-        Me.GroupBox45.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox45.TabIndex = 38
-        Me.GroupBox45.TabStop = False
-        '
         'ExRadioButton105
         '
         Me.ExRadioButton105.AutoSize = True
@@ -6917,43 +7233,6 @@ Partial Class 認定調査票
         Me.ExRadioButton107.Text = "1.ない"
         Me.ExRadioButton107.UseVisualStyleBackColor = True
         '
-        'Label196
-        '
-        Me.Label196.AutoSize = True
-        Me.Label196.ForeColor = System.Drawing.Color.Blue
-        Me.Label196.Location = New System.Drawing.Point(6, 12)
-        Me.Label196.Name = "Label196"
-        Me.Label196.Size = New System.Drawing.Size(179, 12)
-        Me.Label196.TabIndex = 22
-        Me.Label196.Text = "4-1 物を盗られたなどと被害的になる"
-        '
-        'bsTabP5
-        '
-        Me.bsTabP5.BackColor = System.Drawing.SystemColors.Control
-        Me.bsTabP5.Controls.Add(Me.GroupBox50)
-        Me.bsTabP5.Controls.Add(Me.GroupBox51)
-        Me.bsTabP5.Controls.Add(Me.GroupBox52)
-        Me.bsTabP5.Controls.Add(Me.GroupBox53)
-        Me.bsTabP5.Controls.Add(Me.GroupBox54)
-        Me.bsTabP5.Controls.Add(Me.GroupBox55)
-        Me.bsTabP5.Location = New System.Drawing.Point(4, 22)
-        Me.bsTabP5.Name = "bsTabP5"
-        Me.bsTabP5.Size = New System.Drawing.Size(802, 679)
-        Me.bsTabP5.TabIndex = 4
-        Me.bsTabP5.Text = "５．社会生活への適応"
-        '
-        'GroupBox50
-        '
-        Me.GroupBox50.Controls.Add(Me.ExRadioButton160)
-        Me.GroupBox50.Controls.Add(Me.ExRadioButton161)
-        Me.GroupBox50.Controls.Add(Me.ExRadioButton162)
-        Me.GroupBox50.Controls.Add(Me.Label200)
-        Me.GroupBox50.Location = New System.Drawing.Point(23, 166)
-        Me.GroupBox50.Name = "GroupBox50"
-        Me.GroupBox50.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox50.TabIndex = 51
-        Me.GroupBox50.TabStop = False
-        '
         'ExRadioButton160
         '
         Me.ExRadioButton160.AutoSize = True
@@ -6986,29 +7265,6 @@ Partial Class 認定調査票
         Me.ExRadioButton162.TabStop = True
         Me.ExRadioButton162.Text = "1.ない"
         Me.ExRadioButton162.UseVisualStyleBackColor = True
-        '
-        'Label200
-        '
-        Me.Label200.AutoSize = True
-        Me.Label200.ForeColor = System.Drawing.Color.Blue
-        Me.Label200.Location = New System.Drawing.Point(6, 12)
-        Me.Label200.Name = "Label200"
-        Me.Label200.Size = New System.Drawing.Size(107, 12)
-        Me.Label200.TabIndex = 45
-        Me.Label200.Text = "5-4 集団への不適応"
-        '
-        'GroupBox51
-        '
-        Me.GroupBox51.Controls.Add(Me.ExRadioButton159)
-        Me.GroupBox51.Controls.Add(Me.ExRadioButton156)
-        Me.GroupBox51.Controls.Add(Me.ExRadioButton157)
-        Me.GroupBox51.Controls.Add(Me.ExRadioButton158)
-        Me.GroupBox51.Controls.Add(Me.Label201)
-        Me.GroupBox51.Location = New System.Drawing.Point(23, 118)
-        Me.GroupBox51.Name = "GroupBox51"
-        Me.GroupBox51.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox51.TabIndex = 50
-        Me.GroupBox51.TabStop = False
         '
         'ExRadioButton159
         '
@@ -7054,29 +7310,6 @@ Partial Class 認定調査票
         Me.ExRadioButton158.Text = "1.できる（特別な場合でもできる）"
         Me.ExRadioButton158.UseVisualStyleBackColor = True
         '
-        'Label201
-        '
-        Me.Label201.AutoSize = True
-        Me.Label201.ForeColor = System.Drawing.Color.Blue
-        Me.Label201.Location = New System.Drawing.Point(6, 12)
-        Me.Label201.Name = "Label201"
-        Me.Label201.Size = New System.Drawing.Size(109, 12)
-        Me.Label201.TabIndex = 44
-        Me.Label201.Text = "5-3 日常の意思決定"
-        '
-        'GroupBox52
-        '
-        Me.GroupBox52.Controls.Add(Me.ExRadioButton167)
-        Me.GroupBox52.Controls.Add(Me.ExRadioButton168)
-        Me.GroupBox52.Controls.Add(Me.ExRadioButton169)
-        Me.GroupBox52.Controls.Add(Me.ExRadioButton170)
-        Me.GroupBox52.Controls.Add(Me.Label198)
-        Me.GroupBox52.Location = New System.Drawing.Point(23, 262)
-        Me.GroupBox52.Name = "GroupBox52"
-        Me.GroupBox52.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox52.TabIndex = 53
-        Me.GroupBox52.TabStop = False
-        '
         'ExRadioButton167
         '
         Me.ExRadioButton167.AutoSize = True
@@ -7121,28 +7354,6 @@ Partial Class 認定調査票
         Me.ExRadioButton170.Text = "1.自立（介助なし）"
         Me.ExRadioButton170.UseVisualStyleBackColor = True
         '
-        'Label198
-        '
-        Me.Label198.AutoSize = True
-        Me.Label198.ForeColor = System.Drawing.Color.Blue
-        Me.Label198.Location = New System.Drawing.Point(6, 12)
-        Me.Label198.Name = "Label198"
-        Me.Label198.Size = New System.Drawing.Size(85, 12)
-        Me.Label198.TabIndex = 47
-        Me.Label198.Text = "5-6 簡単な調理"
-        '
-        'GroupBox53
-        '
-        Me.GroupBox53.Controls.Add(Me.ExRadioButton153)
-        Me.GroupBox53.Controls.Add(Me.ExRadioButton154)
-        Me.GroupBox53.Controls.Add(Me.ExRadioButton155)
-        Me.GroupBox53.Controls.Add(Me.Label202)
-        Me.GroupBox53.Location = New System.Drawing.Point(23, 70)
-        Me.GroupBox53.Name = "GroupBox53"
-        Me.GroupBox53.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox53.TabIndex = 49
-        Me.GroupBox53.TabStop = False
-        '
         'ExRadioButton153
         '
         Me.ExRadioButton153.AutoSize = True
@@ -7175,29 +7386,6 @@ Partial Class 認定調査票
         Me.ExRadioButton155.TabStop = True
         Me.ExRadioButton155.Text = "1.自立（介助なし）"
         Me.ExRadioButton155.UseVisualStyleBackColor = True
-        '
-        'Label202
-        '
-        Me.Label202.AutoSize = True
-        Me.Label202.ForeColor = System.Drawing.Color.Blue
-        Me.Label202.Location = New System.Drawing.Point(6, 12)
-        Me.Label202.Name = "Label202"
-        Me.Label202.Size = New System.Drawing.Size(85, 12)
-        Me.Label202.TabIndex = 43
-        Me.Label202.Text = "5-2 金銭の管理"
-        '
-        'GroupBox54
-        '
-        Me.GroupBox54.Controls.Add(Me.ExRadioButton163)
-        Me.GroupBox54.Controls.Add(Me.ExRadioButton164)
-        Me.GroupBox54.Controls.Add(Me.ExRadioButton165)
-        Me.GroupBox54.Controls.Add(Me.ExRadioButton166)
-        Me.GroupBox54.Controls.Add(Me.Label199)
-        Me.GroupBox54.Location = New System.Drawing.Point(23, 214)
-        Me.GroupBox54.Name = "GroupBox54"
-        Me.GroupBox54.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox54.TabIndex = 52
-        Me.GroupBox54.TabStop = False
         '
         'ExRadioButton163
         '
@@ -7243,28 +7431,6 @@ Partial Class 認定調査票
         Me.ExRadioButton166.Text = "1.自立（介助なし）"
         Me.ExRadioButton166.UseVisualStyleBackColor = True
         '
-        'Label199
-        '
-        Me.Label199.AutoSize = True
-        Me.Label199.ForeColor = System.Drawing.Color.Blue
-        Me.Label199.Location = New System.Drawing.Point(6, 12)
-        Me.Label199.Name = "Label199"
-        Me.Label199.Size = New System.Drawing.Size(61, 12)
-        Me.Label199.TabIndex = 46
-        Me.Label199.Text = "5-5 買い物"
-        '
-        'GroupBox55
-        '
-        Me.GroupBox55.Controls.Add(Me.ExRadioButton150)
-        Me.GroupBox55.Controls.Add(Me.ExRadioButton151)
-        Me.GroupBox55.Controls.Add(Me.ExRadioButton152)
-        Me.GroupBox55.Controls.Add(Me.Label203)
-        Me.GroupBox55.Location = New System.Drawing.Point(23, 22)
-        Me.GroupBox55.Name = "GroupBox55"
-        Me.GroupBox55.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox55.TabIndex = 48
-        Me.GroupBox55.TabStop = False
-        '
         'ExRadioButton150
         '
         Me.ExRadioButton150.AutoSize = True
@@ -7297,41 +7463,6 @@ Partial Class 認定調査票
         Me.ExRadioButton152.TabStop = True
         Me.ExRadioButton152.Text = "1.自立（介助なし）"
         Me.ExRadioButton152.UseVisualStyleBackColor = True
-        '
-        'Label203
-        '
-        Me.Label203.AutoSize = True
-        Me.Label203.ForeColor = System.Drawing.Color.Blue
-        Me.Label203.Location = New System.Drawing.Point(6, 12)
-        Me.Label203.Name = "Label203"
-        Me.Label203.Size = New System.Drawing.Size(73, 12)
-        Me.Label203.TabIndex = 42
-        Me.Label203.Text = "5-1 薬の内薬"
-        '
-        'bsTabP6
-        '
-        Me.bsTabP6.BackColor = System.Drawing.SystemColors.Control
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox23)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox22)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox21)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox20)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox16)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox17)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox18)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox19)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox15)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox14)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox13)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox12)
-        Me.bsTabP6.Controls.Add(Me.Label204)
-        Me.bsTabP6.Controls.Add(Me.Label197)
-        Me.bsTabP6.Controls.Add(Me.Label181)
-        Me.bsTabP6.Controls.Add(Me.Label205)
-        Me.bsTabP6.Location = New System.Drawing.Point(4, 22)
-        Me.bsTabP6.Name = "bsTabP6"
-        Me.bsTabP6.Size = New System.Drawing.Size(802, 679)
-        Me.bsTabP6.TabIndex = 5
-        Me.bsTabP6.Text = "６．特別な医療"
         '
         'ExCheckBox23
         '
@@ -7453,77 +7584,6 @@ Partial Class 認定調査票
         Me.ExCheckBox12.Text = "1.点滴の管理"
         Me.ExCheckBox12.UseVisualStyleBackColor = True
         '
-        'Label204
-        '
-        Me.Label204.AutoSize = True
-        Me.Label204.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label204.ForeColor = System.Drawing.Color.Blue
-        Me.Label204.Location = New System.Drawing.Point(215, 198)
-        Me.Label204.Name = "Label204"
-        Me.Label204.Size = New System.Drawing.Size(63, 12)
-        Me.Label204.TabIndex = 63
-        Me.Label204.Text = "特別な対応"
-        '
-        'Label197
-        '
-        Me.Label197.AutoSize = True
-        Me.Label197.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label197.ForeColor = System.Drawing.Color.Blue
-        Me.Label197.Location = New System.Drawing.Point(215, 41)
-        Me.Label197.Name = "Label197"
-        Me.Label197.Size = New System.Drawing.Size(53, 12)
-        Me.Label197.TabIndex = 62
-        Me.Label197.Text = "処置内容"
-        '
-        'Label181
-        '
-        Me.Label181.AutoSize = True
-        Me.Label181.ForeColor = System.Drawing.Color.Blue
-        Me.Label181.Location = New System.Drawing.Point(111, 62)
-        Me.Label181.Name = "Label181"
-        Me.Label181.Size = New System.Drawing.Size(73, 12)
-        Me.Label181.TabIndex = 61
-        Me.Label181.Text = "(複数回答可)"
-        '
-        'Label205
-        '
-        Me.Label205.AutoSize = True
-        Me.Label205.ForeColor = System.Drawing.Color.Blue
-        Me.Label205.Location = New System.Drawing.Point(45, 41)
-        Me.Label205.Name = "Label205"
-        Me.Label205.Size = New System.Drawing.Size(139, 12)
-        Me.Label205.TabIndex = 60
-        Me.Label205.Text = "6 過去14日間に受けた医療"
-        '
-        'bsTabP7
-        '
-        Me.bsTabP7.BackColor = System.Drawing.SystemColors.Control
-        Me.bsTabP7.Controls.Add(Me.GroupBox57)
-        Me.bsTabP7.Controls.Add(Me.GroupBox56)
-        Me.bsTabP7.Controls.Add(Me.Label210)
-        Me.bsTabP7.Location = New System.Drawing.Point(4, 22)
-        Me.bsTabP7.Name = "bsTabP7"
-        Me.bsTabP7.Size = New System.Drawing.Size(802, 679)
-        Me.bsTabP7.TabIndex = 6
-        Me.bsTabP7.Text = "７．日常生活自立度"
-        '
-        'GroupBox57
-        '
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton181)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton182)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton183)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton184)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton185)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton186)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton187)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton188)
-        Me.GroupBox57.Controls.Add(Me.Label207)
-        Me.GroupBox57.Location = New System.Drawing.Point(47, 125)
-        Me.GroupBox57.Name = "GroupBox57"
-        Me.GroupBox57.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox57.TabIndex = 65
-        Me.GroupBox57.TabStop = False
-        '
         'ExRadioButton181
         '
         Me.ExRadioButton181.AutoSize = True
@@ -7611,34 +7671,6 @@ Partial Class 認定調査票
         Me.ExRadioButton188.TabStop = True
         Me.ExRadioButton188.Text = "自立"
         Me.ExRadioButton188.UseVisualStyleBackColor = True
-        '
-        'Label207
-        '
-        Me.Label207.AutoSize = True
-        Me.Label207.ForeColor = System.Drawing.Color.Blue
-        Me.Label207.Location = New System.Drawing.Point(6, 12)
-        Me.Label207.Name = "Label207"
-        Me.Label207.Size = New System.Drawing.Size(171, 12)
-        Me.Label207.TabIndex = 63
-        Me.Label207.Text = "認知症高齢者の日常生活自立度"
-        '
-        'GroupBox56
-        '
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton179)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton178)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton177)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton176)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton175)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton174)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton173)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton172)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton171)
-        Me.GroupBox56.Controls.Add(Me.Label209)
-        Me.GroupBox56.Location = New System.Drawing.Point(47, 74)
-        Me.GroupBox56.Name = "GroupBox56"
-        Me.GroupBox56.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox56.TabIndex = 64
-        Me.GroupBox56.TabStop = False
         '
         'ExRadioButton179
         '
@@ -7739,38 +7771,6 @@ Partial Class 認定調査票
         Me.ExRadioButton171.Text = "自立"
         Me.ExRadioButton171.UseVisualStyleBackColor = True
         '
-        'Label209
-        '
-        Me.Label209.AutoSize = True
-        Me.Label209.ForeColor = System.Drawing.Color.Blue
-        Me.Label209.Location = New System.Drawing.Point(6, 12)
-        Me.Label209.Name = "Label209"
-        Me.Label209.Size = New System.Drawing.Size(221, 12)
-        Me.Label209.TabIndex = 61
-        Me.Label209.Text = "障害高齢者の日常生活自立度（寝たきり度）"
-        '
-        'Label210
-        '
-        Me.Label210.AutoSize = True
-        Me.Label210.ForeColor = System.Drawing.Color.Blue
-        Me.Label210.Location = New System.Drawing.Point(45, 41)
-        Me.Label210.Name = "Label210"
-        Me.Label210.Size = New System.Drawing.Size(99, 12)
-        Me.Label210.TabIndex = 60
-        Me.Label210.Text = "7 日常生活自立度"
-        '
-        'ListingDataGridViewTextBoxColumn
-        '
-        Me.ListingDataGridViewTextBoxColumn.DataPropertyName = "Listing"
-        Me.ListingDataGridViewTextBoxColumn.HeaderText = "Listing"
-        Me.ListingDataGridViewTextBoxColumn.Name = "ListingDataGridViewTextBoxColumn"
-        '
-        'ContentDataGridViewTextBoxColumn
-        '
-        Me.ContentDataGridViewTextBoxColumn.DataPropertyName = "Content"
-        Me.ContentDataGridViewTextBoxColumn.HeaderText = "Content"
-        Me.ContentDataGridViewTextBoxColumn.Name = "ContentDataGridViewTextBoxColumn"
-        '
         '認定調査票
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -7814,30 +7814,22 @@ Partial Class 認定調査票
         Me.Panel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).EndInit()
         Me.specialNotePage.ResumeLayout(False)
         Me.spTab.ResumeLayout(False)
         Me.spTabP1.ResumeLayout(False)
         Me.spTabP1.PerformLayout()
-        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP2.ResumeLayout(False)
         Me.spTabP2.PerformLayout()
-        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP3.ResumeLayout(False)
         Me.spTabP3.PerformLayout()
-        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP4.ResumeLayout(False)
         Me.spTabP4.PerformLayout()
-        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP5.ResumeLayout(False)
         Me.spTabP5.PerformLayout()
-        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP6.ResumeLayout(False)
         Me.spTabP6.PerformLayout()
-        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP7.ResumeLayout(False)
         Me.spTabP7.PerformLayout()
-        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.basicSurveyPage.ResumeLayout(False)
         Me.bsTab.ResumeLayout(False)
         Me.bsTabP1.ResumeLayout(False)
@@ -7964,6 +7956,14 @@ Partial Class 認定調査票
         Me.GroupBox57.PerformLayout()
         Me.GroupBox56.ResumeLayout(False)
         Me.GroupBox56.PerformLayout()
+        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
