@@ -41,7 +41,7 @@ Public Class 認定調査票
 
         '入力ボックス設定
         settingInputBox()
-        clearInputBox()
+        clearOverviewPageInputBox()
 
     End Sub
 
@@ -210,8 +210,8 @@ Public Class 認定調査票
         End With
 
         '列追加、空の行追加
-        dgv.dt.Columns.Add("Listing", Type.GetType("System.String"))
-        dgv.dt.Columns.Add("Content", Type.GetType("System.String"))
+        dgv.dt.Columns.Add("Crr", Type.GetType("System.String"))
+        dgv.dt.Columns.Add("Txt", Type.GetType("System.String"))
         Dim row As DataRow
         For i = 0 To 59
             row = dgv.dt.NewRow()
@@ -223,11 +223,12 @@ Public Class 認定調査票
         dgv.DataSource = dgv.dt
 
         With dgv
-            With .Columns("Listing")
+            With .Columns("Crr")
                 .HeaderText = "項目"
+                .DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
                 .Width = 47
             End With
-            With .Columns("Content")
+            With .Columns("Txt")
                 .HeaderText = "内容"
                 .Width = 530
             End With
@@ -339,7 +340,7 @@ Public Class 認定調査票
             .LimitLengthByte = 16
             .ImeMode = Windows.Forms.ImeMode.Hiragana
         End With
-        
+
         '調査対象者との関係ボックス
         relationBox.Items.AddRange({"夫", "妻", "息子", "娘", "長男", "二男", "三男", "四男", "長女", "二女", "三女", "四女", "五女", "子の嫁", "子の夫", "兄", "弟", "姉", "妹", "父", "母", "孫", "伯父", "叔父", "伯母", "叔母", "知人", "その他", "姪", "甥"})
         relationBox.MaxDropDownItems = 8
@@ -435,7 +436,7 @@ Public Class 認定調査票
 
     End Sub
 
-    Private Sub clearInputBox()
+    Private Sub clearOverviewPageInputBox()
         Dim todayStr As String = Today.ToString("yyyy/MM/dd")
         '番号
         For Each cell As DataGridViewCell In dgvNumInput.Rows(0).Cells
@@ -587,16 +588,33 @@ Public Class 認定調査票
 
     End Sub
 
+    Private Sub clearAllInputData()
+        '概況調査タブ
+        clearOverviewPageInputBox()
+        '特記事項タブ
+        SpDgv1.clearText()
+        SpDgv2.clearText()
+        SpDgv3.clearText()
+        SpDgv4.clearText()
+        SpDgv5.clearText()
+        SpDgv6.clearText()
+        SpDgv7.clearText()
+
+        '基本調査タブ
+
+    End Sub
+
     Private Sub displayUserData(nam As String, kana As String, ymd1 As String)
-        clearInputBox()
+        clearAllInputData()
         Dim cnn As New ADODB.Connection
         Dim rs As New ADODB.Recordset
         Dim sql As String = "select * from Auth1 where Nam='" & nam & "' and Ymd1='" & ymd1 & "'"
+        cnn.CursorLocation = ADODB.CursorLocationEnum.adUseClient
         cnn.Open(topForm.DB_KSave2)
         rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockReadOnly)
 
         '概況調査タブの表示処理
-        rs.Find("Gyo=61")
+        rs.Filter = "Gyo=61"
         '調査日
         For i = 1 To 6
             dgvNumInput("GDay" & i, 0).Value = Util.checkDBNullValue(rs.Fields("GDay" & i).Value)
@@ -700,6 +718,102 @@ Public Class 認定調査票
         spText3.Text = Util.checkDBNullValue(rs.Fields("GTokki3").Value)
         spText4.Text = Util.checkDBNullValue(rs.Fields("GTokki4").Value)
 
+        '特記事項タブの表示処理
+        '1.身体機能・起居動作
+        rs.Filter = "Sp=0 and Gyo>=4 and Gyo<>61"
+        rs.Sort = "Gyo ASC"
+        If rs.RecordCount >= 1 Then
+            rs.MoveFirst()
+            Dim i As Integer = 0
+            While Not rs.EOF
+                SpDgv1("Crr", i).Value = Util.checkDBNullValue(rs.Fields("Crr").Value)
+                SpDgv1("Txt", i).Value = Util.checkDBNullValue(rs.Fields("Txt").Value)
+                i += 1
+                rs.MoveNext()
+            End While
+        End If
+        '2.生活機能
+        rs.Filter = "Sp=1 and Gyo>=5"
+        rs.Sort = "Gyo ASC"
+        If rs.RecordCount >= 1 Then
+            rs.MoveFirst()
+            Dim i As Integer = 0
+            While Not rs.EOF
+                SpDgv2("Crr", i).Value = Util.checkDBNullValue(rs.Fields("Crr").Value)
+                SpDgv2("Txt", i).Value = Util.checkDBNullValue(rs.Fields("Txt").Value)
+                i += 1
+                rs.MoveNext()
+            End While
+        End If
+        '3.認知機能
+        rs.Filter = "Sp=2 and Gyo>=5"
+        rs.Sort = "Gyo ASC"
+        If rs.RecordCount >= 1 Then
+            rs.MoveFirst()
+            Dim i As Integer = 0
+            While Not rs.EOF
+                SpDgv3("Crr", i).Value = Util.checkDBNullValue(rs.Fields("Crr").Value)
+                SpDgv3("Txt", i).Value = Util.checkDBNullValue(rs.Fields("Txt").Value)
+                i += 1
+                rs.MoveNext()
+            End While
+        End If
+        '4.精神・行動障害
+        rs.Filter = "Sp=3 and Gyo>=6"
+        rs.Sort = "Gyo ASC"
+        If rs.RecordCount >= 1 Then
+            rs.MoveFirst()
+            Dim i As Integer = 0
+            While Not rs.EOF
+                SpDgv4("Crr", i).Value = Util.checkDBNullValue(rs.Fields("Crr").Value)
+                SpDgv4("Txt", i).Value = Util.checkDBNullValue(rs.Fields("Txt").Value)
+                i += 1
+                rs.MoveNext()
+            End While
+        End If
+        '5.社会生活への適応
+        rs.Filter = "Sp=4 and Gyo>=5"
+        rs.Sort = "Gyo ASC"
+        If rs.RecordCount >= 1 Then
+            rs.MoveFirst()
+            Dim i As Integer = 0
+            While Not rs.EOF
+                SpDgv5("Crr", i).Value = Util.checkDBNullValue(rs.Fields("Crr").Value)
+                SpDgv5("Txt", i).Value = Util.checkDBNullValue(rs.Fields("Txt").Value)
+                i += 1
+                rs.MoveNext()
+            End While
+        End If
+        '6.特別な医療
+        rs.Filter = "Sp=5 and Gyo>=4"
+        rs.Sort = "Gyo ASC"
+        If rs.RecordCount >= 1 Then
+            rs.MoveFirst()
+            Dim i As Integer = 0
+            While Not rs.EOF
+                SpDgv6("Crr", i).Value = Util.checkDBNullValue(rs.Fields("Crr").Value)
+                SpDgv6("Txt", i).Value = Util.checkDBNullValue(rs.Fields("Txt").Value)
+                i += 1
+                rs.MoveNext()
+            End While
+        End If
+        '7.日常生活自立度
+        rs.Filter = "Sp=6 and Gyo>=4"
+        rs.Sort = "Gyo ASC"
+        If rs.RecordCount >= 1 Then
+            rs.MoveFirst()
+            Dim i As Integer = 0
+            While Not rs.EOF
+                SpDgv7("Crr", i).Value = Util.checkDBNullValue(rs.Fields("Crr").Value)
+                SpDgv7("Txt", i).Value = Util.checkDBNullValue(rs.Fields("Txt").Value)
+                i += 1
+                rs.MoveNext()
+            End While
+        End If
+
+        '基本調査タブの表示処理
+
+
         cnn.Close()
     End Sub
 
@@ -713,7 +827,7 @@ Public Class 認定調査票
     End Sub
 
     Private Sub btnClear_Click(sender As System.Object, e As System.EventArgs) Handles btnClear.Click
-        clearInputBox()
+        clearOverviewPageInputBox()
     End Sub
 
     Private Sub btnCalcAge_Click(sender As System.Object, e As System.EventArgs) Handles btnCalcAge.Click

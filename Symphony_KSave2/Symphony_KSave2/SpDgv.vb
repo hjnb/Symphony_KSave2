@@ -1,8 +1,12 @@
-﻿Public Class SpDgv
+﻿Imports System.Text
+
+Public Class SpDgv
     Inherits DataGridView
 
-    Public cellEnterFlg As Boolean = False
-    Public selectedRowIndex As Integer = 0
+    Private cellEnterFlg As Boolean = False
+    Private selectedRowIndex As Integer = 0
+    Private CRR_LIMIT_LENGTHBYTE As Integer = 6
+    Private TXT_LIMIT_LENGTHBYTE As Integer = 98
 
     Public dt As New DataTable()
 
@@ -61,5 +65,30 @@
         cellEnterFlg = True
         Me.BeginEdit(False)
         selectedRowIndex = e.RowIndex
+    End Sub
+
+    Private Sub SpDgvTextBox_KeyPress(sender As Object, e As System.Windows.Forms.KeyPressEventArgs)
+        Dim text As String = CType(sender, DataGridViewTextBoxEditingControl).Text
+        Dim lengthByte As Integer = Encoding.GetEncoding("Shift_JIS").GetByteCount(text)
+        Dim limitLengthByte As Integer = If(Me.Columns(Me.CurrentCell.ColumnIndex).Name = "Crr", CRR_LIMIT_LENGTHBYTE, TXT_LIMIT_LENGTHBYTE)
+        
+        If lengthByte >= limitLengthByte Then '設定されているバイト数以上の時
+            If e.KeyChar = ChrW(Keys.Back) Then
+                'Backspaceは入力可能
+                e.Handled = False
+            Else
+                '入力できなくする
+                e.Handled = True
+            End If
+        End If
+    End Sub
+
+    Private Sub SpDgv_EditingControlShowing(sender As Object, e As System.Windows.Forms.DataGridViewEditingControlShowingEventArgs) Handles Me.EditingControlShowing
+        Dim editTextBox As DataGridViewTextBoxEditingControl = CType(e.Control, DataGridViewTextBoxEditingControl)
+        editTextBox.ImeMode = If(Me.Columns(Me.CurrentCell.ColumnIndex).Name = "Crr", Windows.Forms.ImeMode.Disable, Windows.Forms.ImeMode.Hiragana)
+
+        'イベントハンドラを削除、追加
+        RemoveHandler editTextBox.KeyPress, AddressOf SpDgvTextBox_KeyPress
+        AddHandler editTextBox.KeyPress, AddressOf SpDgvTextBox_KeyPress
     End Sub
 End Class
