@@ -31,14 +31,27 @@ Partial Class 認定調査票
         Me.btnPrint = New System.Windows.Forms.Button()
         Me.inputTab = New System.Windows.Forms.TabControl()
         Me.overviewPage = New System.Windows.Forms.TabPage()
+        Me.spText4 = New Symphony_KSave2.ExTextBox()
+        Me.spText3 = New Symphony_KSave2.ExTextBox()
+        Me.spText2 = New Symphony_KSave2.ExTextBox()
+        Me.spText1 = New Symphony_KSave2.ExTextBox()
+        Me.Gentxt1 = New Symphony_KSave2.ExTextBox()
+        Me.houseTextBox = New Symphony_KSave2.ExTextBox()
         Me.Label77 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.facilityTel3 = New Symphony_KSave2.ExTextBox()
+        Me.facilityTel2 = New Symphony_KSave2.ExTextBox()
+        Me.facilityTel1 = New Symphony_KSave2.ExTextBox()
+        Me.facilityAddress = New Symphony_KSave2.ExTextBox()
+        Me.facilityPostCode2 = New Symphony_KSave2.ExTextBox()
+        Me.facilityPostCode1 = New Symphony_KSave2.ExTextBox()
         Me.Label64 = New System.Windows.Forms.Label()
         Me.Label72 = New System.Windows.Forms.Label()
         Me.Label73 = New System.Windows.Forms.Label()
         Me.Label74 = New System.Windows.Forms.Label()
         Me.Label76 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.facilityNameBox = New Symphony_KSave2.ExTextBox()
         Me.Label75 = New System.Windows.Forms.Label()
         Me.Label61 = New System.Windows.Forms.Label()
         Me.facilityPanel = New System.Windows.Forms.Panel()
@@ -52,10 +65,31 @@ Partial Class 認定調査票
         Me.checkStay1 = New System.Windows.Forms.CheckBox()
         Me.Label54 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Gentxt2 = New Symphony_KSave2.ExTextBox()
         Me.checkGen22 = New System.Windows.Forms.CheckBox()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.checkGen21 = New System.Windows.Forms.CheckBox()
         Me.overview3Panel = New System.Windows.Forms.Panel()
+        Me.txtNum20 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum19 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum18 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum17 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum16 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum15 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum14 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum12 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum11 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum21 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum10 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum9 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum8 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum7 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum6 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum5 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum4 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum3 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum2 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum1 = New Symphony_KSave2.ExTextBox()
         Me.CheckNum13None = New System.Windows.Forms.CheckBox()
         Me.CheckNum13Exists = New System.Windows.Forms.CheckBox()
         Me.Label53 = New System.Windows.Forms.Label()
@@ -120,15 +154,28 @@ Partial Class 認定調査票
         Me.relationBox = New System.Windows.Forms.ComboBox()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.namBox = New Symphony_KSave2.ExTextBox()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.familyTel3 = New Symphony_KSave2.ExTextBox()
+        Me.familyTel2 = New Symphony_KSave2.ExTextBox()
+        Me.familyTel1 = New Symphony_KSave2.ExTextBox()
+        Me.familyAddress = New Symphony_KSave2.ExTextBox()
+        Me.familyPostCode2 = New Symphony_KSave2.ExTextBox()
+        Me.familyPostCode1 = New Symphony_KSave2.ExTextBox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.currentTel3 = New Symphony_KSave2.ExTextBox()
+        Me.currentTel2 = New Symphony_KSave2.ExTextBox()
+        Me.currentTel1 = New Symphony_KSave2.ExTextBox()
+        Me.currentAddress = New Symphony_KSave2.ExTextBox()
+        Me.currentPostCode2 = New Symphony_KSave2.ExTextBox()
+        Me.currentPostCode1 = New Symphony_KSave2.ExTextBox()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
@@ -170,9 +217,11 @@ Partial Class 認定調査票
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnClear = New System.Windows.Forms.Button()
+        Me.dgvNumInput = New Symphony_KSave2.ExDataGridView()
         Me.specialNotePage = New System.Windows.Forms.TabPage()
         Me.spTab = New System.Windows.Forms.TabControl()
         Me.spTabP1 = New System.Windows.Forms.TabPage()
+        Me.SpDgv1 = New Symphony_KSave2.SpDgv()
         Me.Label91 = New System.Windows.Forms.Label()
         Me.Label90 = New System.Windows.Forms.Label()
         Me.Label89 = New System.Windows.Forms.Label()
@@ -191,6 +240,7 @@ Partial Class 認定調査票
         Me.btnRowInsert1 = New System.Windows.Forms.Button()
         Me.Label78 = New System.Windows.Forms.Label()
         Me.spTabP2 = New System.Windows.Forms.TabPage()
+        Me.SpDgv2 = New Symphony_KSave2.SpDgv()
         Me.Label93 = New System.Windows.Forms.Label()
         Me.Label94 = New System.Windows.Forms.Label()
         Me.Label95 = New System.Windows.Forms.Label()
@@ -208,6 +258,7 @@ Partial Class 認定調査票
         Me.btnRowInsert2 = New System.Windows.Forms.Button()
         Me.Label105 = New System.Windows.Forms.Label()
         Me.spTabP3 = New System.Windows.Forms.TabPage()
+        Me.SpDgv3 = New Symphony_KSave2.SpDgv()
         Me.Label109 = New System.Windows.Forms.Label()
         Me.Label110 = New System.Windows.Forms.Label()
         Me.Label111 = New System.Windows.Forms.Label()
@@ -241,7 +292,9 @@ Partial Class 認定調査票
         Me.btnClear4 = New System.Windows.Forms.Button()
         Me.btnRowInsert4 = New System.Windows.Forms.Button()
         Me.Label128 = New System.Windows.Forms.Label()
+        Me.SpDgv4 = New Symphony_KSave2.SpDgv()
         Me.spTabP5 = New System.Windows.Forms.TabPage()
+        Me.SpDgv5 = New Symphony_KSave2.SpDgv()
         Me.Label140 = New System.Windows.Forms.Label()
         Me.Label141 = New System.Windows.Forms.Label()
         Me.Label142 = New System.Windows.Forms.Label()
@@ -253,12 +306,14 @@ Partial Class 認定調査票
         Me.btnRowInsert5 = New System.Windows.Forms.Button()
         Me.Label146 = New System.Windows.Forms.Label()
         Me.spTabP6 = New System.Windows.Forms.TabPage()
+        Me.SpDgv6 = New Symphony_KSave2.SpDgv()
         Me.Label136 = New System.Windows.Forms.Label()
         Me.btnRowDelete6 = New System.Windows.Forms.Button()
         Me.btnClear6 = New System.Windows.Forms.Button()
         Me.btnRowInsert6 = New System.Windows.Forms.Button()
         Me.Label137 = New System.Windows.Forms.Label()
         Me.spTabP7 = New System.Windows.Forms.TabPage()
+        Me.SpDgv7 = New Symphony_KSave2.SpDgv()
         Me.Label133 = New System.Windows.Forms.Label()
         Me.Label134 = New System.Windows.Forms.Label()
         Me.Label135 = New System.Windows.Forms.Label()
@@ -273,397 +328,342 @@ Partial Class 認定調査票
         Me.Label171 = New System.Windows.Forms.Label()
         Me.Label158 = New System.Windows.Forms.Label()
         Me.GroupBox13 = New System.Windows.Forms.GroupBox()
+        Me.rb1_13_5 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_13_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_13_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_13_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_13_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label131 = New System.Windows.Forms.Label()
         Me.GroupBox12 = New System.Windows.Forms.GroupBox()
+        Me.rb1_12_5 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_12_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_12_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_12_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_12_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label132 = New System.Windows.Forms.Label()
         Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.rb1_11_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_11_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_11_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label147 = New System.Windows.Forms.Label()
         Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.rb1_10_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_10_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_10_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_10_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label148 = New System.Windows.Forms.Label()
         Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.rb1_9_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_9_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_9_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label149 = New System.Windows.Forms.Label()
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.rb1_8_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_8_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_8_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label150 = New System.Windows.Forms.Label()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.rb1_7_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_7_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_7_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label151 = New System.Windows.Forms.Label()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.rb1_6_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_6_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_6_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label152 = New System.Windows.Forms.Label()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.rb1_5_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_5_3 = New Symphony_KSave2.ExRadioButton()
         Me.Label153 = New System.Windows.Forms.Label()
+        Me.rb1_5_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_5_1 = New Symphony_KSave2.ExRadioButton()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.rb1_4_3 = New Symphony_KSave2.ExRadioButton()
         Me.Label154 = New System.Windows.Forms.Label()
+        Me.rb1_4_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_4_1 = New Symphony_KSave2.ExRadioButton()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.rb1_3_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_3_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb1_3_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label155 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Ch3_5 = New Symphony_KSave2.ExCheckBox()
         Me.Label156 = New System.Windows.Forms.Label()
+        Me.Ch3_4 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch3_1 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch3_3 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch3_2 = New Symphony_KSave2.ExCheckBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Ch2_6 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch2_5 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch2_4 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch2_3 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch2_2 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch2_1 = New Symphony_KSave2.ExCheckBox()
         Me.Label157 = New System.Windows.Forms.Label()
         Me.bsTabP2 = New System.Windows.Forms.TabPage()
         Me.GroupBox25 = New System.Windows.Forms.GroupBox()
+        Me.rb2_12_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_12_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_12_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label159 = New System.Windows.Forms.Label()
         Me.GroupBox14 = New System.Windows.Forms.GroupBox()
+        Me.rb2_10_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_10_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_10_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_10_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label161 = New System.Windows.Forms.Label()
         Me.GroupBox15 = New System.Windows.Forms.GroupBox()
+        Me.rb2_11_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_11_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_11_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_11_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label160 = New System.Windows.Forms.Label()
         Me.GroupBox16 = New System.Windows.Forms.GroupBox()
+        Me.rb2_9_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_9_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_9_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label162 = New System.Windows.Forms.Label()
         Me.GroupBox17 = New System.Windows.Forms.GroupBox()
+        Me.rb2_8_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_8_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_8_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label163 = New System.Windows.Forms.Label()
         Me.GroupBox18 = New System.Windows.Forms.GroupBox()
+        Me.rb2_7_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_7_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_7_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label164 = New System.Windows.Forms.Label()
         Me.GroupBox19 = New System.Windows.Forms.GroupBox()
+        Me.rb2_6_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_6_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_6_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_6_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label165 = New System.Windows.Forms.Label()
         Me.GroupBox20 = New System.Windows.Forms.GroupBox()
+        Me.rb2_5_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_5_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_5_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_5_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label166 = New System.Windows.Forms.Label()
         Me.GroupBox21 = New System.Windows.Forms.GroupBox()
+        Me.rb2_4_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_4_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_4_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_4_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label167 = New System.Windows.Forms.Label()
         Me.GroupBox22 = New System.Windows.Forms.GroupBox()
+        Me.rb2_3_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_3_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_3_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label168 = New System.Windows.Forms.Label()
         Me.GroupBox23 = New System.Windows.Forms.GroupBox()
+        Me.rb2_2_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_2_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_2_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_2_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label169 = New System.Windows.Forms.Label()
         Me.GroupBox24 = New System.Windows.Forms.GroupBox()
+        Me.rb2_1_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_1_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_1_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb2_1_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label170 = New System.Windows.Forms.Label()
         Me.bsTabP3 = New System.Windows.Forms.TabPage()
         Me.GroupBox31 = New System.Windows.Forms.GroupBox()
+        Me.rb3_9_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_9_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_9_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label172 = New System.Windows.Forms.Label()
         Me.GroupBox30 = New System.Windows.Forms.GroupBox()
+        Me.rb3_5_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_5_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label176 = New System.Windows.Forms.Label()
         Me.GroupBox32 = New System.Windows.Forms.GroupBox()
+        Me.rb3_8_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_8_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_8_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label173 = New System.Windows.Forms.Label()
         Me.GroupBox29 = New System.Windows.Forms.GroupBox()
+        Me.rb3_4_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_4_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label177 = New System.Windows.Forms.Label()
         Me.GroupBox33 = New System.Windows.Forms.GroupBox()
+        Me.rb3_7_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_7_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label174 = New System.Windows.Forms.Label()
         Me.GroupBox28 = New System.Windows.Forms.GroupBox()
+        Me.rb3_3_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_3_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label178 = New System.Windows.Forms.Label()
         Me.GroupBox34 = New System.Windows.Forms.GroupBox()
+        Me.rb3_6_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_6_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label175 = New System.Windows.Forms.Label()
         Me.GroupBox27 = New System.Windows.Forms.GroupBox()
+        Me.rb3_2_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_2_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label179 = New System.Windows.Forms.Label()
         Me.GroupBox26 = New System.Windows.Forms.GroupBox()
+        Me.rb3_1_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_1_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_1_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb3_1_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label180 = New System.Windows.Forms.Label()
         Me.bsTabP4 = New System.Windows.Forms.TabPage()
         Me.GroupBox46 = New System.Windows.Forms.GroupBox()
+        Me.rb4_15_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_15_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_15_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label182 = New System.Windows.Forms.Label()
         Me.GroupBox47 = New System.Windows.Forms.GroupBox()
+        Me.rb4_14_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_14_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_14_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label183 = New System.Windows.Forms.Label()
         Me.GroupBox48 = New System.Windows.Forms.GroupBox()
+        Me.rb4_13_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_13_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_13_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label184 = New System.Windows.Forms.Label()
         Me.GroupBox49 = New System.Windows.Forms.GroupBox()
+        Me.rb4_12_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_12_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_12_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label185 = New System.Windows.Forms.Label()
         Me.GroupBox35 = New System.Windows.Forms.GroupBox()
+        Me.rb4_11_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_11_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_11_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label186 = New System.Windows.Forms.Label()
         Me.GroupBox36 = New System.Windows.Forms.GroupBox()
+        Me.rb4_10_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_10_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_10_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label187 = New System.Windows.Forms.Label()
         Me.GroupBox37 = New System.Windows.Forms.GroupBox()
+        Me.rb4_9_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_9_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_9_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label188 = New System.Windows.Forms.Label()
         Me.GroupBox38 = New System.Windows.Forms.GroupBox()
+        Me.rb4_8_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_8_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_8_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label189 = New System.Windows.Forms.Label()
         Me.GroupBox39 = New System.Windows.Forms.GroupBox()
+        Me.rb4_7_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_7_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_7_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label190 = New System.Windows.Forms.Label()
         Me.GroupBox40 = New System.Windows.Forms.GroupBox()
+        Me.rb4_6_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_6_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_6_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label191 = New System.Windows.Forms.Label()
         Me.GroupBox41 = New System.Windows.Forms.GroupBox()
+        Me.rb4_5_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_5_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_5_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label192 = New System.Windows.Forms.Label()
         Me.GroupBox42 = New System.Windows.Forms.GroupBox()
+        Me.rb4_4_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_4_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_4_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label193 = New System.Windows.Forms.Label()
         Me.GroupBox43 = New System.Windows.Forms.GroupBox()
+        Me.rb4_3_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_3_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_3_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label194 = New System.Windows.Forms.Label()
         Me.GroupBox44 = New System.Windows.Forms.GroupBox()
+        Me.rb4_2_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_2_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_2_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label195 = New System.Windows.Forms.Label()
         Me.GroupBox45 = New System.Windows.Forms.GroupBox()
+        Me.rb4_1_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_1_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb4_1_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label196 = New System.Windows.Forms.Label()
         Me.bsTabP5 = New System.Windows.Forms.TabPage()
         Me.GroupBox50 = New System.Windows.Forms.GroupBox()
+        Me.rb5_4_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_4_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_4_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label200 = New System.Windows.Forms.Label()
         Me.GroupBox51 = New System.Windows.Forms.GroupBox()
+        Me.rb5_3_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_3_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_3_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_3_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label201 = New System.Windows.Forms.Label()
         Me.GroupBox52 = New System.Windows.Forms.GroupBox()
+        Me.rb5_6_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_6_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_6_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_6_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label198 = New System.Windows.Forms.Label()
         Me.GroupBox53 = New System.Windows.Forms.GroupBox()
+        Me.rb5_2_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_2_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_2_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label202 = New System.Windows.Forms.Label()
         Me.GroupBox54 = New System.Windows.Forms.GroupBox()
+        Me.rb5_5_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_5_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_5_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_5_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label199 = New System.Windows.Forms.Label()
         Me.GroupBox55 = New System.Windows.Forms.GroupBox()
+        Me.rb5_1_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_1_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb5_1_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label203 = New System.Windows.Forms.Label()
         Me.bsTabP6 = New System.Windows.Forms.TabPage()
+        Me.Ch4_12 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_11 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_10 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_9 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_8 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_7 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_6 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_5 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_4 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_3 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_2 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_1 = New Symphony_KSave2.ExCheckBox()
         Me.Label204 = New System.Windows.Forms.Label()
         Me.Label197 = New System.Windows.Forms.Label()
         Me.Label181 = New System.Windows.Forms.Label()
         Me.Label205 = New System.Windows.Forms.Label()
         Me.bsTabP7 = New System.Windows.Forms.TabPage()
         Me.GroupBox57 = New System.Windows.Forms.GroupBox()
+        Me.rb7_2_8 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_2_7 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_2_6 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_2_5 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_2_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_2_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_2_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_2_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label207 = New System.Windows.Forms.Label()
         Me.GroupBox56 = New System.Windows.Forms.GroupBox()
+        Me.rb7_1_9 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_1_8 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_1_7 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_1_6 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_1_5 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_1_4 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_1_3 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_1_2 = New Symphony_KSave2.ExRadioButton()
+        Me.rb7_1_1 = New Symphony_KSave2.ExRadioButton()
         Me.Label209 = New System.Windows.Forms.Label()
         Me.Label210 = New System.Windows.Forms.Label()
         Me.ListingDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ContentDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.spText4 = New Symphony_KSave2.ExTextBox()
-        Me.spText3 = New Symphony_KSave2.ExTextBox()
-        Me.spText2 = New Symphony_KSave2.ExTextBox()
-        Me.spText1 = New Symphony_KSave2.ExTextBox()
-        Me.Gentxt1 = New Symphony_KSave2.ExTextBox()
-        Me.houseTextBox = New Symphony_KSave2.ExTextBox()
-        Me.facilityTel3 = New Symphony_KSave2.ExTextBox()
-        Me.facilityTel2 = New Symphony_KSave2.ExTextBox()
-        Me.facilityTel1 = New Symphony_KSave2.ExTextBox()
-        Me.facilityAddress = New Symphony_KSave2.ExTextBox()
-        Me.facilityPostCode2 = New Symphony_KSave2.ExTextBox()
-        Me.facilityPostCode1 = New Symphony_KSave2.ExTextBox()
-        Me.facilityNameBox = New Symphony_KSave2.ExTextBox()
-        Me.Gentxt2 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum20 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum19 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum18 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum17 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum16 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum15 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum14 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum12 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum11 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum21 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum10 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum9 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum8 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum7 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum6 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum5 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum4 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum3 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum2 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum1 = New Symphony_KSave2.ExTextBox()
-        Me.namBox = New Symphony_KSave2.ExTextBox()
-        Me.familyTel3 = New Symphony_KSave2.ExTextBox()
-        Me.familyTel2 = New Symphony_KSave2.ExTextBox()
-        Me.familyTel1 = New Symphony_KSave2.ExTextBox()
-        Me.familyAddress = New Symphony_KSave2.ExTextBox()
-        Me.familyPostCode2 = New Symphony_KSave2.ExTextBox()
-        Me.familyPostCode1 = New Symphony_KSave2.ExTextBox()
-        Me.currentTel3 = New Symphony_KSave2.ExTextBox()
-        Me.currentTel2 = New Symphony_KSave2.ExTextBox()
-        Me.currentTel1 = New Symphony_KSave2.ExTextBox()
-        Me.currentAddress = New Symphony_KSave2.ExTextBox()
-        Me.currentPostCode2 = New Symphony_KSave2.ExTextBox()
-        Me.currentPostCode1 = New Symphony_KSave2.ExTextBox()
-        Me.dgvNumInput = New Symphony_KSave2.ExDataGridView()
-        Me.SpDgv1 = New Symphony_KSave2.SpDgv()
-        Me.SpDgv2 = New Symphony_KSave2.SpDgv()
-        Me.SpDgv3 = New Symphony_KSave2.SpDgv()
-        Me.SpDgv4 = New Symphony_KSave2.SpDgv()
-        Me.SpDgv5 = New Symphony_KSave2.SpDgv()
-        Me.SpDgv6 = New Symphony_KSave2.SpDgv()
-        Me.SpDgv7 = New Symphony_KSave2.SpDgv()
-        Me.ExRadioButton35 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton36 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton37 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton38 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton39 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton34 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton33 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton32 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton31 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton30 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton27 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton28 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton29 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton23 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton24 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton25 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton26 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton20 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton21 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton22 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton17 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton18 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton19 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton14 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton15 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton16 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton11 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton12 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton13 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton10 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton7 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton8 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton9 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton4 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton5 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton6 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton3 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton2 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton1 = New Symphony_KSave2.ExRadioButton()
-        Me.ExCheckBox7 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox8 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox11 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox9 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox10 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox6 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox5 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox4 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox3 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox2 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox1 = New Symphony_KSave2.ExCheckBox()
-        Me.ExRadioButton80 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton81 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton82 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton72 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton73 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton74 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton75 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton76 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton77 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton78 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton79 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton69 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton70 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton71 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton63 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton67 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton68 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton64 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton65 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton66 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton59 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton60 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton61 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton62 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton55 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton56 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton57 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton58 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton48 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton52 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton53 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton54 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton49 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton50 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton51 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton44 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton45 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton46 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton47 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton40 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton41 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton42 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton43 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton102 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton103 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton104 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton93 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton94 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton101 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton99 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton100 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton91 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton92 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton97 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton98 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton89 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton90 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton95 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton96 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton88 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton87 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton86 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton85 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton84 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton83 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton147 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton148 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton149 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton144 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton145 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton146 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton141 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton142 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton143 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton138 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton139 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton140 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton135 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton136 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton137 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton132 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton133 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton134 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton129 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton130 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton131 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton126 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton127 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton128 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton123 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton124 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton125 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton120 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton121 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton122 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton117 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton118 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton119 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton114 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton115 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton116 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton111 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton112 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton113 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton108 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton109 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton110 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton105 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton106 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton107 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton160 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton161 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton162 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton159 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton156 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton157 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton158 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton167 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton168 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton169 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton170 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton153 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton154 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton155 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton163 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton164 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton165 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton166 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton150 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton151 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton152 = New Symphony_KSave2.ExRadioButton()
-        Me.ExCheckBox23 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox22 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox21 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox20 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox16 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox17 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox18 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox19 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox15 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox14 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox13 = New Symphony_KSave2.ExCheckBox()
-        Me.ExCheckBox12 = New Symphony_KSave2.ExCheckBox()
-        Me.ExRadioButton181 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton182 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton183 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton184 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton185 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton186 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton187 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton188 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton179 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton178 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton177 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton176 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton175 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton174 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton173 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton172 = New Symphony_KSave2.ExRadioButton()
-        Me.ExRadioButton171 = New Symphony_KSave2.ExRadioButton()
         CType(Me.userList, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.inputTab.SuspendLayout()
         Me.overviewPage.SuspendLayout()
@@ -679,15 +679,23 @@ Partial Class 認定調査票
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.specialNotePage.SuspendLayout()
         Me.spTab.SuspendLayout()
         Me.spTabP1.SuspendLayout()
+        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP2.SuspendLayout()
+        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP3.SuspendLayout()
+        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP4.SuspendLayout()
+        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP5.SuspendLayout()
+        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP6.SuspendLayout()
+        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP7.SuspendLayout()
+        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.basicSurveyPage.SuspendLayout()
         Me.bsTab.SuspendLayout()
         Me.bsTabP1.SuspendLayout()
@@ -754,14 +762,6 @@ Partial Class 認定調査票
         Me.bsTabP7.SuspendLayout()
         Me.GroupBox57.SuspendLayout()
         Me.GroupBox56.SuspendLayout()
-        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'userList
@@ -902,6 +902,63 @@ Partial Class 認定調査票
         Me.overviewPage.TabIndex = 0
         Me.overviewPage.Text = "概　況　調　査"
         '
+        'spText4
+        '
+        Me.spText4.InputType = 0
+        Me.spText4.LimitLengthByte = 100
+        Me.spText4.Location = New System.Drawing.Point(37, 685)
+        Me.spText4.Name = "spText4"
+        Me.spText4.Size = New System.Drawing.Size(733, 19)
+        Me.spText4.TabIndex = 210
+        '
+        'spText3
+        '
+        Me.spText3.InputType = 0
+        Me.spText3.LimitLengthByte = 100
+        Me.spText3.Location = New System.Drawing.Point(37, 666)
+        Me.spText3.Name = "spText3"
+        Me.spText3.Size = New System.Drawing.Size(733, 19)
+        Me.spText3.TabIndex = 209
+        '
+        'spText2
+        '
+        Me.spText2.InputType = 0
+        Me.spText2.LimitLengthByte = 100
+        Me.spText2.Location = New System.Drawing.Point(37, 647)
+        Me.spText2.Name = "spText2"
+        Me.spText2.Size = New System.Drawing.Size(733, 19)
+        Me.spText2.TabIndex = 208
+        '
+        'spText1
+        '
+        Me.spText1.InputType = 0
+        Me.spText1.LimitLengthByte = 100
+        Me.spText1.Location = New System.Drawing.Point(37, 628)
+        Me.spText1.Name = "spText1"
+        Me.spText1.Size = New System.Drawing.Size(733, 19)
+        Me.spText1.TabIndex = 207
+        '
+        'Gentxt1
+        '
+        Me.Gentxt1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Gentxt1.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Gentxt1.InputType = 0
+        Me.Gentxt1.LimitLengthByte = 100
+        Me.Gentxt1.Location = New System.Drawing.Point(161, 455)
+        Me.Gentxt1.Name = "Gentxt1"
+        Me.Gentxt1.Size = New System.Drawing.Size(528, 14)
+        Me.Gentxt1.TabIndex = 206
+        '
+        'houseTextBox
+        '
+        Me.houseTextBox.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.houseTextBox.InputType = 0
+        Me.houseTextBox.LimitLengthByte = 34
+        Me.houseTextBox.Location = New System.Drawing.Point(280, 87)
+        Me.houseTextBox.Name = "houseTextBox"
+        Me.houseTextBox.Size = New System.Drawing.Size(208, 20)
+        Me.houseTextBox.TabIndex = 12
+        '
         'Label77
         '
         Me.Label77.AutoSize = True
@@ -929,6 +986,62 @@ Partial Class 認定調査票
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(734, 21)
         Me.Panel12.TabIndex = 47
+        '
+        'facilityTel3
+        '
+        Me.facilityTel3.InputType = 1
+        Me.facilityTel3.LimitLengthByte = 4
+        Me.facilityTel3.Location = New System.Drawing.Point(670, 1)
+        Me.facilityTel3.Name = "facilityTel3"
+        Me.facilityTel3.Size = New System.Drawing.Size(63, 19)
+        Me.facilityTel3.TabIndex = 40
+        '
+        'facilityTel2
+        '
+        Me.facilityTel2.InputType = 1
+        Me.facilityTel2.LimitLengthByte = 4
+        Me.facilityTel2.Location = New System.Drawing.Point(589, 1)
+        Me.facilityTel2.Name = "facilityTel2"
+        Me.facilityTel2.Size = New System.Drawing.Size(63, 19)
+        Me.facilityTel2.TabIndex = 40
+        '
+        'facilityTel1
+        '
+        Me.facilityTel1.InputType = 1
+        Me.facilityTel1.LimitLengthByte = 4
+        Me.facilityTel1.Location = New System.Drawing.Point(508, 1)
+        Me.facilityTel1.Name = "facilityTel1"
+        Me.facilityTel1.Size = New System.Drawing.Size(63, 19)
+        Me.facilityTel1.TabIndex = 40
+        Me.facilityTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'facilityAddress
+        '
+        Me.facilityAddress.InputType = 0
+        Me.facilityAddress.LimitLengthByte = 60
+        Me.facilityAddress.Location = New System.Drawing.Point(156, 1)
+        Me.facilityAddress.Name = "facilityAddress"
+        Me.facilityAddress.Size = New System.Drawing.Size(313, 19)
+        Me.facilityAddress.TabIndex = 46
+        '
+        'facilityPostCode2
+        '
+        Me.facilityPostCode2.InputType = 1
+        Me.facilityPostCode2.LimitLengthByte = 4
+        Me.facilityPostCode2.Location = New System.Drawing.Point(83, 1)
+        Me.facilityPostCode2.Name = "facilityPostCode2"
+        Me.facilityPostCode2.Size = New System.Drawing.Size(55, 19)
+        Me.facilityPostCode2.TabIndex = 40
+        '
+        'facilityPostCode1
+        '
+        Me.facilityPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.facilityPostCode1.InputType = 1
+        Me.facilityPostCode1.LimitLengthByte = 3
+        Me.facilityPostCode1.Location = New System.Drawing.Point(21, 1)
+        Me.facilityPostCode1.Name = "facilityPostCode1"
+        Me.facilityPostCode1.Size = New System.Drawing.Size(46, 19)
+        Me.facilityPostCode1.TabIndex = 40
         '
         'Label64
         '
@@ -984,6 +1097,15 @@ Partial Class 認定調査票
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(308, 21)
         Me.Panel11.TabIndex = 200
+        '
+        'facilityNameBox
+        '
+        Me.facilityNameBox.InputType = 0
+        Me.facilityNameBox.LimitLengthByte = 100
+        Me.facilityNameBox.Location = New System.Drawing.Point(54, 1)
+        Me.facilityNameBox.Name = "facilityNameBox"
+        Me.facilityNameBox.Size = New System.Drawing.Size(254, 19)
+        Me.facilityNameBox.TabIndex = 34
         '
         'Label75
         '
@@ -1120,6 +1242,17 @@ Partial Class 認定調査票
         Me.Panel9.Size = New System.Drawing.Size(653, 18)
         Me.Panel9.TabIndex = 197
         '
+        'Gentxt2
+        '
+        Me.Gentxt2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Gentxt2.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Gentxt2.InputType = 0
+        Me.Gentxt2.LimitLengthByte = 100
+        Me.Gentxt2.Location = New System.Drawing.Point(192, 1)
+        Me.Gentxt2.Name = "Gentxt2"
+        Me.Gentxt2.Size = New System.Drawing.Size(460, 14)
+        Me.Gentxt2.TabIndex = 207
+        '
         'checkGen22
         '
         Me.checkGen22.AutoSize = True
@@ -1237,6 +1370,226 @@ Partial Class 認定調査票
         Me.overview3Panel.Name = "overview3Panel"
         Me.overview3Panel.Size = New System.Drawing.Size(728, 180)
         Me.overview3Panel.TabIndex = 103
+        '
+        'txtNum20
+        '
+        Me.txtNum20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum20.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum20.InputType = 0
+        Me.txtNum20.LimitLengthByte = 100
+        Me.txtNum20.Location = New System.Drawing.Point(657, 147)
+        Me.txtNum20.Name = "txtNum20"
+        Me.txtNum20.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum20.TabIndex = 215
+        '
+        'txtNum19
+        '
+        Me.txtNum19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum19.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum19.InputType = 0
+        Me.txtNum19.LimitLengthByte = 100
+        Me.txtNum19.Location = New System.Drawing.Point(657, 131)
+        Me.txtNum19.Name = "txtNum19"
+        Me.txtNum19.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum19.TabIndex = 214
+        '
+        'txtNum18
+        '
+        Me.txtNum18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum18.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum18.InputType = 0
+        Me.txtNum18.LimitLengthByte = 100
+        Me.txtNum18.Location = New System.Drawing.Point(657, 115)
+        Me.txtNum18.Name = "txtNum18"
+        Me.txtNum18.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum18.TabIndex = 213
+        '
+        'txtNum17
+        '
+        Me.txtNum17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum17.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum17.InputType = 0
+        Me.txtNum17.LimitLengthByte = 100
+        Me.txtNum17.Location = New System.Drawing.Point(657, 99)
+        Me.txtNum17.Name = "txtNum17"
+        Me.txtNum17.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum17.TabIndex = 212
+        '
+        'txtNum16
+        '
+        Me.txtNum16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum16.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum16.InputType = 0
+        Me.txtNum16.LimitLengthByte = 100
+        Me.txtNum16.Location = New System.Drawing.Point(657, 83)
+        Me.txtNum16.Name = "txtNum16"
+        Me.txtNum16.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum16.TabIndex = 211
+        '
+        'txtNum15
+        '
+        Me.txtNum15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum15.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum15.InputType = 0
+        Me.txtNum15.LimitLengthByte = 100
+        Me.txtNum15.Location = New System.Drawing.Point(657, 67)
+        Me.txtNum15.Name = "txtNum15"
+        Me.txtNum15.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum15.TabIndex = 210
+        '
+        'txtNum14
+        '
+        Me.txtNum14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum14.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum14.InputType = 0
+        Me.txtNum14.LimitLengthByte = 100
+        Me.txtNum14.Location = New System.Drawing.Point(657, 51)
+        Me.txtNum14.Name = "txtNum14"
+        Me.txtNum14.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum14.TabIndex = 209
+        '
+        'txtNum12
+        '
+        Me.txtNum12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum12.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum12.InputType = 0
+        Me.txtNum12.LimitLengthByte = 100
+        Me.txtNum12.Location = New System.Drawing.Point(657, 19)
+        Me.txtNum12.Name = "txtNum12"
+        Me.txtNum12.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum12.TabIndex = 208
+        '
+        'txtNum11
+        '
+        Me.txtNum11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum11.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum11.InputType = 0
+        Me.txtNum11.LimitLengthByte = 100
+        Me.txtNum11.Location = New System.Drawing.Point(657, 3)
+        Me.txtNum11.Name = "txtNum11"
+        Me.txtNum11.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum11.TabIndex = 207
+        '
+        'txtNum21
+        '
+        Me.txtNum21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum21.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum21.InputType = 0
+        Me.txtNum21.LimitLengthByte = 100
+        Me.txtNum21.Location = New System.Drawing.Point(285, 163)
+        Me.txtNum21.Name = "txtNum21"
+        Me.txtNum21.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum21.TabIndex = 206
+        '
+        'txtNum10
+        '
+        Me.txtNum10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum10.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum10.InputType = 0
+        Me.txtNum10.LimitLengthByte = 100
+        Me.txtNum10.Location = New System.Drawing.Point(285, 147)
+        Me.txtNum10.Name = "txtNum10"
+        Me.txtNum10.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum10.TabIndex = 205
+        '
+        'txtNum9
+        '
+        Me.txtNum9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum9.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum9.InputType = 0
+        Me.txtNum9.LimitLengthByte = 100
+        Me.txtNum9.Location = New System.Drawing.Point(285, 131)
+        Me.txtNum9.Name = "txtNum9"
+        Me.txtNum9.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum9.TabIndex = 204
+        '
+        'txtNum8
+        '
+        Me.txtNum8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum8.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum8.InputType = 0
+        Me.txtNum8.LimitLengthByte = 100
+        Me.txtNum8.Location = New System.Drawing.Point(285, 115)
+        Me.txtNum8.Name = "txtNum8"
+        Me.txtNum8.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum8.TabIndex = 203
+        '
+        'txtNum7
+        '
+        Me.txtNum7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum7.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum7.InputType = 0
+        Me.txtNum7.LimitLengthByte = 100
+        Me.txtNum7.Location = New System.Drawing.Point(285, 99)
+        Me.txtNum7.Name = "txtNum7"
+        Me.txtNum7.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum7.TabIndex = 202
+        '
+        'txtNum6
+        '
+        Me.txtNum6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum6.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum6.InputType = 0
+        Me.txtNum6.LimitLengthByte = 100
+        Me.txtNum6.Location = New System.Drawing.Point(285, 83)
+        Me.txtNum6.Name = "txtNum6"
+        Me.txtNum6.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum6.TabIndex = 201
+        '
+        'txtNum5
+        '
+        Me.txtNum5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum5.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum5.InputType = 0
+        Me.txtNum5.LimitLengthByte = 100
+        Me.txtNum5.Location = New System.Drawing.Point(285, 67)
+        Me.txtNum5.Name = "txtNum5"
+        Me.txtNum5.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum5.TabIndex = 200
+        '
+        'txtNum4
+        '
+        Me.txtNum4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum4.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum4.InputType = 0
+        Me.txtNum4.LimitLengthByte = 100
+        Me.txtNum4.Location = New System.Drawing.Point(285, 51)
+        Me.txtNum4.Name = "txtNum4"
+        Me.txtNum4.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum4.TabIndex = 199
+        '
+        'txtNum3
+        '
+        Me.txtNum3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum3.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum3.InputType = 0
+        Me.txtNum3.LimitLengthByte = 100
+        Me.txtNum3.Location = New System.Drawing.Point(285, 35)
+        Me.txtNum3.Name = "txtNum3"
+        Me.txtNum3.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum3.TabIndex = 198
+        '
+        'txtNum2
+        '
+        Me.txtNum2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum2.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum2.InputType = 0
+        Me.txtNum2.LimitLengthByte = 100
+        Me.txtNum2.Location = New System.Drawing.Point(285, 19)
+        Me.txtNum2.Name = "txtNum2"
+        Me.txtNum2.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum2.TabIndex = 197
+        '
+        'txtNum1
+        '
+        Me.txtNum1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum1.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum1.InputType = 0
+        Me.txtNum1.LimitLengthByte = 100
+        Me.txtNum1.Location = New System.Drawing.Point(285, 3)
+        Me.txtNum1.Name = "txtNum1"
+        Me.txtNum1.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum1.TabIndex = 196
         '
         'CheckNum13None
         '
@@ -1859,6 +2212,15 @@ Partial Class 認定調査票
         Me.Panel6.Size = New System.Drawing.Size(148, 21)
         Me.Panel6.TabIndex = 41
         '
+        'namBox
+        '
+        Me.namBox.InputType = 0
+        Me.namBox.LimitLengthByte = 100
+        Me.namBox.Location = New System.Drawing.Point(43, 1)
+        Me.namBox.Name = "namBox"
+        Me.namBox.Size = New System.Drawing.Size(105, 19)
+        Me.namBox.TabIndex = 48
+        '
         'Label29
         '
         Me.Label29.AutoSize = True
@@ -1895,6 +2257,60 @@ Partial Class 認定調査票
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(734, 21)
         Me.Panel5.TabIndex = 40
+        '
+        'familyTel3
+        '
+        Me.familyTel3.InputType = 1
+        Me.familyTel3.LimitLengthByte = 4
+        Me.familyTel3.Location = New System.Drawing.Point(670, 1)
+        Me.familyTel3.Name = "familyTel3"
+        Me.familyTel3.Size = New System.Drawing.Size(63, 19)
+        Me.familyTel3.TabIndex = 45
+        '
+        'familyTel2
+        '
+        Me.familyTel2.InputType = 1
+        Me.familyTel2.LimitLengthByte = 4
+        Me.familyTel2.Location = New System.Drawing.Point(589, 1)
+        Me.familyTel2.Name = "familyTel2"
+        Me.familyTel2.Size = New System.Drawing.Size(63, 19)
+        Me.familyTel2.TabIndex = 44
+        '
+        'familyTel1
+        '
+        Me.familyTel1.InputType = 1
+        Me.familyTel1.LimitLengthByte = 4
+        Me.familyTel1.Location = New System.Drawing.Point(508, 1)
+        Me.familyTel1.Name = "familyTel1"
+        Me.familyTel1.Size = New System.Drawing.Size(63, 19)
+        Me.familyTel1.TabIndex = 43
+        '
+        'familyAddress
+        '
+        Me.familyAddress.InputType = 0
+        Me.familyAddress.LimitLengthByte = 60
+        Me.familyAddress.Location = New System.Drawing.Point(156, 1)
+        Me.familyAddress.Name = "familyAddress"
+        Me.familyAddress.Size = New System.Drawing.Size(313, 19)
+        Me.familyAddress.TabIndex = 42
+        '
+        'familyPostCode2
+        '
+        Me.familyPostCode2.InputType = 1
+        Me.familyPostCode2.LimitLengthByte = 4
+        Me.familyPostCode2.Location = New System.Drawing.Point(83, 1)
+        Me.familyPostCode2.Name = "familyPostCode2"
+        Me.familyPostCode2.Size = New System.Drawing.Size(55, 19)
+        Me.familyPostCode2.TabIndex = 41
+        '
+        'familyPostCode1
+        '
+        Me.familyPostCode1.InputType = 1
+        Me.familyPostCode1.LimitLengthByte = 3
+        Me.familyPostCode1.Location = New System.Drawing.Point(21, 1)
+        Me.familyPostCode1.Name = "familyPostCode1"
+        Me.familyPostCode1.Size = New System.Drawing.Size(46, 19)
+        Me.familyPostCode1.TabIndex = 40
         '
         'Label18
         '
@@ -1959,6 +2375,62 @@ Partial Class 認定調査票
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(734, 21)
         Me.Panel4.TabIndex = 30
+        '
+        'currentTel3
+        '
+        Me.currentTel3.InputType = 1
+        Me.currentTel3.LimitLengthByte = 4
+        Me.currentTel3.Location = New System.Drawing.Point(670, 1)
+        Me.currentTel3.Name = "currentTel3"
+        Me.currentTel3.Size = New System.Drawing.Size(63, 19)
+        Me.currentTel3.TabIndex = 38
+        '
+        'currentTel2
+        '
+        Me.currentTel2.InputType = 1
+        Me.currentTel2.LimitLengthByte = 4
+        Me.currentTel2.Location = New System.Drawing.Point(589, 1)
+        Me.currentTel2.Name = "currentTel2"
+        Me.currentTel2.Size = New System.Drawing.Size(63, 19)
+        Me.currentTel2.TabIndex = 37
+        '
+        'currentTel1
+        '
+        Me.currentTel1.InputType = 1
+        Me.currentTel1.LimitLengthByte = 4
+        Me.currentTel1.Location = New System.Drawing.Point(508, 1)
+        Me.currentTel1.Name = "currentTel1"
+        Me.currentTel1.Size = New System.Drawing.Size(63, 19)
+        Me.currentTel1.TabIndex = 36
+        Me.currentTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'currentAddress
+        '
+        Me.currentAddress.InputType = 0
+        Me.currentAddress.LimitLengthByte = 60
+        Me.currentAddress.Location = New System.Drawing.Point(156, 1)
+        Me.currentAddress.Name = "currentAddress"
+        Me.currentAddress.Size = New System.Drawing.Size(313, 19)
+        Me.currentAddress.TabIndex = 35
+        '
+        'currentPostCode2
+        '
+        Me.currentPostCode2.InputType = 1
+        Me.currentPostCode2.LimitLengthByte = 4
+        Me.currentPostCode2.Location = New System.Drawing.Point(83, 1)
+        Me.currentPostCode2.Name = "currentPostCode2"
+        Me.currentPostCode2.Size = New System.Drawing.Size(55, 19)
+        Me.currentPostCode2.TabIndex = 34
+        '
+        'currentPostCode1
+        '
+        Me.currentPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.currentPostCode1.InputType = 1
+        Me.currentPostCode1.LimitLengthByte = 3
+        Me.currentPostCode1.Location = New System.Drawing.Point(21, 1)
+        Me.currentPostCode1.Name = "currentPostCode1"
+        Me.currentPostCode1.Size = New System.Drawing.Size(46, 19)
+        Me.currentPostCode1.TabIndex = 32
         '
         'Label23
         '
@@ -2363,6 +2835,15 @@ Partial Class 認定調査票
         Me.btnClear.Text = "クリア"
         Me.btnClear.UseVisualStyleBackColor = True
         '
+        'dgvNumInput
+        '
+        Me.dgvNumInput.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvNumInput.Location = New System.Drawing.Point(15, 10)
+        Me.dgvNumInput.Name = "dgvNumInput"
+        Me.dgvNumInput.RowTemplate.Height = 21
+        Me.dgvNumInput.Size = New System.Drawing.Size(493, 34)
+        Me.dgvNumInput.TabIndex = 0
+        '
         'specialNotePage
         '
         Me.specialNotePage.BackColor = System.Drawing.SystemColors.Control
@@ -2416,6 +2897,15 @@ Partial Class 認定調査票
         Me.spTabP1.Size = New System.Drawing.Size(802, 671)
         Me.spTabP1.TabIndex = 0
         Me.spTabP1.Text = "１．身体機能・起居動作"
+        '
+        'SpDgv1
+        '
+        Me.SpDgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv1.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv1.Name = "SpDgv1"
+        Me.SpDgv1.RowTemplate.Height = 21
+        Me.SpDgv1.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv1.TabIndex = 17
         '
         'Label91
         '
@@ -2611,6 +3101,15 @@ Partial Class 認定調査票
         Me.spTabP2.TabIndex = 1
         Me.spTabP2.Text = "２．生活機能"
         '
+        'SpDgv2
+        '
+        Me.SpDgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv2.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv2.Name = "SpDgv2"
+        Me.SpDgv2.RowTemplate.Height = 21
+        Me.SpDgv2.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv2.TabIndex = 35
+        '
         'Label93
         '
         Me.Label93.AutoSize = True
@@ -2790,6 +3289,15 @@ Partial Class 認定調査票
         Me.spTabP3.Size = New System.Drawing.Size(802, 671)
         Me.spTabP3.TabIndex = 2
         Me.spTabP3.Text = "３．認知機能"
+        '
+        'SpDgv3
+        '
+        Me.SpDgv3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv3.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv3.Name = "SpDgv3"
+        Me.SpDgv3.RowTemplate.Height = 21
+        Me.SpDgv3.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv3.TabIndex = 35
         '
         'Label109
         '
@@ -3134,6 +3642,15 @@ Partial Class 認定調査票
         Me.Label128.TabIndex = 18
         Me.Label128.Text = "4. 精神・行動障害に関連する項目"
         '
+        'SpDgv4
+        '
+        Me.SpDgv4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv4.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv4.Name = "SpDgv4"
+        Me.SpDgv4.RowTemplate.Height = 21
+        Me.SpDgv4.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv4.TabIndex = 35
+        '
         'spTabP5
         '
         Me.spTabP5.BackColor = System.Drawing.SystemColors.Control
@@ -3153,6 +3670,15 @@ Partial Class 認定調査票
         Me.spTabP5.Size = New System.Drawing.Size(802, 671)
         Me.spTabP5.TabIndex = 4
         Me.spTabP5.Text = "５．社会生活への適応"
+        '
+        'SpDgv5
+        '
+        Me.SpDgv5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv5.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv5.Name = "SpDgv5"
+        Me.SpDgv5.RowTemplate.Height = 21
+        Me.SpDgv5.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv5.TabIndex = 55
         '
         'Label140
         '
@@ -3266,6 +3792,15 @@ Partial Class 認定調査票
         Me.spTabP6.TabIndex = 5
         Me.spTabP6.Text = "６．特別な医療"
         '
+        'SpDgv6
+        '
+        Me.SpDgv6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv6.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv6.Name = "SpDgv6"
+        Me.SpDgv6.RowTemplate.Height = 21
+        Me.SpDgv6.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv6.TabIndex = 66
+        '
         'Label136
         '
         Me.Label136.AutoSize = True
@@ -3330,6 +3865,15 @@ Partial Class 認定調査票
         Me.spTabP7.Size = New System.Drawing.Size(802, 671)
         Me.spTabP7.TabIndex = 6
         Me.spTabP7.Text = "７．日常生活自立度"
+        '
+        'SpDgv7
+        '
+        Me.SpDgv7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv7.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv7.Name = "SpDgv7"
+        Me.SpDgv7.RowTemplate.Height = 21
+        Me.SpDgv7.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv7.TabIndex = 66
         '
         'Label133
         '
@@ -3481,17 +4025,72 @@ Partial Class 認定調査票
         '
         'GroupBox13
         '
-        Me.GroupBox13.Controls.Add(Me.ExRadioButton35)
-        Me.GroupBox13.Controls.Add(Me.ExRadioButton36)
-        Me.GroupBox13.Controls.Add(Me.ExRadioButton37)
-        Me.GroupBox13.Controls.Add(Me.ExRadioButton38)
-        Me.GroupBox13.Controls.Add(Me.ExRadioButton39)
+        Me.GroupBox13.Controls.Add(Me.rb1_13_5)
+        Me.GroupBox13.Controls.Add(Me.rb1_13_4)
+        Me.GroupBox13.Controls.Add(Me.rb1_13_3)
+        Me.GroupBox13.Controls.Add(Me.rb1_13_2)
+        Me.GroupBox13.Controls.Add(Me.rb1_13_1)
         Me.GroupBox13.Controls.Add(Me.Label131)
         Me.GroupBox13.Location = New System.Drawing.Point(397, 462)
         Me.GroupBox13.Name = "GroupBox13"
         Me.GroupBox13.Size = New System.Drawing.Size(358, 133)
         Me.GroupBox13.TabIndex = 30
         Me.GroupBox13.TabStop = False
+        '
+        'rb1_13_5
+        '
+        Me.rb1_13_5.AutoSize = True
+        Me.rb1_13_5.Location = New System.Drawing.Point(117, 105)
+        Me.rb1_13_5.Name = "rb1_13_5"
+        Me.rb1_13_5.Size = New System.Drawing.Size(156, 16)
+        Me.rb1_13_5.TabIndex = 25
+        Me.rb1_13_5.TabStop = True
+        Me.rb1_13_5.Text = "5.聞こえているのか判断不能"
+        Me.rb1_13_5.UseVisualStyleBackColor = True
+        '
+        'rb1_13_4
+        '
+        Me.rb1_13_4.AutoSize = True
+        Me.rb1_13_4.Location = New System.Drawing.Point(117, 82)
+        Me.rb1_13_4.Name = "rb1_13_4"
+        Me.rb1_13_4.Size = New System.Drawing.Size(117, 16)
+        Me.rb1_13_4.TabIndex = 24
+        Me.rb1_13_4.TabStop = True
+        Me.rb1_13_4.Text = "4.ほとんど聞こえない"
+        Me.rb1_13_4.UseVisualStyleBackColor = True
+        '
+        'rb1_13_3
+        '
+        Me.rb1_13_3.AutoSize = True
+        Me.rb1_13_3.Location = New System.Drawing.Point(117, 59)
+        Me.rb1_13_3.Name = "rb1_13_3"
+        Me.rb1_13_3.Size = New System.Drawing.Size(203, 16)
+        Me.rb1_13_3.TabIndex = 23
+        Me.rb1_13_3.TabStop = True
+        Me.rb1_13_3.Text = "3.かなり大きな声なら何とか聞き取れる"
+        Me.rb1_13_3.UseVisualStyleBackColor = True
+        '
+        'rb1_13_2
+        '
+        Me.rb1_13_2.AutoSize = True
+        Me.rb1_13_2.Location = New System.Drawing.Point(117, 36)
+        Me.rb1_13_2.Name = "rb1_13_2"
+        Me.rb1_13_2.Size = New System.Drawing.Size(166, 16)
+        Me.rb1_13_2.TabIndex = 22
+        Me.rb1_13_2.TabStop = True
+        Me.rb1_13_2.Text = "2.普通の声がやっと聞き取れる"
+        Me.rb1_13_2.UseVisualStyleBackColor = True
+        '
+        'rb1_13_1
+        '
+        Me.rb1_13_1.AutoSize = True
+        Me.rb1_13_1.Location = New System.Drawing.Point(117, 13)
+        Me.rb1_13_1.Name = "rb1_13_1"
+        Me.rb1_13_1.Size = New System.Drawing.Size(55, 16)
+        Me.rb1_13_1.TabIndex = 21
+        Me.rb1_13_1.TabStop = True
+        Me.rb1_13_1.Text = "1.普通"
+        Me.rb1_13_1.UseVisualStyleBackColor = True
         '
         'Label131
         '
@@ -3505,17 +4104,72 @@ Partial Class 認定調査票
         '
         'GroupBox12
         '
-        Me.GroupBox12.Controls.Add(Me.ExRadioButton34)
-        Me.GroupBox12.Controls.Add(Me.ExRadioButton33)
-        Me.GroupBox12.Controls.Add(Me.ExRadioButton32)
-        Me.GroupBox12.Controls.Add(Me.ExRadioButton31)
-        Me.GroupBox12.Controls.Add(Me.ExRadioButton30)
+        Me.GroupBox12.Controls.Add(Me.rb1_12_5)
+        Me.GroupBox12.Controls.Add(Me.rb1_12_4)
+        Me.GroupBox12.Controls.Add(Me.rb1_12_3)
+        Me.GroupBox12.Controls.Add(Me.rb1_12_2)
+        Me.GroupBox12.Controls.Add(Me.rb1_12_1)
         Me.GroupBox12.Controls.Add(Me.Label132)
         Me.GroupBox12.Location = New System.Drawing.Point(23, 462)
         Me.GroupBox12.Name = "GroupBox12"
         Me.GroupBox12.Size = New System.Drawing.Size(358, 133)
         Me.GroupBox12.TabIndex = 29
         Me.GroupBox12.TabStop = False
+        '
+        'rb1_12_5
+        '
+        Me.rb1_12_5.AutoSize = True
+        Me.rb1_12_5.Location = New System.Drawing.Point(122, 105)
+        Me.rb1_12_5.Name = "rb1_12_5"
+        Me.rb1_12_5.Size = New System.Drawing.Size(148, 16)
+        Me.rb1_12_5.TabIndex = 20
+        Me.rb1_12_5.TabStop = True
+        Me.rb1_12_5.Text = "5.見えているのか判断不能"
+        Me.rb1_12_5.UseVisualStyleBackColor = True
+        '
+        'rb1_12_4
+        '
+        Me.rb1_12_4.AutoSize = True
+        Me.rb1_12_4.Location = New System.Drawing.Point(122, 82)
+        Me.rb1_12_4.Name = "rb1_12_4"
+        Me.rb1_12_4.Size = New System.Drawing.Size(109, 16)
+        Me.rb1_12_4.TabIndex = 19
+        Me.rb1_12_4.TabStop = True
+        Me.rb1_12_4.Text = "4.ほとんど見えない"
+        Me.rb1_12_4.UseVisualStyleBackColor = True
+        '
+        'rb1_12_3
+        '
+        Me.rb1_12_3.AutoSize = True
+        Me.rb1_12_3.Location = New System.Drawing.Point(122, 59)
+        Me.rb1_12_3.Name = "rb1_12_3"
+        Me.rb1_12_3.Size = New System.Drawing.Size(227, 16)
+        Me.rb1_12_3.TabIndex = 18
+        Me.rb1_12_3.TabStop = True
+        Me.rb1_12_3.Text = "3.目の前に置いた視力確認表の図が見える"
+        Me.rb1_12_3.UseVisualStyleBackColor = True
+        '
+        'rb1_12_2
+        '
+        Me.rb1_12_2.AutoSize = True
+        Me.rb1_12_2.Location = New System.Drawing.Point(122, 36)
+        Me.rb1_12_2.Name = "rb1_12_2"
+        Me.rb1_12_2.Size = New System.Drawing.Size(216, 16)
+        Me.rb1_12_2.TabIndex = 17
+        Me.rb1_12_2.TabStop = True
+        Me.rb1_12_2.Text = "2.約１ｍ離れた視力確認表の図が見える"
+        Me.rb1_12_2.UseVisualStyleBackColor = True
+        '
+        'rb1_12_1
+        '
+        Me.rb1_12_1.AutoSize = True
+        Me.rb1_12_1.Location = New System.Drawing.Point(122, 13)
+        Me.rb1_12_1.Name = "rb1_12_1"
+        Me.rb1_12_1.Size = New System.Drawing.Size(178, 16)
+        Me.rb1_12_1.TabIndex = 16
+        Me.rb1_12_1.TabStop = True
+        Me.rb1_12_1.Text = "1.普通（日常生活に支障がない）"
+        Me.rb1_12_1.UseVisualStyleBackColor = True
         '
         'Label132
         '
@@ -3529,15 +4183,48 @@ Partial Class 認定調査票
         '
         'GroupBox11
         '
-        Me.GroupBox11.Controls.Add(Me.ExRadioButton27)
-        Me.GroupBox11.Controls.Add(Me.ExRadioButton28)
-        Me.GroupBox11.Controls.Add(Me.ExRadioButton29)
+        Me.GroupBox11.Controls.Add(Me.rb1_11_3)
+        Me.GroupBox11.Controls.Add(Me.rb1_11_2)
+        Me.GroupBox11.Controls.Add(Me.rb1_11_1)
         Me.GroupBox11.Controls.Add(Me.Label147)
         Me.GroupBox11.Location = New System.Drawing.Point(23, 422)
         Me.GroupBox11.Name = "GroupBox11"
         Me.GroupBox11.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox11.TabIndex = 28
         Me.GroupBox11.TabStop = False
+        '
+        'rb1_11_3
+        '
+        Me.rb1_11_3.AutoSize = True
+        Me.rb1_11_3.Location = New System.Drawing.Point(419, 10)
+        Me.rb1_11_3.Name = "rb1_11_3"
+        Me.rb1_11_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb1_11_3.TabIndex = 22
+        Me.rb1_11_3.TabStop = True
+        Me.rb1_11_3.Text = "3.全介助"
+        Me.rb1_11_3.UseVisualStyleBackColor = True
+        '
+        'rb1_11_2
+        '
+        Me.rb1_11_2.AutoSize = True
+        Me.rb1_11_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_11_2.Name = "rb1_11_2"
+        Me.rb1_11_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb1_11_2.TabIndex = 21
+        Me.rb1_11_2.TabStop = True
+        Me.rb1_11_2.Text = "2.一部介助"
+        Me.rb1_11_2.UseVisualStyleBackColor = True
+        '
+        'rb1_11_1
+        '
+        Me.rb1_11_1.AutoSize = True
+        Me.rb1_11_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_11_1.Name = "rb1_11_1"
+        Me.rb1_11_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb1_11_1.TabIndex = 20
+        Me.rb1_11_1.TabStop = True
+        Me.rb1_11_1.Text = "1.自立（介助なし）"
+        Me.rb1_11_1.UseVisualStyleBackColor = True
         '
         'Label147
         '
@@ -3551,16 +4238,60 @@ Partial Class 認定調査票
         '
         'GroupBox10
         '
-        Me.GroupBox10.Controls.Add(Me.ExRadioButton23)
-        Me.GroupBox10.Controls.Add(Me.ExRadioButton24)
-        Me.GroupBox10.Controls.Add(Me.ExRadioButton25)
-        Me.GroupBox10.Controls.Add(Me.ExRadioButton26)
+        Me.GroupBox10.Controls.Add(Me.rb1_10_4)
+        Me.GroupBox10.Controls.Add(Me.rb1_10_3)
+        Me.GroupBox10.Controls.Add(Me.rb1_10_2)
+        Me.GroupBox10.Controls.Add(Me.rb1_10_1)
         Me.GroupBox10.Controls.Add(Me.Label148)
         Me.GroupBox10.Location = New System.Drawing.Point(23, 382)
         Me.GroupBox10.Name = "GroupBox10"
         Me.GroupBox10.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox10.TabIndex = 27
         Me.GroupBox10.TabStop = False
+        '
+        'rb1_10_4
+        '
+        Me.rb1_10_4.AutoSize = True
+        Me.rb1_10_4.Location = New System.Drawing.Point(530, 10)
+        Me.rb1_10_4.Name = "rb1_10_4"
+        Me.rb1_10_4.Size = New System.Drawing.Size(90, 16)
+        Me.rb1_10_4.TabIndex = 20
+        Me.rb1_10_4.TabStop = True
+        Me.rb1_10_4.Text = "4.行っていない"
+        Me.rb1_10_4.UseVisualStyleBackColor = True
+        '
+        'rb1_10_3
+        '
+        Me.rb1_10_3.AutoSize = True
+        Me.rb1_10_3.Location = New System.Drawing.Point(419, 10)
+        Me.rb1_10_3.Name = "rb1_10_3"
+        Me.rb1_10_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb1_10_3.TabIndex = 19
+        Me.rb1_10_3.TabStop = True
+        Me.rb1_10_3.Text = "3.全介助"
+        Me.rb1_10_3.UseVisualStyleBackColor = True
+        '
+        'rb1_10_2
+        '
+        Me.rb1_10_2.AutoSize = True
+        Me.rb1_10_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_10_2.Name = "rb1_10_2"
+        Me.rb1_10_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb1_10_2.TabIndex = 18
+        Me.rb1_10_2.TabStop = True
+        Me.rb1_10_2.Text = "2.一部介助"
+        Me.rb1_10_2.UseVisualStyleBackColor = True
+        '
+        'rb1_10_1
+        '
+        Me.rb1_10_1.AutoSize = True
+        Me.rb1_10_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_10_1.Name = "rb1_10_1"
+        Me.rb1_10_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb1_10_1.TabIndex = 17
+        Me.rb1_10_1.TabStop = True
+        Me.rb1_10_1.Text = "1.自立（介助なし）"
+        Me.rb1_10_1.UseVisualStyleBackColor = True
         '
         'Label148
         '
@@ -3574,15 +4305,48 @@ Partial Class 認定調査票
         '
         'GroupBox9
         '
-        Me.GroupBox9.Controls.Add(Me.ExRadioButton20)
-        Me.GroupBox9.Controls.Add(Me.ExRadioButton21)
-        Me.GroupBox9.Controls.Add(Me.ExRadioButton22)
+        Me.GroupBox9.Controls.Add(Me.rb1_9_3)
+        Me.GroupBox9.Controls.Add(Me.rb1_9_2)
+        Me.GroupBox9.Controls.Add(Me.rb1_9_1)
         Me.GroupBox9.Controls.Add(Me.Label149)
         Me.GroupBox9.Location = New System.Drawing.Point(23, 342)
         Me.GroupBox9.Name = "GroupBox9"
         Me.GroupBox9.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox9.TabIndex = 26
         Me.GroupBox9.TabStop = False
+        '
+        'rb1_9_3
+        '
+        Me.rb1_9_3.AutoSize = True
+        Me.rb1_9_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_9_3.Name = "rb1_9_3"
+        Me.rb1_9_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_9_3.TabIndex = 18
+        Me.rb1_9_3.TabStop = True
+        Me.rb1_9_3.Text = "3.できない"
+        Me.rb1_9_3.UseVisualStyleBackColor = True
+        '
+        'rb1_9_2
+        '
+        Me.rb1_9_2.AutoSize = True
+        Me.rb1_9_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_9_2.Name = "rb1_9_2"
+        Me.rb1_9_2.Size = New System.Drawing.Size(143, 16)
+        Me.rb1_9_2.TabIndex = 17
+        Me.rb1_9_2.TabStop = True
+        Me.rb1_9_2.Text = "2.何か支えがあればできる"
+        Me.rb1_9_2.UseVisualStyleBackColor = True
+        '
+        'rb1_9_1
+        '
+        Me.rb1_9_1.AutoSize = True
+        Me.rb1_9_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_9_1.Name = "rb1_9_1"
+        Me.rb1_9_1.Size = New System.Drawing.Size(109, 16)
+        Me.rb1_9_1.TabIndex = 16
+        Me.rb1_9_1.TabStop = True
+        Me.rb1_9_1.Text = "1.支えなしでできる"
+        Me.rb1_9_1.UseVisualStyleBackColor = True
         '
         'Label149
         '
@@ -3596,15 +4360,48 @@ Partial Class 認定調査票
         '
         'GroupBox8
         '
-        Me.GroupBox8.Controls.Add(Me.ExRadioButton17)
-        Me.GroupBox8.Controls.Add(Me.ExRadioButton18)
-        Me.GroupBox8.Controls.Add(Me.ExRadioButton19)
+        Me.GroupBox8.Controls.Add(Me.rb1_8_3)
+        Me.GroupBox8.Controls.Add(Me.rb1_8_2)
+        Me.GroupBox8.Controls.Add(Me.rb1_8_1)
         Me.GroupBox8.Controls.Add(Me.Label150)
         Me.GroupBox8.Location = New System.Drawing.Point(23, 302)
         Me.GroupBox8.Name = "GroupBox8"
         Me.GroupBox8.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox8.TabIndex = 25
         Me.GroupBox8.TabStop = False
+        '
+        'rb1_8_3
+        '
+        Me.rb1_8_3.AutoSize = True
+        Me.rb1_8_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_8_3.Name = "rb1_8_3"
+        Me.rb1_8_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_8_3.TabIndex = 18
+        Me.rb1_8_3.TabStop = True
+        Me.rb1_8_3.Text = "3.できない"
+        Me.rb1_8_3.UseVisualStyleBackColor = True
+        '
+        'rb1_8_2
+        '
+        Me.rb1_8_2.AutoSize = True
+        Me.rb1_8_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_8_2.Name = "rb1_8_2"
+        Me.rb1_8_2.Size = New System.Drawing.Size(139, 16)
+        Me.rb1_8_2.TabIndex = 17
+        Me.rb1_8_2.TabStop = True
+        Me.rb1_8_2.Text = "2.何かにつかまればできる"
+        Me.rb1_8_2.UseVisualStyleBackColor = True
+        '
+        'rb1_8_1
+        '
+        Me.rb1_8_1.AutoSize = True
+        Me.rb1_8_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_8_1.Name = "rb1_8_1"
+        Me.rb1_8_1.Size = New System.Drawing.Size(125, 16)
+        Me.rb1_8_1.TabIndex = 16
+        Me.rb1_8_1.TabStop = True
+        Me.rb1_8_1.Text = "1.つかまらないでできる"
+        Me.rb1_8_1.UseVisualStyleBackColor = True
         '
         'Label150
         '
@@ -3618,15 +4415,48 @@ Partial Class 認定調査票
         '
         'GroupBox7
         '
-        Me.GroupBox7.Controls.Add(Me.ExRadioButton14)
-        Me.GroupBox7.Controls.Add(Me.ExRadioButton15)
-        Me.GroupBox7.Controls.Add(Me.ExRadioButton16)
+        Me.GroupBox7.Controls.Add(Me.rb1_7_3)
+        Me.GroupBox7.Controls.Add(Me.rb1_7_2)
+        Me.GroupBox7.Controls.Add(Me.rb1_7_1)
         Me.GroupBox7.Controls.Add(Me.Label151)
         Me.GroupBox7.Location = New System.Drawing.Point(23, 262)
         Me.GroupBox7.Name = "GroupBox7"
         Me.GroupBox7.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox7.TabIndex = 24
         Me.GroupBox7.TabStop = False
+        '
+        'rb1_7_3
+        '
+        Me.rb1_7_3.AutoSize = True
+        Me.rb1_7_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_7_3.Name = "rb1_7_3"
+        Me.rb1_7_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_7_3.TabIndex = 15
+        Me.rb1_7_3.TabStop = True
+        Me.rb1_7_3.Text = "3.できない"
+        Me.rb1_7_3.UseVisualStyleBackColor = True
+        '
+        'rb1_7_2
+        '
+        Me.rb1_7_2.AutoSize = True
+        Me.rb1_7_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_7_2.Name = "rb1_7_2"
+        Me.rb1_7_2.Size = New System.Drawing.Size(139, 16)
+        Me.rb1_7_2.TabIndex = 14
+        Me.rb1_7_2.TabStop = True
+        Me.rb1_7_2.Text = "2.何かにつかまればできる"
+        Me.rb1_7_2.UseVisualStyleBackColor = True
+        '
+        'rb1_7_1
+        '
+        Me.rb1_7_1.AutoSize = True
+        Me.rb1_7_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_7_1.Name = "rb1_7_1"
+        Me.rb1_7_1.Size = New System.Drawing.Size(125, 16)
+        Me.rb1_7_1.TabIndex = 13
+        Me.rb1_7_1.TabStop = True
+        Me.rb1_7_1.Text = "1.つかまらないでできる"
+        Me.rb1_7_1.UseVisualStyleBackColor = True
         '
         'Label151
         '
@@ -3640,15 +4470,48 @@ Partial Class 認定調査票
         '
         'GroupBox6
         '
-        Me.GroupBox6.Controls.Add(Me.ExRadioButton11)
-        Me.GroupBox6.Controls.Add(Me.ExRadioButton12)
-        Me.GroupBox6.Controls.Add(Me.ExRadioButton13)
+        Me.GroupBox6.Controls.Add(Me.rb1_6_3)
+        Me.GroupBox6.Controls.Add(Me.rb1_6_2)
+        Me.GroupBox6.Controls.Add(Me.rb1_6_1)
         Me.GroupBox6.Controls.Add(Me.Label152)
         Me.GroupBox6.Location = New System.Drawing.Point(23, 222)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox6.TabIndex = 23
         Me.GroupBox6.TabStop = False
+        '
+        'rb1_6_3
+        '
+        Me.rb1_6_3.AutoSize = True
+        Me.rb1_6_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_6_3.Name = "rb1_6_3"
+        Me.rb1_6_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_6_3.TabIndex = 15
+        Me.rb1_6_3.TabStop = True
+        Me.rb1_6_3.Text = "3.できない"
+        Me.rb1_6_3.UseVisualStyleBackColor = True
+        '
+        'rb1_6_2
+        '
+        Me.rb1_6_2.AutoSize = True
+        Me.rb1_6_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_6_2.Name = "rb1_6_2"
+        Me.rb1_6_2.Size = New System.Drawing.Size(143, 16)
+        Me.rb1_6_2.TabIndex = 14
+        Me.rb1_6_2.TabStop = True
+        Me.rb1_6_2.Text = "2.何か支えがあればできる"
+        Me.rb1_6_2.UseVisualStyleBackColor = True
+        '
+        'rb1_6_1
+        '
+        Me.rb1_6_1.AutoSize = True
+        Me.rb1_6_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_6_1.Name = "rb1_6_1"
+        Me.rb1_6_1.Size = New System.Drawing.Size(109, 16)
+        Me.rb1_6_1.TabIndex = 13
+        Me.rb1_6_1.TabStop = True
+        Me.rb1_6_1.Text = "1.支えなしでできる"
+        Me.rb1_6_1.UseVisualStyleBackColor = True
         '
         'Label152
         '
@@ -3662,16 +4525,38 @@ Partial Class 認定調査票
         '
         'GroupBox5
         '
-        Me.GroupBox5.Controls.Add(Me.ExRadioButton10)
-        Me.GroupBox5.Controls.Add(Me.ExRadioButton7)
+        Me.GroupBox5.Controls.Add(Me.rb1_5_4)
+        Me.GroupBox5.Controls.Add(Me.rb1_5_3)
         Me.GroupBox5.Controls.Add(Me.Label153)
-        Me.GroupBox5.Controls.Add(Me.ExRadioButton8)
-        Me.GroupBox5.Controls.Add(Me.ExRadioButton9)
+        Me.GroupBox5.Controls.Add(Me.rb1_5_2)
+        Me.GroupBox5.Controls.Add(Me.rb1_5_1)
         Me.GroupBox5.Location = New System.Drawing.Point(23, 182)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox5.TabIndex = 22
         Me.GroupBox5.TabStop = False
+        '
+        'rb1_5_4
+        '
+        Me.rb1_5_4.AutoSize = True
+        Me.rb1_5_4.Location = New System.Drawing.Point(588, 10)
+        Me.rb1_5_4.Name = "rb1_5_4"
+        Me.rb1_5_4.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_5_4.TabIndex = 16
+        Me.rb1_5_4.TabStop = True
+        Me.rb1_5_4.Text = "4.できない"
+        Me.rb1_5_4.UseVisualStyleBackColor = True
+        '
+        'rb1_5_3
+        '
+        Me.rb1_5_3.AutoSize = True
+        Me.rb1_5_3.Location = New System.Drawing.Point(419, 10)
+        Me.rb1_5_3.Name = "rb1_5_3"
+        Me.rb1_5_3.Size = New System.Drawing.Size(136, 16)
+        Me.rb1_5_3.TabIndex = 15
+        Me.rb1_5_3.TabStop = True
+        Me.rb1_5_3.Text = "3.支えてもらえればできる"
+        Me.rb1_5_3.UseVisualStyleBackColor = True
         '
         'Label153
         '
@@ -3683,17 +4568,50 @@ Partial Class 認定調査票
         Me.Label153.TabIndex = 8
         Me.Label153.Text = "1-5 座位保持"
         '
+        'rb1_5_2
+        '
+        Me.rb1_5_2.AutoSize = True
+        Me.rb1_5_2.Location = New System.Drawing.Point(232, 10)
+        Me.rb1_5_2.Name = "rb1_5_2"
+        Me.rb1_5_2.Size = New System.Drawing.Size(157, 16)
+        Me.rb1_5_2.TabIndex = 14
+        Me.rb1_5_2.TabStop = True
+        Me.rb1_5_2.Text = "2.自分の手で支えればできる"
+        Me.rb1_5_2.UseVisualStyleBackColor = True
+        '
+        'rb1_5_1
+        '
+        Me.rb1_5_1.AutoSize = True
+        Me.rb1_5_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_5_1.Name = "rb1_5_1"
+        Me.rb1_5_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb1_5_1.TabIndex = 13
+        Me.rb1_5_1.TabStop = True
+        Me.rb1_5_1.Text = "1.できる"
+        Me.rb1_5_1.UseVisualStyleBackColor = True
+        '
         'GroupBox4
         '
-        Me.GroupBox4.Controls.Add(Me.ExRadioButton4)
+        Me.GroupBox4.Controls.Add(Me.rb1_4_3)
         Me.GroupBox4.Controls.Add(Me.Label154)
-        Me.GroupBox4.Controls.Add(Me.ExRadioButton5)
-        Me.GroupBox4.Controls.Add(Me.ExRadioButton6)
+        Me.GroupBox4.Controls.Add(Me.rb1_4_2)
+        Me.GroupBox4.Controls.Add(Me.rb1_4_1)
         Me.GroupBox4.Location = New System.Drawing.Point(23, 142)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox4.TabIndex = 21
         Me.GroupBox4.TabStop = False
+        '
+        'rb1_4_3
+        '
+        Me.rb1_4_3.AutoSize = True
+        Me.rb1_4_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_4_3.Name = "rb1_4_3"
+        Me.rb1_4_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_4_3.TabIndex = 12
+        Me.rb1_4_3.TabStop = True
+        Me.rb1_4_3.Text = "3.できない"
+        Me.rb1_4_3.UseVisualStyleBackColor = True
         '
         'Label154
         '
@@ -3705,17 +4623,72 @@ Partial Class 認定調査票
         Me.Label154.TabIndex = 7
         Me.Label154.Text = "1-4 起き上がり"
         '
+        'rb1_4_2
+        '
+        Me.rb1_4_2.AutoSize = True
+        Me.rb1_4_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_4_2.Name = "rb1_4_2"
+        Me.rb1_4_2.Size = New System.Drawing.Size(139, 16)
+        Me.rb1_4_2.TabIndex = 11
+        Me.rb1_4_2.TabStop = True
+        Me.rb1_4_2.Text = "2.何かにつかまればできる"
+        Me.rb1_4_2.UseVisualStyleBackColor = True
+        '
+        'rb1_4_1
+        '
+        Me.rb1_4_1.AutoSize = True
+        Me.rb1_4_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_4_1.Name = "rb1_4_1"
+        Me.rb1_4_1.Size = New System.Drawing.Size(125, 16)
+        Me.rb1_4_1.TabIndex = 10
+        Me.rb1_4_1.TabStop = True
+        Me.rb1_4_1.Text = "1.つかまらないでできる"
+        Me.rb1_4_1.UseVisualStyleBackColor = True
+        '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.ExRadioButton3)
-        Me.GroupBox3.Controls.Add(Me.ExRadioButton2)
-        Me.GroupBox3.Controls.Add(Me.ExRadioButton1)
+        Me.GroupBox3.Controls.Add(Me.rb1_3_3)
+        Me.GroupBox3.Controls.Add(Me.rb1_3_2)
+        Me.GroupBox3.Controls.Add(Me.rb1_3_1)
         Me.GroupBox3.Controls.Add(Me.Label155)
         Me.GroupBox3.Location = New System.Drawing.Point(23, 102)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox3.TabIndex = 20
         Me.GroupBox3.TabStop = False
+        '
+        'rb1_3_3
+        '
+        Me.rb1_3_3.AutoSize = True
+        Me.rb1_3_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_3_3.Name = "rb1_3_3"
+        Me.rb1_3_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_3_3.TabIndex = 9
+        Me.rb1_3_3.TabStop = True
+        Me.rb1_3_3.Text = "3.できない"
+        Me.rb1_3_3.UseVisualStyleBackColor = True
+        '
+        'rb1_3_2
+        '
+        Me.rb1_3_2.AutoSize = True
+        Me.rb1_3_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_3_2.Name = "rb1_3_2"
+        Me.rb1_3_2.Size = New System.Drawing.Size(139, 16)
+        Me.rb1_3_2.TabIndex = 8
+        Me.rb1_3_2.TabStop = True
+        Me.rb1_3_2.Text = "2.何かにつかまればできる"
+        Me.rb1_3_2.UseVisualStyleBackColor = True
+        '
+        'rb1_3_1
+        '
+        Me.rb1_3_1.AutoSize = True
+        Me.rb1_3_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_3_1.Name = "rb1_3_1"
+        Me.rb1_3_1.Size = New System.Drawing.Size(125, 16)
+        Me.rb1_3_1.TabIndex = 7
+        Me.rb1_3_1.TabStop = True
+        Me.rb1_3_1.Text = "1.つかまらないでできる"
+        Me.rb1_3_1.UseVisualStyleBackColor = True
         '
         'Label155
         '
@@ -3729,17 +4702,27 @@ Partial Class 認定調査票
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.ExCheckBox7)
+        Me.GroupBox2.Controls.Add(Me.Ch3_5)
         Me.GroupBox2.Controls.Add(Me.Label156)
-        Me.GroupBox2.Controls.Add(Me.ExCheckBox8)
-        Me.GroupBox2.Controls.Add(Me.ExCheckBox11)
-        Me.GroupBox2.Controls.Add(Me.ExCheckBox9)
-        Me.GroupBox2.Controls.Add(Me.ExCheckBox10)
+        Me.GroupBox2.Controls.Add(Me.Ch3_4)
+        Me.GroupBox2.Controls.Add(Me.Ch3_1)
+        Me.GroupBox2.Controls.Add(Me.Ch3_3)
+        Me.GroupBox2.Controls.Add(Me.Ch3_2)
         Me.GroupBox2.Location = New System.Drawing.Point(23, 62)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(648, 31)
         Me.GroupBox2.TabIndex = 19
         Me.GroupBox2.TabStop = False
+        '
+        'Ch3_5
+        '
+        Me.Ch3_5.AutoSize = True
+        Me.Ch3_5.Location = New System.Drawing.Point(419, 11)
+        Me.Ch3_5.Name = "Ch3_5"
+        Me.Ch3_5.Size = New System.Drawing.Size(133, 16)
+        Me.Ch3_5.TabIndex = 15
+        Me.Ch3_5.Text = "5.その他（四肢の欠損）"
+        Me.Ch3_5.UseVisualStyleBackColor = True
         '
         'Label156
         '
@@ -3751,20 +4734,120 @@ Partial Class 認定調査票
         Me.Label156.TabIndex = 5
         Me.Label156.Text = "1-2 拘縮の有無"
         '
+        'Ch3_4
+        '
+        Me.Ch3_4.AutoSize = True
+        Me.Ch3_4.Location = New System.Drawing.Point(346, 11)
+        Me.Ch3_4.Name = "Ch3_4"
+        Me.Ch3_4.Size = New System.Drawing.Size(68, 16)
+        Me.Ch3_4.TabIndex = 14
+        Me.Ch3_4.Text = "4.膝関節"
+        Me.Ch3_4.UseVisualStyleBackColor = True
+        '
+        'Ch3_1
+        '
+        Me.Ch3_1.AutoSize = True
+        Me.Ch3_1.Location = New System.Drawing.Point(142, 11)
+        Me.Ch3_1.Name = "Ch3_1"
+        Me.Ch3_1.Size = New System.Drawing.Size(52, 16)
+        Me.Ch3_1.TabIndex = 11
+        Me.Ch3_1.Text = "1.ない"
+        Me.Ch3_1.UseVisualStyleBackColor = True
+        '
+        'Ch3_3
+        '
+        Me.Ch3_3.AutoSize = True
+        Me.Ch3_3.Location = New System.Drawing.Point(273, 11)
+        Me.Ch3_3.Name = "Ch3_3"
+        Me.Ch3_3.Size = New System.Drawing.Size(68, 16)
+        Me.Ch3_3.TabIndex = 13
+        Me.Ch3_3.Text = "3.股関節"
+        Me.Ch3_3.UseVisualStyleBackColor = True
+        '
+        'Ch3_2
+        '
+        Me.Ch3_2.AutoSize = True
+        Me.Ch3_2.Location = New System.Drawing.Point(200, 11)
+        Me.Ch3_2.Name = "Ch3_2"
+        Me.Ch3_2.Size = New System.Drawing.Size(68, 16)
+        Me.Ch3_2.TabIndex = 12
+        Me.Ch3_2.Text = "2.肩関節"
+        Me.Ch3_2.UseVisualStyleBackColor = True
+        '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox6)
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox5)
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox4)
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox3)
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox2)
-        Me.GroupBox1.Controls.Add(Me.ExCheckBox1)
+        Me.GroupBox1.Controls.Add(Me.Ch2_6)
+        Me.GroupBox1.Controls.Add(Me.Ch2_5)
+        Me.GroupBox1.Controls.Add(Me.Ch2_4)
+        Me.GroupBox1.Controls.Add(Me.Ch2_3)
+        Me.GroupBox1.Controls.Add(Me.Ch2_2)
+        Me.GroupBox1.Controls.Add(Me.Ch2_1)
         Me.GroupBox1.Controls.Add(Me.Label157)
         Me.GroupBox1.Location = New System.Drawing.Point(23, 22)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(648, 31)
         Me.GroupBox1.TabIndex = 18
         Me.GroupBox1.TabStop = False
+        '
+        'Ch2_6
+        '
+        Me.Ch2_6.AutoSize = True
+        Me.Ch2_6.Location = New System.Drawing.Point(493, 11)
+        Me.Ch2_6.Name = "Ch2_6"
+        Me.Ch2_6.Size = New System.Drawing.Size(133, 16)
+        Me.Ch2_6.TabIndex = 10
+        Me.Ch2_6.Text = "6.その他（四肢の欠損）"
+        Me.Ch2_6.UseVisualStyleBackColor = True
+        '
+        'Ch2_5
+        '
+        Me.Ch2_5.AutoSize = True
+        Me.Ch2_5.Location = New System.Drawing.Point(419, 11)
+        Me.Ch2_5.Name = "Ch2_5"
+        Me.Ch2_5.Size = New System.Drawing.Size(68, 16)
+        Me.Ch2_5.TabIndex = 9
+        Me.Ch2_5.Text = "5.右下肢"
+        Me.Ch2_5.UseVisualStyleBackColor = True
+        '
+        'Ch2_4
+        '
+        Me.Ch2_4.AutoSize = True
+        Me.Ch2_4.Location = New System.Drawing.Point(346, 11)
+        Me.Ch2_4.Name = "Ch2_4"
+        Me.Ch2_4.Size = New System.Drawing.Size(68, 16)
+        Me.Ch2_4.TabIndex = 8
+        Me.Ch2_4.Text = "4.左下肢"
+        Me.Ch2_4.UseVisualStyleBackColor = True
+        '
+        'Ch2_3
+        '
+        Me.Ch2_3.AutoSize = True
+        Me.Ch2_3.Location = New System.Drawing.Point(273, 11)
+        Me.Ch2_3.Name = "Ch2_3"
+        Me.Ch2_3.Size = New System.Drawing.Size(68, 16)
+        Me.Ch2_3.TabIndex = 7
+        Me.Ch2_3.Text = "3.右上肢"
+        Me.Ch2_3.UseVisualStyleBackColor = True
+        '
+        'Ch2_2
+        '
+        Me.Ch2_2.AutoSize = True
+        Me.Ch2_2.Location = New System.Drawing.Point(200, 11)
+        Me.Ch2_2.Name = "Ch2_2"
+        Me.Ch2_2.Size = New System.Drawing.Size(68, 16)
+        Me.Ch2_2.TabIndex = 6
+        Me.Ch2_2.Text = "2.左上肢"
+        Me.Ch2_2.UseVisualStyleBackColor = True
+        '
+        'Ch2_1
+        '
+        Me.Ch2_1.AutoSize = True
+        Me.Ch2_1.Location = New System.Drawing.Point(142, 11)
+        Me.Ch2_1.Name = "Ch2_1"
+        Me.Ch2_1.Size = New System.Drawing.Size(52, 16)
+        Me.Ch2_1.TabIndex = 5
+        Me.Ch2_1.Text = "1.ない"
+        Me.Ch2_1.UseVisualStyleBackColor = True
         '
         'Label157
         '
@@ -3800,15 +4883,48 @@ Partial Class 認定調査票
         '
         'GroupBox25
         '
-        Me.GroupBox25.Controls.Add(Me.ExRadioButton80)
-        Me.GroupBox25.Controls.Add(Me.ExRadioButton81)
-        Me.GroupBox25.Controls.Add(Me.ExRadioButton82)
+        Me.GroupBox25.Controls.Add(Me.rb2_12_3)
+        Me.GroupBox25.Controls.Add(Me.rb2_12_2)
+        Me.GroupBox25.Controls.Add(Me.rb2_12_1)
         Me.GroupBox25.Controls.Add(Me.Label159)
         Me.GroupBox25.Location = New System.Drawing.Point(23, 572)
         Me.GroupBox25.Name = "GroupBox25"
         Me.GroupBox25.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox25.TabIndex = 45
         Me.GroupBox25.TabStop = False
+        '
+        'rb2_12_3
+        '
+        Me.rb2_12_3.AutoSize = True
+        Me.rb2_12_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_12_3.Name = "rb2_12_3"
+        Me.rb2_12_3.Size = New System.Drawing.Size(87, 16)
+        Me.rb2_12_3.TabIndex = 54
+        Me.rb2_12_3.TabStop = True
+        Me.rb2_12_3.Text = "3.月１回未満"
+        Me.rb2_12_3.UseVisualStyleBackColor = True
+        '
+        'rb2_12_2
+        '
+        Me.rb2_12_2.AutoSize = True
+        Me.rb2_12_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_12_2.Name = "rb2_12_2"
+        Me.rb2_12_2.Size = New System.Drawing.Size(87, 16)
+        Me.rb2_12_2.TabIndex = 53
+        Me.rb2_12_2.TabStop = True
+        Me.rb2_12_2.Text = "2.月１回以上"
+        Me.rb2_12_2.UseVisualStyleBackColor = True
+        '
+        'rb2_12_1
+        '
+        Me.rb2_12_1.AutoSize = True
+        Me.rb2_12_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_12_1.Name = "rb2_12_1"
+        Me.rb2_12_1.Size = New System.Drawing.Size(87, 16)
+        Me.rb2_12_1.TabIndex = 52
+        Me.rb2_12_1.TabStop = True
+        Me.rb2_12_1.Text = "1.週１回以上"
+        Me.rb2_12_1.UseVisualStyleBackColor = True
         '
         'Label159
         '
@@ -3822,16 +4938,60 @@ Partial Class 認定調査票
         '
         'GroupBox14
         '
-        Me.GroupBox14.Controls.Add(Me.ExRadioButton72)
-        Me.GroupBox14.Controls.Add(Me.ExRadioButton73)
-        Me.GroupBox14.Controls.Add(Me.ExRadioButton74)
-        Me.GroupBox14.Controls.Add(Me.ExRadioButton75)
+        Me.GroupBox14.Controls.Add(Me.rb2_10_4)
+        Me.GroupBox14.Controls.Add(Me.rb2_10_3)
+        Me.GroupBox14.Controls.Add(Me.rb2_10_2)
+        Me.GroupBox14.Controls.Add(Me.rb2_10_1)
         Me.GroupBox14.Controls.Add(Me.Label161)
         Me.GroupBox14.Location = New System.Drawing.Point(23, 472)
         Me.GroupBox14.Name = "GroupBox14"
         Me.GroupBox14.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox14.TabIndex = 44
         Me.GroupBox14.TabStop = False
+        '
+        'rb2_10_4
+        '
+        Me.rb2_10_4.AutoSize = True
+        Me.rb2_10_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_10_4.Name = "rb2_10_4"
+        Me.rb2_10_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_10_4.TabIndex = 46
+        Me.rb2_10_4.TabStop = True
+        Me.rb2_10_4.Text = "4.全介助"
+        Me.rb2_10_4.UseVisualStyleBackColor = True
+        '
+        'rb2_10_3
+        '
+        Me.rb2_10_3.AutoSize = True
+        Me.rb2_10_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_10_3.Name = "rb2_10_3"
+        Me.rb2_10_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_10_3.TabIndex = 45
+        Me.rb2_10_3.TabStop = True
+        Me.rb2_10_3.Text = "3.一部介助"
+        Me.rb2_10_3.UseVisualStyleBackColor = True
+        '
+        'rb2_10_2
+        '
+        Me.rb2_10_2.AutoSize = True
+        Me.rb2_10_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_10_2.Name = "rb2_10_2"
+        Me.rb2_10_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_10_2.TabIndex = 44
+        Me.rb2_10_2.TabStop = True
+        Me.rb2_10_2.Text = "2.見守り等"
+        Me.rb2_10_2.UseVisualStyleBackColor = True
+        '
+        'rb2_10_1
+        '
+        Me.rb2_10_1.AutoSize = True
+        Me.rb2_10_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_10_1.Name = "rb2_10_1"
+        Me.rb2_10_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_10_1.TabIndex = 43
+        Me.rb2_10_1.TabStop = True
+        Me.rb2_10_1.Text = "1.自立（介助なし）"
+        Me.rb2_10_1.UseVisualStyleBackColor = True
         '
         'Label161
         '
@@ -3845,16 +5005,60 @@ Partial Class 認定調査票
         '
         'GroupBox15
         '
-        Me.GroupBox15.Controls.Add(Me.ExRadioButton76)
-        Me.GroupBox15.Controls.Add(Me.ExRadioButton77)
-        Me.GroupBox15.Controls.Add(Me.ExRadioButton78)
-        Me.GroupBox15.Controls.Add(Me.ExRadioButton79)
+        Me.GroupBox15.Controls.Add(Me.rb2_11_4)
+        Me.GroupBox15.Controls.Add(Me.rb2_11_3)
+        Me.GroupBox15.Controls.Add(Me.rb2_11_2)
+        Me.GroupBox15.Controls.Add(Me.rb2_11_1)
         Me.GroupBox15.Controls.Add(Me.Label160)
         Me.GroupBox15.Location = New System.Drawing.Point(23, 522)
         Me.GroupBox15.Name = "GroupBox15"
         Me.GroupBox15.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox15.TabIndex = 43
         Me.GroupBox15.TabStop = False
+        '
+        'rb2_11_4
+        '
+        Me.rb2_11_4.AutoSize = True
+        Me.rb2_11_4.Location = New System.Drawing.Point(484, 9)
+        Me.rb2_11_4.Name = "rb2_11_4"
+        Me.rb2_11_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_11_4.TabIndex = 50
+        Me.rb2_11_4.TabStop = True
+        Me.rb2_11_4.Text = "4.全介助"
+        Me.rb2_11_4.UseVisualStyleBackColor = True
+        '
+        'rb2_11_3
+        '
+        Me.rb2_11_3.AutoSize = True
+        Me.rb2_11_3.Location = New System.Drawing.Point(379, 8)
+        Me.rb2_11_3.Name = "rb2_11_3"
+        Me.rb2_11_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_11_3.TabIndex = 49
+        Me.rb2_11_3.TabStop = True
+        Me.rb2_11_3.Text = "3.一部介助"
+        Me.rb2_11_3.UseVisualStyleBackColor = True
+        '
+        'rb2_11_2
+        '
+        Me.rb2_11_2.AutoSize = True
+        Me.rb2_11_2.Location = New System.Drawing.Point(276, 9)
+        Me.rb2_11_2.Name = "rb2_11_2"
+        Me.rb2_11_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_11_2.TabIndex = 48
+        Me.rb2_11_2.TabStop = True
+        Me.rb2_11_2.Text = "2.見守り等"
+        Me.rb2_11_2.UseVisualStyleBackColor = True
+        '
+        'rb2_11_1
+        '
+        Me.rb2_11_1.AutoSize = True
+        Me.rb2_11_1.Location = New System.Drawing.Point(142, 9)
+        Me.rb2_11_1.Name = "rb2_11_1"
+        Me.rb2_11_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_11_1.TabIndex = 47
+        Me.rb2_11_1.TabStop = True
+        Me.rb2_11_1.Text = "1.自立（介助なし）"
+        Me.rb2_11_1.UseVisualStyleBackColor = True
         '
         'Label160
         '
@@ -3868,15 +5072,48 @@ Partial Class 認定調査票
         '
         'GroupBox16
         '
-        Me.GroupBox16.Controls.Add(Me.ExRadioButton69)
-        Me.GroupBox16.Controls.Add(Me.ExRadioButton70)
-        Me.GroupBox16.Controls.Add(Me.ExRadioButton71)
+        Me.GroupBox16.Controls.Add(Me.rb2_9_3)
+        Me.GroupBox16.Controls.Add(Me.rb2_9_2)
+        Me.GroupBox16.Controls.Add(Me.rb2_9_1)
         Me.GroupBox16.Controls.Add(Me.Label162)
         Me.GroupBox16.Location = New System.Drawing.Point(23, 422)
         Me.GroupBox16.Name = "GroupBox16"
         Me.GroupBox16.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox16.TabIndex = 42
         Me.GroupBox16.TabStop = False
+        '
+        'rb2_9_3
+        '
+        Me.rb2_9_3.AutoSize = True
+        Me.rb2_9_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_9_3.Name = "rb2_9_3"
+        Me.rb2_9_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_9_3.TabIndex = 51
+        Me.rb2_9_3.TabStop = True
+        Me.rb2_9_3.Text = "3.全介助"
+        Me.rb2_9_3.UseVisualStyleBackColor = True
+        '
+        'rb2_9_2
+        '
+        Me.rb2_9_2.AutoSize = True
+        Me.rb2_9_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_9_2.Name = "rb2_9_2"
+        Me.rb2_9_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_9_2.TabIndex = 50
+        Me.rb2_9_2.TabStop = True
+        Me.rb2_9_2.Text = "2.一部介助"
+        Me.rb2_9_2.UseVisualStyleBackColor = True
+        '
+        'rb2_9_1
+        '
+        Me.rb2_9_1.AutoSize = True
+        Me.rb2_9_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_9_1.Name = "rb2_9_1"
+        Me.rb2_9_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_9_1.TabIndex = 49
+        Me.rb2_9_1.TabStop = True
+        Me.rb2_9_1.Text = "1.自立（介助なし）"
+        Me.rb2_9_1.UseVisualStyleBackColor = True
         '
         'Label162
         '
@@ -3890,15 +5127,48 @@ Partial Class 認定調査票
         '
         'GroupBox17
         '
-        Me.GroupBox17.Controls.Add(Me.ExRadioButton63)
-        Me.GroupBox17.Controls.Add(Me.ExRadioButton67)
-        Me.GroupBox17.Controls.Add(Me.ExRadioButton68)
+        Me.GroupBox17.Controls.Add(Me.rb2_8_3)
+        Me.GroupBox17.Controls.Add(Me.rb2_8_2)
+        Me.GroupBox17.Controls.Add(Me.rb2_8_1)
         Me.GroupBox17.Controls.Add(Me.Label163)
         Me.GroupBox17.Location = New System.Drawing.Point(23, 372)
         Me.GroupBox17.Name = "GroupBox17"
         Me.GroupBox17.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox17.TabIndex = 41
         Me.GroupBox17.TabStop = False
+        '
+        'rb2_8_3
+        '
+        Me.rb2_8_3.AutoSize = True
+        Me.rb2_8_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_8_3.Name = "rb2_8_3"
+        Me.rb2_8_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_8_3.TabIndex = 48
+        Me.rb2_8_3.TabStop = True
+        Me.rb2_8_3.Text = "3.全介助"
+        Me.rb2_8_3.UseVisualStyleBackColor = True
+        '
+        'rb2_8_2
+        '
+        Me.rb2_8_2.AutoSize = True
+        Me.rb2_8_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_8_2.Name = "rb2_8_2"
+        Me.rb2_8_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_8_2.TabIndex = 47
+        Me.rb2_8_2.TabStop = True
+        Me.rb2_8_2.Text = "2.一部介助"
+        Me.rb2_8_2.UseVisualStyleBackColor = True
+        '
+        'rb2_8_1
+        '
+        Me.rb2_8_1.AutoSize = True
+        Me.rb2_8_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_8_1.Name = "rb2_8_1"
+        Me.rb2_8_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_8_1.TabIndex = 46
+        Me.rb2_8_1.TabStop = True
+        Me.rb2_8_1.Text = "1.自立（介助なし）"
+        Me.rb2_8_1.UseVisualStyleBackColor = True
         '
         'Label163
         '
@@ -3912,15 +5182,48 @@ Partial Class 認定調査票
         '
         'GroupBox18
         '
-        Me.GroupBox18.Controls.Add(Me.ExRadioButton64)
-        Me.GroupBox18.Controls.Add(Me.ExRadioButton65)
-        Me.GroupBox18.Controls.Add(Me.ExRadioButton66)
+        Me.GroupBox18.Controls.Add(Me.rb2_7_3)
+        Me.GroupBox18.Controls.Add(Me.rb2_7_2)
+        Me.GroupBox18.Controls.Add(Me.rb2_7_1)
         Me.GroupBox18.Controls.Add(Me.Label164)
         Me.GroupBox18.Location = New System.Drawing.Point(23, 322)
         Me.GroupBox18.Name = "GroupBox18"
         Me.GroupBox18.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox18.TabIndex = 40
         Me.GroupBox18.TabStop = False
+        '
+        'rb2_7_3
+        '
+        Me.rb2_7_3.AutoSize = True
+        Me.rb2_7_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_7_3.Name = "rb2_7_3"
+        Me.rb2_7_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_7_3.TabIndex = 45
+        Me.rb2_7_3.TabStop = True
+        Me.rb2_7_3.Text = "3.全介助"
+        Me.rb2_7_3.UseVisualStyleBackColor = True
+        '
+        'rb2_7_2
+        '
+        Me.rb2_7_2.AutoSize = True
+        Me.rb2_7_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_7_2.Name = "rb2_7_2"
+        Me.rb2_7_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_7_2.TabIndex = 44
+        Me.rb2_7_2.TabStop = True
+        Me.rb2_7_2.Text = "2.一部介助"
+        Me.rb2_7_2.UseVisualStyleBackColor = True
+        '
+        'rb2_7_1
+        '
+        Me.rb2_7_1.AutoSize = True
+        Me.rb2_7_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_7_1.Name = "rb2_7_1"
+        Me.rb2_7_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_7_1.TabIndex = 43
+        Me.rb2_7_1.TabStop = True
+        Me.rb2_7_1.Text = "1.自立（介助なし）"
+        Me.rb2_7_1.UseVisualStyleBackColor = True
         '
         'Label164
         '
@@ -3934,16 +5237,60 @@ Partial Class 認定調査票
         '
         'GroupBox19
         '
-        Me.GroupBox19.Controls.Add(Me.ExRadioButton59)
-        Me.GroupBox19.Controls.Add(Me.ExRadioButton60)
-        Me.GroupBox19.Controls.Add(Me.ExRadioButton61)
-        Me.GroupBox19.Controls.Add(Me.ExRadioButton62)
+        Me.GroupBox19.Controls.Add(Me.rb2_6_4)
+        Me.GroupBox19.Controls.Add(Me.rb2_6_3)
+        Me.GroupBox19.Controls.Add(Me.rb2_6_2)
+        Me.GroupBox19.Controls.Add(Me.rb2_6_1)
         Me.GroupBox19.Controls.Add(Me.Label165)
         Me.GroupBox19.Location = New System.Drawing.Point(23, 272)
         Me.GroupBox19.Name = "GroupBox19"
         Me.GroupBox19.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox19.TabIndex = 39
         Me.GroupBox19.TabStop = False
+        '
+        'rb2_6_4
+        '
+        Me.rb2_6_4.AutoSize = True
+        Me.rb2_6_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_6_4.Name = "rb2_6_4"
+        Me.rb2_6_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_6_4.TabIndex = 42
+        Me.rb2_6_4.TabStop = True
+        Me.rb2_6_4.Text = "4.全介助"
+        Me.rb2_6_4.UseVisualStyleBackColor = True
+        '
+        'rb2_6_3
+        '
+        Me.rb2_6_3.AutoSize = True
+        Me.rb2_6_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_6_3.Name = "rb2_6_3"
+        Me.rb2_6_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_6_3.TabIndex = 41
+        Me.rb2_6_3.TabStop = True
+        Me.rb2_6_3.Text = "3.一部介助"
+        Me.rb2_6_3.UseVisualStyleBackColor = True
+        '
+        'rb2_6_2
+        '
+        Me.rb2_6_2.AutoSize = True
+        Me.rb2_6_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_6_2.Name = "rb2_6_2"
+        Me.rb2_6_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_6_2.TabIndex = 40
+        Me.rb2_6_2.TabStop = True
+        Me.rb2_6_2.Text = "2.見守り等"
+        Me.rb2_6_2.UseVisualStyleBackColor = True
+        '
+        'rb2_6_1
+        '
+        Me.rb2_6_1.AutoSize = True
+        Me.rb2_6_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_6_1.Name = "rb2_6_1"
+        Me.rb2_6_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_6_1.TabIndex = 39
+        Me.rb2_6_1.TabStop = True
+        Me.rb2_6_1.Text = "1.自立（介助なし）"
+        Me.rb2_6_1.UseVisualStyleBackColor = True
         '
         'Label165
         '
@@ -3957,16 +5304,60 @@ Partial Class 認定調査票
         '
         'GroupBox20
         '
-        Me.GroupBox20.Controls.Add(Me.ExRadioButton55)
-        Me.GroupBox20.Controls.Add(Me.ExRadioButton56)
-        Me.GroupBox20.Controls.Add(Me.ExRadioButton57)
-        Me.GroupBox20.Controls.Add(Me.ExRadioButton58)
+        Me.GroupBox20.Controls.Add(Me.rb2_5_4)
+        Me.GroupBox20.Controls.Add(Me.rb2_5_3)
+        Me.GroupBox20.Controls.Add(Me.rb2_5_2)
+        Me.GroupBox20.Controls.Add(Me.rb2_5_1)
         Me.GroupBox20.Controls.Add(Me.Label166)
         Me.GroupBox20.Location = New System.Drawing.Point(23, 222)
         Me.GroupBox20.Name = "GroupBox20"
         Me.GroupBox20.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox20.TabIndex = 38
         Me.GroupBox20.TabStop = False
+        '
+        'rb2_5_4
+        '
+        Me.rb2_5_4.AutoSize = True
+        Me.rb2_5_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_5_4.Name = "rb2_5_4"
+        Me.rb2_5_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_5_4.TabIndex = 38
+        Me.rb2_5_4.TabStop = True
+        Me.rb2_5_4.Text = "4.全介助"
+        Me.rb2_5_4.UseVisualStyleBackColor = True
+        '
+        'rb2_5_3
+        '
+        Me.rb2_5_3.AutoSize = True
+        Me.rb2_5_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_5_3.Name = "rb2_5_3"
+        Me.rb2_5_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_5_3.TabIndex = 37
+        Me.rb2_5_3.TabStop = True
+        Me.rb2_5_3.Text = "3.一部介助"
+        Me.rb2_5_3.UseVisualStyleBackColor = True
+        '
+        'rb2_5_2
+        '
+        Me.rb2_5_2.AutoSize = True
+        Me.rb2_5_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_5_2.Name = "rb2_5_2"
+        Me.rb2_5_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_5_2.TabIndex = 36
+        Me.rb2_5_2.TabStop = True
+        Me.rb2_5_2.Text = "2.見守り等"
+        Me.rb2_5_2.UseVisualStyleBackColor = True
+        '
+        'rb2_5_1
+        '
+        Me.rb2_5_1.AutoSize = True
+        Me.rb2_5_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_5_1.Name = "rb2_5_1"
+        Me.rb2_5_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_5_1.TabIndex = 35
+        Me.rb2_5_1.TabStop = True
+        Me.rb2_5_1.Text = "1.自立（介助なし）"
+        Me.rb2_5_1.UseVisualStyleBackColor = True
         '
         'Label166
         '
@@ -3980,16 +5371,60 @@ Partial Class 認定調査票
         '
         'GroupBox21
         '
-        Me.GroupBox21.Controls.Add(Me.ExRadioButton48)
-        Me.GroupBox21.Controls.Add(Me.ExRadioButton52)
-        Me.GroupBox21.Controls.Add(Me.ExRadioButton53)
-        Me.GroupBox21.Controls.Add(Me.ExRadioButton54)
+        Me.GroupBox21.Controls.Add(Me.rb2_4_4)
+        Me.GroupBox21.Controls.Add(Me.rb2_4_3)
+        Me.GroupBox21.Controls.Add(Me.rb2_4_2)
+        Me.GroupBox21.Controls.Add(Me.rb2_4_1)
         Me.GroupBox21.Controls.Add(Me.Label167)
         Me.GroupBox21.Location = New System.Drawing.Point(23, 172)
         Me.GroupBox21.Name = "GroupBox21"
         Me.GroupBox21.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox21.TabIndex = 37
         Me.GroupBox21.TabStop = False
+        '
+        'rb2_4_4
+        '
+        Me.rb2_4_4.AutoSize = True
+        Me.rb2_4_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_4_4.Name = "rb2_4_4"
+        Me.rb2_4_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_4_4.TabIndex = 34
+        Me.rb2_4_4.TabStop = True
+        Me.rb2_4_4.Text = "4.全介助"
+        Me.rb2_4_4.UseVisualStyleBackColor = True
+        '
+        'rb2_4_3
+        '
+        Me.rb2_4_3.AutoSize = True
+        Me.rb2_4_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_4_3.Name = "rb2_4_3"
+        Me.rb2_4_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_4_3.TabIndex = 33
+        Me.rb2_4_3.TabStop = True
+        Me.rb2_4_3.Text = "3.一部介助"
+        Me.rb2_4_3.UseVisualStyleBackColor = True
+        '
+        'rb2_4_2
+        '
+        Me.rb2_4_2.AutoSize = True
+        Me.rb2_4_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_4_2.Name = "rb2_4_2"
+        Me.rb2_4_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_4_2.TabIndex = 32
+        Me.rb2_4_2.TabStop = True
+        Me.rb2_4_2.Text = "2.見守り等"
+        Me.rb2_4_2.UseVisualStyleBackColor = True
+        '
+        'rb2_4_1
+        '
+        Me.rb2_4_1.AutoSize = True
+        Me.rb2_4_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_4_1.Name = "rb2_4_1"
+        Me.rb2_4_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_4_1.TabIndex = 31
+        Me.rb2_4_1.TabStop = True
+        Me.rb2_4_1.Text = "1.自立（介助なし）"
+        Me.rb2_4_1.UseVisualStyleBackColor = True
         '
         'Label167
         '
@@ -4003,15 +5438,48 @@ Partial Class 認定調査票
         '
         'GroupBox22
         '
-        Me.GroupBox22.Controls.Add(Me.ExRadioButton49)
-        Me.GroupBox22.Controls.Add(Me.ExRadioButton50)
-        Me.GroupBox22.Controls.Add(Me.ExRadioButton51)
+        Me.GroupBox22.Controls.Add(Me.rb2_3_3)
+        Me.GroupBox22.Controls.Add(Me.rb2_3_2)
+        Me.GroupBox22.Controls.Add(Me.rb2_3_1)
         Me.GroupBox22.Controls.Add(Me.Label168)
         Me.GroupBox22.Location = New System.Drawing.Point(23, 122)
         Me.GroupBox22.Name = "GroupBox22"
         Me.GroupBox22.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox22.TabIndex = 36
         Me.GroupBox22.TabStop = False
+        '
+        'rb2_3_3
+        '
+        Me.rb2_3_3.AutoSize = True
+        Me.rb2_3_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_3_3.Name = "rb2_3_3"
+        Me.rb2_3_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb2_3_3.TabIndex = 33
+        Me.rb2_3_3.TabStop = True
+        Me.rb2_3_3.Text = "3.できない"
+        Me.rb2_3_3.UseVisualStyleBackColor = True
+        '
+        'rb2_3_2
+        '
+        Me.rb2_3_2.AutoSize = True
+        Me.rb2_3_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_3_2.Name = "rb2_3_2"
+        Me.rb2_3_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_3_2.TabIndex = 32
+        Me.rb2_3_2.TabStop = True
+        Me.rb2_3_2.Text = "2.見守り等"
+        Me.rb2_3_2.UseVisualStyleBackColor = True
+        '
+        'rb2_3_1
+        '
+        Me.rb2_3_1.AutoSize = True
+        Me.rb2_3_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_3_1.Name = "rb2_3_1"
+        Me.rb2_3_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb2_3_1.TabIndex = 31
+        Me.rb2_3_1.TabStop = True
+        Me.rb2_3_1.Text = "1.できる"
+        Me.rb2_3_1.UseVisualStyleBackColor = True
         '
         'Label168
         '
@@ -4025,16 +5493,60 @@ Partial Class 認定調査票
         '
         'GroupBox23
         '
-        Me.GroupBox23.Controls.Add(Me.ExRadioButton44)
-        Me.GroupBox23.Controls.Add(Me.ExRadioButton45)
-        Me.GroupBox23.Controls.Add(Me.ExRadioButton46)
-        Me.GroupBox23.Controls.Add(Me.ExRadioButton47)
+        Me.GroupBox23.Controls.Add(Me.rb2_2_4)
+        Me.GroupBox23.Controls.Add(Me.rb2_2_3)
+        Me.GroupBox23.Controls.Add(Me.rb2_2_2)
+        Me.GroupBox23.Controls.Add(Me.rb2_2_1)
         Me.GroupBox23.Controls.Add(Me.Label169)
         Me.GroupBox23.Location = New System.Drawing.Point(23, 72)
         Me.GroupBox23.Name = "GroupBox23"
         Me.GroupBox23.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox23.TabIndex = 35
         Me.GroupBox23.TabStop = False
+        '
+        'rb2_2_4
+        '
+        Me.rb2_2_4.AutoSize = True
+        Me.rb2_2_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_2_4.Name = "rb2_2_4"
+        Me.rb2_2_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_2_4.TabIndex = 30
+        Me.rb2_2_4.TabStop = True
+        Me.rb2_2_4.Text = "4.全介助"
+        Me.rb2_2_4.UseVisualStyleBackColor = True
+        '
+        'rb2_2_3
+        '
+        Me.rb2_2_3.AutoSize = True
+        Me.rb2_2_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_2_3.Name = "rb2_2_3"
+        Me.rb2_2_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_2_3.TabIndex = 29
+        Me.rb2_2_3.TabStop = True
+        Me.rb2_2_3.Text = "3.一部介助"
+        Me.rb2_2_3.UseVisualStyleBackColor = True
+        '
+        'rb2_2_2
+        '
+        Me.rb2_2_2.AutoSize = True
+        Me.rb2_2_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_2_2.Name = "rb2_2_2"
+        Me.rb2_2_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_2_2.TabIndex = 28
+        Me.rb2_2_2.TabStop = True
+        Me.rb2_2_2.Text = "2.見守り等"
+        Me.rb2_2_2.UseVisualStyleBackColor = True
+        '
+        'rb2_2_1
+        '
+        Me.rb2_2_1.AutoSize = True
+        Me.rb2_2_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_2_1.Name = "rb2_2_1"
+        Me.rb2_2_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_2_1.TabIndex = 27
+        Me.rb2_2_1.TabStop = True
+        Me.rb2_2_1.Text = "1.自立（介助なし）"
+        Me.rb2_2_1.UseVisualStyleBackColor = True
         '
         'Label169
         '
@@ -4048,16 +5560,60 @@ Partial Class 認定調査票
         '
         'GroupBox24
         '
-        Me.GroupBox24.Controls.Add(Me.ExRadioButton40)
-        Me.GroupBox24.Controls.Add(Me.ExRadioButton41)
-        Me.GroupBox24.Controls.Add(Me.ExRadioButton42)
-        Me.GroupBox24.Controls.Add(Me.ExRadioButton43)
+        Me.GroupBox24.Controls.Add(Me.rb2_1_4)
+        Me.GroupBox24.Controls.Add(Me.rb2_1_3)
+        Me.GroupBox24.Controls.Add(Me.rb2_1_2)
+        Me.GroupBox24.Controls.Add(Me.rb2_1_1)
         Me.GroupBox24.Controls.Add(Me.Label170)
         Me.GroupBox24.Location = New System.Drawing.Point(23, 22)
         Me.GroupBox24.Name = "GroupBox24"
         Me.GroupBox24.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox24.TabIndex = 34
         Me.GroupBox24.TabStop = False
+        '
+        'rb2_1_4
+        '
+        Me.rb2_1_4.AutoSize = True
+        Me.rb2_1_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_1_4.Name = "rb2_1_4"
+        Me.rb2_1_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_1_4.TabIndex = 26
+        Me.rb2_1_4.TabStop = True
+        Me.rb2_1_4.Text = "4.全介助"
+        Me.rb2_1_4.UseVisualStyleBackColor = True
+        '
+        'rb2_1_3
+        '
+        Me.rb2_1_3.AutoSize = True
+        Me.rb2_1_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_1_3.Name = "rb2_1_3"
+        Me.rb2_1_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_1_3.TabIndex = 25
+        Me.rb2_1_3.TabStop = True
+        Me.rb2_1_3.Text = "3.一部介助"
+        Me.rb2_1_3.UseVisualStyleBackColor = True
+        '
+        'rb2_1_2
+        '
+        Me.rb2_1_2.AutoSize = True
+        Me.rb2_1_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_1_2.Name = "rb2_1_2"
+        Me.rb2_1_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_1_2.TabIndex = 24
+        Me.rb2_1_2.TabStop = True
+        Me.rb2_1_2.Text = "2.見守り等"
+        Me.rb2_1_2.UseVisualStyleBackColor = True
+        '
+        'rb2_1_1
+        '
+        Me.rb2_1_1.AutoSize = True
+        Me.rb2_1_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_1_1.Name = "rb2_1_1"
+        Me.rb2_1_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_1_1.TabIndex = 23
+        Me.rb2_1_1.TabStop = True
+        Me.rb2_1_1.Text = "1.自立（介助なし）"
+        Me.rb2_1_1.UseVisualStyleBackColor = True
         '
         'Label170
         '
@@ -4089,15 +5645,48 @@ Partial Class 認定調査票
         '
         'GroupBox31
         '
-        Me.GroupBox31.Controls.Add(Me.ExRadioButton102)
-        Me.GroupBox31.Controls.Add(Me.ExRadioButton103)
-        Me.GroupBox31.Controls.Add(Me.ExRadioButton104)
+        Me.GroupBox31.Controls.Add(Me.rb3_9_3)
+        Me.GroupBox31.Controls.Add(Me.rb3_9_2)
+        Me.GroupBox31.Controls.Add(Me.rb3_9_1)
         Me.GroupBox31.Controls.Add(Me.Label172)
         Me.GroupBox31.Location = New System.Drawing.Point(23, 476)
         Me.GroupBox31.Name = "GroupBox31"
         Me.GroupBox31.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox31.TabIndex = 43
         Me.GroupBox31.TabStop = False
+        '
+        'rb3_9_3
+        '
+        Me.rb3_9_3.AutoSize = True
+        Me.rb3_9_3.Location = New System.Drawing.Point(468, 10)
+        Me.rb3_9_3.Name = "rb3_9_3"
+        Me.rb3_9_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb3_9_3.TabIndex = 36
+        Me.rb3_9_3.TabStop = True
+        Me.rb3_9_3.Text = "3.ある"
+        Me.rb3_9_3.UseVisualStyleBackColor = True
+        '
+        'rb3_9_2
+        '
+        Me.rb3_9_2.AutoSize = True
+        Me.rb3_9_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_9_2.Name = "rb3_9_2"
+        Me.rb3_9_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb3_9_2.TabIndex = 35
+        Me.rb3_9_2.TabStop = True
+        Me.rb3_9_2.Text = "2.ときどきある"
+        Me.rb3_9_2.UseVisualStyleBackColor = True
+        '
+        'rb3_9_1
+        '
+        Me.rb3_9_1.AutoSize = True
+        Me.rb3_9_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_9_1.Name = "rb3_9_1"
+        Me.rb3_9_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb3_9_1.TabIndex = 34
+        Me.rb3_9_1.TabStop = True
+        Me.rb3_9_1.Text = "1.ない"
+        Me.rb3_9_1.UseVisualStyleBackColor = True
         '
         'Label172
         '
@@ -4111,14 +5700,36 @@ Partial Class 認定調査票
         '
         'GroupBox30
         '
-        Me.GroupBox30.Controls.Add(Me.ExRadioButton93)
-        Me.GroupBox30.Controls.Add(Me.ExRadioButton94)
+        Me.GroupBox30.Controls.Add(Me.rb3_5_2)
+        Me.GroupBox30.Controls.Add(Me.rb3_5_1)
         Me.GroupBox30.Controls.Add(Me.Label176)
         Me.GroupBox30.Location = New System.Drawing.Point(23, 284)
         Me.GroupBox30.Name = "GroupBox30"
         Me.GroupBox30.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox30.TabIndex = 39
         Me.GroupBox30.TabStop = False
+        '
+        'rb3_5_2
+        '
+        Me.rb3_5_2.AutoSize = True
+        Me.rb3_5_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_5_2.Name = "rb3_5_2"
+        Me.rb3_5_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_5_2.TabIndex = 29
+        Me.rb3_5_2.TabStop = True
+        Me.rb3_5_2.Text = "2.できない"
+        Me.rb3_5_2.UseVisualStyleBackColor = True
+        '
+        'rb3_5_1
+        '
+        Me.rb3_5_1.AutoSize = True
+        Me.rb3_5_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_5_1.Name = "rb3_5_1"
+        Me.rb3_5_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_5_1.TabIndex = 28
+        Me.rb3_5_1.TabStop = True
+        Me.rb3_5_1.Text = "1.できる"
+        Me.rb3_5_1.UseVisualStyleBackColor = True
         '
         'Label176
         '
@@ -4132,15 +5743,48 @@ Partial Class 認定調査票
         '
         'GroupBox32
         '
-        Me.GroupBox32.Controls.Add(Me.ExRadioButton101)
-        Me.GroupBox32.Controls.Add(Me.ExRadioButton99)
-        Me.GroupBox32.Controls.Add(Me.ExRadioButton100)
+        Me.GroupBox32.Controls.Add(Me.rb3_8_3)
+        Me.GroupBox32.Controls.Add(Me.rb3_8_2)
+        Me.GroupBox32.Controls.Add(Me.rb3_8_1)
         Me.GroupBox32.Controls.Add(Me.Label173)
         Me.GroupBox32.Location = New System.Drawing.Point(23, 428)
         Me.GroupBox32.Name = "GroupBox32"
         Me.GroupBox32.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox32.TabIndex = 42
         Me.GroupBox32.TabStop = False
+        '
+        'rb3_8_3
+        '
+        Me.rb3_8_3.AutoSize = True
+        Me.rb3_8_3.Location = New System.Drawing.Point(468, 10)
+        Me.rb3_8_3.Name = "rb3_8_3"
+        Me.rb3_8_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb3_8_3.TabIndex = 33
+        Me.rb3_8_3.TabStop = True
+        Me.rb3_8_3.Text = "3.ある"
+        Me.rb3_8_3.UseVisualStyleBackColor = True
+        '
+        'rb3_8_2
+        '
+        Me.rb3_8_2.AutoSize = True
+        Me.rb3_8_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_8_2.Name = "rb3_8_2"
+        Me.rb3_8_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb3_8_2.TabIndex = 32
+        Me.rb3_8_2.TabStop = True
+        Me.rb3_8_2.Text = "2.ときどきある"
+        Me.rb3_8_2.UseVisualStyleBackColor = True
+        '
+        'rb3_8_1
+        '
+        Me.rb3_8_1.AutoSize = True
+        Me.rb3_8_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_8_1.Name = "rb3_8_1"
+        Me.rb3_8_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb3_8_1.TabIndex = 31
+        Me.rb3_8_1.TabStop = True
+        Me.rb3_8_1.Text = "1.ない"
+        Me.rb3_8_1.UseVisualStyleBackColor = True
         '
         'Label173
         '
@@ -4154,14 +5798,36 @@ Partial Class 認定調査票
         '
         'GroupBox29
         '
-        Me.GroupBox29.Controls.Add(Me.ExRadioButton91)
-        Me.GroupBox29.Controls.Add(Me.ExRadioButton92)
+        Me.GroupBox29.Controls.Add(Me.rb3_4_2)
+        Me.GroupBox29.Controls.Add(Me.rb3_4_1)
         Me.GroupBox29.Controls.Add(Me.Label177)
         Me.GroupBox29.Location = New System.Drawing.Point(23, 236)
         Me.GroupBox29.Name = "GroupBox29"
         Me.GroupBox29.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox29.TabIndex = 38
         Me.GroupBox29.TabStop = False
+        '
+        'rb3_4_2
+        '
+        Me.rb3_4_2.AutoSize = True
+        Me.rb3_4_2.Location = New System.Drawing.Point(445, 10)
+        Me.rb3_4_2.Name = "rb3_4_2"
+        Me.rb3_4_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_4_2.TabIndex = 29
+        Me.rb3_4_2.TabStop = True
+        Me.rb3_4_2.Text = "2.できない"
+        Me.rb3_4_2.UseVisualStyleBackColor = True
+        '
+        'rb3_4_1
+        '
+        Me.rb3_4_1.AutoSize = True
+        Me.rb3_4_1.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_4_1.Name = "rb3_4_1"
+        Me.rb3_4_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_4_1.TabIndex = 28
+        Me.rb3_4_1.TabStop = True
+        Me.rb3_4_1.Text = "1.できる"
+        Me.rb3_4_1.UseVisualStyleBackColor = True
         '
         'Label177
         '
@@ -4175,14 +5841,36 @@ Partial Class 認定調査票
         '
         'GroupBox33
         '
-        Me.GroupBox33.Controls.Add(Me.ExRadioButton97)
-        Me.GroupBox33.Controls.Add(Me.ExRadioButton98)
+        Me.GroupBox33.Controls.Add(Me.rb3_7_2)
+        Me.GroupBox33.Controls.Add(Me.rb3_7_1)
         Me.GroupBox33.Controls.Add(Me.Label174)
         Me.GroupBox33.Location = New System.Drawing.Point(23, 380)
         Me.GroupBox33.Name = "GroupBox33"
         Me.GroupBox33.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox33.TabIndex = 41
         Me.GroupBox33.TabStop = False
+        '
+        'rb3_7_2
+        '
+        Me.rb3_7_2.AutoSize = True
+        Me.rb3_7_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_7_2.Name = "rb3_7_2"
+        Me.rb3_7_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_7_2.TabIndex = 30
+        Me.rb3_7_2.TabStop = True
+        Me.rb3_7_2.Text = "2.できない"
+        Me.rb3_7_2.UseVisualStyleBackColor = True
+        '
+        'rb3_7_1
+        '
+        Me.rb3_7_1.AutoSize = True
+        Me.rb3_7_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_7_1.Name = "rb3_7_1"
+        Me.rb3_7_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_7_1.TabIndex = 29
+        Me.rb3_7_1.TabStop = True
+        Me.rb3_7_1.Text = "1.できる"
+        Me.rb3_7_1.UseVisualStyleBackColor = True
         '
         'Label174
         '
@@ -4196,14 +5884,36 @@ Partial Class 認定調査票
         '
         'GroupBox28
         '
-        Me.GroupBox28.Controls.Add(Me.ExRadioButton89)
-        Me.GroupBox28.Controls.Add(Me.ExRadioButton90)
+        Me.GroupBox28.Controls.Add(Me.rb3_3_2)
+        Me.GroupBox28.Controls.Add(Me.rb3_3_1)
         Me.GroupBox28.Controls.Add(Me.Label178)
         Me.GroupBox28.Location = New System.Drawing.Point(23, 188)
         Me.GroupBox28.Name = "GroupBox28"
         Me.GroupBox28.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox28.TabIndex = 37
         Me.GroupBox28.TabStop = False
+        '
+        'rb3_3_2
+        '
+        Me.rb3_3_2.AutoSize = True
+        Me.rb3_3_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_3_2.Name = "rb3_3_2"
+        Me.rb3_3_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_3_2.TabIndex = 27
+        Me.rb3_3_2.TabStop = True
+        Me.rb3_3_2.Text = "2.できない"
+        Me.rb3_3_2.UseVisualStyleBackColor = True
+        '
+        'rb3_3_1
+        '
+        Me.rb3_3_1.AutoSize = True
+        Me.rb3_3_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_3_1.Name = "rb3_3_1"
+        Me.rb3_3_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_3_1.TabIndex = 26
+        Me.rb3_3_1.TabStop = True
+        Me.rb3_3_1.Text = "1.できる"
+        Me.rb3_3_1.UseVisualStyleBackColor = True
         '
         'Label178
         '
@@ -4217,14 +5927,36 @@ Partial Class 認定調査票
         '
         'GroupBox34
         '
-        Me.GroupBox34.Controls.Add(Me.ExRadioButton95)
-        Me.GroupBox34.Controls.Add(Me.ExRadioButton96)
+        Me.GroupBox34.Controls.Add(Me.rb3_6_2)
+        Me.GroupBox34.Controls.Add(Me.rb3_6_1)
         Me.GroupBox34.Controls.Add(Me.Label175)
         Me.GroupBox34.Location = New System.Drawing.Point(23, 332)
         Me.GroupBox34.Name = "GroupBox34"
         Me.GroupBox34.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox34.TabIndex = 40
         Me.GroupBox34.TabStop = False
+        '
+        'rb3_6_2
+        '
+        Me.rb3_6_2.AutoSize = True
+        Me.rb3_6_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_6_2.Name = "rb3_6_2"
+        Me.rb3_6_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_6_2.TabIndex = 29
+        Me.rb3_6_2.TabStop = True
+        Me.rb3_6_2.Text = "2.できない"
+        Me.rb3_6_2.UseVisualStyleBackColor = True
+        '
+        'rb3_6_1
+        '
+        Me.rb3_6_1.AutoSize = True
+        Me.rb3_6_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_6_1.Name = "rb3_6_1"
+        Me.rb3_6_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_6_1.TabIndex = 28
+        Me.rb3_6_1.TabStop = True
+        Me.rb3_6_1.Text = "1.できる"
+        Me.rb3_6_1.UseVisualStyleBackColor = True
         '
         'Label175
         '
@@ -4238,14 +5970,36 @@ Partial Class 認定調査票
         '
         'GroupBox27
         '
-        Me.GroupBox27.Controls.Add(Me.ExRadioButton88)
-        Me.GroupBox27.Controls.Add(Me.ExRadioButton87)
+        Me.GroupBox27.Controls.Add(Me.rb3_2_2)
+        Me.GroupBox27.Controls.Add(Me.rb3_2_1)
         Me.GroupBox27.Controls.Add(Me.Label179)
         Me.GroupBox27.Location = New System.Drawing.Point(23, 140)
         Me.GroupBox27.Name = "GroupBox27"
         Me.GroupBox27.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox27.TabIndex = 36
         Me.GroupBox27.TabStop = False
+        '
+        'rb3_2_2
+        '
+        Me.rb3_2_2.AutoSize = True
+        Me.rb3_2_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_2_2.Name = "rb3_2_2"
+        Me.rb3_2_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_2_2.TabIndex = 25
+        Me.rb3_2_2.TabStop = True
+        Me.rb3_2_2.Text = "2.できない"
+        Me.rb3_2_2.UseVisualStyleBackColor = True
+        '
+        'rb3_2_1
+        '
+        Me.rb3_2_1.AutoSize = True
+        Me.rb3_2_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_2_1.Name = "rb3_2_1"
+        Me.rb3_2_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_2_1.TabIndex = 24
+        Me.rb3_2_1.TabStop = True
+        Me.rb3_2_1.Text = "1.できる"
+        Me.rb3_2_1.UseVisualStyleBackColor = True
         '
         'Label179
         '
@@ -4259,16 +6013,60 @@ Partial Class 認定調査票
         '
         'GroupBox26
         '
-        Me.GroupBox26.Controls.Add(Me.ExRadioButton86)
-        Me.GroupBox26.Controls.Add(Me.ExRadioButton85)
-        Me.GroupBox26.Controls.Add(Me.ExRadioButton84)
-        Me.GroupBox26.Controls.Add(Me.ExRadioButton83)
+        Me.GroupBox26.Controls.Add(Me.rb3_1_4)
+        Me.GroupBox26.Controls.Add(Me.rb3_1_3)
+        Me.GroupBox26.Controls.Add(Me.rb3_1_2)
+        Me.GroupBox26.Controls.Add(Me.rb3_1_1)
         Me.GroupBox26.Controls.Add(Me.Label180)
         Me.GroupBox26.Location = New System.Drawing.Point(23, 22)
         Me.GroupBox26.Name = "GroupBox26"
         Me.GroupBox26.Size = New System.Drawing.Size(360, 100)
         Me.GroupBox26.TabIndex = 31
         Me.GroupBox26.TabStop = False
+        '
+        'rb3_1_4
+        '
+        Me.rb3_1_4.AutoSize = True
+        Me.rb3_1_4.Location = New System.Drawing.Point(127, 79)
+        Me.rb3_1_4.Name = "rb3_1_4"
+        Me.rb3_1_4.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_1_4.TabIndex = 26
+        Me.rb3_1_4.TabStop = True
+        Me.rb3_1_4.Text = "4.できない"
+        Me.rb3_1_4.UseVisualStyleBackColor = True
+        '
+        'rb3_1_3
+        '
+        Me.rb3_1_3.AutoSize = True
+        Me.rb3_1_3.Location = New System.Drawing.Point(127, 57)
+        Me.rb3_1_3.Name = "rb3_1_3"
+        Me.rb3_1_3.Size = New System.Drawing.Size(131, 16)
+        Me.rb3_1_3.TabIndex = 25
+        Me.rb3_1_3.TabStop = True
+        Me.rb3_1_3.Text = "3.ほとんど伝達できない"
+        Me.rb3_1_3.UseVisualStyleBackColor = True
+        '
+        'rb3_1_2
+        '
+        Me.rb3_1_2.AutoSize = True
+        Me.rb3_1_2.Location = New System.Drawing.Point(127, 35)
+        Me.rb3_1_2.Name = "rb3_1_2"
+        Me.rb3_1_2.Size = New System.Drawing.Size(118, 16)
+        Me.rb3_1_2.TabIndex = 24
+        Me.rb3_1_2.TabStop = True
+        Me.rb3_1_2.Text = "2.ときどき伝達できる"
+        Me.rb3_1_2.UseVisualStyleBackColor = True
+        '
+        'rb3_1_1
+        '
+        Me.rb3_1_1.AutoSize = True
+        Me.rb3_1_1.Location = New System.Drawing.Point(127, 13)
+        Me.rb3_1_1.Name = "rb3_1_1"
+        Me.rb3_1_1.Size = New System.Drawing.Size(219, 16)
+        Me.rb3_1_1.TabIndex = 23
+        Me.rb3_1_1.TabStop = True
+        Me.rb3_1_1.Text = "1.調査対象者が意思を他者に伝達できる"
+        Me.rb3_1_1.UseVisualStyleBackColor = True
         '
         'Label180
         '
@@ -4306,15 +6104,48 @@ Partial Class 認定調査票
         '
         'GroupBox46
         '
-        Me.GroupBox46.Controls.Add(Me.ExRadioButton147)
-        Me.GroupBox46.Controls.Add(Me.ExRadioButton148)
-        Me.GroupBox46.Controls.Add(Me.ExRadioButton149)
+        Me.GroupBox46.Controls.Add(Me.rb4_15_3)
+        Me.GroupBox46.Controls.Add(Me.rb4_15_2)
+        Me.GroupBox46.Controls.Add(Me.rb4_15_1)
         Me.GroupBox46.Controls.Add(Me.Label182)
         Me.GroupBox46.Location = New System.Drawing.Point(23, 582)
         Me.GroupBox46.Name = "GroupBox46"
         Me.GroupBox46.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox46.TabIndex = 52
         Me.GroupBox46.TabStop = False
+        '
+        'rb4_15_3
+        '
+        Me.rb4_15_3.AutoSize = True
+        Me.rb4_15_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_15_3.Name = "rb4_15_3"
+        Me.rb4_15_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_15_3.TabIndex = 40
+        Me.rb4_15_3.TabStop = True
+        Me.rb4_15_3.Text = "3.ある"
+        Me.rb4_15_3.UseVisualStyleBackColor = True
+        '
+        'rb4_15_2
+        '
+        Me.rb4_15_2.AutoSize = True
+        Me.rb4_15_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_15_2.Name = "rb4_15_2"
+        Me.rb4_15_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_15_2.TabIndex = 39
+        Me.rb4_15_2.TabStop = True
+        Me.rb4_15_2.Text = "2.ときどきある"
+        Me.rb4_15_2.UseVisualStyleBackColor = True
+        '
+        'rb4_15_1
+        '
+        Me.rb4_15_1.AutoSize = True
+        Me.rb4_15_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_15_1.Name = "rb4_15_1"
+        Me.rb4_15_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_15_1.TabIndex = 38
+        Me.rb4_15_1.TabStop = True
+        Me.rb4_15_1.Text = "1.ない"
+        Me.rb4_15_1.UseVisualStyleBackColor = True
         '
         'Label182
         '
@@ -4328,15 +6159,48 @@ Partial Class 認定調査票
         '
         'GroupBox47
         '
-        Me.GroupBox47.Controls.Add(Me.ExRadioButton144)
-        Me.GroupBox47.Controls.Add(Me.ExRadioButton145)
-        Me.GroupBox47.Controls.Add(Me.ExRadioButton146)
+        Me.GroupBox47.Controls.Add(Me.rb4_14_3)
+        Me.GroupBox47.Controls.Add(Me.rb4_14_2)
+        Me.GroupBox47.Controls.Add(Me.rb4_14_1)
         Me.GroupBox47.Controls.Add(Me.Label183)
         Me.GroupBox47.Location = New System.Drawing.Point(23, 542)
         Me.GroupBox47.Name = "GroupBox47"
         Me.GroupBox47.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox47.TabIndex = 51
         Me.GroupBox47.TabStop = False
+        '
+        'rb4_14_3
+        '
+        Me.rb4_14_3.AutoSize = True
+        Me.rb4_14_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_14_3.Name = "rb4_14_3"
+        Me.rb4_14_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_14_3.TabIndex = 39
+        Me.rb4_14_3.TabStop = True
+        Me.rb4_14_3.Text = "3.ある"
+        Me.rb4_14_3.UseVisualStyleBackColor = True
+        '
+        'rb4_14_2
+        '
+        Me.rb4_14_2.AutoSize = True
+        Me.rb4_14_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_14_2.Name = "rb4_14_2"
+        Me.rb4_14_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_14_2.TabIndex = 38
+        Me.rb4_14_2.TabStop = True
+        Me.rb4_14_2.Text = "2.ときどきある"
+        Me.rb4_14_2.UseVisualStyleBackColor = True
+        '
+        'rb4_14_1
+        '
+        Me.rb4_14_1.AutoSize = True
+        Me.rb4_14_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_14_1.Name = "rb4_14_1"
+        Me.rb4_14_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_14_1.TabIndex = 37
+        Me.rb4_14_1.TabStop = True
+        Me.rb4_14_1.Text = "1.ない"
+        Me.rb4_14_1.UseVisualStyleBackColor = True
         '
         'Label183
         '
@@ -4350,15 +6214,48 @@ Partial Class 認定調査票
         '
         'GroupBox48
         '
-        Me.GroupBox48.Controls.Add(Me.ExRadioButton141)
-        Me.GroupBox48.Controls.Add(Me.ExRadioButton142)
-        Me.GroupBox48.Controls.Add(Me.ExRadioButton143)
+        Me.GroupBox48.Controls.Add(Me.rb4_13_3)
+        Me.GroupBox48.Controls.Add(Me.rb4_13_2)
+        Me.GroupBox48.Controls.Add(Me.rb4_13_1)
         Me.GroupBox48.Controls.Add(Me.Label184)
         Me.GroupBox48.Location = New System.Drawing.Point(23, 502)
         Me.GroupBox48.Name = "GroupBox48"
         Me.GroupBox48.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox48.TabIndex = 50
         Me.GroupBox48.TabStop = False
+        '
+        'rb4_13_3
+        '
+        Me.rb4_13_3.AutoSize = True
+        Me.rb4_13_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_13_3.Name = "rb4_13_3"
+        Me.rb4_13_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_13_3.TabIndex = 39
+        Me.rb4_13_3.TabStop = True
+        Me.rb4_13_3.Text = "3.ある"
+        Me.rb4_13_3.UseVisualStyleBackColor = True
+        '
+        'rb4_13_2
+        '
+        Me.rb4_13_2.AutoSize = True
+        Me.rb4_13_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_13_2.Name = "rb4_13_2"
+        Me.rb4_13_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_13_2.TabIndex = 38
+        Me.rb4_13_2.TabStop = True
+        Me.rb4_13_2.Text = "2.ときどきある"
+        Me.rb4_13_2.UseVisualStyleBackColor = True
+        '
+        'rb4_13_1
+        '
+        Me.rb4_13_1.AutoSize = True
+        Me.rb4_13_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_13_1.Name = "rb4_13_1"
+        Me.rb4_13_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_13_1.TabIndex = 37
+        Me.rb4_13_1.TabStop = True
+        Me.rb4_13_1.Text = "1.ない"
+        Me.rb4_13_1.UseVisualStyleBackColor = True
         '
         'Label184
         '
@@ -4372,15 +6269,48 @@ Partial Class 認定調査票
         '
         'GroupBox49
         '
-        Me.GroupBox49.Controls.Add(Me.ExRadioButton138)
-        Me.GroupBox49.Controls.Add(Me.ExRadioButton139)
-        Me.GroupBox49.Controls.Add(Me.ExRadioButton140)
+        Me.GroupBox49.Controls.Add(Me.rb4_12_3)
+        Me.GroupBox49.Controls.Add(Me.rb4_12_2)
+        Me.GroupBox49.Controls.Add(Me.rb4_12_1)
         Me.GroupBox49.Controls.Add(Me.Label185)
         Me.GroupBox49.Location = New System.Drawing.Point(23, 462)
         Me.GroupBox49.Name = "GroupBox49"
         Me.GroupBox49.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox49.TabIndex = 49
         Me.GroupBox49.TabStop = False
+        '
+        'rb4_12_3
+        '
+        Me.rb4_12_3.AutoSize = True
+        Me.rb4_12_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_12_3.Name = "rb4_12_3"
+        Me.rb4_12_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_12_3.TabIndex = 39
+        Me.rb4_12_3.TabStop = True
+        Me.rb4_12_3.Text = "3.ある"
+        Me.rb4_12_3.UseVisualStyleBackColor = True
+        '
+        'rb4_12_2
+        '
+        Me.rb4_12_2.AutoSize = True
+        Me.rb4_12_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_12_2.Name = "rb4_12_2"
+        Me.rb4_12_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_12_2.TabIndex = 38
+        Me.rb4_12_2.TabStop = True
+        Me.rb4_12_2.Text = "2.ときどきある"
+        Me.rb4_12_2.UseVisualStyleBackColor = True
+        '
+        'rb4_12_1
+        '
+        Me.rb4_12_1.AutoSize = True
+        Me.rb4_12_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_12_1.Name = "rb4_12_1"
+        Me.rb4_12_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_12_1.TabIndex = 37
+        Me.rb4_12_1.TabStop = True
+        Me.rb4_12_1.Text = "1.ない"
+        Me.rb4_12_1.UseVisualStyleBackColor = True
         '
         'Label185
         '
@@ -4394,15 +6324,48 @@ Partial Class 認定調査票
         '
         'GroupBox35
         '
-        Me.GroupBox35.Controls.Add(Me.ExRadioButton135)
-        Me.GroupBox35.Controls.Add(Me.ExRadioButton136)
-        Me.GroupBox35.Controls.Add(Me.ExRadioButton137)
+        Me.GroupBox35.Controls.Add(Me.rb4_11_3)
+        Me.GroupBox35.Controls.Add(Me.rb4_11_2)
+        Me.GroupBox35.Controls.Add(Me.rb4_11_1)
         Me.GroupBox35.Controls.Add(Me.Label186)
         Me.GroupBox35.Location = New System.Drawing.Point(23, 422)
         Me.GroupBox35.Name = "GroupBox35"
         Me.GroupBox35.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox35.TabIndex = 48
         Me.GroupBox35.TabStop = False
+        '
+        'rb4_11_3
+        '
+        Me.rb4_11_3.AutoSize = True
+        Me.rb4_11_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_11_3.Name = "rb4_11_3"
+        Me.rb4_11_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_11_3.TabIndex = 39
+        Me.rb4_11_3.TabStop = True
+        Me.rb4_11_3.Text = "3.ある"
+        Me.rb4_11_3.UseVisualStyleBackColor = True
+        '
+        'rb4_11_2
+        '
+        Me.rb4_11_2.AutoSize = True
+        Me.rb4_11_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_11_2.Name = "rb4_11_2"
+        Me.rb4_11_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_11_2.TabIndex = 38
+        Me.rb4_11_2.TabStop = True
+        Me.rb4_11_2.Text = "2.ときどきある"
+        Me.rb4_11_2.UseVisualStyleBackColor = True
+        '
+        'rb4_11_1
+        '
+        Me.rb4_11_1.AutoSize = True
+        Me.rb4_11_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_11_1.Name = "rb4_11_1"
+        Me.rb4_11_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_11_1.TabIndex = 37
+        Me.rb4_11_1.TabStop = True
+        Me.rb4_11_1.Text = "1.ない"
+        Me.rb4_11_1.UseVisualStyleBackColor = True
         '
         'Label186
         '
@@ -4416,15 +6379,48 @@ Partial Class 認定調査票
         '
         'GroupBox36
         '
-        Me.GroupBox36.Controls.Add(Me.ExRadioButton132)
-        Me.GroupBox36.Controls.Add(Me.ExRadioButton133)
-        Me.GroupBox36.Controls.Add(Me.ExRadioButton134)
+        Me.GroupBox36.Controls.Add(Me.rb4_10_3)
+        Me.GroupBox36.Controls.Add(Me.rb4_10_2)
+        Me.GroupBox36.Controls.Add(Me.rb4_10_1)
         Me.GroupBox36.Controls.Add(Me.Label187)
         Me.GroupBox36.Location = New System.Drawing.Point(23, 382)
         Me.GroupBox36.Name = "GroupBox36"
         Me.GroupBox36.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox36.TabIndex = 47
         Me.GroupBox36.TabStop = False
+        '
+        'rb4_10_3
+        '
+        Me.rb4_10_3.AutoSize = True
+        Me.rb4_10_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_10_3.Name = "rb4_10_3"
+        Me.rb4_10_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_10_3.TabIndex = 39
+        Me.rb4_10_3.TabStop = True
+        Me.rb4_10_3.Text = "3.ある"
+        Me.rb4_10_3.UseVisualStyleBackColor = True
+        '
+        'rb4_10_2
+        '
+        Me.rb4_10_2.AutoSize = True
+        Me.rb4_10_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_10_2.Name = "rb4_10_2"
+        Me.rb4_10_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_10_2.TabIndex = 38
+        Me.rb4_10_2.TabStop = True
+        Me.rb4_10_2.Text = "2.ときどきある"
+        Me.rb4_10_2.UseVisualStyleBackColor = True
+        '
+        'rb4_10_1
+        '
+        Me.rb4_10_1.AutoSize = True
+        Me.rb4_10_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_10_1.Name = "rb4_10_1"
+        Me.rb4_10_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_10_1.TabIndex = 37
+        Me.rb4_10_1.TabStop = True
+        Me.rb4_10_1.Text = "1.ない"
+        Me.rb4_10_1.UseVisualStyleBackColor = True
         '
         'Label187
         '
@@ -4438,15 +6434,48 @@ Partial Class 認定調査票
         '
         'GroupBox37
         '
-        Me.GroupBox37.Controls.Add(Me.ExRadioButton129)
-        Me.GroupBox37.Controls.Add(Me.ExRadioButton130)
-        Me.GroupBox37.Controls.Add(Me.ExRadioButton131)
+        Me.GroupBox37.Controls.Add(Me.rb4_9_3)
+        Me.GroupBox37.Controls.Add(Me.rb4_9_2)
+        Me.GroupBox37.Controls.Add(Me.rb4_9_1)
         Me.GroupBox37.Controls.Add(Me.Label188)
         Me.GroupBox37.Location = New System.Drawing.Point(23, 342)
         Me.GroupBox37.Name = "GroupBox37"
         Me.GroupBox37.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox37.TabIndex = 46
         Me.GroupBox37.TabStop = False
+        '
+        'rb4_9_3
+        '
+        Me.rb4_9_3.AutoSize = True
+        Me.rb4_9_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_9_3.Name = "rb4_9_3"
+        Me.rb4_9_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_9_3.TabIndex = 39
+        Me.rb4_9_3.TabStop = True
+        Me.rb4_9_3.Text = "3.ある"
+        Me.rb4_9_3.UseVisualStyleBackColor = True
+        '
+        'rb4_9_2
+        '
+        Me.rb4_9_2.AutoSize = True
+        Me.rb4_9_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_9_2.Name = "rb4_9_2"
+        Me.rb4_9_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_9_2.TabIndex = 38
+        Me.rb4_9_2.TabStop = True
+        Me.rb4_9_2.Text = "2.ときどきある"
+        Me.rb4_9_2.UseVisualStyleBackColor = True
+        '
+        'rb4_9_1
+        '
+        Me.rb4_9_1.AutoSize = True
+        Me.rb4_9_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_9_1.Name = "rb4_9_1"
+        Me.rb4_9_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_9_1.TabIndex = 37
+        Me.rb4_9_1.TabStop = True
+        Me.rb4_9_1.Text = "1.ない"
+        Me.rb4_9_1.UseVisualStyleBackColor = True
         '
         'Label188
         '
@@ -4460,15 +6489,48 @@ Partial Class 認定調査票
         '
         'GroupBox38
         '
-        Me.GroupBox38.Controls.Add(Me.ExRadioButton126)
-        Me.GroupBox38.Controls.Add(Me.ExRadioButton127)
-        Me.GroupBox38.Controls.Add(Me.ExRadioButton128)
+        Me.GroupBox38.Controls.Add(Me.rb4_8_3)
+        Me.GroupBox38.Controls.Add(Me.rb4_8_2)
+        Me.GroupBox38.Controls.Add(Me.rb4_8_1)
         Me.GroupBox38.Controls.Add(Me.Label189)
         Me.GroupBox38.Location = New System.Drawing.Point(23, 302)
         Me.GroupBox38.Name = "GroupBox38"
         Me.GroupBox38.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox38.TabIndex = 45
         Me.GroupBox38.TabStop = False
+        '
+        'rb4_8_3
+        '
+        Me.rb4_8_3.AutoSize = True
+        Me.rb4_8_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_8_3.Name = "rb4_8_3"
+        Me.rb4_8_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_8_3.TabIndex = 39
+        Me.rb4_8_3.TabStop = True
+        Me.rb4_8_3.Text = "3.ある"
+        Me.rb4_8_3.UseVisualStyleBackColor = True
+        '
+        'rb4_8_2
+        '
+        Me.rb4_8_2.AutoSize = True
+        Me.rb4_8_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_8_2.Name = "rb4_8_2"
+        Me.rb4_8_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_8_2.TabIndex = 38
+        Me.rb4_8_2.TabStop = True
+        Me.rb4_8_2.Text = "2.ときどきある"
+        Me.rb4_8_2.UseVisualStyleBackColor = True
+        '
+        'rb4_8_1
+        '
+        Me.rb4_8_1.AutoSize = True
+        Me.rb4_8_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_8_1.Name = "rb4_8_1"
+        Me.rb4_8_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_8_1.TabIndex = 37
+        Me.rb4_8_1.TabStop = True
+        Me.rb4_8_1.Text = "1.ない"
+        Me.rb4_8_1.UseVisualStyleBackColor = True
         '
         'Label189
         '
@@ -4482,15 +6544,48 @@ Partial Class 認定調査票
         '
         'GroupBox39
         '
-        Me.GroupBox39.Controls.Add(Me.ExRadioButton123)
-        Me.GroupBox39.Controls.Add(Me.ExRadioButton124)
-        Me.GroupBox39.Controls.Add(Me.ExRadioButton125)
+        Me.GroupBox39.Controls.Add(Me.rb4_7_3)
+        Me.GroupBox39.Controls.Add(Me.rb4_7_2)
+        Me.GroupBox39.Controls.Add(Me.rb4_7_1)
         Me.GroupBox39.Controls.Add(Me.Label190)
         Me.GroupBox39.Location = New System.Drawing.Point(23, 262)
         Me.GroupBox39.Name = "GroupBox39"
         Me.GroupBox39.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox39.TabIndex = 44
         Me.GroupBox39.TabStop = False
+        '
+        'rb4_7_3
+        '
+        Me.rb4_7_3.AutoSize = True
+        Me.rb4_7_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_7_3.Name = "rb4_7_3"
+        Me.rb4_7_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_7_3.TabIndex = 39
+        Me.rb4_7_3.TabStop = True
+        Me.rb4_7_3.Text = "3.ある"
+        Me.rb4_7_3.UseVisualStyleBackColor = True
+        '
+        'rb4_7_2
+        '
+        Me.rb4_7_2.AutoSize = True
+        Me.rb4_7_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_7_2.Name = "rb4_7_2"
+        Me.rb4_7_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_7_2.TabIndex = 38
+        Me.rb4_7_2.TabStop = True
+        Me.rb4_7_2.Text = "2.ときどきある"
+        Me.rb4_7_2.UseVisualStyleBackColor = True
+        '
+        'rb4_7_1
+        '
+        Me.rb4_7_1.AutoSize = True
+        Me.rb4_7_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_7_1.Name = "rb4_7_1"
+        Me.rb4_7_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_7_1.TabIndex = 37
+        Me.rb4_7_1.TabStop = True
+        Me.rb4_7_1.Text = "1.ない"
+        Me.rb4_7_1.UseVisualStyleBackColor = True
         '
         'Label190
         '
@@ -4504,15 +6599,48 @@ Partial Class 認定調査票
         '
         'GroupBox40
         '
-        Me.GroupBox40.Controls.Add(Me.ExRadioButton120)
-        Me.GroupBox40.Controls.Add(Me.ExRadioButton121)
-        Me.GroupBox40.Controls.Add(Me.ExRadioButton122)
+        Me.GroupBox40.Controls.Add(Me.rb4_6_3)
+        Me.GroupBox40.Controls.Add(Me.rb4_6_2)
+        Me.GroupBox40.Controls.Add(Me.rb4_6_1)
         Me.GroupBox40.Controls.Add(Me.Label191)
         Me.GroupBox40.Location = New System.Drawing.Point(23, 222)
         Me.GroupBox40.Name = "GroupBox40"
         Me.GroupBox40.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox40.TabIndex = 43
         Me.GroupBox40.TabStop = False
+        '
+        'rb4_6_3
+        '
+        Me.rb4_6_3.AutoSize = True
+        Me.rb4_6_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_6_3.Name = "rb4_6_3"
+        Me.rb4_6_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_6_3.TabIndex = 39
+        Me.rb4_6_3.TabStop = True
+        Me.rb4_6_3.Text = "3.ある"
+        Me.rb4_6_3.UseVisualStyleBackColor = True
+        '
+        'rb4_6_2
+        '
+        Me.rb4_6_2.AutoSize = True
+        Me.rb4_6_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_6_2.Name = "rb4_6_2"
+        Me.rb4_6_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_6_2.TabIndex = 38
+        Me.rb4_6_2.TabStop = True
+        Me.rb4_6_2.Text = "2.ときどきある"
+        Me.rb4_6_2.UseVisualStyleBackColor = True
+        '
+        'rb4_6_1
+        '
+        Me.rb4_6_1.AutoSize = True
+        Me.rb4_6_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_6_1.Name = "rb4_6_1"
+        Me.rb4_6_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_6_1.TabIndex = 37
+        Me.rb4_6_1.TabStop = True
+        Me.rb4_6_1.Text = "1.ない"
+        Me.rb4_6_1.UseVisualStyleBackColor = True
         '
         'Label191
         '
@@ -4526,15 +6654,48 @@ Partial Class 認定調査票
         '
         'GroupBox41
         '
-        Me.GroupBox41.Controls.Add(Me.ExRadioButton117)
-        Me.GroupBox41.Controls.Add(Me.ExRadioButton118)
-        Me.GroupBox41.Controls.Add(Me.ExRadioButton119)
+        Me.GroupBox41.Controls.Add(Me.rb4_5_3)
+        Me.GroupBox41.Controls.Add(Me.rb4_5_2)
+        Me.GroupBox41.Controls.Add(Me.rb4_5_1)
         Me.GroupBox41.Controls.Add(Me.Label192)
         Me.GroupBox41.Location = New System.Drawing.Point(23, 182)
         Me.GroupBox41.Name = "GroupBox41"
         Me.GroupBox41.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox41.TabIndex = 42
         Me.GroupBox41.TabStop = False
+        '
+        'rb4_5_3
+        '
+        Me.rb4_5_3.AutoSize = True
+        Me.rb4_5_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_5_3.Name = "rb4_5_3"
+        Me.rb4_5_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_5_3.TabIndex = 39
+        Me.rb4_5_3.TabStop = True
+        Me.rb4_5_3.Text = "3.ある"
+        Me.rb4_5_3.UseVisualStyleBackColor = True
+        '
+        'rb4_5_2
+        '
+        Me.rb4_5_2.AutoSize = True
+        Me.rb4_5_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_5_2.Name = "rb4_5_2"
+        Me.rb4_5_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_5_2.TabIndex = 38
+        Me.rb4_5_2.TabStop = True
+        Me.rb4_5_2.Text = "2.ときどきある"
+        Me.rb4_5_2.UseVisualStyleBackColor = True
+        '
+        'rb4_5_1
+        '
+        Me.rb4_5_1.AutoSize = True
+        Me.rb4_5_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_5_1.Name = "rb4_5_1"
+        Me.rb4_5_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_5_1.TabIndex = 37
+        Me.rb4_5_1.TabStop = True
+        Me.rb4_5_1.Text = "1.ない"
+        Me.rb4_5_1.UseVisualStyleBackColor = True
         '
         'Label192
         '
@@ -4548,15 +6709,48 @@ Partial Class 認定調査票
         '
         'GroupBox42
         '
-        Me.GroupBox42.Controls.Add(Me.ExRadioButton114)
-        Me.GroupBox42.Controls.Add(Me.ExRadioButton115)
-        Me.GroupBox42.Controls.Add(Me.ExRadioButton116)
+        Me.GroupBox42.Controls.Add(Me.rb4_4_3)
+        Me.GroupBox42.Controls.Add(Me.rb4_4_2)
+        Me.GroupBox42.Controls.Add(Me.rb4_4_1)
         Me.GroupBox42.Controls.Add(Me.Label193)
         Me.GroupBox42.Location = New System.Drawing.Point(23, 142)
         Me.GroupBox42.Name = "GroupBox42"
         Me.GroupBox42.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox42.TabIndex = 41
         Me.GroupBox42.TabStop = False
+        '
+        'rb4_4_3
+        '
+        Me.rb4_4_3.AutoSize = True
+        Me.rb4_4_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_4_3.Name = "rb4_4_3"
+        Me.rb4_4_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_4_3.TabIndex = 39
+        Me.rb4_4_3.TabStop = True
+        Me.rb4_4_3.Text = "3.ある"
+        Me.rb4_4_3.UseVisualStyleBackColor = True
+        '
+        'rb4_4_2
+        '
+        Me.rb4_4_2.AutoSize = True
+        Me.rb4_4_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_4_2.Name = "rb4_4_2"
+        Me.rb4_4_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_4_2.TabIndex = 38
+        Me.rb4_4_2.TabStop = True
+        Me.rb4_4_2.Text = "2.ときどきある"
+        Me.rb4_4_2.UseVisualStyleBackColor = True
+        '
+        'rb4_4_1
+        '
+        Me.rb4_4_1.AutoSize = True
+        Me.rb4_4_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_4_1.Name = "rb4_4_1"
+        Me.rb4_4_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_4_1.TabIndex = 37
+        Me.rb4_4_1.TabStop = True
+        Me.rb4_4_1.Text = "1.ない"
+        Me.rb4_4_1.UseVisualStyleBackColor = True
         '
         'Label193
         '
@@ -4570,15 +6764,48 @@ Partial Class 認定調査票
         '
         'GroupBox43
         '
-        Me.GroupBox43.Controls.Add(Me.ExRadioButton111)
-        Me.GroupBox43.Controls.Add(Me.ExRadioButton112)
-        Me.GroupBox43.Controls.Add(Me.ExRadioButton113)
+        Me.GroupBox43.Controls.Add(Me.rb4_3_3)
+        Me.GroupBox43.Controls.Add(Me.rb4_3_2)
+        Me.GroupBox43.Controls.Add(Me.rb4_3_1)
         Me.GroupBox43.Controls.Add(Me.Label194)
         Me.GroupBox43.Location = New System.Drawing.Point(23, 102)
         Me.GroupBox43.Name = "GroupBox43"
         Me.GroupBox43.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox43.TabIndex = 40
         Me.GroupBox43.TabStop = False
+        '
+        'rb4_3_3
+        '
+        Me.rb4_3_3.AutoSize = True
+        Me.rb4_3_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_3_3.Name = "rb4_3_3"
+        Me.rb4_3_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_3_3.TabIndex = 39
+        Me.rb4_3_3.TabStop = True
+        Me.rb4_3_3.Text = "3.ある"
+        Me.rb4_3_3.UseVisualStyleBackColor = True
+        '
+        'rb4_3_2
+        '
+        Me.rb4_3_2.AutoSize = True
+        Me.rb4_3_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_3_2.Name = "rb4_3_2"
+        Me.rb4_3_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_3_2.TabIndex = 38
+        Me.rb4_3_2.TabStop = True
+        Me.rb4_3_2.Text = "2.ときどきある"
+        Me.rb4_3_2.UseVisualStyleBackColor = True
+        '
+        'rb4_3_1
+        '
+        Me.rb4_3_1.AutoSize = True
+        Me.rb4_3_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_3_1.Name = "rb4_3_1"
+        Me.rb4_3_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_3_1.TabIndex = 37
+        Me.rb4_3_1.TabStop = True
+        Me.rb4_3_1.Text = "1.ない"
+        Me.rb4_3_1.UseVisualStyleBackColor = True
         '
         'Label194
         '
@@ -4592,15 +6819,48 @@ Partial Class 認定調査票
         '
         'GroupBox44
         '
-        Me.GroupBox44.Controls.Add(Me.ExRadioButton108)
-        Me.GroupBox44.Controls.Add(Me.ExRadioButton109)
-        Me.GroupBox44.Controls.Add(Me.ExRadioButton110)
+        Me.GroupBox44.Controls.Add(Me.rb4_2_3)
+        Me.GroupBox44.Controls.Add(Me.rb4_2_2)
+        Me.GroupBox44.Controls.Add(Me.rb4_2_1)
         Me.GroupBox44.Controls.Add(Me.Label195)
         Me.GroupBox44.Location = New System.Drawing.Point(23, 62)
         Me.GroupBox44.Name = "GroupBox44"
         Me.GroupBox44.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox44.TabIndex = 39
         Me.GroupBox44.TabStop = False
+        '
+        'rb4_2_3
+        '
+        Me.rb4_2_3.AutoSize = True
+        Me.rb4_2_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_2_3.Name = "rb4_2_3"
+        Me.rb4_2_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_2_3.TabIndex = 39
+        Me.rb4_2_3.TabStop = True
+        Me.rb4_2_3.Text = "3.ある"
+        Me.rb4_2_3.UseVisualStyleBackColor = True
+        '
+        'rb4_2_2
+        '
+        Me.rb4_2_2.AutoSize = True
+        Me.rb4_2_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_2_2.Name = "rb4_2_2"
+        Me.rb4_2_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_2_2.TabIndex = 38
+        Me.rb4_2_2.TabStop = True
+        Me.rb4_2_2.Text = "2.ときどきある"
+        Me.rb4_2_2.UseVisualStyleBackColor = True
+        '
+        'rb4_2_1
+        '
+        Me.rb4_2_1.AutoSize = True
+        Me.rb4_2_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_2_1.Name = "rb4_2_1"
+        Me.rb4_2_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_2_1.TabIndex = 37
+        Me.rb4_2_1.TabStop = True
+        Me.rb4_2_1.Text = "1.ない"
+        Me.rb4_2_1.UseVisualStyleBackColor = True
         '
         'Label195
         '
@@ -4614,15 +6874,48 @@ Partial Class 認定調査票
         '
         'GroupBox45
         '
-        Me.GroupBox45.Controls.Add(Me.ExRadioButton105)
-        Me.GroupBox45.Controls.Add(Me.ExRadioButton106)
-        Me.GroupBox45.Controls.Add(Me.ExRadioButton107)
+        Me.GroupBox45.Controls.Add(Me.rb4_1_3)
+        Me.GroupBox45.Controls.Add(Me.rb4_1_2)
+        Me.GroupBox45.Controls.Add(Me.rb4_1_1)
         Me.GroupBox45.Controls.Add(Me.Label196)
         Me.GroupBox45.Location = New System.Drawing.Point(23, 22)
         Me.GroupBox45.Name = "GroupBox45"
         Me.GroupBox45.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox45.TabIndex = 38
         Me.GroupBox45.TabStop = False
+        '
+        'rb4_1_3
+        '
+        Me.rb4_1_3.AutoSize = True
+        Me.rb4_1_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_1_3.Name = "rb4_1_3"
+        Me.rb4_1_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_1_3.TabIndex = 36
+        Me.rb4_1_3.TabStop = True
+        Me.rb4_1_3.Text = "3.ある"
+        Me.rb4_1_3.UseVisualStyleBackColor = True
+        '
+        'rb4_1_2
+        '
+        Me.rb4_1_2.AutoSize = True
+        Me.rb4_1_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_1_2.Name = "rb4_1_2"
+        Me.rb4_1_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_1_2.TabIndex = 35
+        Me.rb4_1_2.TabStop = True
+        Me.rb4_1_2.Text = "2.ときどきある"
+        Me.rb4_1_2.UseVisualStyleBackColor = True
+        '
+        'rb4_1_1
+        '
+        Me.rb4_1_1.AutoSize = True
+        Me.rb4_1_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_1_1.Name = "rb4_1_1"
+        Me.rb4_1_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_1_1.TabIndex = 34
+        Me.rb4_1_1.TabStop = True
+        Me.rb4_1_1.Text = "1.ない"
+        Me.rb4_1_1.UseVisualStyleBackColor = True
         '
         'Label196
         '
@@ -4651,15 +6944,48 @@ Partial Class 認定調査票
         '
         'GroupBox50
         '
-        Me.GroupBox50.Controls.Add(Me.ExRadioButton160)
-        Me.GroupBox50.Controls.Add(Me.ExRadioButton161)
-        Me.GroupBox50.Controls.Add(Me.ExRadioButton162)
+        Me.GroupBox50.Controls.Add(Me.rb5_4_3)
+        Me.GroupBox50.Controls.Add(Me.rb5_4_2)
+        Me.GroupBox50.Controls.Add(Me.rb5_4_1)
         Me.GroupBox50.Controls.Add(Me.Label200)
         Me.GroupBox50.Location = New System.Drawing.Point(23, 166)
         Me.GroupBox50.Name = "GroupBox50"
         Me.GroupBox50.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox50.TabIndex = 51
         Me.GroupBox50.TabStop = False
+        '
+        'rb5_4_3
+        '
+        Me.rb5_4_3.AutoSize = True
+        Me.rb5_4_3.Location = New System.Drawing.Point(345, 10)
+        Me.rb5_4_3.Name = "rb5_4_3"
+        Me.rb5_4_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb5_4_3.TabIndex = 51
+        Me.rb5_4_3.TabStop = True
+        Me.rb5_4_3.Text = "3.ある"
+        Me.rb5_4_3.UseVisualStyleBackColor = True
+        '
+        'rb5_4_2
+        '
+        Me.rb5_4_2.AutoSize = True
+        Me.rb5_4_2.Location = New System.Drawing.Point(222, 10)
+        Me.rb5_4_2.Name = "rb5_4_2"
+        Me.rb5_4_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb5_4_2.TabIndex = 50
+        Me.rb5_4_2.TabStop = True
+        Me.rb5_4_2.Text = "2.ときどきある"
+        Me.rb5_4_2.UseVisualStyleBackColor = True
+        '
+        'rb5_4_1
+        '
+        Me.rb5_4_1.AutoSize = True
+        Me.rb5_4_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_4_1.Name = "rb5_4_1"
+        Me.rb5_4_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb5_4_1.TabIndex = 49
+        Me.rb5_4_1.TabStop = True
+        Me.rb5_4_1.Text = "1.ない"
+        Me.rb5_4_1.UseVisualStyleBackColor = True
         '
         'Label200
         '
@@ -4673,16 +6999,60 @@ Partial Class 認定調査票
         '
         'GroupBox51
         '
-        Me.GroupBox51.Controls.Add(Me.ExRadioButton159)
-        Me.GroupBox51.Controls.Add(Me.ExRadioButton156)
-        Me.GroupBox51.Controls.Add(Me.ExRadioButton157)
-        Me.GroupBox51.Controls.Add(Me.ExRadioButton158)
+        Me.GroupBox51.Controls.Add(Me.rb5_3_4)
+        Me.GroupBox51.Controls.Add(Me.rb5_3_3)
+        Me.GroupBox51.Controls.Add(Me.rb5_3_2)
+        Me.GroupBox51.Controls.Add(Me.rb5_3_1)
         Me.GroupBox51.Controls.Add(Me.Label201)
         Me.GroupBox51.Location = New System.Drawing.Point(23, 118)
         Me.GroupBox51.Name = "GroupBox51"
         Me.GroupBox51.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox51.TabIndex = 50
         Me.GroupBox51.TabStop = False
+        '
+        'rb5_3_4
+        '
+        Me.rb5_3_4.AutoSize = True
+        Me.rb5_3_4.Location = New System.Drawing.Point(619, 10)
+        Me.rb5_3_4.Name = "rb5_3_4"
+        Me.rb5_3_4.Size = New System.Drawing.Size(70, 16)
+        Me.rb5_3_4.TabIndex = 49
+        Me.rb5_3_4.TabStop = True
+        Me.rb5_3_4.Text = "4.できない"
+        Me.rb5_3_4.UseVisualStyleBackColor = True
+        '
+        'rb5_3_3
+        '
+        Me.rb5_3_3.AutoSize = True
+        Me.rb5_3_3.Location = New System.Drawing.Point(501, 10)
+        Me.rb5_3_3.Name = "rb5_3_3"
+        Me.rb5_3_3.Size = New System.Drawing.Size(100, 16)
+        Me.rb5_3_3.TabIndex = 48
+        Me.rb5_3_3.TabStop = True
+        Me.rb5_3_3.Text = "3.日常的に困難"
+        Me.rb5_3_3.UseVisualStyleBackColor = True
+        '
+        'rb5_3_2
+        '
+        Me.rb5_3_2.AutoSize = True
+        Me.rb5_3_2.Location = New System.Drawing.Point(327, 10)
+        Me.rb5_3_2.Name = "rb5_3_2"
+        Me.rb5_3_2.Size = New System.Drawing.Size(157, 16)
+        Me.rb5_3_2.TabIndex = 47
+        Me.rb5_3_2.TabStop = True
+        Me.rb5_3_2.Text = "2.特別な場合を除いてできる"
+        Me.rb5_3_2.UseVisualStyleBackColor = True
+        '
+        'rb5_3_1
+        '
+        Me.rb5_3_1.AutoSize = True
+        Me.rb5_3_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_3_1.Name = "rb5_3_1"
+        Me.rb5_3_1.Size = New System.Drawing.Size(176, 16)
+        Me.rb5_3_1.TabIndex = 46
+        Me.rb5_3_1.TabStop = True
+        Me.rb5_3_1.Text = "1.できる（特別な場合でもできる）"
+        Me.rb5_3_1.UseVisualStyleBackColor = True
         '
         'Label201
         '
@@ -4696,16 +7066,60 @@ Partial Class 認定調査票
         '
         'GroupBox52
         '
-        Me.GroupBox52.Controls.Add(Me.ExRadioButton167)
-        Me.GroupBox52.Controls.Add(Me.ExRadioButton168)
-        Me.GroupBox52.Controls.Add(Me.ExRadioButton169)
-        Me.GroupBox52.Controls.Add(Me.ExRadioButton170)
+        Me.GroupBox52.Controls.Add(Me.rb5_6_4)
+        Me.GroupBox52.Controls.Add(Me.rb5_6_3)
+        Me.GroupBox52.Controls.Add(Me.rb5_6_2)
+        Me.GroupBox52.Controls.Add(Me.rb5_6_1)
         Me.GroupBox52.Controls.Add(Me.Label198)
         Me.GroupBox52.Location = New System.Drawing.Point(23, 262)
         Me.GroupBox52.Name = "GroupBox52"
         Me.GroupBox52.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox52.TabIndex = 53
         Me.GroupBox52.TabStop = False
+        '
+        'rb5_6_4
+        '
+        Me.rb5_6_4.AutoSize = True
+        Me.rb5_6_4.Location = New System.Drawing.Point(476, 10)
+        Me.rb5_6_4.Name = "rb5_6_4"
+        Me.rb5_6_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb5_6_4.TabIndex = 51
+        Me.rb5_6_4.TabStop = True
+        Me.rb5_6_4.Text = "4.全介助"
+        Me.rb5_6_4.UseVisualStyleBackColor = True
+        '
+        'rb5_6_3
+        '
+        Me.rb5_6_3.AutoSize = True
+        Me.rb5_6_3.Location = New System.Drawing.Point(371, 9)
+        Me.rb5_6_3.Name = "rb5_6_3"
+        Me.rb5_6_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb5_6_3.TabIndex = 50
+        Me.rb5_6_3.TabStop = True
+        Me.rb5_6_3.Text = "3.一部介助"
+        Me.rb5_6_3.UseVisualStyleBackColor = True
+        '
+        'rb5_6_2
+        '
+        Me.rb5_6_2.AutoSize = True
+        Me.rb5_6_2.Location = New System.Drawing.Point(268, 10)
+        Me.rb5_6_2.Name = "rb5_6_2"
+        Me.rb5_6_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb5_6_2.TabIndex = 49
+        Me.rb5_6_2.TabStop = True
+        Me.rb5_6_2.Text = "2.見守り等"
+        Me.rb5_6_2.UseVisualStyleBackColor = True
+        '
+        'rb5_6_1
+        '
+        Me.rb5_6_1.AutoSize = True
+        Me.rb5_6_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_6_1.Name = "rb5_6_1"
+        Me.rb5_6_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb5_6_1.TabIndex = 48
+        Me.rb5_6_1.TabStop = True
+        Me.rb5_6_1.Text = "1.自立（介助なし）"
+        Me.rb5_6_1.UseVisualStyleBackColor = True
         '
         'Label198
         '
@@ -4719,15 +7133,48 @@ Partial Class 認定調査票
         '
         'GroupBox53
         '
-        Me.GroupBox53.Controls.Add(Me.ExRadioButton153)
-        Me.GroupBox53.Controls.Add(Me.ExRadioButton154)
-        Me.GroupBox53.Controls.Add(Me.ExRadioButton155)
+        Me.GroupBox53.Controls.Add(Me.rb5_2_3)
+        Me.GroupBox53.Controls.Add(Me.rb5_2_2)
+        Me.GroupBox53.Controls.Add(Me.rb5_2_1)
         Me.GroupBox53.Controls.Add(Me.Label202)
         Me.GroupBox53.Location = New System.Drawing.Point(23, 70)
         Me.GroupBox53.Name = "GroupBox53"
         Me.GroupBox53.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox53.TabIndex = 49
         Me.GroupBox53.TabStop = False
+        '
+        'rb5_2_3
+        '
+        Me.rb5_2_3.AutoSize = True
+        Me.rb5_2_3.Location = New System.Drawing.Point(411, 10)
+        Me.rb5_2_3.Name = "rb5_2_3"
+        Me.rb5_2_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb5_2_3.TabIndex = 48
+        Me.rb5_2_3.TabStop = True
+        Me.rb5_2_3.Text = "3.全介助"
+        Me.rb5_2_3.UseVisualStyleBackColor = True
+        '
+        'rb5_2_2
+        '
+        Me.rb5_2_2.AutoSize = True
+        Me.rb5_2_2.Location = New System.Drawing.Point(285, 10)
+        Me.rb5_2_2.Name = "rb5_2_2"
+        Me.rb5_2_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb5_2_2.TabIndex = 47
+        Me.rb5_2_2.TabStop = True
+        Me.rb5_2_2.Text = "2.一部介助"
+        Me.rb5_2_2.UseVisualStyleBackColor = True
+        '
+        'rb5_2_1
+        '
+        Me.rb5_2_1.AutoSize = True
+        Me.rb5_2_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_2_1.Name = "rb5_2_1"
+        Me.rb5_2_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb5_2_1.TabIndex = 46
+        Me.rb5_2_1.TabStop = True
+        Me.rb5_2_1.Text = "1.自立（介助なし）"
+        Me.rb5_2_1.UseVisualStyleBackColor = True
         '
         'Label202
         '
@@ -4741,16 +7188,60 @@ Partial Class 認定調査票
         '
         'GroupBox54
         '
-        Me.GroupBox54.Controls.Add(Me.ExRadioButton163)
-        Me.GroupBox54.Controls.Add(Me.ExRadioButton164)
-        Me.GroupBox54.Controls.Add(Me.ExRadioButton165)
-        Me.GroupBox54.Controls.Add(Me.ExRadioButton166)
+        Me.GroupBox54.Controls.Add(Me.rb5_5_4)
+        Me.GroupBox54.Controls.Add(Me.rb5_5_3)
+        Me.GroupBox54.Controls.Add(Me.rb5_5_2)
+        Me.GroupBox54.Controls.Add(Me.rb5_5_1)
         Me.GroupBox54.Controls.Add(Me.Label199)
         Me.GroupBox54.Location = New System.Drawing.Point(23, 214)
         Me.GroupBox54.Name = "GroupBox54"
         Me.GroupBox54.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox54.TabIndex = 52
         Me.GroupBox54.TabStop = False
+        '
+        'rb5_5_4
+        '
+        Me.rb5_5_4.AutoSize = True
+        Me.rb5_5_4.Location = New System.Drawing.Point(476, 10)
+        Me.rb5_5_4.Name = "rb5_5_4"
+        Me.rb5_5_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb5_5_4.TabIndex = 50
+        Me.rb5_5_4.TabStop = True
+        Me.rb5_5_4.Text = "4.全介助"
+        Me.rb5_5_4.UseVisualStyleBackColor = True
+        '
+        'rb5_5_3
+        '
+        Me.rb5_5_3.AutoSize = True
+        Me.rb5_5_3.Location = New System.Drawing.Point(371, 9)
+        Me.rb5_5_3.Name = "rb5_5_3"
+        Me.rb5_5_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb5_5_3.TabIndex = 49
+        Me.rb5_5_3.TabStop = True
+        Me.rb5_5_3.Text = "3.一部介助"
+        Me.rb5_5_3.UseVisualStyleBackColor = True
+        '
+        'rb5_5_2
+        '
+        Me.rb5_5_2.AutoSize = True
+        Me.rb5_5_2.Location = New System.Drawing.Point(268, 10)
+        Me.rb5_5_2.Name = "rb5_5_2"
+        Me.rb5_5_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb5_5_2.TabIndex = 48
+        Me.rb5_5_2.TabStop = True
+        Me.rb5_5_2.Text = "2.見守り等"
+        Me.rb5_5_2.UseVisualStyleBackColor = True
+        '
+        'rb5_5_1
+        '
+        Me.rb5_5_1.AutoSize = True
+        Me.rb5_5_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_5_1.Name = "rb5_5_1"
+        Me.rb5_5_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb5_5_1.TabIndex = 47
+        Me.rb5_5_1.TabStop = True
+        Me.rb5_5_1.Text = "1.自立（介助なし）"
+        Me.rb5_5_1.UseVisualStyleBackColor = True
         '
         'Label199
         '
@@ -4764,15 +7255,48 @@ Partial Class 認定調査票
         '
         'GroupBox55
         '
-        Me.GroupBox55.Controls.Add(Me.ExRadioButton150)
-        Me.GroupBox55.Controls.Add(Me.ExRadioButton151)
-        Me.GroupBox55.Controls.Add(Me.ExRadioButton152)
+        Me.GroupBox55.Controls.Add(Me.rb5_1_3)
+        Me.GroupBox55.Controls.Add(Me.rb5_1_2)
+        Me.GroupBox55.Controls.Add(Me.rb5_1_1)
         Me.GroupBox55.Controls.Add(Me.Label203)
         Me.GroupBox55.Location = New System.Drawing.Point(23, 22)
         Me.GroupBox55.Name = "GroupBox55"
         Me.GroupBox55.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox55.TabIndex = 48
         Me.GroupBox55.TabStop = False
+        '
+        'rb5_1_3
+        '
+        Me.rb5_1_3.AutoSize = True
+        Me.rb5_1_3.Location = New System.Drawing.Point(411, 10)
+        Me.rb5_1_3.Name = "rb5_1_3"
+        Me.rb5_1_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb5_1_3.TabIndex = 45
+        Me.rb5_1_3.TabStop = True
+        Me.rb5_1_3.Text = "3.全介助"
+        Me.rb5_1_3.UseVisualStyleBackColor = True
+        '
+        'rb5_1_2
+        '
+        Me.rb5_1_2.AutoSize = True
+        Me.rb5_1_2.Location = New System.Drawing.Point(285, 10)
+        Me.rb5_1_2.Name = "rb5_1_2"
+        Me.rb5_1_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb5_1_2.TabIndex = 44
+        Me.rb5_1_2.TabStop = True
+        Me.rb5_1_2.Text = "2.一部介助"
+        Me.rb5_1_2.UseVisualStyleBackColor = True
+        '
+        'rb5_1_1
+        '
+        Me.rb5_1_1.AutoSize = True
+        Me.rb5_1_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_1_1.Name = "rb5_1_1"
+        Me.rb5_1_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb5_1_1.TabIndex = 43
+        Me.rb5_1_1.TabStop = True
+        Me.rb5_1_1.Text = "1.自立（介助なし）"
+        Me.rb5_1_1.UseVisualStyleBackColor = True
         '
         'Label203
         '
@@ -4787,18 +7311,18 @@ Partial Class 認定調査票
         'bsTabP6
         '
         Me.bsTabP6.BackColor = System.Drawing.SystemColors.Control
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox23)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox22)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox21)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox20)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox16)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox17)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox18)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox19)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox15)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox14)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox13)
-        Me.bsTabP6.Controls.Add(Me.ExCheckBox12)
+        Me.bsTabP6.Controls.Add(Me.Ch4_12)
+        Me.bsTabP6.Controls.Add(Me.Ch4_11)
+        Me.bsTabP6.Controls.Add(Me.Ch4_10)
+        Me.bsTabP6.Controls.Add(Me.Ch4_9)
+        Me.bsTabP6.Controls.Add(Me.Ch4_8)
+        Me.bsTabP6.Controls.Add(Me.Ch4_7)
+        Me.bsTabP6.Controls.Add(Me.Ch4_6)
+        Me.bsTabP6.Controls.Add(Me.Ch4_5)
+        Me.bsTabP6.Controls.Add(Me.Ch4_4)
+        Me.bsTabP6.Controls.Add(Me.Ch4_3)
+        Me.bsTabP6.Controls.Add(Me.Ch4_2)
+        Me.bsTabP6.Controls.Add(Me.Ch4_1)
         Me.bsTabP6.Controls.Add(Me.Label204)
         Me.bsTabP6.Controls.Add(Me.Label197)
         Me.bsTabP6.Controls.Add(Me.Label181)
@@ -4808,6 +7332,126 @@ Partial Class 認定調査票
         Me.bsTabP6.Size = New System.Drawing.Size(802, 671)
         Me.bsTabP6.TabIndex = 5
         Me.bsTabP6.Text = "６．特別な医療"
+        '
+        'Ch4_12
+        '
+        Me.Ch4_12.AutoSize = True
+        Me.Ch4_12.Location = New System.Drawing.Point(229, 276)
+        Me.Ch4_12.Name = "Ch4_12"
+        Me.Ch4_12.Size = New System.Drawing.Size(343, 16)
+        Me.Ch4_12.TabIndex = 75
+        Me.Ch4_12.Text = "12.カテーテル（コンドームカテーテル、留置カテーテル、ウロストーマ等）"
+        Me.Ch4_12.UseVisualStyleBackColor = True
+        '
+        'Ch4_11
+        '
+        Me.Ch4_11.AutoSize = True
+        Me.Ch4_11.Location = New System.Drawing.Point(502, 234)
+        Me.Ch4_11.Name = "Ch4_11"
+        Me.Ch4_11.Size = New System.Drawing.Size(110, 16)
+        Me.Ch4_11.TabIndex = 74
+        Me.Ch4_11.Text = "11.じょくそうの処置"
+        Me.Ch4_11.UseVisualStyleBackColor = True
+        '
+        'Ch4_10
+        '
+        Me.Ch4_10.AutoSize = True
+        Me.Ch4_10.Location = New System.Drawing.Point(229, 234)
+        Me.Ch4_10.Name = "Ch4_10"
+        Me.Ch4_10.Size = New System.Drawing.Size(246, 16)
+        Me.Ch4_10.TabIndex = 73
+        Me.Ch4_10.Text = "10.モニター測定（血圧、心拍、酸素飽和度等）"
+        Me.Ch4_10.UseVisualStyleBackColor = True
+        '
+        'Ch4_9
+        '
+        Me.Ch4_9.AutoSize = True
+        Me.Ch4_9.Location = New System.Drawing.Point(343, 159)
+        Me.Ch4_9.Name = "Ch4_9"
+        Me.Ch4_9.Size = New System.Drawing.Size(80, 16)
+        Me.Ch4_9.TabIndex = 72
+        Me.Ch4_9.Text = "9.経管栄養"
+        Me.Ch4_9.UseVisualStyleBackColor = True
+        '
+        'Ch4_8
+        '
+        Me.Ch4_8.AutoSize = True
+        Me.Ch4_8.Location = New System.Drawing.Point(229, 159)
+        Me.Ch4_8.Name = "Ch4_8"
+        Me.Ch4_8.Size = New System.Drawing.Size(90, 16)
+        Me.Ch4_8.TabIndex = 71
+        Me.Ch4_8.Text = "8.疼痛の看護"
+        Me.Ch4_8.UseVisualStyleBackColor = True
+        '
+        'Ch4_7
+        '
+        Me.Ch4_7.AutoSize = True
+        Me.Ch4_7.Location = New System.Drawing.Point(547, 117)
+        Me.Ch4_7.Name = "Ch4_7"
+        Me.Ch4_7.Size = New System.Drawing.Size(114, 16)
+        Me.Ch4_7.TabIndex = 70
+        Me.Ch4_7.Text = "7.気管切開の処置"
+        Me.Ch4_7.UseVisualStyleBackColor = True
+        '
+        'Ch4_6
+        '
+        Me.Ch4_6.AutoSize = True
+        Me.Ch4_6.Location = New System.Drawing.Point(343, 117)
+        Me.Ch4_6.Name = "Ch4_6"
+        Me.Ch4_6.Size = New System.Drawing.Size(168, 16)
+        Me.Ch4_6.TabIndex = 69
+        Me.Ch4_6.Text = "6.レスピレーター（人工呼吸器）"
+        Me.Ch4_6.UseVisualStyleBackColor = True
+        '
+        'Ch4_5
+        '
+        Me.Ch4_5.AutoSize = True
+        Me.Ch4_5.Location = New System.Drawing.Point(229, 117)
+        Me.Ch4_5.Name = "Ch4_5"
+        Me.Ch4_5.Size = New System.Drawing.Size(80, 16)
+        Me.Ch4_5.TabIndex = 68
+        Me.Ch4_5.Text = "5.酸素療法"
+        Me.Ch4_5.UseVisualStyleBackColor = True
+        '
+        'Ch4_4
+        '
+        Me.Ch4_4.AutoSize = True
+        Me.Ch4_4.Location = New System.Drawing.Point(547, 75)
+        Me.Ch4_4.Name = "Ch4_4"
+        Me.Ch4_4.Size = New System.Drawing.Size(162, 16)
+        Me.Ch4_4.TabIndex = 67
+        Me.Ch4_4.Text = "4.ストーマ（人工肛門）の処置"
+        Me.Ch4_4.UseVisualStyleBackColor = True
+        '
+        'Ch4_3
+        '
+        Me.Ch4_3.AutoSize = True
+        Me.Ch4_3.Location = New System.Drawing.Point(470, 75)
+        Me.Ch4_3.Name = "Ch4_3"
+        Me.Ch4_3.Size = New System.Drawing.Size(56, 16)
+        Me.Ch4_3.TabIndex = 66
+        Me.Ch4_3.Text = "3.透析"
+        Me.Ch4_3.UseVisualStyleBackColor = True
+        '
+        'Ch4_2
+        '
+        Me.Ch4_2.AutoSize = True
+        Me.Ch4_2.Location = New System.Drawing.Point(343, 75)
+        Me.Ch4_2.Name = "Ch4_2"
+        Me.Ch4_2.Size = New System.Drawing.Size(104, 16)
+        Me.Ch4_2.TabIndex = 65
+        Me.Ch4_2.Text = "2.中心静脈栄養"
+        Me.Ch4_2.UseVisualStyleBackColor = True
+        '
+        'Ch4_1
+        '
+        Me.Ch4_1.AutoSize = True
+        Me.Ch4_1.Location = New System.Drawing.Point(229, 75)
+        Me.Ch4_1.Name = "Ch4_1"
+        Me.Ch4_1.Size = New System.Drawing.Size(90, 16)
+        Me.Ch4_1.TabIndex = 64
+        Me.Ch4_1.Text = "1.点滴の管理"
+        Me.Ch4_1.UseVisualStyleBackColor = True
         '
         'Label204
         '
@@ -4865,20 +7509,108 @@ Partial Class 認定調査票
         '
         'GroupBox57
         '
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton181)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton182)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton183)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton184)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton185)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton186)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton187)
-        Me.GroupBox57.Controls.Add(Me.ExRadioButton188)
+        Me.GroupBox57.Controls.Add(Me.rb7_2_8)
+        Me.GroupBox57.Controls.Add(Me.rb7_2_7)
+        Me.GroupBox57.Controls.Add(Me.rb7_2_6)
+        Me.GroupBox57.Controls.Add(Me.rb7_2_5)
+        Me.GroupBox57.Controls.Add(Me.rb7_2_4)
+        Me.GroupBox57.Controls.Add(Me.rb7_2_3)
+        Me.GroupBox57.Controls.Add(Me.rb7_2_2)
+        Me.GroupBox57.Controls.Add(Me.rb7_2_1)
         Me.GroupBox57.Controls.Add(Me.Label207)
         Me.GroupBox57.Location = New System.Drawing.Point(47, 125)
         Me.GroupBox57.Name = "GroupBox57"
         Me.GroupBox57.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox57.TabIndex = 65
         Me.GroupBox57.TabStop = False
+        '
+        'rb7_2_8
+        '
+        Me.rb7_2_8.AutoSize = True
+        Me.rb7_2_8.Location = New System.Drawing.Point(593, 10)
+        Me.rb7_2_8.Name = "rb7_2_8"
+        Me.rb7_2_8.Size = New System.Drawing.Size(32, 16)
+        Me.rb7_2_8.TabIndex = 78
+        Me.rb7_2_8.TabStop = True
+        Me.rb7_2_8.Text = "M"
+        Me.rb7_2_8.UseVisualStyleBackColor = True
+        '
+        'rb7_2_7
+        '
+        Me.rb7_2_7.AutoSize = True
+        Me.rb7_2_7.Location = New System.Drawing.Point(547, 10)
+        Me.rb7_2_7.Name = "rb7_2_7"
+        Me.rb7_2_7.Size = New System.Drawing.Size(35, 16)
+        Me.rb7_2_7.TabIndex = 77
+        Me.rb7_2_7.TabStop = True
+        Me.rb7_2_7.Text = "Ⅳ"
+        Me.rb7_2_7.UseVisualStyleBackColor = True
+        '
+        'rb7_2_6
+        '
+        Me.rb7_2_6.AutoSize = True
+        Me.rb7_2_6.Location = New System.Drawing.Point(501, 10)
+        Me.rb7_2_6.Name = "rb7_2_6"
+        Me.rb7_2_6.Size = New System.Drawing.Size(42, 16)
+        Me.rb7_2_6.TabIndex = 76
+        Me.rb7_2_6.TabStop = True
+        Me.rb7_2_6.Text = "Ⅲｂ"
+        Me.rb7_2_6.UseVisualStyleBackColor = True
+        '
+        'rb7_2_5
+        '
+        Me.rb7_2_5.AutoSize = True
+        Me.rb7_2_5.Location = New System.Drawing.Point(455, 10)
+        Me.rb7_2_5.Name = "rb7_2_5"
+        Me.rb7_2_5.Size = New System.Drawing.Size(42, 16)
+        Me.rb7_2_5.TabIndex = 75
+        Me.rb7_2_5.TabStop = True
+        Me.rb7_2_5.Text = "Ⅲａ"
+        Me.rb7_2_5.UseVisualStyleBackColor = True
+        '
+        'rb7_2_4
+        '
+        Me.rb7_2_4.AutoSize = True
+        Me.rb7_2_4.Location = New System.Drawing.Point(409, 10)
+        Me.rb7_2_4.Name = "rb7_2_4"
+        Me.rb7_2_4.Size = New System.Drawing.Size(42, 16)
+        Me.rb7_2_4.TabIndex = 74
+        Me.rb7_2_4.TabStop = True
+        Me.rb7_2_4.Text = "Ⅱｂ"
+        Me.rb7_2_4.UseVisualStyleBackColor = True
+        '
+        'rb7_2_3
+        '
+        Me.rb7_2_3.AutoSize = True
+        Me.rb7_2_3.Location = New System.Drawing.Point(363, 10)
+        Me.rb7_2_3.Name = "rb7_2_3"
+        Me.rb7_2_3.Size = New System.Drawing.Size(42, 16)
+        Me.rb7_2_3.TabIndex = 73
+        Me.rb7_2_3.TabStop = True
+        Me.rb7_2_3.Text = "Ⅱａ"
+        Me.rb7_2_3.UseVisualStyleBackColor = True
+        '
+        'rb7_2_2
+        '
+        Me.rb7_2_2.AutoSize = True
+        Me.rb7_2_2.Location = New System.Drawing.Point(317, 10)
+        Me.rb7_2_2.Name = "rb7_2_2"
+        Me.rb7_2_2.Size = New System.Drawing.Size(35, 16)
+        Me.rb7_2_2.TabIndex = 72
+        Me.rb7_2_2.TabStop = True
+        Me.rb7_2_2.Text = "Ⅰ"
+        Me.rb7_2_2.UseVisualStyleBackColor = True
+        '
+        'rb7_2_1
+        '
+        Me.rb7_2_1.AutoSize = True
+        Me.rb7_2_1.Location = New System.Drawing.Point(262, 10)
+        Me.rb7_2_1.Name = "rb7_2_1"
+        Me.rb7_2_1.Size = New System.Drawing.Size(47, 16)
+        Me.rb7_2_1.TabIndex = 71
+        Me.rb7_2_1.TabStop = True
+        Me.rb7_2_1.Text = "自立"
+        Me.rb7_2_1.UseVisualStyleBackColor = True
         '
         'Label207
         '
@@ -4892,21 +7624,120 @@ Partial Class 認定調査票
         '
         'GroupBox56
         '
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton179)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton178)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton177)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton176)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton175)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton174)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton173)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton172)
-        Me.GroupBox56.Controls.Add(Me.ExRadioButton171)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_9)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_8)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_7)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_6)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_5)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_4)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_3)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_2)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_1)
         Me.GroupBox56.Controls.Add(Me.Label209)
         Me.GroupBox56.Location = New System.Drawing.Point(47, 74)
         Me.GroupBox56.Name = "GroupBox56"
         Me.GroupBox56.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox56.TabIndex = 64
         Me.GroupBox56.TabStop = False
+        '
+        'rb7_1_9
+        '
+        Me.rb7_1_9.AutoSize = True
+        Me.rb7_1_9.Location = New System.Drawing.Point(639, 10)
+        Me.rb7_1_9.Name = "rb7_1_9"
+        Me.rb7_1_9.Size = New System.Drawing.Size(37, 16)
+        Me.rb7_1_9.TabIndex = 70
+        Me.rb7_1_9.TabStop = True
+        Me.rb7_1_9.Text = "C2"
+        Me.rb7_1_9.UseVisualStyleBackColor = True
+        '
+        'rb7_1_8
+        '
+        Me.rb7_1_8.AutoSize = True
+        Me.rb7_1_8.Location = New System.Drawing.Point(593, 10)
+        Me.rb7_1_8.Name = "rb7_1_8"
+        Me.rb7_1_8.Size = New System.Drawing.Size(37, 16)
+        Me.rb7_1_8.TabIndex = 69
+        Me.rb7_1_8.TabStop = True
+        Me.rb7_1_8.Text = "C1"
+        Me.rb7_1_8.UseVisualStyleBackColor = True
+        '
+        'rb7_1_7
+        '
+        Me.rb7_1_7.AutoSize = True
+        Me.rb7_1_7.Location = New System.Drawing.Point(547, 10)
+        Me.rb7_1_7.Name = "rb7_1_7"
+        Me.rb7_1_7.Size = New System.Drawing.Size(37, 16)
+        Me.rb7_1_7.TabIndex = 68
+        Me.rb7_1_7.TabStop = True
+        Me.rb7_1_7.Text = "B2"
+        Me.rb7_1_7.UseVisualStyleBackColor = True
+        '
+        'rb7_1_6
+        '
+        Me.rb7_1_6.AutoSize = True
+        Me.rb7_1_6.Location = New System.Drawing.Point(501, 10)
+        Me.rb7_1_6.Name = "rb7_1_6"
+        Me.rb7_1_6.Size = New System.Drawing.Size(37, 16)
+        Me.rb7_1_6.TabIndex = 67
+        Me.rb7_1_6.TabStop = True
+        Me.rb7_1_6.Text = "B1"
+        Me.rb7_1_6.UseVisualStyleBackColor = True
+        '
+        'rb7_1_5
+        '
+        Me.rb7_1_5.AutoSize = True
+        Me.rb7_1_5.Location = New System.Drawing.Point(455, 10)
+        Me.rb7_1_5.Name = "rb7_1_5"
+        Me.rb7_1_5.Size = New System.Drawing.Size(37, 16)
+        Me.rb7_1_5.TabIndex = 66
+        Me.rb7_1_5.TabStop = True
+        Me.rb7_1_5.Text = "A2"
+        Me.rb7_1_5.UseVisualStyleBackColor = True
+        '
+        'rb7_1_4
+        '
+        Me.rb7_1_4.AutoSize = True
+        Me.rb7_1_4.Location = New System.Drawing.Point(409, 10)
+        Me.rb7_1_4.Name = "rb7_1_4"
+        Me.rb7_1_4.Size = New System.Drawing.Size(37, 16)
+        Me.rb7_1_4.TabIndex = 65
+        Me.rb7_1_4.TabStop = True
+        Me.rb7_1_4.Text = "A1"
+        Me.rb7_1_4.UseVisualStyleBackColor = True
+        '
+        'rb7_1_3
+        '
+        Me.rb7_1_3.AutoSize = True
+        Me.rb7_1_3.Location = New System.Drawing.Point(363, 10)
+        Me.rb7_1_3.Name = "rb7_1_3"
+        Me.rb7_1_3.Size = New System.Drawing.Size(36, 16)
+        Me.rb7_1_3.TabIndex = 64
+        Me.rb7_1_3.TabStop = True
+        Me.rb7_1_3.Text = "J2"
+        Me.rb7_1_3.UseVisualStyleBackColor = True
+        '
+        'rb7_1_2
+        '
+        Me.rb7_1_2.AutoSize = True
+        Me.rb7_1_2.Location = New System.Drawing.Point(317, 10)
+        Me.rb7_1_2.Name = "rb7_1_2"
+        Me.rb7_1_2.Size = New System.Drawing.Size(36, 16)
+        Me.rb7_1_2.TabIndex = 63
+        Me.rb7_1_2.TabStop = True
+        Me.rb7_1_2.Text = "J1"
+        Me.rb7_1_2.UseVisualStyleBackColor = True
+        '
+        'rb7_1_1
+        '
+        Me.rb7_1_1.AutoSize = True
+        Me.rb7_1_1.Location = New System.Drawing.Point(262, 10)
+        Me.rb7_1_1.Name = "rb7_1_1"
+        Me.rb7_1_1.Size = New System.Drawing.Size(47, 16)
+        Me.rb7_1_1.TabIndex = 62
+        Me.rb7_1_1.TabStop = True
+        Me.rb7_1_1.Text = "自立"
+        Me.rb7_1_1.UseVisualStyleBackColor = True
         '
         'Label209
         '
@@ -4939,2837 +7770,6 @@ Partial Class 認定調査票
         Me.ContentDataGridViewTextBoxColumn.DataPropertyName = "Content"
         Me.ContentDataGridViewTextBoxColumn.HeaderText = "Content"
         Me.ContentDataGridViewTextBoxColumn.Name = "ContentDataGridViewTextBoxColumn"
-        '
-        'spText4
-        '
-        Me.spText4.InputType = 0
-        Me.spText4.LimitLengthByte = 100
-        Me.spText4.Location = New System.Drawing.Point(37, 685)
-        Me.spText4.Name = "spText4"
-        Me.spText4.Size = New System.Drawing.Size(733, 19)
-        Me.spText4.TabIndex = 210
-        '
-        'spText3
-        '
-        Me.spText3.InputType = 0
-        Me.spText3.LimitLengthByte = 100
-        Me.spText3.Location = New System.Drawing.Point(37, 666)
-        Me.spText3.Name = "spText3"
-        Me.spText3.Size = New System.Drawing.Size(733, 19)
-        Me.spText3.TabIndex = 209
-        '
-        'spText2
-        '
-        Me.spText2.InputType = 0
-        Me.spText2.LimitLengthByte = 100
-        Me.spText2.Location = New System.Drawing.Point(37, 647)
-        Me.spText2.Name = "spText2"
-        Me.spText2.Size = New System.Drawing.Size(733, 19)
-        Me.spText2.TabIndex = 208
-        '
-        'spText1
-        '
-        Me.spText1.InputType = 0
-        Me.spText1.LimitLengthByte = 100
-        Me.spText1.Location = New System.Drawing.Point(37, 628)
-        Me.spText1.Name = "spText1"
-        Me.spText1.Size = New System.Drawing.Size(733, 19)
-        Me.spText1.TabIndex = 207
-        '
-        'Gentxt1
-        '
-        Me.Gentxt1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Gentxt1.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Gentxt1.InputType = 0
-        Me.Gentxt1.LimitLengthByte = 100
-        Me.Gentxt1.Location = New System.Drawing.Point(161, 455)
-        Me.Gentxt1.Name = "Gentxt1"
-        Me.Gentxt1.Size = New System.Drawing.Size(528, 14)
-        Me.Gentxt1.TabIndex = 206
-        '
-        'houseTextBox
-        '
-        Me.houseTextBox.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.houseTextBox.InputType = 0
-        Me.houseTextBox.LimitLengthByte = 34
-        Me.houseTextBox.Location = New System.Drawing.Point(280, 87)
-        Me.houseTextBox.Name = "houseTextBox"
-        Me.houseTextBox.Size = New System.Drawing.Size(208, 20)
-        Me.houseTextBox.TabIndex = 12
-        '
-        'facilityTel3
-        '
-        Me.facilityTel3.InputType = 1
-        Me.facilityTel3.LimitLengthByte = 4
-        Me.facilityTel3.Location = New System.Drawing.Point(670, 1)
-        Me.facilityTel3.Name = "facilityTel3"
-        Me.facilityTel3.Size = New System.Drawing.Size(63, 19)
-        Me.facilityTel3.TabIndex = 40
-        '
-        'facilityTel2
-        '
-        Me.facilityTel2.InputType = 1
-        Me.facilityTel2.LimitLengthByte = 4
-        Me.facilityTel2.Location = New System.Drawing.Point(589, 1)
-        Me.facilityTel2.Name = "facilityTel2"
-        Me.facilityTel2.Size = New System.Drawing.Size(63, 19)
-        Me.facilityTel2.TabIndex = 40
-        '
-        'facilityTel1
-        '
-        Me.facilityTel1.InputType = 1
-        Me.facilityTel1.LimitLengthByte = 4
-        Me.facilityTel1.Location = New System.Drawing.Point(508, 1)
-        Me.facilityTel1.Name = "facilityTel1"
-        Me.facilityTel1.Size = New System.Drawing.Size(63, 19)
-        Me.facilityTel1.TabIndex = 40
-        Me.facilityTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'facilityAddress
-        '
-        Me.facilityAddress.InputType = 0
-        Me.facilityAddress.LimitLengthByte = 60
-        Me.facilityAddress.Location = New System.Drawing.Point(156, 1)
-        Me.facilityAddress.Name = "facilityAddress"
-        Me.facilityAddress.Size = New System.Drawing.Size(313, 19)
-        Me.facilityAddress.TabIndex = 46
-        '
-        'facilityPostCode2
-        '
-        Me.facilityPostCode2.InputType = 1
-        Me.facilityPostCode2.LimitLengthByte = 4
-        Me.facilityPostCode2.Location = New System.Drawing.Point(83, 1)
-        Me.facilityPostCode2.Name = "facilityPostCode2"
-        Me.facilityPostCode2.Size = New System.Drawing.Size(55, 19)
-        Me.facilityPostCode2.TabIndex = 40
-        '
-        'facilityPostCode1
-        '
-        Me.facilityPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.facilityPostCode1.InputType = 1
-        Me.facilityPostCode1.LimitLengthByte = 3
-        Me.facilityPostCode1.Location = New System.Drawing.Point(21, 1)
-        Me.facilityPostCode1.Name = "facilityPostCode1"
-        Me.facilityPostCode1.Size = New System.Drawing.Size(46, 19)
-        Me.facilityPostCode1.TabIndex = 40
-        '
-        'facilityNameBox
-        '
-        Me.facilityNameBox.InputType = 0
-        Me.facilityNameBox.LimitLengthByte = 100
-        Me.facilityNameBox.Location = New System.Drawing.Point(54, 1)
-        Me.facilityNameBox.Name = "facilityNameBox"
-        Me.facilityNameBox.Size = New System.Drawing.Size(254, 19)
-        Me.facilityNameBox.TabIndex = 34
-        '
-        'Gentxt2
-        '
-        Me.Gentxt2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Gentxt2.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Gentxt2.InputType = 0
-        Me.Gentxt2.LimitLengthByte = 100
-        Me.Gentxt2.Location = New System.Drawing.Point(192, 1)
-        Me.Gentxt2.Name = "Gentxt2"
-        Me.Gentxt2.Size = New System.Drawing.Size(460, 14)
-        Me.Gentxt2.TabIndex = 207
-        '
-        'txtNum20
-        '
-        Me.txtNum20.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum20.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum20.InputType = 0
-        Me.txtNum20.LimitLengthByte = 100
-        Me.txtNum20.Location = New System.Drawing.Point(657, 147)
-        Me.txtNum20.Name = "txtNum20"
-        Me.txtNum20.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum20.TabIndex = 215
-        '
-        'txtNum19
-        '
-        Me.txtNum19.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum19.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum19.InputType = 0
-        Me.txtNum19.LimitLengthByte = 100
-        Me.txtNum19.Location = New System.Drawing.Point(657, 131)
-        Me.txtNum19.Name = "txtNum19"
-        Me.txtNum19.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum19.TabIndex = 214
-        '
-        'txtNum18
-        '
-        Me.txtNum18.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum18.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum18.InputType = 0
-        Me.txtNum18.LimitLengthByte = 100
-        Me.txtNum18.Location = New System.Drawing.Point(657, 115)
-        Me.txtNum18.Name = "txtNum18"
-        Me.txtNum18.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum18.TabIndex = 213
-        '
-        'txtNum17
-        '
-        Me.txtNum17.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum17.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum17.InputType = 0
-        Me.txtNum17.LimitLengthByte = 100
-        Me.txtNum17.Location = New System.Drawing.Point(657, 99)
-        Me.txtNum17.Name = "txtNum17"
-        Me.txtNum17.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum17.TabIndex = 212
-        '
-        'txtNum16
-        '
-        Me.txtNum16.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum16.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum16.InputType = 0
-        Me.txtNum16.LimitLengthByte = 100
-        Me.txtNum16.Location = New System.Drawing.Point(657, 83)
-        Me.txtNum16.Name = "txtNum16"
-        Me.txtNum16.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum16.TabIndex = 211
-        '
-        'txtNum15
-        '
-        Me.txtNum15.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum15.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum15.InputType = 0
-        Me.txtNum15.LimitLengthByte = 100
-        Me.txtNum15.Location = New System.Drawing.Point(657, 67)
-        Me.txtNum15.Name = "txtNum15"
-        Me.txtNum15.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum15.TabIndex = 210
-        '
-        'txtNum14
-        '
-        Me.txtNum14.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum14.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum14.InputType = 0
-        Me.txtNum14.LimitLengthByte = 100
-        Me.txtNum14.Location = New System.Drawing.Point(657, 51)
-        Me.txtNum14.Name = "txtNum14"
-        Me.txtNum14.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum14.TabIndex = 209
-        '
-        'txtNum12
-        '
-        Me.txtNum12.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum12.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum12.InputType = 0
-        Me.txtNum12.LimitLengthByte = 100
-        Me.txtNum12.Location = New System.Drawing.Point(657, 19)
-        Me.txtNum12.Name = "txtNum12"
-        Me.txtNum12.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum12.TabIndex = 208
-        '
-        'txtNum11
-        '
-        Me.txtNum11.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum11.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum11.InputType = 0
-        Me.txtNum11.LimitLengthByte = 100
-        Me.txtNum11.Location = New System.Drawing.Point(657, 3)
-        Me.txtNum11.Name = "txtNum11"
-        Me.txtNum11.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum11.TabIndex = 207
-        '
-        'txtNum21
-        '
-        Me.txtNum21.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum21.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum21.InputType = 0
-        Me.txtNum21.LimitLengthByte = 100
-        Me.txtNum21.Location = New System.Drawing.Point(285, 163)
-        Me.txtNum21.Name = "txtNum21"
-        Me.txtNum21.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum21.TabIndex = 206
-        '
-        'txtNum10
-        '
-        Me.txtNum10.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum10.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum10.InputType = 0
-        Me.txtNum10.LimitLengthByte = 100
-        Me.txtNum10.Location = New System.Drawing.Point(285, 147)
-        Me.txtNum10.Name = "txtNum10"
-        Me.txtNum10.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum10.TabIndex = 205
-        '
-        'txtNum9
-        '
-        Me.txtNum9.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum9.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum9.InputType = 0
-        Me.txtNum9.LimitLengthByte = 100
-        Me.txtNum9.Location = New System.Drawing.Point(285, 131)
-        Me.txtNum9.Name = "txtNum9"
-        Me.txtNum9.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum9.TabIndex = 204
-        '
-        'txtNum8
-        '
-        Me.txtNum8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum8.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum8.InputType = 0
-        Me.txtNum8.LimitLengthByte = 100
-        Me.txtNum8.Location = New System.Drawing.Point(285, 115)
-        Me.txtNum8.Name = "txtNum8"
-        Me.txtNum8.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum8.TabIndex = 203
-        '
-        'txtNum7
-        '
-        Me.txtNum7.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum7.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum7.InputType = 0
-        Me.txtNum7.LimitLengthByte = 100
-        Me.txtNum7.Location = New System.Drawing.Point(285, 99)
-        Me.txtNum7.Name = "txtNum7"
-        Me.txtNum7.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum7.TabIndex = 202
-        '
-        'txtNum6
-        '
-        Me.txtNum6.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum6.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum6.InputType = 0
-        Me.txtNum6.LimitLengthByte = 100
-        Me.txtNum6.Location = New System.Drawing.Point(285, 83)
-        Me.txtNum6.Name = "txtNum6"
-        Me.txtNum6.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum6.TabIndex = 201
-        '
-        'txtNum5
-        '
-        Me.txtNum5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum5.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum5.InputType = 0
-        Me.txtNum5.LimitLengthByte = 100
-        Me.txtNum5.Location = New System.Drawing.Point(285, 67)
-        Me.txtNum5.Name = "txtNum5"
-        Me.txtNum5.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum5.TabIndex = 200
-        '
-        'txtNum4
-        '
-        Me.txtNum4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum4.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum4.InputType = 0
-        Me.txtNum4.LimitLengthByte = 100
-        Me.txtNum4.Location = New System.Drawing.Point(285, 51)
-        Me.txtNum4.Name = "txtNum4"
-        Me.txtNum4.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum4.TabIndex = 199
-        '
-        'txtNum3
-        '
-        Me.txtNum3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum3.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum3.InputType = 0
-        Me.txtNum3.LimitLengthByte = 100
-        Me.txtNum3.Location = New System.Drawing.Point(285, 35)
-        Me.txtNum3.Name = "txtNum3"
-        Me.txtNum3.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum3.TabIndex = 198
-        '
-        'txtNum2
-        '
-        Me.txtNum2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum2.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum2.InputType = 0
-        Me.txtNum2.LimitLengthByte = 100
-        Me.txtNum2.Location = New System.Drawing.Point(285, 19)
-        Me.txtNum2.Name = "txtNum2"
-        Me.txtNum2.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum2.TabIndex = 197
-        '
-        'txtNum1
-        '
-        Me.txtNum1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum1.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum1.InputType = 0
-        Me.txtNum1.LimitLengthByte = 100
-        Me.txtNum1.Location = New System.Drawing.Point(285, 3)
-        Me.txtNum1.Name = "txtNum1"
-        Me.txtNum1.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum1.TabIndex = 196
-        '
-        'namBox
-        '
-        Me.namBox.InputType = 0
-        Me.namBox.LimitLengthByte = 100
-        Me.namBox.Location = New System.Drawing.Point(43, 1)
-        Me.namBox.Name = "namBox"
-        Me.namBox.Size = New System.Drawing.Size(105, 19)
-        Me.namBox.TabIndex = 48
-        '
-        'familyTel3
-        '
-        Me.familyTel3.InputType = 1
-        Me.familyTel3.LimitLengthByte = 4
-        Me.familyTel3.Location = New System.Drawing.Point(670, 1)
-        Me.familyTel3.Name = "familyTel3"
-        Me.familyTel3.Size = New System.Drawing.Size(63, 19)
-        Me.familyTel3.TabIndex = 45
-        '
-        'familyTel2
-        '
-        Me.familyTel2.InputType = 1
-        Me.familyTel2.LimitLengthByte = 4
-        Me.familyTel2.Location = New System.Drawing.Point(589, 1)
-        Me.familyTel2.Name = "familyTel2"
-        Me.familyTel2.Size = New System.Drawing.Size(63, 19)
-        Me.familyTel2.TabIndex = 44
-        '
-        'familyTel1
-        '
-        Me.familyTel1.InputType = 1
-        Me.familyTel1.LimitLengthByte = 4
-        Me.familyTel1.Location = New System.Drawing.Point(508, 1)
-        Me.familyTel1.Name = "familyTel1"
-        Me.familyTel1.Size = New System.Drawing.Size(63, 19)
-        Me.familyTel1.TabIndex = 43
-        '
-        'familyAddress
-        '
-        Me.familyAddress.InputType = 0
-        Me.familyAddress.LimitLengthByte = 60
-        Me.familyAddress.Location = New System.Drawing.Point(156, 1)
-        Me.familyAddress.Name = "familyAddress"
-        Me.familyAddress.Size = New System.Drawing.Size(313, 19)
-        Me.familyAddress.TabIndex = 42
-        '
-        'familyPostCode2
-        '
-        Me.familyPostCode2.InputType = 1
-        Me.familyPostCode2.LimitLengthByte = 4
-        Me.familyPostCode2.Location = New System.Drawing.Point(83, 1)
-        Me.familyPostCode2.Name = "familyPostCode2"
-        Me.familyPostCode2.Size = New System.Drawing.Size(55, 19)
-        Me.familyPostCode2.TabIndex = 41
-        '
-        'familyPostCode1
-        '
-        Me.familyPostCode1.InputType = 1
-        Me.familyPostCode1.LimitLengthByte = 3
-        Me.familyPostCode1.Location = New System.Drawing.Point(21, 1)
-        Me.familyPostCode1.Name = "familyPostCode1"
-        Me.familyPostCode1.Size = New System.Drawing.Size(46, 19)
-        Me.familyPostCode1.TabIndex = 40
-        '
-        'currentTel3
-        '
-        Me.currentTel3.InputType = 1
-        Me.currentTel3.LimitLengthByte = 4
-        Me.currentTel3.Location = New System.Drawing.Point(670, 1)
-        Me.currentTel3.Name = "currentTel3"
-        Me.currentTel3.Size = New System.Drawing.Size(63, 19)
-        Me.currentTel3.TabIndex = 38
-        '
-        'currentTel2
-        '
-        Me.currentTel2.InputType = 1
-        Me.currentTel2.LimitLengthByte = 4
-        Me.currentTel2.Location = New System.Drawing.Point(589, 1)
-        Me.currentTel2.Name = "currentTel2"
-        Me.currentTel2.Size = New System.Drawing.Size(63, 19)
-        Me.currentTel2.TabIndex = 37
-        '
-        'currentTel1
-        '
-        Me.currentTel1.InputType = 1
-        Me.currentTel1.LimitLengthByte = 4
-        Me.currentTel1.Location = New System.Drawing.Point(508, 1)
-        Me.currentTel1.Name = "currentTel1"
-        Me.currentTel1.Size = New System.Drawing.Size(63, 19)
-        Me.currentTel1.TabIndex = 36
-        Me.currentTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'currentAddress
-        '
-        Me.currentAddress.InputType = 0
-        Me.currentAddress.LimitLengthByte = 60
-        Me.currentAddress.Location = New System.Drawing.Point(156, 1)
-        Me.currentAddress.Name = "currentAddress"
-        Me.currentAddress.Size = New System.Drawing.Size(313, 19)
-        Me.currentAddress.TabIndex = 35
-        '
-        'currentPostCode2
-        '
-        Me.currentPostCode2.InputType = 1
-        Me.currentPostCode2.LimitLengthByte = 4
-        Me.currentPostCode2.Location = New System.Drawing.Point(83, 1)
-        Me.currentPostCode2.Name = "currentPostCode2"
-        Me.currentPostCode2.Size = New System.Drawing.Size(55, 19)
-        Me.currentPostCode2.TabIndex = 34
-        '
-        'currentPostCode1
-        '
-        Me.currentPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.currentPostCode1.InputType = 1
-        Me.currentPostCode1.LimitLengthByte = 3
-        Me.currentPostCode1.Location = New System.Drawing.Point(21, 1)
-        Me.currentPostCode1.Name = "currentPostCode1"
-        Me.currentPostCode1.Size = New System.Drawing.Size(46, 19)
-        Me.currentPostCode1.TabIndex = 32
-        '
-        'dgvNumInput
-        '
-        Me.dgvNumInput.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvNumInput.Location = New System.Drawing.Point(15, 10)
-        Me.dgvNumInput.Name = "dgvNumInput"
-        Me.dgvNumInput.RowTemplate.Height = 21
-        Me.dgvNumInput.Size = New System.Drawing.Size(493, 34)
-        Me.dgvNumInput.TabIndex = 0
-        '
-        'SpDgv1
-        '
-        Me.SpDgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv1.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv1.Name = "SpDgv1"
-        Me.SpDgv1.RowTemplate.Height = 21
-        Me.SpDgv1.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv1.TabIndex = 17
-        '
-        'SpDgv2
-        '
-        Me.SpDgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv2.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv2.Name = "SpDgv2"
-        Me.SpDgv2.RowTemplate.Height = 21
-        Me.SpDgv2.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv2.TabIndex = 35
-        '
-        'SpDgv3
-        '
-        Me.SpDgv3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv3.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv3.Name = "SpDgv3"
-        Me.SpDgv3.RowTemplate.Height = 21
-        Me.SpDgv3.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv3.TabIndex = 35
-        '
-        'SpDgv4
-        '
-        Me.SpDgv4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv4.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv4.Name = "SpDgv4"
-        Me.SpDgv4.RowTemplate.Height = 21
-        Me.SpDgv4.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv4.TabIndex = 35
-        '
-        'SpDgv5
-        '
-        Me.SpDgv5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv5.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv5.Name = "SpDgv5"
-        Me.SpDgv5.RowTemplate.Height = 21
-        Me.SpDgv5.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv5.TabIndex = 55
-        '
-        'SpDgv6
-        '
-        Me.SpDgv6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv6.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv6.Name = "SpDgv6"
-        Me.SpDgv6.RowTemplate.Height = 21
-        Me.SpDgv6.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv6.TabIndex = 66
-        '
-        'SpDgv7
-        '
-        Me.SpDgv7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv7.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv7.Name = "SpDgv7"
-        Me.SpDgv7.RowTemplate.Height = 21
-        Me.SpDgv7.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv7.TabIndex = 66
-        '
-        'ExRadioButton35
-        '
-        Me.ExRadioButton35.AutoSize = True
-        Me.ExRadioButton35.Location = New System.Drawing.Point(117, 105)
-        Me.ExRadioButton35.Name = "ExRadioButton35"
-        Me.ExRadioButton35.Size = New System.Drawing.Size(156, 16)
-        Me.ExRadioButton35.TabIndex = 25
-        Me.ExRadioButton35.TabStop = True
-        Me.ExRadioButton35.Text = "5.聞こえているのか判断不能"
-        Me.ExRadioButton35.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton36
-        '
-        Me.ExRadioButton36.AutoSize = True
-        Me.ExRadioButton36.Location = New System.Drawing.Point(117, 82)
-        Me.ExRadioButton36.Name = "ExRadioButton36"
-        Me.ExRadioButton36.Size = New System.Drawing.Size(117, 16)
-        Me.ExRadioButton36.TabIndex = 24
-        Me.ExRadioButton36.TabStop = True
-        Me.ExRadioButton36.Text = "4.ほとんど聞こえない"
-        Me.ExRadioButton36.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton37
-        '
-        Me.ExRadioButton37.AutoSize = True
-        Me.ExRadioButton37.Location = New System.Drawing.Point(117, 59)
-        Me.ExRadioButton37.Name = "ExRadioButton37"
-        Me.ExRadioButton37.Size = New System.Drawing.Size(203, 16)
-        Me.ExRadioButton37.TabIndex = 23
-        Me.ExRadioButton37.TabStop = True
-        Me.ExRadioButton37.Text = "3.かなり大きな声なら何とか聞き取れる"
-        Me.ExRadioButton37.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton38
-        '
-        Me.ExRadioButton38.AutoSize = True
-        Me.ExRadioButton38.Location = New System.Drawing.Point(117, 36)
-        Me.ExRadioButton38.Name = "ExRadioButton38"
-        Me.ExRadioButton38.Size = New System.Drawing.Size(166, 16)
-        Me.ExRadioButton38.TabIndex = 22
-        Me.ExRadioButton38.TabStop = True
-        Me.ExRadioButton38.Text = "2.普通の声がやっと聞き取れる"
-        Me.ExRadioButton38.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton39
-        '
-        Me.ExRadioButton39.AutoSize = True
-        Me.ExRadioButton39.Location = New System.Drawing.Point(117, 13)
-        Me.ExRadioButton39.Name = "ExRadioButton39"
-        Me.ExRadioButton39.Size = New System.Drawing.Size(55, 16)
-        Me.ExRadioButton39.TabIndex = 21
-        Me.ExRadioButton39.TabStop = True
-        Me.ExRadioButton39.Text = "1.普通"
-        Me.ExRadioButton39.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton34
-        '
-        Me.ExRadioButton34.AutoSize = True
-        Me.ExRadioButton34.Location = New System.Drawing.Point(122, 105)
-        Me.ExRadioButton34.Name = "ExRadioButton34"
-        Me.ExRadioButton34.Size = New System.Drawing.Size(148, 16)
-        Me.ExRadioButton34.TabIndex = 20
-        Me.ExRadioButton34.TabStop = True
-        Me.ExRadioButton34.Text = "5.見えているのか判断不能"
-        Me.ExRadioButton34.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton33
-        '
-        Me.ExRadioButton33.AutoSize = True
-        Me.ExRadioButton33.Location = New System.Drawing.Point(122, 82)
-        Me.ExRadioButton33.Name = "ExRadioButton33"
-        Me.ExRadioButton33.Size = New System.Drawing.Size(109, 16)
-        Me.ExRadioButton33.TabIndex = 19
-        Me.ExRadioButton33.TabStop = True
-        Me.ExRadioButton33.Text = "4.ほとんど見えない"
-        Me.ExRadioButton33.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton32
-        '
-        Me.ExRadioButton32.AutoSize = True
-        Me.ExRadioButton32.Location = New System.Drawing.Point(122, 59)
-        Me.ExRadioButton32.Name = "ExRadioButton32"
-        Me.ExRadioButton32.Size = New System.Drawing.Size(227, 16)
-        Me.ExRadioButton32.TabIndex = 18
-        Me.ExRadioButton32.TabStop = True
-        Me.ExRadioButton32.Text = "3.目の前に置いた視力確認表の図が見える"
-        Me.ExRadioButton32.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton31
-        '
-        Me.ExRadioButton31.AutoSize = True
-        Me.ExRadioButton31.Location = New System.Drawing.Point(122, 36)
-        Me.ExRadioButton31.Name = "ExRadioButton31"
-        Me.ExRadioButton31.Size = New System.Drawing.Size(216, 16)
-        Me.ExRadioButton31.TabIndex = 17
-        Me.ExRadioButton31.TabStop = True
-        Me.ExRadioButton31.Text = "2.約１ｍ離れた視力確認表の図が見える"
-        Me.ExRadioButton31.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton30
-        '
-        Me.ExRadioButton30.AutoSize = True
-        Me.ExRadioButton30.Location = New System.Drawing.Point(122, 13)
-        Me.ExRadioButton30.Name = "ExRadioButton30"
-        Me.ExRadioButton30.Size = New System.Drawing.Size(178, 16)
-        Me.ExRadioButton30.TabIndex = 16
-        Me.ExRadioButton30.TabStop = True
-        Me.ExRadioButton30.Text = "1.普通（日常生活に支障がない）"
-        Me.ExRadioButton30.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton27
-        '
-        Me.ExRadioButton27.AutoSize = True
-        Me.ExRadioButton27.Location = New System.Drawing.Point(419, 10)
-        Me.ExRadioButton27.Name = "ExRadioButton27"
-        Me.ExRadioButton27.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton27.TabIndex = 22
-        Me.ExRadioButton27.TabStop = True
-        Me.ExRadioButton27.Text = "3.全介助"
-        Me.ExRadioButton27.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton28
-        '
-        Me.ExRadioButton28.AutoSize = True
-        Me.ExRadioButton28.Location = New System.Drawing.Point(293, 10)
-        Me.ExRadioButton28.Name = "ExRadioButton28"
-        Me.ExRadioButton28.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton28.TabIndex = 21
-        Me.ExRadioButton28.TabStop = True
-        Me.ExRadioButton28.Text = "2.一部介助"
-        Me.ExRadioButton28.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton29
-        '
-        Me.ExRadioButton29.AutoSize = True
-        Me.ExRadioButton29.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton29.Name = "ExRadioButton29"
-        Me.ExRadioButton29.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton29.TabIndex = 20
-        Me.ExRadioButton29.TabStop = True
-        Me.ExRadioButton29.Text = "1.自立（介助なし）"
-        Me.ExRadioButton29.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton23
-        '
-        Me.ExRadioButton23.AutoSize = True
-        Me.ExRadioButton23.Location = New System.Drawing.Point(530, 10)
-        Me.ExRadioButton23.Name = "ExRadioButton23"
-        Me.ExRadioButton23.Size = New System.Drawing.Size(90, 16)
-        Me.ExRadioButton23.TabIndex = 20
-        Me.ExRadioButton23.TabStop = True
-        Me.ExRadioButton23.Text = "4.行っていない"
-        Me.ExRadioButton23.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton24
-        '
-        Me.ExRadioButton24.AutoSize = True
-        Me.ExRadioButton24.Location = New System.Drawing.Point(419, 10)
-        Me.ExRadioButton24.Name = "ExRadioButton24"
-        Me.ExRadioButton24.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton24.TabIndex = 19
-        Me.ExRadioButton24.TabStop = True
-        Me.ExRadioButton24.Text = "3.全介助"
-        Me.ExRadioButton24.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton25
-        '
-        Me.ExRadioButton25.AutoSize = True
-        Me.ExRadioButton25.Location = New System.Drawing.Point(293, 10)
-        Me.ExRadioButton25.Name = "ExRadioButton25"
-        Me.ExRadioButton25.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton25.TabIndex = 18
-        Me.ExRadioButton25.TabStop = True
-        Me.ExRadioButton25.Text = "2.一部介助"
-        Me.ExRadioButton25.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton26
-        '
-        Me.ExRadioButton26.AutoSize = True
-        Me.ExRadioButton26.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton26.Name = "ExRadioButton26"
-        Me.ExRadioButton26.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton26.TabIndex = 17
-        Me.ExRadioButton26.TabStop = True
-        Me.ExRadioButton26.Text = "1.自立（介助なし）"
-        Me.ExRadioButton26.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton20
-        '
-        Me.ExRadioButton20.AutoSize = True
-        Me.ExRadioButton20.Location = New System.Drawing.Point(457, 10)
-        Me.ExRadioButton20.Name = "ExRadioButton20"
-        Me.ExRadioButton20.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton20.TabIndex = 18
-        Me.ExRadioButton20.TabStop = True
-        Me.ExRadioButton20.Text = "3.できない"
-        Me.ExRadioButton20.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton21
-        '
-        Me.ExRadioButton21.AutoSize = True
-        Me.ExRadioButton21.Location = New System.Drawing.Point(293, 10)
-        Me.ExRadioButton21.Name = "ExRadioButton21"
-        Me.ExRadioButton21.Size = New System.Drawing.Size(143, 16)
-        Me.ExRadioButton21.TabIndex = 17
-        Me.ExRadioButton21.TabStop = True
-        Me.ExRadioButton21.Text = "2.何か支えがあればできる"
-        Me.ExRadioButton21.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton22
-        '
-        Me.ExRadioButton22.AutoSize = True
-        Me.ExRadioButton22.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton22.Name = "ExRadioButton22"
-        Me.ExRadioButton22.Size = New System.Drawing.Size(109, 16)
-        Me.ExRadioButton22.TabIndex = 16
-        Me.ExRadioButton22.TabStop = True
-        Me.ExRadioButton22.Text = "1.支えなしでできる"
-        Me.ExRadioButton22.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton17
-        '
-        Me.ExRadioButton17.AutoSize = True
-        Me.ExRadioButton17.Location = New System.Drawing.Point(457, 10)
-        Me.ExRadioButton17.Name = "ExRadioButton17"
-        Me.ExRadioButton17.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton17.TabIndex = 18
-        Me.ExRadioButton17.TabStop = True
-        Me.ExRadioButton17.Text = "3.できない"
-        Me.ExRadioButton17.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton18
-        '
-        Me.ExRadioButton18.AutoSize = True
-        Me.ExRadioButton18.Location = New System.Drawing.Point(293, 10)
-        Me.ExRadioButton18.Name = "ExRadioButton18"
-        Me.ExRadioButton18.Size = New System.Drawing.Size(139, 16)
-        Me.ExRadioButton18.TabIndex = 17
-        Me.ExRadioButton18.TabStop = True
-        Me.ExRadioButton18.Text = "2.何かにつかまればできる"
-        Me.ExRadioButton18.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton19
-        '
-        Me.ExRadioButton19.AutoSize = True
-        Me.ExRadioButton19.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton19.Name = "ExRadioButton19"
-        Me.ExRadioButton19.Size = New System.Drawing.Size(125, 16)
-        Me.ExRadioButton19.TabIndex = 16
-        Me.ExRadioButton19.TabStop = True
-        Me.ExRadioButton19.Text = "1.つかまらないでできる"
-        Me.ExRadioButton19.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton14
-        '
-        Me.ExRadioButton14.AutoSize = True
-        Me.ExRadioButton14.Location = New System.Drawing.Point(457, 10)
-        Me.ExRadioButton14.Name = "ExRadioButton14"
-        Me.ExRadioButton14.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton14.TabIndex = 15
-        Me.ExRadioButton14.TabStop = True
-        Me.ExRadioButton14.Text = "3.できない"
-        Me.ExRadioButton14.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton15
-        '
-        Me.ExRadioButton15.AutoSize = True
-        Me.ExRadioButton15.Location = New System.Drawing.Point(293, 10)
-        Me.ExRadioButton15.Name = "ExRadioButton15"
-        Me.ExRadioButton15.Size = New System.Drawing.Size(139, 16)
-        Me.ExRadioButton15.TabIndex = 14
-        Me.ExRadioButton15.TabStop = True
-        Me.ExRadioButton15.Text = "2.何かにつかまればできる"
-        Me.ExRadioButton15.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton16
-        '
-        Me.ExRadioButton16.AutoSize = True
-        Me.ExRadioButton16.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton16.Name = "ExRadioButton16"
-        Me.ExRadioButton16.Size = New System.Drawing.Size(125, 16)
-        Me.ExRadioButton16.TabIndex = 13
-        Me.ExRadioButton16.TabStop = True
-        Me.ExRadioButton16.Text = "1.つかまらないでできる"
-        Me.ExRadioButton16.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton11
-        '
-        Me.ExRadioButton11.AutoSize = True
-        Me.ExRadioButton11.Location = New System.Drawing.Point(457, 10)
-        Me.ExRadioButton11.Name = "ExRadioButton11"
-        Me.ExRadioButton11.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton11.TabIndex = 15
-        Me.ExRadioButton11.TabStop = True
-        Me.ExRadioButton11.Text = "3.できない"
-        Me.ExRadioButton11.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton12
-        '
-        Me.ExRadioButton12.AutoSize = True
-        Me.ExRadioButton12.Location = New System.Drawing.Point(293, 10)
-        Me.ExRadioButton12.Name = "ExRadioButton12"
-        Me.ExRadioButton12.Size = New System.Drawing.Size(143, 16)
-        Me.ExRadioButton12.TabIndex = 14
-        Me.ExRadioButton12.TabStop = True
-        Me.ExRadioButton12.Text = "2.何か支えがあればできる"
-        Me.ExRadioButton12.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton13
-        '
-        Me.ExRadioButton13.AutoSize = True
-        Me.ExRadioButton13.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton13.Name = "ExRadioButton13"
-        Me.ExRadioButton13.Size = New System.Drawing.Size(109, 16)
-        Me.ExRadioButton13.TabIndex = 13
-        Me.ExRadioButton13.TabStop = True
-        Me.ExRadioButton13.Text = "1.支えなしでできる"
-        Me.ExRadioButton13.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton10
-        '
-        Me.ExRadioButton10.AutoSize = True
-        Me.ExRadioButton10.Location = New System.Drawing.Point(588, 10)
-        Me.ExRadioButton10.Name = "ExRadioButton10"
-        Me.ExRadioButton10.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton10.TabIndex = 16
-        Me.ExRadioButton10.TabStop = True
-        Me.ExRadioButton10.Text = "4.できない"
-        Me.ExRadioButton10.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton7
-        '
-        Me.ExRadioButton7.AutoSize = True
-        Me.ExRadioButton7.Location = New System.Drawing.Point(419, 10)
-        Me.ExRadioButton7.Name = "ExRadioButton7"
-        Me.ExRadioButton7.Size = New System.Drawing.Size(136, 16)
-        Me.ExRadioButton7.TabIndex = 15
-        Me.ExRadioButton7.TabStop = True
-        Me.ExRadioButton7.Text = "3.支えてもらえればできる"
-        Me.ExRadioButton7.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton8
-        '
-        Me.ExRadioButton8.AutoSize = True
-        Me.ExRadioButton8.Location = New System.Drawing.Point(232, 10)
-        Me.ExRadioButton8.Name = "ExRadioButton8"
-        Me.ExRadioButton8.Size = New System.Drawing.Size(157, 16)
-        Me.ExRadioButton8.TabIndex = 14
-        Me.ExRadioButton8.TabStop = True
-        Me.ExRadioButton8.Text = "2.自分の手で支えればできる"
-        Me.ExRadioButton8.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton9
-        '
-        Me.ExRadioButton9.AutoSize = True
-        Me.ExRadioButton9.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton9.Name = "ExRadioButton9"
-        Me.ExRadioButton9.Size = New System.Drawing.Size(59, 16)
-        Me.ExRadioButton9.TabIndex = 13
-        Me.ExRadioButton9.TabStop = True
-        Me.ExRadioButton9.Text = "1.できる"
-        Me.ExRadioButton9.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton4
-        '
-        Me.ExRadioButton4.AutoSize = True
-        Me.ExRadioButton4.Location = New System.Drawing.Point(457, 10)
-        Me.ExRadioButton4.Name = "ExRadioButton4"
-        Me.ExRadioButton4.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton4.TabIndex = 12
-        Me.ExRadioButton4.TabStop = True
-        Me.ExRadioButton4.Text = "3.できない"
-        Me.ExRadioButton4.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton5
-        '
-        Me.ExRadioButton5.AutoSize = True
-        Me.ExRadioButton5.Location = New System.Drawing.Point(293, 10)
-        Me.ExRadioButton5.Name = "ExRadioButton5"
-        Me.ExRadioButton5.Size = New System.Drawing.Size(139, 16)
-        Me.ExRadioButton5.TabIndex = 11
-        Me.ExRadioButton5.TabStop = True
-        Me.ExRadioButton5.Text = "2.何かにつかまればできる"
-        Me.ExRadioButton5.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton6
-        '
-        Me.ExRadioButton6.AutoSize = True
-        Me.ExRadioButton6.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton6.Name = "ExRadioButton6"
-        Me.ExRadioButton6.Size = New System.Drawing.Size(125, 16)
-        Me.ExRadioButton6.TabIndex = 10
-        Me.ExRadioButton6.TabStop = True
-        Me.ExRadioButton6.Text = "1.つかまらないでできる"
-        Me.ExRadioButton6.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton3
-        '
-        Me.ExRadioButton3.AutoSize = True
-        Me.ExRadioButton3.Location = New System.Drawing.Point(457, 10)
-        Me.ExRadioButton3.Name = "ExRadioButton3"
-        Me.ExRadioButton3.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton3.TabIndex = 9
-        Me.ExRadioButton3.TabStop = True
-        Me.ExRadioButton3.Text = "3.できない"
-        Me.ExRadioButton3.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton2
-        '
-        Me.ExRadioButton2.AutoSize = True
-        Me.ExRadioButton2.Location = New System.Drawing.Point(293, 10)
-        Me.ExRadioButton2.Name = "ExRadioButton2"
-        Me.ExRadioButton2.Size = New System.Drawing.Size(139, 16)
-        Me.ExRadioButton2.TabIndex = 8
-        Me.ExRadioButton2.TabStop = True
-        Me.ExRadioButton2.Text = "2.何かにつかまればできる"
-        Me.ExRadioButton2.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton1
-        '
-        Me.ExRadioButton1.AutoSize = True
-        Me.ExRadioButton1.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton1.Name = "ExRadioButton1"
-        Me.ExRadioButton1.Size = New System.Drawing.Size(125, 16)
-        Me.ExRadioButton1.TabIndex = 7
-        Me.ExRadioButton1.TabStop = True
-        Me.ExRadioButton1.Text = "1.つかまらないでできる"
-        Me.ExRadioButton1.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox7
-        '
-        Me.ExCheckBox7.AutoSize = True
-        Me.ExCheckBox7.Location = New System.Drawing.Point(419, 11)
-        Me.ExCheckBox7.Name = "ExCheckBox7"
-        Me.ExCheckBox7.Size = New System.Drawing.Size(133, 16)
-        Me.ExCheckBox7.TabIndex = 15
-        Me.ExCheckBox7.Text = "5.その他（四肢の欠損）"
-        Me.ExCheckBox7.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox8
-        '
-        Me.ExCheckBox8.AutoSize = True
-        Me.ExCheckBox8.Location = New System.Drawing.Point(346, 11)
-        Me.ExCheckBox8.Name = "ExCheckBox8"
-        Me.ExCheckBox8.Size = New System.Drawing.Size(68, 16)
-        Me.ExCheckBox8.TabIndex = 14
-        Me.ExCheckBox8.Text = "4.膝関節"
-        Me.ExCheckBox8.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox11
-        '
-        Me.ExCheckBox11.AutoSize = True
-        Me.ExCheckBox11.Location = New System.Drawing.Point(142, 11)
-        Me.ExCheckBox11.Name = "ExCheckBox11"
-        Me.ExCheckBox11.Size = New System.Drawing.Size(52, 16)
-        Me.ExCheckBox11.TabIndex = 11
-        Me.ExCheckBox11.Text = "1.ない"
-        Me.ExCheckBox11.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox9
-        '
-        Me.ExCheckBox9.AutoSize = True
-        Me.ExCheckBox9.Location = New System.Drawing.Point(273, 11)
-        Me.ExCheckBox9.Name = "ExCheckBox9"
-        Me.ExCheckBox9.Size = New System.Drawing.Size(68, 16)
-        Me.ExCheckBox9.TabIndex = 13
-        Me.ExCheckBox9.Text = "3.股関節"
-        Me.ExCheckBox9.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox10
-        '
-        Me.ExCheckBox10.AutoSize = True
-        Me.ExCheckBox10.Location = New System.Drawing.Point(200, 11)
-        Me.ExCheckBox10.Name = "ExCheckBox10"
-        Me.ExCheckBox10.Size = New System.Drawing.Size(68, 16)
-        Me.ExCheckBox10.TabIndex = 12
-        Me.ExCheckBox10.Text = "2.肩関節"
-        Me.ExCheckBox10.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox6
-        '
-        Me.ExCheckBox6.AutoSize = True
-        Me.ExCheckBox6.Location = New System.Drawing.Point(493, 11)
-        Me.ExCheckBox6.Name = "ExCheckBox6"
-        Me.ExCheckBox6.Size = New System.Drawing.Size(133, 16)
-        Me.ExCheckBox6.TabIndex = 10
-        Me.ExCheckBox6.Text = "6.その他（四肢の欠損）"
-        Me.ExCheckBox6.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox5
-        '
-        Me.ExCheckBox5.AutoSize = True
-        Me.ExCheckBox5.Location = New System.Drawing.Point(419, 11)
-        Me.ExCheckBox5.Name = "ExCheckBox5"
-        Me.ExCheckBox5.Size = New System.Drawing.Size(68, 16)
-        Me.ExCheckBox5.TabIndex = 9
-        Me.ExCheckBox5.Text = "5.右下肢"
-        Me.ExCheckBox5.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox4
-        '
-        Me.ExCheckBox4.AutoSize = True
-        Me.ExCheckBox4.Location = New System.Drawing.Point(346, 11)
-        Me.ExCheckBox4.Name = "ExCheckBox4"
-        Me.ExCheckBox4.Size = New System.Drawing.Size(68, 16)
-        Me.ExCheckBox4.TabIndex = 8
-        Me.ExCheckBox4.Text = "4.左下肢"
-        Me.ExCheckBox4.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox3
-        '
-        Me.ExCheckBox3.AutoSize = True
-        Me.ExCheckBox3.Location = New System.Drawing.Point(273, 11)
-        Me.ExCheckBox3.Name = "ExCheckBox3"
-        Me.ExCheckBox3.Size = New System.Drawing.Size(68, 16)
-        Me.ExCheckBox3.TabIndex = 7
-        Me.ExCheckBox3.Text = "3.右上肢"
-        Me.ExCheckBox3.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox2
-        '
-        Me.ExCheckBox2.AutoSize = True
-        Me.ExCheckBox2.Location = New System.Drawing.Point(200, 11)
-        Me.ExCheckBox2.Name = "ExCheckBox2"
-        Me.ExCheckBox2.Size = New System.Drawing.Size(68, 16)
-        Me.ExCheckBox2.TabIndex = 6
-        Me.ExCheckBox2.Text = "2.左上肢"
-        Me.ExCheckBox2.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox1
-        '
-        Me.ExCheckBox1.AutoSize = True
-        Me.ExCheckBox1.Location = New System.Drawing.Point(142, 11)
-        Me.ExCheckBox1.Name = "ExCheckBox1"
-        Me.ExCheckBox1.Size = New System.Drawing.Size(52, 16)
-        Me.ExCheckBox1.TabIndex = 5
-        Me.ExCheckBox1.Text = "1.ない"
-        Me.ExCheckBox1.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton80
-        '
-        Me.ExRadioButton80.AutoSize = True
-        Me.ExRadioButton80.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton80.Name = "ExRadioButton80"
-        Me.ExRadioButton80.Size = New System.Drawing.Size(87, 16)
-        Me.ExRadioButton80.TabIndex = 54
-        Me.ExRadioButton80.TabStop = True
-        Me.ExRadioButton80.Text = "3.月１回未満"
-        Me.ExRadioButton80.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton81
-        '
-        Me.ExRadioButton81.AutoSize = True
-        Me.ExRadioButton81.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton81.Name = "ExRadioButton81"
-        Me.ExRadioButton81.Size = New System.Drawing.Size(87, 16)
-        Me.ExRadioButton81.TabIndex = 53
-        Me.ExRadioButton81.TabStop = True
-        Me.ExRadioButton81.Text = "2.月１回以上"
-        Me.ExRadioButton81.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton82
-        '
-        Me.ExRadioButton82.AutoSize = True
-        Me.ExRadioButton82.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton82.Name = "ExRadioButton82"
-        Me.ExRadioButton82.Size = New System.Drawing.Size(87, 16)
-        Me.ExRadioButton82.TabIndex = 52
-        Me.ExRadioButton82.TabStop = True
-        Me.ExRadioButton82.Text = "1.週１回以上"
-        Me.ExRadioButton82.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton72
-        '
-        Me.ExRadioButton72.AutoSize = True
-        Me.ExRadioButton72.Location = New System.Drawing.Point(484, 10)
-        Me.ExRadioButton72.Name = "ExRadioButton72"
-        Me.ExRadioButton72.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton72.TabIndex = 46
-        Me.ExRadioButton72.TabStop = True
-        Me.ExRadioButton72.Text = "4.全介助"
-        Me.ExRadioButton72.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton73
-        '
-        Me.ExRadioButton73.AutoSize = True
-        Me.ExRadioButton73.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton73.Name = "ExRadioButton73"
-        Me.ExRadioButton73.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton73.TabIndex = 45
-        Me.ExRadioButton73.TabStop = True
-        Me.ExRadioButton73.Text = "3.一部介助"
-        Me.ExRadioButton73.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton74
-        '
-        Me.ExRadioButton74.AutoSize = True
-        Me.ExRadioButton74.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton74.Name = "ExRadioButton74"
-        Me.ExRadioButton74.Size = New System.Drawing.Size(75, 16)
-        Me.ExRadioButton74.TabIndex = 44
-        Me.ExRadioButton74.TabStop = True
-        Me.ExRadioButton74.Text = "2.見守り等"
-        Me.ExRadioButton74.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton75
-        '
-        Me.ExRadioButton75.AutoSize = True
-        Me.ExRadioButton75.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton75.Name = "ExRadioButton75"
-        Me.ExRadioButton75.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton75.TabIndex = 43
-        Me.ExRadioButton75.TabStop = True
-        Me.ExRadioButton75.Text = "1.自立（介助なし）"
-        Me.ExRadioButton75.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton76
-        '
-        Me.ExRadioButton76.AutoSize = True
-        Me.ExRadioButton76.Location = New System.Drawing.Point(484, 9)
-        Me.ExRadioButton76.Name = "ExRadioButton76"
-        Me.ExRadioButton76.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton76.TabIndex = 50
-        Me.ExRadioButton76.TabStop = True
-        Me.ExRadioButton76.Text = "4.全介助"
-        Me.ExRadioButton76.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton77
-        '
-        Me.ExRadioButton77.AutoSize = True
-        Me.ExRadioButton77.Location = New System.Drawing.Point(379, 8)
-        Me.ExRadioButton77.Name = "ExRadioButton77"
-        Me.ExRadioButton77.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton77.TabIndex = 49
-        Me.ExRadioButton77.TabStop = True
-        Me.ExRadioButton77.Text = "3.一部介助"
-        Me.ExRadioButton77.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton78
-        '
-        Me.ExRadioButton78.AutoSize = True
-        Me.ExRadioButton78.Location = New System.Drawing.Point(276, 9)
-        Me.ExRadioButton78.Name = "ExRadioButton78"
-        Me.ExRadioButton78.Size = New System.Drawing.Size(75, 16)
-        Me.ExRadioButton78.TabIndex = 48
-        Me.ExRadioButton78.TabStop = True
-        Me.ExRadioButton78.Text = "2.見守り等"
-        Me.ExRadioButton78.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton79
-        '
-        Me.ExRadioButton79.AutoSize = True
-        Me.ExRadioButton79.Location = New System.Drawing.Point(142, 9)
-        Me.ExRadioButton79.Name = "ExRadioButton79"
-        Me.ExRadioButton79.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton79.TabIndex = 47
-        Me.ExRadioButton79.TabStop = True
-        Me.ExRadioButton79.Text = "1.自立（介助なし）"
-        Me.ExRadioButton79.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton69
-        '
-        Me.ExRadioButton69.AutoSize = True
-        Me.ExRadioButton69.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton69.Name = "ExRadioButton69"
-        Me.ExRadioButton69.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton69.TabIndex = 51
-        Me.ExRadioButton69.TabStop = True
-        Me.ExRadioButton69.Text = "3.全介助"
-        Me.ExRadioButton69.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton70
-        '
-        Me.ExRadioButton70.AutoSize = True
-        Me.ExRadioButton70.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton70.Name = "ExRadioButton70"
-        Me.ExRadioButton70.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton70.TabIndex = 50
-        Me.ExRadioButton70.TabStop = True
-        Me.ExRadioButton70.Text = "2.一部介助"
-        Me.ExRadioButton70.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton71
-        '
-        Me.ExRadioButton71.AutoSize = True
-        Me.ExRadioButton71.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton71.Name = "ExRadioButton71"
-        Me.ExRadioButton71.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton71.TabIndex = 49
-        Me.ExRadioButton71.TabStop = True
-        Me.ExRadioButton71.Text = "1.自立（介助なし）"
-        Me.ExRadioButton71.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton63
-        '
-        Me.ExRadioButton63.AutoSize = True
-        Me.ExRadioButton63.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton63.Name = "ExRadioButton63"
-        Me.ExRadioButton63.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton63.TabIndex = 48
-        Me.ExRadioButton63.TabStop = True
-        Me.ExRadioButton63.Text = "3.全介助"
-        Me.ExRadioButton63.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton67
-        '
-        Me.ExRadioButton67.AutoSize = True
-        Me.ExRadioButton67.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton67.Name = "ExRadioButton67"
-        Me.ExRadioButton67.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton67.TabIndex = 47
-        Me.ExRadioButton67.TabStop = True
-        Me.ExRadioButton67.Text = "2.一部介助"
-        Me.ExRadioButton67.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton68
-        '
-        Me.ExRadioButton68.AutoSize = True
-        Me.ExRadioButton68.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton68.Name = "ExRadioButton68"
-        Me.ExRadioButton68.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton68.TabIndex = 46
-        Me.ExRadioButton68.TabStop = True
-        Me.ExRadioButton68.Text = "1.自立（介助なし）"
-        Me.ExRadioButton68.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton64
-        '
-        Me.ExRadioButton64.AutoSize = True
-        Me.ExRadioButton64.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton64.Name = "ExRadioButton64"
-        Me.ExRadioButton64.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton64.TabIndex = 45
-        Me.ExRadioButton64.TabStop = True
-        Me.ExRadioButton64.Text = "3.全介助"
-        Me.ExRadioButton64.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton65
-        '
-        Me.ExRadioButton65.AutoSize = True
-        Me.ExRadioButton65.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton65.Name = "ExRadioButton65"
-        Me.ExRadioButton65.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton65.TabIndex = 44
-        Me.ExRadioButton65.TabStop = True
-        Me.ExRadioButton65.Text = "2.一部介助"
-        Me.ExRadioButton65.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton66
-        '
-        Me.ExRadioButton66.AutoSize = True
-        Me.ExRadioButton66.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton66.Name = "ExRadioButton66"
-        Me.ExRadioButton66.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton66.TabIndex = 43
-        Me.ExRadioButton66.TabStop = True
-        Me.ExRadioButton66.Text = "1.自立（介助なし）"
-        Me.ExRadioButton66.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton59
-        '
-        Me.ExRadioButton59.AutoSize = True
-        Me.ExRadioButton59.Location = New System.Drawing.Point(484, 10)
-        Me.ExRadioButton59.Name = "ExRadioButton59"
-        Me.ExRadioButton59.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton59.TabIndex = 42
-        Me.ExRadioButton59.TabStop = True
-        Me.ExRadioButton59.Text = "4.全介助"
-        Me.ExRadioButton59.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton60
-        '
-        Me.ExRadioButton60.AutoSize = True
-        Me.ExRadioButton60.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton60.Name = "ExRadioButton60"
-        Me.ExRadioButton60.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton60.TabIndex = 41
-        Me.ExRadioButton60.TabStop = True
-        Me.ExRadioButton60.Text = "3.一部介助"
-        Me.ExRadioButton60.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton61
-        '
-        Me.ExRadioButton61.AutoSize = True
-        Me.ExRadioButton61.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton61.Name = "ExRadioButton61"
-        Me.ExRadioButton61.Size = New System.Drawing.Size(75, 16)
-        Me.ExRadioButton61.TabIndex = 40
-        Me.ExRadioButton61.TabStop = True
-        Me.ExRadioButton61.Text = "2.見守り等"
-        Me.ExRadioButton61.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton62
-        '
-        Me.ExRadioButton62.AutoSize = True
-        Me.ExRadioButton62.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton62.Name = "ExRadioButton62"
-        Me.ExRadioButton62.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton62.TabIndex = 39
-        Me.ExRadioButton62.TabStop = True
-        Me.ExRadioButton62.Text = "1.自立（介助なし）"
-        Me.ExRadioButton62.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton55
-        '
-        Me.ExRadioButton55.AutoSize = True
-        Me.ExRadioButton55.Location = New System.Drawing.Point(484, 10)
-        Me.ExRadioButton55.Name = "ExRadioButton55"
-        Me.ExRadioButton55.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton55.TabIndex = 38
-        Me.ExRadioButton55.TabStop = True
-        Me.ExRadioButton55.Text = "4.全介助"
-        Me.ExRadioButton55.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton56
-        '
-        Me.ExRadioButton56.AutoSize = True
-        Me.ExRadioButton56.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton56.Name = "ExRadioButton56"
-        Me.ExRadioButton56.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton56.TabIndex = 37
-        Me.ExRadioButton56.TabStop = True
-        Me.ExRadioButton56.Text = "3.一部介助"
-        Me.ExRadioButton56.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton57
-        '
-        Me.ExRadioButton57.AutoSize = True
-        Me.ExRadioButton57.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton57.Name = "ExRadioButton57"
-        Me.ExRadioButton57.Size = New System.Drawing.Size(75, 16)
-        Me.ExRadioButton57.TabIndex = 36
-        Me.ExRadioButton57.TabStop = True
-        Me.ExRadioButton57.Text = "2.見守り等"
-        Me.ExRadioButton57.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton58
-        '
-        Me.ExRadioButton58.AutoSize = True
-        Me.ExRadioButton58.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton58.Name = "ExRadioButton58"
-        Me.ExRadioButton58.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton58.TabIndex = 35
-        Me.ExRadioButton58.TabStop = True
-        Me.ExRadioButton58.Text = "1.自立（介助なし）"
-        Me.ExRadioButton58.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton48
-        '
-        Me.ExRadioButton48.AutoSize = True
-        Me.ExRadioButton48.Location = New System.Drawing.Point(484, 10)
-        Me.ExRadioButton48.Name = "ExRadioButton48"
-        Me.ExRadioButton48.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton48.TabIndex = 34
-        Me.ExRadioButton48.TabStop = True
-        Me.ExRadioButton48.Text = "4.全介助"
-        Me.ExRadioButton48.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton52
-        '
-        Me.ExRadioButton52.AutoSize = True
-        Me.ExRadioButton52.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton52.Name = "ExRadioButton52"
-        Me.ExRadioButton52.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton52.TabIndex = 33
-        Me.ExRadioButton52.TabStop = True
-        Me.ExRadioButton52.Text = "3.一部介助"
-        Me.ExRadioButton52.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton53
-        '
-        Me.ExRadioButton53.AutoSize = True
-        Me.ExRadioButton53.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton53.Name = "ExRadioButton53"
-        Me.ExRadioButton53.Size = New System.Drawing.Size(75, 16)
-        Me.ExRadioButton53.TabIndex = 32
-        Me.ExRadioButton53.TabStop = True
-        Me.ExRadioButton53.Text = "2.見守り等"
-        Me.ExRadioButton53.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton54
-        '
-        Me.ExRadioButton54.AutoSize = True
-        Me.ExRadioButton54.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton54.Name = "ExRadioButton54"
-        Me.ExRadioButton54.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton54.TabIndex = 31
-        Me.ExRadioButton54.TabStop = True
-        Me.ExRadioButton54.Text = "1.自立（介助なし）"
-        Me.ExRadioButton54.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton49
-        '
-        Me.ExRadioButton49.AutoSize = True
-        Me.ExRadioButton49.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton49.Name = "ExRadioButton49"
-        Me.ExRadioButton49.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton49.TabIndex = 33
-        Me.ExRadioButton49.TabStop = True
-        Me.ExRadioButton49.Text = "3.できない"
-        Me.ExRadioButton49.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton50
-        '
-        Me.ExRadioButton50.AutoSize = True
-        Me.ExRadioButton50.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton50.Name = "ExRadioButton50"
-        Me.ExRadioButton50.Size = New System.Drawing.Size(75, 16)
-        Me.ExRadioButton50.TabIndex = 32
-        Me.ExRadioButton50.TabStop = True
-        Me.ExRadioButton50.Text = "2.見守り等"
-        Me.ExRadioButton50.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton51
-        '
-        Me.ExRadioButton51.AutoSize = True
-        Me.ExRadioButton51.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton51.Name = "ExRadioButton51"
-        Me.ExRadioButton51.Size = New System.Drawing.Size(59, 16)
-        Me.ExRadioButton51.TabIndex = 31
-        Me.ExRadioButton51.TabStop = True
-        Me.ExRadioButton51.Text = "1.できる"
-        Me.ExRadioButton51.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton44
-        '
-        Me.ExRadioButton44.AutoSize = True
-        Me.ExRadioButton44.Location = New System.Drawing.Point(484, 10)
-        Me.ExRadioButton44.Name = "ExRadioButton44"
-        Me.ExRadioButton44.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton44.TabIndex = 30
-        Me.ExRadioButton44.TabStop = True
-        Me.ExRadioButton44.Text = "4.全介助"
-        Me.ExRadioButton44.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton45
-        '
-        Me.ExRadioButton45.AutoSize = True
-        Me.ExRadioButton45.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton45.Name = "ExRadioButton45"
-        Me.ExRadioButton45.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton45.TabIndex = 29
-        Me.ExRadioButton45.TabStop = True
-        Me.ExRadioButton45.Text = "3.一部介助"
-        Me.ExRadioButton45.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton46
-        '
-        Me.ExRadioButton46.AutoSize = True
-        Me.ExRadioButton46.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton46.Name = "ExRadioButton46"
-        Me.ExRadioButton46.Size = New System.Drawing.Size(75, 16)
-        Me.ExRadioButton46.TabIndex = 28
-        Me.ExRadioButton46.TabStop = True
-        Me.ExRadioButton46.Text = "2.見守り等"
-        Me.ExRadioButton46.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton47
-        '
-        Me.ExRadioButton47.AutoSize = True
-        Me.ExRadioButton47.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton47.Name = "ExRadioButton47"
-        Me.ExRadioButton47.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton47.TabIndex = 27
-        Me.ExRadioButton47.TabStop = True
-        Me.ExRadioButton47.Text = "1.自立（介助なし）"
-        Me.ExRadioButton47.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton40
-        '
-        Me.ExRadioButton40.AutoSize = True
-        Me.ExRadioButton40.Location = New System.Drawing.Point(484, 10)
-        Me.ExRadioButton40.Name = "ExRadioButton40"
-        Me.ExRadioButton40.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton40.TabIndex = 26
-        Me.ExRadioButton40.TabStop = True
-        Me.ExRadioButton40.Text = "4.全介助"
-        Me.ExRadioButton40.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton41
-        '
-        Me.ExRadioButton41.AutoSize = True
-        Me.ExRadioButton41.Location = New System.Drawing.Point(379, 9)
-        Me.ExRadioButton41.Name = "ExRadioButton41"
-        Me.ExRadioButton41.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton41.TabIndex = 25
-        Me.ExRadioButton41.TabStop = True
-        Me.ExRadioButton41.Text = "3.一部介助"
-        Me.ExRadioButton41.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton42
-        '
-        Me.ExRadioButton42.AutoSize = True
-        Me.ExRadioButton42.Location = New System.Drawing.Point(276, 10)
-        Me.ExRadioButton42.Name = "ExRadioButton42"
-        Me.ExRadioButton42.Size = New System.Drawing.Size(75, 16)
-        Me.ExRadioButton42.TabIndex = 24
-        Me.ExRadioButton42.TabStop = True
-        Me.ExRadioButton42.Text = "2.見守り等"
-        Me.ExRadioButton42.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton43
-        '
-        Me.ExRadioButton43.AutoSize = True
-        Me.ExRadioButton43.Location = New System.Drawing.Point(142, 10)
-        Me.ExRadioButton43.Name = "ExRadioButton43"
-        Me.ExRadioButton43.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton43.TabIndex = 23
-        Me.ExRadioButton43.TabStop = True
-        Me.ExRadioButton43.Text = "1.自立（介助なし）"
-        Me.ExRadioButton43.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton102
-        '
-        Me.ExRadioButton102.AutoSize = True
-        Me.ExRadioButton102.Location = New System.Drawing.Point(468, 10)
-        Me.ExRadioButton102.Name = "ExRadioButton102"
-        Me.ExRadioButton102.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton102.TabIndex = 36
-        Me.ExRadioButton102.TabStop = True
-        Me.ExRadioButton102.Text = "3.ある"
-        Me.ExRadioButton102.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton103
-        '
-        Me.ExRadioButton103.AutoSize = True
-        Me.ExRadioButton103.Location = New System.Drawing.Point(340, 10)
-        Me.ExRadioButton103.Name = "ExRadioButton103"
-        Me.ExRadioButton103.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton103.TabIndex = 35
-        Me.ExRadioButton103.TabStop = True
-        Me.ExRadioButton103.Text = "2.ときどきある"
-        Me.ExRadioButton103.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton104
-        '
-        Me.ExRadioButton104.AutoSize = True
-        Me.ExRadioButton104.Location = New System.Drawing.Point(235, 10)
-        Me.ExRadioButton104.Name = "ExRadioButton104"
-        Me.ExRadioButton104.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton104.TabIndex = 34
-        Me.ExRadioButton104.TabStop = True
-        Me.ExRadioButton104.Text = "1.ない"
-        Me.ExRadioButton104.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton93
-        '
-        Me.ExRadioButton93.AutoSize = True
-        Me.ExRadioButton93.Location = New System.Drawing.Point(340, 10)
-        Me.ExRadioButton93.Name = "ExRadioButton93"
-        Me.ExRadioButton93.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton93.TabIndex = 29
-        Me.ExRadioButton93.TabStop = True
-        Me.ExRadioButton93.Text = "2.できない"
-        Me.ExRadioButton93.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton94
-        '
-        Me.ExRadioButton94.AutoSize = True
-        Me.ExRadioButton94.Location = New System.Drawing.Point(235, 10)
-        Me.ExRadioButton94.Name = "ExRadioButton94"
-        Me.ExRadioButton94.Size = New System.Drawing.Size(59, 16)
-        Me.ExRadioButton94.TabIndex = 28
-        Me.ExRadioButton94.TabStop = True
-        Me.ExRadioButton94.Text = "1.できる"
-        Me.ExRadioButton94.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton101
-        '
-        Me.ExRadioButton101.AutoSize = True
-        Me.ExRadioButton101.Location = New System.Drawing.Point(468, 10)
-        Me.ExRadioButton101.Name = "ExRadioButton101"
-        Me.ExRadioButton101.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton101.TabIndex = 33
-        Me.ExRadioButton101.TabStop = True
-        Me.ExRadioButton101.Text = "3.ある"
-        Me.ExRadioButton101.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton99
-        '
-        Me.ExRadioButton99.AutoSize = True
-        Me.ExRadioButton99.Location = New System.Drawing.Point(340, 10)
-        Me.ExRadioButton99.Name = "ExRadioButton99"
-        Me.ExRadioButton99.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton99.TabIndex = 32
-        Me.ExRadioButton99.TabStop = True
-        Me.ExRadioButton99.Text = "2.ときどきある"
-        Me.ExRadioButton99.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton100
-        '
-        Me.ExRadioButton100.AutoSize = True
-        Me.ExRadioButton100.Location = New System.Drawing.Point(235, 10)
-        Me.ExRadioButton100.Name = "ExRadioButton100"
-        Me.ExRadioButton100.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton100.TabIndex = 31
-        Me.ExRadioButton100.TabStop = True
-        Me.ExRadioButton100.Text = "1.ない"
-        Me.ExRadioButton100.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton91
-        '
-        Me.ExRadioButton91.AutoSize = True
-        Me.ExRadioButton91.Location = New System.Drawing.Point(445, 10)
-        Me.ExRadioButton91.Name = "ExRadioButton91"
-        Me.ExRadioButton91.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton91.TabIndex = 29
-        Me.ExRadioButton91.TabStop = True
-        Me.ExRadioButton91.Text = "2.できない"
-        Me.ExRadioButton91.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton92
-        '
-        Me.ExRadioButton92.AutoSize = True
-        Me.ExRadioButton92.Location = New System.Drawing.Point(340, 10)
-        Me.ExRadioButton92.Name = "ExRadioButton92"
-        Me.ExRadioButton92.Size = New System.Drawing.Size(59, 16)
-        Me.ExRadioButton92.TabIndex = 28
-        Me.ExRadioButton92.TabStop = True
-        Me.ExRadioButton92.Text = "1.できる"
-        Me.ExRadioButton92.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton97
-        '
-        Me.ExRadioButton97.AutoSize = True
-        Me.ExRadioButton97.Location = New System.Drawing.Point(340, 10)
-        Me.ExRadioButton97.Name = "ExRadioButton97"
-        Me.ExRadioButton97.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton97.TabIndex = 30
-        Me.ExRadioButton97.TabStop = True
-        Me.ExRadioButton97.Text = "2.できない"
-        Me.ExRadioButton97.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton98
-        '
-        Me.ExRadioButton98.AutoSize = True
-        Me.ExRadioButton98.Location = New System.Drawing.Point(235, 10)
-        Me.ExRadioButton98.Name = "ExRadioButton98"
-        Me.ExRadioButton98.Size = New System.Drawing.Size(59, 16)
-        Me.ExRadioButton98.TabIndex = 29
-        Me.ExRadioButton98.TabStop = True
-        Me.ExRadioButton98.Text = "1.できる"
-        Me.ExRadioButton98.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton89
-        '
-        Me.ExRadioButton89.AutoSize = True
-        Me.ExRadioButton89.Location = New System.Drawing.Point(340, 10)
-        Me.ExRadioButton89.Name = "ExRadioButton89"
-        Me.ExRadioButton89.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton89.TabIndex = 27
-        Me.ExRadioButton89.TabStop = True
-        Me.ExRadioButton89.Text = "2.できない"
-        Me.ExRadioButton89.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton90
-        '
-        Me.ExRadioButton90.AutoSize = True
-        Me.ExRadioButton90.Location = New System.Drawing.Point(235, 10)
-        Me.ExRadioButton90.Name = "ExRadioButton90"
-        Me.ExRadioButton90.Size = New System.Drawing.Size(59, 16)
-        Me.ExRadioButton90.TabIndex = 26
-        Me.ExRadioButton90.TabStop = True
-        Me.ExRadioButton90.Text = "1.できる"
-        Me.ExRadioButton90.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton95
-        '
-        Me.ExRadioButton95.AutoSize = True
-        Me.ExRadioButton95.Location = New System.Drawing.Point(340, 10)
-        Me.ExRadioButton95.Name = "ExRadioButton95"
-        Me.ExRadioButton95.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton95.TabIndex = 29
-        Me.ExRadioButton95.TabStop = True
-        Me.ExRadioButton95.Text = "2.できない"
-        Me.ExRadioButton95.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton96
-        '
-        Me.ExRadioButton96.AutoSize = True
-        Me.ExRadioButton96.Location = New System.Drawing.Point(235, 10)
-        Me.ExRadioButton96.Name = "ExRadioButton96"
-        Me.ExRadioButton96.Size = New System.Drawing.Size(59, 16)
-        Me.ExRadioButton96.TabIndex = 28
-        Me.ExRadioButton96.TabStop = True
-        Me.ExRadioButton96.Text = "1.できる"
-        Me.ExRadioButton96.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton88
-        '
-        Me.ExRadioButton88.AutoSize = True
-        Me.ExRadioButton88.Location = New System.Drawing.Point(340, 10)
-        Me.ExRadioButton88.Name = "ExRadioButton88"
-        Me.ExRadioButton88.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton88.TabIndex = 25
-        Me.ExRadioButton88.TabStop = True
-        Me.ExRadioButton88.Text = "2.できない"
-        Me.ExRadioButton88.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton87
-        '
-        Me.ExRadioButton87.AutoSize = True
-        Me.ExRadioButton87.Location = New System.Drawing.Point(235, 10)
-        Me.ExRadioButton87.Name = "ExRadioButton87"
-        Me.ExRadioButton87.Size = New System.Drawing.Size(59, 16)
-        Me.ExRadioButton87.TabIndex = 24
-        Me.ExRadioButton87.TabStop = True
-        Me.ExRadioButton87.Text = "1.できる"
-        Me.ExRadioButton87.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton86
-        '
-        Me.ExRadioButton86.AutoSize = True
-        Me.ExRadioButton86.Location = New System.Drawing.Point(127, 79)
-        Me.ExRadioButton86.Name = "ExRadioButton86"
-        Me.ExRadioButton86.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton86.TabIndex = 26
-        Me.ExRadioButton86.TabStop = True
-        Me.ExRadioButton86.Text = "4.できない"
-        Me.ExRadioButton86.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton85
-        '
-        Me.ExRadioButton85.AutoSize = True
-        Me.ExRadioButton85.Location = New System.Drawing.Point(127, 57)
-        Me.ExRadioButton85.Name = "ExRadioButton85"
-        Me.ExRadioButton85.Size = New System.Drawing.Size(131, 16)
-        Me.ExRadioButton85.TabIndex = 25
-        Me.ExRadioButton85.TabStop = True
-        Me.ExRadioButton85.Text = "3.ほとんど伝達できない"
-        Me.ExRadioButton85.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton84
-        '
-        Me.ExRadioButton84.AutoSize = True
-        Me.ExRadioButton84.Location = New System.Drawing.Point(127, 35)
-        Me.ExRadioButton84.Name = "ExRadioButton84"
-        Me.ExRadioButton84.Size = New System.Drawing.Size(118, 16)
-        Me.ExRadioButton84.TabIndex = 24
-        Me.ExRadioButton84.TabStop = True
-        Me.ExRadioButton84.Text = "2.ときどき伝達できる"
-        Me.ExRadioButton84.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton83
-        '
-        Me.ExRadioButton83.AutoSize = True
-        Me.ExRadioButton83.Location = New System.Drawing.Point(127, 13)
-        Me.ExRadioButton83.Name = "ExRadioButton83"
-        Me.ExRadioButton83.Size = New System.Drawing.Size(219, 16)
-        Me.ExRadioButton83.TabIndex = 23
-        Me.ExRadioButton83.TabStop = True
-        Me.ExRadioButton83.Text = "1.調査対象者が意思を他者に伝達できる"
-        Me.ExRadioButton83.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton147
-        '
-        Me.ExRadioButton147.AutoSize = True
-        Me.ExRadioButton147.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton147.Name = "ExRadioButton147"
-        Me.ExRadioButton147.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton147.TabIndex = 40
-        Me.ExRadioButton147.TabStop = True
-        Me.ExRadioButton147.Text = "3.ある"
-        Me.ExRadioButton147.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton148
-        '
-        Me.ExRadioButton148.AutoSize = True
-        Me.ExRadioButton148.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton148.Name = "ExRadioButton148"
-        Me.ExRadioButton148.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton148.TabIndex = 39
-        Me.ExRadioButton148.TabStop = True
-        Me.ExRadioButton148.Text = "2.ときどきある"
-        Me.ExRadioButton148.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton149
-        '
-        Me.ExRadioButton149.AutoSize = True
-        Me.ExRadioButton149.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton149.Name = "ExRadioButton149"
-        Me.ExRadioButton149.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton149.TabIndex = 38
-        Me.ExRadioButton149.TabStop = True
-        Me.ExRadioButton149.Text = "1.ない"
-        Me.ExRadioButton149.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton144
-        '
-        Me.ExRadioButton144.AutoSize = True
-        Me.ExRadioButton144.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton144.Name = "ExRadioButton144"
-        Me.ExRadioButton144.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton144.TabIndex = 39
-        Me.ExRadioButton144.TabStop = True
-        Me.ExRadioButton144.Text = "3.ある"
-        Me.ExRadioButton144.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton145
-        '
-        Me.ExRadioButton145.AutoSize = True
-        Me.ExRadioButton145.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton145.Name = "ExRadioButton145"
-        Me.ExRadioButton145.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton145.TabIndex = 38
-        Me.ExRadioButton145.TabStop = True
-        Me.ExRadioButton145.Text = "2.ときどきある"
-        Me.ExRadioButton145.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton146
-        '
-        Me.ExRadioButton146.AutoSize = True
-        Me.ExRadioButton146.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton146.Name = "ExRadioButton146"
-        Me.ExRadioButton146.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton146.TabIndex = 37
-        Me.ExRadioButton146.TabStop = True
-        Me.ExRadioButton146.Text = "1.ない"
-        Me.ExRadioButton146.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton141
-        '
-        Me.ExRadioButton141.AutoSize = True
-        Me.ExRadioButton141.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton141.Name = "ExRadioButton141"
-        Me.ExRadioButton141.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton141.TabIndex = 39
-        Me.ExRadioButton141.TabStop = True
-        Me.ExRadioButton141.Text = "3.ある"
-        Me.ExRadioButton141.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton142
-        '
-        Me.ExRadioButton142.AutoSize = True
-        Me.ExRadioButton142.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton142.Name = "ExRadioButton142"
-        Me.ExRadioButton142.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton142.TabIndex = 38
-        Me.ExRadioButton142.TabStop = True
-        Me.ExRadioButton142.Text = "2.ときどきある"
-        Me.ExRadioButton142.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton143
-        '
-        Me.ExRadioButton143.AutoSize = True
-        Me.ExRadioButton143.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton143.Name = "ExRadioButton143"
-        Me.ExRadioButton143.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton143.TabIndex = 37
-        Me.ExRadioButton143.TabStop = True
-        Me.ExRadioButton143.Text = "1.ない"
-        Me.ExRadioButton143.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton138
-        '
-        Me.ExRadioButton138.AutoSize = True
-        Me.ExRadioButton138.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton138.Name = "ExRadioButton138"
-        Me.ExRadioButton138.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton138.TabIndex = 39
-        Me.ExRadioButton138.TabStop = True
-        Me.ExRadioButton138.Text = "3.ある"
-        Me.ExRadioButton138.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton139
-        '
-        Me.ExRadioButton139.AutoSize = True
-        Me.ExRadioButton139.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton139.Name = "ExRadioButton139"
-        Me.ExRadioButton139.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton139.TabIndex = 38
-        Me.ExRadioButton139.TabStop = True
-        Me.ExRadioButton139.Text = "2.ときどきある"
-        Me.ExRadioButton139.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton140
-        '
-        Me.ExRadioButton140.AutoSize = True
-        Me.ExRadioButton140.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton140.Name = "ExRadioButton140"
-        Me.ExRadioButton140.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton140.TabIndex = 37
-        Me.ExRadioButton140.TabStop = True
-        Me.ExRadioButton140.Text = "1.ない"
-        Me.ExRadioButton140.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton135
-        '
-        Me.ExRadioButton135.AutoSize = True
-        Me.ExRadioButton135.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton135.Name = "ExRadioButton135"
-        Me.ExRadioButton135.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton135.TabIndex = 39
-        Me.ExRadioButton135.TabStop = True
-        Me.ExRadioButton135.Text = "3.ある"
-        Me.ExRadioButton135.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton136
-        '
-        Me.ExRadioButton136.AutoSize = True
-        Me.ExRadioButton136.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton136.Name = "ExRadioButton136"
-        Me.ExRadioButton136.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton136.TabIndex = 38
-        Me.ExRadioButton136.TabStop = True
-        Me.ExRadioButton136.Text = "2.ときどきある"
-        Me.ExRadioButton136.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton137
-        '
-        Me.ExRadioButton137.AutoSize = True
-        Me.ExRadioButton137.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton137.Name = "ExRadioButton137"
-        Me.ExRadioButton137.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton137.TabIndex = 37
-        Me.ExRadioButton137.TabStop = True
-        Me.ExRadioButton137.Text = "1.ない"
-        Me.ExRadioButton137.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton132
-        '
-        Me.ExRadioButton132.AutoSize = True
-        Me.ExRadioButton132.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton132.Name = "ExRadioButton132"
-        Me.ExRadioButton132.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton132.TabIndex = 39
-        Me.ExRadioButton132.TabStop = True
-        Me.ExRadioButton132.Text = "3.ある"
-        Me.ExRadioButton132.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton133
-        '
-        Me.ExRadioButton133.AutoSize = True
-        Me.ExRadioButton133.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton133.Name = "ExRadioButton133"
-        Me.ExRadioButton133.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton133.TabIndex = 38
-        Me.ExRadioButton133.TabStop = True
-        Me.ExRadioButton133.Text = "2.ときどきある"
-        Me.ExRadioButton133.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton134
-        '
-        Me.ExRadioButton134.AutoSize = True
-        Me.ExRadioButton134.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton134.Name = "ExRadioButton134"
-        Me.ExRadioButton134.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton134.TabIndex = 37
-        Me.ExRadioButton134.TabStop = True
-        Me.ExRadioButton134.Text = "1.ない"
-        Me.ExRadioButton134.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton129
-        '
-        Me.ExRadioButton129.AutoSize = True
-        Me.ExRadioButton129.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton129.Name = "ExRadioButton129"
-        Me.ExRadioButton129.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton129.TabIndex = 39
-        Me.ExRadioButton129.TabStop = True
-        Me.ExRadioButton129.Text = "3.ある"
-        Me.ExRadioButton129.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton130
-        '
-        Me.ExRadioButton130.AutoSize = True
-        Me.ExRadioButton130.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton130.Name = "ExRadioButton130"
-        Me.ExRadioButton130.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton130.TabIndex = 38
-        Me.ExRadioButton130.TabStop = True
-        Me.ExRadioButton130.Text = "2.ときどきある"
-        Me.ExRadioButton130.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton131
-        '
-        Me.ExRadioButton131.AutoSize = True
-        Me.ExRadioButton131.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton131.Name = "ExRadioButton131"
-        Me.ExRadioButton131.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton131.TabIndex = 37
-        Me.ExRadioButton131.TabStop = True
-        Me.ExRadioButton131.Text = "1.ない"
-        Me.ExRadioButton131.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton126
-        '
-        Me.ExRadioButton126.AutoSize = True
-        Me.ExRadioButton126.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton126.Name = "ExRadioButton126"
-        Me.ExRadioButton126.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton126.TabIndex = 39
-        Me.ExRadioButton126.TabStop = True
-        Me.ExRadioButton126.Text = "3.ある"
-        Me.ExRadioButton126.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton127
-        '
-        Me.ExRadioButton127.AutoSize = True
-        Me.ExRadioButton127.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton127.Name = "ExRadioButton127"
-        Me.ExRadioButton127.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton127.TabIndex = 38
-        Me.ExRadioButton127.TabStop = True
-        Me.ExRadioButton127.Text = "2.ときどきある"
-        Me.ExRadioButton127.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton128
-        '
-        Me.ExRadioButton128.AutoSize = True
-        Me.ExRadioButton128.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton128.Name = "ExRadioButton128"
-        Me.ExRadioButton128.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton128.TabIndex = 37
-        Me.ExRadioButton128.TabStop = True
-        Me.ExRadioButton128.Text = "1.ない"
-        Me.ExRadioButton128.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton123
-        '
-        Me.ExRadioButton123.AutoSize = True
-        Me.ExRadioButton123.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton123.Name = "ExRadioButton123"
-        Me.ExRadioButton123.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton123.TabIndex = 39
-        Me.ExRadioButton123.TabStop = True
-        Me.ExRadioButton123.Text = "3.ある"
-        Me.ExRadioButton123.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton124
-        '
-        Me.ExRadioButton124.AutoSize = True
-        Me.ExRadioButton124.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton124.Name = "ExRadioButton124"
-        Me.ExRadioButton124.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton124.TabIndex = 38
-        Me.ExRadioButton124.TabStop = True
-        Me.ExRadioButton124.Text = "2.ときどきある"
-        Me.ExRadioButton124.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton125
-        '
-        Me.ExRadioButton125.AutoSize = True
-        Me.ExRadioButton125.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton125.Name = "ExRadioButton125"
-        Me.ExRadioButton125.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton125.TabIndex = 37
-        Me.ExRadioButton125.TabStop = True
-        Me.ExRadioButton125.Text = "1.ない"
-        Me.ExRadioButton125.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton120
-        '
-        Me.ExRadioButton120.AutoSize = True
-        Me.ExRadioButton120.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton120.Name = "ExRadioButton120"
-        Me.ExRadioButton120.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton120.TabIndex = 39
-        Me.ExRadioButton120.TabStop = True
-        Me.ExRadioButton120.Text = "3.ある"
-        Me.ExRadioButton120.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton121
-        '
-        Me.ExRadioButton121.AutoSize = True
-        Me.ExRadioButton121.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton121.Name = "ExRadioButton121"
-        Me.ExRadioButton121.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton121.TabIndex = 38
-        Me.ExRadioButton121.TabStop = True
-        Me.ExRadioButton121.Text = "2.ときどきある"
-        Me.ExRadioButton121.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton122
-        '
-        Me.ExRadioButton122.AutoSize = True
-        Me.ExRadioButton122.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton122.Name = "ExRadioButton122"
-        Me.ExRadioButton122.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton122.TabIndex = 37
-        Me.ExRadioButton122.TabStop = True
-        Me.ExRadioButton122.Text = "1.ない"
-        Me.ExRadioButton122.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton117
-        '
-        Me.ExRadioButton117.AutoSize = True
-        Me.ExRadioButton117.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton117.Name = "ExRadioButton117"
-        Me.ExRadioButton117.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton117.TabIndex = 39
-        Me.ExRadioButton117.TabStop = True
-        Me.ExRadioButton117.Text = "3.ある"
-        Me.ExRadioButton117.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton118
-        '
-        Me.ExRadioButton118.AutoSize = True
-        Me.ExRadioButton118.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton118.Name = "ExRadioButton118"
-        Me.ExRadioButton118.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton118.TabIndex = 38
-        Me.ExRadioButton118.TabStop = True
-        Me.ExRadioButton118.Text = "2.ときどきある"
-        Me.ExRadioButton118.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton119
-        '
-        Me.ExRadioButton119.AutoSize = True
-        Me.ExRadioButton119.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton119.Name = "ExRadioButton119"
-        Me.ExRadioButton119.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton119.TabIndex = 37
-        Me.ExRadioButton119.TabStop = True
-        Me.ExRadioButton119.Text = "1.ない"
-        Me.ExRadioButton119.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton114
-        '
-        Me.ExRadioButton114.AutoSize = True
-        Me.ExRadioButton114.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton114.Name = "ExRadioButton114"
-        Me.ExRadioButton114.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton114.TabIndex = 39
-        Me.ExRadioButton114.TabStop = True
-        Me.ExRadioButton114.Text = "3.ある"
-        Me.ExRadioButton114.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton115
-        '
-        Me.ExRadioButton115.AutoSize = True
-        Me.ExRadioButton115.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton115.Name = "ExRadioButton115"
-        Me.ExRadioButton115.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton115.TabIndex = 38
-        Me.ExRadioButton115.TabStop = True
-        Me.ExRadioButton115.Text = "2.ときどきある"
-        Me.ExRadioButton115.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton116
-        '
-        Me.ExRadioButton116.AutoSize = True
-        Me.ExRadioButton116.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton116.Name = "ExRadioButton116"
-        Me.ExRadioButton116.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton116.TabIndex = 37
-        Me.ExRadioButton116.TabStop = True
-        Me.ExRadioButton116.Text = "1.ない"
-        Me.ExRadioButton116.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton111
-        '
-        Me.ExRadioButton111.AutoSize = True
-        Me.ExRadioButton111.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton111.Name = "ExRadioButton111"
-        Me.ExRadioButton111.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton111.TabIndex = 39
-        Me.ExRadioButton111.TabStop = True
-        Me.ExRadioButton111.Text = "3.ある"
-        Me.ExRadioButton111.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton112
-        '
-        Me.ExRadioButton112.AutoSize = True
-        Me.ExRadioButton112.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton112.Name = "ExRadioButton112"
-        Me.ExRadioButton112.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton112.TabIndex = 38
-        Me.ExRadioButton112.TabStop = True
-        Me.ExRadioButton112.Text = "2.ときどきある"
-        Me.ExRadioButton112.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton113
-        '
-        Me.ExRadioButton113.AutoSize = True
-        Me.ExRadioButton113.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton113.Name = "ExRadioButton113"
-        Me.ExRadioButton113.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton113.TabIndex = 37
-        Me.ExRadioButton113.TabStop = True
-        Me.ExRadioButton113.Text = "1.ない"
-        Me.ExRadioButton113.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton108
-        '
-        Me.ExRadioButton108.AutoSize = True
-        Me.ExRadioButton108.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton108.Name = "ExRadioButton108"
-        Me.ExRadioButton108.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton108.TabIndex = 39
-        Me.ExRadioButton108.TabStop = True
-        Me.ExRadioButton108.Text = "3.ある"
-        Me.ExRadioButton108.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton109
-        '
-        Me.ExRadioButton109.AutoSize = True
-        Me.ExRadioButton109.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton109.Name = "ExRadioButton109"
-        Me.ExRadioButton109.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton109.TabIndex = 38
-        Me.ExRadioButton109.TabStop = True
-        Me.ExRadioButton109.Text = "2.ときどきある"
-        Me.ExRadioButton109.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton110
-        '
-        Me.ExRadioButton110.AutoSize = True
-        Me.ExRadioButton110.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton110.Name = "ExRadioButton110"
-        Me.ExRadioButton110.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton110.TabIndex = 37
-        Me.ExRadioButton110.TabStop = True
-        Me.ExRadioButton110.Text = "1.ない"
-        Me.ExRadioButton110.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton105
-        '
-        Me.ExRadioButton105.AutoSize = True
-        Me.ExRadioButton105.Location = New System.Drawing.Point(492, 10)
-        Me.ExRadioButton105.Name = "ExRadioButton105"
-        Me.ExRadioButton105.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton105.TabIndex = 36
-        Me.ExRadioButton105.TabStop = True
-        Me.ExRadioButton105.Text = "3.ある"
-        Me.ExRadioButton105.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton106
-        '
-        Me.ExRadioButton106.AutoSize = True
-        Me.ExRadioButton106.Location = New System.Drawing.Point(364, 10)
-        Me.ExRadioButton106.Name = "ExRadioButton106"
-        Me.ExRadioButton106.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton106.TabIndex = 35
-        Me.ExRadioButton106.TabStop = True
-        Me.ExRadioButton106.Text = "2.ときどきある"
-        Me.ExRadioButton106.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton107
-        '
-        Me.ExRadioButton107.AutoSize = True
-        Me.ExRadioButton107.Location = New System.Drawing.Point(259, 10)
-        Me.ExRadioButton107.Name = "ExRadioButton107"
-        Me.ExRadioButton107.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton107.TabIndex = 34
-        Me.ExRadioButton107.TabStop = True
-        Me.ExRadioButton107.Text = "1.ない"
-        Me.ExRadioButton107.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton160
-        '
-        Me.ExRadioButton160.AutoSize = True
-        Me.ExRadioButton160.Location = New System.Drawing.Point(345, 10)
-        Me.ExRadioButton160.Name = "ExRadioButton160"
-        Me.ExRadioButton160.Size = New System.Drawing.Size(50, 16)
-        Me.ExRadioButton160.TabIndex = 51
-        Me.ExRadioButton160.TabStop = True
-        Me.ExRadioButton160.Text = "3.ある"
-        Me.ExRadioButton160.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton161
-        '
-        Me.ExRadioButton161.AutoSize = True
-        Me.ExRadioButton161.Location = New System.Drawing.Point(222, 10)
-        Me.ExRadioButton161.Name = "ExRadioButton161"
-        Me.ExRadioButton161.Size = New System.Drawing.Size(85, 16)
-        Me.ExRadioButton161.TabIndex = 50
-        Me.ExRadioButton161.TabStop = True
-        Me.ExRadioButton161.Text = "2.ときどきある"
-        Me.ExRadioButton161.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton162
-        '
-        Me.ExRadioButton162.AutoSize = True
-        Me.ExRadioButton162.Location = New System.Drawing.Point(134, 10)
-        Me.ExRadioButton162.Name = "ExRadioButton162"
-        Me.ExRadioButton162.Size = New System.Drawing.Size(51, 16)
-        Me.ExRadioButton162.TabIndex = 49
-        Me.ExRadioButton162.TabStop = True
-        Me.ExRadioButton162.Text = "1.ない"
-        Me.ExRadioButton162.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton159
-        '
-        Me.ExRadioButton159.AutoSize = True
-        Me.ExRadioButton159.Location = New System.Drawing.Point(619, 10)
-        Me.ExRadioButton159.Name = "ExRadioButton159"
-        Me.ExRadioButton159.Size = New System.Drawing.Size(70, 16)
-        Me.ExRadioButton159.TabIndex = 49
-        Me.ExRadioButton159.TabStop = True
-        Me.ExRadioButton159.Text = "4.できない"
-        Me.ExRadioButton159.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton156
-        '
-        Me.ExRadioButton156.AutoSize = True
-        Me.ExRadioButton156.Location = New System.Drawing.Point(501, 10)
-        Me.ExRadioButton156.Name = "ExRadioButton156"
-        Me.ExRadioButton156.Size = New System.Drawing.Size(100, 16)
-        Me.ExRadioButton156.TabIndex = 48
-        Me.ExRadioButton156.TabStop = True
-        Me.ExRadioButton156.Text = "3.日常的に困難"
-        Me.ExRadioButton156.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton157
-        '
-        Me.ExRadioButton157.AutoSize = True
-        Me.ExRadioButton157.Location = New System.Drawing.Point(327, 10)
-        Me.ExRadioButton157.Name = "ExRadioButton157"
-        Me.ExRadioButton157.Size = New System.Drawing.Size(157, 16)
-        Me.ExRadioButton157.TabIndex = 47
-        Me.ExRadioButton157.TabStop = True
-        Me.ExRadioButton157.Text = "2.特別な場合を除いてできる"
-        Me.ExRadioButton157.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton158
-        '
-        Me.ExRadioButton158.AutoSize = True
-        Me.ExRadioButton158.Location = New System.Drawing.Point(134, 10)
-        Me.ExRadioButton158.Name = "ExRadioButton158"
-        Me.ExRadioButton158.Size = New System.Drawing.Size(176, 16)
-        Me.ExRadioButton158.TabIndex = 46
-        Me.ExRadioButton158.TabStop = True
-        Me.ExRadioButton158.Text = "1.できる（特別な場合でもできる）"
-        Me.ExRadioButton158.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton167
-        '
-        Me.ExRadioButton167.AutoSize = True
-        Me.ExRadioButton167.Location = New System.Drawing.Point(476, 10)
-        Me.ExRadioButton167.Name = "ExRadioButton167"
-        Me.ExRadioButton167.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton167.TabIndex = 51
-        Me.ExRadioButton167.TabStop = True
-        Me.ExRadioButton167.Text = "4.全介助"
-        Me.ExRadioButton167.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton168
-        '
-        Me.ExRadioButton168.AutoSize = True
-        Me.ExRadioButton168.Location = New System.Drawing.Point(371, 9)
-        Me.ExRadioButton168.Name = "ExRadioButton168"
-        Me.ExRadioButton168.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton168.TabIndex = 50
-        Me.ExRadioButton168.TabStop = True
-        Me.ExRadioButton168.Text = "3.一部介助"
-        Me.ExRadioButton168.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton169
-        '
-        Me.ExRadioButton169.AutoSize = True
-        Me.ExRadioButton169.Location = New System.Drawing.Point(268, 10)
-        Me.ExRadioButton169.Name = "ExRadioButton169"
-        Me.ExRadioButton169.Size = New System.Drawing.Size(75, 16)
-        Me.ExRadioButton169.TabIndex = 49
-        Me.ExRadioButton169.TabStop = True
-        Me.ExRadioButton169.Text = "2.見守り等"
-        Me.ExRadioButton169.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton170
-        '
-        Me.ExRadioButton170.AutoSize = True
-        Me.ExRadioButton170.Location = New System.Drawing.Point(134, 10)
-        Me.ExRadioButton170.Name = "ExRadioButton170"
-        Me.ExRadioButton170.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton170.TabIndex = 48
-        Me.ExRadioButton170.TabStop = True
-        Me.ExRadioButton170.Text = "1.自立（介助なし）"
-        Me.ExRadioButton170.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton153
-        '
-        Me.ExRadioButton153.AutoSize = True
-        Me.ExRadioButton153.Location = New System.Drawing.Point(411, 10)
-        Me.ExRadioButton153.Name = "ExRadioButton153"
-        Me.ExRadioButton153.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton153.TabIndex = 48
-        Me.ExRadioButton153.TabStop = True
-        Me.ExRadioButton153.Text = "3.全介助"
-        Me.ExRadioButton153.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton154
-        '
-        Me.ExRadioButton154.AutoSize = True
-        Me.ExRadioButton154.Location = New System.Drawing.Point(285, 10)
-        Me.ExRadioButton154.Name = "ExRadioButton154"
-        Me.ExRadioButton154.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton154.TabIndex = 47
-        Me.ExRadioButton154.TabStop = True
-        Me.ExRadioButton154.Text = "2.一部介助"
-        Me.ExRadioButton154.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton155
-        '
-        Me.ExRadioButton155.AutoSize = True
-        Me.ExRadioButton155.Location = New System.Drawing.Point(134, 10)
-        Me.ExRadioButton155.Name = "ExRadioButton155"
-        Me.ExRadioButton155.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton155.TabIndex = 46
-        Me.ExRadioButton155.TabStop = True
-        Me.ExRadioButton155.Text = "1.自立（介助なし）"
-        Me.ExRadioButton155.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton163
-        '
-        Me.ExRadioButton163.AutoSize = True
-        Me.ExRadioButton163.Location = New System.Drawing.Point(476, 10)
-        Me.ExRadioButton163.Name = "ExRadioButton163"
-        Me.ExRadioButton163.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton163.TabIndex = 50
-        Me.ExRadioButton163.TabStop = True
-        Me.ExRadioButton163.Text = "4.全介助"
-        Me.ExRadioButton163.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton164
-        '
-        Me.ExRadioButton164.AutoSize = True
-        Me.ExRadioButton164.Location = New System.Drawing.Point(371, 9)
-        Me.ExRadioButton164.Name = "ExRadioButton164"
-        Me.ExRadioButton164.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton164.TabIndex = 49
-        Me.ExRadioButton164.TabStop = True
-        Me.ExRadioButton164.Text = "3.一部介助"
-        Me.ExRadioButton164.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton165
-        '
-        Me.ExRadioButton165.AutoSize = True
-        Me.ExRadioButton165.Location = New System.Drawing.Point(268, 10)
-        Me.ExRadioButton165.Name = "ExRadioButton165"
-        Me.ExRadioButton165.Size = New System.Drawing.Size(75, 16)
-        Me.ExRadioButton165.TabIndex = 48
-        Me.ExRadioButton165.TabStop = True
-        Me.ExRadioButton165.Text = "2.見守り等"
-        Me.ExRadioButton165.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton166
-        '
-        Me.ExRadioButton166.AutoSize = True
-        Me.ExRadioButton166.Location = New System.Drawing.Point(134, 10)
-        Me.ExRadioButton166.Name = "ExRadioButton166"
-        Me.ExRadioButton166.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton166.TabIndex = 47
-        Me.ExRadioButton166.TabStop = True
-        Me.ExRadioButton166.Text = "1.自立（介助なし）"
-        Me.ExRadioButton166.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton150
-        '
-        Me.ExRadioButton150.AutoSize = True
-        Me.ExRadioButton150.Location = New System.Drawing.Point(411, 10)
-        Me.ExRadioButton150.Name = "ExRadioButton150"
-        Me.ExRadioButton150.Size = New System.Drawing.Size(67, 16)
-        Me.ExRadioButton150.TabIndex = 45
-        Me.ExRadioButton150.TabStop = True
-        Me.ExRadioButton150.Text = "3.全介助"
-        Me.ExRadioButton150.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton151
-        '
-        Me.ExRadioButton151.AutoSize = True
-        Me.ExRadioButton151.Location = New System.Drawing.Point(285, 10)
-        Me.ExRadioButton151.Name = "ExRadioButton151"
-        Me.ExRadioButton151.Size = New System.Drawing.Size(79, 16)
-        Me.ExRadioButton151.TabIndex = 44
-        Me.ExRadioButton151.TabStop = True
-        Me.ExRadioButton151.Text = "2.一部介助"
-        Me.ExRadioButton151.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton152
-        '
-        Me.ExRadioButton152.AutoSize = True
-        Me.ExRadioButton152.Location = New System.Drawing.Point(134, 10)
-        Me.ExRadioButton152.Name = "ExRadioButton152"
-        Me.ExRadioButton152.Size = New System.Drawing.Size(110, 16)
-        Me.ExRadioButton152.TabIndex = 43
-        Me.ExRadioButton152.TabStop = True
-        Me.ExRadioButton152.Text = "1.自立（介助なし）"
-        Me.ExRadioButton152.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox23
-        '
-        Me.ExCheckBox23.AutoSize = True
-        Me.ExCheckBox23.Location = New System.Drawing.Point(229, 276)
-        Me.ExCheckBox23.Name = "ExCheckBox23"
-        Me.ExCheckBox23.Size = New System.Drawing.Size(343, 16)
-        Me.ExCheckBox23.TabIndex = 75
-        Me.ExCheckBox23.Text = "12.カテーテル（コンドームカテーテル、留置カテーテル、ウロストーマ等）"
-        Me.ExCheckBox23.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox22
-        '
-        Me.ExCheckBox22.AutoSize = True
-        Me.ExCheckBox22.Location = New System.Drawing.Point(502, 234)
-        Me.ExCheckBox22.Name = "ExCheckBox22"
-        Me.ExCheckBox22.Size = New System.Drawing.Size(110, 16)
-        Me.ExCheckBox22.TabIndex = 74
-        Me.ExCheckBox22.Text = "11.じょくそうの処置"
-        Me.ExCheckBox22.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox21
-        '
-        Me.ExCheckBox21.AutoSize = True
-        Me.ExCheckBox21.Location = New System.Drawing.Point(229, 234)
-        Me.ExCheckBox21.Name = "ExCheckBox21"
-        Me.ExCheckBox21.Size = New System.Drawing.Size(246, 16)
-        Me.ExCheckBox21.TabIndex = 73
-        Me.ExCheckBox21.Text = "10.モニター測定（血圧、心拍、酸素飽和度等）"
-        Me.ExCheckBox21.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox20
-        '
-        Me.ExCheckBox20.AutoSize = True
-        Me.ExCheckBox20.Location = New System.Drawing.Point(343, 159)
-        Me.ExCheckBox20.Name = "ExCheckBox20"
-        Me.ExCheckBox20.Size = New System.Drawing.Size(80, 16)
-        Me.ExCheckBox20.TabIndex = 72
-        Me.ExCheckBox20.Text = "9.経管栄養"
-        Me.ExCheckBox20.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox16
-        '
-        Me.ExCheckBox16.AutoSize = True
-        Me.ExCheckBox16.Location = New System.Drawing.Point(229, 159)
-        Me.ExCheckBox16.Name = "ExCheckBox16"
-        Me.ExCheckBox16.Size = New System.Drawing.Size(90, 16)
-        Me.ExCheckBox16.TabIndex = 71
-        Me.ExCheckBox16.Text = "8.疼痛の看護"
-        Me.ExCheckBox16.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox17
-        '
-        Me.ExCheckBox17.AutoSize = True
-        Me.ExCheckBox17.Location = New System.Drawing.Point(547, 117)
-        Me.ExCheckBox17.Name = "ExCheckBox17"
-        Me.ExCheckBox17.Size = New System.Drawing.Size(114, 16)
-        Me.ExCheckBox17.TabIndex = 70
-        Me.ExCheckBox17.Text = "7.気管切開の処置"
-        Me.ExCheckBox17.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox18
-        '
-        Me.ExCheckBox18.AutoSize = True
-        Me.ExCheckBox18.Location = New System.Drawing.Point(343, 117)
-        Me.ExCheckBox18.Name = "ExCheckBox18"
-        Me.ExCheckBox18.Size = New System.Drawing.Size(168, 16)
-        Me.ExCheckBox18.TabIndex = 69
-        Me.ExCheckBox18.Text = "6.レスピレーター（人工呼吸器）"
-        Me.ExCheckBox18.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox19
-        '
-        Me.ExCheckBox19.AutoSize = True
-        Me.ExCheckBox19.Location = New System.Drawing.Point(229, 117)
-        Me.ExCheckBox19.Name = "ExCheckBox19"
-        Me.ExCheckBox19.Size = New System.Drawing.Size(80, 16)
-        Me.ExCheckBox19.TabIndex = 68
-        Me.ExCheckBox19.Text = "5.酸素療法"
-        Me.ExCheckBox19.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox15
-        '
-        Me.ExCheckBox15.AutoSize = True
-        Me.ExCheckBox15.Location = New System.Drawing.Point(547, 75)
-        Me.ExCheckBox15.Name = "ExCheckBox15"
-        Me.ExCheckBox15.Size = New System.Drawing.Size(162, 16)
-        Me.ExCheckBox15.TabIndex = 67
-        Me.ExCheckBox15.Text = "4.ストーマ（人工肛門）の処置"
-        Me.ExCheckBox15.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox14
-        '
-        Me.ExCheckBox14.AutoSize = True
-        Me.ExCheckBox14.Location = New System.Drawing.Point(470, 75)
-        Me.ExCheckBox14.Name = "ExCheckBox14"
-        Me.ExCheckBox14.Size = New System.Drawing.Size(56, 16)
-        Me.ExCheckBox14.TabIndex = 66
-        Me.ExCheckBox14.Text = "3.透析"
-        Me.ExCheckBox14.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox13
-        '
-        Me.ExCheckBox13.AutoSize = True
-        Me.ExCheckBox13.Location = New System.Drawing.Point(343, 75)
-        Me.ExCheckBox13.Name = "ExCheckBox13"
-        Me.ExCheckBox13.Size = New System.Drawing.Size(104, 16)
-        Me.ExCheckBox13.TabIndex = 65
-        Me.ExCheckBox13.Text = "2.中心静脈栄養"
-        Me.ExCheckBox13.UseVisualStyleBackColor = True
-        '
-        'ExCheckBox12
-        '
-        Me.ExCheckBox12.AutoSize = True
-        Me.ExCheckBox12.Location = New System.Drawing.Point(229, 75)
-        Me.ExCheckBox12.Name = "ExCheckBox12"
-        Me.ExCheckBox12.Size = New System.Drawing.Size(90, 16)
-        Me.ExCheckBox12.TabIndex = 64
-        Me.ExCheckBox12.Text = "1.点滴の管理"
-        Me.ExCheckBox12.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton181
-        '
-        Me.ExRadioButton181.AutoSize = True
-        Me.ExRadioButton181.Location = New System.Drawing.Point(593, 10)
-        Me.ExRadioButton181.Name = "ExRadioButton181"
-        Me.ExRadioButton181.Size = New System.Drawing.Size(32, 16)
-        Me.ExRadioButton181.TabIndex = 78
-        Me.ExRadioButton181.TabStop = True
-        Me.ExRadioButton181.Text = "M"
-        Me.ExRadioButton181.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton182
-        '
-        Me.ExRadioButton182.AutoSize = True
-        Me.ExRadioButton182.Location = New System.Drawing.Point(547, 10)
-        Me.ExRadioButton182.Name = "ExRadioButton182"
-        Me.ExRadioButton182.Size = New System.Drawing.Size(35, 16)
-        Me.ExRadioButton182.TabIndex = 77
-        Me.ExRadioButton182.TabStop = True
-        Me.ExRadioButton182.Text = "Ⅳ"
-        Me.ExRadioButton182.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton183
-        '
-        Me.ExRadioButton183.AutoSize = True
-        Me.ExRadioButton183.Location = New System.Drawing.Point(501, 10)
-        Me.ExRadioButton183.Name = "ExRadioButton183"
-        Me.ExRadioButton183.Size = New System.Drawing.Size(42, 16)
-        Me.ExRadioButton183.TabIndex = 76
-        Me.ExRadioButton183.TabStop = True
-        Me.ExRadioButton183.Text = "Ⅲｂ"
-        Me.ExRadioButton183.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton184
-        '
-        Me.ExRadioButton184.AutoSize = True
-        Me.ExRadioButton184.Location = New System.Drawing.Point(455, 10)
-        Me.ExRadioButton184.Name = "ExRadioButton184"
-        Me.ExRadioButton184.Size = New System.Drawing.Size(42, 16)
-        Me.ExRadioButton184.TabIndex = 75
-        Me.ExRadioButton184.TabStop = True
-        Me.ExRadioButton184.Text = "Ⅲａ"
-        Me.ExRadioButton184.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton185
-        '
-        Me.ExRadioButton185.AutoSize = True
-        Me.ExRadioButton185.Location = New System.Drawing.Point(409, 10)
-        Me.ExRadioButton185.Name = "ExRadioButton185"
-        Me.ExRadioButton185.Size = New System.Drawing.Size(42, 16)
-        Me.ExRadioButton185.TabIndex = 74
-        Me.ExRadioButton185.TabStop = True
-        Me.ExRadioButton185.Text = "Ⅱｂ"
-        Me.ExRadioButton185.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton186
-        '
-        Me.ExRadioButton186.AutoSize = True
-        Me.ExRadioButton186.Location = New System.Drawing.Point(363, 10)
-        Me.ExRadioButton186.Name = "ExRadioButton186"
-        Me.ExRadioButton186.Size = New System.Drawing.Size(42, 16)
-        Me.ExRadioButton186.TabIndex = 73
-        Me.ExRadioButton186.TabStop = True
-        Me.ExRadioButton186.Text = "Ⅱａ"
-        Me.ExRadioButton186.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton187
-        '
-        Me.ExRadioButton187.AutoSize = True
-        Me.ExRadioButton187.Location = New System.Drawing.Point(317, 10)
-        Me.ExRadioButton187.Name = "ExRadioButton187"
-        Me.ExRadioButton187.Size = New System.Drawing.Size(35, 16)
-        Me.ExRadioButton187.TabIndex = 72
-        Me.ExRadioButton187.TabStop = True
-        Me.ExRadioButton187.Text = "Ⅰ"
-        Me.ExRadioButton187.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton188
-        '
-        Me.ExRadioButton188.AutoSize = True
-        Me.ExRadioButton188.Location = New System.Drawing.Point(262, 10)
-        Me.ExRadioButton188.Name = "ExRadioButton188"
-        Me.ExRadioButton188.Size = New System.Drawing.Size(47, 16)
-        Me.ExRadioButton188.TabIndex = 71
-        Me.ExRadioButton188.TabStop = True
-        Me.ExRadioButton188.Text = "自立"
-        Me.ExRadioButton188.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton179
-        '
-        Me.ExRadioButton179.AutoSize = True
-        Me.ExRadioButton179.Location = New System.Drawing.Point(639, 10)
-        Me.ExRadioButton179.Name = "ExRadioButton179"
-        Me.ExRadioButton179.Size = New System.Drawing.Size(37, 16)
-        Me.ExRadioButton179.TabIndex = 70
-        Me.ExRadioButton179.TabStop = True
-        Me.ExRadioButton179.Text = "C2"
-        Me.ExRadioButton179.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton178
-        '
-        Me.ExRadioButton178.AutoSize = True
-        Me.ExRadioButton178.Location = New System.Drawing.Point(593, 10)
-        Me.ExRadioButton178.Name = "ExRadioButton178"
-        Me.ExRadioButton178.Size = New System.Drawing.Size(37, 16)
-        Me.ExRadioButton178.TabIndex = 69
-        Me.ExRadioButton178.TabStop = True
-        Me.ExRadioButton178.Text = "C1"
-        Me.ExRadioButton178.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton177
-        '
-        Me.ExRadioButton177.AutoSize = True
-        Me.ExRadioButton177.Location = New System.Drawing.Point(547, 10)
-        Me.ExRadioButton177.Name = "ExRadioButton177"
-        Me.ExRadioButton177.Size = New System.Drawing.Size(37, 16)
-        Me.ExRadioButton177.TabIndex = 68
-        Me.ExRadioButton177.TabStop = True
-        Me.ExRadioButton177.Text = "B2"
-        Me.ExRadioButton177.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton176
-        '
-        Me.ExRadioButton176.AutoSize = True
-        Me.ExRadioButton176.Location = New System.Drawing.Point(501, 10)
-        Me.ExRadioButton176.Name = "ExRadioButton176"
-        Me.ExRadioButton176.Size = New System.Drawing.Size(37, 16)
-        Me.ExRadioButton176.TabIndex = 67
-        Me.ExRadioButton176.TabStop = True
-        Me.ExRadioButton176.Text = "B1"
-        Me.ExRadioButton176.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton175
-        '
-        Me.ExRadioButton175.AutoSize = True
-        Me.ExRadioButton175.Location = New System.Drawing.Point(455, 10)
-        Me.ExRadioButton175.Name = "ExRadioButton175"
-        Me.ExRadioButton175.Size = New System.Drawing.Size(37, 16)
-        Me.ExRadioButton175.TabIndex = 66
-        Me.ExRadioButton175.TabStop = True
-        Me.ExRadioButton175.Text = "A2"
-        Me.ExRadioButton175.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton174
-        '
-        Me.ExRadioButton174.AutoSize = True
-        Me.ExRadioButton174.Location = New System.Drawing.Point(409, 10)
-        Me.ExRadioButton174.Name = "ExRadioButton174"
-        Me.ExRadioButton174.Size = New System.Drawing.Size(37, 16)
-        Me.ExRadioButton174.TabIndex = 65
-        Me.ExRadioButton174.TabStop = True
-        Me.ExRadioButton174.Text = "A1"
-        Me.ExRadioButton174.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton173
-        '
-        Me.ExRadioButton173.AutoSize = True
-        Me.ExRadioButton173.Location = New System.Drawing.Point(363, 10)
-        Me.ExRadioButton173.Name = "ExRadioButton173"
-        Me.ExRadioButton173.Size = New System.Drawing.Size(36, 16)
-        Me.ExRadioButton173.TabIndex = 64
-        Me.ExRadioButton173.TabStop = True
-        Me.ExRadioButton173.Text = "J2"
-        Me.ExRadioButton173.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton172
-        '
-        Me.ExRadioButton172.AutoSize = True
-        Me.ExRadioButton172.Location = New System.Drawing.Point(317, 10)
-        Me.ExRadioButton172.Name = "ExRadioButton172"
-        Me.ExRadioButton172.Size = New System.Drawing.Size(36, 16)
-        Me.ExRadioButton172.TabIndex = 63
-        Me.ExRadioButton172.TabStop = True
-        Me.ExRadioButton172.Text = "J1"
-        Me.ExRadioButton172.UseVisualStyleBackColor = True
-        '
-        'ExRadioButton171
-        '
-        Me.ExRadioButton171.AutoSize = True
-        Me.ExRadioButton171.Location = New System.Drawing.Point(262, 10)
-        Me.ExRadioButton171.Name = "ExRadioButton171"
-        Me.ExRadioButton171.Size = New System.Drawing.Size(47, 16)
-        Me.ExRadioButton171.TabIndex = 62
-        Me.ExRadioButton171.TabStop = True
-        Me.ExRadioButton171.Text = "自立"
-        Me.ExRadioButton171.UseVisualStyleBackColor = True
         '
         '認定調査票
         '
@@ -7814,22 +7814,30 @@ Partial Class 認定調査票
         Me.Panel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).EndInit()
         Me.specialNotePage.ResumeLayout(False)
         Me.spTab.ResumeLayout(False)
         Me.spTabP1.ResumeLayout(False)
         Me.spTabP1.PerformLayout()
+        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP2.ResumeLayout(False)
         Me.spTabP2.PerformLayout()
+        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP3.ResumeLayout(False)
         Me.spTabP3.PerformLayout()
+        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP4.ResumeLayout(False)
         Me.spTabP4.PerformLayout()
+        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP5.ResumeLayout(False)
         Me.spTabP5.PerformLayout()
+        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP6.ResumeLayout(False)
         Me.spTabP6.PerformLayout()
+        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP7.ResumeLayout(False)
         Me.spTabP7.PerformLayout()
+        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.basicSurveyPage.ResumeLayout(False)
         Me.bsTab.ResumeLayout(False)
         Me.bsTabP1.ResumeLayout(False)
@@ -7956,14 +7964,6 @@ Partial Class 認定調査票
         Me.GroupBox57.PerformLayout()
         Me.GroupBox56.ResumeLayout(False)
         Me.GroupBox56.PerformLayout()
-        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -8353,216 +8353,216 @@ Partial Class 認定調査票
     Friend WithEvents Label181 As System.Windows.Forms.Label
     Friend WithEvents GroupBox57 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox56 As System.Windows.Forms.GroupBox
-    Friend WithEvents ExCheckBox1 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox6 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox5 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox4 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox3 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox2 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox7 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox8 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox11 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox9 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox10 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExRadioButton3 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton2 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton1 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton10 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton7 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton8 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton9 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton4 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton5 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton6 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton34 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton33 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton32 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton31 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton30 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton27 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton28 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton29 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton23 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton24 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton25 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton26 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton20 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton21 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton22 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton17 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton18 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton19 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton14 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton15 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton16 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton11 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton12 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton13 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton35 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton36 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton37 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton38 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton39 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton40 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton41 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton42 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton43 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton80 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton81 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton82 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton72 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton73 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton74 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton75 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton76 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton77 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton78 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton79 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton69 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton70 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton71 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton63 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton67 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton68 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton64 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton65 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton66 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton59 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton60 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton61 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton62 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton55 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton56 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton57 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton58 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton48 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton52 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton53 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton54 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton49 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton50 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton51 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton44 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton45 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton46 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton47 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton86 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton85 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton84 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton83 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton93 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton94 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton91 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton92 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton97 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton98 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton89 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton90 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton95 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton96 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton88 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton87 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton102 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton103 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton104 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton101 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton99 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton100 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton147 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton148 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton149 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton144 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton145 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton146 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton141 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton142 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton143 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton138 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton139 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton140 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton135 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton136 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton137 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton132 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton133 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton134 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton129 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton130 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton131 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton126 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton127 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton128 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton123 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton124 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton125 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton120 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton121 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton122 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton117 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton118 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton119 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton114 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton115 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton116 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton111 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton112 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton113 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton108 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton109 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton110 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton105 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton106 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton107 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton160 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton161 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton162 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton159 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton156 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton157 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton158 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton167 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton168 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton169 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton170 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton153 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton154 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton155 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton163 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton164 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton165 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton166 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton150 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton151 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton152 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExCheckBox23 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox22 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox21 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox20 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox16 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox17 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox18 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox19 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox15 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox14 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox13 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExCheckBox12 As Symphony_KSave2.ExCheckBox
-    Friend WithEvents ExRadioButton181 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton182 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton183 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton184 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton185 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton186 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton187 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton188 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton179 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton178 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton177 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton176 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton175 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton174 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton173 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton172 As Symphony_KSave2.ExRadioButton
-    Friend WithEvents ExRadioButton171 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents Ch2_1 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch2_6 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch2_5 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch2_4 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch2_3 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch2_2 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch3_5 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch3_4 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch3_1 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch3_3 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch3_2 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents rb1_3_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_3_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_3_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_5_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_5_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_5_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_5_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_4_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_4_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_4_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_12_5 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_12_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_12_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_12_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_12_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_11_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_11_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_11_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_10_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_10_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_10_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_10_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_9_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_9_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_9_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_8_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_8_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_8_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_7_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_7_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_7_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_6_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_6_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_6_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_13_5 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_13_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_13_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_13_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb1_13_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_1_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_1_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_1_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_1_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_12_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_12_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_12_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_10_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_10_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_10_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_10_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_11_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_11_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_11_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_11_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_9_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_9_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_9_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_8_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_8_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_8_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_7_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_7_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_7_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_6_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_6_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_6_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_6_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_5_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_5_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_5_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_5_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_4_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_4_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_4_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_4_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_3_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_3_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_3_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_2_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_2_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_2_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb2_2_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_1_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_1_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_1_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_1_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_5_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_5_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_4_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_4_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_7_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_7_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_3_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_3_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_6_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_6_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_2_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_2_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_9_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_9_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_9_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_8_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_8_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb3_8_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_15_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_15_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_15_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_14_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_14_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_14_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_13_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_13_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_13_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_12_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_12_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_12_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_11_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_11_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_11_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_10_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_10_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_10_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_9_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_9_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_9_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_8_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_8_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_8_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_7_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_7_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_7_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_6_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_6_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_6_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_5_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_5_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_5_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_4_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_4_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_4_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_3_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_3_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_3_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_2_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_2_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_2_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_1_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_1_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb4_1_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_4_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_4_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_4_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_3_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_3_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_3_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_3_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_6_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_6_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_6_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_6_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_2_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_2_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_2_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_5_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_5_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_5_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_5_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_1_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_1_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb5_1_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents Ch4_12 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_11 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_10 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_9 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_8 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_7 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_6 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_5 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_4 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_3 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_2 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents Ch4_1 As Symphony_KSave2.ExCheckBox
+    Friend WithEvents rb7_2_8 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_2_7 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_2_6 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_2_5 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_2_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_2_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_2_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_2_1 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_1_9 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_1_8 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_1_7 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_1_6 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_1_5 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_1_4 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_1_3 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_1_2 As Symphony_KSave2.ExRadioButton
+    Friend WithEvents rb7_1_1 As Symphony_KSave2.ExRadioButton
     Friend WithEvents houseTextBox As Symphony_KSave2.ExTextBox
     Friend WithEvents currentPostCode1 As Symphony_KSave2.ExTextBox
     Friend WithEvents currentPostCode2 As Symphony_KSave2.ExTextBox

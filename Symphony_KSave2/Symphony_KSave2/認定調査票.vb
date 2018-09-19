@@ -591,6 +591,7 @@ Public Class 認定調査票
     Private Sub clearAllInputData()
         '概況調査タブ
         clearOverviewPageInputBox()
+
         '特記事項タブ
         SpDgv1.clearText()
         SpDgv2.clearText()
@@ -601,6 +602,15 @@ Public Class 認定調査票
         SpDgv7.clearText()
 
         '基本調査タブ
+        For Each tp As TabPage In bsTab.TabPages
+            For Each c As Control In tp.Controls
+                If TypeOf c Is ExCheckBox Then
+                    CType(c, ExCheckBox).Checked = False
+                ElseIf TypeOf c Is ExRadioButton Then
+                    CType(c, ExRadioButton).Checked = False
+                End If
+            Next
+        Next
 
     End Sub
 
@@ -810,10 +820,517 @@ Public Class 認定調査票
                 rs.MoveNext()
             End While
         End If
+        rs.Close()
 
         '基本調査タブの表示処理
+        sql = "select * from Auth2 where Nam='" & nam & "' and Ymd='" & ymd1 & "' order by Gyo"
+        rs = New ADODB.Recordset
+        rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockReadOnly)
 
+        '1.身体機能・起居動作
+        '1-1 麻痺等の有無
+        rs.Find("Gyo=0")
+        Ch2_1.Checked = If(Util.checkDBNullValue(rs.Fields("Ch2").Value) = 1, True, False)
+        rs.Find("Gyo=1")
+        Ch2_2.Checked = If(Util.checkDBNullValue(rs.Fields("Ch2").Value) = 1, True, False)
+        rs.Find("Gyo=2")
+        Ch2_3.Checked = If(Util.checkDBNullValue(rs.Fields("Ch2").Value) = 1, True, False)
+        rs.Find("Gyo=3")
+        Ch2_4.Checked = If(Util.checkDBNullValue(rs.Fields("Ch2").Value) = 1, True, False)
+        rs.Find("Gyo=4")
+        Ch2_5.Checked = If(Util.checkDBNullValue(rs.Fields("Ch2").Value) = 1, True, False)
+        rs.Find("Gyo=5")
+        Ch2_6.Checked = If(Util.checkDBNullValue(rs.Fields("Ch2").Value) = 1, True, False)
+        '1-2 拘縮の有無
+        rs.Find("Gyo=0", , ADODB.SearchDirectionEnum.adSearchBackward)
+        Ch3_1.Checked = If(Util.checkDBNullValue(rs.Fields("Ch3").Value) = 1, True, False)
+        rs.Find("Gyo=1")
+        Ch3_2.Checked = If(Util.checkDBNullValue(rs.Fields("Ch3").Value) = 1, True, False)
+        rs.Find("Gyo=2")
+        Ch3_3.Checked = If(Util.checkDBNullValue(rs.Fields("Ch3").Value) = 1, True, False)
+        rs.Find("Gyo=3")
+        Ch3_4.Checked = If(Util.checkDBNullValue(rs.Fields("Ch3").Value) = 1, True, False)
+        rs.Find("Gyo=4")
+        Ch3_5.Checked = If(Util.checkDBNullValue(rs.Fields("Ch3").Value) = 1, True, False)
+        '1-3 寝返り
+        rs.Find("Gyo=0", , ADODB.SearchDirectionEnum.adSearchBackward)
+        rb1_3_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=1")
+        rb1_3_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=2")
+        rb1_3_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '1-4 起き上がり
+        rs.Find("Gyo=3")
+        rb1_4_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=4")
+        rb1_4_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=5")
+        rb1_4_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '1-5 座位保持
+        rs.Find("Gyo=6")
+        rb1_5_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=7")
+        rb1_5_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=8")
+        rb1_5_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=9")
+        rb1_5_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '1-6 両足での立位保持
+        rs.Find("Gyo=10")
+        rb1_6_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=11")
+        rb1_6_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=12")
+        rb1_6_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '1-7 歩行
+        rs.Find("Gyo=13")
+        rb1_7_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=14")
+        rb1_7_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=15")
+        rb1_7_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '1-8 立ち上がり
+        rs.Find("Gyo=16")
+        rb1_8_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=17")
+        rb1_8_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=18")
+        rb1_8_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '1-9 片足での立位保持
+        rs.Find("Gyo=19")
+        rb1_9_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=20")
+        rb1_9_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=21")
+        rb1_9_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '1-10 洗身
+        rs.Find("Gyo=22")
+        rb1_10_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=23")
+        rb1_10_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=24")
+        rb1_10_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=25")
+        rb1_10_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '1-11 つめ切り
+        rs.Find("Gyo=26")
+        rb1_11_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=27")
+        rb1_11_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=28")
+        rb1_11_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '1-12 視力について
+        rs.Find("Gyo=29")
+        rb1_12_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=30")
+        rb1_12_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=31")
+        rb1_12_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=32")
+        rb1_12_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=33")
+        rb1_12_5.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '1-13 聴力について
+        rs.Find("Gyo=34")
+        rb1_13_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=35")
+        rb1_13_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=36")
+        rb1_13_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=37")
+        rb1_13_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=38")
+        rb1_13_5.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
 
+        '2.生活機能
+        '2-1 移乗
+        rs.Find("Gyo=39")
+        rb2_1_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=40")
+        rb2_1_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=41")
+        rb2_1_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=42")
+        rb2_1_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-2 移動
+        rs.Find("Gyo=43")
+        rb2_2_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=44")
+        rb2_2_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=45")
+        rb2_2_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=46")
+        rb2_2_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-3 えん下
+        rs.Find("Gyo=47")
+        rb2_3_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=48")
+        rb2_3_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=49")
+        rb2_3_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-4 食事摂取
+        rs.Find("Gyo=50")
+        rb2_4_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=51")
+        rb2_4_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=52")
+        rb2_4_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=53")
+        rb2_4_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-5 排尿
+        rs.Find("Gyo=54")
+        rb2_5_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=55")
+        rb2_5_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=56")
+        rb2_5_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=57")
+        rb2_5_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-6 排便
+        rs.Find("Gyo=58")
+        rb2_6_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=59")
+        rb2_6_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=60")
+        rb2_6_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=61")
+        rb2_6_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-7 口腔清潔
+        rs.Find("Gyo=62")
+        rb2_7_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=63")
+        rb2_7_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=64")
+        rb2_7_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-8 洗顔
+        rs.Find("Gyo=65")
+        rb2_8_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=66")
+        rb2_8_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=67")
+        rb2_8_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-9 整髪
+        rs.Find("Gyo=68")
+        rb2_9_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=69")
+        rb2_9_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=70")
+        rb2_9_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-10 上衣の着脱
+        rs.Find("Gyo=71")
+        rb2_10_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=72")
+        rb2_10_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=73")
+        rb2_10_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=74")
+        rb2_10_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-11 ズボン等の着脱
+        rs.Find("Gyo=75")
+        rb2_11_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=76")
+        rb2_11_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=77")
+        rb2_11_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=78")
+        rb2_11_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '2-12 外出頻度
+        rs.Find("Gyo=79")
+        rb2_12_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=80")
+        rb2_12_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=81")
+        rb2_12_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+
+        '3.認知機能
+        '3-1 意思の伝達
+        rs.Find("Gyo=82")
+        rb3_1_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=83")
+        rb3_1_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=84")
+        rb3_1_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=85")
+        rb3_1_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '3-2 毎日の日課を理解
+        rs.Find("Gyo=86")
+        rb3_2_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=87")
+        rb3_2_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '3-3 生年月日や年齢を言う
+        rs.Find("Gyo=88")
+        rb3_3_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=89")
+        rb3_3_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '3-4 短期記憶（面接調査の直前に何をしていたのか思い出す）
+        rs.Find("Gyo=90")
+        rb3_4_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=91")
+        rb3_4_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '3-5 自分の名前を言う
+        rs.Find("Gyo=92")
+        rb3_5_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=93")
+        rb3_5_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '3-6 今の季節を理解
+        rs.Find("Gyo=94")
+        rb3_6_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=95")
+        rb3_6_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '3-7 場所の理解（自分がいる場所を答える）
+        rs.Find("Gyo=96")
+        rb3_7_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=97")
+        rb3_7_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '3-8 徘徊
+        rs.Find("Gyo=98")
+        rb3_8_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=99")
+        rb3_8_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=100")
+        rb3_8_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '3-9 外出すると戻れない
+        rs.Find("Gyo=101")
+        rb3_9_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=102")
+        rb3_9_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=103")
+        rb3_9_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+
+        '4.精神・行動障害
+        '4-1 物を盗られたなどと被害的になる
+        rs.Find("Gyo=104")
+        rb4_1_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=105")
+        rb4_1_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=106")
+        rb4_1_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-2 作話をすること
+        rs.Find("Gyo=107")
+        rb4_2_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=108")
+        rb4_2_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=109")
+        rb4_2_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-3 泣いたり、笑ったりして感情が不安定になる
+        rs.Find("Gyo=110")
+        rb4_3_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=111")
+        rb4_3_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=112")
+        rb4_3_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-4 昼夜の逆転
+        rs.Find("Gyo=113")
+        rb4_4_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=114")
+        rb4_4_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=115")
+        rb4_4_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-5 しつこく同じ話をする
+        rs.Find("Gyo=116")
+        rb4_5_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=117")
+        rb4_5_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=118")
+        rb4_5_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-6 大声を出す
+        rs.Find("Gyo=119")
+        rb4_6_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=120")
+        rb4_6_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=121")
+        rb4_6_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-7 介護に抵抗する
+        rs.Find("Gyo=122")
+        rb4_7_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=123")
+        rb4_7_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=124")
+        rb4_7_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-8 「家に帰る」等と言い落ち着きがない
+        rs.Find("Gyo=125")
+        rb4_8_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=126")
+        rb4_8_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=127")
+        rb4_8_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-9 一人で外に出たがり目が離せない
+        rs.Find("Gyo=128")
+        rb4_9_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=129")
+        rb4_9_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=130")
+        rb4_9_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-10 いろいろなものを集めたり、無断でもってくる
+        rs.Find("Gyo=131")
+        rb4_10_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=132")
+        rb4_10_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=133")
+        rb4_10_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-11 物を壊したり、衣類を破いたりする
+        rs.Find("Gyo=134")
+        rb4_11_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=135")
+        rb4_11_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=136")
+        rb4_11_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-12 ひどい物忘れ
+        rs.Find("Gyo=137")
+        rb4_12_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=138")
+        rb4_12_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=139")
+        rb4_12_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-13 意味もなく独り言や独り笑いをする
+        rs.Find("Gyo=140")
+        rb4_13_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=141")
+        rb4_13_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=142")
+        rb4_13_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-14 自分勝手に行動する
+        rs.Find("Gyo=143")
+        rb4_14_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=144")
+        rb4_14_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=145")
+        rb4_14_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '4-15 話がまとまらず、会話にならない
+        rs.Find("Gyo=146")
+        rb4_15_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=147")
+        rb4_15_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=148")
+        rb4_15_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+
+        '5.社会生活への適応
+        '5-1 薬の内服
+        rs.Find("Gyo=149")
+        rb5_1_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=150")
+        rb5_1_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=151")
+        rb5_1_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '5-2 金銭の管理
+        rs.Find("Gyo=152")
+        rb5_2_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=153")
+        rb5_2_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=154")
+        rb5_2_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '5-3 日常の意思決定
+        rs.Find("Gyo=155")
+        rb5_3_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=156")
+        rb5_3_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=157")
+        rb5_3_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=158")
+        rb5_3_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '5-4 集団への不適応
+        rs.Find("Gyo=159")
+        rb5_4_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=160")
+        rb5_4_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=161")
+        rb5_4_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '5-5 買い物
+        rs.Find("Gyo=162")
+        rb5_5_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=163")
+        rb5_5_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=164")
+        rb5_5_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=165")
+        rb5_5_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '5-6 簡単な調理
+        rs.Find("Gyo=166")
+        rb5_6_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=167")
+        rb5_6_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=168")
+        rb5_6_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=169")
+        rb5_6_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+
+        '6.特別な医療
+        '点滴の管理
+        rs.Find("Gyo=0", , ADODB.SearchDirectionEnum.adSearchBackward)
+        Ch4_1.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        '中心静脈栄養
+        rs.Find("Gyo=1")
+        Ch4_2.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        '透析
+        rs.Find("Gyo=2")
+        Ch4_3.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        'ストーマ（人工肛門）の処置
+        rs.Find("Gyo=3")
+        Ch4_4.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        '酸素療法
+        rs.Find("Gyo=4")
+        Ch4_5.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        'レスピレーター（人工呼吸器）
+        rs.Find("Gyo=5")
+        Ch4_6.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        '気管切開の処置
+        rs.Find("Gyo=6")
+        Ch4_7.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        '疼痛の看護
+        rs.Find("Gyo=7")
+        Ch4_8.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        '経管栄養
+        rs.Find("Gyo=8")
+        Ch4_9.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        'モニター測定（血圧、心拍、酸素飽和度等）
+        rs.Find("Gyo=9")
+        Ch4_10.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        'じょくそうの処置
+        rs.Find("Gyo=10")
+        Ch4_11.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+        'カテーテル（コンドームカテーテル、留置カテーテル、ウロストーマ等）
+        rs.Find("Gyo=11")
+        Ch4_12.Checked = If(Util.checkDBNullValue(rs.Fields("Ch4").Value) = 1, True, False)
+
+        '7.日常生活自立度
+        '障害高齢者の日常生活自立度（寝たきり度）
+        rs.Find("Gyo=170")
+        rb7_1_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=171")
+        rb7_1_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=172")
+        rb7_1_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=173")
+        rb7_1_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=174")
+        rb7_1_5.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=175")
+        rb7_1_6.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=176")
+        rb7_1_7.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=177")
+        rb7_1_8.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=178")
+        rb7_1_9.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        '認知症高齢者の日常生活自立度
+        rs.Find("Gyo=179")
+        rb7_2_1.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=180")
+        rb7_2_2.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=181")
+        rb7_2_3.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=182")
+        rb7_2_4.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=183")
+        rb7_2_5.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=184")
+        rb7_2_6.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=185")
+        rb7_2_7.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+        rs.Find("Gyo=186")
+        rb7_2_8.Checked = If(Util.checkDBNullValue(rs.Fields("Opt4").Value) = 1, True, False)
+
+        rs.Close()
         cnn.Close()
     End Sub
 
