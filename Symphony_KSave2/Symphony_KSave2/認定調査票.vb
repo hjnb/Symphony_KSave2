@@ -103,6 +103,7 @@ Public Class 認定調査票
     End Sub
 
     Private Sub userList_CellMouseClick(sender As Object, e As System.Windows.Forms.DataGridViewCellMouseEventArgs) Handles userList.CellMouseClick
+        clearAllInputData()
         Dim userNam As String = userList("Nam", e.RowIndex).Value
         Dim userKana As String = userList("Kana", e.RowIndex).Value
         kanaLabel.Text = userKana
@@ -589,10 +590,10 @@ Public Class 認定調査票
     End Sub
 
     Private Sub clearAllInputData()
-        '概況調査タブ
+        '概況調査タブの内容クリア
         clearOverviewPageInputBox()
 
-        '特記事項タブ
+        '特記事項タブの内容クリア
         SpDgv1.clearText()
         SpDgv2.clearText()
         SpDgv3.clearText()
@@ -601,13 +602,17 @@ Public Class 認定調査票
         SpDgv6.clearText()
         SpDgv7.clearText()
 
-        '基本調査タブ
+        '基本調査タブの内容クリア
         For Each tp As TabPage In bsTab.TabPages
             For Each c As Control In tp.Controls
-                If TypeOf c Is ExCheckBox Then
-                    CType(c, ExCheckBox).Checked = False
-                ElseIf TypeOf c Is ExRadioButton Then
-                    CType(c, ExRadioButton).Checked = False
+                If TypeOf c Is GroupBox Then
+                    For Each ex As Control In c.Controls
+                        If TypeOf ex Is ExCheckBox Then
+                            DirectCast(ex, ExCheckBox).Checked = False
+                        ElseIf TypeOf ex Is ExRadioButton Then
+                            DirectCast(ex, ExRadioButton).Checked = False
+                        End If
+                    Next
                 End If
             Next
         Next

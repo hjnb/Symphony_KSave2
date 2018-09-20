@@ -31,27 +31,14 @@ Partial Class 認定調査票
         Me.btnPrint = New System.Windows.Forms.Button()
         Me.inputTab = New System.Windows.Forms.TabControl()
         Me.overviewPage = New System.Windows.Forms.TabPage()
-        Me.spText4 = New Symphony_KSave2.ExTextBox()
-        Me.spText3 = New Symphony_KSave2.ExTextBox()
-        Me.spText2 = New Symphony_KSave2.ExTextBox()
-        Me.spText1 = New Symphony_KSave2.ExTextBox()
-        Me.Gentxt1 = New Symphony_KSave2.ExTextBox()
-        Me.houseTextBox = New Symphony_KSave2.ExTextBox()
         Me.Label77 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.facilityTel3 = New Symphony_KSave2.ExTextBox()
-        Me.facilityTel2 = New Symphony_KSave2.ExTextBox()
-        Me.facilityTel1 = New Symphony_KSave2.ExTextBox()
-        Me.facilityAddress = New Symphony_KSave2.ExTextBox()
-        Me.facilityPostCode2 = New Symphony_KSave2.ExTextBox()
-        Me.facilityPostCode1 = New Symphony_KSave2.ExTextBox()
         Me.Label64 = New System.Windows.Forms.Label()
         Me.Label72 = New System.Windows.Forms.Label()
         Me.Label73 = New System.Windows.Forms.Label()
         Me.Label74 = New System.Windows.Forms.Label()
         Me.Label76 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.facilityNameBox = New Symphony_KSave2.ExTextBox()
         Me.Label75 = New System.Windows.Forms.Label()
         Me.Label61 = New System.Windows.Forms.Label()
         Me.facilityPanel = New System.Windows.Forms.Panel()
@@ -65,31 +52,10 @@ Partial Class 認定調査票
         Me.checkStay1 = New System.Windows.Forms.CheckBox()
         Me.Label54 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Gentxt2 = New Symphony_KSave2.ExTextBox()
         Me.checkGen22 = New System.Windows.Forms.CheckBox()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.checkGen21 = New System.Windows.Forms.CheckBox()
         Me.overview3Panel = New System.Windows.Forms.Panel()
-        Me.txtNum20 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum19 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum18 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum17 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum16 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum15 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum14 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum12 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum11 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum21 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum10 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum9 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum8 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum7 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum6 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum5 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum4 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum3 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum2 = New Symphony_KSave2.ExTextBox()
-        Me.txtNum1 = New Symphony_KSave2.ExTextBox()
         Me.CheckNum13None = New System.Windows.Forms.CheckBox()
         Me.CheckNum13Exists = New System.Windows.Forms.CheckBox()
         Me.Label53 = New System.Windows.Forms.Label()
@@ -154,28 +120,15 @@ Partial Class 認定調査票
         Me.relationBox = New System.Windows.Forms.ComboBox()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.namBox = New Symphony_KSave2.ExTextBox()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.familyTel3 = New Symphony_KSave2.ExTextBox()
-        Me.familyTel2 = New Symphony_KSave2.ExTextBox()
-        Me.familyTel1 = New Symphony_KSave2.ExTextBox()
-        Me.familyAddress = New Symphony_KSave2.ExTextBox()
-        Me.familyPostCode2 = New Symphony_KSave2.ExTextBox()
-        Me.familyPostCode1 = New Symphony_KSave2.ExTextBox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.currentTel3 = New Symphony_KSave2.ExTextBox()
-        Me.currentTel2 = New Symphony_KSave2.ExTextBox()
-        Me.currentTel1 = New Symphony_KSave2.ExTextBox()
-        Me.currentAddress = New Symphony_KSave2.ExTextBox()
-        Me.currentPostCode2 = New Symphony_KSave2.ExTextBox()
-        Me.currentPostCode1 = New Symphony_KSave2.ExTextBox()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
@@ -217,11 +170,9 @@ Partial Class 認定調査票
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnClear = New System.Windows.Forms.Button()
-        Me.dgvNumInput = New Symphony_KSave2.ExDataGridView()
         Me.specialNotePage = New System.Windows.Forms.TabPage()
         Me.spTab = New System.Windows.Forms.TabControl()
         Me.spTabP1 = New System.Windows.Forms.TabPage()
-        Me.SpDgv1 = New Symphony_KSave2.SpDgv()
         Me.Label91 = New System.Windows.Forms.Label()
         Me.Label90 = New System.Windows.Forms.Label()
         Me.Label89 = New System.Windows.Forms.Label()
@@ -240,7 +191,6 @@ Partial Class 認定調査票
         Me.btnRowInsert1 = New System.Windows.Forms.Button()
         Me.Label78 = New System.Windows.Forms.Label()
         Me.spTabP2 = New System.Windows.Forms.TabPage()
-        Me.SpDgv2 = New Symphony_KSave2.SpDgv()
         Me.Label93 = New System.Windows.Forms.Label()
         Me.Label94 = New System.Windows.Forms.Label()
         Me.Label95 = New System.Windows.Forms.Label()
@@ -258,7 +208,6 @@ Partial Class 認定調査票
         Me.btnRowInsert2 = New System.Windows.Forms.Button()
         Me.Label105 = New System.Windows.Forms.Label()
         Me.spTabP3 = New System.Windows.Forms.TabPage()
-        Me.SpDgv3 = New Symphony_KSave2.SpDgv()
         Me.Label109 = New System.Windows.Forms.Label()
         Me.Label110 = New System.Windows.Forms.Label()
         Me.Label111 = New System.Windows.Forms.Label()
@@ -292,9 +241,7 @@ Partial Class 認定調査票
         Me.btnClear4 = New System.Windows.Forms.Button()
         Me.btnRowInsert4 = New System.Windows.Forms.Button()
         Me.Label128 = New System.Windows.Forms.Label()
-        Me.SpDgv4 = New Symphony_KSave2.SpDgv()
         Me.spTabP5 = New System.Windows.Forms.TabPage()
-        Me.SpDgv5 = New Symphony_KSave2.SpDgv()
         Me.Label140 = New System.Windows.Forms.Label()
         Me.Label141 = New System.Windows.Forms.Label()
         Me.Label142 = New System.Windows.Forms.Label()
@@ -306,14 +253,12 @@ Partial Class 認定調査票
         Me.btnRowInsert5 = New System.Windows.Forms.Button()
         Me.Label146 = New System.Windows.Forms.Label()
         Me.spTabP6 = New System.Windows.Forms.TabPage()
-        Me.SpDgv6 = New Symphony_KSave2.SpDgv()
         Me.Label136 = New System.Windows.Forms.Label()
         Me.btnRowDelete6 = New System.Windows.Forms.Button()
         Me.btnClear6 = New System.Windows.Forms.Button()
         Me.btnRowInsert6 = New System.Windows.Forms.Button()
         Me.Label137 = New System.Windows.Forms.Label()
         Me.spTabP7 = New System.Windows.Forms.TabPage()
-        Me.SpDgv7 = New Symphony_KSave2.SpDgv()
         Me.Label133 = New System.Windows.Forms.Label()
         Me.Label134 = New System.Windows.Forms.Label()
         Me.Label135 = New System.Windows.Forms.Label()
@@ -328,301 +273,368 @@ Partial Class 認定調査票
         Me.Label171 = New System.Windows.Forms.Label()
         Me.Label158 = New System.Windows.Forms.Label()
         Me.GroupBox13 = New System.Windows.Forms.GroupBox()
+        Me.Label131 = New System.Windows.Forms.Label()
+        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
+        Me.Label132 = New System.Windows.Forms.Label()
+        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.Label147 = New System.Windows.Forms.Label()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.Label148 = New System.Windows.Forms.Label()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.Label149 = New System.Windows.Forms.Label()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.Label150 = New System.Windows.Forms.Label()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.Label151 = New System.Windows.Forms.Label()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Label152 = New System.Windows.Forms.Label()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.Label153 = New System.Windows.Forms.Label()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label154 = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Label155 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label156 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label157 = New System.Windows.Forms.Label()
+        Me.bsTabP2 = New System.Windows.Forms.TabPage()
+        Me.GroupBox25 = New System.Windows.Forms.GroupBox()
+        Me.Label159 = New System.Windows.Forms.Label()
+        Me.GroupBox14 = New System.Windows.Forms.GroupBox()
+        Me.Label161 = New System.Windows.Forms.Label()
+        Me.GroupBox15 = New System.Windows.Forms.GroupBox()
+        Me.Label160 = New System.Windows.Forms.Label()
+        Me.GroupBox16 = New System.Windows.Forms.GroupBox()
+        Me.Label162 = New System.Windows.Forms.Label()
+        Me.GroupBox17 = New System.Windows.Forms.GroupBox()
+        Me.Label163 = New System.Windows.Forms.Label()
+        Me.GroupBox18 = New System.Windows.Forms.GroupBox()
+        Me.Label164 = New System.Windows.Forms.Label()
+        Me.GroupBox19 = New System.Windows.Forms.GroupBox()
+        Me.Label165 = New System.Windows.Forms.Label()
+        Me.GroupBox20 = New System.Windows.Forms.GroupBox()
+        Me.Label166 = New System.Windows.Forms.Label()
+        Me.GroupBox21 = New System.Windows.Forms.GroupBox()
+        Me.Label167 = New System.Windows.Forms.Label()
+        Me.GroupBox22 = New System.Windows.Forms.GroupBox()
+        Me.Label168 = New System.Windows.Forms.Label()
+        Me.GroupBox23 = New System.Windows.Forms.GroupBox()
+        Me.Label169 = New System.Windows.Forms.Label()
+        Me.GroupBox24 = New System.Windows.Forms.GroupBox()
+        Me.Label170 = New System.Windows.Forms.Label()
+        Me.bsTabP3 = New System.Windows.Forms.TabPage()
+        Me.GroupBox31 = New System.Windows.Forms.GroupBox()
+        Me.Label172 = New System.Windows.Forms.Label()
+        Me.GroupBox30 = New System.Windows.Forms.GroupBox()
+        Me.Label176 = New System.Windows.Forms.Label()
+        Me.GroupBox32 = New System.Windows.Forms.GroupBox()
+        Me.Label173 = New System.Windows.Forms.Label()
+        Me.GroupBox29 = New System.Windows.Forms.GroupBox()
+        Me.Label177 = New System.Windows.Forms.Label()
+        Me.GroupBox33 = New System.Windows.Forms.GroupBox()
+        Me.Label174 = New System.Windows.Forms.Label()
+        Me.GroupBox28 = New System.Windows.Forms.GroupBox()
+        Me.Label178 = New System.Windows.Forms.Label()
+        Me.GroupBox34 = New System.Windows.Forms.GroupBox()
+        Me.Label175 = New System.Windows.Forms.Label()
+        Me.GroupBox27 = New System.Windows.Forms.GroupBox()
+        Me.Label179 = New System.Windows.Forms.Label()
+        Me.GroupBox26 = New System.Windows.Forms.GroupBox()
+        Me.Label180 = New System.Windows.Forms.Label()
+        Me.bsTabP4 = New System.Windows.Forms.TabPage()
+        Me.GroupBox46 = New System.Windows.Forms.GroupBox()
+        Me.Label182 = New System.Windows.Forms.Label()
+        Me.GroupBox47 = New System.Windows.Forms.GroupBox()
+        Me.Label183 = New System.Windows.Forms.Label()
+        Me.GroupBox48 = New System.Windows.Forms.GroupBox()
+        Me.Label184 = New System.Windows.Forms.Label()
+        Me.GroupBox49 = New System.Windows.Forms.GroupBox()
+        Me.Label185 = New System.Windows.Forms.Label()
+        Me.GroupBox35 = New System.Windows.Forms.GroupBox()
+        Me.Label186 = New System.Windows.Forms.Label()
+        Me.GroupBox36 = New System.Windows.Forms.GroupBox()
+        Me.Label187 = New System.Windows.Forms.Label()
+        Me.GroupBox37 = New System.Windows.Forms.GroupBox()
+        Me.Label188 = New System.Windows.Forms.Label()
+        Me.GroupBox38 = New System.Windows.Forms.GroupBox()
+        Me.Label189 = New System.Windows.Forms.Label()
+        Me.GroupBox39 = New System.Windows.Forms.GroupBox()
+        Me.Label190 = New System.Windows.Forms.Label()
+        Me.GroupBox40 = New System.Windows.Forms.GroupBox()
+        Me.Label191 = New System.Windows.Forms.Label()
+        Me.GroupBox41 = New System.Windows.Forms.GroupBox()
+        Me.Label192 = New System.Windows.Forms.Label()
+        Me.GroupBox42 = New System.Windows.Forms.GroupBox()
+        Me.Label193 = New System.Windows.Forms.Label()
+        Me.GroupBox43 = New System.Windows.Forms.GroupBox()
+        Me.Label194 = New System.Windows.Forms.Label()
+        Me.GroupBox44 = New System.Windows.Forms.GroupBox()
+        Me.Label195 = New System.Windows.Forms.Label()
+        Me.GroupBox45 = New System.Windows.Forms.GroupBox()
+        Me.Label196 = New System.Windows.Forms.Label()
+        Me.bsTabP5 = New System.Windows.Forms.TabPage()
+        Me.GroupBox50 = New System.Windows.Forms.GroupBox()
+        Me.Label200 = New System.Windows.Forms.Label()
+        Me.GroupBox51 = New System.Windows.Forms.GroupBox()
+        Me.Label201 = New System.Windows.Forms.Label()
+        Me.GroupBox52 = New System.Windows.Forms.GroupBox()
+        Me.Label198 = New System.Windows.Forms.Label()
+        Me.GroupBox53 = New System.Windows.Forms.GroupBox()
+        Me.Label202 = New System.Windows.Forms.Label()
+        Me.GroupBox54 = New System.Windows.Forms.GroupBox()
+        Me.Label199 = New System.Windows.Forms.Label()
+        Me.GroupBox55 = New System.Windows.Forms.GroupBox()
+        Me.Label203 = New System.Windows.Forms.Label()
+        Me.bsTabP6 = New System.Windows.Forms.TabPage()
+        Me.Label204 = New System.Windows.Forms.Label()
+        Me.Label197 = New System.Windows.Forms.Label()
+        Me.Label181 = New System.Windows.Forms.Label()
+        Me.Label205 = New System.Windows.Forms.Label()
+        Me.bsTabP7 = New System.Windows.Forms.TabPage()
+        Me.GroupBox57 = New System.Windows.Forms.GroupBox()
+        Me.Label207 = New System.Windows.Forms.Label()
+        Me.GroupBox56 = New System.Windows.Forms.GroupBox()
+        Me.Label209 = New System.Windows.Forms.Label()
+        Me.Label210 = New System.Windows.Forms.Label()
+        Me.ListingDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ContentDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.spText4 = New Symphony_KSave2.ExTextBox()
+        Me.spText3 = New Symphony_KSave2.ExTextBox()
+        Me.spText2 = New Symphony_KSave2.ExTextBox()
+        Me.spText1 = New Symphony_KSave2.ExTextBox()
+        Me.Gentxt1 = New Symphony_KSave2.ExTextBox()
+        Me.houseTextBox = New Symphony_KSave2.ExTextBox()
+        Me.facilityTel3 = New Symphony_KSave2.ExTextBox()
+        Me.facilityTel2 = New Symphony_KSave2.ExTextBox()
+        Me.facilityTel1 = New Symphony_KSave2.ExTextBox()
+        Me.facilityAddress = New Symphony_KSave2.ExTextBox()
+        Me.facilityPostCode2 = New Symphony_KSave2.ExTextBox()
+        Me.facilityPostCode1 = New Symphony_KSave2.ExTextBox()
+        Me.facilityNameBox = New Symphony_KSave2.ExTextBox()
+        Me.Gentxt2 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum20 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum19 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum18 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum17 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum16 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum15 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum14 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum12 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum11 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum21 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum10 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum9 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum8 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum7 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum6 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum5 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum4 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum3 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum2 = New Symphony_KSave2.ExTextBox()
+        Me.txtNum1 = New Symphony_KSave2.ExTextBox()
+        Me.namBox = New Symphony_KSave2.ExTextBox()
+        Me.familyTel3 = New Symphony_KSave2.ExTextBox()
+        Me.familyTel2 = New Symphony_KSave2.ExTextBox()
+        Me.familyTel1 = New Symphony_KSave2.ExTextBox()
+        Me.familyAddress = New Symphony_KSave2.ExTextBox()
+        Me.familyPostCode2 = New Symphony_KSave2.ExTextBox()
+        Me.familyPostCode1 = New Symphony_KSave2.ExTextBox()
+        Me.currentTel3 = New Symphony_KSave2.ExTextBox()
+        Me.currentTel2 = New Symphony_KSave2.ExTextBox()
+        Me.currentTel1 = New Symphony_KSave2.ExTextBox()
+        Me.currentAddress = New Symphony_KSave2.ExTextBox()
+        Me.currentPostCode2 = New Symphony_KSave2.ExTextBox()
+        Me.currentPostCode1 = New Symphony_KSave2.ExTextBox()
+        Me.dgvNumInput = New Symphony_KSave2.ExDataGridView()
+        Me.SpDgv1 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv2 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv3 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv4 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv5 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv6 = New Symphony_KSave2.SpDgv()
+        Me.SpDgv7 = New Symphony_KSave2.SpDgv()
         Me.rb1_13_5 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_13_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_13_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_13_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_13_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label131 = New System.Windows.Forms.Label()
-        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
         Me.rb1_12_5 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_12_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_12_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_12_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_12_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label132 = New System.Windows.Forms.Label()
-        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
         Me.rb1_11_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_11_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_11_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label147 = New System.Windows.Forms.Label()
-        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
         Me.rb1_10_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_10_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_10_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_10_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label148 = New System.Windows.Forms.Label()
-        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
         Me.rb1_9_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_9_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_9_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label149 = New System.Windows.Forms.Label()
-        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
         Me.rb1_8_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_8_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_8_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label150 = New System.Windows.Forms.Label()
-        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
         Me.rb1_7_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_7_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_7_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label151 = New System.Windows.Forms.Label()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.rb1_6_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_6_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_6_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label152 = New System.Windows.Forms.Label()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.rb1_5_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_5_3 = New Symphony_KSave2.ExRadioButton()
-        Me.Label153 = New System.Windows.Forms.Label()
         Me.rb1_5_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_5_1 = New Symphony_KSave2.ExRadioButton()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.rb1_4_3 = New Symphony_KSave2.ExRadioButton()
-        Me.Label154 = New System.Windows.Forms.Label()
         Me.rb1_4_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_4_1 = New Symphony_KSave2.ExRadioButton()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.rb1_3_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_3_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb1_3_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label155 = New System.Windows.Forms.Label()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Ch3_5 = New Symphony_KSave2.ExCheckBox()
-        Me.Label156 = New System.Windows.Forms.Label()
         Me.Ch3_4 = New Symphony_KSave2.ExCheckBox()
         Me.Ch3_1 = New Symphony_KSave2.ExCheckBox()
         Me.Ch3_3 = New Symphony_KSave2.ExCheckBox()
         Me.Ch3_2 = New Symphony_KSave2.ExCheckBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Ch2_6 = New Symphony_KSave2.ExCheckBox()
         Me.Ch2_5 = New Symphony_KSave2.ExCheckBox()
         Me.Ch2_4 = New Symphony_KSave2.ExCheckBox()
         Me.Ch2_3 = New Symphony_KSave2.ExCheckBox()
         Me.Ch2_2 = New Symphony_KSave2.ExCheckBox()
         Me.Ch2_1 = New Symphony_KSave2.ExCheckBox()
-        Me.Label157 = New System.Windows.Forms.Label()
-        Me.bsTabP2 = New System.Windows.Forms.TabPage()
-        Me.GroupBox25 = New System.Windows.Forms.GroupBox()
         Me.rb2_12_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_12_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_12_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label159 = New System.Windows.Forms.Label()
-        Me.GroupBox14 = New System.Windows.Forms.GroupBox()
         Me.rb2_10_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_10_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_10_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_10_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label161 = New System.Windows.Forms.Label()
-        Me.GroupBox15 = New System.Windows.Forms.GroupBox()
         Me.rb2_11_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_11_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_11_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_11_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label160 = New System.Windows.Forms.Label()
-        Me.GroupBox16 = New System.Windows.Forms.GroupBox()
         Me.rb2_9_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_9_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_9_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label162 = New System.Windows.Forms.Label()
-        Me.GroupBox17 = New System.Windows.Forms.GroupBox()
         Me.rb2_8_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_8_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_8_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label163 = New System.Windows.Forms.Label()
-        Me.GroupBox18 = New System.Windows.Forms.GroupBox()
         Me.rb2_7_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_7_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_7_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label164 = New System.Windows.Forms.Label()
-        Me.GroupBox19 = New System.Windows.Forms.GroupBox()
         Me.rb2_6_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_6_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_6_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_6_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label165 = New System.Windows.Forms.Label()
-        Me.GroupBox20 = New System.Windows.Forms.GroupBox()
         Me.rb2_5_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_5_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_5_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_5_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label166 = New System.Windows.Forms.Label()
-        Me.GroupBox21 = New System.Windows.Forms.GroupBox()
         Me.rb2_4_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_4_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_4_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_4_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label167 = New System.Windows.Forms.Label()
-        Me.GroupBox22 = New System.Windows.Forms.GroupBox()
         Me.rb2_3_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_3_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_3_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label168 = New System.Windows.Forms.Label()
-        Me.GroupBox23 = New System.Windows.Forms.GroupBox()
         Me.rb2_2_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_2_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_2_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_2_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label169 = New System.Windows.Forms.Label()
-        Me.GroupBox24 = New System.Windows.Forms.GroupBox()
         Me.rb2_1_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_1_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_1_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb2_1_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label170 = New System.Windows.Forms.Label()
-        Me.bsTabP3 = New System.Windows.Forms.TabPage()
-        Me.GroupBox31 = New System.Windows.Forms.GroupBox()
         Me.rb3_9_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_9_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_9_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label172 = New System.Windows.Forms.Label()
-        Me.GroupBox30 = New System.Windows.Forms.GroupBox()
         Me.rb3_5_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_5_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label176 = New System.Windows.Forms.Label()
-        Me.GroupBox32 = New System.Windows.Forms.GroupBox()
         Me.rb3_8_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_8_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_8_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label173 = New System.Windows.Forms.Label()
-        Me.GroupBox29 = New System.Windows.Forms.GroupBox()
         Me.rb3_4_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_4_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label177 = New System.Windows.Forms.Label()
-        Me.GroupBox33 = New System.Windows.Forms.GroupBox()
         Me.rb3_7_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_7_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label174 = New System.Windows.Forms.Label()
-        Me.GroupBox28 = New System.Windows.Forms.GroupBox()
         Me.rb3_3_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_3_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label178 = New System.Windows.Forms.Label()
-        Me.GroupBox34 = New System.Windows.Forms.GroupBox()
         Me.rb3_6_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_6_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label175 = New System.Windows.Forms.Label()
-        Me.GroupBox27 = New System.Windows.Forms.GroupBox()
         Me.rb3_2_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_2_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label179 = New System.Windows.Forms.Label()
-        Me.GroupBox26 = New System.Windows.Forms.GroupBox()
         Me.rb3_1_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_1_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_1_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb3_1_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label180 = New System.Windows.Forms.Label()
-        Me.bsTabP4 = New System.Windows.Forms.TabPage()
-        Me.GroupBox46 = New System.Windows.Forms.GroupBox()
         Me.rb4_15_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_15_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_15_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label182 = New System.Windows.Forms.Label()
-        Me.GroupBox47 = New System.Windows.Forms.GroupBox()
         Me.rb4_14_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_14_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_14_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label183 = New System.Windows.Forms.Label()
-        Me.GroupBox48 = New System.Windows.Forms.GroupBox()
         Me.rb4_13_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_13_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_13_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label184 = New System.Windows.Forms.Label()
-        Me.GroupBox49 = New System.Windows.Forms.GroupBox()
         Me.rb4_12_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_12_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_12_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label185 = New System.Windows.Forms.Label()
-        Me.GroupBox35 = New System.Windows.Forms.GroupBox()
         Me.rb4_11_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_11_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_11_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label186 = New System.Windows.Forms.Label()
-        Me.GroupBox36 = New System.Windows.Forms.GroupBox()
         Me.rb4_10_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_10_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_10_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label187 = New System.Windows.Forms.Label()
-        Me.GroupBox37 = New System.Windows.Forms.GroupBox()
         Me.rb4_9_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_9_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_9_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label188 = New System.Windows.Forms.Label()
-        Me.GroupBox38 = New System.Windows.Forms.GroupBox()
         Me.rb4_8_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_8_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_8_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label189 = New System.Windows.Forms.Label()
-        Me.GroupBox39 = New System.Windows.Forms.GroupBox()
         Me.rb4_7_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_7_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_7_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label190 = New System.Windows.Forms.Label()
-        Me.GroupBox40 = New System.Windows.Forms.GroupBox()
         Me.rb4_6_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_6_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_6_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label191 = New System.Windows.Forms.Label()
-        Me.GroupBox41 = New System.Windows.Forms.GroupBox()
         Me.rb4_5_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_5_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_5_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label192 = New System.Windows.Forms.Label()
-        Me.GroupBox42 = New System.Windows.Forms.GroupBox()
         Me.rb4_4_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_4_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_4_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label193 = New System.Windows.Forms.Label()
-        Me.GroupBox43 = New System.Windows.Forms.GroupBox()
         Me.rb4_3_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_3_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_3_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label194 = New System.Windows.Forms.Label()
-        Me.GroupBox44 = New System.Windows.Forms.GroupBox()
         Me.rb4_2_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_2_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_2_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label195 = New System.Windows.Forms.Label()
-        Me.GroupBox45 = New System.Windows.Forms.GroupBox()
         Me.rb4_1_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_1_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb4_1_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label196 = New System.Windows.Forms.Label()
-        Me.bsTabP5 = New System.Windows.Forms.TabPage()
-        Me.GroupBox50 = New System.Windows.Forms.GroupBox()
         Me.rb5_4_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_4_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_4_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label200 = New System.Windows.Forms.Label()
-        Me.GroupBox51 = New System.Windows.Forms.GroupBox()
         Me.rb5_3_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_3_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_3_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_3_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label201 = New System.Windows.Forms.Label()
-        Me.GroupBox52 = New System.Windows.Forms.GroupBox()
         Me.rb5_6_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_6_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_6_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_6_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label198 = New System.Windows.Forms.Label()
-        Me.GroupBox53 = New System.Windows.Forms.GroupBox()
         Me.rb5_2_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_2_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_2_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label202 = New System.Windows.Forms.Label()
-        Me.GroupBox54 = New System.Windows.Forms.GroupBox()
         Me.rb5_5_4 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_5_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_5_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_5_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label199 = New System.Windows.Forms.Label()
-        Me.GroupBox55 = New System.Windows.Forms.GroupBox()
         Me.rb5_1_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_1_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_1_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label203 = New System.Windows.Forms.Label()
-        Me.bsTabP6 = New System.Windows.Forms.TabPage()
         Me.Ch4_12 = New Symphony_KSave2.ExCheckBox()
         Me.Ch4_11 = New Symphony_KSave2.ExCheckBox()
         Me.Ch4_10 = New Symphony_KSave2.ExCheckBox()
@@ -635,12 +647,6 @@ Partial Class 認定調査票
         Me.Ch4_3 = New Symphony_KSave2.ExCheckBox()
         Me.Ch4_2 = New Symphony_KSave2.ExCheckBox()
         Me.Ch4_1 = New Symphony_KSave2.ExCheckBox()
-        Me.Label204 = New System.Windows.Forms.Label()
-        Me.Label197 = New System.Windows.Forms.Label()
-        Me.Label181 = New System.Windows.Forms.Label()
-        Me.Label205 = New System.Windows.Forms.Label()
-        Me.bsTabP7 = New System.Windows.Forms.TabPage()
-        Me.GroupBox57 = New System.Windows.Forms.GroupBox()
         Me.rb7_2_8 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_2_7 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_2_6 = New Symphony_KSave2.ExRadioButton()
@@ -649,8 +655,6 @@ Partial Class 認定調査票
         Me.rb7_2_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_2_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_2_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label207 = New System.Windows.Forms.Label()
-        Me.GroupBox56 = New System.Windows.Forms.GroupBox()
         Me.rb7_1_9 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_1_8 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_1_7 = New Symphony_KSave2.ExRadioButton()
@@ -660,10 +664,8 @@ Partial Class 認定調査票
         Me.rb7_1_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_1_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_1_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Label209 = New System.Windows.Forms.Label()
-        Me.Label210 = New System.Windows.Forms.Label()
-        Me.ListingDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ContentDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.GroupBox58 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox59 = New System.Windows.Forms.GroupBox()
         CType(Me.userList, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.inputTab.SuspendLayout()
         Me.overviewPage.SuspendLayout()
@@ -679,23 +681,15 @@ Partial Class 認定調査票
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.specialNotePage.SuspendLayout()
         Me.spTab.SuspendLayout()
         Me.spTabP1.SuspendLayout()
-        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP2.SuspendLayout()
-        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP3.SuspendLayout()
-        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP4.SuspendLayout()
-        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP5.SuspendLayout()
-        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP6.SuspendLayout()
-        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.spTabP7.SuspendLayout()
-        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.basicSurveyPage.SuspendLayout()
         Me.bsTab.SuspendLayout()
         Me.bsTabP1.SuspendLayout()
@@ -762,6 +756,16 @@ Partial Class 認定調査票
         Me.bsTabP7.SuspendLayout()
         Me.GroupBox57.SuspendLayout()
         Me.GroupBox56.SuspendLayout()
+        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox58.SuspendLayout()
+        Me.GroupBox59.SuspendLayout()
         Me.SuspendLayout()
         '
         'userList
@@ -902,63 +906,6 @@ Partial Class 認定調査票
         Me.overviewPage.TabIndex = 0
         Me.overviewPage.Text = "概　況　調　査"
         '
-        'spText4
-        '
-        Me.spText4.InputType = 0
-        Me.spText4.LimitLengthByte = 100
-        Me.spText4.Location = New System.Drawing.Point(37, 685)
-        Me.spText4.Name = "spText4"
-        Me.spText4.Size = New System.Drawing.Size(733, 19)
-        Me.spText4.TabIndex = 210
-        '
-        'spText3
-        '
-        Me.spText3.InputType = 0
-        Me.spText3.LimitLengthByte = 100
-        Me.spText3.Location = New System.Drawing.Point(37, 666)
-        Me.spText3.Name = "spText3"
-        Me.spText3.Size = New System.Drawing.Size(733, 19)
-        Me.spText3.TabIndex = 209
-        '
-        'spText2
-        '
-        Me.spText2.InputType = 0
-        Me.spText2.LimitLengthByte = 100
-        Me.spText2.Location = New System.Drawing.Point(37, 647)
-        Me.spText2.Name = "spText2"
-        Me.spText2.Size = New System.Drawing.Size(733, 19)
-        Me.spText2.TabIndex = 208
-        '
-        'spText1
-        '
-        Me.spText1.InputType = 0
-        Me.spText1.LimitLengthByte = 100
-        Me.spText1.Location = New System.Drawing.Point(37, 628)
-        Me.spText1.Name = "spText1"
-        Me.spText1.Size = New System.Drawing.Size(733, 19)
-        Me.spText1.TabIndex = 207
-        '
-        'Gentxt1
-        '
-        Me.Gentxt1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Gentxt1.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Gentxt1.InputType = 0
-        Me.Gentxt1.LimitLengthByte = 100
-        Me.Gentxt1.Location = New System.Drawing.Point(161, 455)
-        Me.Gentxt1.Name = "Gentxt1"
-        Me.Gentxt1.Size = New System.Drawing.Size(528, 14)
-        Me.Gentxt1.TabIndex = 206
-        '
-        'houseTextBox
-        '
-        Me.houseTextBox.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.houseTextBox.InputType = 0
-        Me.houseTextBox.LimitLengthByte = 34
-        Me.houseTextBox.Location = New System.Drawing.Point(280, 87)
-        Me.houseTextBox.Name = "houseTextBox"
-        Me.houseTextBox.Size = New System.Drawing.Size(208, 20)
-        Me.houseTextBox.TabIndex = 12
-        '
         'Label77
         '
         Me.Label77.AutoSize = True
@@ -985,63 +932,7 @@ Partial Class 認定調査票
         Me.Panel12.Location = New System.Drawing.Point(110, 597)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(734, 21)
-        Me.Panel12.TabIndex = 47
-        '
-        'facilityTel3
-        '
-        Me.facilityTel3.InputType = 1
-        Me.facilityTel3.LimitLengthByte = 4
-        Me.facilityTel3.Location = New System.Drawing.Point(670, 1)
-        Me.facilityTel3.Name = "facilityTel3"
-        Me.facilityTel3.Size = New System.Drawing.Size(63, 19)
-        Me.facilityTel3.TabIndex = 40
-        '
-        'facilityTel2
-        '
-        Me.facilityTel2.InputType = 1
-        Me.facilityTel2.LimitLengthByte = 4
-        Me.facilityTel2.Location = New System.Drawing.Point(589, 1)
-        Me.facilityTel2.Name = "facilityTel2"
-        Me.facilityTel2.Size = New System.Drawing.Size(63, 19)
-        Me.facilityTel2.TabIndex = 40
-        '
-        'facilityTel1
-        '
-        Me.facilityTel1.InputType = 1
-        Me.facilityTel1.LimitLengthByte = 4
-        Me.facilityTel1.Location = New System.Drawing.Point(508, 1)
-        Me.facilityTel1.Name = "facilityTel1"
-        Me.facilityTel1.Size = New System.Drawing.Size(63, 19)
-        Me.facilityTel1.TabIndex = 40
-        Me.facilityTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'facilityAddress
-        '
-        Me.facilityAddress.InputType = 0
-        Me.facilityAddress.LimitLengthByte = 60
-        Me.facilityAddress.Location = New System.Drawing.Point(156, 1)
-        Me.facilityAddress.Name = "facilityAddress"
-        Me.facilityAddress.Size = New System.Drawing.Size(313, 19)
-        Me.facilityAddress.TabIndex = 46
-        '
-        'facilityPostCode2
-        '
-        Me.facilityPostCode2.InputType = 1
-        Me.facilityPostCode2.LimitLengthByte = 4
-        Me.facilityPostCode2.Location = New System.Drawing.Point(83, 1)
-        Me.facilityPostCode2.Name = "facilityPostCode2"
-        Me.facilityPostCode2.Size = New System.Drawing.Size(55, 19)
-        Me.facilityPostCode2.TabIndex = 40
-        '
-        'facilityPostCode1
-        '
-        Me.facilityPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.facilityPostCode1.InputType = 1
-        Me.facilityPostCode1.LimitLengthByte = 3
-        Me.facilityPostCode1.Location = New System.Drawing.Point(21, 1)
-        Me.facilityPostCode1.Name = "facilityPostCode1"
-        Me.facilityPostCode1.Size = New System.Drawing.Size(46, 19)
-        Me.facilityPostCode1.TabIndex = 40
+        Me.Panel12.TabIndex = 18
         '
         'Label64
         '
@@ -1096,16 +987,7 @@ Partial Class 認定調査票
         Me.Panel11.Location = New System.Drawing.Point(110, 571)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(308, 21)
-        Me.Panel11.TabIndex = 200
-        '
-        'facilityNameBox
-        '
-        Me.facilityNameBox.InputType = 0
-        Me.facilityNameBox.LimitLengthByte = 100
-        Me.facilityNameBox.Location = New System.Drawing.Point(54, 1)
-        Me.facilityNameBox.Name = "facilityNameBox"
-        Me.facilityNameBox.Size = New System.Drawing.Size(254, 19)
-        Me.facilityNameBox.TabIndex = 34
+        Me.Panel11.TabIndex = 17
         '
         'Label75
         '
@@ -1240,18 +1122,7 @@ Partial Class 認定調査票
         Me.Panel9.Location = New System.Drawing.Point(37, 471)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(653, 18)
-        Me.Panel9.TabIndex = 197
-        '
-        'Gentxt2
-        '
-        Me.Gentxt2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Gentxt2.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Gentxt2.InputType = 0
-        Me.Gentxt2.LimitLengthByte = 100
-        Me.Gentxt2.Location = New System.Drawing.Point(192, 1)
-        Me.Gentxt2.Name = "Gentxt2"
-        Me.Gentxt2.Size = New System.Drawing.Size(460, 14)
-        Me.Gentxt2.TabIndex = 207
+        Me.Panel9.TabIndex = 16
         '
         'checkGen22
         '
@@ -1270,7 +1141,7 @@ Partial Class 認定調査票
         Me.Panel8.Location = New System.Drawing.Point(37, 453)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(653, 18)
-        Me.Panel8.TabIndex = 103
+        Me.Panel8.TabIndex = 15
         '
         'checkGen21
         '
@@ -1369,227 +1240,7 @@ Partial Class 認定調査票
         Me.overview3Panel.Location = New System.Drawing.Point(37, 273)
         Me.overview3Panel.Name = "overview3Panel"
         Me.overview3Panel.Size = New System.Drawing.Size(728, 180)
-        Me.overview3Panel.TabIndex = 103
-        '
-        'txtNum20
-        '
-        Me.txtNum20.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum20.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum20.InputType = 0
-        Me.txtNum20.LimitLengthByte = 100
-        Me.txtNum20.Location = New System.Drawing.Point(657, 147)
-        Me.txtNum20.Name = "txtNum20"
-        Me.txtNum20.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum20.TabIndex = 215
-        '
-        'txtNum19
-        '
-        Me.txtNum19.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum19.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum19.InputType = 0
-        Me.txtNum19.LimitLengthByte = 100
-        Me.txtNum19.Location = New System.Drawing.Point(657, 131)
-        Me.txtNum19.Name = "txtNum19"
-        Me.txtNum19.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum19.TabIndex = 214
-        '
-        'txtNum18
-        '
-        Me.txtNum18.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum18.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum18.InputType = 0
-        Me.txtNum18.LimitLengthByte = 100
-        Me.txtNum18.Location = New System.Drawing.Point(657, 115)
-        Me.txtNum18.Name = "txtNum18"
-        Me.txtNum18.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum18.TabIndex = 213
-        '
-        'txtNum17
-        '
-        Me.txtNum17.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum17.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum17.InputType = 0
-        Me.txtNum17.LimitLengthByte = 100
-        Me.txtNum17.Location = New System.Drawing.Point(657, 99)
-        Me.txtNum17.Name = "txtNum17"
-        Me.txtNum17.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum17.TabIndex = 212
-        '
-        'txtNum16
-        '
-        Me.txtNum16.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum16.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum16.InputType = 0
-        Me.txtNum16.LimitLengthByte = 100
-        Me.txtNum16.Location = New System.Drawing.Point(657, 83)
-        Me.txtNum16.Name = "txtNum16"
-        Me.txtNum16.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum16.TabIndex = 211
-        '
-        'txtNum15
-        '
-        Me.txtNum15.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum15.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum15.InputType = 0
-        Me.txtNum15.LimitLengthByte = 100
-        Me.txtNum15.Location = New System.Drawing.Point(657, 67)
-        Me.txtNum15.Name = "txtNum15"
-        Me.txtNum15.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum15.TabIndex = 210
-        '
-        'txtNum14
-        '
-        Me.txtNum14.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum14.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum14.InputType = 0
-        Me.txtNum14.LimitLengthByte = 100
-        Me.txtNum14.Location = New System.Drawing.Point(657, 51)
-        Me.txtNum14.Name = "txtNum14"
-        Me.txtNum14.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum14.TabIndex = 209
-        '
-        'txtNum12
-        '
-        Me.txtNum12.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum12.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum12.InputType = 0
-        Me.txtNum12.LimitLengthByte = 100
-        Me.txtNum12.Location = New System.Drawing.Point(657, 19)
-        Me.txtNum12.Name = "txtNum12"
-        Me.txtNum12.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum12.TabIndex = 208
-        '
-        'txtNum11
-        '
-        Me.txtNum11.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum11.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum11.InputType = 0
-        Me.txtNum11.LimitLengthByte = 100
-        Me.txtNum11.Location = New System.Drawing.Point(657, 3)
-        Me.txtNum11.Name = "txtNum11"
-        Me.txtNum11.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum11.TabIndex = 207
-        '
-        'txtNum21
-        '
-        Me.txtNum21.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum21.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum21.InputType = 0
-        Me.txtNum21.LimitLengthByte = 100
-        Me.txtNum21.Location = New System.Drawing.Point(285, 163)
-        Me.txtNum21.Name = "txtNum21"
-        Me.txtNum21.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum21.TabIndex = 206
-        '
-        'txtNum10
-        '
-        Me.txtNum10.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum10.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum10.InputType = 0
-        Me.txtNum10.LimitLengthByte = 100
-        Me.txtNum10.Location = New System.Drawing.Point(285, 147)
-        Me.txtNum10.Name = "txtNum10"
-        Me.txtNum10.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum10.TabIndex = 205
-        '
-        'txtNum9
-        '
-        Me.txtNum9.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum9.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum9.InputType = 0
-        Me.txtNum9.LimitLengthByte = 100
-        Me.txtNum9.Location = New System.Drawing.Point(285, 131)
-        Me.txtNum9.Name = "txtNum9"
-        Me.txtNum9.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum9.TabIndex = 204
-        '
-        'txtNum8
-        '
-        Me.txtNum8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum8.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum8.InputType = 0
-        Me.txtNum8.LimitLengthByte = 100
-        Me.txtNum8.Location = New System.Drawing.Point(285, 115)
-        Me.txtNum8.Name = "txtNum8"
-        Me.txtNum8.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum8.TabIndex = 203
-        '
-        'txtNum7
-        '
-        Me.txtNum7.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum7.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum7.InputType = 0
-        Me.txtNum7.LimitLengthByte = 100
-        Me.txtNum7.Location = New System.Drawing.Point(285, 99)
-        Me.txtNum7.Name = "txtNum7"
-        Me.txtNum7.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum7.TabIndex = 202
-        '
-        'txtNum6
-        '
-        Me.txtNum6.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum6.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum6.InputType = 0
-        Me.txtNum6.LimitLengthByte = 100
-        Me.txtNum6.Location = New System.Drawing.Point(285, 83)
-        Me.txtNum6.Name = "txtNum6"
-        Me.txtNum6.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum6.TabIndex = 201
-        '
-        'txtNum5
-        '
-        Me.txtNum5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum5.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum5.InputType = 0
-        Me.txtNum5.LimitLengthByte = 100
-        Me.txtNum5.Location = New System.Drawing.Point(285, 67)
-        Me.txtNum5.Name = "txtNum5"
-        Me.txtNum5.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum5.TabIndex = 200
-        '
-        'txtNum4
-        '
-        Me.txtNum4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum4.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum4.InputType = 0
-        Me.txtNum4.LimitLengthByte = 100
-        Me.txtNum4.Location = New System.Drawing.Point(285, 51)
-        Me.txtNum4.Name = "txtNum4"
-        Me.txtNum4.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum4.TabIndex = 199
-        '
-        'txtNum3
-        '
-        Me.txtNum3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum3.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum3.InputType = 0
-        Me.txtNum3.LimitLengthByte = 100
-        Me.txtNum3.Location = New System.Drawing.Point(285, 35)
-        Me.txtNum3.Name = "txtNum3"
-        Me.txtNum3.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum3.TabIndex = 198
-        '
-        'txtNum2
-        '
-        Me.txtNum2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum2.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum2.InputType = 0
-        Me.txtNum2.LimitLengthByte = 100
-        Me.txtNum2.Location = New System.Drawing.Point(285, 19)
-        Me.txtNum2.Name = "txtNum2"
-        Me.txtNum2.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum2.TabIndex = 197
-        '
-        'txtNum1
-        '
-        Me.txtNum1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNum1.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.txtNum1.InputType = 0
-        Me.txtNum1.LimitLengthByte = 100
-        Me.txtNum1.Location = New System.Drawing.Point(285, 3)
-        Me.txtNum1.Name = "txtNum1"
-        Me.txtNum1.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum1.TabIndex = 196
+        Me.overview3Panel.TabIndex = 14
         '
         'CheckNum13None
         '
@@ -2191,7 +1842,7 @@ Partial Class 認定調査票
         Me.relationBox.Location = New System.Drawing.Point(367, 242)
         Me.relationBox.Name = "relationBox"
         Me.relationBox.Size = New System.Drawing.Size(75, 20)
-        Me.relationBox.TabIndex = 50
+        Me.relationBox.TabIndex = 13
         '
         'Label30
         '
@@ -2210,16 +1861,7 @@ Partial Class 認定調査票
         Me.Panel6.Location = New System.Drawing.Point(88, 243)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(148, 21)
-        Me.Panel6.TabIndex = 41
-        '
-        'namBox
-        '
-        Me.namBox.InputType = 0
-        Me.namBox.LimitLengthByte = 100
-        Me.namBox.Location = New System.Drawing.Point(43, 1)
-        Me.namBox.Name = "namBox"
-        Me.namBox.Size = New System.Drawing.Size(105, 19)
-        Me.namBox.TabIndex = 48
+        Me.Panel6.TabIndex = 12
         '
         'Label29
         '
@@ -2256,61 +1898,7 @@ Partial Class 認定調査票
         Me.Panel5.Location = New System.Drawing.Point(98, 214)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(734, 21)
-        Me.Panel5.TabIndex = 40
-        '
-        'familyTel3
-        '
-        Me.familyTel3.InputType = 1
-        Me.familyTel3.LimitLengthByte = 4
-        Me.familyTel3.Location = New System.Drawing.Point(670, 1)
-        Me.familyTel3.Name = "familyTel3"
-        Me.familyTel3.Size = New System.Drawing.Size(63, 19)
-        Me.familyTel3.TabIndex = 45
-        '
-        'familyTel2
-        '
-        Me.familyTel2.InputType = 1
-        Me.familyTel2.LimitLengthByte = 4
-        Me.familyTel2.Location = New System.Drawing.Point(589, 1)
-        Me.familyTel2.Name = "familyTel2"
-        Me.familyTel2.Size = New System.Drawing.Size(63, 19)
-        Me.familyTel2.TabIndex = 44
-        '
-        'familyTel1
-        '
-        Me.familyTel1.InputType = 1
-        Me.familyTel1.LimitLengthByte = 4
-        Me.familyTel1.Location = New System.Drawing.Point(508, 1)
-        Me.familyTel1.Name = "familyTel1"
-        Me.familyTel1.Size = New System.Drawing.Size(63, 19)
-        Me.familyTel1.TabIndex = 43
-        '
-        'familyAddress
-        '
-        Me.familyAddress.InputType = 0
-        Me.familyAddress.LimitLengthByte = 60
-        Me.familyAddress.Location = New System.Drawing.Point(156, 1)
-        Me.familyAddress.Name = "familyAddress"
-        Me.familyAddress.Size = New System.Drawing.Size(313, 19)
-        Me.familyAddress.TabIndex = 42
-        '
-        'familyPostCode2
-        '
-        Me.familyPostCode2.InputType = 1
-        Me.familyPostCode2.LimitLengthByte = 4
-        Me.familyPostCode2.Location = New System.Drawing.Point(83, 1)
-        Me.familyPostCode2.Name = "familyPostCode2"
-        Me.familyPostCode2.Size = New System.Drawing.Size(55, 19)
-        Me.familyPostCode2.TabIndex = 41
-        '
-        'familyPostCode1
-        '
-        Me.familyPostCode1.InputType = 1
-        Me.familyPostCode1.LimitLengthByte = 3
-        Me.familyPostCode1.Location = New System.Drawing.Point(21, 1)
-        Me.familyPostCode1.Name = "familyPostCode1"
-        Me.familyPostCode1.Size = New System.Drawing.Size(46, 19)
-        Me.familyPostCode1.TabIndex = 40
+        Me.Panel5.TabIndex = 11
         '
         'Label18
         '
@@ -2374,63 +1962,7 @@ Partial Class 認定調査票
         Me.Panel4.Location = New System.Drawing.Point(98, 186)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(734, 21)
-        Me.Panel4.TabIndex = 30
-        '
-        'currentTel3
-        '
-        Me.currentTel3.InputType = 1
-        Me.currentTel3.LimitLengthByte = 4
-        Me.currentTel3.Location = New System.Drawing.Point(670, 1)
-        Me.currentTel3.Name = "currentTel3"
-        Me.currentTel3.Size = New System.Drawing.Size(63, 19)
-        Me.currentTel3.TabIndex = 38
-        '
-        'currentTel2
-        '
-        Me.currentTel2.InputType = 1
-        Me.currentTel2.LimitLengthByte = 4
-        Me.currentTel2.Location = New System.Drawing.Point(589, 1)
-        Me.currentTel2.Name = "currentTel2"
-        Me.currentTel2.Size = New System.Drawing.Size(63, 19)
-        Me.currentTel2.TabIndex = 37
-        '
-        'currentTel1
-        '
-        Me.currentTel1.InputType = 1
-        Me.currentTel1.LimitLengthByte = 4
-        Me.currentTel1.Location = New System.Drawing.Point(508, 1)
-        Me.currentTel1.Name = "currentTel1"
-        Me.currentTel1.Size = New System.Drawing.Size(63, 19)
-        Me.currentTel1.TabIndex = 36
-        Me.currentTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'currentAddress
-        '
-        Me.currentAddress.InputType = 0
-        Me.currentAddress.LimitLengthByte = 60
-        Me.currentAddress.Location = New System.Drawing.Point(156, 1)
-        Me.currentAddress.Name = "currentAddress"
-        Me.currentAddress.Size = New System.Drawing.Size(313, 19)
-        Me.currentAddress.TabIndex = 35
-        '
-        'currentPostCode2
-        '
-        Me.currentPostCode2.InputType = 1
-        Me.currentPostCode2.LimitLengthByte = 4
-        Me.currentPostCode2.Location = New System.Drawing.Point(83, 1)
-        Me.currentPostCode2.Name = "currentPostCode2"
-        Me.currentPostCode2.Size = New System.Drawing.Size(55, 19)
-        Me.currentPostCode2.TabIndex = 34
-        '
-        'currentPostCode1
-        '
-        Me.currentPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
-        Me.currentPostCode1.InputType = 1
-        Me.currentPostCode1.LimitLengthByte = 3
-        Me.currentPostCode1.Location = New System.Drawing.Point(21, 1)
-        Me.currentPostCode1.Name = "currentPostCode1"
-        Me.currentPostCode1.Size = New System.Drawing.Size(46, 19)
-        Me.currentPostCode1.TabIndex = 32
+        Me.Panel4.TabIndex = 10
         '
         'Label23
         '
@@ -2536,7 +2068,7 @@ Partial Class 認定調査票
         Me.birthYmdBox.MonthText = ""
         Me.birthYmdBox.Name = "birthYmdBox"
         Me.birthYmdBox.Size = New System.Drawing.Size(110, 34)
-        Me.birthYmdBox.TabIndex = 24
+        Me.birthYmdBox.TabIndex = 9
         '
         'Label14
         '
@@ -2555,7 +2087,7 @@ Partial Class 認定調査票
         Me.Panel3.Location = New System.Drawing.Point(86, 153)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(102, 25)
-        Me.Panel3.TabIndex = 11
+        Me.Panel3.TabIndex = 8
         '
         'rbtnWoman
         '
@@ -2595,7 +2127,7 @@ Partial Class 認定調査票
         Me.certifiedResultBox.Location = New System.Drawing.Point(629, 120)
         Me.certifiedResultBox.Name = "certifiedResultBox"
         Me.certifiedResultBox.Size = New System.Drawing.Size(116, 20)
-        Me.certifiedResultBox.TabIndex = 21
+        Me.certifiedResultBox.TabIndex = 7
         '
         'Label12
         '
@@ -2656,7 +2188,7 @@ Partial Class 認定調査票
         Me.Panel2.Location = New System.Drawing.Point(115, 118)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(169, 25)
-        Me.Panel2.TabIndex = 11
+        Me.Panel2.TabIndex = 6
         '
         'rbtnSecondCount
         '
@@ -2724,7 +2256,7 @@ Partial Class 認定調査票
         Me.Panel1.Location = New System.Drawing.Point(115, 84)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(150, 25)
-        Me.Panel1.TabIndex = 10
+        Me.Panel1.TabIndex = 4
         '
         'rbtnHouseOut
         '
@@ -2835,15 +2367,6 @@ Partial Class 認定調査票
         Me.btnClear.Text = "クリア"
         Me.btnClear.UseVisualStyleBackColor = True
         '
-        'dgvNumInput
-        '
-        Me.dgvNumInput.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvNumInput.Location = New System.Drawing.Point(15, 10)
-        Me.dgvNumInput.Name = "dgvNumInput"
-        Me.dgvNumInput.RowTemplate.Height = 21
-        Me.dgvNumInput.Size = New System.Drawing.Size(493, 34)
-        Me.dgvNumInput.TabIndex = 0
-        '
         'specialNotePage
         '
         Me.specialNotePage.BackColor = System.Drawing.SystemColors.Control
@@ -2897,15 +2420,6 @@ Partial Class 認定調査票
         Me.spTabP1.Size = New System.Drawing.Size(802, 671)
         Me.spTabP1.TabIndex = 0
         Me.spTabP1.Text = "１．身体機能・起居動作"
-        '
-        'SpDgv1
-        '
-        Me.SpDgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv1.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv1.Name = "SpDgv1"
-        Me.SpDgv1.RowTemplate.Height = 21
-        Me.SpDgv1.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv1.TabIndex = 17
         '
         'Label91
         '
@@ -3101,15 +2615,6 @@ Partial Class 認定調査票
         Me.spTabP2.TabIndex = 1
         Me.spTabP2.Text = "２．生活機能"
         '
-        'SpDgv2
-        '
-        Me.SpDgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv2.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv2.Name = "SpDgv2"
-        Me.SpDgv2.RowTemplate.Height = 21
-        Me.SpDgv2.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv2.TabIndex = 35
-        '
         'Label93
         '
         Me.Label93.AutoSize = True
@@ -3289,15 +2794,6 @@ Partial Class 認定調査票
         Me.spTabP3.Size = New System.Drawing.Size(802, 671)
         Me.spTabP3.TabIndex = 2
         Me.spTabP3.Text = "３．認知機能"
-        '
-        'SpDgv3
-        '
-        Me.SpDgv3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv3.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv3.Name = "SpDgv3"
-        Me.SpDgv3.RowTemplate.Height = 21
-        Me.SpDgv3.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv3.TabIndex = 35
         '
         'Label109
         '
@@ -3642,15 +3138,6 @@ Partial Class 認定調査票
         Me.Label128.TabIndex = 18
         Me.Label128.Text = "4. 精神・行動障害に関連する項目"
         '
-        'SpDgv4
-        '
-        Me.SpDgv4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv4.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv4.Name = "SpDgv4"
-        Me.SpDgv4.RowTemplate.Height = 21
-        Me.SpDgv4.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv4.TabIndex = 35
-        '
         'spTabP5
         '
         Me.spTabP5.BackColor = System.Drawing.SystemColors.Control
@@ -3670,15 +3157,6 @@ Partial Class 認定調査票
         Me.spTabP5.Size = New System.Drawing.Size(802, 671)
         Me.spTabP5.TabIndex = 4
         Me.spTabP5.Text = "５．社会生活への適応"
-        '
-        'SpDgv5
-        '
-        Me.SpDgv5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv5.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv5.Name = "SpDgv5"
-        Me.SpDgv5.RowTemplate.Height = 21
-        Me.SpDgv5.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv5.TabIndex = 55
         '
         'Label140
         '
@@ -3792,15 +3270,6 @@ Partial Class 認定調査票
         Me.spTabP6.TabIndex = 5
         Me.spTabP6.Text = "６．特別な医療"
         '
-        'SpDgv6
-        '
-        Me.SpDgv6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv6.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv6.Name = "SpDgv6"
-        Me.SpDgv6.RowTemplate.Height = 21
-        Me.SpDgv6.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv6.TabIndex = 66
-        '
         'Label136
         '
         Me.Label136.AutoSize = True
@@ -3865,15 +3334,6 @@ Partial Class 認定調査票
         Me.spTabP7.Size = New System.Drawing.Size(802, 671)
         Me.spTabP7.TabIndex = 6
         Me.spTabP7.Text = "７．日常生活自立度"
-        '
-        'SpDgv7
-        '
-        Me.SpDgv7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.SpDgv7.Location = New System.Drawing.Point(182, 118)
-        Me.SpDgv7.Name = "SpDgv7"
-        Me.SpDgv7.RowTemplate.Height = 21
-        Me.SpDgv7.Size = New System.Drawing.Size(597, 531)
-        Me.SpDgv7.TabIndex = 66
         '
         'Label133
         '
@@ -4037,61 +3497,6 @@ Partial Class 認定調査票
         Me.GroupBox13.TabIndex = 30
         Me.GroupBox13.TabStop = False
         '
-        'rb1_13_5
-        '
-        Me.rb1_13_5.AutoSize = True
-        Me.rb1_13_5.Location = New System.Drawing.Point(117, 105)
-        Me.rb1_13_5.Name = "rb1_13_5"
-        Me.rb1_13_5.Size = New System.Drawing.Size(156, 16)
-        Me.rb1_13_5.TabIndex = 25
-        Me.rb1_13_5.TabStop = True
-        Me.rb1_13_5.Text = "5.聞こえているのか判断不能"
-        Me.rb1_13_5.UseVisualStyleBackColor = True
-        '
-        'rb1_13_4
-        '
-        Me.rb1_13_4.AutoSize = True
-        Me.rb1_13_4.Location = New System.Drawing.Point(117, 82)
-        Me.rb1_13_4.Name = "rb1_13_4"
-        Me.rb1_13_4.Size = New System.Drawing.Size(117, 16)
-        Me.rb1_13_4.TabIndex = 24
-        Me.rb1_13_4.TabStop = True
-        Me.rb1_13_4.Text = "4.ほとんど聞こえない"
-        Me.rb1_13_4.UseVisualStyleBackColor = True
-        '
-        'rb1_13_3
-        '
-        Me.rb1_13_3.AutoSize = True
-        Me.rb1_13_3.Location = New System.Drawing.Point(117, 59)
-        Me.rb1_13_3.Name = "rb1_13_3"
-        Me.rb1_13_3.Size = New System.Drawing.Size(203, 16)
-        Me.rb1_13_3.TabIndex = 23
-        Me.rb1_13_3.TabStop = True
-        Me.rb1_13_3.Text = "3.かなり大きな声なら何とか聞き取れる"
-        Me.rb1_13_3.UseVisualStyleBackColor = True
-        '
-        'rb1_13_2
-        '
-        Me.rb1_13_2.AutoSize = True
-        Me.rb1_13_2.Location = New System.Drawing.Point(117, 36)
-        Me.rb1_13_2.Name = "rb1_13_2"
-        Me.rb1_13_2.Size = New System.Drawing.Size(166, 16)
-        Me.rb1_13_2.TabIndex = 22
-        Me.rb1_13_2.TabStop = True
-        Me.rb1_13_2.Text = "2.普通の声がやっと聞き取れる"
-        Me.rb1_13_2.UseVisualStyleBackColor = True
-        '
-        'rb1_13_1
-        '
-        Me.rb1_13_1.AutoSize = True
-        Me.rb1_13_1.Location = New System.Drawing.Point(117, 13)
-        Me.rb1_13_1.Name = "rb1_13_1"
-        Me.rb1_13_1.Size = New System.Drawing.Size(55, 16)
-        Me.rb1_13_1.TabIndex = 21
-        Me.rb1_13_1.TabStop = True
-        Me.rb1_13_1.Text = "1.普通"
-        Me.rb1_13_1.UseVisualStyleBackColor = True
-        '
         'Label131
         '
         Me.Label131.AutoSize = True
@@ -4116,61 +3521,6 @@ Partial Class 認定調査票
         Me.GroupBox12.TabIndex = 29
         Me.GroupBox12.TabStop = False
         '
-        'rb1_12_5
-        '
-        Me.rb1_12_5.AutoSize = True
-        Me.rb1_12_5.Location = New System.Drawing.Point(122, 105)
-        Me.rb1_12_5.Name = "rb1_12_5"
-        Me.rb1_12_5.Size = New System.Drawing.Size(148, 16)
-        Me.rb1_12_5.TabIndex = 20
-        Me.rb1_12_5.TabStop = True
-        Me.rb1_12_5.Text = "5.見えているのか判断不能"
-        Me.rb1_12_5.UseVisualStyleBackColor = True
-        '
-        'rb1_12_4
-        '
-        Me.rb1_12_4.AutoSize = True
-        Me.rb1_12_4.Location = New System.Drawing.Point(122, 82)
-        Me.rb1_12_4.Name = "rb1_12_4"
-        Me.rb1_12_4.Size = New System.Drawing.Size(109, 16)
-        Me.rb1_12_4.TabIndex = 19
-        Me.rb1_12_4.TabStop = True
-        Me.rb1_12_4.Text = "4.ほとんど見えない"
-        Me.rb1_12_4.UseVisualStyleBackColor = True
-        '
-        'rb1_12_3
-        '
-        Me.rb1_12_3.AutoSize = True
-        Me.rb1_12_3.Location = New System.Drawing.Point(122, 59)
-        Me.rb1_12_3.Name = "rb1_12_3"
-        Me.rb1_12_3.Size = New System.Drawing.Size(227, 16)
-        Me.rb1_12_3.TabIndex = 18
-        Me.rb1_12_3.TabStop = True
-        Me.rb1_12_3.Text = "3.目の前に置いた視力確認表の図が見える"
-        Me.rb1_12_3.UseVisualStyleBackColor = True
-        '
-        'rb1_12_2
-        '
-        Me.rb1_12_2.AutoSize = True
-        Me.rb1_12_2.Location = New System.Drawing.Point(122, 36)
-        Me.rb1_12_2.Name = "rb1_12_2"
-        Me.rb1_12_2.Size = New System.Drawing.Size(216, 16)
-        Me.rb1_12_2.TabIndex = 17
-        Me.rb1_12_2.TabStop = True
-        Me.rb1_12_2.Text = "2.約１ｍ離れた視力確認表の図が見える"
-        Me.rb1_12_2.UseVisualStyleBackColor = True
-        '
-        'rb1_12_1
-        '
-        Me.rb1_12_1.AutoSize = True
-        Me.rb1_12_1.Location = New System.Drawing.Point(122, 13)
-        Me.rb1_12_1.Name = "rb1_12_1"
-        Me.rb1_12_1.Size = New System.Drawing.Size(178, 16)
-        Me.rb1_12_1.TabIndex = 16
-        Me.rb1_12_1.TabStop = True
-        Me.rb1_12_1.Text = "1.普通（日常生活に支障がない）"
-        Me.rb1_12_1.UseVisualStyleBackColor = True
-        '
         'Label132
         '
         Me.Label132.AutoSize = True
@@ -4192,39 +3542,6 @@ Partial Class 認定調査票
         Me.GroupBox11.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox11.TabIndex = 28
         Me.GroupBox11.TabStop = False
-        '
-        'rb1_11_3
-        '
-        Me.rb1_11_3.AutoSize = True
-        Me.rb1_11_3.Location = New System.Drawing.Point(419, 10)
-        Me.rb1_11_3.Name = "rb1_11_3"
-        Me.rb1_11_3.Size = New System.Drawing.Size(67, 16)
-        Me.rb1_11_3.TabIndex = 22
-        Me.rb1_11_3.TabStop = True
-        Me.rb1_11_3.Text = "3.全介助"
-        Me.rb1_11_3.UseVisualStyleBackColor = True
-        '
-        'rb1_11_2
-        '
-        Me.rb1_11_2.AutoSize = True
-        Me.rb1_11_2.Location = New System.Drawing.Point(293, 10)
-        Me.rb1_11_2.Name = "rb1_11_2"
-        Me.rb1_11_2.Size = New System.Drawing.Size(79, 16)
-        Me.rb1_11_2.TabIndex = 21
-        Me.rb1_11_2.TabStop = True
-        Me.rb1_11_2.Text = "2.一部介助"
-        Me.rb1_11_2.UseVisualStyleBackColor = True
-        '
-        'rb1_11_1
-        '
-        Me.rb1_11_1.AutoSize = True
-        Me.rb1_11_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb1_11_1.Name = "rb1_11_1"
-        Me.rb1_11_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb1_11_1.TabIndex = 20
-        Me.rb1_11_1.TabStop = True
-        Me.rb1_11_1.Text = "1.自立（介助なし）"
-        Me.rb1_11_1.UseVisualStyleBackColor = True
         '
         'Label147
         '
@@ -4249,50 +3566,6 @@ Partial Class 認定調査票
         Me.GroupBox10.TabIndex = 27
         Me.GroupBox10.TabStop = False
         '
-        'rb1_10_4
-        '
-        Me.rb1_10_4.AutoSize = True
-        Me.rb1_10_4.Location = New System.Drawing.Point(530, 10)
-        Me.rb1_10_4.Name = "rb1_10_4"
-        Me.rb1_10_4.Size = New System.Drawing.Size(90, 16)
-        Me.rb1_10_4.TabIndex = 20
-        Me.rb1_10_4.TabStop = True
-        Me.rb1_10_4.Text = "4.行っていない"
-        Me.rb1_10_4.UseVisualStyleBackColor = True
-        '
-        'rb1_10_3
-        '
-        Me.rb1_10_3.AutoSize = True
-        Me.rb1_10_3.Location = New System.Drawing.Point(419, 10)
-        Me.rb1_10_3.Name = "rb1_10_3"
-        Me.rb1_10_3.Size = New System.Drawing.Size(67, 16)
-        Me.rb1_10_3.TabIndex = 19
-        Me.rb1_10_3.TabStop = True
-        Me.rb1_10_3.Text = "3.全介助"
-        Me.rb1_10_3.UseVisualStyleBackColor = True
-        '
-        'rb1_10_2
-        '
-        Me.rb1_10_2.AutoSize = True
-        Me.rb1_10_2.Location = New System.Drawing.Point(293, 10)
-        Me.rb1_10_2.Name = "rb1_10_2"
-        Me.rb1_10_2.Size = New System.Drawing.Size(79, 16)
-        Me.rb1_10_2.TabIndex = 18
-        Me.rb1_10_2.TabStop = True
-        Me.rb1_10_2.Text = "2.一部介助"
-        Me.rb1_10_2.UseVisualStyleBackColor = True
-        '
-        'rb1_10_1
-        '
-        Me.rb1_10_1.AutoSize = True
-        Me.rb1_10_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb1_10_1.Name = "rb1_10_1"
-        Me.rb1_10_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb1_10_1.TabIndex = 17
-        Me.rb1_10_1.TabStop = True
-        Me.rb1_10_1.Text = "1.自立（介助なし）"
-        Me.rb1_10_1.UseVisualStyleBackColor = True
-        '
         'Label148
         '
         Me.Label148.AutoSize = True
@@ -4314,39 +3587,6 @@ Partial Class 認定調査票
         Me.GroupBox9.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox9.TabIndex = 26
         Me.GroupBox9.TabStop = False
-        '
-        'rb1_9_3
-        '
-        Me.rb1_9_3.AutoSize = True
-        Me.rb1_9_3.Location = New System.Drawing.Point(457, 10)
-        Me.rb1_9_3.Name = "rb1_9_3"
-        Me.rb1_9_3.Size = New System.Drawing.Size(70, 16)
-        Me.rb1_9_3.TabIndex = 18
-        Me.rb1_9_3.TabStop = True
-        Me.rb1_9_3.Text = "3.できない"
-        Me.rb1_9_3.UseVisualStyleBackColor = True
-        '
-        'rb1_9_2
-        '
-        Me.rb1_9_2.AutoSize = True
-        Me.rb1_9_2.Location = New System.Drawing.Point(293, 10)
-        Me.rb1_9_2.Name = "rb1_9_2"
-        Me.rb1_9_2.Size = New System.Drawing.Size(143, 16)
-        Me.rb1_9_2.TabIndex = 17
-        Me.rb1_9_2.TabStop = True
-        Me.rb1_9_2.Text = "2.何か支えがあればできる"
-        Me.rb1_9_2.UseVisualStyleBackColor = True
-        '
-        'rb1_9_1
-        '
-        Me.rb1_9_1.AutoSize = True
-        Me.rb1_9_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb1_9_1.Name = "rb1_9_1"
-        Me.rb1_9_1.Size = New System.Drawing.Size(109, 16)
-        Me.rb1_9_1.TabIndex = 16
-        Me.rb1_9_1.TabStop = True
-        Me.rb1_9_1.Text = "1.支えなしでできる"
-        Me.rb1_9_1.UseVisualStyleBackColor = True
         '
         'Label149
         '
@@ -4370,39 +3610,6 @@ Partial Class 認定調査票
         Me.GroupBox8.TabIndex = 25
         Me.GroupBox8.TabStop = False
         '
-        'rb1_8_3
-        '
-        Me.rb1_8_3.AutoSize = True
-        Me.rb1_8_3.Location = New System.Drawing.Point(457, 10)
-        Me.rb1_8_3.Name = "rb1_8_3"
-        Me.rb1_8_3.Size = New System.Drawing.Size(70, 16)
-        Me.rb1_8_3.TabIndex = 18
-        Me.rb1_8_3.TabStop = True
-        Me.rb1_8_3.Text = "3.できない"
-        Me.rb1_8_3.UseVisualStyleBackColor = True
-        '
-        'rb1_8_2
-        '
-        Me.rb1_8_2.AutoSize = True
-        Me.rb1_8_2.Location = New System.Drawing.Point(293, 10)
-        Me.rb1_8_2.Name = "rb1_8_2"
-        Me.rb1_8_2.Size = New System.Drawing.Size(139, 16)
-        Me.rb1_8_2.TabIndex = 17
-        Me.rb1_8_2.TabStop = True
-        Me.rb1_8_2.Text = "2.何かにつかまればできる"
-        Me.rb1_8_2.UseVisualStyleBackColor = True
-        '
-        'rb1_8_1
-        '
-        Me.rb1_8_1.AutoSize = True
-        Me.rb1_8_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb1_8_1.Name = "rb1_8_1"
-        Me.rb1_8_1.Size = New System.Drawing.Size(125, 16)
-        Me.rb1_8_1.TabIndex = 16
-        Me.rb1_8_1.TabStop = True
-        Me.rb1_8_1.Text = "1.つかまらないでできる"
-        Me.rb1_8_1.UseVisualStyleBackColor = True
-        '
         'Label150
         '
         Me.Label150.AutoSize = True
@@ -4425,39 +3632,6 @@ Partial Class 認定調査票
         Me.GroupBox7.TabIndex = 24
         Me.GroupBox7.TabStop = False
         '
-        'rb1_7_3
-        '
-        Me.rb1_7_3.AutoSize = True
-        Me.rb1_7_3.Location = New System.Drawing.Point(457, 10)
-        Me.rb1_7_3.Name = "rb1_7_3"
-        Me.rb1_7_3.Size = New System.Drawing.Size(70, 16)
-        Me.rb1_7_3.TabIndex = 15
-        Me.rb1_7_3.TabStop = True
-        Me.rb1_7_3.Text = "3.できない"
-        Me.rb1_7_3.UseVisualStyleBackColor = True
-        '
-        'rb1_7_2
-        '
-        Me.rb1_7_2.AutoSize = True
-        Me.rb1_7_2.Location = New System.Drawing.Point(293, 10)
-        Me.rb1_7_2.Name = "rb1_7_2"
-        Me.rb1_7_2.Size = New System.Drawing.Size(139, 16)
-        Me.rb1_7_2.TabIndex = 14
-        Me.rb1_7_2.TabStop = True
-        Me.rb1_7_2.Text = "2.何かにつかまればできる"
-        Me.rb1_7_2.UseVisualStyleBackColor = True
-        '
-        'rb1_7_1
-        '
-        Me.rb1_7_1.AutoSize = True
-        Me.rb1_7_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb1_7_1.Name = "rb1_7_1"
-        Me.rb1_7_1.Size = New System.Drawing.Size(125, 16)
-        Me.rb1_7_1.TabIndex = 13
-        Me.rb1_7_1.TabStop = True
-        Me.rb1_7_1.Text = "1.つかまらないでできる"
-        Me.rb1_7_1.UseVisualStyleBackColor = True
-        '
         'Label151
         '
         Me.Label151.AutoSize = True
@@ -4479,39 +3653,6 @@ Partial Class 認定調査票
         Me.GroupBox6.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox6.TabIndex = 23
         Me.GroupBox6.TabStop = False
-        '
-        'rb1_6_3
-        '
-        Me.rb1_6_3.AutoSize = True
-        Me.rb1_6_3.Location = New System.Drawing.Point(457, 10)
-        Me.rb1_6_3.Name = "rb1_6_3"
-        Me.rb1_6_3.Size = New System.Drawing.Size(70, 16)
-        Me.rb1_6_3.TabIndex = 15
-        Me.rb1_6_3.TabStop = True
-        Me.rb1_6_3.Text = "3.できない"
-        Me.rb1_6_3.UseVisualStyleBackColor = True
-        '
-        'rb1_6_2
-        '
-        Me.rb1_6_2.AutoSize = True
-        Me.rb1_6_2.Location = New System.Drawing.Point(293, 10)
-        Me.rb1_6_2.Name = "rb1_6_2"
-        Me.rb1_6_2.Size = New System.Drawing.Size(143, 16)
-        Me.rb1_6_2.TabIndex = 14
-        Me.rb1_6_2.TabStop = True
-        Me.rb1_6_2.Text = "2.何か支えがあればできる"
-        Me.rb1_6_2.UseVisualStyleBackColor = True
-        '
-        'rb1_6_1
-        '
-        Me.rb1_6_1.AutoSize = True
-        Me.rb1_6_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb1_6_1.Name = "rb1_6_1"
-        Me.rb1_6_1.Size = New System.Drawing.Size(109, 16)
-        Me.rb1_6_1.TabIndex = 13
-        Me.rb1_6_1.TabStop = True
-        Me.rb1_6_1.Text = "1.支えなしでできる"
-        Me.rb1_6_1.UseVisualStyleBackColor = True
         '
         'Label152
         '
@@ -4536,28 +3677,6 @@ Partial Class 認定調査票
         Me.GroupBox5.TabIndex = 22
         Me.GroupBox5.TabStop = False
         '
-        'rb1_5_4
-        '
-        Me.rb1_5_4.AutoSize = True
-        Me.rb1_5_4.Location = New System.Drawing.Point(588, 10)
-        Me.rb1_5_4.Name = "rb1_5_4"
-        Me.rb1_5_4.Size = New System.Drawing.Size(70, 16)
-        Me.rb1_5_4.TabIndex = 16
-        Me.rb1_5_4.TabStop = True
-        Me.rb1_5_4.Text = "4.できない"
-        Me.rb1_5_4.UseVisualStyleBackColor = True
-        '
-        'rb1_5_3
-        '
-        Me.rb1_5_3.AutoSize = True
-        Me.rb1_5_3.Location = New System.Drawing.Point(419, 10)
-        Me.rb1_5_3.Name = "rb1_5_3"
-        Me.rb1_5_3.Size = New System.Drawing.Size(136, 16)
-        Me.rb1_5_3.TabIndex = 15
-        Me.rb1_5_3.TabStop = True
-        Me.rb1_5_3.Text = "3.支えてもらえればできる"
-        Me.rb1_5_3.UseVisualStyleBackColor = True
-        '
         'Label153
         '
         Me.Label153.AutoSize = True
@@ -4567,28 +3686,6 @@ Partial Class 認定調査票
         Me.Label153.Size = New System.Drawing.Size(75, 12)
         Me.Label153.TabIndex = 8
         Me.Label153.Text = "1-5 座位保持"
-        '
-        'rb1_5_2
-        '
-        Me.rb1_5_2.AutoSize = True
-        Me.rb1_5_2.Location = New System.Drawing.Point(232, 10)
-        Me.rb1_5_2.Name = "rb1_5_2"
-        Me.rb1_5_2.Size = New System.Drawing.Size(157, 16)
-        Me.rb1_5_2.TabIndex = 14
-        Me.rb1_5_2.TabStop = True
-        Me.rb1_5_2.Text = "2.自分の手で支えればできる"
-        Me.rb1_5_2.UseVisualStyleBackColor = True
-        '
-        'rb1_5_1
-        '
-        Me.rb1_5_1.AutoSize = True
-        Me.rb1_5_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb1_5_1.Name = "rb1_5_1"
-        Me.rb1_5_1.Size = New System.Drawing.Size(59, 16)
-        Me.rb1_5_1.TabIndex = 13
-        Me.rb1_5_1.TabStop = True
-        Me.rb1_5_1.Text = "1.できる"
-        Me.rb1_5_1.UseVisualStyleBackColor = True
         '
         'GroupBox4
         '
@@ -4602,17 +3699,6 @@ Partial Class 認定調査票
         Me.GroupBox4.TabIndex = 21
         Me.GroupBox4.TabStop = False
         '
-        'rb1_4_3
-        '
-        Me.rb1_4_3.AutoSize = True
-        Me.rb1_4_3.Location = New System.Drawing.Point(457, 10)
-        Me.rb1_4_3.Name = "rb1_4_3"
-        Me.rb1_4_3.Size = New System.Drawing.Size(70, 16)
-        Me.rb1_4_3.TabIndex = 12
-        Me.rb1_4_3.TabStop = True
-        Me.rb1_4_3.Text = "3.できない"
-        Me.rb1_4_3.UseVisualStyleBackColor = True
-        '
         'Label154
         '
         Me.Label154.AutoSize = True
@@ -4622,28 +3708,6 @@ Partial Class 認定調査票
         Me.Label154.Size = New System.Drawing.Size(78, 12)
         Me.Label154.TabIndex = 7
         Me.Label154.Text = "1-4 起き上がり"
-        '
-        'rb1_4_2
-        '
-        Me.rb1_4_2.AutoSize = True
-        Me.rb1_4_2.Location = New System.Drawing.Point(293, 10)
-        Me.rb1_4_2.Name = "rb1_4_2"
-        Me.rb1_4_2.Size = New System.Drawing.Size(139, 16)
-        Me.rb1_4_2.TabIndex = 11
-        Me.rb1_4_2.TabStop = True
-        Me.rb1_4_2.Text = "2.何かにつかまればできる"
-        Me.rb1_4_2.UseVisualStyleBackColor = True
-        '
-        'rb1_4_1
-        '
-        Me.rb1_4_1.AutoSize = True
-        Me.rb1_4_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb1_4_1.Name = "rb1_4_1"
-        Me.rb1_4_1.Size = New System.Drawing.Size(125, 16)
-        Me.rb1_4_1.TabIndex = 10
-        Me.rb1_4_1.TabStop = True
-        Me.rb1_4_1.Text = "1.つかまらないでできる"
-        Me.rb1_4_1.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
@@ -4656,39 +3720,6 @@ Partial Class 認定調査票
         Me.GroupBox3.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox3.TabIndex = 20
         Me.GroupBox3.TabStop = False
-        '
-        'rb1_3_3
-        '
-        Me.rb1_3_3.AutoSize = True
-        Me.rb1_3_3.Location = New System.Drawing.Point(457, 10)
-        Me.rb1_3_3.Name = "rb1_3_3"
-        Me.rb1_3_3.Size = New System.Drawing.Size(70, 16)
-        Me.rb1_3_3.TabIndex = 9
-        Me.rb1_3_3.TabStop = True
-        Me.rb1_3_3.Text = "3.できない"
-        Me.rb1_3_3.UseVisualStyleBackColor = True
-        '
-        'rb1_3_2
-        '
-        Me.rb1_3_2.AutoSize = True
-        Me.rb1_3_2.Location = New System.Drawing.Point(293, 10)
-        Me.rb1_3_2.Name = "rb1_3_2"
-        Me.rb1_3_2.Size = New System.Drawing.Size(139, 16)
-        Me.rb1_3_2.TabIndex = 8
-        Me.rb1_3_2.TabStop = True
-        Me.rb1_3_2.Text = "2.何かにつかまればできる"
-        Me.rb1_3_2.UseVisualStyleBackColor = True
-        '
-        'rb1_3_1
-        '
-        Me.rb1_3_1.AutoSize = True
-        Me.rb1_3_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb1_3_1.Name = "rb1_3_1"
-        Me.rb1_3_1.Size = New System.Drawing.Size(125, 16)
-        Me.rb1_3_1.TabIndex = 7
-        Me.rb1_3_1.TabStop = True
-        Me.rb1_3_1.Text = "1.つかまらないでできる"
-        Me.rb1_3_1.UseVisualStyleBackColor = True
         '
         'Label155
         '
@@ -4714,16 +3745,6 @@ Partial Class 認定調査票
         Me.GroupBox2.TabIndex = 19
         Me.GroupBox2.TabStop = False
         '
-        'Ch3_5
-        '
-        Me.Ch3_5.AutoSize = True
-        Me.Ch3_5.Location = New System.Drawing.Point(419, 11)
-        Me.Ch3_5.Name = "Ch3_5"
-        Me.Ch3_5.Size = New System.Drawing.Size(133, 16)
-        Me.Ch3_5.TabIndex = 15
-        Me.Ch3_5.Text = "5.その他（四肢の欠損）"
-        Me.Ch3_5.UseVisualStyleBackColor = True
-        '
         'Label156
         '
         Me.Label156.AutoSize = True
@@ -4733,46 +3754,6 @@ Partial Class 認定調査票
         Me.Label156.Size = New System.Drawing.Size(85, 12)
         Me.Label156.TabIndex = 5
         Me.Label156.Text = "1-2 拘縮の有無"
-        '
-        'Ch3_4
-        '
-        Me.Ch3_4.AutoSize = True
-        Me.Ch3_4.Location = New System.Drawing.Point(346, 11)
-        Me.Ch3_4.Name = "Ch3_4"
-        Me.Ch3_4.Size = New System.Drawing.Size(68, 16)
-        Me.Ch3_4.TabIndex = 14
-        Me.Ch3_4.Text = "4.膝関節"
-        Me.Ch3_4.UseVisualStyleBackColor = True
-        '
-        'Ch3_1
-        '
-        Me.Ch3_1.AutoSize = True
-        Me.Ch3_1.Location = New System.Drawing.Point(142, 11)
-        Me.Ch3_1.Name = "Ch3_1"
-        Me.Ch3_1.Size = New System.Drawing.Size(52, 16)
-        Me.Ch3_1.TabIndex = 11
-        Me.Ch3_1.Text = "1.ない"
-        Me.Ch3_1.UseVisualStyleBackColor = True
-        '
-        'Ch3_3
-        '
-        Me.Ch3_3.AutoSize = True
-        Me.Ch3_3.Location = New System.Drawing.Point(273, 11)
-        Me.Ch3_3.Name = "Ch3_3"
-        Me.Ch3_3.Size = New System.Drawing.Size(68, 16)
-        Me.Ch3_3.TabIndex = 13
-        Me.Ch3_3.Text = "3.股関節"
-        Me.Ch3_3.UseVisualStyleBackColor = True
-        '
-        'Ch3_2
-        '
-        Me.Ch3_2.AutoSize = True
-        Me.Ch3_2.Location = New System.Drawing.Point(200, 11)
-        Me.Ch3_2.Name = "Ch3_2"
-        Me.Ch3_2.Size = New System.Drawing.Size(68, 16)
-        Me.Ch3_2.TabIndex = 12
-        Me.Ch3_2.Text = "2.肩関節"
-        Me.Ch3_2.UseVisualStyleBackColor = True
         '
         'GroupBox1
         '
@@ -4788,66 +3769,6 @@ Partial Class 認定調査票
         Me.GroupBox1.Size = New System.Drawing.Size(648, 31)
         Me.GroupBox1.TabIndex = 18
         Me.GroupBox1.TabStop = False
-        '
-        'Ch2_6
-        '
-        Me.Ch2_6.AutoSize = True
-        Me.Ch2_6.Location = New System.Drawing.Point(493, 11)
-        Me.Ch2_6.Name = "Ch2_6"
-        Me.Ch2_6.Size = New System.Drawing.Size(133, 16)
-        Me.Ch2_6.TabIndex = 10
-        Me.Ch2_6.Text = "6.その他（四肢の欠損）"
-        Me.Ch2_6.UseVisualStyleBackColor = True
-        '
-        'Ch2_5
-        '
-        Me.Ch2_5.AutoSize = True
-        Me.Ch2_5.Location = New System.Drawing.Point(419, 11)
-        Me.Ch2_5.Name = "Ch2_5"
-        Me.Ch2_5.Size = New System.Drawing.Size(68, 16)
-        Me.Ch2_5.TabIndex = 9
-        Me.Ch2_5.Text = "5.右下肢"
-        Me.Ch2_5.UseVisualStyleBackColor = True
-        '
-        'Ch2_4
-        '
-        Me.Ch2_4.AutoSize = True
-        Me.Ch2_4.Location = New System.Drawing.Point(346, 11)
-        Me.Ch2_4.Name = "Ch2_4"
-        Me.Ch2_4.Size = New System.Drawing.Size(68, 16)
-        Me.Ch2_4.TabIndex = 8
-        Me.Ch2_4.Text = "4.左下肢"
-        Me.Ch2_4.UseVisualStyleBackColor = True
-        '
-        'Ch2_3
-        '
-        Me.Ch2_3.AutoSize = True
-        Me.Ch2_3.Location = New System.Drawing.Point(273, 11)
-        Me.Ch2_3.Name = "Ch2_3"
-        Me.Ch2_3.Size = New System.Drawing.Size(68, 16)
-        Me.Ch2_3.TabIndex = 7
-        Me.Ch2_3.Text = "3.右上肢"
-        Me.Ch2_3.UseVisualStyleBackColor = True
-        '
-        'Ch2_2
-        '
-        Me.Ch2_2.AutoSize = True
-        Me.Ch2_2.Location = New System.Drawing.Point(200, 11)
-        Me.Ch2_2.Name = "Ch2_2"
-        Me.Ch2_2.Size = New System.Drawing.Size(68, 16)
-        Me.Ch2_2.TabIndex = 6
-        Me.Ch2_2.Text = "2.左上肢"
-        Me.Ch2_2.UseVisualStyleBackColor = True
-        '
-        'Ch2_1
-        '
-        Me.Ch2_1.AutoSize = True
-        Me.Ch2_1.Location = New System.Drawing.Point(142, 11)
-        Me.Ch2_1.Name = "Ch2_1"
-        Me.Ch2_1.Size = New System.Drawing.Size(52, 16)
-        Me.Ch2_1.TabIndex = 5
-        Me.Ch2_1.Text = "1.ない"
-        Me.Ch2_1.UseVisualStyleBackColor = True
         '
         'Label157
         '
@@ -4893,39 +3814,6 @@ Partial Class 認定調査票
         Me.GroupBox25.TabIndex = 45
         Me.GroupBox25.TabStop = False
         '
-        'rb2_12_3
-        '
-        Me.rb2_12_3.AutoSize = True
-        Me.rb2_12_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_12_3.Name = "rb2_12_3"
-        Me.rb2_12_3.Size = New System.Drawing.Size(87, 16)
-        Me.rb2_12_3.TabIndex = 54
-        Me.rb2_12_3.TabStop = True
-        Me.rb2_12_3.Text = "3.月１回未満"
-        Me.rb2_12_3.UseVisualStyleBackColor = True
-        '
-        'rb2_12_2
-        '
-        Me.rb2_12_2.AutoSize = True
-        Me.rb2_12_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_12_2.Name = "rb2_12_2"
-        Me.rb2_12_2.Size = New System.Drawing.Size(87, 16)
-        Me.rb2_12_2.TabIndex = 53
-        Me.rb2_12_2.TabStop = True
-        Me.rb2_12_2.Text = "2.月１回以上"
-        Me.rb2_12_2.UseVisualStyleBackColor = True
-        '
-        'rb2_12_1
-        '
-        Me.rb2_12_1.AutoSize = True
-        Me.rb2_12_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_12_1.Name = "rb2_12_1"
-        Me.rb2_12_1.Size = New System.Drawing.Size(87, 16)
-        Me.rb2_12_1.TabIndex = 52
-        Me.rb2_12_1.TabStop = True
-        Me.rb2_12_1.Text = "1.週１回以上"
-        Me.rb2_12_1.UseVisualStyleBackColor = True
-        '
         'Label159
         '
         Me.Label159.AutoSize = True
@@ -4948,50 +3836,6 @@ Partial Class 認定調査票
         Me.GroupBox14.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox14.TabIndex = 44
         Me.GroupBox14.TabStop = False
-        '
-        'rb2_10_4
-        '
-        Me.rb2_10_4.AutoSize = True
-        Me.rb2_10_4.Location = New System.Drawing.Point(484, 10)
-        Me.rb2_10_4.Name = "rb2_10_4"
-        Me.rb2_10_4.Size = New System.Drawing.Size(67, 16)
-        Me.rb2_10_4.TabIndex = 46
-        Me.rb2_10_4.TabStop = True
-        Me.rb2_10_4.Text = "4.全介助"
-        Me.rb2_10_4.UseVisualStyleBackColor = True
-        '
-        'rb2_10_3
-        '
-        Me.rb2_10_3.AutoSize = True
-        Me.rb2_10_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_10_3.Name = "rb2_10_3"
-        Me.rb2_10_3.Size = New System.Drawing.Size(79, 16)
-        Me.rb2_10_3.TabIndex = 45
-        Me.rb2_10_3.TabStop = True
-        Me.rb2_10_3.Text = "3.一部介助"
-        Me.rb2_10_3.UseVisualStyleBackColor = True
-        '
-        'rb2_10_2
-        '
-        Me.rb2_10_2.AutoSize = True
-        Me.rb2_10_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_10_2.Name = "rb2_10_2"
-        Me.rb2_10_2.Size = New System.Drawing.Size(75, 16)
-        Me.rb2_10_2.TabIndex = 44
-        Me.rb2_10_2.TabStop = True
-        Me.rb2_10_2.Text = "2.見守り等"
-        Me.rb2_10_2.UseVisualStyleBackColor = True
-        '
-        'rb2_10_1
-        '
-        Me.rb2_10_1.AutoSize = True
-        Me.rb2_10_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_10_1.Name = "rb2_10_1"
-        Me.rb2_10_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb2_10_1.TabIndex = 43
-        Me.rb2_10_1.TabStop = True
-        Me.rb2_10_1.Text = "1.自立（介助なし）"
-        Me.rb2_10_1.UseVisualStyleBackColor = True
         '
         'Label161
         '
@@ -5016,50 +3860,6 @@ Partial Class 認定調査票
         Me.GroupBox15.TabIndex = 43
         Me.GroupBox15.TabStop = False
         '
-        'rb2_11_4
-        '
-        Me.rb2_11_4.AutoSize = True
-        Me.rb2_11_4.Location = New System.Drawing.Point(484, 9)
-        Me.rb2_11_4.Name = "rb2_11_4"
-        Me.rb2_11_4.Size = New System.Drawing.Size(67, 16)
-        Me.rb2_11_4.TabIndex = 50
-        Me.rb2_11_4.TabStop = True
-        Me.rb2_11_4.Text = "4.全介助"
-        Me.rb2_11_4.UseVisualStyleBackColor = True
-        '
-        'rb2_11_3
-        '
-        Me.rb2_11_3.AutoSize = True
-        Me.rb2_11_3.Location = New System.Drawing.Point(379, 8)
-        Me.rb2_11_3.Name = "rb2_11_3"
-        Me.rb2_11_3.Size = New System.Drawing.Size(79, 16)
-        Me.rb2_11_3.TabIndex = 49
-        Me.rb2_11_3.TabStop = True
-        Me.rb2_11_3.Text = "3.一部介助"
-        Me.rb2_11_3.UseVisualStyleBackColor = True
-        '
-        'rb2_11_2
-        '
-        Me.rb2_11_2.AutoSize = True
-        Me.rb2_11_2.Location = New System.Drawing.Point(276, 9)
-        Me.rb2_11_2.Name = "rb2_11_2"
-        Me.rb2_11_2.Size = New System.Drawing.Size(75, 16)
-        Me.rb2_11_2.TabIndex = 48
-        Me.rb2_11_2.TabStop = True
-        Me.rb2_11_2.Text = "2.見守り等"
-        Me.rb2_11_2.UseVisualStyleBackColor = True
-        '
-        'rb2_11_1
-        '
-        Me.rb2_11_1.AutoSize = True
-        Me.rb2_11_1.Location = New System.Drawing.Point(142, 9)
-        Me.rb2_11_1.Name = "rb2_11_1"
-        Me.rb2_11_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb2_11_1.TabIndex = 47
-        Me.rb2_11_1.TabStop = True
-        Me.rb2_11_1.Text = "1.自立（介助なし）"
-        Me.rb2_11_1.UseVisualStyleBackColor = True
-        '
         'Label160
         '
         Me.Label160.AutoSize = True
@@ -5081,39 +3881,6 @@ Partial Class 認定調査票
         Me.GroupBox16.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox16.TabIndex = 42
         Me.GroupBox16.TabStop = False
-        '
-        'rb2_9_3
-        '
-        Me.rb2_9_3.AutoSize = True
-        Me.rb2_9_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_9_3.Name = "rb2_9_3"
-        Me.rb2_9_3.Size = New System.Drawing.Size(67, 16)
-        Me.rb2_9_3.TabIndex = 51
-        Me.rb2_9_3.TabStop = True
-        Me.rb2_9_3.Text = "3.全介助"
-        Me.rb2_9_3.UseVisualStyleBackColor = True
-        '
-        'rb2_9_2
-        '
-        Me.rb2_9_2.AutoSize = True
-        Me.rb2_9_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_9_2.Name = "rb2_9_2"
-        Me.rb2_9_2.Size = New System.Drawing.Size(79, 16)
-        Me.rb2_9_2.TabIndex = 50
-        Me.rb2_9_2.TabStop = True
-        Me.rb2_9_2.Text = "2.一部介助"
-        Me.rb2_9_2.UseVisualStyleBackColor = True
-        '
-        'rb2_9_1
-        '
-        Me.rb2_9_1.AutoSize = True
-        Me.rb2_9_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_9_1.Name = "rb2_9_1"
-        Me.rb2_9_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb2_9_1.TabIndex = 49
-        Me.rb2_9_1.TabStop = True
-        Me.rb2_9_1.Text = "1.自立（介助なし）"
-        Me.rb2_9_1.UseVisualStyleBackColor = True
         '
         'Label162
         '
@@ -5137,39 +3904,6 @@ Partial Class 認定調査票
         Me.GroupBox17.TabIndex = 41
         Me.GroupBox17.TabStop = False
         '
-        'rb2_8_3
-        '
-        Me.rb2_8_3.AutoSize = True
-        Me.rb2_8_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_8_3.Name = "rb2_8_3"
-        Me.rb2_8_3.Size = New System.Drawing.Size(67, 16)
-        Me.rb2_8_3.TabIndex = 48
-        Me.rb2_8_3.TabStop = True
-        Me.rb2_8_3.Text = "3.全介助"
-        Me.rb2_8_3.UseVisualStyleBackColor = True
-        '
-        'rb2_8_2
-        '
-        Me.rb2_8_2.AutoSize = True
-        Me.rb2_8_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_8_2.Name = "rb2_8_2"
-        Me.rb2_8_2.Size = New System.Drawing.Size(79, 16)
-        Me.rb2_8_2.TabIndex = 47
-        Me.rb2_8_2.TabStop = True
-        Me.rb2_8_2.Text = "2.一部介助"
-        Me.rb2_8_2.UseVisualStyleBackColor = True
-        '
-        'rb2_8_1
-        '
-        Me.rb2_8_1.AutoSize = True
-        Me.rb2_8_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_8_1.Name = "rb2_8_1"
-        Me.rb2_8_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb2_8_1.TabIndex = 46
-        Me.rb2_8_1.TabStop = True
-        Me.rb2_8_1.Text = "1.自立（介助なし）"
-        Me.rb2_8_1.UseVisualStyleBackColor = True
-        '
         'Label163
         '
         Me.Label163.AutoSize = True
@@ -5191,39 +3925,6 @@ Partial Class 認定調査票
         Me.GroupBox18.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox18.TabIndex = 40
         Me.GroupBox18.TabStop = False
-        '
-        'rb2_7_3
-        '
-        Me.rb2_7_3.AutoSize = True
-        Me.rb2_7_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_7_3.Name = "rb2_7_3"
-        Me.rb2_7_3.Size = New System.Drawing.Size(67, 16)
-        Me.rb2_7_3.TabIndex = 45
-        Me.rb2_7_3.TabStop = True
-        Me.rb2_7_3.Text = "3.全介助"
-        Me.rb2_7_3.UseVisualStyleBackColor = True
-        '
-        'rb2_7_2
-        '
-        Me.rb2_7_2.AutoSize = True
-        Me.rb2_7_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_7_2.Name = "rb2_7_2"
-        Me.rb2_7_2.Size = New System.Drawing.Size(79, 16)
-        Me.rb2_7_2.TabIndex = 44
-        Me.rb2_7_2.TabStop = True
-        Me.rb2_7_2.Text = "2.一部介助"
-        Me.rb2_7_2.UseVisualStyleBackColor = True
-        '
-        'rb2_7_1
-        '
-        Me.rb2_7_1.AutoSize = True
-        Me.rb2_7_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_7_1.Name = "rb2_7_1"
-        Me.rb2_7_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb2_7_1.TabIndex = 43
-        Me.rb2_7_1.TabStop = True
-        Me.rb2_7_1.Text = "1.自立（介助なし）"
-        Me.rb2_7_1.UseVisualStyleBackColor = True
         '
         'Label164
         '
@@ -5248,50 +3949,6 @@ Partial Class 認定調査票
         Me.GroupBox19.TabIndex = 39
         Me.GroupBox19.TabStop = False
         '
-        'rb2_6_4
-        '
-        Me.rb2_6_4.AutoSize = True
-        Me.rb2_6_4.Location = New System.Drawing.Point(484, 10)
-        Me.rb2_6_4.Name = "rb2_6_4"
-        Me.rb2_6_4.Size = New System.Drawing.Size(67, 16)
-        Me.rb2_6_4.TabIndex = 42
-        Me.rb2_6_4.TabStop = True
-        Me.rb2_6_4.Text = "4.全介助"
-        Me.rb2_6_4.UseVisualStyleBackColor = True
-        '
-        'rb2_6_3
-        '
-        Me.rb2_6_3.AutoSize = True
-        Me.rb2_6_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_6_3.Name = "rb2_6_3"
-        Me.rb2_6_3.Size = New System.Drawing.Size(79, 16)
-        Me.rb2_6_3.TabIndex = 41
-        Me.rb2_6_3.TabStop = True
-        Me.rb2_6_3.Text = "3.一部介助"
-        Me.rb2_6_3.UseVisualStyleBackColor = True
-        '
-        'rb2_6_2
-        '
-        Me.rb2_6_2.AutoSize = True
-        Me.rb2_6_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_6_2.Name = "rb2_6_2"
-        Me.rb2_6_2.Size = New System.Drawing.Size(75, 16)
-        Me.rb2_6_2.TabIndex = 40
-        Me.rb2_6_2.TabStop = True
-        Me.rb2_6_2.Text = "2.見守り等"
-        Me.rb2_6_2.UseVisualStyleBackColor = True
-        '
-        'rb2_6_1
-        '
-        Me.rb2_6_1.AutoSize = True
-        Me.rb2_6_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_6_1.Name = "rb2_6_1"
-        Me.rb2_6_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb2_6_1.TabIndex = 39
-        Me.rb2_6_1.TabStop = True
-        Me.rb2_6_1.Text = "1.自立（介助なし）"
-        Me.rb2_6_1.UseVisualStyleBackColor = True
-        '
         'Label165
         '
         Me.Label165.AutoSize = True
@@ -5314,50 +3971,6 @@ Partial Class 認定調査票
         Me.GroupBox20.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox20.TabIndex = 38
         Me.GroupBox20.TabStop = False
-        '
-        'rb2_5_4
-        '
-        Me.rb2_5_4.AutoSize = True
-        Me.rb2_5_4.Location = New System.Drawing.Point(484, 10)
-        Me.rb2_5_4.Name = "rb2_5_4"
-        Me.rb2_5_4.Size = New System.Drawing.Size(67, 16)
-        Me.rb2_5_4.TabIndex = 38
-        Me.rb2_5_4.TabStop = True
-        Me.rb2_5_4.Text = "4.全介助"
-        Me.rb2_5_4.UseVisualStyleBackColor = True
-        '
-        'rb2_5_3
-        '
-        Me.rb2_5_3.AutoSize = True
-        Me.rb2_5_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_5_3.Name = "rb2_5_3"
-        Me.rb2_5_3.Size = New System.Drawing.Size(79, 16)
-        Me.rb2_5_3.TabIndex = 37
-        Me.rb2_5_3.TabStop = True
-        Me.rb2_5_3.Text = "3.一部介助"
-        Me.rb2_5_3.UseVisualStyleBackColor = True
-        '
-        'rb2_5_2
-        '
-        Me.rb2_5_2.AutoSize = True
-        Me.rb2_5_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_5_2.Name = "rb2_5_2"
-        Me.rb2_5_2.Size = New System.Drawing.Size(75, 16)
-        Me.rb2_5_2.TabIndex = 36
-        Me.rb2_5_2.TabStop = True
-        Me.rb2_5_2.Text = "2.見守り等"
-        Me.rb2_5_2.UseVisualStyleBackColor = True
-        '
-        'rb2_5_1
-        '
-        Me.rb2_5_1.AutoSize = True
-        Me.rb2_5_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_5_1.Name = "rb2_5_1"
-        Me.rb2_5_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb2_5_1.TabIndex = 35
-        Me.rb2_5_1.TabStop = True
-        Me.rb2_5_1.Text = "1.自立（介助なし）"
-        Me.rb2_5_1.UseVisualStyleBackColor = True
         '
         'Label166
         '
@@ -5382,50 +3995,6 @@ Partial Class 認定調査票
         Me.GroupBox21.TabIndex = 37
         Me.GroupBox21.TabStop = False
         '
-        'rb2_4_4
-        '
-        Me.rb2_4_4.AutoSize = True
-        Me.rb2_4_4.Location = New System.Drawing.Point(484, 10)
-        Me.rb2_4_4.Name = "rb2_4_4"
-        Me.rb2_4_4.Size = New System.Drawing.Size(67, 16)
-        Me.rb2_4_4.TabIndex = 34
-        Me.rb2_4_4.TabStop = True
-        Me.rb2_4_4.Text = "4.全介助"
-        Me.rb2_4_4.UseVisualStyleBackColor = True
-        '
-        'rb2_4_3
-        '
-        Me.rb2_4_3.AutoSize = True
-        Me.rb2_4_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_4_3.Name = "rb2_4_3"
-        Me.rb2_4_3.Size = New System.Drawing.Size(79, 16)
-        Me.rb2_4_3.TabIndex = 33
-        Me.rb2_4_3.TabStop = True
-        Me.rb2_4_3.Text = "3.一部介助"
-        Me.rb2_4_3.UseVisualStyleBackColor = True
-        '
-        'rb2_4_2
-        '
-        Me.rb2_4_2.AutoSize = True
-        Me.rb2_4_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_4_2.Name = "rb2_4_2"
-        Me.rb2_4_2.Size = New System.Drawing.Size(75, 16)
-        Me.rb2_4_2.TabIndex = 32
-        Me.rb2_4_2.TabStop = True
-        Me.rb2_4_2.Text = "2.見守り等"
-        Me.rb2_4_2.UseVisualStyleBackColor = True
-        '
-        'rb2_4_1
-        '
-        Me.rb2_4_1.AutoSize = True
-        Me.rb2_4_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_4_1.Name = "rb2_4_1"
-        Me.rb2_4_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb2_4_1.TabIndex = 31
-        Me.rb2_4_1.TabStop = True
-        Me.rb2_4_1.Text = "1.自立（介助なし）"
-        Me.rb2_4_1.UseVisualStyleBackColor = True
-        '
         'Label167
         '
         Me.Label167.AutoSize = True
@@ -5447,39 +4016,6 @@ Partial Class 認定調査票
         Me.GroupBox22.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox22.TabIndex = 36
         Me.GroupBox22.TabStop = False
-        '
-        'rb2_3_3
-        '
-        Me.rb2_3_3.AutoSize = True
-        Me.rb2_3_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_3_3.Name = "rb2_3_3"
-        Me.rb2_3_3.Size = New System.Drawing.Size(70, 16)
-        Me.rb2_3_3.TabIndex = 33
-        Me.rb2_3_3.TabStop = True
-        Me.rb2_3_3.Text = "3.できない"
-        Me.rb2_3_3.UseVisualStyleBackColor = True
-        '
-        'rb2_3_2
-        '
-        Me.rb2_3_2.AutoSize = True
-        Me.rb2_3_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_3_2.Name = "rb2_3_2"
-        Me.rb2_3_2.Size = New System.Drawing.Size(75, 16)
-        Me.rb2_3_2.TabIndex = 32
-        Me.rb2_3_2.TabStop = True
-        Me.rb2_3_2.Text = "2.見守り等"
-        Me.rb2_3_2.UseVisualStyleBackColor = True
-        '
-        'rb2_3_1
-        '
-        Me.rb2_3_1.AutoSize = True
-        Me.rb2_3_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_3_1.Name = "rb2_3_1"
-        Me.rb2_3_1.Size = New System.Drawing.Size(59, 16)
-        Me.rb2_3_1.TabIndex = 31
-        Me.rb2_3_1.TabStop = True
-        Me.rb2_3_1.Text = "1.できる"
-        Me.rb2_3_1.UseVisualStyleBackColor = True
         '
         'Label168
         '
@@ -5504,50 +4040,6 @@ Partial Class 認定調査票
         Me.GroupBox23.TabIndex = 35
         Me.GroupBox23.TabStop = False
         '
-        'rb2_2_4
-        '
-        Me.rb2_2_4.AutoSize = True
-        Me.rb2_2_4.Location = New System.Drawing.Point(484, 10)
-        Me.rb2_2_4.Name = "rb2_2_4"
-        Me.rb2_2_4.Size = New System.Drawing.Size(67, 16)
-        Me.rb2_2_4.TabIndex = 30
-        Me.rb2_2_4.TabStop = True
-        Me.rb2_2_4.Text = "4.全介助"
-        Me.rb2_2_4.UseVisualStyleBackColor = True
-        '
-        'rb2_2_3
-        '
-        Me.rb2_2_3.AutoSize = True
-        Me.rb2_2_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_2_3.Name = "rb2_2_3"
-        Me.rb2_2_3.Size = New System.Drawing.Size(79, 16)
-        Me.rb2_2_3.TabIndex = 29
-        Me.rb2_2_3.TabStop = True
-        Me.rb2_2_3.Text = "3.一部介助"
-        Me.rb2_2_3.UseVisualStyleBackColor = True
-        '
-        'rb2_2_2
-        '
-        Me.rb2_2_2.AutoSize = True
-        Me.rb2_2_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_2_2.Name = "rb2_2_2"
-        Me.rb2_2_2.Size = New System.Drawing.Size(75, 16)
-        Me.rb2_2_2.TabIndex = 28
-        Me.rb2_2_2.TabStop = True
-        Me.rb2_2_2.Text = "2.見守り等"
-        Me.rb2_2_2.UseVisualStyleBackColor = True
-        '
-        'rb2_2_1
-        '
-        Me.rb2_2_1.AutoSize = True
-        Me.rb2_2_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_2_1.Name = "rb2_2_1"
-        Me.rb2_2_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb2_2_1.TabIndex = 27
-        Me.rb2_2_1.TabStop = True
-        Me.rb2_2_1.Text = "1.自立（介助なし）"
-        Me.rb2_2_1.UseVisualStyleBackColor = True
-        '
         'Label169
         '
         Me.Label169.AutoSize = True
@@ -5570,50 +4062,6 @@ Partial Class 認定調査票
         Me.GroupBox24.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox24.TabIndex = 34
         Me.GroupBox24.TabStop = False
-        '
-        'rb2_1_4
-        '
-        Me.rb2_1_4.AutoSize = True
-        Me.rb2_1_4.Location = New System.Drawing.Point(484, 10)
-        Me.rb2_1_4.Name = "rb2_1_4"
-        Me.rb2_1_4.Size = New System.Drawing.Size(67, 16)
-        Me.rb2_1_4.TabIndex = 26
-        Me.rb2_1_4.TabStop = True
-        Me.rb2_1_4.Text = "4.全介助"
-        Me.rb2_1_4.UseVisualStyleBackColor = True
-        '
-        'rb2_1_3
-        '
-        Me.rb2_1_3.AutoSize = True
-        Me.rb2_1_3.Location = New System.Drawing.Point(379, 9)
-        Me.rb2_1_3.Name = "rb2_1_3"
-        Me.rb2_1_3.Size = New System.Drawing.Size(79, 16)
-        Me.rb2_1_3.TabIndex = 25
-        Me.rb2_1_3.TabStop = True
-        Me.rb2_1_3.Text = "3.一部介助"
-        Me.rb2_1_3.UseVisualStyleBackColor = True
-        '
-        'rb2_1_2
-        '
-        Me.rb2_1_2.AutoSize = True
-        Me.rb2_1_2.Location = New System.Drawing.Point(276, 10)
-        Me.rb2_1_2.Name = "rb2_1_2"
-        Me.rb2_1_2.Size = New System.Drawing.Size(75, 16)
-        Me.rb2_1_2.TabIndex = 24
-        Me.rb2_1_2.TabStop = True
-        Me.rb2_1_2.Text = "2.見守り等"
-        Me.rb2_1_2.UseVisualStyleBackColor = True
-        '
-        'rb2_1_1
-        '
-        Me.rb2_1_1.AutoSize = True
-        Me.rb2_1_1.Location = New System.Drawing.Point(142, 10)
-        Me.rb2_1_1.Name = "rb2_1_1"
-        Me.rb2_1_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb2_1_1.TabIndex = 23
-        Me.rb2_1_1.TabStop = True
-        Me.rb2_1_1.Text = "1.自立（介助なし）"
-        Me.rb2_1_1.UseVisualStyleBackColor = True
         '
         'Label170
         '
@@ -5655,39 +4103,6 @@ Partial Class 認定調査票
         Me.GroupBox31.TabIndex = 43
         Me.GroupBox31.TabStop = False
         '
-        'rb3_9_3
-        '
-        Me.rb3_9_3.AutoSize = True
-        Me.rb3_9_3.Location = New System.Drawing.Point(468, 10)
-        Me.rb3_9_3.Name = "rb3_9_3"
-        Me.rb3_9_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb3_9_3.TabIndex = 36
-        Me.rb3_9_3.TabStop = True
-        Me.rb3_9_3.Text = "3.ある"
-        Me.rb3_9_3.UseVisualStyleBackColor = True
-        '
-        'rb3_9_2
-        '
-        Me.rb3_9_2.AutoSize = True
-        Me.rb3_9_2.Location = New System.Drawing.Point(340, 10)
-        Me.rb3_9_2.Name = "rb3_9_2"
-        Me.rb3_9_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb3_9_2.TabIndex = 35
-        Me.rb3_9_2.TabStop = True
-        Me.rb3_9_2.Text = "2.ときどきある"
-        Me.rb3_9_2.UseVisualStyleBackColor = True
-        '
-        'rb3_9_1
-        '
-        Me.rb3_9_1.AutoSize = True
-        Me.rb3_9_1.Location = New System.Drawing.Point(235, 10)
-        Me.rb3_9_1.Name = "rb3_9_1"
-        Me.rb3_9_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb3_9_1.TabIndex = 34
-        Me.rb3_9_1.TabStop = True
-        Me.rb3_9_1.Text = "1.ない"
-        Me.rb3_9_1.UseVisualStyleBackColor = True
-        '
         'Label172
         '
         Me.Label172.AutoSize = True
@@ -5708,28 +4123,6 @@ Partial Class 認定調査票
         Me.GroupBox30.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox30.TabIndex = 39
         Me.GroupBox30.TabStop = False
-        '
-        'rb3_5_2
-        '
-        Me.rb3_5_2.AutoSize = True
-        Me.rb3_5_2.Location = New System.Drawing.Point(340, 10)
-        Me.rb3_5_2.Name = "rb3_5_2"
-        Me.rb3_5_2.Size = New System.Drawing.Size(70, 16)
-        Me.rb3_5_2.TabIndex = 29
-        Me.rb3_5_2.TabStop = True
-        Me.rb3_5_2.Text = "2.できない"
-        Me.rb3_5_2.UseVisualStyleBackColor = True
-        '
-        'rb3_5_1
-        '
-        Me.rb3_5_1.AutoSize = True
-        Me.rb3_5_1.Location = New System.Drawing.Point(235, 10)
-        Me.rb3_5_1.Name = "rb3_5_1"
-        Me.rb3_5_1.Size = New System.Drawing.Size(59, 16)
-        Me.rb3_5_1.TabIndex = 28
-        Me.rb3_5_1.TabStop = True
-        Me.rb3_5_1.Text = "1.できる"
-        Me.rb3_5_1.UseVisualStyleBackColor = True
         '
         'Label176
         '
@@ -5753,39 +4146,6 @@ Partial Class 認定調査票
         Me.GroupBox32.TabIndex = 42
         Me.GroupBox32.TabStop = False
         '
-        'rb3_8_3
-        '
-        Me.rb3_8_3.AutoSize = True
-        Me.rb3_8_3.Location = New System.Drawing.Point(468, 10)
-        Me.rb3_8_3.Name = "rb3_8_3"
-        Me.rb3_8_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb3_8_3.TabIndex = 33
-        Me.rb3_8_3.TabStop = True
-        Me.rb3_8_3.Text = "3.ある"
-        Me.rb3_8_3.UseVisualStyleBackColor = True
-        '
-        'rb3_8_2
-        '
-        Me.rb3_8_2.AutoSize = True
-        Me.rb3_8_2.Location = New System.Drawing.Point(340, 10)
-        Me.rb3_8_2.Name = "rb3_8_2"
-        Me.rb3_8_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb3_8_2.TabIndex = 32
-        Me.rb3_8_2.TabStop = True
-        Me.rb3_8_2.Text = "2.ときどきある"
-        Me.rb3_8_2.UseVisualStyleBackColor = True
-        '
-        'rb3_8_1
-        '
-        Me.rb3_8_1.AutoSize = True
-        Me.rb3_8_1.Location = New System.Drawing.Point(235, 10)
-        Me.rb3_8_1.Name = "rb3_8_1"
-        Me.rb3_8_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb3_8_1.TabIndex = 31
-        Me.rb3_8_1.TabStop = True
-        Me.rb3_8_1.Text = "1.ない"
-        Me.rb3_8_1.UseVisualStyleBackColor = True
-        '
         'Label173
         '
         Me.Label173.AutoSize = True
@@ -5806,28 +4166,6 @@ Partial Class 認定調査票
         Me.GroupBox29.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox29.TabIndex = 38
         Me.GroupBox29.TabStop = False
-        '
-        'rb3_4_2
-        '
-        Me.rb3_4_2.AutoSize = True
-        Me.rb3_4_2.Location = New System.Drawing.Point(445, 10)
-        Me.rb3_4_2.Name = "rb3_4_2"
-        Me.rb3_4_2.Size = New System.Drawing.Size(70, 16)
-        Me.rb3_4_2.TabIndex = 29
-        Me.rb3_4_2.TabStop = True
-        Me.rb3_4_2.Text = "2.できない"
-        Me.rb3_4_2.UseVisualStyleBackColor = True
-        '
-        'rb3_4_1
-        '
-        Me.rb3_4_1.AutoSize = True
-        Me.rb3_4_1.Location = New System.Drawing.Point(340, 10)
-        Me.rb3_4_1.Name = "rb3_4_1"
-        Me.rb3_4_1.Size = New System.Drawing.Size(59, 16)
-        Me.rb3_4_1.TabIndex = 28
-        Me.rb3_4_1.TabStop = True
-        Me.rb3_4_1.Text = "1.できる"
-        Me.rb3_4_1.UseVisualStyleBackColor = True
         '
         'Label177
         '
@@ -5850,28 +4188,6 @@ Partial Class 認定調査票
         Me.GroupBox33.TabIndex = 41
         Me.GroupBox33.TabStop = False
         '
-        'rb3_7_2
-        '
-        Me.rb3_7_2.AutoSize = True
-        Me.rb3_7_2.Location = New System.Drawing.Point(340, 10)
-        Me.rb3_7_2.Name = "rb3_7_2"
-        Me.rb3_7_2.Size = New System.Drawing.Size(70, 16)
-        Me.rb3_7_2.TabIndex = 30
-        Me.rb3_7_2.TabStop = True
-        Me.rb3_7_2.Text = "2.できない"
-        Me.rb3_7_2.UseVisualStyleBackColor = True
-        '
-        'rb3_7_1
-        '
-        Me.rb3_7_1.AutoSize = True
-        Me.rb3_7_1.Location = New System.Drawing.Point(235, 10)
-        Me.rb3_7_1.Name = "rb3_7_1"
-        Me.rb3_7_1.Size = New System.Drawing.Size(59, 16)
-        Me.rb3_7_1.TabIndex = 29
-        Me.rb3_7_1.TabStop = True
-        Me.rb3_7_1.Text = "1.できる"
-        Me.rb3_7_1.UseVisualStyleBackColor = True
-        '
         'Label174
         '
         Me.Label174.AutoSize = True
@@ -5892,28 +4208,6 @@ Partial Class 認定調査票
         Me.GroupBox28.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox28.TabIndex = 37
         Me.GroupBox28.TabStop = False
-        '
-        'rb3_3_2
-        '
-        Me.rb3_3_2.AutoSize = True
-        Me.rb3_3_2.Location = New System.Drawing.Point(340, 10)
-        Me.rb3_3_2.Name = "rb3_3_2"
-        Me.rb3_3_2.Size = New System.Drawing.Size(70, 16)
-        Me.rb3_3_2.TabIndex = 27
-        Me.rb3_3_2.TabStop = True
-        Me.rb3_3_2.Text = "2.できない"
-        Me.rb3_3_2.UseVisualStyleBackColor = True
-        '
-        'rb3_3_1
-        '
-        Me.rb3_3_1.AutoSize = True
-        Me.rb3_3_1.Location = New System.Drawing.Point(235, 10)
-        Me.rb3_3_1.Name = "rb3_3_1"
-        Me.rb3_3_1.Size = New System.Drawing.Size(59, 16)
-        Me.rb3_3_1.TabIndex = 26
-        Me.rb3_3_1.TabStop = True
-        Me.rb3_3_1.Text = "1.できる"
-        Me.rb3_3_1.UseVisualStyleBackColor = True
         '
         'Label178
         '
@@ -5936,28 +4230,6 @@ Partial Class 認定調査票
         Me.GroupBox34.TabIndex = 40
         Me.GroupBox34.TabStop = False
         '
-        'rb3_6_2
-        '
-        Me.rb3_6_2.AutoSize = True
-        Me.rb3_6_2.Location = New System.Drawing.Point(340, 10)
-        Me.rb3_6_2.Name = "rb3_6_2"
-        Me.rb3_6_2.Size = New System.Drawing.Size(70, 16)
-        Me.rb3_6_2.TabIndex = 29
-        Me.rb3_6_2.TabStop = True
-        Me.rb3_6_2.Text = "2.できない"
-        Me.rb3_6_2.UseVisualStyleBackColor = True
-        '
-        'rb3_6_1
-        '
-        Me.rb3_6_1.AutoSize = True
-        Me.rb3_6_1.Location = New System.Drawing.Point(235, 10)
-        Me.rb3_6_1.Name = "rb3_6_1"
-        Me.rb3_6_1.Size = New System.Drawing.Size(59, 16)
-        Me.rb3_6_1.TabIndex = 28
-        Me.rb3_6_1.TabStop = True
-        Me.rb3_6_1.Text = "1.できる"
-        Me.rb3_6_1.UseVisualStyleBackColor = True
-        '
         'Label175
         '
         Me.Label175.AutoSize = True
@@ -5978,28 +4250,6 @@ Partial Class 認定調査票
         Me.GroupBox27.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox27.TabIndex = 36
         Me.GroupBox27.TabStop = False
-        '
-        'rb3_2_2
-        '
-        Me.rb3_2_2.AutoSize = True
-        Me.rb3_2_2.Location = New System.Drawing.Point(340, 10)
-        Me.rb3_2_2.Name = "rb3_2_2"
-        Me.rb3_2_2.Size = New System.Drawing.Size(70, 16)
-        Me.rb3_2_2.TabIndex = 25
-        Me.rb3_2_2.TabStop = True
-        Me.rb3_2_2.Text = "2.できない"
-        Me.rb3_2_2.UseVisualStyleBackColor = True
-        '
-        'rb3_2_1
-        '
-        Me.rb3_2_1.AutoSize = True
-        Me.rb3_2_1.Location = New System.Drawing.Point(235, 10)
-        Me.rb3_2_1.Name = "rb3_2_1"
-        Me.rb3_2_1.Size = New System.Drawing.Size(59, 16)
-        Me.rb3_2_1.TabIndex = 24
-        Me.rb3_2_1.TabStop = True
-        Me.rb3_2_1.Text = "1.できる"
-        Me.rb3_2_1.UseVisualStyleBackColor = True
         '
         'Label179
         '
@@ -6023,50 +4273,6 @@ Partial Class 認定調査票
         Me.GroupBox26.Size = New System.Drawing.Size(360, 100)
         Me.GroupBox26.TabIndex = 31
         Me.GroupBox26.TabStop = False
-        '
-        'rb3_1_4
-        '
-        Me.rb3_1_4.AutoSize = True
-        Me.rb3_1_4.Location = New System.Drawing.Point(127, 79)
-        Me.rb3_1_4.Name = "rb3_1_4"
-        Me.rb3_1_4.Size = New System.Drawing.Size(70, 16)
-        Me.rb3_1_4.TabIndex = 26
-        Me.rb3_1_4.TabStop = True
-        Me.rb3_1_4.Text = "4.できない"
-        Me.rb3_1_4.UseVisualStyleBackColor = True
-        '
-        'rb3_1_3
-        '
-        Me.rb3_1_3.AutoSize = True
-        Me.rb3_1_3.Location = New System.Drawing.Point(127, 57)
-        Me.rb3_1_3.Name = "rb3_1_3"
-        Me.rb3_1_3.Size = New System.Drawing.Size(131, 16)
-        Me.rb3_1_3.TabIndex = 25
-        Me.rb3_1_3.TabStop = True
-        Me.rb3_1_3.Text = "3.ほとんど伝達できない"
-        Me.rb3_1_3.UseVisualStyleBackColor = True
-        '
-        'rb3_1_2
-        '
-        Me.rb3_1_2.AutoSize = True
-        Me.rb3_1_2.Location = New System.Drawing.Point(127, 35)
-        Me.rb3_1_2.Name = "rb3_1_2"
-        Me.rb3_1_2.Size = New System.Drawing.Size(118, 16)
-        Me.rb3_1_2.TabIndex = 24
-        Me.rb3_1_2.TabStop = True
-        Me.rb3_1_2.Text = "2.ときどき伝達できる"
-        Me.rb3_1_2.UseVisualStyleBackColor = True
-        '
-        'rb3_1_1
-        '
-        Me.rb3_1_1.AutoSize = True
-        Me.rb3_1_1.Location = New System.Drawing.Point(127, 13)
-        Me.rb3_1_1.Name = "rb3_1_1"
-        Me.rb3_1_1.Size = New System.Drawing.Size(219, 16)
-        Me.rb3_1_1.TabIndex = 23
-        Me.rb3_1_1.TabStop = True
-        Me.rb3_1_1.Text = "1.調査対象者が意思を他者に伝達できる"
-        Me.rb3_1_1.UseVisualStyleBackColor = True
         '
         'Label180
         '
@@ -6114,39 +4320,6 @@ Partial Class 認定調査票
         Me.GroupBox46.TabIndex = 52
         Me.GroupBox46.TabStop = False
         '
-        'rb4_15_3
-        '
-        Me.rb4_15_3.AutoSize = True
-        Me.rb4_15_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_15_3.Name = "rb4_15_3"
-        Me.rb4_15_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_15_3.TabIndex = 40
-        Me.rb4_15_3.TabStop = True
-        Me.rb4_15_3.Text = "3.ある"
-        Me.rb4_15_3.UseVisualStyleBackColor = True
-        '
-        'rb4_15_2
-        '
-        Me.rb4_15_2.AutoSize = True
-        Me.rb4_15_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_15_2.Name = "rb4_15_2"
-        Me.rb4_15_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_15_2.TabIndex = 39
-        Me.rb4_15_2.TabStop = True
-        Me.rb4_15_2.Text = "2.ときどきある"
-        Me.rb4_15_2.UseVisualStyleBackColor = True
-        '
-        'rb4_15_1
-        '
-        Me.rb4_15_1.AutoSize = True
-        Me.rb4_15_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_15_1.Name = "rb4_15_1"
-        Me.rb4_15_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_15_1.TabIndex = 38
-        Me.rb4_15_1.TabStop = True
-        Me.rb4_15_1.Text = "1.ない"
-        Me.rb4_15_1.UseVisualStyleBackColor = True
-        '
         'Label182
         '
         Me.Label182.AutoSize = True
@@ -6168,39 +4341,6 @@ Partial Class 認定調査票
         Me.GroupBox47.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox47.TabIndex = 51
         Me.GroupBox47.TabStop = False
-        '
-        'rb4_14_3
-        '
-        Me.rb4_14_3.AutoSize = True
-        Me.rb4_14_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_14_3.Name = "rb4_14_3"
-        Me.rb4_14_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_14_3.TabIndex = 39
-        Me.rb4_14_3.TabStop = True
-        Me.rb4_14_3.Text = "3.ある"
-        Me.rb4_14_3.UseVisualStyleBackColor = True
-        '
-        'rb4_14_2
-        '
-        Me.rb4_14_2.AutoSize = True
-        Me.rb4_14_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_14_2.Name = "rb4_14_2"
-        Me.rb4_14_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_14_2.TabIndex = 38
-        Me.rb4_14_2.TabStop = True
-        Me.rb4_14_2.Text = "2.ときどきある"
-        Me.rb4_14_2.UseVisualStyleBackColor = True
-        '
-        'rb4_14_1
-        '
-        Me.rb4_14_1.AutoSize = True
-        Me.rb4_14_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_14_1.Name = "rb4_14_1"
-        Me.rb4_14_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_14_1.TabIndex = 37
-        Me.rb4_14_1.TabStop = True
-        Me.rb4_14_1.Text = "1.ない"
-        Me.rb4_14_1.UseVisualStyleBackColor = True
         '
         'Label183
         '
@@ -6224,39 +4364,6 @@ Partial Class 認定調査票
         Me.GroupBox48.TabIndex = 50
         Me.GroupBox48.TabStop = False
         '
-        'rb4_13_3
-        '
-        Me.rb4_13_3.AutoSize = True
-        Me.rb4_13_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_13_3.Name = "rb4_13_3"
-        Me.rb4_13_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_13_3.TabIndex = 39
-        Me.rb4_13_3.TabStop = True
-        Me.rb4_13_3.Text = "3.ある"
-        Me.rb4_13_3.UseVisualStyleBackColor = True
-        '
-        'rb4_13_2
-        '
-        Me.rb4_13_2.AutoSize = True
-        Me.rb4_13_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_13_2.Name = "rb4_13_2"
-        Me.rb4_13_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_13_2.TabIndex = 38
-        Me.rb4_13_2.TabStop = True
-        Me.rb4_13_2.Text = "2.ときどきある"
-        Me.rb4_13_2.UseVisualStyleBackColor = True
-        '
-        'rb4_13_1
-        '
-        Me.rb4_13_1.AutoSize = True
-        Me.rb4_13_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_13_1.Name = "rb4_13_1"
-        Me.rb4_13_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_13_1.TabIndex = 37
-        Me.rb4_13_1.TabStop = True
-        Me.rb4_13_1.Text = "1.ない"
-        Me.rb4_13_1.UseVisualStyleBackColor = True
-        '
         'Label184
         '
         Me.Label184.AutoSize = True
@@ -6278,39 +4385,6 @@ Partial Class 認定調査票
         Me.GroupBox49.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox49.TabIndex = 49
         Me.GroupBox49.TabStop = False
-        '
-        'rb4_12_3
-        '
-        Me.rb4_12_3.AutoSize = True
-        Me.rb4_12_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_12_3.Name = "rb4_12_3"
-        Me.rb4_12_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_12_3.TabIndex = 39
-        Me.rb4_12_3.TabStop = True
-        Me.rb4_12_3.Text = "3.ある"
-        Me.rb4_12_3.UseVisualStyleBackColor = True
-        '
-        'rb4_12_2
-        '
-        Me.rb4_12_2.AutoSize = True
-        Me.rb4_12_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_12_2.Name = "rb4_12_2"
-        Me.rb4_12_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_12_2.TabIndex = 38
-        Me.rb4_12_2.TabStop = True
-        Me.rb4_12_2.Text = "2.ときどきある"
-        Me.rb4_12_2.UseVisualStyleBackColor = True
-        '
-        'rb4_12_1
-        '
-        Me.rb4_12_1.AutoSize = True
-        Me.rb4_12_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_12_1.Name = "rb4_12_1"
-        Me.rb4_12_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_12_1.TabIndex = 37
-        Me.rb4_12_1.TabStop = True
-        Me.rb4_12_1.Text = "1.ない"
-        Me.rb4_12_1.UseVisualStyleBackColor = True
         '
         'Label185
         '
@@ -6334,39 +4408,6 @@ Partial Class 認定調査票
         Me.GroupBox35.TabIndex = 48
         Me.GroupBox35.TabStop = False
         '
-        'rb4_11_3
-        '
-        Me.rb4_11_3.AutoSize = True
-        Me.rb4_11_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_11_3.Name = "rb4_11_3"
-        Me.rb4_11_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_11_3.TabIndex = 39
-        Me.rb4_11_3.TabStop = True
-        Me.rb4_11_3.Text = "3.ある"
-        Me.rb4_11_3.UseVisualStyleBackColor = True
-        '
-        'rb4_11_2
-        '
-        Me.rb4_11_2.AutoSize = True
-        Me.rb4_11_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_11_2.Name = "rb4_11_2"
-        Me.rb4_11_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_11_2.TabIndex = 38
-        Me.rb4_11_2.TabStop = True
-        Me.rb4_11_2.Text = "2.ときどきある"
-        Me.rb4_11_2.UseVisualStyleBackColor = True
-        '
-        'rb4_11_1
-        '
-        Me.rb4_11_1.AutoSize = True
-        Me.rb4_11_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_11_1.Name = "rb4_11_1"
-        Me.rb4_11_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_11_1.TabIndex = 37
-        Me.rb4_11_1.TabStop = True
-        Me.rb4_11_1.Text = "1.ない"
-        Me.rb4_11_1.UseVisualStyleBackColor = True
-        '
         'Label186
         '
         Me.Label186.AutoSize = True
@@ -6388,39 +4429,6 @@ Partial Class 認定調査票
         Me.GroupBox36.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox36.TabIndex = 47
         Me.GroupBox36.TabStop = False
-        '
-        'rb4_10_3
-        '
-        Me.rb4_10_3.AutoSize = True
-        Me.rb4_10_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_10_3.Name = "rb4_10_3"
-        Me.rb4_10_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_10_3.TabIndex = 39
-        Me.rb4_10_3.TabStop = True
-        Me.rb4_10_3.Text = "3.ある"
-        Me.rb4_10_3.UseVisualStyleBackColor = True
-        '
-        'rb4_10_2
-        '
-        Me.rb4_10_2.AutoSize = True
-        Me.rb4_10_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_10_2.Name = "rb4_10_2"
-        Me.rb4_10_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_10_2.TabIndex = 38
-        Me.rb4_10_2.TabStop = True
-        Me.rb4_10_2.Text = "2.ときどきある"
-        Me.rb4_10_2.UseVisualStyleBackColor = True
-        '
-        'rb4_10_1
-        '
-        Me.rb4_10_1.AutoSize = True
-        Me.rb4_10_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_10_1.Name = "rb4_10_1"
-        Me.rb4_10_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_10_1.TabIndex = 37
-        Me.rb4_10_1.TabStop = True
-        Me.rb4_10_1.Text = "1.ない"
-        Me.rb4_10_1.UseVisualStyleBackColor = True
         '
         'Label187
         '
@@ -6444,39 +4452,6 @@ Partial Class 認定調査票
         Me.GroupBox37.TabIndex = 46
         Me.GroupBox37.TabStop = False
         '
-        'rb4_9_3
-        '
-        Me.rb4_9_3.AutoSize = True
-        Me.rb4_9_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_9_3.Name = "rb4_9_3"
-        Me.rb4_9_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_9_3.TabIndex = 39
-        Me.rb4_9_3.TabStop = True
-        Me.rb4_9_3.Text = "3.ある"
-        Me.rb4_9_3.UseVisualStyleBackColor = True
-        '
-        'rb4_9_2
-        '
-        Me.rb4_9_2.AutoSize = True
-        Me.rb4_9_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_9_2.Name = "rb4_9_2"
-        Me.rb4_9_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_9_2.TabIndex = 38
-        Me.rb4_9_2.TabStop = True
-        Me.rb4_9_2.Text = "2.ときどきある"
-        Me.rb4_9_2.UseVisualStyleBackColor = True
-        '
-        'rb4_9_1
-        '
-        Me.rb4_9_1.AutoSize = True
-        Me.rb4_9_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_9_1.Name = "rb4_9_1"
-        Me.rb4_9_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_9_1.TabIndex = 37
-        Me.rb4_9_1.TabStop = True
-        Me.rb4_9_1.Text = "1.ない"
-        Me.rb4_9_1.UseVisualStyleBackColor = True
-        '
         'Label188
         '
         Me.Label188.AutoSize = True
@@ -6498,39 +4473,6 @@ Partial Class 認定調査票
         Me.GroupBox38.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox38.TabIndex = 45
         Me.GroupBox38.TabStop = False
-        '
-        'rb4_8_3
-        '
-        Me.rb4_8_3.AutoSize = True
-        Me.rb4_8_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_8_3.Name = "rb4_8_3"
-        Me.rb4_8_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_8_3.TabIndex = 39
-        Me.rb4_8_3.TabStop = True
-        Me.rb4_8_3.Text = "3.ある"
-        Me.rb4_8_3.UseVisualStyleBackColor = True
-        '
-        'rb4_8_2
-        '
-        Me.rb4_8_2.AutoSize = True
-        Me.rb4_8_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_8_2.Name = "rb4_8_2"
-        Me.rb4_8_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_8_2.TabIndex = 38
-        Me.rb4_8_2.TabStop = True
-        Me.rb4_8_2.Text = "2.ときどきある"
-        Me.rb4_8_2.UseVisualStyleBackColor = True
-        '
-        'rb4_8_1
-        '
-        Me.rb4_8_1.AutoSize = True
-        Me.rb4_8_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_8_1.Name = "rb4_8_1"
-        Me.rb4_8_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_8_1.TabIndex = 37
-        Me.rb4_8_1.TabStop = True
-        Me.rb4_8_1.Text = "1.ない"
-        Me.rb4_8_1.UseVisualStyleBackColor = True
         '
         'Label189
         '
@@ -6554,39 +4496,6 @@ Partial Class 認定調査票
         Me.GroupBox39.TabIndex = 44
         Me.GroupBox39.TabStop = False
         '
-        'rb4_7_3
-        '
-        Me.rb4_7_3.AutoSize = True
-        Me.rb4_7_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_7_3.Name = "rb4_7_3"
-        Me.rb4_7_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_7_3.TabIndex = 39
-        Me.rb4_7_3.TabStop = True
-        Me.rb4_7_3.Text = "3.ある"
-        Me.rb4_7_3.UseVisualStyleBackColor = True
-        '
-        'rb4_7_2
-        '
-        Me.rb4_7_2.AutoSize = True
-        Me.rb4_7_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_7_2.Name = "rb4_7_2"
-        Me.rb4_7_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_7_2.TabIndex = 38
-        Me.rb4_7_2.TabStop = True
-        Me.rb4_7_2.Text = "2.ときどきある"
-        Me.rb4_7_2.UseVisualStyleBackColor = True
-        '
-        'rb4_7_1
-        '
-        Me.rb4_7_1.AutoSize = True
-        Me.rb4_7_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_7_1.Name = "rb4_7_1"
-        Me.rb4_7_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_7_1.TabIndex = 37
-        Me.rb4_7_1.TabStop = True
-        Me.rb4_7_1.Text = "1.ない"
-        Me.rb4_7_1.UseVisualStyleBackColor = True
-        '
         'Label190
         '
         Me.Label190.AutoSize = True
@@ -6608,39 +4517,6 @@ Partial Class 認定調査票
         Me.GroupBox40.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox40.TabIndex = 43
         Me.GroupBox40.TabStop = False
-        '
-        'rb4_6_3
-        '
-        Me.rb4_6_3.AutoSize = True
-        Me.rb4_6_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_6_3.Name = "rb4_6_3"
-        Me.rb4_6_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_6_3.TabIndex = 39
-        Me.rb4_6_3.TabStop = True
-        Me.rb4_6_3.Text = "3.ある"
-        Me.rb4_6_3.UseVisualStyleBackColor = True
-        '
-        'rb4_6_2
-        '
-        Me.rb4_6_2.AutoSize = True
-        Me.rb4_6_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_6_2.Name = "rb4_6_2"
-        Me.rb4_6_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_6_2.TabIndex = 38
-        Me.rb4_6_2.TabStop = True
-        Me.rb4_6_2.Text = "2.ときどきある"
-        Me.rb4_6_2.UseVisualStyleBackColor = True
-        '
-        'rb4_6_1
-        '
-        Me.rb4_6_1.AutoSize = True
-        Me.rb4_6_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_6_1.Name = "rb4_6_1"
-        Me.rb4_6_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_6_1.TabIndex = 37
-        Me.rb4_6_1.TabStop = True
-        Me.rb4_6_1.Text = "1.ない"
-        Me.rb4_6_1.UseVisualStyleBackColor = True
         '
         'Label191
         '
@@ -6664,39 +4540,6 @@ Partial Class 認定調査票
         Me.GroupBox41.TabIndex = 42
         Me.GroupBox41.TabStop = False
         '
-        'rb4_5_3
-        '
-        Me.rb4_5_3.AutoSize = True
-        Me.rb4_5_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_5_3.Name = "rb4_5_3"
-        Me.rb4_5_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_5_3.TabIndex = 39
-        Me.rb4_5_3.TabStop = True
-        Me.rb4_5_3.Text = "3.ある"
-        Me.rb4_5_3.UseVisualStyleBackColor = True
-        '
-        'rb4_5_2
-        '
-        Me.rb4_5_2.AutoSize = True
-        Me.rb4_5_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_5_2.Name = "rb4_5_2"
-        Me.rb4_5_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_5_2.TabIndex = 38
-        Me.rb4_5_2.TabStop = True
-        Me.rb4_5_2.Text = "2.ときどきある"
-        Me.rb4_5_2.UseVisualStyleBackColor = True
-        '
-        'rb4_5_1
-        '
-        Me.rb4_5_1.AutoSize = True
-        Me.rb4_5_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_5_1.Name = "rb4_5_1"
-        Me.rb4_5_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_5_1.TabIndex = 37
-        Me.rb4_5_1.TabStop = True
-        Me.rb4_5_1.Text = "1.ない"
-        Me.rb4_5_1.UseVisualStyleBackColor = True
-        '
         'Label192
         '
         Me.Label192.AutoSize = True
@@ -6718,39 +4561,6 @@ Partial Class 認定調査票
         Me.GroupBox42.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox42.TabIndex = 41
         Me.GroupBox42.TabStop = False
-        '
-        'rb4_4_3
-        '
-        Me.rb4_4_3.AutoSize = True
-        Me.rb4_4_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_4_3.Name = "rb4_4_3"
-        Me.rb4_4_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_4_3.TabIndex = 39
-        Me.rb4_4_3.TabStop = True
-        Me.rb4_4_3.Text = "3.ある"
-        Me.rb4_4_3.UseVisualStyleBackColor = True
-        '
-        'rb4_4_2
-        '
-        Me.rb4_4_2.AutoSize = True
-        Me.rb4_4_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_4_2.Name = "rb4_4_2"
-        Me.rb4_4_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_4_2.TabIndex = 38
-        Me.rb4_4_2.TabStop = True
-        Me.rb4_4_2.Text = "2.ときどきある"
-        Me.rb4_4_2.UseVisualStyleBackColor = True
-        '
-        'rb4_4_1
-        '
-        Me.rb4_4_1.AutoSize = True
-        Me.rb4_4_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_4_1.Name = "rb4_4_1"
-        Me.rb4_4_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_4_1.TabIndex = 37
-        Me.rb4_4_1.TabStop = True
-        Me.rb4_4_1.Text = "1.ない"
-        Me.rb4_4_1.UseVisualStyleBackColor = True
         '
         'Label193
         '
@@ -6774,39 +4584,6 @@ Partial Class 認定調査票
         Me.GroupBox43.TabIndex = 40
         Me.GroupBox43.TabStop = False
         '
-        'rb4_3_3
-        '
-        Me.rb4_3_3.AutoSize = True
-        Me.rb4_3_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_3_3.Name = "rb4_3_3"
-        Me.rb4_3_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_3_3.TabIndex = 39
-        Me.rb4_3_3.TabStop = True
-        Me.rb4_3_3.Text = "3.ある"
-        Me.rb4_3_3.UseVisualStyleBackColor = True
-        '
-        'rb4_3_2
-        '
-        Me.rb4_3_2.AutoSize = True
-        Me.rb4_3_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_3_2.Name = "rb4_3_2"
-        Me.rb4_3_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_3_2.TabIndex = 38
-        Me.rb4_3_2.TabStop = True
-        Me.rb4_3_2.Text = "2.ときどきある"
-        Me.rb4_3_2.UseVisualStyleBackColor = True
-        '
-        'rb4_3_1
-        '
-        Me.rb4_3_1.AutoSize = True
-        Me.rb4_3_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_3_1.Name = "rb4_3_1"
-        Me.rb4_3_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_3_1.TabIndex = 37
-        Me.rb4_3_1.TabStop = True
-        Me.rb4_3_1.Text = "1.ない"
-        Me.rb4_3_1.UseVisualStyleBackColor = True
-        '
         'Label194
         '
         Me.Label194.AutoSize = True
@@ -6829,39 +4606,6 @@ Partial Class 認定調査票
         Me.GroupBox44.TabIndex = 39
         Me.GroupBox44.TabStop = False
         '
-        'rb4_2_3
-        '
-        Me.rb4_2_3.AutoSize = True
-        Me.rb4_2_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_2_3.Name = "rb4_2_3"
-        Me.rb4_2_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_2_3.TabIndex = 39
-        Me.rb4_2_3.TabStop = True
-        Me.rb4_2_3.Text = "3.ある"
-        Me.rb4_2_3.UseVisualStyleBackColor = True
-        '
-        'rb4_2_2
-        '
-        Me.rb4_2_2.AutoSize = True
-        Me.rb4_2_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_2_2.Name = "rb4_2_2"
-        Me.rb4_2_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_2_2.TabIndex = 38
-        Me.rb4_2_2.TabStop = True
-        Me.rb4_2_2.Text = "2.ときどきある"
-        Me.rb4_2_2.UseVisualStyleBackColor = True
-        '
-        'rb4_2_1
-        '
-        Me.rb4_2_1.AutoSize = True
-        Me.rb4_2_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_2_1.Name = "rb4_2_1"
-        Me.rb4_2_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_2_1.TabIndex = 37
-        Me.rb4_2_1.TabStop = True
-        Me.rb4_2_1.Text = "1.ない"
-        Me.rb4_2_1.UseVisualStyleBackColor = True
-        '
         'Label195
         '
         Me.Label195.AutoSize = True
@@ -6883,39 +4627,6 @@ Partial Class 認定調査票
         Me.GroupBox45.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox45.TabIndex = 38
         Me.GroupBox45.TabStop = False
-        '
-        'rb4_1_3
-        '
-        Me.rb4_1_3.AutoSize = True
-        Me.rb4_1_3.Location = New System.Drawing.Point(492, 10)
-        Me.rb4_1_3.Name = "rb4_1_3"
-        Me.rb4_1_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb4_1_3.TabIndex = 36
-        Me.rb4_1_3.TabStop = True
-        Me.rb4_1_3.Text = "3.ある"
-        Me.rb4_1_3.UseVisualStyleBackColor = True
-        '
-        'rb4_1_2
-        '
-        Me.rb4_1_2.AutoSize = True
-        Me.rb4_1_2.Location = New System.Drawing.Point(364, 10)
-        Me.rb4_1_2.Name = "rb4_1_2"
-        Me.rb4_1_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb4_1_2.TabIndex = 35
-        Me.rb4_1_2.TabStop = True
-        Me.rb4_1_2.Text = "2.ときどきある"
-        Me.rb4_1_2.UseVisualStyleBackColor = True
-        '
-        'rb4_1_1
-        '
-        Me.rb4_1_1.AutoSize = True
-        Me.rb4_1_1.Location = New System.Drawing.Point(259, 10)
-        Me.rb4_1_1.Name = "rb4_1_1"
-        Me.rb4_1_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb4_1_1.TabIndex = 34
-        Me.rb4_1_1.TabStop = True
-        Me.rb4_1_1.Text = "1.ない"
-        Me.rb4_1_1.UseVisualStyleBackColor = True
         '
         'Label196
         '
@@ -6954,39 +4665,6 @@ Partial Class 認定調査票
         Me.GroupBox50.TabIndex = 51
         Me.GroupBox50.TabStop = False
         '
-        'rb5_4_3
-        '
-        Me.rb5_4_3.AutoSize = True
-        Me.rb5_4_3.Location = New System.Drawing.Point(345, 10)
-        Me.rb5_4_3.Name = "rb5_4_3"
-        Me.rb5_4_3.Size = New System.Drawing.Size(50, 16)
-        Me.rb5_4_3.TabIndex = 51
-        Me.rb5_4_3.TabStop = True
-        Me.rb5_4_3.Text = "3.ある"
-        Me.rb5_4_3.UseVisualStyleBackColor = True
-        '
-        'rb5_4_2
-        '
-        Me.rb5_4_2.AutoSize = True
-        Me.rb5_4_2.Location = New System.Drawing.Point(222, 10)
-        Me.rb5_4_2.Name = "rb5_4_2"
-        Me.rb5_4_2.Size = New System.Drawing.Size(85, 16)
-        Me.rb5_4_2.TabIndex = 50
-        Me.rb5_4_2.TabStop = True
-        Me.rb5_4_2.Text = "2.ときどきある"
-        Me.rb5_4_2.UseVisualStyleBackColor = True
-        '
-        'rb5_4_1
-        '
-        Me.rb5_4_1.AutoSize = True
-        Me.rb5_4_1.Location = New System.Drawing.Point(134, 10)
-        Me.rb5_4_1.Name = "rb5_4_1"
-        Me.rb5_4_1.Size = New System.Drawing.Size(51, 16)
-        Me.rb5_4_1.TabIndex = 49
-        Me.rb5_4_1.TabStop = True
-        Me.rb5_4_1.Text = "1.ない"
-        Me.rb5_4_1.UseVisualStyleBackColor = True
-        '
         'Label200
         '
         Me.Label200.AutoSize = True
@@ -7009,50 +4687,6 @@ Partial Class 認定調査票
         Me.GroupBox51.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox51.TabIndex = 50
         Me.GroupBox51.TabStop = False
-        '
-        'rb5_3_4
-        '
-        Me.rb5_3_4.AutoSize = True
-        Me.rb5_3_4.Location = New System.Drawing.Point(619, 10)
-        Me.rb5_3_4.Name = "rb5_3_4"
-        Me.rb5_3_4.Size = New System.Drawing.Size(70, 16)
-        Me.rb5_3_4.TabIndex = 49
-        Me.rb5_3_4.TabStop = True
-        Me.rb5_3_4.Text = "4.できない"
-        Me.rb5_3_4.UseVisualStyleBackColor = True
-        '
-        'rb5_3_3
-        '
-        Me.rb5_3_3.AutoSize = True
-        Me.rb5_3_3.Location = New System.Drawing.Point(501, 10)
-        Me.rb5_3_3.Name = "rb5_3_3"
-        Me.rb5_3_3.Size = New System.Drawing.Size(100, 16)
-        Me.rb5_3_3.TabIndex = 48
-        Me.rb5_3_3.TabStop = True
-        Me.rb5_3_3.Text = "3.日常的に困難"
-        Me.rb5_3_3.UseVisualStyleBackColor = True
-        '
-        'rb5_3_2
-        '
-        Me.rb5_3_2.AutoSize = True
-        Me.rb5_3_2.Location = New System.Drawing.Point(327, 10)
-        Me.rb5_3_2.Name = "rb5_3_2"
-        Me.rb5_3_2.Size = New System.Drawing.Size(157, 16)
-        Me.rb5_3_2.TabIndex = 47
-        Me.rb5_3_2.TabStop = True
-        Me.rb5_3_2.Text = "2.特別な場合を除いてできる"
-        Me.rb5_3_2.UseVisualStyleBackColor = True
-        '
-        'rb5_3_1
-        '
-        Me.rb5_3_1.AutoSize = True
-        Me.rb5_3_1.Location = New System.Drawing.Point(134, 10)
-        Me.rb5_3_1.Name = "rb5_3_1"
-        Me.rb5_3_1.Size = New System.Drawing.Size(176, 16)
-        Me.rb5_3_1.TabIndex = 46
-        Me.rb5_3_1.TabStop = True
-        Me.rb5_3_1.Text = "1.できる（特別な場合でもできる）"
-        Me.rb5_3_1.UseVisualStyleBackColor = True
         '
         'Label201
         '
@@ -7077,50 +4711,6 @@ Partial Class 認定調査票
         Me.GroupBox52.TabIndex = 53
         Me.GroupBox52.TabStop = False
         '
-        'rb5_6_4
-        '
-        Me.rb5_6_4.AutoSize = True
-        Me.rb5_6_4.Location = New System.Drawing.Point(476, 10)
-        Me.rb5_6_4.Name = "rb5_6_4"
-        Me.rb5_6_4.Size = New System.Drawing.Size(67, 16)
-        Me.rb5_6_4.TabIndex = 51
-        Me.rb5_6_4.TabStop = True
-        Me.rb5_6_4.Text = "4.全介助"
-        Me.rb5_6_4.UseVisualStyleBackColor = True
-        '
-        'rb5_6_3
-        '
-        Me.rb5_6_3.AutoSize = True
-        Me.rb5_6_3.Location = New System.Drawing.Point(371, 9)
-        Me.rb5_6_3.Name = "rb5_6_3"
-        Me.rb5_6_3.Size = New System.Drawing.Size(79, 16)
-        Me.rb5_6_3.TabIndex = 50
-        Me.rb5_6_3.TabStop = True
-        Me.rb5_6_3.Text = "3.一部介助"
-        Me.rb5_6_3.UseVisualStyleBackColor = True
-        '
-        'rb5_6_2
-        '
-        Me.rb5_6_2.AutoSize = True
-        Me.rb5_6_2.Location = New System.Drawing.Point(268, 10)
-        Me.rb5_6_2.Name = "rb5_6_2"
-        Me.rb5_6_2.Size = New System.Drawing.Size(75, 16)
-        Me.rb5_6_2.TabIndex = 49
-        Me.rb5_6_2.TabStop = True
-        Me.rb5_6_2.Text = "2.見守り等"
-        Me.rb5_6_2.UseVisualStyleBackColor = True
-        '
-        'rb5_6_1
-        '
-        Me.rb5_6_1.AutoSize = True
-        Me.rb5_6_1.Location = New System.Drawing.Point(134, 10)
-        Me.rb5_6_1.Name = "rb5_6_1"
-        Me.rb5_6_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb5_6_1.TabIndex = 48
-        Me.rb5_6_1.TabStop = True
-        Me.rb5_6_1.Text = "1.自立（介助なし）"
-        Me.rb5_6_1.UseVisualStyleBackColor = True
-        '
         'Label198
         '
         Me.Label198.AutoSize = True
@@ -7142,39 +4732,6 @@ Partial Class 認定調査票
         Me.GroupBox53.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox53.TabIndex = 49
         Me.GroupBox53.TabStop = False
-        '
-        'rb5_2_3
-        '
-        Me.rb5_2_3.AutoSize = True
-        Me.rb5_2_3.Location = New System.Drawing.Point(411, 10)
-        Me.rb5_2_3.Name = "rb5_2_3"
-        Me.rb5_2_3.Size = New System.Drawing.Size(67, 16)
-        Me.rb5_2_3.TabIndex = 48
-        Me.rb5_2_3.TabStop = True
-        Me.rb5_2_3.Text = "3.全介助"
-        Me.rb5_2_3.UseVisualStyleBackColor = True
-        '
-        'rb5_2_2
-        '
-        Me.rb5_2_2.AutoSize = True
-        Me.rb5_2_2.Location = New System.Drawing.Point(285, 10)
-        Me.rb5_2_2.Name = "rb5_2_2"
-        Me.rb5_2_2.Size = New System.Drawing.Size(79, 16)
-        Me.rb5_2_2.TabIndex = 47
-        Me.rb5_2_2.TabStop = True
-        Me.rb5_2_2.Text = "2.一部介助"
-        Me.rb5_2_2.UseVisualStyleBackColor = True
-        '
-        'rb5_2_1
-        '
-        Me.rb5_2_1.AutoSize = True
-        Me.rb5_2_1.Location = New System.Drawing.Point(134, 10)
-        Me.rb5_2_1.Name = "rb5_2_1"
-        Me.rb5_2_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb5_2_1.TabIndex = 46
-        Me.rb5_2_1.TabStop = True
-        Me.rb5_2_1.Text = "1.自立（介助なし）"
-        Me.rb5_2_1.UseVisualStyleBackColor = True
         '
         'Label202
         '
@@ -7199,50 +4756,6 @@ Partial Class 認定調査票
         Me.GroupBox54.TabIndex = 52
         Me.GroupBox54.TabStop = False
         '
-        'rb5_5_4
-        '
-        Me.rb5_5_4.AutoSize = True
-        Me.rb5_5_4.Location = New System.Drawing.Point(476, 10)
-        Me.rb5_5_4.Name = "rb5_5_4"
-        Me.rb5_5_4.Size = New System.Drawing.Size(67, 16)
-        Me.rb5_5_4.TabIndex = 50
-        Me.rb5_5_4.TabStop = True
-        Me.rb5_5_4.Text = "4.全介助"
-        Me.rb5_5_4.UseVisualStyleBackColor = True
-        '
-        'rb5_5_3
-        '
-        Me.rb5_5_3.AutoSize = True
-        Me.rb5_5_3.Location = New System.Drawing.Point(371, 9)
-        Me.rb5_5_3.Name = "rb5_5_3"
-        Me.rb5_5_3.Size = New System.Drawing.Size(79, 16)
-        Me.rb5_5_3.TabIndex = 49
-        Me.rb5_5_3.TabStop = True
-        Me.rb5_5_3.Text = "3.一部介助"
-        Me.rb5_5_3.UseVisualStyleBackColor = True
-        '
-        'rb5_5_2
-        '
-        Me.rb5_5_2.AutoSize = True
-        Me.rb5_5_2.Location = New System.Drawing.Point(268, 10)
-        Me.rb5_5_2.Name = "rb5_5_2"
-        Me.rb5_5_2.Size = New System.Drawing.Size(75, 16)
-        Me.rb5_5_2.TabIndex = 48
-        Me.rb5_5_2.TabStop = True
-        Me.rb5_5_2.Text = "2.見守り等"
-        Me.rb5_5_2.UseVisualStyleBackColor = True
-        '
-        'rb5_5_1
-        '
-        Me.rb5_5_1.AutoSize = True
-        Me.rb5_5_1.Location = New System.Drawing.Point(134, 10)
-        Me.rb5_5_1.Name = "rb5_5_1"
-        Me.rb5_5_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb5_5_1.TabIndex = 47
-        Me.rb5_5_1.TabStop = True
-        Me.rb5_5_1.Text = "1.自立（介助なし）"
-        Me.rb5_5_1.UseVisualStyleBackColor = True
-        '
         'Label199
         '
         Me.Label199.AutoSize = True
@@ -7265,39 +4778,6 @@ Partial Class 認定調査票
         Me.GroupBox55.TabIndex = 48
         Me.GroupBox55.TabStop = False
         '
-        'rb5_1_3
-        '
-        Me.rb5_1_3.AutoSize = True
-        Me.rb5_1_3.Location = New System.Drawing.Point(411, 10)
-        Me.rb5_1_3.Name = "rb5_1_3"
-        Me.rb5_1_3.Size = New System.Drawing.Size(67, 16)
-        Me.rb5_1_3.TabIndex = 45
-        Me.rb5_1_3.TabStop = True
-        Me.rb5_1_3.Text = "3.全介助"
-        Me.rb5_1_3.UseVisualStyleBackColor = True
-        '
-        'rb5_1_2
-        '
-        Me.rb5_1_2.AutoSize = True
-        Me.rb5_1_2.Location = New System.Drawing.Point(285, 10)
-        Me.rb5_1_2.Name = "rb5_1_2"
-        Me.rb5_1_2.Size = New System.Drawing.Size(79, 16)
-        Me.rb5_1_2.TabIndex = 44
-        Me.rb5_1_2.TabStop = True
-        Me.rb5_1_2.Text = "2.一部介助"
-        Me.rb5_1_2.UseVisualStyleBackColor = True
-        '
-        'rb5_1_1
-        '
-        Me.rb5_1_1.AutoSize = True
-        Me.rb5_1_1.Location = New System.Drawing.Point(134, 10)
-        Me.rb5_1_1.Name = "rb5_1_1"
-        Me.rb5_1_1.Size = New System.Drawing.Size(110, 16)
-        Me.rb5_1_1.TabIndex = 43
-        Me.rb5_1_1.TabStop = True
-        Me.rb5_1_1.Text = "1.自立（介助なし）"
-        Me.rb5_1_1.UseVisualStyleBackColor = True
-        '
         'Label203
         '
         Me.Label203.AutoSize = True
@@ -7311,18 +4791,8 @@ Partial Class 認定調査票
         'bsTabP6
         '
         Me.bsTabP6.BackColor = System.Drawing.SystemColors.Control
-        Me.bsTabP6.Controls.Add(Me.Ch4_12)
-        Me.bsTabP6.Controls.Add(Me.Ch4_11)
-        Me.bsTabP6.Controls.Add(Me.Ch4_10)
-        Me.bsTabP6.Controls.Add(Me.Ch4_9)
-        Me.bsTabP6.Controls.Add(Me.Ch4_8)
-        Me.bsTabP6.Controls.Add(Me.Ch4_7)
-        Me.bsTabP6.Controls.Add(Me.Ch4_6)
-        Me.bsTabP6.Controls.Add(Me.Ch4_5)
-        Me.bsTabP6.Controls.Add(Me.Ch4_4)
-        Me.bsTabP6.Controls.Add(Me.Ch4_3)
-        Me.bsTabP6.Controls.Add(Me.Ch4_2)
-        Me.bsTabP6.Controls.Add(Me.Ch4_1)
+        Me.bsTabP6.Controls.Add(Me.GroupBox59)
+        Me.bsTabP6.Controls.Add(Me.GroupBox58)
         Me.bsTabP6.Controls.Add(Me.Label204)
         Me.bsTabP6.Controls.Add(Me.Label197)
         Me.bsTabP6.Controls.Add(Me.Label181)
@@ -7332,126 +4802,6 @@ Partial Class 認定調査票
         Me.bsTabP6.Size = New System.Drawing.Size(802, 671)
         Me.bsTabP6.TabIndex = 5
         Me.bsTabP6.Text = "６．特別な医療"
-        '
-        'Ch4_12
-        '
-        Me.Ch4_12.AutoSize = True
-        Me.Ch4_12.Location = New System.Drawing.Point(229, 276)
-        Me.Ch4_12.Name = "Ch4_12"
-        Me.Ch4_12.Size = New System.Drawing.Size(343, 16)
-        Me.Ch4_12.TabIndex = 75
-        Me.Ch4_12.Text = "12.カテーテル（コンドームカテーテル、留置カテーテル、ウロストーマ等）"
-        Me.Ch4_12.UseVisualStyleBackColor = True
-        '
-        'Ch4_11
-        '
-        Me.Ch4_11.AutoSize = True
-        Me.Ch4_11.Location = New System.Drawing.Point(502, 234)
-        Me.Ch4_11.Name = "Ch4_11"
-        Me.Ch4_11.Size = New System.Drawing.Size(110, 16)
-        Me.Ch4_11.TabIndex = 74
-        Me.Ch4_11.Text = "11.じょくそうの処置"
-        Me.Ch4_11.UseVisualStyleBackColor = True
-        '
-        'Ch4_10
-        '
-        Me.Ch4_10.AutoSize = True
-        Me.Ch4_10.Location = New System.Drawing.Point(229, 234)
-        Me.Ch4_10.Name = "Ch4_10"
-        Me.Ch4_10.Size = New System.Drawing.Size(246, 16)
-        Me.Ch4_10.TabIndex = 73
-        Me.Ch4_10.Text = "10.モニター測定（血圧、心拍、酸素飽和度等）"
-        Me.Ch4_10.UseVisualStyleBackColor = True
-        '
-        'Ch4_9
-        '
-        Me.Ch4_9.AutoSize = True
-        Me.Ch4_9.Location = New System.Drawing.Point(343, 159)
-        Me.Ch4_9.Name = "Ch4_9"
-        Me.Ch4_9.Size = New System.Drawing.Size(80, 16)
-        Me.Ch4_9.TabIndex = 72
-        Me.Ch4_9.Text = "9.経管栄養"
-        Me.Ch4_9.UseVisualStyleBackColor = True
-        '
-        'Ch4_8
-        '
-        Me.Ch4_8.AutoSize = True
-        Me.Ch4_8.Location = New System.Drawing.Point(229, 159)
-        Me.Ch4_8.Name = "Ch4_8"
-        Me.Ch4_8.Size = New System.Drawing.Size(90, 16)
-        Me.Ch4_8.TabIndex = 71
-        Me.Ch4_8.Text = "8.疼痛の看護"
-        Me.Ch4_8.UseVisualStyleBackColor = True
-        '
-        'Ch4_7
-        '
-        Me.Ch4_7.AutoSize = True
-        Me.Ch4_7.Location = New System.Drawing.Point(547, 117)
-        Me.Ch4_7.Name = "Ch4_7"
-        Me.Ch4_7.Size = New System.Drawing.Size(114, 16)
-        Me.Ch4_7.TabIndex = 70
-        Me.Ch4_7.Text = "7.気管切開の処置"
-        Me.Ch4_7.UseVisualStyleBackColor = True
-        '
-        'Ch4_6
-        '
-        Me.Ch4_6.AutoSize = True
-        Me.Ch4_6.Location = New System.Drawing.Point(343, 117)
-        Me.Ch4_6.Name = "Ch4_6"
-        Me.Ch4_6.Size = New System.Drawing.Size(168, 16)
-        Me.Ch4_6.TabIndex = 69
-        Me.Ch4_6.Text = "6.レスピレーター（人工呼吸器）"
-        Me.Ch4_6.UseVisualStyleBackColor = True
-        '
-        'Ch4_5
-        '
-        Me.Ch4_5.AutoSize = True
-        Me.Ch4_5.Location = New System.Drawing.Point(229, 117)
-        Me.Ch4_5.Name = "Ch4_5"
-        Me.Ch4_5.Size = New System.Drawing.Size(80, 16)
-        Me.Ch4_5.TabIndex = 68
-        Me.Ch4_5.Text = "5.酸素療法"
-        Me.Ch4_5.UseVisualStyleBackColor = True
-        '
-        'Ch4_4
-        '
-        Me.Ch4_4.AutoSize = True
-        Me.Ch4_4.Location = New System.Drawing.Point(547, 75)
-        Me.Ch4_4.Name = "Ch4_4"
-        Me.Ch4_4.Size = New System.Drawing.Size(162, 16)
-        Me.Ch4_4.TabIndex = 67
-        Me.Ch4_4.Text = "4.ストーマ（人工肛門）の処置"
-        Me.Ch4_4.UseVisualStyleBackColor = True
-        '
-        'Ch4_3
-        '
-        Me.Ch4_3.AutoSize = True
-        Me.Ch4_3.Location = New System.Drawing.Point(470, 75)
-        Me.Ch4_3.Name = "Ch4_3"
-        Me.Ch4_3.Size = New System.Drawing.Size(56, 16)
-        Me.Ch4_3.TabIndex = 66
-        Me.Ch4_3.Text = "3.透析"
-        Me.Ch4_3.UseVisualStyleBackColor = True
-        '
-        'Ch4_2
-        '
-        Me.Ch4_2.AutoSize = True
-        Me.Ch4_2.Location = New System.Drawing.Point(343, 75)
-        Me.Ch4_2.Name = "Ch4_2"
-        Me.Ch4_2.Size = New System.Drawing.Size(104, 16)
-        Me.Ch4_2.TabIndex = 65
-        Me.Ch4_2.Text = "2.中心静脈栄養"
-        Me.Ch4_2.UseVisualStyleBackColor = True
-        '
-        'Ch4_1
-        '
-        Me.Ch4_1.AutoSize = True
-        Me.Ch4_1.Location = New System.Drawing.Point(229, 75)
-        Me.Ch4_1.Name = "Ch4_1"
-        Me.Ch4_1.Size = New System.Drawing.Size(90, 16)
-        Me.Ch4_1.TabIndex = 64
-        Me.Ch4_1.Text = "1.点滴の管理"
-        Me.Ch4_1.UseVisualStyleBackColor = True
         '
         'Label204
         '
@@ -7523,6 +4873,2710 @@ Partial Class 認定調査票
         Me.GroupBox57.Size = New System.Drawing.Size(732, 31)
         Me.GroupBox57.TabIndex = 65
         Me.GroupBox57.TabStop = False
+        '
+        'Label207
+        '
+        Me.Label207.AutoSize = True
+        Me.Label207.ForeColor = System.Drawing.Color.Blue
+        Me.Label207.Location = New System.Drawing.Point(6, 12)
+        Me.Label207.Name = "Label207"
+        Me.Label207.Size = New System.Drawing.Size(171, 12)
+        Me.Label207.TabIndex = 63
+        Me.Label207.Text = "認知症高齢者の日常生活自立度"
+        '
+        'GroupBox56
+        '
+        Me.GroupBox56.Controls.Add(Me.rb7_1_9)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_8)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_7)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_6)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_5)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_4)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_3)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_2)
+        Me.GroupBox56.Controls.Add(Me.rb7_1_1)
+        Me.GroupBox56.Controls.Add(Me.Label209)
+        Me.GroupBox56.Location = New System.Drawing.Point(47, 74)
+        Me.GroupBox56.Name = "GroupBox56"
+        Me.GroupBox56.Size = New System.Drawing.Size(732, 31)
+        Me.GroupBox56.TabIndex = 64
+        Me.GroupBox56.TabStop = False
+        '
+        'Label209
+        '
+        Me.Label209.AutoSize = True
+        Me.Label209.ForeColor = System.Drawing.Color.Blue
+        Me.Label209.Location = New System.Drawing.Point(6, 12)
+        Me.Label209.Name = "Label209"
+        Me.Label209.Size = New System.Drawing.Size(221, 12)
+        Me.Label209.TabIndex = 61
+        Me.Label209.Text = "障害高齢者の日常生活自立度（寝たきり度）"
+        '
+        'Label210
+        '
+        Me.Label210.AutoSize = True
+        Me.Label210.ForeColor = System.Drawing.Color.Blue
+        Me.Label210.Location = New System.Drawing.Point(45, 41)
+        Me.Label210.Name = "Label210"
+        Me.Label210.Size = New System.Drawing.Size(99, 12)
+        Me.Label210.TabIndex = 60
+        Me.Label210.Text = "7 日常生活自立度"
+        '
+        'ListingDataGridViewTextBoxColumn
+        '
+        Me.ListingDataGridViewTextBoxColumn.DataPropertyName = "Listing"
+        Me.ListingDataGridViewTextBoxColumn.HeaderText = "Listing"
+        Me.ListingDataGridViewTextBoxColumn.Name = "ListingDataGridViewTextBoxColumn"
+        '
+        'ContentDataGridViewTextBoxColumn
+        '
+        Me.ContentDataGridViewTextBoxColumn.DataPropertyName = "Content"
+        Me.ContentDataGridViewTextBoxColumn.HeaderText = "Content"
+        Me.ContentDataGridViewTextBoxColumn.Name = "ContentDataGridViewTextBoxColumn"
+        '
+        'spText4
+        '
+        Me.spText4.InputType = 0
+        Me.spText4.LimitLengthByte = 100
+        Me.spText4.Location = New System.Drawing.Point(37, 685)
+        Me.spText4.Name = "spText4"
+        Me.spText4.Size = New System.Drawing.Size(733, 19)
+        Me.spText4.TabIndex = 22
+        '
+        'spText3
+        '
+        Me.spText3.InputType = 0
+        Me.spText3.LimitLengthByte = 100
+        Me.spText3.Location = New System.Drawing.Point(37, 666)
+        Me.spText3.Name = "spText3"
+        Me.spText3.Size = New System.Drawing.Size(733, 19)
+        Me.spText3.TabIndex = 21
+        '
+        'spText2
+        '
+        Me.spText2.InputType = 0
+        Me.spText2.LimitLengthByte = 100
+        Me.spText2.Location = New System.Drawing.Point(37, 647)
+        Me.spText2.Name = "spText2"
+        Me.spText2.Size = New System.Drawing.Size(733, 19)
+        Me.spText2.TabIndex = 20
+        '
+        'spText1
+        '
+        Me.spText1.InputType = 0
+        Me.spText1.LimitLengthByte = 100
+        Me.spText1.Location = New System.Drawing.Point(37, 628)
+        Me.spText1.Name = "spText1"
+        Me.spText1.Size = New System.Drawing.Size(733, 19)
+        Me.spText1.TabIndex = 19
+        '
+        'Gentxt1
+        '
+        Me.Gentxt1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Gentxt1.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Gentxt1.InputType = 0
+        Me.Gentxt1.LimitLengthByte = 100
+        Me.Gentxt1.Location = New System.Drawing.Point(161, 455)
+        Me.Gentxt1.Name = "Gentxt1"
+        Me.Gentxt1.Size = New System.Drawing.Size(528, 14)
+        Me.Gentxt1.TabIndex = 206
+        '
+        'houseTextBox
+        '
+        Me.houseTextBox.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.houseTextBox.InputType = 0
+        Me.houseTextBox.LimitLengthByte = 34
+        Me.houseTextBox.Location = New System.Drawing.Point(280, 87)
+        Me.houseTextBox.Name = "houseTextBox"
+        Me.houseTextBox.Size = New System.Drawing.Size(208, 20)
+        Me.houseTextBox.TabIndex = 5
+        '
+        'facilityTel3
+        '
+        Me.facilityTel3.InputType = 1
+        Me.facilityTel3.LimitLengthByte = 4
+        Me.facilityTel3.Location = New System.Drawing.Point(670, 1)
+        Me.facilityTel3.Name = "facilityTel3"
+        Me.facilityTel3.Size = New System.Drawing.Size(63, 19)
+        Me.facilityTel3.TabIndex = 45
+        '
+        'facilityTel2
+        '
+        Me.facilityTel2.InputType = 1
+        Me.facilityTel2.LimitLengthByte = 4
+        Me.facilityTel2.Location = New System.Drawing.Point(589, 1)
+        Me.facilityTel2.Name = "facilityTel2"
+        Me.facilityTel2.Size = New System.Drawing.Size(63, 19)
+        Me.facilityTel2.TabIndex = 44
+        '
+        'facilityTel1
+        '
+        Me.facilityTel1.InputType = 1
+        Me.facilityTel1.LimitLengthByte = 4
+        Me.facilityTel1.Location = New System.Drawing.Point(508, 1)
+        Me.facilityTel1.Name = "facilityTel1"
+        Me.facilityTel1.Size = New System.Drawing.Size(63, 19)
+        Me.facilityTel1.TabIndex = 43
+        Me.facilityTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'facilityAddress
+        '
+        Me.facilityAddress.InputType = 0
+        Me.facilityAddress.LimitLengthByte = 60
+        Me.facilityAddress.Location = New System.Drawing.Point(156, 1)
+        Me.facilityAddress.Name = "facilityAddress"
+        Me.facilityAddress.Size = New System.Drawing.Size(313, 19)
+        Me.facilityAddress.TabIndex = 42
+        '
+        'facilityPostCode2
+        '
+        Me.facilityPostCode2.InputType = 1
+        Me.facilityPostCode2.LimitLengthByte = 4
+        Me.facilityPostCode2.Location = New System.Drawing.Point(83, 1)
+        Me.facilityPostCode2.Name = "facilityPostCode2"
+        Me.facilityPostCode2.Size = New System.Drawing.Size(55, 19)
+        Me.facilityPostCode2.TabIndex = 41
+        '
+        'facilityPostCode1
+        '
+        Me.facilityPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.facilityPostCode1.InputType = 1
+        Me.facilityPostCode1.LimitLengthByte = 3
+        Me.facilityPostCode1.Location = New System.Drawing.Point(21, 1)
+        Me.facilityPostCode1.Name = "facilityPostCode1"
+        Me.facilityPostCode1.Size = New System.Drawing.Size(46, 19)
+        Me.facilityPostCode1.TabIndex = 40
+        '
+        'facilityNameBox
+        '
+        Me.facilityNameBox.InputType = 0
+        Me.facilityNameBox.LimitLengthByte = 100
+        Me.facilityNameBox.Location = New System.Drawing.Point(54, 1)
+        Me.facilityNameBox.Name = "facilityNameBox"
+        Me.facilityNameBox.Size = New System.Drawing.Size(254, 19)
+        Me.facilityNameBox.TabIndex = 34
+        '
+        'Gentxt2
+        '
+        Me.Gentxt2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Gentxt2.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Gentxt2.InputType = 0
+        Me.Gentxt2.LimitLengthByte = 100
+        Me.Gentxt2.Location = New System.Drawing.Point(192, 1)
+        Me.Gentxt2.Name = "Gentxt2"
+        Me.Gentxt2.Size = New System.Drawing.Size(460, 14)
+        Me.Gentxt2.TabIndex = 207
+        '
+        'txtNum20
+        '
+        Me.txtNum20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum20.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum20.InputType = 0
+        Me.txtNum20.LimitLengthByte = 100
+        Me.txtNum20.Location = New System.Drawing.Point(657, 147)
+        Me.txtNum20.Name = "txtNum20"
+        Me.txtNum20.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum20.TabIndex = 215
+        '
+        'txtNum19
+        '
+        Me.txtNum19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum19.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum19.InputType = 0
+        Me.txtNum19.LimitLengthByte = 100
+        Me.txtNum19.Location = New System.Drawing.Point(657, 131)
+        Me.txtNum19.Name = "txtNum19"
+        Me.txtNum19.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum19.TabIndex = 214
+        '
+        'txtNum18
+        '
+        Me.txtNum18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum18.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum18.InputType = 0
+        Me.txtNum18.LimitLengthByte = 100
+        Me.txtNum18.Location = New System.Drawing.Point(657, 115)
+        Me.txtNum18.Name = "txtNum18"
+        Me.txtNum18.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum18.TabIndex = 213
+        '
+        'txtNum17
+        '
+        Me.txtNum17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum17.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum17.InputType = 0
+        Me.txtNum17.LimitLengthByte = 100
+        Me.txtNum17.Location = New System.Drawing.Point(657, 99)
+        Me.txtNum17.Name = "txtNum17"
+        Me.txtNum17.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum17.TabIndex = 212
+        '
+        'txtNum16
+        '
+        Me.txtNum16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum16.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum16.InputType = 0
+        Me.txtNum16.LimitLengthByte = 100
+        Me.txtNum16.Location = New System.Drawing.Point(657, 83)
+        Me.txtNum16.Name = "txtNum16"
+        Me.txtNum16.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum16.TabIndex = 211
+        '
+        'txtNum15
+        '
+        Me.txtNum15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum15.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum15.InputType = 0
+        Me.txtNum15.LimitLengthByte = 100
+        Me.txtNum15.Location = New System.Drawing.Point(657, 67)
+        Me.txtNum15.Name = "txtNum15"
+        Me.txtNum15.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum15.TabIndex = 210
+        '
+        'txtNum14
+        '
+        Me.txtNum14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum14.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum14.InputType = 0
+        Me.txtNum14.LimitLengthByte = 100
+        Me.txtNum14.Location = New System.Drawing.Point(657, 51)
+        Me.txtNum14.Name = "txtNum14"
+        Me.txtNum14.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum14.TabIndex = 209
+        '
+        'txtNum12
+        '
+        Me.txtNum12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum12.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum12.InputType = 0
+        Me.txtNum12.LimitLengthByte = 100
+        Me.txtNum12.Location = New System.Drawing.Point(657, 19)
+        Me.txtNum12.Name = "txtNum12"
+        Me.txtNum12.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum12.TabIndex = 208
+        '
+        'txtNum11
+        '
+        Me.txtNum11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum11.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum11.InputType = 0
+        Me.txtNum11.LimitLengthByte = 100
+        Me.txtNum11.Location = New System.Drawing.Point(657, 3)
+        Me.txtNum11.Name = "txtNum11"
+        Me.txtNum11.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum11.TabIndex = 207
+        '
+        'txtNum21
+        '
+        Me.txtNum21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum21.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum21.InputType = 0
+        Me.txtNum21.LimitLengthByte = 100
+        Me.txtNum21.Location = New System.Drawing.Point(285, 163)
+        Me.txtNum21.Name = "txtNum21"
+        Me.txtNum21.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum21.TabIndex = 206
+        '
+        'txtNum10
+        '
+        Me.txtNum10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum10.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum10.InputType = 0
+        Me.txtNum10.LimitLengthByte = 100
+        Me.txtNum10.Location = New System.Drawing.Point(285, 147)
+        Me.txtNum10.Name = "txtNum10"
+        Me.txtNum10.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum10.TabIndex = 205
+        '
+        'txtNum9
+        '
+        Me.txtNum9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum9.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum9.InputType = 0
+        Me.txtNum9.LimitLengthByte = 100
+        Me.txtNum9.Location = New System.Drawing.Point(285, 131)
+        Me.txtNum9.Name = "txtNum9"
+        Me.txtNum9.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum9.TabIndex = 204
+        '
+        'txtNum8
+        '
+        Me.txtNum8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum8.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum8.InputType = 0
+        Me.txtNum8.LimitLengthByte = 100
+        Me.txtNum8.Location = New System.Drawing.Point(285, 115)
+        Me.txtNum8.Name = "txtNum8"
+        Me.txtNum8.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum8.TabIndex = 203
+        '
+        'txtNum7
+        '
+        Me.txtNum7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum7.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum7.InputType = 0
+        Me.txtNum7.LimitLengthByte = 100
+        Me.txtNum7.Location = New System.Drawing.Point(285, 99)
+        Me.txtNum7.Name = "txtNum7"
+        Me.txtNum7.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum7.TabIndex = 202
+        '
+        'txtNum6
+        '
+        Me.txtNum6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum6.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum6.InputType = 0
+        Me.txtNum6.LimitLengthByte = 100
+        Me.txtNum6.Location = New System.Drawing.Point(285, 83)
+        Me.txtNum6.Name = "txtNum6"
+        Me.txtNum6.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum6.TabIndex = 201
+        '
+        'txtNum5
+        '
+        Me.txtNum5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum5.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum5.InputType = 0
+        Me.txtNum5.LimitLengthByte = 100
+        Me.txtNum5.Location = New System.Drawing.Point(285, 67)
+        Me.txtNum5.Name = "txtNum5"
+        Me.txtNum5.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum5.TabIndex = 200
+        '
+        'txtNum4
+        '
+        Me.txtNum4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum4.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum4.InputType = 0
+        Me.txtNum4.LimitLengthByte = 100
+        Me.txtNum4.Location = New System.Drawing.Point(285, 51)
+        Me.txtNum4.Name = "txtNum4"
+        Me.txtNum4.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum4.TabIndex = 199
+        '
+        'txtNum3
+        '
+        Me.txtNum3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum3.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum3.InputType = 0
+        Me.txtNum3.LimitLengthByte = 100
+        Me.txtNum3.Location = New System.Drawing.Point(285, 35)
+        Me.txtNum3.Name = "txtNum3"
+        Me.txtNum3.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum3.TabIndex = 198
+        '
+        'txtNum2
+        '
+        Me.txtNum2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum2.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum2.InputType = 0
+        Me.txtNum2.LimitLengthByte = 100
+        Me.txtNum2.Location = New System.Drawing.Point(285, 19)
+        Me.txtNum2.Name = "txtNum2"
+        Me.txtNum2.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum2.TabIndex = 197
+        '
+        'txtNum1
+        '
+        Me.txtNum1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNum1.Font = New System.Drawing.Font("MS UI Gothic", 9.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtNum1.InputType = 0
+        Me.txtNum1.LimitLengthByte = 100
+        Me.txtNum1.Location = New System.Drawing.Point(285, 3)
+        Me.txtNum1.Name = "txtNum1"
+        Me.txtNum1.Size = New System.Drawing.Size(35, 13)
+        Me.txtNum1.TabIndex = 196
+        '
+        'namBox
+        '
+        Me.namBox.InputType = 0
+        Me.namBox.LimitLengthByte = 100
+        Me.namBox.Location = New System.Drawing.Point(43, 1)
+        Me.namBox.Name = "namBox"
+        Me.namBox.Size = New System.Drawing.Size(105, 19)
+        Me.namBox.TabIndex = 48
+        '
+        'familyTel3
+        '
+        Me.familyTel3.InputType = 1
+        Me.familyTel3.LimitLengthByte = 4
+        Me.familyTel3.Location = New System.Drawing.Point(670, 1)
+        Me.familyTel3.Name = "familyTel3"
+        Me.familyTel3.Size = New System.Drawing.Size(63, 19)
+        Me.familyTel3.TabIndex = 45
+        '
+        'familyTel2
+        '
+        Me.familyTel2.InputType = 1
+        Me.familyTel2.LimitLengthByte = 4
+        Me.familyTel2.Location = New System.Drawing.Point(589, 1)
+        Me.familyTel2.Name = "familyTel2"
+        Me.familyTel2.Size = New System.Drawing.Size(63, 19)
+        Me.familyTel2.TabIndex = 44
+        '
+        'familyTel1
+        '
+        Me.familyTel1.InputType = 1
+        Me.familyTel1.LimitLengthByte = 4
+        Me.familyTel1.Location = New System.Drawing.Point(508, 1)
+        Me.familyTel1.Name = "familyTel1"
+        Me.familyTel1.Size = New System.Drawing.Size(63, 19)
+        Me.familyTel1.TabIndex = 43
+        '
+        'familyAddress
+        '
+        Me.familyAddress.InputType = 0
+        Me.familyAddress.LimitLengthByte = 60
+        Me.familyAddress.Location = New System.Drawing.Point(156, 1)
+        Me.familyAddress.Name = "familyAddress"
+        Me.familyAddress.Size = New System.Drawing.Size(313, 19)
+        Me.familyAddress.TabIndex = 42
+        '
+        'familyPostCode2
+        '
+        Me.familyPostCode2.InputType = 1
+        Me.familyPostCode2.LimitLengthByte = 4
+        Me.familyPostCode2.Location = New System.Drawing.Point(83, 1)
+        Me.familyPostCode2.Name = "familyPostCode2"
+        Me.familyPostCode2.Size = New System.Drawing.Size(55, 19)
+        Me.familyPostCode2.TabIndex = 41
+        '
+        'familyPostCode1
+        '
+        Me.familyPostCode1.InputType = 1
+        Me.familyPostCode1.LimitLengthByte = 3
+        Me.familyPostCode1.Location = New System.Drawing.Point(21, 1)
+        Me.familyPostCode1.Name = "familyPostCode1"
+        Me.familyPostCode1.Size = New System.Drawing.Size(46, 19)
+        Me.familyPostCode1.TabIndex = 40
+        '
+        'currentTel3
+        '
+        Me.currentTel3.InputType = 1
+        Me.currentTel3.LimitLengthByte = 4
+        Me.currentTel3.Location = New System.Drawing.Point(670, 1)
+        Me.currentTel3.Name = "currentTel3"
+        Me.currentTel3.Size = New System.Drawing.Size(63, 19)
+        Me.currentTel3.TabIndex = 38
+        '
+        'currentTel2
+        '
+        Me.currentTel2.InputType = 1
+        Me.currentTel2.LimitLengthByte = 4
+        Me.currentTel2.Location = New System.Drawing.Point(589, 1)
+        Me.currentTel2.Name = "currentTel2"
+        Me.currentTel2.Size = New System.Drawing.Size(63, 19)
+        Me.currentTel2.TabIndex = 37
+        '
+        'currentTel1
+        '
+        Me.currentTel1.InputType = 1
+        Me.currentTel1.LimitLengthByte = 4
+        Me.currentTel1.Location = New System.Drawing.Point(508, 1)
+        Me.currentTel1.Name = "currentTel1"
+        Me.currentTel1.Size = New System.Drawing.Size(63, 19)
+        Me.currentTel1.TabIndex = 36
+        Me.currentTel1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'currentAddress
+        '
+        Me.currentAddress.InputType = 0
+        Me.currentAddress.LimitLengthByte = 60
+        Me.currentAddress.Location = New System.Drawing.Point(156, 1)
+        Me.currentAddress.Name = "currentAddress"
+        Me.currentAddress.Size = New System.Drawing.Size(313, 19)
+        Me.currentAddress.TabIndex = 35
+        '
+        'currentPostCode2
+        '
+        Me.currentPostCode2.InputType = 1
+        Me.currentPostCode2.LimitLengthByte = 4
+        Me.currentPostCode2.Location = New System.Drawing.Point(83, 1)
+        Me.currentPostCode2.Name = "currentPostCode2"
+        Me.currentPostCode2.Size = New System.Drawing.Size(55, 19)
+        Me.currentPostCode2.TabIndex = 34
+        '
+        'currentPostCode1
+        '
+        Me.currentPostCode1.ImeMode = System.Windows.Forms.ImeMode.Disable
+        Me.currentPostCode1.InputType = 1
+        Me.currentPostCode1.LimitLengthByte = 3
+        Me.currentPostCode1.Location = New System.Drawing.Point(21, 1)
+        Me.currentPostCode1.Name = "currentPostCode1"
+        Me.currentPostCode1.Size = New System.Drawing.Size(46, 19)
+        Me.currentPostCode1.TabIndex = 32
+        '
+        'dgvNumInput
+        '
+        Me.dgvNumInput.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvNumInput.Location = New System.Drawing.Point(15, 10)
+        Me.dgvNumInput.Name = "dgvNumInput"
+        Me.dgvNumInput.RowTemplate.Height = 21
+        Me.dgvNumInput.Size = New System.Drawing.Size(493, 34)
+        Me.dgvNumInput.TabIndex = 0
+        '
+        'SpDgv1
+        '
+        Me.SpDgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv1.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv1.Name = "SpDgv1"
+        Me.SpDgv1.RowTemplate.Height = 21
+        Me.SpDgv1.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv1.TabIndex = 17
+        '
+        'SpDgv2
+        '
+        Me.SpDgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv2.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv2.Name = "SpDgv2"
+        Me.SpDgv2.RowTemplate.Height = 21
+        Me.SpDgv2.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv2.TabIndex = 35
+        '
+        'SpDgv3
+        '
+        Me.SpDgv3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv3.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv3.Name = "SpDgv3"
+        Me.SpDgv3.RowTemplate.Height = 21
+        Me.SpDgv3.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv3.TabIndex = 35
+        '
+        'SpDgv4
+        '
+        Me.SpDgv4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv4.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv4.Name = "SpDgv4"
+        Me.SpDgv4.RowTemplate.Height = 21
+        Me.SpDgv4.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv4.TabIndex = 35
+        '
+        'SpDgv5
+        '
+        Me.SpDgv5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv5.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv5.Name = "SpDgv5"
+        Me.SpDgv5.RowTemplate.Height = 21
+        Me.SpDgv5.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv5.TabIndex = 55
+        '
+        'SpDgv6
+        '
+        Me.SpDgv6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv6.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv6.Name = "SpDgv6"
+        Me.SpDgv6.RowTemplate.Height = 21
+        Me.SpDgv6.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv6.TabIndex = 66
+        '
+        'SpDgv7
+        '
+        Me.SpDgv7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.SpDgv7.Location = New System.Drawing.Point(182, 118)
+        Me.SpDgv7.Name = "SpDgv7"
+        Me.SpDgv7.RowTemplate.Height = 21
+        Me.SpDgv7.Size = New System.Drawing.Size(597, 531)
+        Me.SpDgv7.TabIndex = 66
+        '
+        'rb1_13_5
+        '
+        Me.rb1_13_5.AutoSize = True
+        Me.rb1_13_5.Location = New System.Drawing.Point(117, 105)
+        Me.rb1_13_5.Name = "rb1_13_5"
+        Me.rb1_13_5.Size = New System.Drawing.Size(156, 16)
+        Me.rb1_13_5.TabIndex = 25
+        Me.rb1_13_5.TabStop = True
+        Me.rb1_13_5.Text = "5.聞こえているのか判断不能"
+        Me.rb1_13_5.UseVisualStyleBackColor = True
+        '
+        'rb1_13_4
+        '
+        Me.rb1_13_4.AutoSize = True
+        Me.rb1_13_4.Location = New System.Drawing.Point(117, 82)
+        Me.rb1_13_4.Name = "rb1_13_4"
+        Me.rb1_13_4.Size = New System.Drawing.Size(117, 16)
+        Me.rb1_13_4.TabIndex = 24
+        Me.rb1_13_4.TabStop = True
+        Me.rb1_13_4.Text = "4.ほとんど聞こえない"
+        Me.rb1_13_4.UseVisualStyleBackColor = True
+        '
+        'rb1_13_3
+        '
+        Me.rb1_13_3.AutoSize = True
+        Me.rb1_13_3.Location = New System.Drawing.Point(117, 59)
+        Me.rb1_13_3.Name = "rb1_13_3"
+        Me.rb1_13_3.Size = New System.Drawing.Size(203, 16)
+        Me.rb1_13_3.TabIndex = 23
+        Me.rb1_13_3.TabStop = True
+        Me.rb1_13_3.Text = "3.かなり大きな声なら何とか聞き取れる"
+        Me.rb1_13_3.UseVisualStyleBackColor = True
+        '
+        'rb1_13_2
+        '
+        Me.rb1_13_2.AutoSize = True
+        Me.rb1_13_2.Location = New System.Drawing.Point(117, 36)
+        Me.rb1_13_2.Name = "rb1_13_2"
+        Me.rb1_13_2.Size = New System.Drawing.Size(166, 16)
+        Me.rb1_13_2.TabIndex = 22
+        Me.rb1_13_2.TabStop = True
+        Me.rb1_13_2.Text = "2.普通の声がやっと聞き取れる"
+        Me.rb1_13_2.UseVisualStyleBackColor = True
+        '
+        'rb1_13_1
+        '
+        Me.rb1_13_1.AutoSize = True
+        Me.rb1_13_1.Location = New System.Drawing.Point(117, 13)
+        Me.rb1_13_1.Name = "rb1_13_1"
+        Me.rb1_13_1.Size = New System.Drawing.Size(55, 16)
+        Me.rb1_13_1.TabIndex = 21
+        Me.rb1_13_1.TabStop = True
+        Me.rb1_13_1.Text = "1.普通"
+        Me.rb1_13_1.UseVisualStyleBackColor = True
+        '
+        'rb1_12_5
+        '
+        Me.rb1_12_5.AutoSize = True
+        Me.rb1_12_5.Location = New System.Drawing.Point(122, 105)
+        Me.rb1_12_5.Name = "rb1_12_5"
+        Me.rb1_12_5.Size = New System.Drawing.Size(148, 16)
+        Me.rb1_12_5.TabIndex = 20
+        Me.rb1_12_5.TabStop = True
+        Me.rb1_12_5.Text = "5.見えているのか判断不能"
+        Me.rb1_12_5.UseVisualStyleBackColor = True
+        '
+        'rb1_12_4
+        '
+        Me.rb1_12_4.AutoSize = True
+        Me.rb1_12_4.Location = New System.Drawing.Point(122, 82)
+        Me.rb1_12_4.Name = "rb1_12_4"
+        Me.rb1_12_4.Size = New System.Drawing.Size(109, 16)
+        Me.rb1_12_4.TabIndex = 19
+        Me.rb1_12_4.TabStop = True
+        Me.rb1_12_4.Text = "4.ほとんど見えない"
+        Me.rb1_12_4.UseVisualStyleBackColor = True
+        '
+        'rb1_12_3
+        '
+        Me.rb1_12_3.AutoSize = True
+        Me.rb1_12_3.Location = New System.Drawing.Point(122, 59)
+        Me.rb1_12_3.Name = "rb1_12_3"
+        Me.rb1_12_3.Size = New System.Drawing.Size(227, 16)
+        Me.rb1_12_3.TabIndex = 18
+        Me.rb1_12_3.TabStop = True
+        Me.rb1_12_3.Text = "3.目の前に置いた視力確認表の図が見える"
+        Me.rb1_12_3.UseVisualStyleBackColor = True
+        '
+        'rb1_12_2
+        '
+        Me.rb1_12_2.AutoSize = True
+        Me.rb1_12_2.Location = New System.Drawing.Point(122, 36)
+        Me.rb1_12_2.Name = "rb1_12_2"
+        Me.rb1_12_2.Size = New System.Drawing.Size(216, 16)
+        Me.rb1_12_2.TabIndex = 17
+        Me.rb1_12_2.TabStop = True
+        Me.rb1_12_2.Text = "2.約１ｍ離れた視力確認表の図が見える"
+        Me.rb1_12_2.UseVisualStyleBackColor = True
+        '
+        'rb1_12_1
+        '
+        Me.rb1_12_1.AutoSize = True
+        Me.rb1_12_1.Location = New System.Drawing.Point(122, 13)
+        Me.rb1_12_1.Name = "rb1_12_1"
+        Me.rb1_12_1.Size = New System.Drawing.Size(178, 16)
+        Me.rb1_12_1.TabIndex = 16
+        Me.rb1_12_1.TabStop = True
+        Me.rb1_12_1.Text = "1.普通（日常生活に支障がない）"
+        Me.rb1_12_1.UseVisualStyleBackColor = True
+        '
+        'rb1_11_3
+        '
+        Me.rb1_11_3.AutoSize = True
+        Me.rb1_11_3.Location = New System.Drawing.Point(419, 10)
+        Me.rb1_11_3.Name = "rb1_11_3"
+        Me.rb1_11_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb1_11_3.TabIndex = 22
+        Me.rb1_11_3.TabStop = True
+        Me.rb1_11_3.Text = "3.全介助"
+        Me.rb1_11_3.UseVisualStyleBackColor = True
+        '
+        'rb1_11_2
+        '
+        Me.rb1_11_2.AutoSize = True
+        Me.rb1_11_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_11_2.Name = "rb1_11_2"
+        Me.rb1_11_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb1_11_2.TabIndex = 21
+        Me.rb1_11_2.TabStop = True
+        Me.rb1_11_2.Text = "2.一部介助"
+        Me.rb1_11_2.UseVisualStyleBackColor = True
+        '
+        'rb1_11_1
+        '
+        Me.rb1_11_1.AutoSize = True
+        Me.rb1_11_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_11_1.Name = "rb1_11_1"
+        Me.rb1_11_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb1_11_1.TabIndex = 20
+        Me.rb1_11_1.TabStop = True
+        Me.rb1_11_1.Text = "1.自立（介助なし）"
+        Me.rb1_11_1.UseVisualStyleBackColor = True
+        '
+        'rb1_10_4
+        '
+        Me.rb1_10_4.AutoSize = True
+        Me.rb1_10_4.Location = New System.Drawing.Point(530, 10)
+        Me.rb1_10_4.Name = "rb1_10_4"
+        Me.rb1_10_4.Size = New System.Drawing.Size(90, 16)
+        Me.rb1_10_4.TabIndex = 20
+        Me.rb1_10_4.TabStop = True
+        Me.rb1_10_4.Text = "4.行っていない"
+        Me.rb1_10_4.UseVisualStyleBackColor = True
+        '
+        'rb1_10_3
+        '
+        Me.rb1_10_3.AutoSize = True
+        Me.rb1_10_3.Location = New System.Drawing.Point(419, 10)
+        Me.rb1_10_3.Name = "rb1_10_3"
+        Me.rb1_10_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb1_10_3.TabIndex = 19
+        Me.rb1_10_3.TabStop = True
+        Me.rb1_10_3.Text = "3.全介助"
+        Me.rb1_10_3.UseVisualStyleBackColor = True
+        '
+        'rb1_10_2
+        '
+        Me.rb1_10_2.AutoSize = True
+        Me.rb1_10_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_10_2.Name = "rb1_10_2"
+        Me.rb1_10_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb1_10_2.TabIndex = 18
+        Me.rb1_10_2.TabStop = True
+        Me.rb1_10_2.Text = "2.一部介助"
+        Me.rb1_10_2.UseVisualStyleBackColor = True
+        '
+        'rb1_10_1
+        '
+        Me.rb1_10_1.AutoSize = True
+        Me.rb1_10_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_10_1.Name = "rb1_10_1"
+        Me.rb1_10_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb1_10_1.TabIndex = 17
+        Me.rb1_10_1.TabStop = True
+        Me.rb1_10_1.Text = "1.自立（介助なし）"
+        Me.rb1_10_1.UseVisualStyleBackColor = True
+        '
+        'rb1_9_3
+        '
+        Me.rb1_9_3.AutoSize = True
+        Me.rb1_9_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_9_3.Name = "rb1_9_3"
+        Me.rb1_9_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_9_3.TabIndex = 18
+        Me.rb1_9_3.TabStop = True
+        Me.rb1_9_3.Text = "3.できない"
+        Me.rb1_9_3.UseVisualStyleBackColor = True
+        '
+        'rb1_9_2
+        '
+        Me.rb1_9_2.AutoSize = True
+        Me.rb1_9_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_9_2.Name = "rb1_9_2"
+        Me.rb1_9_2.Size = New System.Drawing.Size(143, 16)
+        Me.rb1_9_2.TabIndex = 17
+        Me.rb1_9_2.TabStop = True
+        Me.rb1_9_2.Text = "2.何か支えがあればできる"
+        Me.rb1_9_2.UseVisualStyleBackColor = True
+        '
+        'rb1_9_1
+        '
+        Me.rb1_9_1.AutoSize = True
+        Me.rb1_9_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_9_1.Name = "rb1_9_1"
+        Me.rb1_9_1.Size = New System.Drawing.Size(109, 16)
+        Me.rb1_9_1.TabIndex = 16
+        Me.rb1_9_1.TabStop = True
+        Me.rb1_9_1.Text = "1.支えなしでできる"
+        Me.rb1_9_1.UseVisualStyleBackColor = True
+        '
+        'rb1_8_3
+        '
+        Me.rb1_8_3.AutoSize = True
+        Me.rb1_8_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_8_3.Name = "rb1_8_3"
+        Me.rb1_8_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_8_3.TabIndex = 18
+        Me.rb1_8_3.TabStop = True
+        Me.rb1_8_3.Text = "3.できない"
+        Me.rb1_8_3.UseVisualStyleBackColor = True
+        '
+        'rb1_8_2
+        '
+        Me.rb1_8_2.AutoSize = True
+        Me.rb1_8_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_8_2.Name = "rb1_8_2"
+        Me.rb1_8_2.Size = New System.Drawing.Size(139, 16)
+        Me.rb1_8_2.TabIndex = 17
+        Me.rb1_8_2.TabStop = True
+        Me.rb1_8_2.Text = "2.何かにつかまればできる"
+        Me.rb1_8_2.UseVisualStyleBackColor = True
+        '
+        'rb1_8_1
+        '
+        Me.rb1_8_1.AutoSize = True
+        Me.rb1_8_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_8_1.Name = "rb1_8_1"
+        Me.rb1_8_1.Size = New System.Drawing.Size(125, 16)
+        Me.rb1_8_1.TabIndex = 16
+        Me.rb1_8_1.TabStop = True
+        Me.rb1_8_1.Text = "1.つかまらないでできる"
+        Me.rb1_8_1.UseVisualStyleBackColor = True
+        '
+        'rb1_7_3
+        '
+        Me.rb1_7_3.AutoSize = True
+        Me.rb1_7_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_7_3.Name = "rb1_7_3"
+        Me.rb1_7_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_7_3.TabIndex = 15
+        Me.rb1_7_3.TabStop = True
+        Me.rb1_7_3.Text = "3.できない"
+        Me.rb1_7_3.UseVisualStyleBackColor = True
+        '
+        'rb1_7_2
+        '
+        Me.rb1_7_2.AutoSize = True
+        Me.rb1_7_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_7_2.Name = "rb1_7_2"
+        Me.rb1_7_2.Size = New System.Drawing.Size(139, 16)
+        Me.rb1_7_2.TabIndex = 14
+        Me.rb1_7_2.TabStop = True
+        Me.rb1_7_2.Text = "2.何かにつかまればできる"
+        Me.rb1_7_2.UseVisualStyleBackColor = True
+        '
+        'rb1_7_1
+        '
+        Me.rb1_7_1.AutoSize = True
+        Me.rb1_7_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_7_1.Name = "rb1_7_1"
+        Me.rb1_7_1.Size = New System.Drawing.Size(125, 16)
+        Me.rb1_7_1.TabIndex = 13
+        Me.rb1_7_1.TabStop = True
+        Me.rb1_7_1.Text = "1.つかまらないでできる"
+        Me.rb1_7_1.UseVisualStyleBackColor = True
+        '
+        'rb1_6_3
+        '
+        Me.rb1_6_3.AutoSize = True
+        Me.rb1_6_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_6_3.Name = "rb1_6_3"
+        Me.rb1_6_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_6_3.TabIndex = 15
+        Me.rb1_6_3.TabStop = True
+        Me.rb1_6_3.Text = "3.できない"
+        Me.rb1_6_3.UseVisualStyleBackColor = True
+        '
+        'rb1_6_2
+        '
+        Me.rb1_6_2.AutoSize = True
+        Me.rb1_6_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_6_2.Name = "rb1_6_2"
+        Me.rb1_6_2.Size = New System.Drawing.Size(143, 16)
+        Me.rb1_6_2.TabIndex = 14
+        Me.rb1_6_2.TabStop = True
+        Me.rb1_6_2.Text = "2.何か支えがあればできる"
+        Me.rb1_6_2.UseVisualStyleBackColor = True
+        '
+        'rb1_6_1
+        '
+        Me.rb1_6_1.AutoSize = True
+        Me.rb1_6_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_6_1.Name = "rb1_6_1"
+        Me.rb1_6_1.Size = New System.Drawing.Size(109, 16)
+        Me.rb1_6_1.TabIndex = 13
+        Me.rb1_6_1.TabStop = True
+        Me.rb1_6_1.Text = "1.支えなしでできる"
+        Me.rb1_6_1.UseVisualStyleBackColor = True
+        '
+        'rb1_5_4
+        '
+        Me.rb1_5_4.AutoSize = True
+        Me.rb1_5_4.Location = New System.Drawing.Point(588, 10)
+        Me.rb1_5_4.Name = "rb1_5_4"
+        Me.rb1_5_4.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_5_4.TabIndex = 16
+        Me.rb1_5_4.TabStop = True
+        Me.rb1_5_4.Text = "4.できない"
+        Me.rb1_5_4.UseVisualStyleBackColor = True
+        '
+        'rb1_5_3
+        '
+        Me.rb1_5_3.AutoSize = True
+        Me.rb1_5_3.Location = New System.Drawing.Point(419, 10)
+        Me.rb1_5_3.Name = "rb1_5_3"
+        Me.rb1_5_3.Size = New System.Drawing.Size(136, 16)
+        Me.rb1_5_3.TabIndex = 15
+        Me.rb1_5_3.TabStop = True
+        Me.rb1_5_3.Text = "3.支えてもらえればできる"
+        Me.rb1_5_3.UseVisualStyleBackColor = True
+        '
+        'rb1_5_2
+        '
+        Me.rb1_5_2.AutoSize = True
+        Me.rb1_5_2.Location = New System.Drawing.Point(232, 10)
+        Me.rb1_5_2.Name = "rb1_5_2"
+        Me.rb1_5_2.Size = New System.Drawing.Size(157, 16)
+        Me.rb1_5_2.TabIndex = 14
+        Me.rb1_5_2.TabStop = True
+        Me.rb1_5_2.Text = "2.自分の手で支えればできる"
+        Me.rb1_5_2.UseVisualStyleBackColor = True
+        '
+        'rb1_5_1
+        '
+        Me.rb1_5_1.AutoSize = True
+        Me.rb1_5_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_5_1.Name = "rb1_5_1"
+        Me.rb1_5_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb1_5_1.TabIndex = 13
+        Me.rb1_5_1.TabStop = True
+        Me.rb1_5_1.Text = "1.できる"
+        Me.rb1_5_1.UseVisualStyleBackColor = True
+        '
+        'rb1_4_3
+        '
+        Me.rb1_4_3.AutoSize = True
+        Me.rb1_4_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_4_3.Name = "rb1_4_3"
+        Me.rb1_4_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_4_3.TabIndex = 12
+        Me.rb1_4_3.TabStop = True
+        Me.rb1_4_3.Text = "3.できない"
+        Me.rb1_4_3.UseVisualStyleBackColor = True
+        '
+        'rb1_4_2
+        '
+        Me.rb1_4_2.AutoSize = True
+        Me.rb1_4_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_4_2.Name = "rb1_4_2"
+        Me.rb1_4_2.Size = New System.Drawing.Size(139, 16)
+        Me.rb1_4_2.TabIndex = 11
+        Me.rb1_4_2.TabStop = True
+        Me.rb1_4_2.Text = "2.何かにつかまればできる"
+        Me.rb1_4_2.UseVisualStyleBackColor = True
+        '
+        'rb1_4_1
+        '
+        Me.rb1_4_1.AutoSize = True
+        Me.rb1_4_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_4_1.Name = "rb1_4_1"
+        Me.rb1_4_1.Size = New System.Drawing.Size(125, 16)
+        Me.rb1_4_1.TabIndex = 10
+        Me.rb1_4_1.TabStop = True
+        Me.rb1_4_1.Text = "1.つかまらないでできる"
+        Me.rb1_4_1.UseVisualStyleBackColor = True
+        '
+        'rb1_3_3
+        '
+        Me.rb1_3_3.AutoSize = True
+        Me.rb1_3_3.Location = New System.Drawing.Point(457, 10)
+        Me.rb1_3_3.Name = "rb1_3_3"
+        Me.rb1_3_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb1_3_3.TabIndex = 9
+        Me.rb1_3_3.TabStop = True
+        Me.rb1_3_3.Text = "3.できない"
+        Me.rb1_3_3.UseVisualStyleBackColor = True
+        '
+        'rb1_3_2
+        '
+        Me.rb1_3_2.AutoSize = True
+        Me.rb1_3_2.Location = New System.Drawing.Point(293, 10)
+        Me.rb1_3_2.Name = "rb1_3_2"
+        Me.rb1_3_2.Size = New System.Drawing.Size(139, 16)
+        Me.rb1_3_2.TabIndex = 8
+        Me.rb1_3_2.TabStop = True
+        Me.rb1_3_2.Text = "2.何かにつかまればできる"
+        Me.rb1_3_2.UseVisualStyleBackColor = True
+        '
+        'rb1_3_1
+        '
+        Me.rb1_3_1.AutoSize = True
+        Me.rb1_3_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb1_3_1.Name = "rb1_3_1"
+        Me.rb1_3_1.Size = New System.Drawing.Size(125, 16)
+        Me.rb1_3_1.TabIndex = 7
+        Me.rb1_3_1.TabStop = True
+        Me.rb1_3_1.Text = "1.つかまらないでできる"
+        Me.rb1_3_1.UseVisualStyleBackColor = True
+        '
+        'Ch3_5
+        '
+        Me.Ch3_5.AutoSize = True
+        Me.Ch3_5.Location = New System.Drawing.Point(419, 11)
+        Me.Ch3_5.Name = "Ch3_5"
+        Me.Ch3_5.Size = New System.Drawing.Size(133, 16)
+        Me.Ch3_5.TabIndex = 15
+        Me.Ch3_5.Text = "5.その他（四肢の欠損）"
+        Me.Ch3_5.UseVisualStyleBackColor = True
+        '
+        'Ch3_4
+        '
+        Me.Ch3_4.AutoSize = True
+        Me.Ch3_4.Location = New System.Drawing.Point(346, 11)
+        Me.Ch3_4.Name = "Ch3_4"
+        Me.Ch3_4.Size = New System.Drawing.Size(68, 16)
+        Me.Ch3_4.TabIndex = 14
+        Me.Ch3_4.Text = "4.膝関節"
+        Me.Ch3_4.UseVisualStyleBackColor = True
+        '
+        'Ch3_1
+        '
+        Me.Ch3_1.AutoSize = True
+        Me.Ch3_1.Location = New System.Drawing.Point(142, 11)
+        Me.Ch3_1.Name = "Ch3_1"
+        Me.Ch3_1.Size = New System.Drawing.Size(52, 16)
+        Me.Ch3_1.TabIndex = 11
+        Me.Ch3_1.Text = "1.ない"
+        Me.Ch3_1.UseVisualStyleBackColor = True
+        '
+        'Ch3_3
+        '
+        Me.Ch3_3.AutoSize = True
+        Me.Ch3_3.Location = New System.Drawing.Point(273, 11)
+        Me.Ch3_3.Name = "Ch3_3"
+        Me.Ch3_3.Size = New System.Drawing.Size(68, 16)
+        Me.Ch3_3.TabIndex = 13
+        Me.Ch3_3.Text = "3.股関節"
+        Me.Ch3_3.UseVisualStyleBackColor = True
+        '
+        'Ch3_2
+        '
+        Me.Ch3_2.AutoSize = True
+        Me.Ch3_2.Location = New System.Drawing.Point(200, 11)
+        Me.Ch3_2.Name = "Ch3_2"
+        Me.Ch3_2.Size = New System.Drawing.Size(68, 16)
+        Me.Ch3_2.TabIndex = 12
+        Me.Ch3_2.Text = "2.肩関節"
+        Me.Ch3_2.UseVisualStyleBackColor = True
+        '
+        'Ch2_6
+        '
+        Me.Ch2_6.AutoSize = True
+        Me.Ch2_6.Location = New System.Drawing.Point(493, 11)
+        Me.Ch2_6.Name = "Ch2_6"
+        Me.Ch2_6.Size = New System.Drawing.Size(133, 16)
+        Me.Ch2_6.TabIndex = 10
+        Me.Ch2_6.Text = "6.その他（四肢の欠損）"
+        Me.Ch2_6.UseVisualStyleBackColor = True
+        '
+        'Ch2_5
+        '
+        Me.Ch2_5.AutoSize = True
+        Me.Ch2_5.Location = New System.Drawing.Point(419, 11)
+        Me.Ch2_5.Name = "Ch2_5"
+        Me.Ch2_5.Size = New System.Drawing.Size(68, 16)
+        Me.Ch2_5.TabIndex = 9
+        Me.Ch2_5.Text = "5.右下肢"
+        Me.Ch2_5.UseVisualStyleBackColor = True
+        '
+        'Ch2_4
+        '
+        Me.Ch2_4.AutoSize = True
+        Me.Ch2_4.Location = New System.Drawing.Point(346, 11)
+        Me.Ch2_4.Name = "Ch2_4"
+        Me.Ch2_4.Size = New System.Drawing.Size(68, 16)
+        Me.Ch2_4.TabIndex = 8
+        Me.Ch2_4.Text = "4.左下肢"
+        Me.Ch2_4.UseVisualStyleBackColor = True
+        '
+        'Ch2_3
+        '
+        Me.Ch2_3.AutoSize = True
+        Me.Ch2_3.Location = New System.Drawing.Point(273, 11)
+        Me.Ch2_3.Name = "Ch2_3"
+        Me.Ch2_3.Size = New System.Drawing.Size(68, 16)
+        Me.Ch2_3.TabIndex = 7
+        Me.Ch2_3.Text = "3.右上肢"
+        Me.Ch2_3.UseVisualStyleBackColor = True
+        '
+        'Ch2_2
+        '
+        Me.Ch2_2.AutoSize = True
+        Me.Ch2_2.Location = New System.Drawing.Point(200, 11)
+        Me.Ch2_2.Name = "Ch2_2"
+        Me.Ch2_2.Size = New System.Drawing.Size(68, 16)
+        Me.Ch2_2.TabIndex = 6
+        Me.Ch2_2.Text = "2.左上肢"
+        Me.Ch2_2.UseVisualStyleBackColor = True
+        '
+        'Ch2_1
+        '
+        Me.Ch2_1.AutoSize = True
+        Me.Ch2_1.Location = New System.Drawing.Point(142, 11)
+        Me.Ch2_1.Name = "Ch2_1"
+        Me.Ch2_1.Size = New System.Drawing.Size(52, 16)
+        Me.Ch2_1.TabIndex = 5
+        Me.Ch2_1.Text = "1.ない"
+        Me.Ch2_1.UseVisualStyleBackColor = True
+        '
+        'rb2_12_3
+        '
+        Me.rb2_12_3.AutoSize = True
+        Me.rb2_12_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_12_3.Name = "rb2_12_3"
+        Me.rb2_12_3.Size = New System.Drawing.Size(87, 16)
+        Me.rb2_12_3.TabIndex = 54
+        Me.rb2_12_3.TabStop = True
+        Me.rb2_12_3.Text = "3.月１回未満"
+        Me.rb2_12_3.UseVisualStyleBackColor = True
+        '
+        'rb2_12_2
+        '
+        Me.rb2_12_2.AutoSize = True
+        Me.rb2_12_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_12_2.Name = "rb2_12_2"
+        Me.rb2_12_2.Size = New System.Drawing.Size(87, 16)
+        Me.rb2_12_2.TabIndex = 53
+        Me.rb2_12_2.TabStop = True
+        Me.rb2_12_2.Text = "2.月１回以上"
+        Me.rb2_12_2.UseVisualStyleBackColor = True
+        '
+        'rb2_12_1
+        '
+        Me.rb2_12_1.AutoSize = True
+        Me.rb2_12_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_12_1.Name = "rb2_12_1"
+        Me.rb2_12_1.Size = New System.Drawing.Size(87, 16)
+        Me.rb2_12_1.TabIndex = 52
+        Me.rb2_12_1.TabStop = True
+        Me.rb2_12_1.Text = "1.週１回以上"
+        Me.rb2_12_1.UseVisualStyleBackColor = True
+        '
+        'rb2_10_4
+        '
+        Me.rb2_10_4.AutoSize = True
+        Me.rb2_10_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_10_4.Name = "rb2_10_4"
+        Me.rb2_10_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_10_4.TabIndex = 46
+        Me.rb2_10_4.TabStop = True
+        Me.rb2_10_4.Text = "4.全介助"
+        Me.rb2_10_4.UseVisualStyleBackColor = True
+        '
+        'rb2_10_3
+        '
+        Me.rb2_10_3.AutoSize = True
+        Me.rb2_10_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_10_3.Name = "rb2_10_3"
+        Me.rb2_10_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_10_3.TabIndex = 45
+        Me.rb2_10_3.TabStop = True
+        Me.rb2_10_3.Text = "3.一部介助"
+        Me.rb2_10_3.UseVisualStyleBackColor = True
+        '
+        'rb2_10_2
+        '
+        Me.rb2_10_2.AutoSize = True
+        Me.rb2_10_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_10_2.Name = "rb2_10_2"
+        Me.rb2_10_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_10_2.TabIndex = 44
+        Me.rb2_10_2.TabStop = True
+        Me.rb2_10_2.Text = "2.見守り等"
+        Me.rb2_10_2.UseVisualStyleBackColor = True
+        '
+        'rb2_10_1
+        '
+        Me.rb2_10_1.AutoSize = True
+        Me.rb2_10_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_10_1.Name = "rb2_10_1"
+        Me.rb2_10_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_10_1.TabIndex = 43
+        Me.rb2_10_1.TabStop = True
+        Me.rb2_10_1.Text = "1.自立（介助なし）"
+        Me.rb2_10_1.UseVisualStyleBackColor = True
+        '
+        'rb2_11_4
+        '
+        Me.rb2_11_4.AutoSize = True
+        Me.rb2_11_4.Location = New System.Drawing.Point(484, 9)
+        Me.rb2_11_4.Name = "rb2_11_4"
+        Me.rb2_11_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_11_4.TabIndex = 50
+        Me.rb2_11_4.TabStop = True
+        Me.rb2_11_4.Text = "4.全介助"
+        Me.rb2_11_4.UseVisualStyleBackColor = True
+        '
+        'rb2_11_3
+        '
+        Me.rb2_11_3.AutoSize = True
+        Me.rb2_11_3.Location = New System.Drawing.Point(379, 8)
+        Me.rb2_11_3.Name = "rb2_11_3"
+        Me.rb2_11_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_11_3.TabIndex = 49
+        Me.rb2_11_3.TabStop = True
+        Me.rb2_11_3.Text = "3.一部介助"
+        Me.rb2_11_3.UseVisualStyleBackColor = True
+        '
+        'rb2_11_2
+        '
+        Me.rb2_11_2.AutoSize = True
+        Me.rb2_11_2.Location = New System.Drawing.Point(276, 9)
+        Me.rb2_11_2.Name = "rb2_11_2"
+        Me.rb2_11_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_11_2.TabIndex = 48
+        Me.rb2_11_2.TabStop = True
+        Me.rb2_11_2.Text = "2.見守り等"
+        Me.rb2_11_2.UseVisualStyleBackColor = True
+        '
+        'rb2_11_1
+        '
+        Me.rb2_11_1.AutoSize = True
+        Me.rb2_11_1.Location = New System.Drawing.Point(142, 9)
+        Me.rb2_11_1.Name = "rb2_11_1"
+        Me.rb2_11_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_11_1.TabIndex = 47
+        Me.rb2_11_1.TabStop = True
+        Me.rb2_11_1.Text = "1.自立（介助なし）"
+        Me.rb2_11_1.UseVisualStyleBackColor = True
+        '
+        'rb2_9_3
+        '
+        Me.rb2_9_3.AutoSize = True
+        Me.rb2_9_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_9_3.Name = "rb2_9_3"
+        Me.rb2_9_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_9_3.TabIndex = 51
+        Me.rb2_9_3.TabStop = True
+        Me.rb2_9_3.Text = "3.全介助"
+        Me.rb2_9_3.UseVisualStyleBackColor = True
+        '
+        'rb2_9_2
+        '
+        Me.rb2_9_2.AutoSize = True
+        Me.rb2_9_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_9_2.Name = "rb2_9_2"
+        Me.rb2_9_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_9_2.TabIndex = 50
+        Me.rb2_9_2.TabStop = True
+        Me.rb2_9_2.Text = "2.一部介助"
+        Me.rb2_9_2.UseVisualStyleBackColor = True
+        '
+        'rb2_9_1
+        '
+        Me.rb2_9_1.AutoSize = True
+        Me.rb2_9_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_9_1.Name = "rb2_9_1"
+        Me.rb2_9_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_9_1.TabIndex = 49
+        Me.rb2_9_1.TabStop = True
+        Me.rb2_9_1.Text = "1.自立（介助なし）"
+        Me.rb2_9_1.UseVisualStyleBackColor = True
+        '
+        'rb2_8_3
+        '
+        Me.rb2_8_3.AutoSize = True
+        Me.rb2_8_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_8_3.Name = "rb2_8_3"
+        Me.rb2_8_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_8_3.TabIndex = 48
+        Me.rb2_8_3.TabStop = True
+        Me.rb2_8_3.Text = "3.全介助"
+        Me.rb2_8_3.UseVisualStyleBackColor = True
+        '
+        'rb2_8_2
+        '
+        Me.rb2_8_2.AutoSize = True
+        Me.rb2_8_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_8_2.Name = "rb2_8_2"
+        Me.rb2_8_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_8_2.TabIndex = 47
+        Me.rb2_8_2.TabStop = True
+        Me.rb2_8_2.Text = "2.一部介助"
+        Me.rb2_8_2.UseVisualStyleBackColor = True
+        '
+        'rb2_8_1
+        '
+        Me.rb2_8_1.AutoSize = True
+        Me.rb2_8_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_8_1.Name = "rb2_8_1"
+        Me.rb2_8_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_8_1.TabIndex = 46
+        Me.rb2_8_1.TabStop = True
+        Me.rb2_8_1.Text = "1.自立（介助なし）"
+        Me.rb2_8_1.UseVisualStyleBackColor = True
+        '
+        'rb2_7_3
+        '
+        Me.rb2_7_3.AutoSize = True
+        Me.rb2_7_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_7_3.Name = "rb2_7_3"
+        Me.rb2_7_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_7_3.TabIndex = 45
+        Me.rb2_7_3.TabStop = True
+        Me.rb2_7_3.Text = "3.全介助"
+        Me.rb2_7_3.UseVisualStyleBackColor = True
+        '
+        'rb2_7_2
+        '
+        Me.rb2_7_2.AutoSize = True
+        Me.rb2_7_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_7_2.Name = "rb2_7_2"
+        Me.rb2_7_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_7_2.TabIndex = 44
+        Me.rb2_7_2.TabStop = True
+        Me.rb2_7_2.Text = "2.一部介助"
+        Me.rb2_7_2.UseVisualStyleBackColor = True
+        '
+        'rb2_7_1
+        '
+        Me.rb2_7_1.AutoSize = True
+        Me.rb2_7_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_7_1.Name = "rb2_7_1"
+        Me.rb2_7_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_7_1.TabIndex = 43
+        Me.rb2_7_1.TabStop = True
+        Me.rb2_7_1.Text = "1.自立（介助なし）"
+        Me.rb2_7_1.UseVisualStyleBackColor = True
+        '
+        'rb2_6_4
+        '
+        Me.rb2_6_4.AutoSize = True
+        Me.rb2_6_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_6_4.Name = "rb2_6_4"
+        Me.rb2_6_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_6_4.TabIndex = 42
+        Me.rb2_6_4.TabStop = True
+        Me.rb2_6_4.Text = "4.全介助"
+        Me.rb2_6_4.UseVisualStyleBackColor = True
+        '
+        'rb2_6_3
+        '
+        Me.rb2_6_3.AutoSize = True
+        Me.rb2_6_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_6_3.Name = "rb2_6_3"
+        Me.rb2_6_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_6_3.TabIndex = 41
+        Me.rb2_6_3.TabStop = True
+        Me.rb2_6_3.Text = "3.一部介助"
+        Me.rb2_6_3.UseVisualStyleBackColor = True
+        '
+        'rb2_6_2
+        '
+        Me.rb2_6_2.AutoSize = True
+        Me.rb2_6_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_6_2.Name = "rb2_6_2"
+        Me.rb2_6_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_6_2.TabIndex = 40
+        Me.rb2_6_2.TabStop = True
+        Me.rb2_6_2.Text = "2.見守り等"
+        Me.rb2_6_2.UseVisualStyleBackColor = True
+        '
+        'rb2_6_1
+        '
+        Me.rb2_6_1.AutoSize = True
+        Me.rb2_6_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_6_1.Name = "rb2_6_1"
+        Me.rb2_6_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_6_1.TabIndex = 39
+        Me.rb2_6_1.TabStop = True
+        Me.rb2_6_1.Text = "1.自立（介助なし）"
+        Me.rb2_6_1.UseVisualStyleBackColor = True
+        '
+        'rb2_5_4
+        '
+        Me.rb2_5_4.AutoSize = True
+        Me.rb2_5_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_5_4.Name = "rb2_5_4"
+        Me.rb2_5_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_5_4.TabIndex = 38
+        Me.rb2_5_4.TabStop = True
+        Me.rb2_5_4.Text = "4.全介助"
+        Me.rb2_5_4.UseVisualStyleBackColor = True
+        '
+        'rb2_5_3
+        '
+        Me.rb2_5_3.AutoSize = True
+        Me.rb2_5_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_5_3.Name = "rb2_5_3"
+        Me.rb2_5_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_5_3.TabIndex = 37
+        Me.rb2_5_3.TabStop = True
+        Me.rb2_5_3.Text = "3.一部介助"
+        Me.rb2_5_3.UseVisualStyleBackColor = True
+        '
+        'rb2_5_2
+        '
+        Me.rb2_5_2.AutoSize = True
+        Me.rb2_5_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_5_2.Name = "rb2_5_2"
+        Me.rb2_5_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_5_2.TabIndex = 36
+        Me.rb2_5_2.TabStop = True
+        Me.rb2_5_2.Text = "2.見守り等"
+        Me.rb2_5_2.UseVisualStyleBackColor = True
+        '
+        'rb2_5_1
+        '
+        Me.rb2_5_1.AutoSize = True
+        Me.rb2_5_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_5_1.Name = "rb2_5_1"
+        Me.rb2_5_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_5_1.TabIndex = 35
+        Me.rb2_5_1.TabStop = True
+        Me.rb2_5_1.Text = "1.自立（介助なし）"
+        Me.rb2_5_1.UseVisualStyleBackColor = True
+        '
+        'rb2_4_4
+        '
+        Me.rb2_4_4.AutoSize = True
+        Me.rb2_4_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_4_4.Name = "rb2_4_4"
+        Me.rb2_4_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_4_4.TabIndex = 34
+        Me.rb2_4_4.TabStop = True
+        Me.rb2_4_4.Text = "4.全介助"
+        Me.rb2_4_4.UseVisualStyleBackColor = True
+        '
+        'rb2_4_3
+        '
+        Me.rb2_4_3.AutoSize = True
+        Me.rb2_4_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_4_3.Name = "rb2_4_3"
+        Me.rb2_4_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_4_3.TabIndex = 33
+        Me.rb2_4_3.TabStop = True
+        Me.rb2_4_3.Text = "3.一部介助"
+        Me.rb2_4_3.UseVisualStyleBackColor = True
+        '
+        'rb2_4_2
+        '
+        Me.rb2_4_2.AutoSize = True
+        Me.rb2_4_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_4_2.Name = "rb2_4_2"
+        Me.rb2_4_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_4_2.TabIndex = 32
+        Me.rb2_4_2.TabStop = True
+        Me.rb2_4_2.Text = "2.見守り等"
+        Me.rb2_4_2.UseVisualStyleBackColor = True
+        '
+        'rb2_4_1
+        '
+        Me.rb2_4_1.AutoSize = True
+        Me.rb2_4_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_4_1.Name = "rb2_4_1"
+        Me.rb2_4_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_4_1.TabIndex = 31
+        Me.rb2_4_1.TabStop = True
+        Me.rb2_4_1.Text = "1.自立（介助なし）"
+        Me.rb2_4_1.UseVisualStyleBackColor = True
+        '
+        'rb2_3_3
+        '
+        Me.rb2_3_3.AutoSize = True
+        Me.rb2_3_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_3_3.Name = "rb2_3_3"
+        Me.rb2_3_3.Size = New System.Drawing.Size(70, 16)
+        Me.rb2_3_3.TabIndex = 33
+        Me.rb2_3_3.TabStop = True
+        Me.rb2_3_3.Text = "3.できない"
+        Me.rb2_3_3.UseVisualStyleBackColor = True
+        '
+        'rb2_3_2
+        '
+        Me.rb2_3_2.AutoSize = True
+        Me.rb2_3_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_3_2.Name = "rb2_3_2"
+        Me.rb2_3_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_3_2.TabIndex = 32
+        Me.rb2_3_2.TabStop = True
+        Me.rb2_3_2.Text = "2.見守り等"
+        Me.rb2_3_2.UseVisualStyleBackColor = True
+        '
+        'rb2_3_1
+        '
+        Me.rb2_3_1.AutoSize = True
+        Me.rb2_3_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_3_1.Name = "rb2_3_1"
+        Me.rb2_3_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb2_3_1.TabIndex = 31
+        Me.rb2_3_1.TabStop = True
+        Me.rb2_3_1.Text = "1.できる"
+        Me.rb2_3_1.UseVisualStyleBackColor = True
+        '
+        'rb2_2_4
+        '
+        Me.rb2_2_4.AutoSize = True
+        Me.rb2_2_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_2_4.Name = "rb2_2_4"
+        Me.rb2_2_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_2_4.TabIndex = 30
+        Me.rb2_2_4.TabStop = True
+        Me.rb2_2_4.Text = "4.全介助"
+        Me.rb2_2_4.UseVisualStyleBackColor = True
+        '
+        'rb2_2_3
+        '
+        Me.rb2_2_3.AutoSize = True
+        Me.rb2_2_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_2_3.Name = "rb2_2_3"
+        Me.rb2_2_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_2_3.TabIndex = 29
+        Me.rb2_2_3.TabStop = True
+        Me.rb2_2_3.Text = "3.一部介助"
+        Me.rb2_2_3.UseVisualStyleBackColor = True
+        '
+        'rb2_2_2
+        '
+        Me.rb2_2_2.AutoSize = True
+        Me.rb2_2_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_2_2.Name = "rb2_2_2"
+        Me.rb2_2_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_2_2.TabIndex = 28
+        Me.rb2_2_2.TabStop = True
+        Me.rb2_2_2.Text = "2.見守り等"
+        Me.rb2_2_2.UseVisualStyleBackColor = True
+        '
+        'rb2_2_1
+        '
+        Me.rb2_2_1.AutoSize = True
+        Me.rb2_2_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_2_1.Name = "rb2_2_1"
+        Me.rb2_2_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_2_1.TabIndex = 27
+        Me.rb2_2_1.TabStop = True
+        Me.rb2_2_1.Text = "1.自立（介助なし）"
+        Me.rb2_2_1.UseVisualStyleBackColor = True
+        '
+        'rb2_1_4
+        '
+        Me.rb2_1_4.AutoSize = True
+        Me.rb2_1_4.Location = New System.Drawing.Point(484, 10)
+        Me.rb2_1_4.Name = "rb2_1_4"
+        Me.rb2_1_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb2_1_4.TabIndex = 26
+        Me.rb2_1_4.TabStop = True
+        Me.rb2_1_4.Text = "4.全介助"
+        Me.rb2_1_4.UseVisualStyleBackColor = True
+        '
+        'rb2_1_3
+        '
+        Me.rb2_1_3.AutoSize = True
+        Me.rb2_1_3.Location = New System.Drawing.Point(379, 9)
+        Me.rb2_1_3.Name = "rb2_1_3"
+        Me.rb2_1_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb2_1_3.TabIndex = 25
+        Me.rb2_1_3.TabStop = True
+        Me.rb2_1_3.Text = "3.一部介助"
+        Me.rb2_1_3.UseVisualStyleBackColor = True
+        '
+        'rb2_1_2
+        '
+        Me.rb2_1_2.AutoSize = True
+        Me.rb2_1_2.Location = New System.Drawing.Point(276, 10)
+        Me.rb2_1_2.Name = "rb2_1_2"
+        Me.rb2_1_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb2_1_2.TabIndex = 24
+        Me.rb2_1_2.TabStop = True
+        Me.rb2_1_2.Text = "2.見守り等"
+        Me.rb2_1_2.UseVisualStyleBackColor = True
+        '
+        'rb2_1_1
+        '
+        Me.rb2_1_1.AutoSize = True
+        Me.rb2_1_1.Location = New System.Drawing.Point(142, 10)
+        Me.rb2_1_1.Name = "rb2_1_1"
+        Me.rb2_1_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb2_1_1.TabIndex = 23
+        Me.rb2_1_1.TabStop = True
+        Me.rb2_1_1.Text = "1.自立（介助なし）"
+        Me.rb2_1_1.UseVisualStyleBackColor = True
+        '
+        'rb3_9_3
+        '
+        Me.rb3_9_3.AutoSize = True
+        Me.rb3_9_3.Location = New System.Drawing.Point(468, 10)
+        Me.rb3_9_3.Name = "rb3_9_3"
+        Me.rb3_9_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb3_9_3.TabIndex = 36
+        Me.rb3_9_3.TabStop = True
+        Me.rb3_9_3.Text = "3.ある"
+        Me.rb3_9_3.UseVisualStyleBackColor = True
+        '
+        'rb3_9_2
+        '
+        Me.rb3_9_2.AutoSize = True
+        Me.rb3_9_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_9_2.Name = "rb3_9_2"
+        Me.rb3_9_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb3_9_2.TabIndex = 35
+        Me.rb3_9_2.TabStop = True
+        Me.rb3_9_2.Text = "2.ときどきある"
+        Me.rb3_9_2.UseVisualStyleBackColor = True
+        '
+        'rb3_9_1
+        '
+        Me.rb3_9_1.AutoSize = True
+        Me.rb3_9_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_9_1.Name = "rb3_9_1"
+        Me.rb3_9_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb3_9_1.TabIndex = 34
+        Me.rb3_9_1.TabStop = True
+        Me.rb3_9_1.Text = "1.ない"
+        Me.rb3_9_1.UseVisualStyleBackColor = True
+        '
+        'rb3_5_2
+        '
+        Me.rb3_5_2.AutoSize = True
+        Me.rb3_5_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_5_2.Name = "rb3_5_2"
+        Me.rb3_5_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_5_2.TabIndex = 29
+        Me.rb3_5_2.TabStop = True
+        Me.rb3_5_2.Text = "2.できない"
+        Me.rb3_5_2.UseVisualStyleBackColor = True
+        '
+        'rb3_5_1
+        '
+        Me.rb3_5_1.AutoSize = True
+        Me.rb3_5_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_5_1.Name = "rb3_5_1"
+        Me.rb3_5_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_5_1.TabIndex = 28
+        Me.rb3_5_1.TabStop = True
+        Me.rb3_5_1.Text = "1.できる"
+        Me.rb3_5_1.UseVisualStyleBackColor = True
+        '
+        'rb3_8_3
+        '
+        Me.rb3_8_3.AutoSize = True
+        Me.rb3_8_3.Location = New System.Drawing.Point(468, 10)
+        Me.rb3_8_3.Name = "rb3_8_3"
+        Me.rb3_8_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb3_8_3.TabIndex = 33
+        Me.rb3_8_3.TabStop = True
+        Me.rb3_8_3.Text = "3.ある"
+        Me.rb3_8_3.UseVisualStyleBackColor = True
+        '
+        'rb3_8_2
+        '
+        Me.rb3_8_2.AutoSize = True
+        Me.rb3_8_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_8_2.Name = "rb3_8_2"
+        Me.rb3_8_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb3_8_2.TabIndex = 32
+        Me.rb3_8_2.TabStop = True
+        Me.rb3_8_2.Text = "2.ときどきある"
+        Me.rb3_8_2.UseVisualStyleBackColor = True
+        '
+        'rb3_8_1
+        '
+        Me.rb3_8_1.AutoSize = True
+        Me.rb3_8_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_8_1.Name = "rb3_8_1"
+        Me.rb3_8_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb3_8_1.TabIndex = 31
+        Me.rb3_8_1.TabStop = True
+        Me.rb3_8_1.Text = "1.ない"
+        Me.rb3_8_1.UseVisualStyleBackColor = True
+        '
+        'rb3_4_2
+        '
+        Me.rb3_4_2.AutoSize = True
+        Me.rb3_4_2.Location = New System.Drawing.Point(445, 10)
+        Me.rb3_4_2.Name = "rb3_4_2"
+        Me.rb3_4_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_4_2.TabIndex = 29
+        Me.rb3_4_2.TabStop = True
+        Me.rb3_4_2.Text = "2.できない"
+        Me.rb3_4_2.UseVisualStyleBackColor = True
+        '
+        'rb3_4_1
+        '
+        Me.rb3_4_1.AutoSize = True
+        Me.rb3_4_1.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_4_1.Name = "rb3_4_1"
+        Me.rb3_4_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_4_1.TabIndex = 28
+        Me.rb3_4_1.TabStop = True
+        Me.rb3_4_1.Text = "1.できる"
+        Me.rb3_4_1.UseVisualStyleBackColor = True
+        '
+        'rb3_7_2
+        '
+        Me.rb3_7_2.AutoSize = True
+        Me.rb3_7_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_7_2.Name = "rb3_7_2"
+        Me.rb3_7_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_7_2.TabIndex = 30
+        Me.rb3_7_2.TabStop = True
+        Me.rb3_7_2.Text = "2.できない"
+        Me.rb3_7_2.UseVisualStyleBackColor = True
+        '
+        'rb3_7_1
+        '
+        Me.rb3_7_1.AutoSize = True
+        Me.rb3_7_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_7_1.Name = "rb3_7_1"
+        Me.rb3_7_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_7_1.TabIndex = 29
+        Me.rb3_7_1.TabStop = True
+        Me.rb3_7_1.Text = "1.できる"
+        Me.rb3_7_1.UseVisualStyleBackColor = True
+        '
+        'rb3_3_2
+        '
+        Me.rb3_3_2.AutoSize = True
+        Me.rb3_3_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_3_2.Name = "rb3_3_2"
+        Me.rb3_3_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_3_2.TabIndex = 27
+        Me.rb3_3_2.TabStop = True
+        Me.rb3_3_2.Text = "2.できない"
+        Me.rb3_3_2.UseVisualStyleBackColor = True
+        '
+        'rb3_3_1
+        '
+        Me.rb3_3_1.AutoSize = True
+        Me.rb3_3_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_3_1.Name = "rb3_3_1"
+        Me.rb3_3_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_3_1.TabIndex = 26
+        Me.rb3_3_1.TabStop = True
+        Me.rb3_3_1.Text = "1.できる"
+        Me.rb3_3_1.UseVisualStyleBackColor = True
+        '
+        'rb3_6_2
+        '
+        Me.rb3_6_2.AutoSize = True
+        Me.rb3_6_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_6_2.Name = "rb3_6_2"
+        Me.rb3_6_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_6_2.TabIndex = 29
+        Me.rb3_6_2.TabStop = True
+        Me.rb3_6_2.Text = "2.できない"
+        Me.rb3_6_2.UseVisualStyleBackColor = True
+        '
+        'rb3_6_1
+        '
+        Me.rb3_6_1.AutoSize = True
+        Me.rb3_6_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_6_1.Name = "rb3_6_1"
+        Me.rb3_6_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_6_1.TabIndex = 28
+        Me.rb3_6_1.TabStop = True
+        Me.rb3_6_1.Text = "1.できる"
+        Me.rb3_6_1.UseVisualStyleBackColor = True
+        '
+        'rb3_2_2
+        '
+        Me.rb3_2_2.AutoSize = True
+        Me.rb3_2_2.Location = New System.Drawing.Point(340, 10)
+        Me.rb3_2_2.Name = "rb3_2_2"
+        Me.rb3_2_2.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_2_2.TabIndex = 25
+        Me.rb3_2_2.TabStop = True
+        Me.rb3_2_2.Text = "2.できない"
+        Me.rb3_2_2.UseVisualStyleBackColor = True
+        '
+        'rb3_2_1
+        '
+        Me.rb3_2_1.AutoSize = True
+        Me.rb3_2_1.Location = New System.Drawing.Point(235, 10)
+        Me.rb3_2_1.Name = "rb3_2_1"
+        Me.rb3_2_1.Size = New System.Drawing.Size(59, 16)
+        Me.rb3_2_1.TabIndex = 24
+        Me.rb3_2_1.TabStop = True
+        Me.rb3_2_1.Text = "1.できる"
+        Me.rb3_2_1.UseVisualStyleBackColor = True
+        '
+        'rb3_1_4
+        '
+        Me.rb3_1_4.AutoSize = True
+        Me.rb3_1_4.Location = New System.Drawing.Point(127, 79)
+        Me.rb3_1_4.Name = "rb3_1_4"
+        Me.rb3_1_4.Size = New System.Drawing.Size(70, 16)
+        Me.rb3_1_4.TabIndex = 26
+        Me.rb3_1_4.TabStop = True
+        Me.rb3_1_4.Text = "4.できない"
+        Me.rb3_1_4.UseVisualStyleBackColor = True
+        '
+        'rb3_1_3
+        '
+        Me.rb3_1_3.AutoSize = True
+        Me.rb3_1_3.Location = New System.Drawing.Point(127, 57)
+        Me.rb3_1_3.Name = "rb3_1_3"
+        Me.rb3_1_3.Size = New System.Drawing.Size(131, 16)
+        Me.rb3_1_3.TabIndex = 25
+        Me.rb3_1_3.TabStop = True
+        Me.rb3_1_3.Text = "3.ほとんど伝達できない"
+        Me.rb3_1_3.UseVisualStyleBackColor = True
+        '
+        'rb3_1_2
+        '
+        Me.rb3_1_2.AutoSize = True
+        Me.rb3_1_2.Location = New System.Drawing.Point(127, 35)
+        Me.rb3_1_2.Name = "rb3_1_2"
+        Me.rb3_1_2.Size = New System.Drawing.Size(118, 16)
+        Me.rb3_1_2.TabIndex = 24
+        Me.rb3_1_2.TabStop = True
+        Me.rb3_1_2.Text = "2.ときどき伝達できる"
+        Me.rb3_1_2.UseVisualStyleBackColor = True
+        '
+        'rb3_1_1
+        '
+        Me.rb3_1_1.AutoSize = True
+        Me.rb3_1_1.Location = New System.Drawing.Point(127, 13)
+        Me.rb3_1_1.Name = "rb3_1_1"
+        Me.rb3_1_1.Size = New System.Drawing.Size(219, 16)
+        Me.rb3_1_1.TabIndex = 23
+        Me.rb3_1_1.TabStop = True
+        Me.rb3_1_1.Text = "1.調査対象者が意思を他者に伝達できる"
+        Me.rb3_1_1.UseVisualStyleBackColor = True
+        '
+        'rb4_15_3
+        '
+        Me.rb4_15_3.AutoSize = True
+        Me.rb4_15_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_15_3.Name = "rb4_15_3"
+        Me.rb4_15_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_15_3.TabIndex = 40
+        Me.rb4_15_3.TabStop = True
+        Me.rb4_15_3.Text = "3.ある"
+        Me.rb4_15_3.UseVisualStyleBackColor = True
+        '
+        'rb4_15_2
+        '
+        Me.rb4_15_2.AutoSize = True
+        Me.rb4_15_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_15_2.Name = "rb4_15_2"
+        Me.rb4_15_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_15_2.TabIndex = 39
+        Me.rb4_15_2.TabStop = True
+        Me.rb4_15_2.Text = "2.ときどきある"
+        Me.rb4_15_2.UseVisualStyleBackColor = True
+        '
+        'rb4_15_1
+        '
+        Me.rb4_15_1.AutoSize = True
+        Me.rb4_15_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_15_1.Name = "rb4_15_1"
+        Me.rb4_15_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_15_1.TabIndex = 38
+        Me.rb4_15_1.TabStop = True
+        Me.rb4_15_1.Text = "1.ない"
+        Me.rb4_15_1.UseVisualStyleBackColor = True
+        '
+        'rb4_14_3
+        '
+        Me.rb4_14_3.AutoSize = True
+        Me.rb4_14_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_14_3.Name = "rb4_14_3"
+        Me.rb4_14_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_14_3.TabIndex = 39
+        Me.rb4_14_3.TabStop = True
+        Me.rb4_14_3.Text = "3.ある"
+        Me.rb4_14_3.UseVisualStyleBackColor = True
+        '
+        'rb4_14_2
+        '
+        Me.rb4_14_2.AutoSize = True
+        Me.rb4_14_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_14_2.Name = "rb4_14_2"
+        Me.rb4_14_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_14_2.TabIndex = 38
+        Me.rb4_14_2.TabStop = True
+        Me.rb4_14_2.Text = "2.ときどきある"
+        Me.rb4_14_2.UseVisualStyleBackColor = True
+        '
+        'rb4_14_1
+        '
+        Me.rb4_14_1.AutoSize = True
+        Me.rb4_14_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_14_1.Name = "rb4_14_1"
+        Me.rb4_14_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_14_1.TabIndex = 37
+        Me.rb4_14_1.TabStop = True
+        Me.rb4_14_1.Text = "1.ない"
+        Me.rb4_14_1.UseVisualStyleBackColor = True
+        '
+        'rb4_13_3
+        '
+        Me.rb4_13_3.AutoSize = True
+        Me.rb4_13_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_13_3.Name = "rb4_13_3"
+        Me.rb4_13_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_13_3.TabIndex = 39
+        Me.rb4_13_3.TabStop = True
+        Me.rb4_13_3.Text = "3.ある"
+        Me.rb4_13_3.UseVisualStyleBackColor = True
+        '
+        'rb4_13_2
+        '
+        Me.rb4_13_2.AutoSize = True
+        Me.rb4_13_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_13_2.Name = "rb4_13_2"
+        Me.rb4_13_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_13_2.TabIndex = 38
+        Me.rb4_13_2.TabStop = True
+        Me.rb4_13_2.Text = "2.ときどきある"
+        Me.rb4_13_2.UseVisualStyleBackColor = True
+        '
+        'rb4_13_1
+        '
+        Me.rb4_13_1.AutoSize = True
+        Me.rb4_13_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_13_1.Name = "rb4_13_1"
+        Me.rb4_13_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_13_1.TabIndex = 37
+        Me.rb4_13_1.TabStop = True
+        Me.rb4_13_1.Text = "1.ない"
+        Me.rb4_13_1.UseVisualStyleBackColor = True
+        '
+        'rb4_12_3
+        '
+        Me.rb4_12_3.AutoSize = True
+        Me.rb4_12_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_12_3.Name = "rb4_12_3"
+        Me.rb4_12_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_12_3.TabIndex = 39
+        Me.rb4_12_3.TabStop = True
+        Me.rb4_12_3.Text = "3.ある"
+        Me.rb4_12_3.UseVisualStyleBackColor = True
+        '
+        'rb4_12_2
+        '
+        Me.rb4_12_2.AutoSize = True
+        Me.rb4_12_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_12_2.Name = "rb4_12_2"
+        Me.rb4_12_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_12_2.TabIndex = 38
+        Me.rb4_12_2.TabStop = True
+        Me.rb4_12_2.Text = "2.ときどきある"
+        Me.rb4_12_2.UseVisualStyleBackColor = True
+        '
+        'rb4_12_1
+        '
+        Me.rb4_12_1.AutoSize = True
+        Me.rb4_12_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_12_1.Name = "rb4_12_1"
+        Me.rb4_12_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_12_1.TabIndex = 37
+        Me.rb4_12_1.TabStop = True
+        Me.rb4_12_1.Text = "1.ない"
+        Me.rb4_12_1.UseVisualStyleBackColor = True
+        '
+        'rb4_11_3
+        '
+        Me.rb4_11_3.AutoSize = True
+        Me.rb4_11_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_11_3.Name = "rb4_11_3"
+        Me.rb4_11_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_11_3.TabIndex = 39
+        Me.rb4_11_3.TabStop = True
+        Me.rb4_11_3.Text = "3.ある"
+        Me.rb4_11_3.UseVisualStyleBackColor = True
+        '
+        'rb4_11_2
+        '
+        Me.rb4_11_2.AutoSize = True
+        Me.rb4_11_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_11_2.Name = "rb4_11_2"
+        Me.rb4_11_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_11_2.TabIndex = 38
+        Me.rb4_11_2.TabStop = True
+        Me.rb4_11_2.Text = "2.ときどきある"
+        Me.rb4_11_2.UseVisualStyleBackColor = True
+        '
+        'rb4_11_1
+        '
+        Me.rb4_11_1.AutoSize = True
+        Me.rb4_11_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_11_1.Name = "rb4_11_1"
+        Me.rb4_11_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_11_1.TabIndex = 37
+        Me.rb4_11_1.TabStop = True
+        Me.rb4_11_1.Text = "1.ない"
+        Me.rb4_11_1.UseVisualStyleBackColor = True
+        '
+        'rb4_10_3
+        '
+        Me.rb4_10_3.AutoSize = True
+        Me.rb4_10_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_10_3.Name = "rb4_10_3"
+        Me.rb4_10_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_10_3.TabIndex = 39
+        Me.rb4_10_3.TabStop = True
+        Me.rb4_10_3.Text = "3.ある"
+        Me.rb4_10_3.UseVisualStyleBackColor = True
+        '
+        'rb4_10_2
+        '
+        Me.rb4_10_2.AutoSize = True
+        Me.rb4_10_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_10_2.Name = "rb4_10_2"
+        Me.rb4_10_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_10_2.TabIndex = 38
+        Me.rb4_10_2.TabStop = True
+        Me.rb4_10_2.Text = "2.ときどきある"
+        Me.rb4_10_2.UseVisualStyleBackColor = True
+        '
+        'rb4_10_1
+        '
+        Me.rb4_10_1.AutoSize = True
+        Me.rb4_10_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_10_1.Name = "rb4_10_1"
+        Me.rb4_10_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_10_1.TabIndex = 37
+        Me.rb4_10_1.TabStop = True
+        Me.rb4_10_1.Text = "1.ない"
+        Me.rb4_10_1.UseVisualStyleBackColor = True
+        '
+        'rb4_9_3
+        '
+        Me.rb4_9_3.AutoSize = True
+        Me.rb4_9_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_9_3.Name = "rb4_9_3"
+        Me.rb4_9_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_9_3.TabIndex = 39
+        Me.rb4_9_3.TabStop = True
+        Me.rb4_9_3.Text = "3.ある"
+        Me.rb4_9_3.UseVisualStyleBackColor = True
+        '
+        'rb4_9_2
+        '
+        Me.rb4_9_2.AutoSize = True
+        Me.rb4_9_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_9_2.Name = "rb4_9_2"
+        Me.rb4_9_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_9_2.TabIndex = 38
+        Me.rb4_9_2.TabStop = True
+        Me.rb4_9_2.Text = "2.ときどきある"
+        Me.rb4_9_2.UseVisualStyleBackColor = True
+        '
+        'rb4_9_1
+        '
+        Me.rb4_9_1.AutoSize = True
+        Me.rb4_9_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_9_1.Name = "rb4_9_1"
+        Me.rb4_9_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_9_1.TabIndex = 37
+        Me.rb4_9_1.TabStop = True
+        Me.rb4_9_1.Text = "1.ない"
+        Me.rb4_9_1.UseVisualStyleBackColor = True
+        '
+        'rb4_8_3
+        '
+        Me.rb4_8_3.AutoSize = True
+        Me.rb4_8_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_8_3.Name = "rb4_8_3"
+        Me.rb4_8_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_8_3.TabIndex = 39
+        Me.rb4_8_3.TabStop = True
+        Me.rb4_8_3.Text = "3.ある"
+        Me.rb4_8_3.UseVisualStyleBackColor = True
+        '
+        'rb4_8_2
+        '
+        Me.rb4_8_2.AutoSize = True
+        Me.rb4_8_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_8_2.Name = "rb4_8_2"
+        Me.rb4_8_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_8_2.TabIndex = 38
+        Me.rb4_8_2.TabStop = True
+        Me.rb4_8_2.Text = "2.ときどきある"
+        Me.rb4_8_2.UseVisualStyleBackColor = True
+        '
+        'rb4_8_1
+        '
+        Me.rb4_8_1.AutoSize = True
+        Me.rb4_8_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_8_1.Name = "rb4_8_1"
+        Me.rb4_8_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_8_1.TabIndex = 37
+        Me.rb4_8_1.TabStop = True
+        Me.rb4_8_1.Text = "1.ない"
+        Me.rb4_8_1.UseVisualStyleBackColor = True
+        '
+        'rb4_7_3
+        '
+        Me.rb4_7_3.AutoSize = True
+        Me.rb4_7_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_7_3.Name = "rb4_7_3"
+        Me.rb4_7_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_7_3.TabIndex = 39
+        Me.rb4_7_3.TabStop = True
+        Me.rb4_7_3.Text = "3.ある"
+        Me.rb4_7_3.UseVisualStyleBackColor = True
+        '
+        'rb4_7_2
+        '
+        Me.rb4_7_2.AutoSize = True
+        Me.rb4_7_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_7_2.Name = "rb4_7_2"
+        Me.rb4_7_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_7_2.TabIndex = 38
+        Me.rb4_7_2.TabStop = True
+        Me.rb4_7_2.Text = "2.ときどきある"
+        Me.rb4_7_2.UseVisualStyleBackColor = True
+        '
+        'rb4_7_1
+        '
+        Me.rb4_7_1.AutoSize = True
+        Me.rb4_7_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_7_1.Name = "rb4_7_1"
+        Me.rb4_7_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_7_1.TabIndex = 37
+        Me.rb4_7_1.TabStop = True
+        Me.rb4_7_1.Text = "1.ない"
+        Me.rb4_7_1.UseVisualStyleBackColor = True
+        '
+        'rb4_6_3
+        '
+        Me.rb4_6_3.AutoSize = True
+        Me.rb4_6_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_6_3.Name = "rb4_6_3"
+        Me.rb4_6_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_6_3.TabIndex = 39
+        Me.rb4_6_3.TabStop = True
+        Me.rb4_6_3.Text = "3.ある"
+        Me.rb4_6_3.UseVisualStyleBackColor = True
+        '
+        'rb4_6_2
+        '
+        Me.rb4_6_2.AutoSize = True
+        Me.rb4_6_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_6_2.Name = "rb4_6_2"
+        Me.rb4_6_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_6_2.TabIndex = 38
+        Me.rb4_6_2.TabStop = True
+        Me.rb4_6_2.Text = "2.ときどきある"
+        Me.rb4_6_2.UseVisualStyleBackColor = True
+        '
+        'rb4_6_1
+        '
+        Me.rb4_6_1.AutoSize = True
+        Me.rb4_6_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_6_1.Name = "rb4_6_1"
+        Me.rb4_6_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_6_1.TabIndex = 37
+        Me.rb4_6_1.TabStop = True
+        Me.rb4_6_1.Text = "1.ない"
+        Me.rb4_6_1.UseVisualStyleBackColor = True
+        '
+        'rb4_5_3
+        '
+        Me.rb4_5_3.AutoSize = True
+        Me.rb4_5_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_5_3.Name = "rb4_5_3"
+        Me.rb4_5_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_5_3.TabIndex = 39
+        Me.rb4_5_3.TabStop = True
+        Me.rb4_5_3.Text = "3.ある"
+        Me.rb4_5_3.UseVisualStyleBackColor = True
+        '
+        'rb4_5_2
+        '
+        Me.rb4_5_2.AutoSize = True
+        Me.rb4_5_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_5_2.Name = "rb4_5_2"
+        Me.rb4_5_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_5_2.TabIndex = 38
+        Me.rb4_5_2.TabStop = True
+        Me.rb4_5_2.Text = "2.ときどきある"
+        Me.rb4_5_2.UseVisualStyleBackColor = True
+        '
+        'rb4_5_1
+        '
+        Me.rb4_5_1.AutoSize = True
+        Me.rb4_5_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_5_1.Name = "rb4_5_1"
+        Me.rb4_5_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_5_1.TabIndex = 37
+        Me.rb4_5_1.TabStop = True
+        Me.rb4_5_1.Text = "1.ない"
+        Me.rb4_5_1.UseVisualStyleBackColor = True
+        '
+        'rb4_4_3
+        '
+        Me.rb4_4_3.AutoSize = True
+        Me.rb4_4_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_4_3.Name = "rb4_4_3"
+        Me.rb4_4_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_4_3.TabIndex = 39
+        Me.rb4_4_3.TabStop = True
+        Me.rb4_4_3.Text = "3.ある"
+        Me.rb4_4_3.UseVisualStyleBackColor = True
+        '
+        'rb4_4_2
+        '
+        Me.rb4_4_2.AutoSize = True
+        Me.rb4_4_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_4_2.Name = "rb4_4_2"
+        Me.rb4_4_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_4_2.TabIndex = 38
+        Me.rb4_4_2.TabStop = True
+        Me.rb4_4_2.Text = "2.ときどきある"
+        Me.rb4_4_2.UseVisualStyleBackColor = True
+        '
+        'rb4_4_1
+        '
+        Me.rb4_4_1.AutoSize = True
+        Me.rb4_4_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_4_1.Name = "rb4_4_1"
+        Me.rb4_4_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_4_1.TabIndex = 37
+        Me.rb4_4_1.TabStop = True
+        Me.rb4_4_1.Text = "1.ない"
+        Me.rb4_4_1.UseVisualStyleBackColor = True
+        '
+        'rb4_3_3
+        '
+        Me.rb4_3_3.AutoSize = True
+        Me.rb4_3_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_3_3.Name = "rb4_3_3"
+        Me.rb4_3_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_3_3.TabIndex = 39
+        Me.rb4_3_3.TabStop = True
+        Me.rb4_3_3.Text = "3.ある"
+        Me.rb4_3_3.UseVisualStyleBackColor = True
+        '
+        'rb4_3_2
+        '
+        Me.rb4_3_2.AutoSize = True
+        Me.rb4_3_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_3_2.Name = "rb4_3_2"
+        Me.rb4_3_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_3_2.TabIndex = 38
+        Me.rb4_3_2.TabStop = True
+        Me.rb4_3_2.Text = "2.ときどきある"
+        Me.rb4_3_2.UseVisualStyleBackColor = True
+        '
+        'rb4_3_1
+        '
+        Me.rb4_3_1.AutoSize = True
+        Me.rb4_3_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_3_1.Name = "rb4_3_1"
+        Me.rb4_3_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_3_1.TabIndex = 37
+        Me.rb4_3_1.TabStop = True
+        Me.rb4_3_1.Text = "1.ない"
+        Me.rb4_3_1.UseVisualStyleBackColor = True
+        '
+        'rb4_2_3
+        '
+        Me.rb4_2_3.AutoSize = True
+        Me.rb4_2_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_2_3.Name = "rb4_2_3"
+        Me.rb4_2_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_2_3.TabIndex = 39
+        Me.rb4_2_3.TabStop = True
+        Me.rb4_2_3.Text = "3.ある"
+        Me.rb4_2_3.UseVisualStyleBackColor = True
+        '
+        'rb4_2_2
+        '
+        Me.rb4_2_2.AutoSize = True
+        Me.rb4_2_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_2_2.Name = "rb4_2_2"
+        Me.rb4_2_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_2_2.TabIndex = 38
+        Me.rb4_2_2.TabStop = True
+        Me.rb4_2_2.Text = "2.ときどきある"
+        Me.rb4_2_2.UseVisualStyleBackColor = True
+        '
+        'rb4_2_1
+        '
+        Me.rb4_2_1.AutoSize = True
+        Me.rb4_2_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_2_1.Name = "rb4_2_1"
+        Me.rb4_2_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_2_1.TabIndex = 37
+        Me.rb4_2_1.TabStop = True
+        Me.rb4_2_1.Text = "1.ない"
+        Me.rb4_2_1.UseVisualStyleBackColor = True
+        '
+        'rb4_1_3
+        '
+        Me.rb4_1_3.AutoSize = True
+        Me.rb4_1_3.Location = New System.Drawing.Point(492, 10)
+        Me.rb4_1_3.Name = "rb4_1_3"
+        Me.rb4_1_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb4_1_3.TabIndex = 36
+        Me.rb4_1_3.TabStop = True
+        Me.rb4_1_3.Text = "3.ある"
+        Me.rb4_1_3.UseVisualStyleBackColor = True
+        '
+        'rb4_1_2
+        '
+        Me.rb4_1_2.AutoSize = True
+        Me.rb4_1_2.Location = New System.Drawing.Point(364, 10)
+        Me.rb4_1_2.Name = "rb4_1_2"
+        Me.rb4_1_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb4_1_2.TabIndex = 35
+        Me.rb4_1_2.TabStop = True
+        Me.rb4_1_2.Text = "2.ときどきある"
+        Me.rb4_1_2.UseVisualStyleBackColor = True
+        '
+        'rb4_1_1
+        '
+        Me.rb4_1_1.AutoSize = True
+        Me.rb4_1_1.Location = New System.Drawing.Point(259, 10)
+        Me.rb4_1_1.Name = "rb4_1_1"
+        Me.rb4_1_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb4_1_1.TabIndex = 34
+        Me.rb4_1_1.TabStop = True
+        Me.rb4_1_1.Text = "1.ない"
+        Me.rb4_1_1.UseVisualStyleBackColor = True
+        '
+        'rb5_4_3
+        '
+        Me.rb5_4_3.AutoSize = True
+        Me.rb5_4_3.Location = New System.Drawing.Point(345, 10)
+        Me.rb5_4_3.Name = "rb5_4_3"
+        Me.rb5_4_3.Size = New System.Drawing.Size(50, 16)
+        Me.rb5_4_3.TabIndex = 51
+        Me.rb5_4_3.TabStop = True
+        Me.rb5_4_3.Text = "3.ある"
+        Me.rb5_4_3.UseVisualStyleBackColor = True
+        '
+        'rb5_4_2
+        '
+        Me.rb5_4_2.AutoSize = True
+        Me.rb5_4_2.Location = New System.Drawing.Point(222, 10)
+        Me.rb5_4_2.Name = "rb5_4_2"
+        Me.rb5_4_2.Size = New System.Drawing.Size(85, 16)
+        Me.rb5_4_2.TabIndex = 50
+        Me.rb5_4_2.TabStop = True
+        Me.rb5_4_2.Text = "2.ときどきある"
+        Me.rb5_4_2.UseVisualStyleBackColor = True
+        '
+        'rb5_4_1
+        '
+        Me.rb5_4_1.AutoSize = True
+        Me.rb5_4_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_4_1.Name = "rb5_4_1"
+        Me.rb5_4_1.Size = New System.Drawing.Size(51, 16)
+        Me.rb5_4_1.TabIndex = 49
+        Me.rb5_4_1.TabStop = True
+        Me.rb5_4_1.Text = "1.ない"
+        Me.rb5_4_1.UseVisualStyleBackColor = True
+        '
+        'rb5_3_4
+        '
+        Me.rb5_3_4.AutoSize = True
+        Me.rb5_3_4.Location = New System.Drawing.Point(619, 10)
+        Me.rb5_3_4.Name = "rb5_3_4"
+        Me.rb5_3_4.Size = New System.Drawing.Size(70, 16)
+        Me.rb5_3_4.TabIndex = 49
+        Me.rb5_3_4.TabStop = True
+        Me.rb5_3_4.Text = "4.できない"
+        Me.rb5_3_4.UseVisualStyleBackColor = True
+        '
+        'rb5_3_3
+        '
+        Me.rb5_3_3.AutoSize = True
+        Me.rb5_3_3.Location = New System.Drawing.Point(501, 10)
+        Me.rb5_3_3.Name = "rb5_3_3"
+        Me.rb5_3_3.Size = New System.Drawing.Size(100, 16)
+        Me.rb5_3_3.TabIndex = 48
+        Me.rb5_3_3.TabStop = True
+        Me.rb5_3_3.Text = "3.日常的に困難"
+        Me.rb5_3_3.UseVisualStyleBackColor = True
+        '
+        'rb5_3_2
+        '
+        Me.rb5_3_2.AutoSize = True
+        Me.rb5_3_2.Location = New System.Drawing.Point(327, 10)
+        Me.rb5_3_2.Name = "rb5_3_2"
+        Me.rb5_3_2.Size = New System.Drawing.Size(157, 16)
+        Me.rb5_3_2.TabIndex = 47
+        Me.rb5_3_2.TabStop = True
+        Me.rb5_3_2.Text = "2.特別な場合を除いてできる"
+        Me.rb5_3_2.UseVisualStyleBackColor = True
+        '
+        'rb5_3_1
+        '
+        Me.rb5_3_1.AutoSize = True
+        Me.rb5_3_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_3_1.Name = "rb5_3_1"
+        Me.rb5_3_1.Size = New System.Drawing.Size(176, 16)
+        Me.rb5_3_1.TabIndex = 46
+        Me.rb5_3_1.TabStop = True
+        Me.rb5_3_1.Text = "1.できる（特別な場合でもできる）"
+        Me.rb5_3_1.UseVisualStyleBackColor = True
+        '
+        'rb5_6_4
+        '
+        Me.rb5_6_4.AutoSize = True
+        Me.rb5_6_4.Location = New System.Drawing.Point(476, 10)
+        Me.rb5_6_4.Name = "rb5_6_4"
+        Me.rb5_6_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb5_6_4.TabIndex = 51
+        Me.rb5_6_4.TabStop = True
+        Me.rb5_6_4.Text = "4.全介助"
+        Me.rb5_6_4.UseVisualStyleBackColor = True
+        '
+        'rb5_6_3
+        '
+        Me.rb5_6_3.AutoSize = True
+        Me.rb5_6_3.Location = New System.Drawing.Point(371, 9)
+        Me.rb5_6_3.Name = "rb5_6_3"
+        Me.rb5_6_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb5_6_3.TabIndex = 50
+        Me.rb5_6_3.TabStop = True
+        Me.rb5_6_3.Text = "3.一部介助"
+        Me.rb5_6_3.UseVisualStyleBackColor = True
+        '
+        'rb5_6_2
+        '
+        Me.rb5_6_2.AutoSize = True
+        Me.rb5_6_2.Location = New System.Drawing.Point(268, 10)
+        Me.rb5_6_2.Name = "rb5_6_2"
+        Me.rb5_6_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb5_6_2.TabIndex = 49
+        Me.rb5_6_2.TabStop = True
+        Me.rb5_6_2.Text = "2.見守り等"
+        Me.rb5_6_2.UseVisualStyleBackColor = True
+        '
+        'rb5_6_1
+        '
+        Me.rb5_6_1.AutoSize = True
+        Me.rb5_6_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_6_1.Name = "rb5_6_1"
+        Me.rb5_6_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb5_6_1.TabIndex = 48
+        Me.rb5_6_1.TabStop = True
+        Me.rb5_6_1.Text = "1.自立（介助なし）"
+        Me.rb5_6_1.UseVisualStyleBackColor = True
+        '
+        'rb5_2_3
+        '
+        Me.rb5_2_3.AutoSize = True
+        Me.rb5_2_3.Location = New System.Drawing.Point(411, 10)
+        Me.rb5_2_3.Name = "rb5_2_3"
+        Me.rb5_2_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb5_2_3.TabIndex = 48
+        Me.rb5_2_3.TabStop = True
+        Me.rb5_2_3.Text = "3.全介助"
+        Me.rb5_2_3.UseVisualStyleBackColor = True
+        '
+        'rb5_2_2
+        '
+        Me.rb5_2_2.AutoSize = True
+        Me.rb5_2_2.Location = New System.Drawing.Point(285, 10)
+        Me.rb5_2_2.Name = "rb5_2_2"
+        Me.rb5_2_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb5_2_2.TabIndex = 47
+        Me.rb5_2_2.TabStop = True
+        Me.rb5_2_2.Text = "2.一部介助"
+        Me.rb5_2_2.UseVisualStyleBackColor = True
+        '
+        'rb5_2_1
+        '
+        Me.rb5_2_1.AutoSize = True
+        Me.rb5_2_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_2_1.Name = "rb5_2_1"
+        Me.rb5_2_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb5_2_1.TabIndex = 46
+        Me.rb5_2_1.TabStop = True
+        Me.rb5_2_1.Text = "1.自立（介助なし）"
+        Me.rb5_2_1.UseVisualStyleBackColor = True
+        '
+        'rb5_5_4
+        '
+        Me.rb5_5_4.AutoSize = True
+        Me.rb5_5_4.Location = New System.Drawing.Point(476, 10)
+        Me.rb5_5_4.Name = "rb5_5_4"
+        Me.rb5_5_4.Size = New System.Drawing.Size(67, 16)
+        Me.rb5_5_4.TabIndex = 50
+        Me.rb5_5_4.TabStop = True
+        Me.rb5_5_4.Text = "4.全介助"
+        Me.rb5_5_4.UseVisualStyleBackColor = True
+        '
+        'rb5_5_3
+        '
+        Me.rb5_5_3.AutoSize = True
+        Me.rb5_5_3.Location = New System.Drawing.Point(371, 9)
+        Me.rb5_5_3.Name = "rb5_5_3"
+        Me.rb5_5_3.Size = New System.Drawing.Size(79, 16)
+        Me.rb5_5_3.TabIndex = 49
+        Me.rb5_5_3.TabStop = True
+        Me.rb5_5_3.Text = "3.一部介助"
+        Me.rb5_5_3.UseVisualStyleBackColor = True
+        '
+        'rb5_5_2
+        '
+        Me.rb5_5_2.AutoSize = True
+        Me.rb5_5_2.Location = New System.Drawing.Point(268, 10)
+        Me.rb5_5_2.Name = "rb5_5_2"
+        Me.rb5_5_2.Size = New System.Drawing.Size(75, 16)
+        Me.rb5_5_2.TabIndex = 48
+        Me.rb5_5_2.TabStop = True
+        Me.rb5_5_2.Text = "2.見守り等"
+        Me.rb5_5_2.UseVisualStyleBackColor = True
+        '
+        'rb5_5_1
+        '
+        Me.rb5_5_1.AutoSize = True
+        Me.rb5_5_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_5_1.Name = "rb5_5_1"
+        Me.rb5_5_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb5_5_1.TabIndex = 47
+        Me.rb5_5_1.TabStop = True
+        Me.rb5_5_1.Text = "1.自立（介助なし）"
+        Me.rb5_5_1.UseVisualStyleBackColor = True
+        '
+        'rb5_1_3
+        '
+        Me.rb5_1_3.AutoSize = True
+        Me.rb5_1_3.Location = New System.Drawing.Point(411, 10)
+        Me.rb5_1_3.Name = "rb5_1_3"
+        Me.rb5_1_3.Size = New System.Drawing.Size(67, 16)
+        Me.rb5_1_3.TabIndex = 45
+        Me.rb5_1_3.TabStop = True
+        Me.rb5_1_3.Text = "3.全介助"
+        Me.rb5_1_3.UseVisualStyleBackColor = True
+        '
+        'rb5_1_2
+        '
+        Me.rb5_1_2.AutoSize = True
+        Me.rb5_1_2.Location = New System.Drawing.Point(285, 10)
+        Me.rb5_1_2.Name = "rb5_1_2"
+        Me.rb5_1_2.Size = New System.Drawing.Size(79, 16)
+        Me.rb5_1_2.TabIndex = 44
+        Me.rb5_1_2.TabStop = True
+        Me.rb5_1_2.Text = "2.一部介助"
+        Me.rb5_1_2.UseVisualStyleBackColor = True
+        '
+        'rb5_1_1
+        '
+        Me.rb5_1_1.AutoSize = True
+        Me.rb5_1_1.Location = New System.Drawing.Point(134, 10)
+        Me.rb5_1_1.Name = "rb5_1_1"
+        Me.rb5_1_1.Size = New System.Drawing.Size(110, 16)
+        Me.rb5_1_1.TabIndex = 43
+        Me.rb5_1_1.TabStop = True
+        Me.rb5_1_1.Text = "1.自立（介助なし）"
+        Me.rb5_1_1.UseVisualStyleBackColor = True
+        '
+        'Ch4_12
+        '
+        Me.Ch4_12.AutoSize = True
+        Me.Ch4_12.Location = New System.Drawing.Point(20, 63)
+        Me.Ch4_12.Name = "Ch4_12"
+        Me.Ch4_12.Size = New System.Drawing.Size(343, 16)
+        Me.Ch4_12.TabIndex = 75
+        Me.Ch4_12.Text = "12.カテーテル（コンドームカテーテル、留置カテーテル、ウロストーマ等）"
+        Me.Ch4_12.UseVisualStyleBackColor = True
+        '
+        'Ch4_11
+        '
+        Me.Ch4_11.AutoSize = True
+        Me.Ch4_11.Location = New System.Drawing.Point(293, 21)
+        Me.Ch4_11.Name = "Ch4_11"
+        Me.Ch4_11.Size = New System.Drawing.Size(110, 16)
+        Me.Ch4_11.TabIndex = 74
+        Me.Ch4_11.Text = "11.じょくそうの処置"
+        Me.Ch4_11.UseVisualStyleBackColor = True
+        '
+        'Ch4_10
+        '
+        Me.Ch4_10.AutoSize = True
+        Me.Ch4_10.Location = New System.Drawing.Point(20, 21)
+        Me.Ch4_10.Name = "Ch4_10"
+        Me.Ch4_10.Size = New System.Drawing.Size(246, 16)
+        Me.Ch4_10.TabIndex = 73
+        Me.Ch4_10.Text = "10.モニター測定（血圧、心拍、酸素飽和度等）"
+        Me.Ch4_10.UseVisualStyleBackColor = True
+        '
+        'Ch4_9
+        '
+        Me.Ch4_9.AutoSize = True
+        Me.Ch4_9.Location = New System.Drawing.Point(134, 103)
+        Me.Ch4_9.Name = "Ch4_9"
+        Me.Ch4_9.Size = New System.Drawing.Size(80, 16)
+        Me.Ch4_9.TabIndex = 72
+        Me.Ch4_9.Text = "9.経管栄養"
+        Me.Ch4_9.UseVisualStyleBackColor = True
+        '
+        'Ch4_8
+        '
+        Me.Ch4_8.AutoSize = True
+        Me.Ch4_8.Location = New System.Drawing.Point(20, 103)
+        Me.Ch4_8.Name = "Ch4_8"
+        Me.Ch4_8.Size = New System.Drawing.Size(90, 16)
+        Me.Ch4_8.TabIndex = 71
+        Me.Ch4_8.Text = "8.疼痛の看護"
+        Me.Ch4_8.UseVisualStyleBackColor = True
+        '
+        'Ch4_7
+        '
+        Me.Ch4_7.AutoSize = True
+        Me.Ch4_7.Location = New System.Drawing.Point(338, 61)
+        Me.Ch4_7.Name = "Ch4_7"
+        Me.Ch4_7.Size = New System.Drawing.Size(114, 16)
+        Me.Ch4_7.TabIndex = 70
+        Me.Ch4_7.Text = "7.気管切開の処置"
+        Me.Ch4_7.UseVisualStyleBackColor = True
+        '
+        'Ch4_6
+        '
+        Me.Ch4_6.AutoSize = True
+        Me.Ch4_6.Location = New System.Drawing.Point(134, 61)
+        Me.Ch4_6.Name = "Ch4_6"
+        Me.Ch4_6.Size = New System.Drawing.Size(168, 16)
+        Me.Ch4_6.TabIndex = 69
+        Me.Ch4_6.Text = "6.レスピレーター（人工呼吸器）"
+        Me.Ch4_6.UseVisualStyleBackColor = True
+        '
+        'Ch4_5
+        '
+        Me.Ch4_5.AutoSize = True
+        Me.Ch4_5.Location = New System.Drawing.Point(20, 61)
+        Me.Ch4_5.Name = "Ch4_5"
+        Me.Ch4_5.Size = New System.Drawing.Size(80, 16)
+        Me.Ch4_5.TabIndex = 68
+        Me.Ch4_5.Text = "5.酸素療法"
+        Me.Ch4_5.UseVisualStyleBackColor = True
+        '
+        'Ch4_4
+        '
+        Me.Ch4_4.AutoSize = True
+        Me.Ch4_4.Location = New System.Drawing.Point(338, 19)
+        Me.Ch4_4.Name = "Ch4_4"
+        Me.Ch4_4.Size = New System.Drawing.Size(162, 16)
+        Me.Ch4_4.TabIndex = 67
+        Me.Ch4_4.Text = "4.ストーマ（人工肛門）の処置"
+        Me.Ch4_4.UseVisualStyleBackColor = True
+        '
+        'Ch4_3
+        '
+        Me.Ch4_3.AutoSize = True
+        Me.Ch4_3.Location = New System.Drawing.Point(261, 19)
+        Me.Ch4_3.Name = "Ch4_3"
+        Me.Ch4_3.Size = New System.Drawing.Size(56, 16)
+        Me.Ch4_3.TabIndex = 66
+        Me.Ch4_3.Text = "3.透析"
+        Me.Ch4_3.UseVisualStyleBackColor = True
+        '
+        'Ch4_2
+        '
+        Me.Ch4_2.AutoSize = True
+        Me.Ch4_2.Location = New System.Drawing.Point(134, 19)
+        Me.Ch4_2.Name = "Ch4_2"
+        Me.Ch4_2.Size = New System.Drawing.Size(104, 16)
+        Me.Ch4_2.TabIndex = 65
+        Me.Ch4_2.Text = "2.中心静脈栄養"
+        Me.Ch4_2.UseVisualStyleBackColor = True
+        '
+        'Ch4_1
+        '
+        Me.Ch4_1.AutoSize = True
+        Me.Ch4_1.Location = New System.Drawing.Point(20, 19)
+        Me.Ch4_1.Name = "Ch4_1"
+        Me.Ch4_1.Size = New System.Drawing.Size(90, 16)
+        Me.Ch4_1.TabIndex = 64
+        Me.Ch4_1.Text = "1.点滴の管理"
+        Me.Ch4_1.UseVisualStyleBackColor = True
         '
         'rb7_2_8
         '
@@ -7611,34 +7665,6 @@ Partial Class 認定調査票
         Me.rb7_2_1.TabStop = True
         Me.rb7_2_1.Text = "自立"
         Me.rb7_2_1.UseVisualStyleBackColor = True
-        '
-        'Label207
-        '
-        Me.Label207.AutoSize = True
-        Me.Label207.ForeColor = System.Drawing.Color.Blue
-        Me.Label207.Location = New System.Drawing.Point(6, 12)
-        Me.Label207.Name = "Label207"
-        Me.Label207.Size = New System.Drawing.Size(171, 12)
-        Me.Label207.TabIndex = 63
-        Me.Label207.Text = "認知症高齢者の日常生活自立度"
-        '
-        'GroupBox56
-        '
-        Me.GroupBox56.Controls.Add(Me.rb7_1_9)
-        Me.GroupBox56.Controls.Add(Me.rb7_1_8)
-        Me.GroupBox56.Controls.Add(Me.rb7_1_7)
-        Me.GroupBox56.Controls.Add(Me.rb7_1_6)
-        Me.GroupBox56.Controls.Add(Me.rb7_1_5)
-        Me.GroupBox56.Controls.Add(Me.rb7_1_4)
-        Me.GroupBox56.Controls.Add(Me.rb7_1_3)
-        Me.GroupBox56.Controls.Add(Me.rb7_1_2)
-        Me.GroupBox56.Controls.Add(Me.rb7_1_1)
-        Me.GroupBox56.Controls.Add(Me.Label209)
-        Me.GroupBox56.Location = New System.Drawing.Point(47, 74)
-        Me.GroupBox56.Name = "GroupBox56"
-        Me.GroupBox56.Size = New System.Drawing.Size(732, 31)
-        Me.GroupBox56.TabIndex = 64
-        Me.GroupBox56.TabStop = False
         '
         'rb7_1_9
         '
@@ -7739,37 +7765,33 @@ Partial Class 認定調査票
         Me.rb7_1_1.Text = "自立"
         Me.rb7_1_1.UseVisualStyleBackColor = True
         '
-        'Label209
+        'GroupBox58
         '
-        Me.Label209.AutoSize = True
-        Me.Label209.ForeColor = System.Drawing.Color.Blue
-        Me.Label209.Location = New System.Drawing.Point(6, 12)
-        Me.Label209.Name = "Label209"
-        Me.Label209.Size = New System.Drawing.Size(221, 12)
-        Me.Label209.TabIndex = 61
-        Me.Label209.Text = "障害高齢者の日常生活自立度（寝たきり度）"
+        Me.GroupBox58.Controls.Add(Me.Ch4_4)
+        Me.GroupBox58.Controls.Add(Me.Ch4_1)
+        Me.GroupBox58.Controls.Add(Me.Ch4_2)
+        Me.GroupBox58.Controls.Add(Me.Ch4_3)
+        Me.GroupBox58.Controls.Add(Me.Ch4_9)
+        Me.GroupBox58.Controls.Add(Me.Ch4_5)
+        Me.GroupBox58.Controls.Add(Me.Ch4_8)
+        Me.GroupBox58.Controls.Add(Me.Ch4_6)
+        Me.GroupBox58.Controls.Add(Me.Ch4_7)
+        Me.GroupBox58.Location = New System.Drawing.Point(217, 57)
+        Me.GroupBox58.Name = "GroupBox58"
+        Me.GroupBox58.Size = New System.Drawing.Size(525, 133)
+        Me.GroupBox58.TabIndex = 76
+        Me.GroupBox58.TabStop = False
         '
-        'Label210
+        'GroupBox59
         '
-        Me.Label210.AutoSize = True
-        Me.Label210.ForeColor = System.Drawing.Color.Blue
-        Me.Label210.Location = New System.Drawing.Point(45, 41)
-        Me.Label210.Name = "Label210"
-        Me.Label210.Size = New System.Drawing.Size(99, 12)
-        Me.Label210.TabIndex = 60
-        Me.Label210.Text = "7 日常生活自立度"
-        '
-        'ListingDataGridViewTextBoxColumn
-        '
-        Me.ListingDataGridViewTextBoxColumn.DataPropertyName = "Listing"
-        Me.ListingDataGridViewTextBoxColumn.HeaderText = "Listing"
-        Me.ListingDataGridViewTextBoxColumn.Name = "ListingDataGridViewTextBoxColumn"
-        '
-        'ContentDataGridViewTextBoxColumn
-        '
-        Me.ContentDataGridViewTextBoxColumn.DataPropertyName = "Content"
-        Me.ContentDataGridViewTextBoxColumn.HeaderText = "Content"
-        Me.ContentDataGridViewTextBoxColumn.Name = "ContentDataGridViewTextBoxColumn"
+        Me.GroupBox59.Controls.Add(Me.Ch4_11)
+        Me.GroupBox59.Controls.Add(Me.Ch4_10)
+        Me.GroupBox59.Controls.Add(Me.Ch4_12)
+        Me.GroupBox59.Location = New System.Drawing.Point(217, 217)
+        Me.GroupBox59.Name = "GroupBox59"
+        Me.GroupBox59.Size = New System.Drawing.Size(525, 100)
+        Me.GroupBox59.TabIndex = 77
+        Me.GroupBox59.TabStop = False
         '
         '認定調査票
         '
@@ -7814,30 +7836,22 @@ Partial Class 認定調査票
         Me.Panel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).EndInit()
         Me.specialNotePage.ResumeLayout(False)
         Me.spTab.ResumeLayout(False)
         Me.spTabP1.ResumeLayout(False)
         Me.spTabP1.PerformLayout()
-        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP2.ResumeLayout(False)
         Me.spTabP2.PerformLayout()
-        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP3.ResumeLayout(False)
         Me.spTabP3.PerformLayout()
-        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP4.ResumeLayout(False)
         Me.spTabP4.PerformLayout()
-        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP5.ResumeLayout(False)
         Me.spTabP5.PerformLayout()
-        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP6.ResumeLayout(False)
         Me.spTabP6.PerformLayout()
-        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.spTabP7.ResumeLayout(False)
         Me.spTabP7.PerformLayout()
-        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.basicSurveyPage.ResumeLayout(False)
         Me.bsTab.ResumeLayout(False)
         Me.bsTabP1.ResumeLayout(False)
@@ -7964,6 +7978,18 @@ Partial Class 認定調査票
         Me.GroupBox57.PerformLayout()
         Me.GroupBox56.ResumeLayout(False)
         Me.GroupBox56.PerformLayout()
+        CType(Me.dgvNumInput, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox58.ResumeLayout(False)
+        Me.GroupBox58.PerformLayout()
+        Me.GroupBox59.ResumeLayout(False)
+        Me.GroupBox59.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -8610,4 +8636,6 @@ Partial Class 認定調査票
     Friend WithEvents spText3 As Symphony_KSave2.ExTextBox
     Friend WithEvents spText2 As Symphony_KSave2.ExTextBox
     Friend WithEvents spText1 As Symphony_KSave2.ExTextBox
+    Friend WithEvents GroupBox59 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox58 As System.Windows.Forms.GroupBox
 End Class
