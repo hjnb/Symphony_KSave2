@@ -387,6 +387,8 @@ Partial Class 認定調査票
         Me.GroupBox55 = New System.Windows.Forms.GroupBox()
         Me.Label203 = New System.Windows.Forms.Label()
         Me.bsTabP6 = New System.Windows.Forms.TabPage()
+        Me.GroupBox59 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox58 = New System.Windows.Forms.GroupBox()
         Me.Label204 = New System.Windows.Forms.Label()
         Me.Label197 = New System.Windows.Forms.Label()
         Me.Label181 = New System.Windows.Forms.Label()
@@ -403,7 +405,7 @@ Partial Class 認定調査票
         Me.spText3 = New Symphony_KSave2.ExTextBox()
         Me.spText2 = New Symphony_KSave2.ExTextBox()
         Me.spText1 = New Symphony_KSave2.ExTextBox()
-        Me.Gentxt1 = New Symphony_KSave2.ExTextBox()
+        Me.txtGentxt1 = New Symphony_KSave2.ExTextBox()
         Me.houseTextBox = New Symphony_KSave2.ExTextBox()
         Me.facilityTel3 = New Symphony_KSave2.ExTextBox()
         Me.facilityTel2 = New Symphony_KSave2.ExTextBox()
@@ -412,7 +414,7 @@ Partial Class 認定調査票
         Me.facilityPostCode2 = New Symphony_KSave2.ExTextBox()
         Me.facilityPostCode1 = New Symphony_KSave2.ExTextBox()
         Me.facilityNameBox = New Symphony_KSave2.ExTextBox()
-        Me.Gentxt2 = New Symphony_KSave2.ExTextBox()
+        Me.txtGentxt2 = New Symphony_KSave2.ExTextBox()
         Me.txtNum20 = New Symphony_KSave2.ExTextBox()
         Me.txtNum19 = New Symphony_KSave2.ExTextBox()
         Me.txtNum18 = New Symphony_KSave2.ExTextBox()
@@ -635,18 +637,18 @@ Partial Class 認定調査票
         Me.rb5_1_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_1_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb5_1_1 = New Symphony_KSave2.ExRadioButton()
-        Me.Ch4_12 = New Symphony_KSave2.ExCheckBox()
         Me.Ch4_11 = New Symphony_KSave2.ExCheckBox()
         Me.Ch4_10 = New Symphony_KSave2.ExCheckBox()
-        Me.Ch4_9 = New Symphony_KSave2.ExCheckBox()
-        Me.Ch4_8 = New Symphony_KSave2.ExCheckBox()
-        Me.Ch4_7 = New Symphony_KSave2.ExCheckBox()
-        Me.Ch4_6 = New Symphony_KSave2.ExCheckBox()
-        Me.Ch4_5 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_12 = New Symphony_KSave2.ExCheckBox()
         Me.Ch4_4 = New Symphony_KSave2.ExCheckBox()
-        Me.Ch4_3 = New Symphony_KSave2.ExCheckBox()
-        Me.Ch4_2 = New Symphony_KSave2.ExCheckBox()
         Me.Ch4_1 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_2 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_3 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_9 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_5 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_8 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_6 = New Symphony_KSave2.ExCheckBox()
+        Me.Ch4_7 = New Symphony_KSave2.ExCheckBox()
         Me.rb7_2_8 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_2_7 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_2_6 = New Symphony_KSave2.ExRadioButton()
@@ -664,8 +666,6 @@ Partial Class 認定調査票
         Me.rb7_1_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_1_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_1_1 = New Symphony_KSave2.ExRadioButton()
-        Me.GroupBox58 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox59 = New System.Windows.Forms.GroupBox()
         CType(Me.userList, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.inputTab.SuspendLayout()
         Me.overviewPage.SuspendLayout()
@@ -753,6 +753,8 @@ Partial Class 認定調査票
         Me.GroupBox54.SuspendLayout()
         Me.GroupBox55.SuspendLayout()
         Me.bsTabP6.SuspendLayout()
+        Me.GroupBox59.SuspendLayout()
+        Me.GroupBox58.SuspendLayout()
         Me.bsTabP7.SuspendLayout()
         Me.GroupBox57.SuspendLayout()
         Me.GroupBox56.SuspendLayout()
@@ -764,8 +766,6 @@ Partial Class 認定調査票
         CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox58.SuspendLayout()
-        Me.GroupBox59.SuspendLayout()
         Me.SuspendLayout()
         '
         'userList
@@ -817,7 +817,7 @@ Partial Class 認定調査票
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(32, 627)
+        Me.btnDelete.Location = New System.Drawing.Point(32, 628)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(67, 30)
         Me.btnDelete.TabIndex = 1003
@@ -851,7 +851,7 @@ Partial Class 認定調査票
         Me.overviewPage.Controls.Add(Me.spText3)
         Me.overviewPage.Controls.Add(Me.spText2)
         Me.overviewPage.Controls.Add(Me.spText1)
-        Me.overviewPage.Controls.Add(Me.Gentxt1)
+        Me.overviewPage.Controls.Add(Me.txtGentxt1)
         Me.overviewPage.Controls.Add(Me.houseTextBox)
         Me.overviewPage.Controls.Add(Me.Label77)
         Me.overviewPage.Controls.Add(Me.Panel12)
@@ -1117,7 +1117,7 @@ Partial Class 認定調査票
         'Panel9
         '
         Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(233, Byte), Integer), CType(CType(216, Byte), Integer))
-        Me.Panel9.Controls.Add(Me.Gentxt2)
+        Me.Panel9.Controls.Add(Me.txtGentxt2)
         Me.Panel9.Controls.Add(Me.checkGen22)
         Me.Panel9.Location = New System.Drawing.Point(37, 471)
         Me.Panel9.Name = "Panel9"
@@ -4803,6 +4803,34 @@ Partial Class 認定調査票
         Me.bsTabP6.TabIndex = 5
         Me.bsTabP6.Text = "６．特別な医療"
         '
+        'GroupBox59
+        '
+        Me.GroupBox59.Controls.Add(Me.Ch4_11)
+        Me.GroupBox59.Controls.Add(Me.Ch4_10)
+        Me.GroupBox59.Controls.Add(Me.Ch4_12)
+        Me.GroupBox59.Location = New System.Drawing.Point(217, 217)
+        Me.GroupBox59.Name = "GroupBox59"
+        Me.GroupBox59.Size = New System.Drawing.Size(525, 100)
+        Me.GroupBox59.TabIndex = 77
+        Me.GroupBox59.TabStop = False
+        '
+        'GroupBox58
+        '
+        Me.GroupBox58.Controls.Add(Me.Ch4_4)
+        Me.GroupBox58.Controls.Add(Me.Ch4_1)
+        Me.GroupBox58.Controls.Add(Me.Ch4_2)
+        Me.GroupBox58.Controls.Add(Me.Ch4_3)
+        Me.GroupBox58.Controls.Add(Me.Ch4_9)
+        Me.GroupBox58.Controls.Add(Me.Ch4_5)
+        Me.GroupBox58.Controls.Add(Me.Ch4_8)
+        Me.GroupBox58.Controls.Add(Me.Ch4_6)
+        Me.GroupBox58.Controls.Add(Me.Ch4_7)
+        Me.GroupBox58.Location = New System.Drawing.Point(217, 57)
+        Me.GroupBox58.Name = "GroupBox58"
+        Me.GroupBox58.Size = New System.Drawing.Size(525, 133)
+        Me.GroupBox58.TabIndex = 76
+        Me.GroupBox58.TabStop = False
+        '
         'Label204
         '
         Me.Label204.AutoSize = True
@@ -4970,16 +4998,16 @@ Partial Class 認定調査票
         Me.spText1.Size = New System.Drawing.Size(733, 19)
         Me.spText1.TabIndex = 19
         '
-        'Gentxt1
+        'txtGentxt1
         '
-        Me.Gentxt1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Gentxt1.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Gentxt1.InputType = 0
-        Me.Gentxt1.LimitLengthByte = 100
-        Me.Gentxt1.Location = New System.Drawing.Point(161, 455)
-        Me.Gentxt1.Name = "Gentxt1"
-        Me.Gentxt1.Size = New System.Drawing.Size(528, 14)
-        Me.Gentxt1.TabIndex = 206
+        Me.txtGentxt1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtGentxt1.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtGentxt1.InputType = 0
+        Me.txtGentxt1.LimitLengthByte = 100
+        Me.txtGentxt1.Location = New System.Drawing.Point(161, 455)
+        Me.txtGentxt1.Name = "txtGentxt1"
+        Me.txtGentxt1.Size = New System.Drawing.Size(528, 14)
+        Me.txtGentxt1.TabIndex = 206
         '
         'houseTextBox
         '
@@ -5056,16 +5084,16 @@ Partial Class 認定調査票
         Me.facilityNameBox.Size = New System.Drawing.Size(254, 19)
         Me.facilityNameBox.TabIndex = 34
         '
-        'Gentxt2
+        'txtGentxt2
         '
-        Me.Gentxt2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Gentxt2.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Gentxt2.InputType = 0
-        Me.Gentxt2.LimitLengthByte = 100
-        Me.Gentxt2.Location = New System.Drawing.Point(192, 1)
-        Me.Gentxt2.Name = "Gentxt2"
-        Me.Gentxt2.Size = New System.Drawing.Size(460, 14)
-        Me.Gentxt2.TabIndex = 207
+        Me.txtGentxt2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtGentxt2.Font = New System.Drawing.Font("MS UI Gothic", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.txtGentxt2.InputType = 0
+        Me.txtGentxt2.LimitLengthByte = 100
+        Me.txtGentxt2.Location = New System.Drawing.Point(192, 1)
+        Me.txtGentxt2.Name = "txtGentxt2"
+        Me.txtGentxt2.Size = New System.Drawing.Size(460, 14)
+        Me.txtGentxt2.TabIndex = 207
         '
         'txtNum20
         '
@@ -7458,16 +7486,6 @@ Partial Class 認定調査票
         Me.rb5_1_1.Text = "1.自立（介助なし）"
         Me.rb5_1_1.UseVisualStyleBackColor = True
         '
-        'Ch4_12
-        '
-        Me.Ch4_12.AutoSize = True
-        Me.Ch4_12.Location = New System.Drawing.Point(20, 63)
-        Me.Ch4_12.Name = "Ch4_12"
-        Me.Ch4_12.Size = New System.Drawing.Size(343, 16)
-        Me.Ch4_12.TabIndex = 75
-        Me.Ch4_12.Text = "12.カテーテル（コンドームカテーテル、留置カテーテル、ウロストーマ等）"
-        Me.Ch4_12.UseVisualStyleBackColor = True
-        '
         'Ch4_11
         '
         Me.Ch4_11.AutoSize = True
@@ -7488,55 +7506,15 @@ Partial Class 認定調査票
         Me.Ch4_10.Text = "10.モニター測定（血圧、心拍、酸素飽和度等）"
         Me.Ch4_10.UseVisualStyleBackColor = True
         '
-        'Ch4_9
+        'Ch4_12
         '
-        Me.Ch4_9.AutoSize = True
-        Me.Ch4_9.Location = New System.Drawing.Point(134, 103)
-        Me.Ch4_9.Name = "Ch4_9"
-        Me.Ch4_9.Size = New System.Drawing.Size(80, 16)
-        Me.Ch4_9.TabIndex = 72
-        Me.Ch4_9.Text = "9.経管栄養"
-        Me.Ch4_9.UseVisualStyleBackColor = True
-        '
-        'Ch4_8
-        '
-        Me.Ch4_8.AutoSize = True
-        Me.Ch4_8.Location = New System.Drawing.Point(20, 103)
-        Me.Ch4_8.Name = "Ch4_8"
-        Me.Ch4_8.Size = New System.Drawing.Size(90, 16)
-        Me.Ch4_8.TabIndex = 71
-        Me.Ch4_8.Text = "8.疼痛の看護"
-        Me.Ch4_8.UseVisualStyleBackColor = True
-        '
-        'Ch4_7
-        '
-        Me.Ch4_7.AutoSize = True
-        Me.Ch4_7.Location = New System.Drawing.Point(338, 61)
-        Me.Ch4_7.Name = "Ch4_7"
-        Me.Ch4_7.Size = New System.Drawing.Size(114, 16)
-        Me.Ch4_7.TabIndex = 70
-        Me.Ch4_7.Text = "7.気管切開の処置"
-        Me.Ch4_7.UseVisualStyleBackColor = True
-        '
-        'Ch4_6
-        '
-        Me.Ch4_6.AutoSize = True
-        Me.Ch4_6.Location = New System.Drawing.Point(134, 61)
-        Me.Ch4_6.Name = "Ch4_6"
-        Me.Ch4_6.Size = New System.Drawing.Size(168, 16)
-        Me.Ch4_6.TabIndex = 69
-        Me.Ch4_6.Text = "6.レスピレーター（人工呼吸器）"
-        Me.Ch4_6.UseVisualStyleBackColor = True
-        '
-        'Ch4_5
-        '
-        Me.Ch4_5.AutoSize = True
-        Me.Ch4_5.Location = New System.Drawing.Point(20, 61)
-        Me.Ch4_5.Name = "Ch4_5"
-        Me.Ch4_5.Size = New System.Drawing.Size(80, 16)
-        Me.Ch4_5.TabIndex = 68
-        Me.Ch4_5.Text = "5.酸素療法"
-        Me.Ch4_5.UseVisualStyleBackColor = True
+        Me.Ch4_12.AutoSize = True
+        Me.Ch4_12.Location = New System.Drawing.Point(20, 63)
+        Me.Ch4_12.Name = "Ch4_12"
+        Me.Ch4_12.Size = New System.Drawing.Size(343, 16)
+        Me.Ch4_12.TabIndex = 75
+        Me.Ch4_12.Text = "12.カテーテル（コンドームカテーテル、留置カテーテル、ウロストーマ等）"
+        Me.Ch4_12.UseVisualStyleBackColor = True
         '
         'Ch4_4
         '
@@ -7548,15 +7526,15 @@ Partial Class 認定調査票
         Me.Ch4_4.Text = "4.ストーマ（人工肛門）の処置"
         Me.Ch4_4.UseVisualStyleBackColor = True
         '
-        'Ch4_3
+        'Ch4_1
         '
-        Me.Ch4_3.AutoSize = True
-        Me.Ch4_3.Location = New System.Drawing.Point(261, 19)
-        Me.Ch4_3.Name = "Ch4_3"
-        Me.Ch4_3.Size = New System.Drawing.Size(56, 16)
-        Me.Ch4_3.TabIndex = 66
-        Me.Ch4_3.Text = "3.透析"
-        Me.Ch4_3.UseVisualStyleBackColor = True
+        Me.Ch4_1.AutoSize = True
+        Me.Ch4_1.Location = New System.Drawing.Point(20, 19)
+        Me.Ch4_1.Name = "Ch4_1"
+        Me.Ch4_1.Size = New System.Drawing.Size(90, 16)
+        Me.Ch4_1.TabIndex = 64
+        Me.Ch4_1.Text = "1.点滴の管理"
+        Me.Ch4_1.UseVisualStyleBackColor = True
         '
         'Ch4_2
         '
@@ -7568,15 +7546,65 @@ Partial Class 認定調査票
         Me.Ch4_2.Text = "2.中心静脈栄養"
         Me.Ch4_2.UseVisualStyleBackColor = True
         '
-        'Ch4_1
+        'Ch4_3
         '
-        Me.Ch4_1.AutoSize = True
-        Me.Ch4_1.Location = New System.Drawing.Point(20, 19)
-        Me.Ch4_1.Name = "Ch4_1"
-        Me.Ch4_1.Size = New System.Drawing.Size(90, 16)
-        Me.Ch4_1.TabIndex = 64
-        Me.Ch4_1.Text = "1.点滴の管理"
-        Me.Ch4_1.UseVisualStyleBackColor = True
+        Me.Ch4_3.AutoSize = True
+        Me.Ch4_3.Location = New System.Drawing.Point(261, 19)
+        Me.Ch4_3.Name = "Ch4_3"
+        Me.Ch4_3.Size = New System.Drawing.Size(56, 16)
+        Me.Ch4_3.TabIndex = 66
+        Me.Ch4_3.Text = "3.透析"
+        Me.Ch4_3.UseVisualStyleBackColor = True
+        '
+        'Ch4_9
+        '
+        Me.Ch4_9.AutoSize = True
+        Me.Ch4_9.Location = New System.Drawing.Point(134, 103)
+        Me.Ch4_9.Name = "Ch4_9"
+        Me.Ch4_9.Size = New System.Drawing.Size(80, 16)
+        Me.Ch4_9.TabIndex = 72
+        Me.Ch4_9.Text = "9.経管栄養"
+        Me.Ch4_9.UseVisualStyleBackColor = True
+        '
+        'Ch4_5
+        '
+        Me.Ch4_5.AutoSize = True
+        Me.Ch4_5.Location = New System.Drawing.Point(20, 61)
+        Me.Ch4_5.Name = "Ch4_5"
+        Me.Ch4_5.Size = New System.Drawing.Size(80, 16)
+        Me.Ch4_5.TabIndex = 68
+        Me.Ch4_5.Text = "5.酸素療法"
+        Me.Ch4_5.UseVisualStyleBackColor = True
+        '
+        'Ch4_8
+        '
+        Me.Ch4_8.AutoSize = True
+        Me.Ch4_8.Location = New System.Drawing.Point(20, 103)
+        Me.Ch4_8.Name = "Ch4_8"
+        Me.Ch4_8.Size = New System.Drawing.Size(90, 16)
+        Me.Ch4_8.TabIndex = 71
+        Me.Ch4_8.Text = "8.疼痛の看護"
+        Me.Ch4_8.UseVisualStyleBackColor = True
+        '
+        'Ch4_6
+        '
+        Me.Ch4_6.AutoSize = True
+        Me.Ch4_6.Location = New System.Drawing.Point(134, 61)
+        Me.Ch4_6.Name = "Ch4_6"
+        Me.Ch4_6.Size = New System.Drawing.Size(168, 16)
+        Me.Ch4_6.TabIndex = 69
+        Me.Ch4_6.Text = "6.レスピレーター（人工呼吸器）"
+        Me.Ch4_6.UseVisualStyleBackColor = True
+        '
+        'Ch4_7
+        '
+        Me.Ch4_7.AutoSize = True
+        Me.Ch4_7.Location = New System.Drawing.Point(338, 61)
+        Me.Ch4_7.Name = "Ch4_7"
+        Me.Ch4_7.Size = New System.Drawing.Size(114, 16)
+        Me.Ch4_7.TabIndex = 70
+        Me.Ch4_7.Text = "7.気管切開の処置"
+        Me.Ch4_7.UseVisualStyleBackColor = True
         '
         'rb7_2_8
         '
@@ -7765,34 +7793,6 @@ Partial Class 認定調査票
         Me.rb7_1_1.Text = "自立"
         Me.rb7_1_1.UseVisualStyleBackColor = True
         '
-        'GroupBox58
-        '
-        Me.GroupBox58.Controls.Add(Me.Ch4_4)
-        Me.GroupBox58.Controls.Add(Me.Ch4_1)
-        Me.GroupBox58.Controls.Add(Me.Ch4_2)
-        Me.GroupBox58.Controls.Add(Me.Ch4_3)
-        Me.GroupBox58.Controls.Add(Me.Ch4_9)
-        Me.GroupBox58.Controls.Add(Me.Ch4_5)
-        Me.GroupBox58.Controls.Add(Me.Ch4_8)
-        Me.GroupBox58.Controls.Add(Me.Ch4_6)
-        Me.GroupBox58.Controls.Add(Me.Ch4_7)
-        Me.GroupBox58.Location = New System.Drawing.Point(217, 57)
-        Me.GroupBox58.Name = "GroupBox58"
-        Me.GroupBox58.Size = New System.Drawing.Size(525, 133)
-        Me.GroupBox58.TabIndex = 76
-        Me.GroupBox58.TabStop = False
-        '
-        'GroupBox59
-        '
-        Me.GroupBox59.Controls.Add(Me.Ch4_11)
-        Me.GroupBox59.Controls.Add(Me.Ch4_10)
-        Me.GroupBox59.Controls.Add(Me.Ch4_12)
-        Me.GroupBox59.Location = New System.Drawing.Point(217, 217)
-        Me.GroupBox59.Name = "GroupBox59"
-        Me.GroupBox59.Size = New System.Drawing.Size(525, 100)
-        Me.GroupBox59.TabIndex = 77
-        Me.GroupBox59.TabStop = False
-        '
         '認定調査票
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -7972,6 +7972,10 @@ Partial Class 認定調査票
         Me.GroupBox55.PerformLayout()
         Me.bsTabP6.ResumeLayout(False)
         Me.bsTabP6.PerformLayout()
+        Me.GroupBox59.ResumeLayout(False)
+        Me.GroupBox59.PerformLayout()
+        Me.GroupBox58.ResumeLayout(False)
+        Me.GroupBox58.PerformLayout()
         Me.bsTabP7.ResumeLayout(False)
         Me.bsTabP7.PerformLayout()
         Me.GroupBox57.ResumeLayout(False)
@@ -7986,10 +7990,6 @@ Partial Class 認定調査票
         CType(Me.SpDgv5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SpDgv6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SpDgv7, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox58.ResumeLayout(False)
-        Me.GroupBox58.PerformLayout()
-        Me.GroupBox59.ResumeLayout(False)
-        Me.GroupBox59.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -8623,8 +8623,8 @@ Partial Class 認定調査票
     Friend WithEvents txtNum3 As Symphony_KSave2.ExTextBox
     Friend WithEvents txtNum2 As Symphony_KSave2.ExTextBox
     Friend WithEvents txtNum1 As Symphony_KSave2.ExTextBox
-    Friend WithEvents Gentxt1 As Symphony_KSave2.ExTextBox
-    Friend WithEvents Gentxt2 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtGentxt1 As Symphony_KSave2.ExTextBox
+    Friend WithEvents txtGentxt2 As Symphony_KSave2.ExTextBox
     Friend WithEvents facilityAddress As Symphony_KSave2.ExTextBox
     Friend WithEvents facilityPostCode2 As Symphony_KSave2.ExTextBox
     Friend WithEvents facilityPostCode1 As Symphony_KSave2.ExTextBox

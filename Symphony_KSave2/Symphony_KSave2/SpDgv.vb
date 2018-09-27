@@ -32,9 +32,9 @@ Public Class SpDgv
     End Function
 
     Public Sub clearText()
-        For Each row As DataRow In dt.Rows
-            row(0) = ""
-            row(1) = ""
+        For Each row As DataGridViewRow In Me.Rows
+            row.Cells(0).Value = ""
+            row.Cells(1).Value = ""
         Next
     End Sub
 
