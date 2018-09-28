@@ -139,6 +139,7 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
     <EmbeddedResource Include="topForm.resx">
       <DependentUpon>topForm.vb</DependentUpon>
     </EmbeddedResource>
