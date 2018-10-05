@@ -1,6 +1,9 @@
 ﻿Imports System.Data.OleDb
 Imports System.Text
 Imports ymdBox.ymdBox
+Imports System.Runtime.InteropServices
+Imports Microsoft.Office.Interop
+Imports Microsoft.Reporting.WinForms
 
 Public Class 認定調査票
 
@@ -132,7 +135,7 @@ Public Class 認定調査票
             .DefaultCellStyle.SelectionForeColor = Color.Black
             .BackgroundColor = Color.FromKnownColor(KnownColor.Control)
             .ShowCellToolTips = False
-            .BorderStyle = BorderStyle.None
+            .BorderStyle = System.Windows.Forms.BorderStyle.None
             .GridColor = Color.FromArgb(236, 233, 216)
             .DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomCenter
         End With
@@ -2112,6 +2115,129 @@ Public Class 認定調査票
     End Sub
 
     Private Sub btnPrint_Click(sender As System.Object, e As System.EventArgs) Handles btnPrint.Click
+        Dim userName As String = userLabel.Text '利用者名漢字
+        Dim userKana As String = kanaLabel.Text '利用者名カナ
+        If userName = "" OrElse userKana = "" Then
+            MsgBox("利用者を選択して下さい。")
+            Return
+        End If
+        Dim ymd1 As String = dateYmdBox.getADStr() '実施日
 
+        Dim cnn As New ADODB.Connection
+        cnn.Open(topForm.DB_KSave2)
+        Dim rs As New ADODB.Recordset
+        Dim sql = "select * from Auth1 where Nam='" & userName & "' and Ymd1='" & ymd1 & "' and Gyo=61"
+        rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockPessimistic)
+        If rs.RecordCount <= 0 Then
+            MsgBox("対象の日付のデータが存在しません。")
+            Return
+        End If
+
+
+        Dim Parameters As New List(Of ReportParameter)
+        With Parameters
+            .Add(New ReportParameter("GDay1", Util.checkDBNullValue(rs.Fields("GDay1").Value)))
+            .Add(New ReportParameter("GDay2", Util.checkDBNullValue(rs.Fields("GDay2").Value)))
+            .Add(New ReportParameter("GDay3", Util.checkDBNullValue(rs.Fields("GDay3").Value)))
+            .Add(New ReportParameter("GDay4", Util.checkDBNullValue(rs.Fields("GDay4").Value)))
+            .Add(New ReportParameter("GDay5", Util.checkDBNullValue(rs.Fields("GDay5").Value)))
+        End With
+
+        
+        Dim printViewerForm As New 印刷フォーム(Parameters)
+        printViewerForm.Show()
+
+
+
+
+
+        'Dim objExcel As Object
+        'Dim objWorkBooks As Object
+        'Dim objWorkBook As Object
+        'Dim oSheet As Object
+        'Dim border As Object
+
+        'objExcel = CreateObject("Excel.Application")
+        'objWorkBooks = objExcel.Workbooks
+        'objWorkBook = objWorkBooks.Open(topForm.excelFilePass)
+
+        ''概況調査シート
+        'oSheet = objWorkBook.Worksheets("概況調査")
+        ''調査日番号
+        'oSheet.Range("B4").value = Util.checkDBNullValue(rs.Fields("GDay1").Value)
+        'oSheet.Range("D4").value = Util.checkDBNullValue(rs.Fields("GDay2").Value)
+        'oSheet.Range("F4").value = Util.checkDBNullValue(rs.Fields("GDay3").Value)
+        'oSheet.Range("G4").value = Util.checkDBNullValue(rs.Fields("GDay4").Value)
+        'oSheet.Range("I4").value = Util.checkDBNullValue(rs.Fields("GDay5").Value)
+        'oSheet.Range("L4").value = Util.checkDBNullValue(rs.Fields("GDay6").Value)
+        ''被保険者番号
+        'oSheet.Range("AJ4").value = Util.checkDBNullValue(rs.Fields("GNum1").Value)
+        'oSheet.Range("AO4").value = Util.checkDBNullValue(rs.Fields("GNum2").Value)
+        'oSheet.Range("AR4").value = Util.checkDBNullValue(rs.Fields("GNum3").Value)
+        'oSheet.Range("AV4").value = Util.checkDBNullValue(rs.Fields("GNum4").Value)
+        'oSheet.Range("AX4").value = Util.checkDBNullValue(rs.Fields("GNum5").Value)
+        'oSheet.Range("BB4").value = Util.checkDBNullValue(rs.Fields("GNum6").Value)
+        'oSheet.Range("BG4").value = Util.checkDBNullValue(rs.Fields("GNum7").Value)
+        'oSheet.Range("BL4").value = Util.checkDBNullValue(rs.Fields("GNum8").Value)
+        'oSheet.Range("BP4").value = Util.checkDBNullValue(rs.Fields("GNum9").Value)
+        'oSheet.Range("BV4").value = Util.checkDBNullValue(rs.Fields("GNum10").Value)
+        ''実施日時
+        'oSheet.Range("H10").value = dateYmdBox.getWarekiKanji()
+        'oSheet.Range("J10").value = CInt(dateYmdBox.EraText.Substring(1, 2))
+        'oSheet.Range("N10").value = CInt(dateYmdBox.MonthText)
+        'oSheet.Range("T10").value = CInt(dateYmdBox.DateText)
+        ''実施場所
+        'oSheet.Range("AF11").value = "自宅内"
+        'oSheet.Range("AO11").value = "自宅外"
+        'If Util.checkDBNullValue(rs.Fields("Home").Value) = "0" Then
+        '    border = oSheet.Range("AF11", "AK11").Borders(Excel.XlBordersIndex.xlEdgeTop)
+        '    border.LineStyle = Excel.XlLineStyle.xlDot
+        '    border.Weight = Excel.XlBorderWeight.xlHairline
+        '    border = oSheet.Range("AF11", "AK11").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+        '    border.LineStyle = Excel.XlLineStyle.xlDot
+        '    border.Weight = Excel.XlBorderWeight.xlHairline
+        '    border = oSheet.Range("AF11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+        '    border.LineStyle = Excel.XlLineStyle.xlDot
+        '    border.Weight = Excel.XlBorderWeight.xlHairline
+        '    border = oSheet.Range("AL11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+        '    border.LineStyle = Excel.XlLineStyle.xlDot
+        '    border.Weight = Excel.XlBorderWeight.xlHairline
+        'ElseIf Util.checkDBNullValue(rs.Fields("Home").Value) = "1" Then
+        '    border = oSheet.Range("AO11", "AS11").Borders(Excel.XlBordersIndex.xlEdgeTop)
+        '    border.LineStyle = Excel.XlLineStyle.xlDot
+        '    border.Weight = Excel.XlBorderWeight.xlHairline
+        '    border = oSheet.Range("AO11", "AS11").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+        '    border.LineStyle = Excel.XlLineStyle.xlDot
+        '    border.Weight = Excel.XlBorderWeight.xlHairline
+        '    border = oSheet.Range("AO11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+        '    border.LineStyle = Excel.XlLineStyle.xlDot
+        '    border.Weight = Excel.XlBorderWeight.xlHairline
+        '    border = oSheet.Range("AT11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+        '    border.LineStyle = Excel.XlLineStyle.xlDot
+        '    border.Weight = Excel.XlBorderWeight.xlHairline
+        'End If
+        'oSheet.Range("AU11").value = Util.checkDBNullValue(rs.Fields("Nonhm").Value)
+        'oSheet.Range("I14").value = Util.checkDBNullValue(rs.Fields("Tanto").Value) '記入者氏名
+        'oSheet.Range("AR13").value = Util.checkDBNullValue(rs.Fields("Kikan").Value) '所属機関
+
+
+        ''変更保存確認ダイアログ非表示
+        'objExcel.DisplayAlerts = False
+
+        ''印刷
+        'If topForm.rbtnPrint.Checked = True Then
+        '    objWorkBook.Worksheets({"概況調査", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).printOut()
+        'ElseIf topForm.rbtnPreview.Checked = True Then
+        '    objExcel.Visible = True
+        '    objWorkBook.Worksheets({"概況調査", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).PrintPreview(1)
+        'End If
+
+        '' EXCEL解放
+        'objExcel.Quit()
+        'Marshal.ReleaseComObject(objWorkBook)
+        'Marshal.ReleaseComObject(objExcel)
+        'oSheet = Nothing
+        'objWorkBook = Nothing
+        'objExcel = Nothing
     End Sub
 End Class
