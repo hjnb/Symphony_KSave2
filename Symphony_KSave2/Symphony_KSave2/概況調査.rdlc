@@ -23,7 +23,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12924cm</Top>
-        <Left>0.73237cm</Left>
+        <Left>0.508cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <Style>
@@ -59,7 +59,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>6.64603cm</Left>
+        <Left>6.46653cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>1</ZIndex>
@@ -96,7 +96,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>1.63237cm</Left>
+        <Left>1.408cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>2</ZIndex>
@@ -133,7 +133,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>9.37103cm</Left>
+        <Left>9.16653cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>3</ZIndex>
@@ -170,7 +170,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>8.47103cm</Left>
+        <Left>8.26653cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>4</ZIndex>
@@ -207,7 +207,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>7.54603cm</Left>
+        <Left>7.36653cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>5</ZIndex>
@@ -244,7 +244,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>5.23236cm</Left>
+        <Left>5.008cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>6</ZIndex>
@@ -281,7 +281,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12924cm</Top>
-        <Left>4.33237cm</Left>
+        <Left>4.108cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>7</ZIndex>
@@ -317,8 +317,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>1.12925cm</Top>
-        <Left>3.43237cm</Left>
+        <Top>1.12924cm</Top>
+        <Left>3.208cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>8</ZIndex>
@@ -355,7 +355,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>2.53237cm</Left>
+        <Left>2.308cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>9</ZIndex>
@@ -392,7 +392,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12924cm</Top>
-        <Left>10.8404cm</Left>
+        <Left>10.59299cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>10</ZIndex>
@@ -429,7 +429,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>18.1404cm</Left>
+        <Left>17.79299cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>11</ZIndex>
@@ -466,7 +466,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>17.2279cm</Left>
+        <Left>16.89299cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>12</ZIndex>
@@ -503,7 +503,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>16.3154cm</Left>
+        <Left>15.99299cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>13</ZIndex>
@@ -540,7 +540,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>15.4029cm</Left>
+        <Left>15.09299cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>14</ZIndex>
@@ -576,8 +576,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>1.12924cm</Top>
-        <Left>14.4904cm</Left>
+        <Top>1.12925cm</Top>
+        <Left>14.19299cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>15</ZIndex>
@@ -614,7 +614,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>13.5779cm</Left>
+        <Left>13.29299cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>16</ZIndex>
@@ -651,7 +651,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>12.6654cm</Left>
+        <Left>12.39299cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>17</ZIndex>
@@ -688,7 +688,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>11.7529cm</Left>
+        <Left>11.49299cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>18</ZIndex>
@@ -725,7 +725,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>19.0529cm</Left>
+        <Left>18.69298cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>19</ZIndex>
@@ -759,106 +759,10 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>0.38813cm</Top>
-        <Left>0.73237cm</Left>
+        <Left>0.508cm</Left>
         <Height>0.56472cm</Height>
         <Width>1.825cm</Width>
         <ZIndex>20</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox37">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value />
-                <Style>
-                  <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox36</rd:DefaultName>
-        <Top>15.15484cm</Top>
-        <Left>17.4654cm</Left>
-        <Height>0.6cm</Height>
-        <Width>2.5cm</Width>
-        <ZIndex>21</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox38">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value />
-                <Style>
-                  <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox36</rd:DefaultName>
-        <Top>16.98047cm</Top>
-        <Left>17.4654cm</Left>
-        <Height>0.6cm</Height>
-        <Width>2.5cm</Width>
-        <ZIndex>22</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox39">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value />
-                <Style>
-                  <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox36</rd:DefaultName>
-        <Top>18.80609cm</Top>
-        <Left>17.4654cm</Left>
-        <Height>0.6cm</Height>
-        <Width>2.5cm</Width>
-        <ZIndex>23</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -887,10 +791,10 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>0.38813cm</Top>
-        <Left>10.8404cm</Left>
+        <Left>10.59299cm</Left>
         <Height>0.56472cm</Height>
         <Width>2.7375cm</Width>
-        <ZIndex>24</ZIndex>
+        <ZIndex>21</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -901,24 +805,186 @@
           <PaddingBottom>2pt</PaddingBottom>
         </Style>
       </Textbox>
-      <Rectangle Name="Rectangle2">
+      <Textbox Name="Textbox37">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>認定調査票（概況調査）</Value>
+                <Style>
+                  <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox36</rd:DefaultName>
+        <Top>2.80057cm</Top>
+        <Left>1.38301cm</Left>
+        <Height>0.56472cm</Height>
+        <Width>4.52499cm</Width>
+        <ZIndex>22</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox38">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Ⅰ　調査実施者（記入者）</Value>
+                <Style>
+                  <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox36</rd:DefaultName>
+        <Top>3.60518cm</Top>
+        <Left>1.38301cm</Left>
+        <Height>0.56472cm</Height>
+        <Width>4.0475cm</Width>
+        <ZIndex>23</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Rectangle Name="Rectangle1">
         <ReportItems>
-          <Line Name="Line3">
-            <Top>1.03187cm</Top>
-            <Left>0.02646cm</Left>
-            <Height>0cm</Height>
-            <Width>4.97354cm</Width>
+          <Textbox Name="Textbox47">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>調査は、調査対象者が通常の状態（調査可能な状態）であるときに実施して下さい。本人が</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox36</rd:DefaultName>
+            <Top>0.23812cm</Top>
+            <Left>0.28222cm</Left>
+            <Height>0.52062cm</Height>
+            <Width>11.23895cm</Width>
             <Style>
               <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox48">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>風邪をひいて高熱を出している等、通常の状態でない場合は</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>再調査を行って下さい。</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>Underline</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox36</rd:DefaultName>
+            <Top>0.89986cm</Top>
+            <Left>0.28222cm</Left>
+            <Height>0.5118cm</Height>
+            <Width>11.23895cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <KeepTogether>true</KeepTogether>
+        <Top>2.54657cm</Top>
+        <Left>7.36653cm</Left>
+        <Height>1.62333cm</Height>
+        <Width>11.97096cm</Width>
+        <ZIndex>24</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+            <Width>2pt</Width>
+          </Border>
+        </Style>
+      </Rectangle>
+      <Rectangle Name="Rectangle2">
+        <ReportItems>
+          <Line Name="Line1">
+            <Left>2.52413cm</Left>
+            <Height>2.5cm</Height>
+            <Width>0cm</Width>
+            <Style>
+              <Border>
+                <Color>LightGrey</Color>
                 <Style>Solid</Style>
+                <Width>0.5pt</Width>
               </Border>
             </Style>
           </Line>
-          <Line Name="Line4">
-            <Top>1.83208cm</Top>
-            <Left>0.02646cm</Left>
+          <Line Name="Line2">
+            <Top>1.00542cm</Top>
             <Height>0cm</Height>
-            <Width>4.97354cm</Width>
+            <Width>18.08187cm</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -927,25 +993,48 @@
               </Border>
             </Style>
           </Line>
-          <Line Name="Line5">
-            <Top>2.81104cm</Top>
-            <Left>0.01323cm</Left>
-            <Height>0cm</Height>
-            <Width>4.97354cm</Width>
+          <Line Name="Line3">
+            <Left>8.37142cm</Left>
+            <Height>2.5cm</Height>
+            <Width>0cm</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
-                <Style>Dotted</Style>
-                <Width>1.5pt</Width>
+                <Color>LightGrey</Color>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line4">
+            <Left>6.348cm</Left>
+            <Height>1.00542cm</Height>
+            <Width>0cm</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Color>LightGrey</Color>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line5">
+            <Top>1.00542cm</Top>
+            <Left>11.13737cm</Left>
+            <Height>1.49458cm</Height>
+            <Width>0cm</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Color>LightGrey</Color>
+                <Style>Solid</Style>
               </Border>
             </Style>
           </Line>
           <Line Name="Line6">
-            <Top>3.86938cm</Top>
-            <Left>0.02646cm</Left>
+            <Top>1.5675cm</Top>
             <Height>0cm</Height>
-            <Width>4.97354cm</Width>
-            <ZIndex>3</ZIndex>
+            <Width>8.37142cm</Width>
+            <ZIndex>5</ZIndex>
             <Style>
               <Border>
                 <Style>Dotted</Style>
@@ -954,20 +1043,20 @@
           </Line>
         </ReportItems>
         <KeepTogether>true</KeepTogether>
-        <Top>3.66924cm</Top>
-        <Left>1.23508cm</Left>
-        <Height>5.62208cm</Height>
-        <Width>5cm</Width>
+        <Top>4.43653cm</Top>
+        <Left>1.25562cm</Left>
+        <Height>2.5cm</Height>
+        <Width>18.08187cm</Width>
         <ZIndex>25</ZIndex>
         <Style>
           <Border>
             <Style>Solid</Style>
-            <Width>1.5pt</Width>
+            <Width>1.2pt</Width>
           </Border>
         </Style>
       </Rectangle>
     </ReportItems>
-    <Height>26.40875in</Height>
+    <Height>10in</Height>
     <Style>
       <Border>
         <Style>None</Style>
@@ -1078,14 +1167,14 @@
       <Prompt>ReportParameter1</Prompt>
     </ReportParameter>
   </ReportParameters>
-  <Width>8.27in</Width>
+  <Width>7.90542in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>
-    <LeftMargin>0.5cm</LeftMargin>
-    <RightMargin>0.5cm</RightMargin>
-    <TopMargin>0.5cm</TopMargin>
-    <BottomMargin>0.5cm</BottomMargin>
+    <LeftMargin>0cm</LeftMargin>
+    <RightMargin>0cm</RightMargin>
+    <TopMargin>0cm</TopMargin>
+    <BottomMargin>0cm</BottomMargin>
     <ColumnSpacing>0.13cm</ColumnSpacing>
     <Style />
   </Page>

@@ -145,7 +145,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Report1.rdlc">
+    <EmbeddedResource Include="レポート.rdlc" />
+    <EmbeddedResource Include="基本調査1.rdlc" />
+    <EmbeddedResource Include="概況調査.rdlc">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="topForm.resx">

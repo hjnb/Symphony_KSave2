@@ -28,17 +28,16 @@ Partial Class 印刷フォーム
         'ReportViewer1
         '
         Me.ReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "Symphony_KSave2.Report1.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(0, 0)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(628, 413)
+        Me.ReportViewer1.Size = New System.Drawing.Size(578, 560)
         Me.ReportViewer1.TabIndex = 0
         '
         '印刷フォーム
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(628, 413)
+        Me.ClientSize = New System.Drawing.Size(578, 560)
         Me.Controls.Add(Me.ReportViewer1)
         Me.Name = "印刷フォーム"
         Me.Text = "印刷フォーム"

@@ -2137,10 +2137,10 @@ Public Class 認定調査票
         Dim Parameters As New List(Of ReportParameter)
         With Parameters
             .Add(New ReportParameter("GDay1", Util.checkDBNullValue(rs.Fields("GDay1").Value)))
-            .Add(New ReportParameter("GDay2", Util.checkDBNullValue(rs.Fields("GDay2").Value)))
-            .Add(New ReportParameter("GDay3", Util.checkDBNullValue(rs.Fields("GDay3").Value)))
-            .Add(New ReportParameter("GDay4", Util.checkDBNullValue(rs.Fields("GDay4").Value)))
-            .Add(New ReportParameter("GDay5", Util.checkDBNullValue(rs.Fields("GDay5").Value)))
+            '.Add(New ReportParameter("GDay2", Util.checkDBNullValue(rs.Fields("GDay2").Value)))
+            '.Add(New ReportParameter("GDay3", Util.checkDBNullValue(rs.Fields("GDay3").Value)))
+            '.Add(New ReportParameter("GDay4", Util.checkDBNullValue(rs.Fields("GDay4").Value)))
+            '.Add(New ReportParameter("GDay5", Util.checkDBNullValue(rs.Fields("GDay5").Value)))
         End With
 
         
