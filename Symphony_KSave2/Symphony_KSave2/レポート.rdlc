@@ -4,7 +4,369 @@
     <ReportItems>
       <Subreport Name="Subreport5">
         <ReportName>概況調査</ReportName>
-        <Height>25.4cm</Height>
+        <Parameters>
+          <Parameter Name="GDay1">
+            <Value>=Parameters!GDay1.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay2">
+            <Value>=Parameters!GDay2.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay3">
+            <Value>=Parameters!GDay3.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay4">
+            <Value>=Parameters!GDay4.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay5">
+            <Value>=Parameters!GDay5.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay6">
+            <Value>=Parameters!GDay6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum1">
+            <Value>=Parameters!GNum1.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum2">
+            <Value>=Parameters!GNum2.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum3">
+            <Value>=Parameters!GNum3.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum4">
+            <Value>=Parameters!GNum4.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum5">
+            <Value>=Parameters!GNum5.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum6">
+            <Value>=Parameters!GNum6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum7">
+            <Value>=Parameters!GNum7.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum8">
+            <Value>=Parameters!GNum8.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum9">
+            <Value>=Parameters!GNum9.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum10">
+            <Value>=Parameters!GNum10.Value</Value>
+          </Parameter>
+          <Parameter Name="Home">
+            <Value>=Parameters!Home.Value</Value>
+          </Parameter>
+          <Parameter Name="Nonhm">
+            <Value>=Parameters!Nonhm.Value</Value>
+          </Parameter>
+          <Parameter Name="Kikan">
+            <Value>=Parameters!Kikan.Value</Value>
+          </Parameter>
+          <Parameter Name="Tanto">
+            <Value>=Parameters!Tanto.Value</Value>
+          </Parameter>
+          <Parameter Name="Kako">
+            <Value>=Parameters!Kako.Value</Value>
+          </Parameter>
+          <Parameter Name="Kai">
+            <Value>=Parameters!Kai.Value</Value>
+          </Parameter>
+          <Parameter Name="Kana">
+            <Value>=Parameters!Kana.Value</Value>
+          </Parameter>
+          <Parameter Name="Nam">
+            <Value>=Parameters!Nam.Value</Value>
+          </Parameter>
+          <Parameter Name="Sex">
+            <Value>=Parameters!Sex.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd1">
+            <Value>=Parameters!Ymd1.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd2">
+            <Value>=Parameters!Ymd2.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd3">
+            <Value>=Parameters!Ymd3.Value</Value>
+          </Parameter>
+          <Parameter Name="Age">
+            <Value>=Parameters!Age.Value</Value>
+          </Parameter>
+          <Parameter Name="Pn11">
+            <Value>=Parameters!Pn11.Value</Value>
+          </Parameter>
+          <Parameter Name="Pn12">
+            <Value>=Parameters!Pn12.Value</Value>
+          </Parameter>
+          <Parameter Name="Ad1">
+            <Value>=Parameters!Ad1.Value</Value>
+          </Parameter>
+          <Parameter Name="Tel11">
+            <Value>=Parameters!Tel11.Value</Value>
+          </Parameter>
+          <Parameter Name="Tel12">
+            <Value>=Parameters!Tel12.Value</Value>
+          </Parameter>
+          <Parameter Name="Tel13">
+            <Value>=Parameters!Tel13.Value</Value>
+          </Parameter>
+          <Parameter Name="Pn21">
+            <Value>=Parameters!Pn21.Value</Value>
+          </Parameter>
+          <Parameter Name="Pn22">
+            <Value>=Parameters!Pn22.Value</Value>
+          </Parameter>
+          <Parameter Name="Ad2">
+            <Value>=Parameters!Ad2.Value</Value>
+          </Parameter>
+          <Parameter Name="Tel21">
+            <Value>=Parameters!Tel21.Value</Value>
+          </Parameter>
+          <Parameter Name="Tel22">
+            <Value>=Parameters!Tel22.Value</Value>
+          </Parameter>
+          <Parameter Name="Tel23">
+            <Value>=Parameters!Tel23.Value</Value>
+          </Parameter>
+          <Parameter Name="Fa">
+            <Value>=Parameters!Fa.Value</Value>
+          </Parameter>
+          <Parameter Name="Far">
+            <Value>=Parameters!Far.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen1">
+            <Value>=Parameters!Gen1.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen2">
+            <Value>=Parameters!Gen2.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen3">
+            <Value>=Parameters!Gen3.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen4">
+            <Value>=Parameters!Gen4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen5">
+            <Value>=Parameters!Gen5.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen6">
+            <Value>=Parameters!Gen6.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen7">
+            <Value>=Parameters!Gen7.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen8">
+            <Value>=Parameters!Gen8.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen9">
+            <Value>=Parameters!Gen9.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen10">
+            <Value>=Parameters!Gen10.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen11">
+            <Value>=Parameters!Gen11.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen12">
+            <Value>=Parameters!Gen12.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen13">
+            <Value>=Parameters!Gen13.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen14">
+            <Value>=Parameters!Gen14.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen15">
+            <Value>=Parameters!Gen15.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen16">
+            <Value>=Parameters!Gen16.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen17">
+            <Value>=Parameters!Gen17.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen18">
+            <Value>=Parameters!Gen18.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen19">
+            <Value>=Parameters!Gen19.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen20">
+            <Value>=Parameters!Gen20.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen21">
+            <Value>=Parameters!Gen21.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen22">
+            <Value>=Parameters!Gen22.Value</Value>
+          </Parameter>
+          <Parameter Name="Gen23">
+            <Value>=Parameters!Gen23.Value</Value>
+          </Parameter>
+          <Parameter Name="Num1">
+            <Value>=Parameters!Num1.Value</Value>
+          </Parameter>
+          <Parameter Name="Num2">
+            <Value>=Parameters!Num2.Value</Value>
+          </Parameter>
+          <Parameter Name="Num3">
+            <Value>=Parameters!Num3.Value</Value>
+          </Parameter>
+          <Parameter Name="Num4">
+            <Value>=Parameters!Num4.Value</Value>
+          </Parameter>
+          <Parameter Name="Num5">
+            <Value>=Parameters!Num5.Value</Value>
+          </Parameter>
+          <Parameter Name="Num6">
+            <Value>=Parameters!Num6.Value</Value>
+          </Parameter>
+          <Parameter Name="Num7">
+            <Value>=Parameters!Num7.Value</Value>
+          </Parameter>
+          <Parameter Name="Num8">
+            <Value>=Parameters!Num8.Value</Value>
+          </Parameter>
+          <Parameter Name="Num9">
+            <Value>=Parameters!Num9.Value</Value>
+          </Parameter>
+          <Parameter Name="Num10">
+            <Value>=Parameters!Num10.Value</Value>
+          </Parameter>
+          <Parameter Name="Num11">
+            <Value>=Parameters!Num11.Value</Value>
+          </Parameter>
+          <Parameter Name="Num12">
+            <Value>=Parameters!Num12.Value</Value>
+          </Parameter>
+          <Parameter Name="Num13">
+            <Value>=Parameters!Num13.Value</Value>
+          </Parameter>
+          <Parameter Name="Num14">
+            <Value>=Parameters!Num14.Value</Value>
+          </Parameter>
+          <Parameter Name="Num15">
+            <Value>=Parameters!Num15.Value</Value>
+          </Parameter>
+          <Parameter Name="Num16">
+            <Value>=Parameters!Num16.Value</Value>
+          </Parameter>
+          <Parameter Name="Num17">
+            <Value>=Parameters!Num17.Value</Value>
+          </Parameter>
+          <Parameter Name="Num18">
+            <Value>=Parameters!Num18.Value</Value>
+          </Parameter>
+          <Parameter Name="Num19">
+            <Value>=Parameters!Num19.Value</Value>
+          </Parameter>
+          <Parameter Name="Num20">
+            <Value>=Parameters!Num20.Value</Value>
+          </Parameter>
+          <Parameter Name="Num21">
+            <Value>=Parameters!Num21.Value</Value>
+          </Parameter>
+          <Parameter Name="Gentxt1">
+            <Value>=Parameters!Gentxt1.Value</Value>
+          </Parameter>
+          <Parameter Name="Gentxt2">
+            <Value>=Parameters!Gentxt2.Value</Value>
+          </Parameter>
+          <Parameter Name="Name">
+            <Value>=Parameters!Name.Value</Value>
+          </Parameter>
+          <Parameter Name="Pn31">
+            <Value>=Parameters!Pn31.Value</Value>
+          </Parameter>
+          <Parameter Name="Pn32">
+            <Value>=Parameters!Pn32.Value</Value>
+          </Parameter>
+          <Parameter Name="Ad3">
+            <Value>=Parameters!Ad3.Value</Value>
+          </Parameter>
+          <Parameter Name="Tel31">
+            <Value>=Parameters!Tel31.Value</Value>
+          </Parameter>
+          <Parameter Name="Tel32">
+            <Value>=Parameters!Tel32.Value</Value>
+          </Parameter>
+          <Parameter Name="Tel33">
+            <Value>=Parameters!Tel33.Value</Value>
+          </Parameter>
+          <Parameter Name="Stay1">
+            <Value>=Parameters!Stay1.Value</Value>
+          </Parameter>
+          <Parameter Name="Stay2">
+            <Value>=Parameters!Stay2.Value</Value>
+          </Parameter>
+          <Parameter Name="Stay3">
+            <Value>=Parameters!Stay3.Value</Value>
+          </Parameter>
+          <Parameter Name="Stay4">
+            <Value>=Parameters!Stay4.Value</Value>
+          </Parameter>
+          <Parameter Name="Stay5">
+            <Value>=Parameters!Stay5.Value</Value>
+          </Parameter>
+          <Parameter Name="Stay6">
+            <Value>=Parameters!Stay6.Value</Value>
+          </Parameter>
+          <Parameter Name="Stay7">
+            <Value>=Parameters!Stay7.Value</Value>
+          </Parameter>
+          <Parameter Name="Stay8">
+            <Value>=Parameters!Stay8.Value</Value>
+          </Parameter>
+          <Parameter Name="GTokki1">
+            <Value>=Parameters!GTokki1.Value</Value>
+          </Parameter>
+          <Parameter Name="GTokki2">
+            <Value>=Parameters!GTokki2.Value</Value>
+          </Parameter>
+          <Parameter Name="GTokki3">
+            <Value>=Parameters!GTokki3.Value</Value>
+          </Parameter>
+          <Parameter Name="GTokki4">
+            <Value>=Parameters!GTokki4.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd1Kanji">
+            <Value>=Parameters!Ymd1Kanji.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd1Era">
+            <Value>=Parameters!Ymd1Era.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd1Month">
+            <Value>=Parameters!Ymd1Month.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd1Day">
+            <Value>=Parameters!Ymd1Day.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd2Era">
+            <Value>=Parameters!Ymd2Era.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd2Month">
+            <Value>=Parameters!Ymd2Month.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd2Day">
+            <Value>=Parameters!Ymd2Day.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd3Era">
+            <Value>=Parameters!Ymd3Era.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd3Month">
+            <Value>=Parameters!Ymd3Month.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd3Day">
+            <Value>=Parameters!Ymd3Day.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd2Kanji">
+            <Value>=Parameters!Ymd2Kanji.Value</Value>
+          </Parameter>
+          <Parameter Name="Ymd3Kanji">
+            <Value>=Parameters!Ymd3Kanji.Value</Value>
+          </Parameter>
+        </Parameters>
+        <Height>1.32292cm</Height>
         <Width>20.32cm</Width>
         <Style>
           <Border>
@@ -12,8 +374,132 @@
           </Border>
         </Style>
       </Subreport>
+      <Subreport Name="Subreport3">
+        <ReportName>基本調査1</ReportName>
+        <Parameters>
+          <Parameter Name="GDay1">
+            <Value>=Parameters!GDay1.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay2">
+            <Value>=Parameters!GDay2.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay3">
+            <Value>=Parameters!GDay3.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay4">
+            <Value>=Parameters!GDay4.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay5">
+            <Value>=Parameters!GDay5.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay6">
+            <Value>=Parameters!GDay6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum1">
+            <Value>=Parameters!GNum1.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum2">
+            <Value>=Parameters!GNum2.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum3">
+            <Value>=Parameters!GNum3.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum4">
+            <Value>=Parameters!GNum4.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum5">
+            <Value>=Parameters!GNum5.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum6">
+            <Value>=Parameters!GNum6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum7">
+            <Value>=Parameters!GNum7.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum8">
+            <Value>=Parameters!GNum8.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum9">
+            <Value>=Parameters!GNum9.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum10">
+            <Value>=Parameters!GNum10.Value</Value>
+          </Parameter>
+        </Parameters>
+        <Top>1.44992cm</Top>
+        <Height>1.38229cm</Height>
+        <Width>20.32cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
+      <Subreport Name="Subreport4">
+        <ReportName>基本調査2</ReportName>
+        <Parameters>
+          <Parameter Name="GDay1">
+            <Value>=Parameters!GDay1.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay2">
+            <Value>=Parameters!GDay2.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay3">
+            <Value>=Parameters!GDay3.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay4">
+            <Value>=Parameters!GDay4.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay5">
+            <Value>=Parameters!GDay5.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay6">
+            <Value>=Parameters!GDay6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum1">
+            <Value>=Parameters!GNum1.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum2">
+            <Value>=Parameters!GNum2.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum3">
+            <Value>=Parameters!GNum3.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum4">
+            <Value>=Parameters!GNum4.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum5">
+            <Value>=Parameters!GNum5.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum6">
+            <Value>=Parameters!GNum6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum7">
+            <Value>=Parameters!GNum7.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum8">
+            <Value>=Parameters!GNum8.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum9">
+            <Value>=Parameters!GNum9.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum10">
+            <Value>=Parameters!GNum10.Value</Value>
+          </Parameter>
+        </Parameters>
+        <Top>2.99096cm</Top>
+        <Height>1.40875cm</Height>
+        <Width>20.32cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
     </ReportItems>
-    <Height>10in</Height>
+    <Height>1.73217in</Height>
     <Style />
   </Body>
   <ReportParameters>
@@ -23,8 +509,722 @@
       <AllowBlank>true</AllowBlank>
       <Prompt>ReportParameter1</Prompt>
     </ReportParameter>
+    <ReportParameter Name="GDay2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GDay3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GDay4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GDay5">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GDay6">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GNum1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GNum2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GNum3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GNum4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GNum5">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GNum6">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GNum7">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GNum8">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GNum9">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GNum10">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Tanto">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Kikan">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Home">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Nonhm">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Kako">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Kai">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Kana">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Nam">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Sex">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Age">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Pn11">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Pn12">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ad1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Tel11">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Tel12">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Tel13">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Pn21">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Pn22">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ad2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Tel21">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Tel22">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Tel23">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Fa">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Far">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen5">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen6">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen7">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen8">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen9">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen10">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen11">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen12">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen13">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen14">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen15">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen16">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen17">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen18">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen19">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen20">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen21">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen22">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gen23">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num5">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num6">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num7">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num8">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num9">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num10">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num11">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num12">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num13">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num14">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num15">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num16">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num17">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num18">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num19">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num20">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Num21">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gentxt1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gentxt2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Name">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Pn31">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Pn32">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ad3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Tel31">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Tel32">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Tel33">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Stay1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Stay2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Stay3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Stay4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Stay5">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Stay6">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Stay7">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Stay8">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GTokki1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GTokki2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GTokki3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="GTokki4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd1Kanji">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd1Era">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd1Month">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd1Day">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd2Era">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd2Month">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd2Day">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd3Era">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd3Month">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd3Day">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd2Kanji">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Ymd3Kanji">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
   </ReportParameters>
-  <Width>8in</Width>
+  <Width>8.0125in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>

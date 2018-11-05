@@ -13,7 +13,7 @@ Public Class 印刷フォーム
 
     Private Sub 印刷フォーム_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "Symphony_KSave2.レポート.rdlc"
-        'Me.ReportViewer1.LocalReport.SetParameters(paramList)
+        Me.ReportViewer1.LocalReport.SetParameters(paramList)
         Me.ReportViewer1.RefreshReport()
 
         Dim ps As PageSettings = New PageSettings() 'プリンタ設定オブジェクト
@@ -26,9 +26,5 @@ Public Class 印刷フォーム
 
         Me.ReportViewer1.SetPageSettings(ps)
         Me.ReportViewer1.SetDisplayMode(Microsoft.Reporting.WinForms.DisplayMode.PrintLayout)
-    End Sub
-
-    Public Sub SubReportProcessingEventHandler(ByVal sender As Object, ByVal e As SubreportProcessingEventArgs)
-
     End Sub
 End Class

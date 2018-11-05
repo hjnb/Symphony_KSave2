@@ -145,8 +145,13 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="基本調査2.rdlc" />
     <EmbeddedResource Include="レポート.rdlc" />
     <EmbeddedResource Include="基本調査1.rdlc" />
+    <EmbeddedResource Include="基本調査3.rdlc" />
+    <EmbeddedResource Include="基本調査4.rdlc" />
+    <EmbeddedResource Include="基本調査5.rdlc" />
+    <EmbeddedResource Include="基本調査6.rdlc" />
     <EmbeddedResource Include="概況調査.rdlc">
       <SubType>Designer</SubType>
     </EmbeddedResource>
