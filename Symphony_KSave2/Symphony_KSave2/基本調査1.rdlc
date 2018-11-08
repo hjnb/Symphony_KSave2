@@ -23,7 +23,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12924cm</Top>
-        <Left>0.508cm</Left>
+        <Left>0.635cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <Style>
@@ -59,7 +59,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>6.46653cm</Left>
+        <Left>6.59353cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>1</ZIndex>
@@ -96,7 +96,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>1.408cm</Left>
+        <Left>1.535cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>2</ZIndex>
@@ -133,7 +133,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>9.16653cm</Left>
+        <Left>9.29353cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>3</ZIndex>
@@ -170,7 +170,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>8.26653cm</Left>
+        <Left>8.39353cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>4</ZIndex>
@@ -207,7 +207,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>7.36653cm</Left>
+        <Left>7.49353cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>5</ZIndex>
@@ -244,7 +244,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>5.008cm</Left>
+        <Left>5.135cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>6</ZIndex>
@@ -281,7 +281,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12924cm</Top>
-        <Left>4.108cm</Left>
+        <Left>4.235cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>7</ZIndex>
@@ -318,7 +318,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12924cm</Top>
-        <Left>3.208cm</Left>
+        <Left>3.335cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>8</ZIndex>
@@ -355,7 +355,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>2.308cm</Left>
+        <Left>2.435cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>9</ZIndex>
@@ -392,7 +392,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12924cm</Top>
-        <Left>10.59299cm</Left>
+        <Left>10.71999cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>10</ZIndex>
@@ -429,7 +429,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>17.79299cm</Left>
+        <Left>17.91999cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>11</ZIndex>
@@ -466,7 +466,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>16.89299cm</Left>
+        <Left>17.01999cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>12</ZIndex>
@@ -503,7 +503,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>15.99299cm</Left>
+        <Left>16.11999cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>13</ZIndex>
@@ -540,7 +540,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>15.09299cm</Left>
+        <Left>15.21999cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>14</ZIndex>
@@ -577,7 +577,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>14.19299cm</Left>
+        <Left>14.31999cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>15</ZIndex>
@@ -614,7 +614,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>13.29299cm</Left>
+        <Left>13.41999cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>16</ZIndex>
@@ -651,7 +651,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>12.39299cm</Left>
+        <Left>12.51999cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>17</ZIndex>
@@ -688,7 +688,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>11.49299cm</Left>
+        <Left>11.61999cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>18</ZIndex>
@@ -725,7 +725,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>1.12925cm</Top>
-        <Left>18.69298cm</Left>
+        <Left>18.81998cm</Left>
         <Height>0.83812cm</Height>
         <Width>0.9cm</Width>
         <ZIndex>19</ZIndex>
@@ -759,7 +759,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>0.38813cm</Top>
-        <Left>0.508cm</Left>
+        <Left>0.635cm</Left>
         <Height>0.56472cm</Height>
         <Width>1.825cm</Width>
         <ZIndex>20</ZIndex>
@@ -791,7 +791,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>0.38813cm</Top>
-        <Left>10.59299cm</Left>
+        <Left>10.71999cm</Left>
         <Height>0.56472cm</Height>
         <Width>2.7375cm</Width>
         <ZIndex>21</ZIndex>
@@ -824,7 +824,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>2.32432cm</Top>
-        <Left>0.508cm</Left>
+        <Left>0.635cm</Left>
         <Height>0.56472cm</Height>
         <Width>4.52499cm</Width>
         <ZIndex>22</ZIndex>
@@ -859,7 +859,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>3.27981cm</Top>
-        <Left>0.508cm</Left>
+        <Left>0.635cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>23</ZIndex>
@@ -878,7 +878,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=IIf(Parameters!Gyo_0_Ch2.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -970,7 +970,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=IIf(Parameters!Gyo_1_Ch2.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1032,7 +1032,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=IIf(Parameters!Gyo_2_Ch2.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1094,7 +1094,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>4.</Value>
+                    <Value>=IIf(Parameters!Gyo_3_Ch2.Value.ToString = "1", "④", "4.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1156,7 +1156,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>5.</Value>
+                    <Value>=IIf(Parameters!Gyo_4_Ch2.Value.ToString = "1", "⑤", "5.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1218,7 +1218,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>6.</Value>
+                    <Value>=IIf(Parameters!Gyo_5_Ch2.Value.ToString = "1", "⑥", "6.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1246,7 +1246,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>3.82799cm</Top>
-        <Left>0.508cm</Left>
+        <Left>0.635cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>24</ZIndex>
@@ -1279,7 +1279,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>5.4021cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>25</ZIndex>
@@ -1298,7 +1298,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=IIf(Parameters!Gyo_0_Ch3.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1390,7 +1390,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=IIf(Parameters!Gyo_1_Ch3.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1452,7 +1452,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=IIf(Parameters!Gyo_2_Ch3.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1514,7 +1514,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>4.</Value>
+                    <Value>=IIf(Parameters!Gyo_3_Ch3.Value.ToString = "1", "④", "4.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1576,7 +1576,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>5.</Value>
+                    <Value>=IIf(Parameters!Gyo_4_Ch3.Value.ToString = "1", "⑤", "5.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1604,7 +1604,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>5.95028cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>26</ZIndex>
@@ -1637,7 +1637,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>7.5611cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>27</ZIndex>
@@ -1656,7 +1656,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=iif(Parameters!Gyo_0_Opt4.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1748,7 +1748,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=iif(Parameters!Gyo_1_Opt4.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1810,7 +1810,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=iif(Parameters!Gyo_2_Opt4.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1838,7 +1838,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>8.10928cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>28</ZIndex>
@@ -1871,7 +1871,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>9.8471cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>29</ZIndex>
@@ -1890,7 +1890,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=iif(Parameters!Gyo_3_Opt4.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -1982,7 +1982,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=iif(Parameters!Gyo_4_Opt4.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2044,7 +2044,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=iif(Parameters!Gyo_5_Opt4.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2072,7 +2072,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>10.39528cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>30</ZIndex>
@@ -2105,7 +2105,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>12.0696cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>31</ZIndex>
@@ -2124,7 +2124,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=iif(Parameters!Gyo_6_Opt4.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2216,7 +2216,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=iif(Parameters!Gyo_7_Opt4.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2278,7 +2278,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>4.</Value>
+                    <Value>=iif(Parameters!Gyo_9_Opt4.Value.ToString = "1", "④", "4.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2340,7 +2340,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=iif(Parameters!Gyo_8_Opt4.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2368,7 +2368,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>12.61778cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>32</ZIndex>
@@ -2401,7 +2401,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>14.2921cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>33</ZIndex>
@@ -2420,7 +2420,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=iif(Parameters!Gyo_10_Opt4.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2512,7 +2512,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=iif(Parameters!Gyo_11_Opt4.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2574,7 +2574,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=iif(Parameters!Gyo_12_Opt4.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2602,7 +2602,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>14.84028cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>34</ZIndex>
@@ -2635,7 +2635,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>16.5146cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>35</ZIndex>
@@ -2654,7 +2654,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=iif(Parameters!Gyo_13_Opt4.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2746,7 +2746,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=iif(Parameters!Gyo_14_Opt4.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2808,7 +2808,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=iif(Parameters!Gyo_15_Opt4.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2836,7 +2836,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>17.06278cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>36</ZIndex>
@@ -2869,7 +2869,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>18.7371cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>37</ZIndex>
@@ -2888,7 +2888,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=iif(Parameters!Gyo_16_Opt4.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -2980,7 +2980,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=iif(Parameters!Gyo_17_Opt4.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3042,7 +3042,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=iif(Parameters!Gyo_18_Opt4.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3070,7 +3070,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>19.28528cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>38</ZIndex>
@@ -3103,7 +3103,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>20.9596cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>39</ZIndex>
@@ -3122,7 +3122,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=iif(Parameters!Gyo_19_Opt4.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3214,7 +3214,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=iif(Parameters!Gyo_20_Opt4.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3276,7 +3276,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=iif(Parameters!Gyo_21_Opt4.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3304,7 +3304,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>21.50778cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>40</ZIndex>
@@ -3337,7 +3337,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>23.1821cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>41</ZIndex>
@@ -3356,7 +3356,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=iif(Parameters!Gyo_22_Opt4.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3448,7 +3448,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=iif(Parameters!Gyo_23_Opt4.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3510,7 +3510,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>4.</Value>
+                    <Value>=iif(Parameters!Gyo_25_Opt4.Value.ToString = "1", "④", "4.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3572,7 +3572,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=iif(Parameters!Gyo_24_Opt4.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3600,7 +3600,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>23.73028cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>42</ZIndex>
@@ -3633,7 +3633,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox36</rd:DefaultName>
         <Top>25.4046cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.48534cm</Height>
         <Width>16.38499cm</Width>
         <ZIndex>43</ZIndex>
@@ -3652,7 +3652,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>1.</Value>
+                    <Value>=iif(Parameters!Gyo_26_Opt4.Value.ToString = "1", "①", "1.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3744,7 +3744,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>2.</Value>
+                    <Value>=iif(Parameters!Gyo_27_Opt4.Value.ToString = "1", "②", "2.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3806,7 +3806,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>3.</Value>
+                    <Value>=iif(Parameters!Gyo_28_Opt4.Value.ToString = "1", "③", "3.")</Value>
                     <Style>
                       <FontFamily>HGPｺﾞｼｯｸM</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -3834,7 +3834,7 @@
         </ReportItems>
         <KeepTogether>true</KeepTogether>
         <Top>25.95277cm</Top>
-        <Left>0.49739cm</Left>
+        <Left>0.62439cm</Left>
         <Height>0.635cm</Height>
         <Width>19.08498cm</Width>
         <ZIndex>44</ZIndex>
@@ -3947,8 +3947,248 @@
       <AllowBlank>true</AllowBlank>
       <Prompt>ReportParameter1</Prompt>
     </ReportParameter>
+    <ReportParameter Name="Gyo_0_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_0_Ch2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_0_Ch3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_1_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_1_Ch2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_1_Ch3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_2_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_2_Ch2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_2_Ch3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_3_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_3_Ch2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_3_Ch3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_4_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_4_Ch2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_4_Ch3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_5_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_5_Ch2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_6_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_7_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_8_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_9_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_10_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_11_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_12_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_13_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_14_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_15_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_16_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_17_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_18_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_19_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_20_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_21_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_22_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_23_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_24_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_25_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_26_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_27_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Gyo_28_Opt4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
   </ReportParameters>
-  <Width>7.90542in</Width>
+  <Width>8.00959in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>

@@ -2153,12 +2153,8 @@ Public Class 認定調査票
         Dim ymd3Day As String = If(ymd3Wareki <> "", CInt(ymd3Wareki.Substring(7, 2)).ToString, "")
 
         Dim Parameters As New List(Of ReportParameter)
-        'For i = 0 To 113
-        '    With Parameters
-        '        .Add(New ReportParameter(rs.Fields(i).Name, Util.checkDBNullValue(rs.Fields(i).Value)))
-        '    End With
-        'Next
         With Parameters
+            '1ページ目
             .Add(New ReportParameter("GDay1", Util.checkDBNullValue(rs.Fields("GDay1").Value)))
             .Add(New ReportParameter("GDay2", Util.checkDBNullValue(rs.Fields("GDay2").Value)))
             .Add(New ReportParameter("GDay3", Util.checkDBNullValue(rs.Fields("GDay3").Value)))
@@ -2264,7 +2260,6 @@ Public Class 認定調査票
             .Add(New ReportParameter("GTokki2", Util.checkDBNullValue(rs.Fields("GTokki2").Value)))
             .Add(New ReportParameter("GTokki3", Util.checkDBNullValue(rs.Fields("GTokki3").Value)))
             .Add(New ReportParameter("GTokki4", Util.checkDBNullValue(rs.Fields("GTokki4").Value)))
-
             .Add(New ReportParameter("Ymd1Era", ymd1Era))
             .Add(New ReportParameter("Ymd1Month", ymd1Month))
             .Add(New ReportParameter("Ymd1Day", ymd1Day))
@@ -2278,15 +2273,30 @@ Public Class 認定調査票
             .Add(New ReportParameter("Ymd3Day", ymd3Day))
             .Add(New ReportParameter("Ymd3Kanji", ymd3Kanji))
 
-            '.Add(New ReportParameter("", Util.checkDBNullValue(rs.Fields("").Value)))
-            '.Add(New ReportParameter("", Util.checkDBNullValue(rs.Fields("").Value)))
-            '.Add(New ReportParameter("", Util.checkDBNullValue(rs.Fields("").Value)))
-            '.Add(New ReportParameter("", Util.checkDBNullValue(rs.Fields("").Value)))
-            '.Add(New ReportParameter("", Util.checkDBNullValue(rs.Fields("").Value)))
-            '.Add(New ReportParameter("", Util.checkDBNullValue(rs.Fields("").Value)))
-            '.Add(New ReportParameter("", Util.checkDBNullValue(rs.Fields("").Value)))
-            '.Add(New ReportParameter("", Util.checkDBNullValue(rs.Fields("").Value)))
+            '2ページ目以降のデータ
+            rs.Close()
+            sql = "select * from Auth2 where Nam='" & userName & "' and Ymd='" & ymd1 & "' order by Gyo"
+            rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockPessimistic)
+            For i = 0 To 186
+                If i <= 4 Then
+                    .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
+                    .Add(New ReportParameter("Gyo_" & i & "_Ch2", Util.checkDBNullValue(rs.Fields("Ch2").Value)))
+                    .Add(New ReportParameter("Gyo_" & i & "_Ch3", Util.checkDBNullValue(rs.Fields("Ch3").Value)))
+                    .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
+                ElseIf i <= 5 Then
+                    .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
+                    .Add(New ReportParameter("Gyo_" & i & "_Ch2", Util.checkDBNullValue(rs.Fields("Ch2").Value)))
+                    .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
+                ElseIf i <= 11 Then
+                    .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
+                    .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
+                Else
+                    .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
+                End If
+                rs.MoveNext()
+            Next
         End With
+        rs.Close()
         
         Dim printViewerForm As New 印刷フォーム(Parameters)
         printViewerForm.Show()
