@@ -60,6 +60,7 @@ Partial Class topForm
         Me.rbtnPreview.TabStop = True
         Me.rbtnPreview.Text = "ﾌﾟﾚﾋﾞｭｰ"
         Me.rbtnPreview.UseVisualStyleBackColor = True
+        Me.rbtnPreview.Visible = False
         '
         'rbtnPrint
         '
@@ -70,6 +71,7 @@ Partial Class topForm
         Me.rbtnPrint.TabIndex = 3
         Me.rbtnPrint.Text = "印刷"
         Me.rbtnPrint.UseVisualStyleBackColor = True
+        Me.rbtnPrint.Visible = False
         '
         'btnTarget
         '

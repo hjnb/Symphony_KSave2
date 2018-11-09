@@ -2,6 +2,945 @@
 <Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
   <Body>
     <ReportItems>
+      <Subreport Name="Subreport3">
+        <ReportName>基本調査1</ReportName>
+        <Parameters>
+          <Parameter Name="GDay1">
+            <Value>=Parameters!GDay1.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay2">
+            <Value>=Parameters!GDay2.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay3">
+            <Value>=Parameters!GDay3.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay4">
+            <Value>=Parameters!GDay4.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay5">
+            <Value>=Parameters!GDay5.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay6">
+            <Value>=Parameters!GDay6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum1">
+            <Value>=Parameters!GNum1.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum2">
+            <Value>=Parameters!GNum2.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum3">
+            <Value>=Parameters!GNum3.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum4">
+            <Value>=Parameters!GNum4.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum5">
+            <Value>=Parameters!GNum5.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum6">
+            <Value>=Parameters!GNum6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum7">
+            <Value>=Parameters!GNum7.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum8">
+            <Value>=Parameters!GNum8.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum9">
+            <Value>=Parameters!GNum9.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum10">
+            <Value>=Parameters!GNum10.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_0_Opt4">
+            <Value>=Parameters!Gyo_0_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_0_Ch2">
+            <Value>=Parameters!Gyo_0_Ch2.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_0_Ch3">
+            <Value>=Parameters!Gyo_0_Ch3.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_1_Opt4">
+            <Value>=Parameters!Gyo_1_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_1_Ch2">
+            <Value>=Parameters!Gyo_1_Ch2.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_1_Ch3">
+            <Value>=Parameters!Gyo_1_Ch3.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_2_Opt4">
+            <Value>=Parameters!Gyo_2_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_2_Ch2">
+            <Value>=Parameters!Gyo_2_Ch2.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_2_Ch3">
+            <Value>=Parameters!Gyo_2_Ch3.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_3_Opt4">
+            <Value>=Parameters!Gyo_3_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_3_Ch2">
+            <Value>=Parameters!Gyo_3_Ch2.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_3_Ch3">
+            <Value>=Parameters!Gyo_3_Ch3.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_4_Opt4">
+            <Value>=Parameters!Gyo_4_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_4_Ch2">
+            <Value>=Parameters!Gyo_4_Ch2.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_4_Ch3">
+            <Value>=Parameters!Gyo_4_Ch3.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_5_Opt4">
+            <Value>=Parameters!Gyo_5_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_5_Ch2">
+            <Value>=Parameters!Gyo_5_Ch2.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_6_Opt4">
+            <Value>=Parameters!Gyo_6_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_7_Opt4">
+            <Value>=Parameters!Gyo_7_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_8_Opt4">
+            <Value>=Parameters!Gyo_8_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_9_Opt4">
+            <Value>=Parameters!Gyo_9_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_10_Opt4">
+            <Value>=Parameters!Gyo_10_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_11_Opt4">
+            <Value>=Parameters!Gyo_11_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_12_Opt4">
+            <Value>=Parameters!Gyo_12_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_13_Opt4">
+            <Value>=Parameters!Gyo_13_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_14_Opt4">
+            <Value>=Parameters!Gyo_14_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_15_Opt4">
+            <Value>=Parameters!Gyo_15_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_16_Opt4">
+            <Value>=Parameters!Gyo_16_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_17_Opt4">
+            <Value>=Parameters!Gyo_17_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_18_Opt4">
+            <Value>=Parameters!Gyo_18_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_19_Opt4">
+            <Value>=Parameters!Gyo_19_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_20_Opt4">
+            <Value>=Parameters!Gyo_20_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_21_Opt4">
+            <Value>=Parameters!Gyo_21_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_22_Opt4">
+            <Value>=Parameters!Gyo_22_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_23_Opt4">
+            <Value>=Parameters!Gyo_23_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_24_Opt4">
+            <Value>=Parameters!Gyo_24_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_25_Opt4">
+            <Value>=Parameters!Gyo_25_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_26_Opt4">
+            <Value>=Parameters!Gyo_26_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_27_Opt4">
+            <Value>=Parameters!Gyo_27_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_28_Opt4">
+            <Value>=Parameters!Gyo_28_Opt4.Value</Value>
+          </Parameter>
+        </Parameters>
+        <Top>1.45521cm</Top>
+        <Height>1.32292cm</Height>
+        <Width>20.34436cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
+      <Subreport Name="Subreport4">
+        <ReportName>基本調査2</ReportName>
+        <Parameters>
+          <Parameter Name="GDay1">
+            <Value>=Parameters!GDay1.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay2">
+            <Value>=Parameters!GDay2.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay3">
+            <Value>=Parameters!GDay3.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay4">
+            <Value>=Parameters!GDay4.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay5">
+            <Value>=Parameters!GDay5.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay6">
+            <Value>=Parameters!GDay6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum1">
+            <Value>=Parameters!GNum1.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum2">
+            <Value>=Parameters!GNum2.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum3">
+            <Value>=Parameters!GNum3.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum4">
+            <Value>=Parameters!GNum4.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum5">
+            <Value>=Parameters!GNum5.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum6">
+            <Value>=Parameters!GNum6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum7">
+            <Value>=Parameters!GNum7.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum8">
+            <Value>=Parameters!GNum8.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum9">
+            <Value>=Parameters!GNum9.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum10">
+            <Value>=Parameters!GNum10.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_29_Opt4">
+            <Value>=Parameters!Gyo_29_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_30_Opt4">
+            <Value>=Parameters!Gyo_30_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_31_Opt4">
+            <Value>=Parameters!Gyo_31_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_32_Opt4">
+            <Value>=Parameters!Gyo_32_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_33_Opt4">
+            <Value>=Parameters!Gyo_33_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_34_Opt4">
+            <Value>=Parameters!Gyo_34_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_35_Opt4">
+            <Value>=Parameters!Gyo_35_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_36_Opt4">
+            <Value>=Parameters!Gyo_36_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_37_Opt4">
+            <Value>=Parameters!Gyo_37_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_38_Opt4">
+            <Value>=Parameters!Gyo_38_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_39_Opt4">
+            <Value>=Parameters!Gyo_39_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_40_Opt4">
+            <Value>=Parameters!Gyo_40_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_41_Opt4">
+            <Value>=Parameters!Gyo_41_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_42_Opt4">
+            <Value>=Parameters!Gyo_42_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_43_Opt4">
+            <Value>=Parameters!Gyo_43_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_44_Opt4">
+            <Value>=Parameters!Gyo_44_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_45_Opt4">
+            <Value>=Parameters!Gyo_45_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_46_Opt4">
+            <Value>=Parameters!Gyo_46_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_47_Opt4">
+            <Value>=Parameters!Gyo_47_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_48_Opt4">
+            <Value>=Parameters!Gyo_48_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_49_Opt4">
+            <Value>=Parameters!Gyo_49_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_50_Opt4">
+            <Value>=Parameters!Gyo_50_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_51_Opt4">
+            <Value>=Parameters!Gyo_51_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_52_Opt4">
+            <Value>=Parameters!Gyo_52_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_53_Opt4">
+            <Value>=Parameters!Gyo_53_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_54_Opt4">
+            <Value>=Parameters!Gyo_54_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_55_Opt4">
+            <Value>=Parameters!Gyo_55_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_56_Opt4">
+            <Value>=Parameters!Gyo_56_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_57_Opt4">
+            <Value>=Parameters!Gyo_57_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_58_Opt4">
+            <Value>=Parameters!Gyo_58_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_59_Opt4">
+            <Value>=Parameters!Gyo_59_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_60_Opt4">
+            <Value>=Parameters!Gyo_60_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_61_Opt4">
+            <Value>=Parameters!Gyo_61_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_62_Opt4">
+            <Value>=Parameters!Gyo_62_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_63_Opt4">
+            <Value>=Parameters!Gyo_63_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_64_Opt4">
+            <Value>=Parameters!Gyo_64_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_65_Opt4">
+            <Value>=Parameters!Gyo_65_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_66_Opt4">
+            <Value>=Parameters!Gyo_66_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_67_Opt4">
+            <Value>=Parameters!Gyo_67_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_68_Opt4">
+            <Value>=Parameters!Gyo_68_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_69_Opt4">
+            <Value>=Parameters!Gyo_69_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_70_Opt4">
+            <Value>=Parameters!Gyo_70_Opt4.Value</Value>
+          </Parameter>
+        </Parameters>
+        <Top>2.9406cm</Top>
+        <Height>1.32292cm</Height>
+        <Width>20.34436cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
+      <Subreport Name="Subreport1">
+        <ReportName>基本調査3</ReportName>
+        <Parameters>
+          <Parameter Name="GDay1">
+            <Value>=Parameters!GDay1.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay2">
+            <Value>=Parameters!GDay2.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay3">
+            <Value>=Parameters!GDay3.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay4">
+            <Value>=Parameters!GDay4.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay5">
+            <Value>=Parameters!GDay5.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay6">
+            <Value>=Parameters!GDay6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum1">
+            <Value>=Parameters!GNum1.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum2">
+            <Value>=Parameters!GNum2.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum3">
+            <Value>=Parameters!GNum3.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum4">
+            <Value>=Parameters!GNum4.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum5">
+            <Value>=Parameters!GNum5.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum6">
+            <Value>=Parameters!GNum6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum7">
+            <Value>=Parameters!GNum7.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum8">
+            <Value>=Parameters!GNum8.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum9">
+            <Value>=Parameters!GNum9.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum10">
+            <Value>=Parameters!GNum10.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_71_Opt4">
+            <Value>=Parameters!Gyo_71_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_72_Opt4">
+            <Value>=Parameters!Gyo_72_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_73_Opt4">
+            <Value>=Parameters!Gyo_73_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_74_Opt4">
+            <Value>=Parameters!Gyo_74_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_75_Opt4">
+            <Value>=Parameters!Gyo_75_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_76_Opt4">
+            <Value>=Parameters!Gyo_76_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_77_Opt4">
+            <Value>=Parameters!Gyo_77_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_78_Opt4">
+            <Value>=Parameters!Gyo_78_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_79_Opt4">
+            <Value>=Parameters!Gyo_79_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_80_Opt4">
+            <Value>=Parameters!Gyo_80_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_81_Opt4">
+            <Value>=Parameters!Gyo_81_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_82_Opt4">
+            <Value>=Parameters!Gyo_82_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_83_Opt4">
+            <Value>=Parameters!Gyo_83_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_84_Opt4">
+            <Value>=Parameters!Gyo_84_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_85_Opt4">
+            <Value>=Parameters!Gyo_85_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_86_Opt4">
+            <Value>=Parameters!Gyo_86_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_87_Opt4">
+            <Value>=Parameters!Gyo_87_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_88_Opt4">
+            <Value>=Parameters!Gyo_88_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_89_Opt4">
+            <Value>=Parameters!Gyo_89_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_90_Opt4">
+            <Value>=Parameters!Gyo_90_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_91_Opt4">
+            <Value>=Parameters!Gyo_91_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_92_Opt4">
+            <Value>=Parameters!Gyo_92_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_93_Opt4">
+            <Value>=Parameters!Gyo_93_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_94_Opt4">
+            <Value>=Parameters!Gyo_94_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_95_Opt4">
+            <Value>=Parameters!Gyo_95_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_96_Opt4">
+            <Value>=Parameters!Gyo_96_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_97_Opt4">
+            <Value>=Parameters!Gyo_97_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_98_Opt4">
+            <Value>=Parameters!Gyo_98_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_99_Opt4">
+            <Value>=Parameters!Gyo_99_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_100_Opt4">
+            <Value>=Parameters!Gyo_100_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_101_Opt4">
+            <Value>=Parameters!Gyo_101_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_102_Opt4">
+            <Value>=Parameters!Gyo_102_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_103_Opt4">
+            <Value>=Parameters!Gyo_103_Opt4.Value</Value>
+          </Parameter>
+        </Parameters>
+        <Top>4.43cm</Top>
+        <Height>1.32292cm</Height>
+        <Width>20.34436cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
+      <Subreport Name="Subreport2">
+        <ReportName>基本調査4</ReportName>
+        <Parameters>
+          <Parameter Name="GDay1">
+            <Value>=Parameters!GDay1.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay2">
+            <Value>=Parameters!GDay2.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay3">
+            <Value>=Parameters!GDay3.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay4">
+            <Value>=Parameters!GDay4.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay5">
+            <Value>=Parameters!GDay5.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay6">
+            <Value>=Parameters!GDay6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum1">
+            <Value>=Parameters!GNum1.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum2">
+            <Value>=Parameters!GNum2.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum3">
+            <Value>=Parameters!GNum3.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum4">
+            <Value>=Parameters!GNum4.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum5">
+            <Value>=Parameters!GNum5.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum6">
+            <Value>=Parameters!GNum6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum7">
+            <Value>=Parameters!GNum7.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum8">
+            <Value>=Parameters!GNum8.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum9">
+            <Value>=Parameters!GNum9.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum10">
+            <Value>=Parameters!GNum10.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_104_Opt4">
+            <Value>=Parameters!Gyo_104_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_105_Opt4">
+            <Value>=Parameters!Gyo_105_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_106_Opt4">
+            <Value>=Parameters!Gyo_106_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_107_Opt4">
+            <Value>=Parameters!Gyo_107_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_108_Opt4">
+            <Value>=Parameters!Gyo_108_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_109_Opt4">
+            <Value>=Parameters!Gyo_109_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_110_Opt4">
+            <Value>=Parameters!Gyo_110_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_111_Opt4">
+            <Value>=Parameters!Gyo_111_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_112_Opt4">
+            <Value>=Parameters!Gyo_112_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_113_Opt4">
+            <Value>=Parameters!Gyo_113_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_114_Opt4">
+            <Value>=Parameters!Gyo_114_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_115_Opt4">
+            <Value>=Parameters!Gyo_115_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_116_Opt4">
+            <Value>=Parameters!Gyo_116_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_117_Opt4">
+            <Value>=Parameters!Gyo_117_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_118_Opt4">
+            <Value>=Parameters!Gyo_118_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_119_Opt4">
+            <Value>=Parameters!Gyo_119_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_120_Opt4">
+            <Value>=Parameters!Gyo_120_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_121_Opt4">
+            <Value>=Parameters!Gyo_121_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_122_Opt4">
+            <Value>=Parameters!Gyo_122_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_123_Opt4">
+            <Value>=Parameters!Gyo_123_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_124_Opt4">
+            <Value>=Parameters!Gyo_124_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_125_Opt4">
+            <Value>=Parameters!Gyo_125_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_126_Opt4">
+            <Value>=Parameters!Gyo_126_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_127_Opt4">
+            <Value>=Parameters!Gyo_127_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_128_Opt4">
+            <Value>=Parameters!Gyo_128_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_129_Opt4">
+            <Value>=Parameters!Gyo_129_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_130_Opt4">
+            <Value>=Parameters!Gyo_130_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_131_Opt4">
+            <Value>=Parameters!Gyo_131_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_132_Opt4">
+            <Value>=Parameters!Gyo_132_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_133_Opt4">
+            <Value>=Parameters!Gyo_133_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_134_Opt4">
+            <Value>=Parameters!Gyo_134_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_135_Opt4">
+            <Value>=Parameters!Gyo_135_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_136_Opt4">
+            <Value>=Parameters!Gyo_136_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_137_Opt4">
+            <Value>=Parameters!Gyo_137_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_138_Opt4">
+            <Value>=Parameters!Gyo_138_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_139_Opt4">
+            <Value>=Parameters!Gyo_139_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_140_Opt4">
+            <Value>=Parameters!Gyo_140_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_141_Opt4">
+            <Value>=Parameters!Gyo_141_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_142_Opt4">
+            <Value>=Parameters!Gyo_142_Opt4.Value</Value>
+          </Parameter>
+        </Parameters>
+        <Top>5.92cm</Top>
+        <Height>1.32292cm</Height>
+        <Width>20.34436cm</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
+      <Subreport Name="Subreport6">
+        <ReportName>基本調査5</ReportName>
+        <Parameters>
+          <Parameter Name="GDay1">
+            <Value>=Parameters!GDay1.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay2">
+            <Value>=Parameters!GDay2.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay3">
+            <Value>=Parameters!GDay3.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay4">
+            <Value>=Parameters!GDay4.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay5">
+            <Value>=Parameters!GDay5.Value</Value>
+          </Parameter>
+          <Parameter Name="GDay6">
+            <Value>=Parameters!GDay6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum1">
+            <Value>=Parameters!GNum1.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum2">
+            <Value>=Parameters!GNum2.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum3">
+            <Value>=Parameters!GNum3.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum4">
+            <Value>=Parameters!GNum4.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum5">
+            <Value>=Parameters!GNum5.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum6">
+            <Value>=Parameters!GNum6.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum7">
+            <Value>=Parameters!GNum7.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum8">
+            <Value>=Parameters!GNum8.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum9">
+            <Value>=Parameters!GNum9.Value</Value>
+          </Parameter>
+          <Parameter Name="GNum10">
+            <Value>=Parameters!GNum10.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_143_Opt4">
+            <Value>=Parameters!Gyo_143_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_144_Opt4">
+            <Value>=Parameters!Gyo_144_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_145_Opt4">
+            <Value>=Parameters!Gyo_145_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_146_Opt4">
+            <Value>=Parameters!Gyo_146_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_147_Opt4">
+            <Value>=Parameters!Gyo_147_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_148_Opt4">
+            <Value>=Parameters!Gyo_148_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_149_Opt4">
+            <Value>=Parameters!Gyo_149_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_150_Opt4">
+            <Value>=Parameters!Gyo_150_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_151_Opt4">
+            <Value>=Parameters!Gyo_151_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_152_Opt4">
+            <Value>=Parameters!Gyo_152_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_153_Opt4">
+            <Value>=Parameters!Gyo_153_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_154_Opt4">
+            <Value>=Parameters!Gyo_154_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_155_Opt4">
+            <Value>=Parameters!Gyo_155_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_156_Opt4">
+            <Value>=Parameters!Gyo_156_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_157_Opt4">
+            <Value>=Parameters!Gyo_157_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_158_Opt4">
+            <Value>=Parameters!Gyo_158_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_159_Opt4">
+            <Value>=Parameters!Gyo_159_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_160_Opt4">
+            <Value>=Parameters!Gyo_160_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_161_Opt4">
+            <Value>=Parameters!Gyo_161_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_162_Opt4">
+            <Value>=Parameters!Gyo_162_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_163_Opt4">
+            <Value>=Parameters!Gyo_163_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_164_Opt4">
+            <Value>=Parameters!Gyo_164_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_165_Opt4">
+            <Value>=Parameters!Gyo_165_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_166_Opt4">
+            <Value>=Parameters!Gyo_166_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_167_Opt4">
+            <Value>=Parameters!Gyo_167_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_168_Opt4">
+            <Value>=Parameters!Gyo_168_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_169_Opt4">
+            <Value>=Parameters!Gyo_169_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_170_Opt4">
+            <Value>=Parameters!Gyo_170_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_171_Opt4">
+            <Value>=Parameters!Gyo_171_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_172_Opt4">
+            <Value>=Parameters!Gyo_172_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_173_Opt4">
+            <Value>=Parameters!Gyo_173_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_174_Opt4">
+            <Value>=Parameters!Gyo_174_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_175_Opt4">
+            <Value>=Parameters!Gyo_175_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_176_Opt4">
+            <Value>=Parameters!Gyo_176_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_177_Opt4">
+            <Value>=Parameters!Gyo_177_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_178_Opt4">
+            <Value>=Parameters!Gyo_178_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_179_Opt4">
+            <Value>=Parameters!Gyo_179_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_180_Opt4">
+            <Value>=Parameters!Gyo_180_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_181_Opt4">
+            <Value>=Parameters!Gyo_181_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_182_Opt4">
+            <Value>=Parameters!Gyo_182_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_183_Opt4">
+            <Value>=Parameters!Gyo_183_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_184_Opt4">
+            <Value>=Parameters!Gyo_184_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_185_Opt4">
+            <Value>=Parameters!Gyo_185_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_186_Opt4">
+            <Value>=Parameters!Gyo_186_Opt4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_0_Ch4">
+            <Value>=Parameters!Gyo_0_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_1_Ch4">
+            <Value>=Parameters!Gyo_1_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_2_Ch4">
+            <Value>=Parameters!Gyo_2_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_3_Ch4">
+            <Value>=Parameters!Gyo_3_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_4_Ch4">
+            <Value>=Parameters!Gyo_4_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_5_Ch4">
+            <Value>=Parameters!Gyo_5_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_6_Ch4">
+            <Value>=Parameters!Gyo_6_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_7_Ch4">
+            <Value>=Parameters!Gyo_7_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_8_Ch4">
+            <Value>=Parameters!Gyo_8_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_9_Ch4">
+            <Value>=Parameters!Gyo_9_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_10_Ch4">
+            <Value>=Parameters!Gyo_10_Ch4.Value</Value>
+          </Parameter>
+          <Parameter Name="Gyo_11_Ch4">
+            <Value>=Parameters!Gyo_11_Ch4.Value</Value>
+          </Parameter>
+        </Parameters>
+        <Top>7.417cm</Top>
+        <Height>1.32292cm</Height>
+        <Width>20.34436cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
       <Subreport Name="Subreport5">
         <ReportName>概況調査</ReportName>
         <Parameters>
@@ -366,952 +1305,9 @@
             <Value>=Parameters!Ymd3Kanji.Value</Value>
           </Parameter>
         </Parameters>
-        <Left>0.03175cm</Left>
+        <Left>0cm</Left>
         <Height>1.32292cm</Height>
-        <Width>20.32cm</Width>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-        </Style>
-      </Subreport>
-      <Subreport Name="Subreport3">
-        <ReportName>基本調査1</ReportName>
-        <Parameters>
-          <Parameter Name="GDay1">
-            <Value>=Parameters!GDay1.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay2">
-            <Value>=Parameters!GDay2.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay3">
-            <Value>=Parameters!GDay3.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay4">
-            <Value>=Parameters!GDay4.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay5">
-            <Value>=Parameters!GDay5.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay6">
-            <Value>=Parameters!GDay6.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum1">
-            <Value>=Parameters!GNum1.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum2">
-            <Value>=Parameters!GNum2.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum3">
-            <Value>=Parameters!GNum3.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum4">
-            <Value>=Parameters!GNum4.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum5">
-            <Value>=Parameters!GNum5.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum6">
-            <Value>=Parameters!GNum6.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum7">
-            <Value>=Parameters!GNum7.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum8">
-            <Value>=Parameters!GNum8.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum9">
-            <Value>=Parameters!GNum9.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum10">
-            <Value>=Parameters!GNum10.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_0_Opt4">
-            <Value>=Parameters!Gyo_0_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_0_Ch2">
-            <Value>=Parameters!Gyo_0_Ch2.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_0_Ch3">
-            <Value>=Parameters!Gyo_0_Ch3.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_1_Opt4">
-            <Value>=Parameters!Gyo_1_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_1_Ch2">
-            <Value>=Parameters!Gyo_1_Ch2.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_1_Ch3">
-            <Value>=Parameters!Gyo_1_Ch3.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_2_Opt4">
-            <Value>=Parameters!Gyo_2_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_2_Ch2">
-            <Value>=Parameters!Gyo_2_Ch2.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_2_Ch3">
-            <Value>=Parameters!Gyo_2_Ch3.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_3_Opt4">
-            <Value>=Parameters!Gyo_3_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_3_Ch2">
-            <Value>=Parameters!Gyo_3_Ch2.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_3_Ch3">
-            <Value>=Parameters!Gyo_3_Ch3.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_4_Opt4">
-            <Value>=Parameters!Gyo_4_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_4_Ch2">
-            <Value>=Parameters!Gyo_4_Ch2.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_4_Ch3">
-            <Value>=Parameters!Gyo_4_Ch3.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_5_Opt4">
-            <Value>=Parameters!Gyo_5_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_5_Ch2">
-            <Value>=Parameters!Gyo_5_Ch2.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_6_Opt4">
-            <Value>=Parameters!Gyo_6_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_7_Opt4">
-            <Value>=Parameters!Gyo_7_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_8_Opt4">
-            <Value>=Parameters!Gyo_8_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_9_Opt4">
-            <Value>=Parameters!Gyo_9_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_10_Opt4">
-            <Value>=Parameters!Gyo_10_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_11_Opt4">
-            <Value>=Parameters!Gyo_11_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_12_Opt4">
-            <Value>=Parameters!Gyo_12_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_13_Opt4">
-            <Value>=Parameters!Gyo_13_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_14_Opt4">
-            <Value>=Parameters!Gyo_14_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_15_Opt4">
-            <Value>=Parameters!Gyo_15_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_16_Opt4">
-            <Value>=Parameters!Gyo_16_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_17_Opt4">
-            <Value>=Parameters!Gyo_17_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_18_Opt4">
-            <Value>=Parameters!Gyo_18_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_19_Opt4">
-            <Value>=Parameters!Gyo_19_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_20_Opt4">
-            <Value>=Parameters!Gyo_20_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_21_Opt4">
-            <Value>=Parameters!Gyo_21_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_22_Opt4">
-            <Value>=Parameters!Gyo_22_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_23_Opt4">
-            <Value>=Parameters!Gyo_23_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_24_Opt4">
-            <Value>=Parameters!Gyo_24_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_25_Opt4">
-            <Value>=Parameters!Gyo_25_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_26_Opt4">
-            <Value>=Parameters!Gyo_26_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_27_Opt4">
-            <Value>=Parameters!Gyo_27_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_28_Opt4">
-            <Value>=Parameters!Gyo_28_Opt4.Value</Value>
-          </Parameter>
-        </Parameters>
-        <Top>1.44992cm</Top>
-        <Left>0.03175cm</Left>
-        <Height>1.38229cm</Height>
-        <Width>20.32cm</Width>
-        <ZIndex>1</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-        </Style>
-      </Subreport>
-      <Subreport Name="Subreport4">
-        <ReportName>基本調査2</ReportName>
-        <Parameters>
-          <Parameter Name="GDay1">
-            <Value>=Parameters!GDay1.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay2">
-            <Value>=Parameters!GDay2.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay3">
-            <Value>=Parameters!GDay3.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay4">
-            <Value>=Parameters!GDay4.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay5">
-            <Value>=Parameters!GDay5.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay6">
-            <Value>=Parameters!GDay6.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum1">
-            <Value>=Parameters!GNum1.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum2">
-            <Value>=Parameters!GNum2.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum3">
-            <Value>=Parameters!GNum3.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum4">
-            <Value>=Parameters!GNum4.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum5">
-            <Value>=Parameters!GNum5.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum6">
-            <Value>=Parameters!GNum6.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum7">
-            <Value>=Parameters!GNum7.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum8">
-            <Value>=Parameters!GNum8.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum9">
-            <Value>=Parameters!GNum9.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum10">
-            <Value>=Parameters!GNum10.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_29_Opt4">
-            <Value>=Parameters!Gyo_29_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_30_Opt4">
-            <Value>=Parameters!Gyo_30_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_31_Opt4">
-            <Value>=Parameters!Gyo_31_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_32_Opt4">
-            <Value>=Parameters!Gyo_32_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_33_Opt4">
-            <Value>=Parameters!Gyo_33_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_34_Opt4">
-            <Value>=Parameters!Gyo_34_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_35_Opt4">
-            <Value>=Parameters!Gyo_35_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_36_Opt4">
-            <Value>=Parameters!Gyo_36_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_37_Opt4">
-            <Value>=Parameters!Gyo_37_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_38_Opt4">
-            <Value>=Parameters!Gyo_38_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_39_Opt4">
-            <Value>=Parameters!Gyo_39_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_40_Opt4">
-            <Value>=Parameters!Gyo_40_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_41_Opt4">
-            <Value>=Parameters!Gyo_41_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_42_Opt4">
-            <Value>=Parameters!Gyo_42_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_43_Opt4">
-            <Value>=Parameters!Gyo_43_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_44_Opt4">
-            <Value>=Parameters!Gyo_44_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_45_Opt4">
-            <Value>=Parameters!Gyo_45_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_46_Opt4">
-            <Value>=Parameters!Gyo_46_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_47_Opt4">
-            <Value>=Parameters!Gyo_47_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_48_Opt4">
-            <Value>=Parameters!Gyo_48_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_49_Opt4">
-            <Value>=Parameters!Gyo_49_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_50_Opt4">
-            <Value>=Parameters!Gyo_50_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_51_Opt4">
-            <Value>=Parameters!Gyo_51_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_52_Opt4">
-            <Value>=Parameters!Gyo_52_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_53_Opt4">
-            <Value>=Parameters!Gyo_53_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_54_Opt4">
-            <Value>=Parameters!Gyo_54_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_55_Opt4">
-            <Value>=Parameters!Gyo_55_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_56_Opt4">
-            <Value>=Parameters!Gyo_56_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_57_Opt4">
-            <Value>=Parameters!Gyo_57_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_58_Opt4">
-            <Value>=Parameters!Gyo_58_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_59_Opt4">
-            <Value>=Parameters!Gyo_59_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_60_Opt4">
-            <Value>=Parameters!Gyo_60_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_61_Opt4">
-            <Value>=Parameters!Gyo_61_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_62_Opt4">
-            <Value>=Parameters!Gyo_62_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_63_Opt4">
-            <Value>=Parameters!Gyo_63_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_64_Opt4">
-            <Value>=Parameters!Gyo_64_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_65_Opt4">
-            <Value>=Parameters!Gyo_65_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_66_Opt4">
-            <Value>=Parameters!Gyo_66_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_67_Opt4">
-            <Value>=Parameters!Gyo_67_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_68_Opt4">
-            <Value>=Parameters!Gyo_68_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_69_Opt4">
-            <Value>=Parameters!Gyo_69_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_70_Opt4">
-            <Value>=Parameters!Gyo_70_Opt4.Value</Value>
-          </Parameter>
-        </Parameters>
-        <Top>2.99096cm</Top>
-        <Left>0.03175cm</Left>
-        <Height>1.40875cm</Height>
-        <Width>20.32cm</Width>
-        <ZIndex>2</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-        </Style>
-      </Subreport>
-      <Subreport Name="Subreport1">
-        <ReportName>基本調査3</ReportName>
-        <Parameters>
-          <Parameter Name="GDay1">
-            <Value>=Parameters!GDay1.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay2">
-            <Value>=Parameters!GDay2.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay3">
-            <Value>=Parameters!GDay3.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay4">
-            <Value>=Parameters!GDay4.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay5">
-            <Value>=Parameters!GDay5.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay6">
-            <Value>=Parameters!GDay6.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum1">
-            <Value>=Parameters!GNum1.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum2">
-            <Value>=Parameters!GNum2.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum3">
-            <Value>=Parameters!GNum3.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum4">
-            <Value>=Parameters!GNum4.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum5">
-            <Value>=Parameters!GNum5.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum6">
-            <Value>=Parameters!GNum6.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum7">
-            <Value>=Parameters!GNum7.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum8">
-            <Value>=Parameters!GNum8.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum9">
-            <Value>=Parameters!GNum9.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum10">
-            <Value>=Parameters!GNum10.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_71_Opt4">
-            <Value>=Parameters!Gyo_71_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_72_Opt4">
-            <Value>=Parameters!Gyo_72_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_73_Opt4">
-            <Value>=Parameters!Gyo_73_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_74_Opt4">
-            <Value>=Parameters!Gyo_74_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_75_Opt4">
-            <Value>=Parameters!Gyo_75_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_76_Opt4">
-            <Value>=Parameters!Gyo_76_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_77_Opt4">
-            <Value>=Parameters!Gyo_77_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_78_Opt4">
-            <Value>=Parameters!Gyo_78_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_79_Opt4">
-            <Value>=Parameters!Gyo_79_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_80_Opt4">
-            <Value>=Parameters!Gyo_80_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_81_Opt4">
-            <Value>=Parameters!Gyo_81_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_82_Opt4">
-            <Value>=Parameters!Gyo_82_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_83_Opt4">
-            <Value>=Parameters!Gyo_83_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_84_Opt4">
-            <Value>=Parameters!Gyo_84_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_85_Opt4">
-            <Value>=Parameters!Gyo_85_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_86_Opt4">
-            <Value>=Parameters!Gyo_86_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_87_Opt4">
-            <Value>=Parameters!Gyo_87_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_88_Opt4">
-            <Value>=Parameters!Gyo_88_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_89_Opt4">
-            <Value>=Parameters!Gyo_89_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_90_Opt4">
-            <Value>=Parameters!Gyo_90_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_91_Opt4">
-            <Value>=Parameters!Gyo_91_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_92_Opt4">
-            <Value>=Parameters!Gyo_92_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_93_Opt4">
-            <Value>=Parameters!Gyo_93_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_94_Opt4">
-            <Value>=Parameters!Gyo_94_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_95_Opt4">
-            <Value>=Parameters!Gyo_95_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_96_Opt4">
-            <Value>=Parameters!Gyo_96_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_97_Opt4">
-            <Value>=Parameters!Gyo_97_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_98_Opt4">
-            <Value>=Parameters!Gyo_98_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_99_Opt4">
-            <Value>=Parameters!Gyo_99_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_100_Opt4">
-            <Value>=Parameters!Gyo_100_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_101_Opt4">
-            <Value>=Parameters!Gyo_101_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_102_Opt4">
-            <Value>=Parameters!Gyo_102_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_103_Opt4">
-            <Value>=Parameters!Gyo_103_Opt4.Value</Value>
-          </Parameter>
-        </Parameters>
-        <Top>4.5761cm</Top>
-        <Height>1.35583cm</Height>
-        <Width>20.35175cm</Width>
-        <ZIndex>3</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-        </Style>
-      </Subreport>
-      <Subreport Name="Subreport2">
-        <ReportName>基本調査4</ReportName>
-        <Parameters>
-          <Parameter Name="GDay1">
-            <Value>=Parameters!GDay1.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay2">
-            <Value>=Parameters!GDay2.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay3">
-            <Value>=Parameters!GDay3.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay4">
-            <Value>=Parameters!GDay4.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay5">
-            <Value>=Parameters!GDay5.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay6">
-            <Value>=Parameters!GDay6.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum1">
-            <Value>=Parameters!GNum1.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum2">
-            <Value>=Parameters!GNum2.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum3">
-            <Value>=Parameters!GNum3.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum4">
-            <Value>=Parameters!GNum4.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum5">
-            <Value>=Parameters!GNum5.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum6">
-            <Value>=Parameters!GNum6.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum7">
-            <Value>=Parameters!GNum7.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum8">
-            <Value>=Parameters!GNum8.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum9">
-            <Value>=Parameters!GNum9.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum10">
-            <Value>=Parameters!GNum10.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_104_Opt4">
-            <Value>=Parameters!Gyo_104_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_105_Opt4">
-            <Value>=Parameters!Gyo_105_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_106_Opt4">
-            <Value>=Parameters!Gyo_106_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_107_Opt4">
-            <Value>=Parameters!Gyo_107_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_108_Opt4">
-            <Value>=Parameters!Gyo_108_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_109_Opt4">
-            <Value>=Parameters!Gyo_109_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_110_Opt4">
-            <Value>=Parameters!Gyo_110_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_111_Opt4">
-            <Value>=Parameters!Gyo_111_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_112_Opt4">
-            <Value>=Parameters!Gyo_112_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_113_Opt4">
-            <Value>=Parameters!Gyo_113_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_114_Opt4">
-            <Value>=Parameters!Gyo_114_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_115_Opt4">
-            <Value>=Parameters!Gyo_115_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_116_Opt4">
-            <Value>=Parameters!Gyo_116_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_117_Opt4">
-            <Value>=Parameters!Gyo_117_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_118_Opt4">
-            <Value>=Parameters!Gyo_118_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_119_Opt4">
-            <Value>=Parameters!Gyo_119_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_120_Opt4">
-            <Value>=Parameters!Gyo_120_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_121_Opt4">
-            <Value>=Parameters!Gyo_121_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_122_Opt4">
-            <Value>=Parameters!Gyo_122_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_123_Opt4">
-            <Value>=Parameters!Gyo_123_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_124_Opt4">
-            <Value>=Parameters!Gyo_124_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_125_Opt4">
-            <Value>=Parameters!Gyo_125_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_126_Opt4">
-            <Value>=Parameters!Gyo_126_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_127_Opt4">
-            <Value>=Parameters!Gyo_127_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_128_Opt4">
-            <Value>=Parameters!Gyo_128_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_129_Opt4">
-            <Value>=Parameters!Gyo_129_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_130_Opt4">
-            <Value>=Parameters!Gyo_130_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_131_Opt4">
-            <Value>=Parameters!Gyo_131_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_132_Opt4">
-            <Value>=Parameters!Gyo_132_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_133_Opt4">
-            <Value>=Parameters!Gyo_133_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_134_Opt4">
-            <Value>=Parameters!Gyo_134_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_135_Opt4">
-            <Value>=Parameters!Gyo_135_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_136_Opt4">
-            <Value>=Parameters!Gyo_136_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_137_Opt4">
-            <Value>=Parameters!Gyo_137_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_138_Opt4">
-            <Value>=Parameters!Gyo_138_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_139_Opt4">
-            <Value>=Parameters!Gyo_139_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_140_Opt4">
-            <Value>=Parameters!Gyo_140_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_141_Opt4">
-            <Value>=Parameters!Gyo_141_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_142_Opt4">
-            <Value>=Parameters!Gyo_142_Opt4.Value</Value>
-          </Parameter>
-        </Parameters>
-        <Top>5.93193cm</Top>
-        <Left>0.03175cm</Left>
-        <Height>1.35583cm</Height>
-        <Width>20.35175cm</Width>
-        <ZIndex>4</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-        </Style>
-      </Subreport>
-      <Subreport Name="Subreport6">
-        <ReportName>基本調査5</ReportName>
-        <Parameters>
-          <Parameter Name="GDay1">
-            <Value>=Parameters!GDay1.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay2">
-            <Value>=Parameters!GDay2.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay3">
-            <Value>=Parameters!GDay3.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay4">
-            <Value>=Parameters!GDay4.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay5">
-            <Value>=Parameters!GDay5.Value</Value>
-          </Parameter>
-          <Parameter Name="GDay6">
-            <Value>=Parameters!GDay6.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum1">
-            <Value>=Parameters!GNum1.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum2">
-            <Value>=Parameters!GNum2.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum3">
-            <Value>=Parameters!GNum3.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum4">
-            <Value>=Parameters!GNum4.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum5">
-            <Value>=Parameters!GNum5.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum6">
-            <Value>=Parameters!GNum6.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum7">
-            <Value>=Parameters!GNum7.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum8">
-            <Value>=Parameters!GNum8.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum9">
-            <Value>=Parameters!GNum9.Value</Value>
-          </Parameter>
-          <Parameter Name="GNum10">
-            <Value>=Parameters!GNum10.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_143_Opt4">
-            <Value>=Parameters!Gyo_143_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_144_Opt4">
-            <Value>=Parameters!Gyo_144_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_145_Opt4">
-            <Value>=Parameters!Gyo_145_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_146_Opt4">
-            <Value>=Parameters!Gyo_146_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_147_Opt4">
-            <Value>=Parameters!Gyo_147_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_148_Opt4">
-            <Value>=Parameters!Gyo_148_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_149_Opt4">
-            <Value>=Parameters!Gyo_149_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_150_Opt4">
-            <Value>=Parameters!Gyo_150_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_151_Opt4">
-            <Value>=Parameters!Gyo_151_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_152_Opt4">
-            <Value>=Parameters!Gyo_152_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_153_Opt4">
-            <Value>=Parameters!Gyo_153_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_154_Opt4">
-            <Value>=Parameters!Gyo_154_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_155_Opt4">
-            <Value>=Parameters!Gyo_155_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_156_Opt4">
-            <Value>=Parameters!Gyo_156_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_157_Opt4">
-            <Value>=Parameters!Gyo_157_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_158_Opt4">
-            <Value>=Parameters!Gyo_158_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_159_Opt4">
-            <Value>=Parameters!Gyo_159_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_160_Opt4">
-            <Value>=Parameters!Gyo_160_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_161_Opt4">
-            <Value>=Parameters!Gyo_161_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_162_Opt4">
-            <Value>=Parameters!Gyo_162_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_163_Opt4">
-            <Value>=Parameters!Gyo_163_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_164_Opt4">
-            <Value>=Parameters!Gyo_164_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_165_Opt4">
-            <Value>=Parameters!Gyo_165_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_166_Opt4">
-            <Value>=Parameters!Gyo_166_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_167_Opt4">
-            <Value>=Parameters!Gyo_167_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_168_Opt4">
-            <Value>=Parameters!Gyo_168_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_169_Opt4">
-            <Value>=Parameters!Gyo_169_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_170_Opt4">
-            <Value>=Parameters!Gyo_170_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_171_Opt4">
-            <Value>=Parameters!Gyo_171_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_172_Opt4">
-            <Value>=Parameters!Gyo_172_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_173_Opt4">
-            <Value>=Parameters!Gyo_173_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_174_Opt4">
-            <Value>=Parameters!Gyo_174_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_175_Opt4">
-            <Value>=Parameters!Gyo_175_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_176_Opt4">
-            <Value>=Parameters!Gyo_176_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_177_Opt4">
-            <Value>=Parameters!Gyo_177_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_178_Opt4">
-            <Value>=Parameters!Gyo_178_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_179_Opt4">
-            <Value>=Parameters!Gyo_179_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_180_Opt4">
-            <Value>=Parameters!Gyo_180_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_181_Opt4">
-            <Value>=Parameters!Gyo_181_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_182_Opt4">
-            <Value>=Parameters!Gyo_182_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_183_Opt4">
-            <Value>=Parameters!Gyo_183_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_184_Opt4">
-            <Value>=Parameters!Gyo_184_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_185_Opt4">
-            <Value>=Parameters!Gyo_185_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_186_Opt4">
-            <Value>=Parameters!Gyo_186_Opt4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_0_Ch4">
-            <Value>=Parameters!Gyo_0_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_1_Ch4">
-            <Value>=Parameters!Gyo_1_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_2_Ch4">
-            <Value>=Parameters!Gyo_2_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_3_Ch4">
-            <Value>=Parameters!Gyo_3_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_4_Ch4">
-            <Value>=Parameters!Gyo_4_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_5_Ch4">
-            <Value>=Parameters!Gyo_5_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_6_Ch4">
-            <Value>=Parameters!Gyo_6_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_7_Ch4">
-            <Value>=Parameters!Gyo_7_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_8_Ch4">
-            <Value>=Parameters!Gyo_8_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_9_Ch4">
-            <Value>=Parameters!Gyo_9_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_10_Ch4">
-            <Value>=Parameters!Gyo_10_Ch4.Value</Value>
-          </Parameter>
-          <Parameter Name="Gyo_11_Ch4">
-            <Value>=Parameters!Gyo_11_Ch4.Value</Value>
-          </Parameter>
-        </Parameters>
-        <Top>7.28776cm</Top>
-        <Left>0.03175cm</Left>
-        <Height>1.35583cm</Height>
-        <Width>20.35175cm</Width>
+        <Width>20.34436cm</Width>
         <ZIndex>5</ZIndex>
         <Style>
           <Border>
@@ -1320,7 +1316,7 @@
         </Style>
       </Subreport>
     </ReportItems>
-    <Height>3.40299in</Height>
+    <Height>3.44091in</Height>
     <Style />
   </Body>
   <ReportParameters>
@@ -3305,7 +3301,7 @@
       <Prompt>ReportParameter1</Prompt>
     </ReportParameter>
   </ReportParameters>
-  <Width>8.025in</Width>
+  <Width>8.0221in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>
