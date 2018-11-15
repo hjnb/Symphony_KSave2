@@ -2142,6 +2142,7 @@ Public Class 認定調査票
 
         Dim ymd2Wareki As String = convADStrToWarekiStr(Util.checkDBNullValue(rs.Fields("Ymd2").Value))
         Dim ymd2Kanji As String = getKanji(ymd2Wareki)
+        Dim ymd2Char As String = If(ymd2Wareki <> "", ymd2Wareki.Substring(0, 1), "")
         Dim ymd2Era As String = If(ymd2Wareki <> "", CInt(ymd2Wareki.Substring(1, 2)).ToString, "")
         Dim ymd2Month As String = If(ymd2Wareki <> "", CInt(ymd2Wareki.Substring(4, 2)).ToString, "")
         Dim ymd2Day As String = If(ymd2Wareki <> "", CInt(ymd2Wareki.Substring(7, 2)).ToString, "")
@@ -2152,246 +2153,1239 @@ Public Class 認定調査票
         Dim ymd3Month As String = If(ymd3Wareki <> "", CInt(ymd3Wareki.Substring(4, 2)).ToString, "")
         Dim ymd3Day As String = If(ymd3Wareki <> "", CInt(ymd3Wareki.Substring(7, 2)).ToString, "")
 
-        Dim Parameters As New List(Of ReportParameter)
-        With Parameters
-            '1ページ目
-            .Add(New ReportParameter("GDay1", Util.checkDBNullValue(rs.Fields("GDay1").Value)))
-            .Add(New ReportParameter("GDay2", Util.checkDBNullValue(rs.Fields("GDay2").Value)))
-            .Add(New ReportParameter("GDay3", Util.checkDBNullValue(rs.Fields("GDay3").Value)))
-            .Add(New ReportParameter("GDay4", Util.checkDBNullValue(rs.Fields("GDay4").Value)))
-            .Add(New ReportParameter("GDay5", Util.checkDBNullValue(rs.Fields("GDay5").Value)))
-            .Add(New ReportParameter("GDay6", Util.checkDBNullValue(rs.Fields("GDay6").Value)))
-            .Add(New ReportParameter("GNum1", Util.checkDBNullValue(rs.Fields("GNum1").Value)))
-            .Add(New ReportParameter("GNum2", Util.checkDBNullValue(rs.Fields("GNum2").Value)))
-            .Add(New ReportParameter("GNum3", Util.checkDBNullValue(rs.Fields("GNum3").Value)))
-            .Add(New ReportParameter("GNum4", Util.checkDBNullValue(rs.Fields("GNum4").Value)))
-            .Add(New ReportParameter("GNum5", Util.checkDBNullValue(rs.Fields("GNum5").Value)))
-            .Add(New ReportParameter("GNum6", Util.checkDBNullValue(rs.Fields("GNum6").Value)))
-            .Add(New ReportParameter("GNum7", Util.checkDBNullValue(rs.Fields("GNum7").Value)))
-            .Add(New ReportParameter("GNum8", Util.checkDBNullValue(rs.Fields("GNum8").Value)))
-            .Add(New ReportParameter("GNum9", Util.checkDBNullValue(rs.Fields("GNum9").Value)))
-            .Add(New ReportParameter("GNum10", Util.checkDBNullValue(rs.Fields("GNum10").Value)))
-            .Add(New ReportParameter("Tanto", Util.checkDBNullValue(rs.Fields("Tanto").Value)))
-            .Add(New ReportParameter("Kikan", Util.checkDBNullValue(rs.Fields("Kikan").Value)))
-            .Add(New ReportParameter("Home", Util.checkDBNullValue(rs.Fields("Home").Value)))
-            .Add(New ReportParameter("Nonhm", Util.checkDBNullValue(rs.Fields("Nonhm").Value)))
-            .Add(New ReportParameter("Kako", Util.checkDBNullValue(rs.Fields("Kako").Value)))
-            .Add(New ReportParameter("Kai", Util.checkDBNullValue(rs.Fields("Kai").Value)))
-            .Add(New ReportParameter("Kana", Util.checkDBNullValue(rs.Fields("Kana").Value)))
-            .Add(New ReportParameter("Nam", Util.checkDBNullValue(rs.Fields("Nam").Value)))
-            .Add(New ReportParameter("Sex", Util.checkDBNullValue(rs.Fields("Sex").Value)))
-            .Add(New ReportParameter("Age", Util.checkDBNullValue(rs.Fields("Age").Value)))
-            .Add(New ReportParameter("Pn11", Util.checkDBNullValue(rs.Fields("Pn11").Value)))
-            .Add(New ReportParameter("Pn12", Util.checkDBNullValue(rs.Fields("Pn12").Value)))
-            .Add(New ReportParameter("Ad1", Util.checkDBNullValue(rs.Fields("Ad1").Value)))
-            .Add(New ReportParameter("Tel11", Util.checkDBNullValue(rs.Fields("Tel11").Value)))
-            .Add(New ReportParameter("Tel12", Util.checkDBNullValue(rs.Fields("Tel12").Value)))
-            .Add(New ReportParameter("Tel13", Util.checkDBNullValue(rs.Fields("Tel13").Value)))
-            .Add(New ReportParameter("Pn21", Util.checkDBNullValue(rs.Fields("Pn21").Value)))
-            .Add(New ReportParameter("Pn22", Util.checkDBNullValue(rs.Fields("Pn22").Value)))
-            .Add(New ReportParameter("Ad2", Util.checkDBNullValue(rs.Fields("Ad2").Value)))
-            .Add(New ReportParameter("Tel21", Util.checkDBNullValue(rs.Fields("Tel21").Value)))
-            .Add(New ReportParameter("Tel22", Util.checkDBNullValue(rs.Fields("Tel22").Value)))
-            .Add(New ReportParameter("Tel23", Util.checkDBNullValue(rs.Fields("Tel23").Value)))
-            .Add(New ReportParameter("Fa", Util.checkDBNullValue(rs.Fields("Fa").Value)))
-            .Add(New ReportParameter("Far", Util.checkDBNullValue(rs.Fields("Far").Value)))
-            .Add(New ReportParameter("Gen1", Util.checkDBNullValue(rs.Fields("Gen1").Value)))
-            .Add(New ReportParameter("Gen2", Util.checkDBNullValue(rs.Fields("Gen2").Value)))
-            .Add(New ReportParameter("Gen3", Util.checkDBNullValue(rs.Fields("Gen3").Value)))
-            .Add(New ReportParameter("Gen4", Util.checkDBNullValue(rs.Fields("Gen4").Value)))
-            .Add(New ReportParameter("Gen5", Util.checkDBNullValue(rs.Fields("Gen5").Value)))
-            .Add(New ReportParameter("Gen6", Util.checkDBNullValue(rs.Fields("Gen6").Value)))
-            .Add(New ReportParameter("Gen7", Util.checkDBNullValue(rs.Fields("Gen7").Value)))
-            .Add(New ReportParameter("Gen8", Util.checkDBNullValue(rs.Fields("Gen8").Value)))
-            .Add(New ReportParameter("Gen9", Util.checkDBNullValue(rs.Fields("Gen9").Value)))
-            .Add(New ReportParameter("Gen10", Util.checkDBNullValue(rs.Fields("Gen10").Value)))
-            .Add(New ReportParameter("Gen11", Util.checkDBNullValue(rs.Fields("Gen11").Value)))
-            .Add(New ReportParameter("Gen12", Util.checkDBNullValue(rs.Fields("Gen12").Value)))
-            .Add(New ReportParameter("Gen13", Util.checkDBNullValue(rs.Fields("Gen13").Value)))
-            .Add(New ReportParameter("Gen14", Util.checkDBNullValue(rs.Fields("Gen14").Value)))
-            .Add(New ReportParameter("Gen15", Util.checkDBNullValue(rs.Fields("Gen15").Value)))
-            .Add(New ReportParameter("Gen16", Util.checkDBNullValue(rs.Fields("Gen16").Value)))
-            .Add(New ReportParameter("Gen17", Util.checkDBNullValue(rs.Fields("Gen17").Value)))
-            .Add(New ReportParameter("Gen18", Util.checkDBNullValue(rs.Fields("Gen18").Value)))
-            .Add(New ReportParameter("Gen19", Util.checkDBNullValue(rs.Fields("Gen19").Value)))
-            .Add(New ReportParameter("Gen20", Util.checkDBNullValue(rs.Fields("Gen20").Value)))
-            .Add(New ReportParameter("Gen21", Util.checkDBNullValue(rs.Fields("Gen21").Value)))
-            .Add(New ReportParameter("Gen22", Util.checkDBNullValue(rs.Fields("Gen22").Value)))
-            .Add(New ReportParameter("Gen23", Util.checkDBNullValue(rs.Fields("Gen23").Value)))
-            .Add(New ReportParameter("Num1", Util.checkDBNullValue(rs.Fields("Num1").Value)))
-            .Add(New ReportParameter("Num2", Util.checkDBNullValue(rs.Fields("Num2").Value)))
-            .Add(New ReportParameter("Num3", Util.checkDBNullValue(rs.Fields("Num3").Value)))
-            .Add(New ReportParameter("Num4", Util.checkDBNullValue(rs.Fields("Num4").Value)))
-            .Add(New ReportParameter("Num5", Util.checkDBNullValue(rs.Fields("Num5").Value)))
-            .Add(New ReportParameter("Num6", Util.checkDBNullValue(rs.Fields("Num6").Value)))
-            .Add(New ReportParameter("Num7", Util.checkDBNullValue(rs.Fields("Num7").Value)))
-            .Add(New ReportParameter("Num8", Util.checkDBNullValue(rs.Fields("Num8").Value)))
-            .Add(New ReportParameter("Num9", Util.checkDBNullValue(rs.Fields("Num9").Value)))
-            .Add(New ReportParameter("Num10", Util.checkDBNullValue(rs.Fields("Num10").Value)))
-            .Add(New ReportParameter("Num11", Util.checkDBNullValue(rs.Fields("Num11").Value)))
-            .Add(New ReportParameter("Num12", Util.checkDBNullValue(rs.Fields("Num12").Value)))
-            .Add(New ReportParameter("Num13", Util.checkDBNullValue(rs.Fields("Num13").Value)))
-            .Add(New ReportParameter("Num14", Util.checkDBNullValue(rs.Fields("Num14").Value)))
-            .Add(New ReportParameter("Num15", Util.checkDBNullValue(rs.Fields("Num15").Value)))
-            .Add(New ReportParameter("Num16", Util.checkDBNullValue(rs.Fields("Num16").Value)))
-            .Add(New ReportParameter("Num17", Util.checkDBNullValue(rs.Fields("Num17").Value)))
-            .Add(New ReportParameter("Num18", Util.checkDBNullValue(rs.Fields("Num18").Value)))
-            .Add(New ReportParameter("Num19", Util.checkDBNullValue(rs.Fields("Num19").Value)))
-            .Add(New ReportParameter("Num20", Util.checkDBNullValue(rs.Fields("Num20").Value)))
-            .Add(New ReportParameter("Num21", Util.checkDBNullValue(rs.Fields("Num21").Value)))
-            .Add(New ReportParameter("Gentxt1", Util.checkDBNullValue(rs.Fields("Gentxt1").Value)))
-            .Add(New ReportParameter("Gentxt2", Util.checkDBNullValue(rs.Fields("Gentxt2").Value)))
-            .Add(New ReportParameter("Name", Util.checkDBNullValue(rs.Fields("Name").Value)))
-            .Add(New ReportParameter("Pn31", Util.checkDBNullValue(rs.Fields("Pn31").Value)))
-            .Add(New ReportParameter("Pn32", Util.checkDBNullValue(rs.Fields("Pn32").Value)))
-            .Add(New ReportParameter("Ad3", Util.checkDBNullValue(rs.Fields("Ad3").Value)))
-            .Add(New ReportParameter("Tel31", Util.checkDBNullValue(rs.Fields("Tel31").Value)))
-            .Add(New ReportParameter("Tel32", Util.checkDBNullValue(rs.Fields("Tel32").Value)))
-            .Add(New ReportParameter("Tel33", Util.checkDBNullValue(rs.Fields("Tel33").Value)))
-            .Add(New ReportParameter("Stay1", Util.checkDBNullValue(rs.Fields("Stay1").Value)))
-            .Add(New ReportParameter("Stay2", Util.checkDBNullValue(rs.Fields("Stay2").Value)))
-            .Add(New ReportParameter("Stay3", Util.checkDBNullValue(rs.Fields("Stay3").Value)))
-            .Add(New ReportParameter("Stay4", Util.checkDBNullValue(rs.Fields("Stay4").Value)))
-            .Add(New ReportParameter("Stay5", Util.checkDBNullValue(rs.Fields("Stay5").Value)))
-            .Add(New ReportParameter("Stay6", Util.checkDBNullValue(rs.Fields("Stay6").Value)))
-            .Add(New ReportParameter("Stay7", Util.checkDBNullValue(rs.Fields("Stay7").Value)))
-            .Add(New ReportParameter("Stay8", Util.checkDBNullValue(rs.Fields("Stay8").Value)))
-            .Add(New ReportParameter("GTokki1", Util.checkDBNullValue(rs.Fields("GTokki1").Value)))
-            .Add(New ReportParameter("GTokki2", Util.checkDBNullValue(rs.Fields("GTokki2").Value)))
-            .Add(New ReportParameter("GTokki3", Util.checkDBNullValue(rs.Fields("GTokki3").Value)))
-            .Add(New ReportParameter("GTokki4", Util.checkDBNullValue(rs.Fields("GTokki4").Value)))
-            .Add(New ReportParameter("Ymd1Era", ymd1Era))
-            .Add(New ReportParameter("Ymd1Month", ymd1Month))
-            .Add(New ReportParameter("Ymd1Day", ymd1Day))
-            .Add(New ReportParameter("Ymd1Kanji", ymd1Kanji))
-            .Add(New ReportParameter("Ymd2Era", ymd2Era))
-            .Add(New ReportParameter("Ymd2Month", ymd2Month))
-            .Add(New ReportParameter("Ymd2Day", ymd2Day))
-            .Add(New ReportParameter("Ymd2Kanji", ymd2Kanji))
-            .Add(New ReportParameter("Ymd3Era", ymd3Era))
-            .Add(New ReportParameter("Ymd3Month", ymd3Month))
-            .Add(New ReportParameter("Ymd3Day", ymd3Day))
-            .Add(New ReportParameter("Ymd3Kanji", ymd3Kanji))
 
-            '2ページ目以降のデータ
-            rs.Close()
-            sql = "select * from Auth2 where Nam='" & userName & "' and Ymd='" & ymd1 & "' order by Gyo"
-            rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockPessimistic)
-            For i = 0 To 186
-                If i <= 4 Then
-                    .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
-                    .Add(New ReportParameter("Gyo_" & i & "_Ch2", Util.checkDBNullValue(rs.Fields("Ch2").Value)))
-                    .Add(New ReportParameter("Gyo_" & i & "_Ch3", Util.checkDBNullValue(rs.Fields("Ch3").Value)))
-                    .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
-                ElseIf i <= 5 Then
-                    .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
-                    .Add(New ReportParameter("Gyo_" & i & "_Ch2", Util.checkDBNullValue(rs.Fields("Ch2").Value)))
-                    .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
-                ElseIf i <= 11 Then
-                    .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
-                    .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
-                Else
-                    .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
-                End If
-                rs.MoveNext()
-            Next
-        End With
+        'エクセル使わないver
+        'Dim Parameters As New List(Of ReportParameter)
+        'With Parameters
+        '    '1ページ目
+        '    .Add(New ReportParameter("GDay1", Util.checkDBNullValue(rs.Fields("GDay1").Value)))
+        '    .Add(New ReportParameter("GDay2", Util.checkDBNullValue(rs.Fields("GDay2").Value)))
+        '    .Add(New ReportParameter("GDay3", Util.checkDBNullValue(rs.Fields("GDay3").Value)))
+        '    .Add(New ReportParameter("GDay4", Util.checkDBNullValue(rs.Fields("GDay4").Value)))
+        '    .Add(New ReportParameter("GDay5", Util.checkDBNullValue(rs.Fields("GDay5").Value)))
+        '    .Add(New ReportParameter("GDay6", Util.checkDBNullValue(rs.Fields("GDay6").Value)))
+        '    .Add(New ReportParameter("GNum1", Util.checkDBNullValue(rs.Fields("GNum1").Value)))
+        '    .Add(New ReportParameter("GNum2", Util.checkDBNullValue(rs.Fields("GNum2").Value)))
+        '    .Add(New ReportParameter("GNum3", Util.checkDBNullValue(rs.Fields("GNum3").Value)))
+        '    .Add(New ReportParameter("GNum4", Util.checkDBNullValue(rs.Fields("GNum4").Value)))
+        '    .Add(New ReportParameter("GNum5", Util.checkDBNullValue(rs.Fields("GNum5").Value)))
+        '    .Add(New ReportParameter("GNum6", Util.checkDBNullValue(rs.Fields("GNum6").Value)))
+        '    .Add(New ReportParameter("GNum7", Util.checkDBNullValue(rs.Fields("GNum7").Value)))
+        '    .Add(New ReportParameter("GNum8", Util.checkDBNullValue(rs.Fields("GNum8").Value)))
+        '    .Add(New ReportParameter("GNum9", Util.checkDBNullValue(rs.Fields("GNum9").Value)))
+        '    .Add(New ReportParameter("GNum10", Util.checkDBNullValue(rs.Fields("GNum10").Value)))
+        '    .Add(New ReportParameter("Tanto", Util.checkDBNullValue(rs.Fields("Tanto").Value)))
+        '    .Add(New ReportParameter("Kikan", Util.checkDBNullValue(rs.Fields("Kikan").Value)))
+        '    .Add(New ReportParameter("Home", Util.checkDBNullValue(rs.Fields("Home").Value)))
+        '    .Add(New ReportParameter("Nonhm", Util.checkDBNullValue(rs.Fields("Nonhm").Value)))
+        '    .Add(New ReportParameter("Kako", Util.checkDBNullValue(rs.Fields("Kako").Value)))
+        '    .Add(New ReportParameter("Kai", Util.checkDBNullValue(rs.Fields("Kai").Value)))
+        '    .Add(New ReportParameter("Kana", Util.checkDBNullValue(rs.Fields("Kana").Value)))
+        '    .Add(New ReportParameter("Nam", Util.checkDBNullValue(rs.Fields("Nam").Value)))
+        '    .Add(New ReportParameter("Sex", Util.checkDBNullValue(rs.Fields("Sex").Value)))
+        '    .Add(New ReportParameter("Age", Util.checkDBNullValue(rs.Fields("Age").Value)))
+        '    .Add(New ReportParameter("Pn11", Util.checkDBNullValue(rs.Fields("Pn11").Value)))
+        '    .Add(New ReportParameter("Pn12", Util.checkDBNullValue(rs.Fields("Pn12").Value)))
+        '    .Add(New ReportParameter("Ad1", Util.checkDBNullValue(rs.Fields("Ad1").Value)))
+        '    .Add(New ReportParameter("Tel11", Util.checkDBNullValue(rs.Fields("Tel11").Value)))
+        '    .Add(New ReportParameter("Tel12", Util.checkDBNullValue(rs.Fields("Tel12").Value)))
+        '    .Add(New ReportParameter("Tel13", Util.checkDBNullValue(rs.Fields("Tel13").Value)))
+        '    .Add(New ReportParameter("Pn21", Util.checkDBNullValue(rs.Fields("Pn21").Value)))
+        '    .Add(New ReportParameter("Pn22", Util.checkDBNullValue(rs.Fields("Pn22").Value)))
+        '    .Add(New ReportParameter("Ad2", Util.checkDBNullValue(rs.Fields("Ad2").Value)))
+        '    .Add(New ReportParameter("Tel21", Util.checkDBNullValue(rs.Fields("Tel21").Value)))
+        '    .Add(New ReportParameter("Tel22", Util.checkDBNullValue(rs.Fields("Tel22").Value)))
+        '    .Add(New ReportParameter("Tel23", Util.checkDBNullValue(rs.Fields("Tel23").Value)))
+        '    .Add(New ReportParameter("Fa", Util.checkDBNullValue(rs.Fields("Fa").Value)))
+        '    .Add(New ReportParameter("Far", Util.checkDBNullValue(rs.Fields("Far").Value)))
+        '    .Add(New ReportParameter("Gen1", Util.checkDBNullValue(rs.Fields("Gen1").Value)))
+        '    .Add(New ReportParameter("Gen2", Util.checkDBNullValue(rs.Fields("Gen2").Value)))
+        '    .Add(New ReportParameter("Gen3", Util.checkDBNullValue(rs.Fields("Gen3").Value)))
+        '    .Add(New ReportParameter("Gen4", Util.checkDBNullValue(rs.Fields("Gen4").Value)))
+        '    .Add(New ReportParameter("Gen5", Util.checkDBNullValue(rs.Fields("Gen5").Value)))
+        '    .Add(New ReportParameter("Gen6", Util.checkDBNullValue(rs.Fields("Gen6").Value)))
+        '    .Add(New ReportParameter("Gen7", Util.checkDBNullValue(rs.Fields("Gen7").Value)))
+        '    .Add(New ReportParameter("Gen8", Util.checkDBNullValue(rs.Fields("Gen8").Value)))
+        '    .Add(New ReportParameter("Gen9", Util.checkDBNullValue(rs.Fields("Gen9").Value)))
+        '    .Add(New ReportParameter("Gen10", Util.checkDBNullValue(rs.Fields("Gen10").Value)))
+        '    .Add(New ReportParameter("Gen11", Util.checkDBNullValue(rs.Fields("Gen11").Value)))
+        '    .Add(New ReportParameter("Gen12", Util.checkDBNullValue(rs.Fields("Gen12").Value)))
+        '    .Add(New ReportParameter("Gen13", Util.checkDBNullValue(rs.Fields("Gen13").Value)))
+        '    .Add(New ReportParameter("Gen14", Util.checkDBNullValue(rs.Fields("Gen14").Value)))
+        '    .Add(New ReportParameter("Gen15", Util.checkDBNullValue(rs.Fields("Gen15").Value)))
+        '    .Add(New ReportParameter("Gen16", Util.checkDBNullValue(rs.Fields("Gen16").Value)))
+        '    .Add(New ReportParameter("Gen17", Util.checkDBNullValue(rs.Fields("Gen17").Value)))
+        '    .Add(New ReportParameter("Gen18", Util.checkDBNullValue(rs.Fields("Gen18").Value)))
+        '    .Add(New ReportParameter("Gen19", Util.checkDBNullValue(rs.Fields("Gen19").Value)))
+        '    .Add(New ReportParameter("Gen20", Util.checkDBNullValue(rs.Fields("Gen20").Value)))
+        '    .Add(New ReportParameter("Gen21", Util.checkDBNullValue(rs.Fields("Gen21").Value)))
+        '    .Add(New ReportParameter("Gen22", Util.checkDBNullValue(rs.Fields("Gen22").Value)))
+        '    .Add(New ReportParameter("Gen23", Util.checkDBNullValue(rs.Fields("Gen23").Value)))
+        '    .Add(New ReportParameter("Num1", Util.checkDBNullValue(rs.Fields("Num1").Value)))
+        '    .Add(New ReportParameter("Num2", Util.checkDBNullValue(rs.Fields("Num2").Value)))
+        '    .Add(New ReportParameter("Num3", Util.checkDBNullValue(rs.Fields("Num3").Value)))
+        '    .Add(New ReportParameter("Num4", Util.checkDBNullValue(rs.Fields("Num4").Value)))
+        '    .Add(New ReportParameter("Num5", Util.checkDBNullValue(rs.Fields("Num5").Value)))
+        '    .Add(New ReportParameter("Num6", Util.checkDBNullValue(rs.Fields("Num6").Value)))
+        '    .Add(New ReportParameter("Num7", Util.checkDBNullValue(rs.Fields("Num7").Value)))
+        '    .Add(New ReportParameter("Num8", Util.checkDBNullValue(rs.Fields("Num8").Value)))
+        '    .Add(New ReportParameter("Num9", Util.checkDBNullValue(rs.Fields("Num9").Value)))
+        '    .Add(New ReportParameter("Num10", Util.checkDBNullValue(rs.Fields("Num10").Value)))
+        '    .Add(New ReportParameter("Num11", Util.checkDBNullValue(rs.Fields("Num11").Value)))
+        '    .Add(New ReportParameter("Num12", Util.checkDBNullValue(rs.Fields("Num12").Value)))
+        '    .Add(New ReportParameter("Num13", Util.checkDBNullValue(rs.Fields("Num13").Value)))
+        '    .Add(New ReportParameter("Num14", Util.checkDBNullValue(rs.Fields("Num14").Value)))
+        '    .Add(New ReportParameter("Num15", Util.checkDBNullValue(rs.Fields("Num15").Value)))
+        '    .Add(New ReportParameter("Num16", Util.checkDBNullValue(rs.Fields("Num16").Value)))
+        '    .Add(New ReportParameter("Num17", Util.checkDBNullValue(rs.Fields("Num17").Value)))
+        '    .Add(New ReportParameter("Num18", Util.checkDBNullValue(rs.Fields("Num18").Value)))
+        '    .Add(New ReportParameter("Num19", Util.checkDBNullValue(rs.Fields("Num19").Value)))
+        '    .Add(New ReportParameter("Num20", Util.checkDBNullValue(rs.Fields("Num20").Value)))
+        '    .Add(New ReportParameter("Num21", Util.checkDBNullValue(rs.Fields("Num21").Value)))
+        '    .Add(New ReportParameter("Gentxt1", Util.checkDBNullValue(rs.Fields("Gentxt1").Value)))
+        '    .Add(New ReportParameter("Gentxt2", Util.checkDBNullValue(rs.Fields("Gentxt2").Value)))
+        '    .Add(New ReportParameter("Name", Util.checkDBNullValue(rs.Fields("Name").Value)))
+        '    .Add(New ReportParameter("Pn31", Util.checkDBNullValue(rs.Fields("Pn31").Value)))
+        '    .Add(New ReportParameter("Pn32", Util.checkDBNullValue(rs.Fields("Pn32").Value)))
+        '    .Add(New ReportParameter("Ad3", Util.checkDBNullValue(rs.Fields("Ad3").Value)))
+        '    .Add(New ReportParameter("Tel31", Util.checkDBNullValue(rs.Fields("Tel31").Value)))
+        '    .Add(New ReportParameter("Tel32", Util.checkDBNullValue(rs.Fields("Tel32").Value)))
+        '    .Add(New ReportParameter("Tel33", Util.checkDBNullValue(rs.Fields("Tel33").Value)))
+        '    .Add(New ReportParameter("Stay1", Util.checkDBNullValue(rs.Fields("Stay1").Value)))
+        '    .Add(New ReportParameter("Stay2", Util.checkDBNullValue(rs.Fields("Stay2").Value)))
+        '    .Add(New ReportParameter("Stay3", Util.checkDBNullValue(rs.Fields("Stay3").Value)))
+        '    .Add(New ReportParameter("Stay4", Util.checkDBNullValue(rs.Fields("Stay4").Value)))
+        '    .Add(New ReportParameter("Stay5", Util.checkDBNullValue(rs.Fields("Stay5").Value)))
+        '    .Add(New ReportParameter("Stay6", Util.checkDBNullValue(rs.Fields("Stay6").Value)))
+        '    .Add(New ReportParameter("Stay7", Util.checkDBNullValue(rs.Fields("Stay7").Value)))
+        '    .Add(New ReportParameter("Stay8", Util.checkDBNullValue(rs.Fields("Stay8").Value)))
+        '    .Add(New ReportParameter("GTokki1", Util.checkDBNullValue(rs.Fields("GTokki1").Value)))
+        '    .Add(New ReportParameter("GTokki2", Util.checkDBNullValue(rs.Fields("GTokki2").Value)))
+        '    .Add(New ReportParameter("GTokki3", Util.checkDBNullValue(rs.Fields("GTokki3").Value)))
+        '    .Add(New ReportParameter("GTokki4", Util.checkDBNullValue(rs.Fields("GTokki4").Value)))
+        '    .Add(New ReportParameter("Ymd1Era", ymd1Era))
+        '    .Add(New ReportParameter("Ymd1Month", ymd1Month))
+        '    .Add(New ReportParameter("Ymd1Day", ymd1Day))
+        '    .Add(New ReportParameter("Ymd1Kanji", ymd1Kanji))
+        '    .Add(New ReportParameter("Ymd2Era", ymd2Era))
+        '    .Add(New ReportParameter("Ymd2Month", ymd2Month))
+        '    .Add(New ReportParameter("Ymd2Day", ymd2Day))
+        '    .Add(New ReportParameter("Ymd2Kanji", ymd2Kanji))
+        '    .Add(New ReportParameter("Ymd3Era", ymd3Era))
+        '    .Add(New ReportParameter("Ymd3Month", ymd3Month))
+        '    .Add(New ReportParameter("Ymd3Day", ymd3Day))
+        '    .Add(New ReportParameter("Ymd3Kanji", ymd3Kanji))
+
+        '    '2ページ目以降のデータ
+        '    rs.Close()
+        '    sql = "select * from Auth2 where Nam='" & userName & "' and Ymd='" & ymd1 & "' order by Gyo"
+        '    rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockPessimistic)
+        '    For i = 0 To 186
+        '        If i <= 4 Then
+        '            .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
+        '            .Add(New ReportParameter("Gyo_" & i & "_Ch2", Util.checkDBNullValue(rs.Fields("Ch2").Value)))
+        '            .Add(New ReportParameter("Gyo_" & i & "_Ch3", Util.checkDBNullValue(rs.Fields("Ch3").Value)))
+        '            .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
+        '        ElseIf i <= 5 Then
+        '            .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
+        '            .Add(New ReportParameter("Gyo_" & i & "_Ch2", Util.checkDBNullValue(rs.Fields("Ch2").Value)))
+        '            .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
+        '        ElseIf i <= 11 Then
+        '            .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
+        '            .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
+        '        Else
+        '            .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
+        '        End If
+        '        rs.MoveNext()
+        '    Next
+        'End With
+        'rs.Close()
+
+        'Dim printViewerForm As New 印刷フォーム(Parameters)
+        'printViewerForm.Show()
+
+
+
+        Dim gDay(5) As String
+        Dim gNum(9) As String
+
+        Dim objExcel As Object
+        Dim objWorkBooks As Object
+        Dim objWorkBook As Object
+        Dim oSheet As Object
+        Dim border As Object
+
+        objExcel = CreateObject("Excel.Application")
+        objWorkBooks = objExcel.Workbooks
+        objWorkBook = objWorkBooks.Open(topForm.excelFilePass)
+
+        '概況調査シート
+        oSheet = objWorkBook.Worksheets("概況調査改")
+        '調査日番号
+        For i = 0 To 5
+            gDay(i) = Util.checkDBNullValue(rs.Fields("GDay" & (i + 1)).Value)
+        Next
+        oSheet.Range("B4").value = gDay(0)
+        oSheet.Range("D4").value = gDay(1)
+        oSheet.Range("F4").value = gDay(2)
+        oSheet.Range("G4").value = gDay(3)
+        oSheet.Range("I4").value = gDay(4)
+        oSheet.Range("L4").value = gDay(5)
+        '被保険者番号
+        For i = 0 To 9
+            gNum(i) = Util.checkDBNullValue(rs.Fields("GNum" & (i + 1)).Value)
+        Next
+        oSheet.Range("AJ4").value = gNum(0)
+        oSheet.Range("AO4").value = gNum(1)
+        oSheet.Range("AR4").value = gNum(2)
+        oSheet.Range("AV4").value = gNum(3)
+        oSheet.Range("AX4").value = gNum(4)
+        oSheet.Range("BB4").value = gNum(5)
+        oSheet.Range("BG4").value = gNum(6)
+        oSheet.Range("BL4").value = gNum(7)
+        oSheet.Range("BP4").value = gNum(8)
+        oSheet.Range("BV4").value = gNum(9)
+        '実施日時
+        oSheet.Range("H10").value = ymd1Kanji
+        oSheet.Range("J10").value = ymd1Era
+        oSheet.Range("N10").value = ymd1Month
+        oSheet.Range("T10").value = ymd1Day
+        '実施場所
+        oSheet.Range("AF11").value = "自宅内"
+        oSheet.Range("AO11").value = "自宅外"
+        If Util.checkDBNullValue(rs.Fields("Home").Value) = "0" Then
+            border = oSheet.Range("AF11", "AK11").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AF11", "AK11").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AF11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AL11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf Util.checkDBNullValue(rs.Fields("Home").Value) = "1" Then
+            border = oSheet.Range("AO11", "AS11").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AO11", "AS11").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AO11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AT11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        End If
+        oSheet.Range("AU11").value = Util.checkDBNullValue(rs.Fields("Nonhm").Value) '自宅外テキスト
+        oSheet.Range("I13").value = If(Util.checkDBNullValue(rs.Fields("Tanto").Value) = "河合　哲也", "ｶﾜｲ ﾃﾂﾔ", "") '記入者フリガナ
+        oSheet.Range("I14").value = Util.checkDBNullValue(rs.Fields("Tanto").Value) '記入者氏名
+        oSheet.Range("AR13").value = Util.checkDBNullValue(rs.Fields("Kikan").Value) '所属機関
+        '過去の認定
+        oSheet.Range("K19").value = "初回"
+        oSheet.Range("Q19").value = "2回め以降"
+        If Util.checkDBNullValue(rs.Fields("Kako").Value) = "0" Then
+            border = oSheet.Range("K19", "N19").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("K20", "N20").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("K19", "K20").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("O19", "O20").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf Util.checkDBNullValue(rs.Fields("Kako").Value) = "1" Then
+            border = oSheet.Range("Q19", "Y19").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("Q20", "Y20").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("Q19", "Q20").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("Z19", "Z20").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        End If
+        '前回認定
+        oSheet.Range("P21").value = ymd2Char & ymd2Era
+        oSheet.Range("U21").value = ymd2Month
+        oSheet.Range("Y21").value = ymd2Day
+        '前回認定結果
+        oSheet.Range("AT20").value = "非該当"
+        oSheet.Range("AX20").value = "要支援"
+        oSheet.Range("BK20").value = "要介護"
+        If Util.checkDBNullValue(rs.Fields("Kai").Value) = "" Then
+            oSheet.Range("BF20").value = ""
+            oSheet.Range("BR20").value = ""
+        ElseIf Util.checkDBNullValue(rs.Fields("Kai").Value) = "0" Then
+            border = oSheet.Range("AT20", "AV20").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AT21", "AV21").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AT20", "AT21").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AW20", "AW21").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            oSheet.Range("BF20").value = ""
+            oSheet.Range("BR20").value = ""
+        ElseIf (Util.checkDBNullValue(rs.Fields("Kai").Value) = "1") OrElse (Util.checkDBNullValue(rs.Fields("Kai").Value) = "2") Then
+            border = oSheet.Range("AX20", "BB20").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AX21", "BB21").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AX20", "AX21").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BC20", "BC21").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            oSheet.Range("BF20").value = rs.Fields("Kai").Value
+            oSheet.Range("BR20").value = ""
+        ElseIf Util.checkDBNullValue(rs.Fields("Kai").Value) <= "7" Then
+            border = oSheet.Range("BK20", "BN20").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BK21", "BN21").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BK20", "BK21").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BO20", "BO21").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            oSheet.Range("BF20").value = ""
+            oSheet.Range("BR20").value = (rs.Fields("Kai").Value - 2)
+        End If
+        oSheet.Range("I23").value = Util.checkDBNullValue(rs.Fields("Kana").Value) 'ふりがな
+        oSheet.Range("I26").value = Util.checkDBNullValue(rs.Fields("Nam").Value) '対象者氏名
+        '性別
+        oSheet.Range("AK25").value = "男"
+        oSheet.Range("AP25").value = "女"
+        If Util.checkDBNullValue(rs.Fields("Sex").Value) = "0" Then
+            border = oSheet.Range("AK25", "AM25").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AK27", "AM27").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AK25", "AK27").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AN25", "AN27").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf Util.checkDBNullValue(rs.Fields("Sex").Value) = "1" Then
+            border = oSheet.Range("AP25", "AP25").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AP27", "AP27").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AP25", "AP27").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AQ25", "AQ27").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        End If
+        '生年月日
+        oSheet.Range("AY24").value = "明治"
+        oSheet.Range("BC24").value = "大正"
+        oSheet.Range("BH24").value = "昭和"
+        oSheet.Range("BL24").value = "平成"
+        If ymd3Kanji = "明治" Then
+            border = oSheet.Range("AY24", "AZ24").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AY26", "AZ26").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AY24", "AY26").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BA24", "BA26").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf ymd3Kanji = "大正" Then
+            border = oSheet.Range("BC24", "BE24").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BC26", "BE26").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BC24", "BC26").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BF24", "BF26").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf ymd3Kanji = "昭和" Then
+            border = oSheet.Range("BH24", "BJ24").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BH26", "BJ26").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BH24", "BH26").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BK24", "BK26").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf ymd3Kanji = "平成" Then
+            border = oSheet.Range("BL24", "BM24").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BL26", "BM26").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BL24", "BL26").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BN24", "BN26").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        End If
+        oSheet.Range("AY27").value = ymd3Era
+        oSheet.Range("BE27").value = ymd3Month
+        oSheet.Range("BJ27").value = ymd3Day
+        oSheet.Range("BP27").value = Util.checkDBNullValue(rs.Fields("Age").Value)
+        '現在所
+        oSheet.Range("J29").value = Util.checkDBNullValue(rs.Fields("Pn11").Value)
+        oSheet.Range("P29").value = Util.checkDBNullValue(rs.Fields("Pn12").Value)
+        oSheet.Range("I30").value = Util.checkDBNullValue(rs.Fields("Ad1").Value)
+        oSheet.Range("AY29").value = Util.checkDBNullValue(rs.Fields("Tel11").Value)
+        oSheet.Range("BE29").value = Util.checkDBNullValue(rs.Fields("Tel12").Value)
+        oSheet.Range("BN29").value = Util.checkDBNullValue(rs.Fields("Tel13").Value)
+        '家族等連絡先
+        oSheet.Range("J31").value = Util.checkDBNullValue(rs.Fields("Pn21").Value)
+        oSheet.Range("P31").value = Util.checkDBNullValue(rs.Fields("Pn22").Value)
+        oSheet.Range("I32").value = Util.checkDBNullValue(rs.Fields("Ad2").Value)
+        oSheet.Range("AY31").value = Util.checkDBNullValue(rs.Fields("Tel21").Value)
+        oSheet.Range("BE31").value = Util.checkDBNullValue(rs.Fields("Tel22").Value)
+        oSheet.Range("BN31").value = Util.checkDBNullValue(rs.Fields("Tel23").Value)
+        oSheet.Range("K33").value = Util.checkDBNullValue(rs.Fields("Fa").Value)
+        oSheet.Range("AM33").value = Util.checkDBNullValue(rs.Fields("Far").Value)
+        '在宅利用
+        'チェックボックス部分
+        oSheet.Range("D41").value = If(Util.checkDBNullValue(rs.Fields("Gen1").Value) = "1", "レ", "")
+        oSheet.Range("D44").value = If(Util.checkDBNullValue(rs.Fields("Gen2").Value) = "1", "レ", "")
+        oSheet.Range("D47").value = If(Util.checkDBNullValue(rs.Fields("Gen3").Value) = "1", "レ", "")
+        oSheet.Range("D50").value = If(Util.checkDBNullValue(rs.Fields("Gen4").Value) = "1", "レ", "")
+        oSheet.Range("D53").value = If(Util.checkDBNullValue(rs.Fields("Gen5").Value) = "1", "レ", "")
+        oSheet.Range("D56").value = If(Util.checkDBNullValue(rs.Fields("Gen6").Value) = "1", "レ", "")
+        oSheet.Range("D59").value = If(Util.checkDBNullValue(rs.Fields("Gen7").Value) = "1", "レ", "")
+        oSheet.Range("D62").value = If(Util.checkDBNullValue(rs.Fields("Gen8").Value) = "1", "レ", "")
+        oSheet.Range("D65").value = If(Util.checkDBNullValue(rs.Fields("Gen9").Value) = "1", "レ", "")
+        oSheet.Range("D68").value = If(Util.checkDBNullValue(rs.Fields("Gen10").Value) = "1", "レ", "")
+        oSheet.Range("AI41").value = If(Util.checkDBNullValue(rs.Fields("Gen11").Value) = "1", "レ", "")
+        oSheet.Range("AI44").value = If(Util.checkDBNullValue(rs.Fields("Gen12").Value) = "1", "レ", "")
+        oSheet.Range("AI47").value = If(Util.checkDBNullValue(rs.Fields("Gen13").Value) = "1", "レ", "")
+        oSheet.Range("AI50").value = If(Util.checkDBNullValue(rs.Fields("Gen14").Value) = "1", "レ", "")
+        oSheet.Range("AI53").value = If(Util.checkDBNullValue(rs.Fields("Gen15").Value) = "1", "レ", "")
+        oSheet.Range("AI56").value = If(Util.checkDBNullValue(rs.Fields("Gen16").Value) = "1", "レ", "")
+        oSheet.Range("AI59").value = If(Util.checkDBNullValue(rs.Fields("Gen17").Value) = "1", "レ", "")
+        oSheet.Range("AI62").value = If(Util.checkDBNullValue(rs.Fields("Gen18").Value) = "1", "レ", "")
+        oSheet.Range("AI65").value = If(Util.checkDBNullValue(rs.Fields("Gen19").Value) = "1", "レ", "")
+        oSheet.Range("AI68").value = If(Util.checkDBNullValue(rs.Fields("Gen20").Value) = "1", "レ", "")
+        oSheet.Range("D74").value = If(Util.checkDBNullValue(rs.Fields("Gen21").Value) = "1", "レ", "")
+        oSheet.Range("D77").value = If(Util.checkDBNullValue(rs.Fields("Gen22").Value) = "1", "レ", "")
+        oSheet.Range("D71").value = If(Util.checkDBNullValue(rs.Fields("Gen23").Value) = "1", "レ", "")
+        '回数部分
+        oSheet.Range("AB41").value = Util.checkDBNullValue(rs.Fields("Num1").Value)
+        oSheet.Range("AB44").value = Util.checkDBNullValue(rs.Fields("Num2").Value)
+        oSheet.Range("AB47").value = Util.checkDBNullValue(rs.Fields("Num3").Value)
+        oSheet.Range("AB50").value = Util.checkDBNullValue(rs.Fields("Num4").Value)
+        oSheet.Range("AB53").value = Util.checkDBNullValue(rs.Fields("Num5").Value)
+        oSheet.Range("AB56").value = Util.checkDBNullValue(rs.Fields("Num6").Value)
+        oSheet.Range("AB59").value = Util.checkDBNullValue(rs.Fields("Num7").Value)
+        oSheet.Range("AB62").value = Util.checkDBNullValue(rs.Fields("Num8").Value)
+        oSheet.Range("AB65").value = Util.checkDBNullValue(rs.Fields("Num9").Value)
+        oSheet.Range("AB68").value = Util.checkDBNullValue(rs.Fields("Num10").Value)
+        oSheet.Range("BN41").value = Util.checkDBNullValue(rs.Fields("Num11").Value)
+        oSheet.Range("BN44").value = Util.checkDBNullValue(rs.Fields("Num12").Value)
+        oSheet.Range("BO47").value = "ある"
+        oSheet.Range("BU47").value = "なし"
+        If Util.checkDBNullValue(rs.Fields("Num13").Value) = "1" Then
+            border = oSheet.Range("BO47", "BR47").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BO47", "BR47").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BO47").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BS47").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf Util.checkDBNullValue(rs.Fields("Num13").Value) = "2" Then
+            border = oSheet.Range("BU47", "BV47").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BU47", "BV47").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BU47").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("BW47").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        End If
+        oSheet.Range("BR50").value = Util.checkDBNullValue(rs.Fields("Num14").Value)
+        oSheet.Range("BR53").value = Util.checkDBNullValue(rs.Fields("Num15").Value)
+        oSheet.Range("BR56").value = Util.checkDBNullValue(rs.Fields("Num16").Value)
+        oSheet.Range("BR59").value = Util.checkDBNullValue(rs.Fields("Num17").Value)
+        oSheet.Range("BR62").value = Util.checkDBNullValue(rs.Fields("Num18").Value)
+        oSheet.Range("BR65").value = Util.checkDBNullValue(rs.Fields("Num19").Value)
+        oSheet.Range("BR68").value = Util.checkDBNullValue(rs.Fields("Num20").Value)
+        oSheet.Range("AB71").value = Util.checkDBNullValue(rs.Fields("Num21").Value)
+        oSheet.Range("J74").value = Util.checkDBNullValue(rs.Fields("Gentxt1").Value)
+        oSheet.Range("T77").value = Util.checkDBNullValue(rs.Fields("Gentxt2").Value)
+        '利用施設
+        'チェックボックス部分
+        oSheet.Range("D83").value = If(Util.checkDBNullValue(rs.Fields("Stay1").Value) = "1", "レ", "")
+        oSheet.Range("D86").value = If(Util.checkDBNullValue(rs.Fields("Stay2").Value) = "1", "レ", "")
+        oSheet.Range("D89").value = If(Util.checkDBNullValue(rs.Fields("Stay3").Value) = "1", "レ", "")
+        oSheet.Range("D92").value = If(Util.checkDBNullValue(rs.Fields("Stay4").Value) = "1", "レ", "")
+        oSheet.Range("D95").value = If(Util.checkDBNullValue(rs.Fields("Stay5").Value) = "1", "レ", "")
+        oSheet.Range("D98").value = If(Util.checkDBNullValue(rs.Fields("Stay6").Value) = "1", "レ", "")
+        oSheet.Range("D101").value = If(Util.checkDBNullValue(rs.Fields("Stay7").Value) = "1", "レ", "")
+        oSheet.Range("D104").value = If(Util.checkDBNullValue(rs.Fields("Stay8").Value) = "1", "レ", "")
+        '施設連絡先
+        oSheet.Range("AQ84").value = Util.checkDBNullValue(rs.Fields("Name").Value) '施設名
+        oSheet.Range("AQ92").value = Util.checkDBNullValue(rs.Fields("Pn31").Value) '〒
+        oSheet.Range("AV92").value = Util.checkDBNullValue(rs.Fields("Pn32").Value) '〒
+        oSheet.Range("AQ94").value = Util.checkDBNullValue(rs.Fields("Ad3").Value) '住所
+        oSheet.Range("AW104").value = Util.checkDBNullValue(rs.Fields("Tel31").Value) '電話
+        oSheet.Range("BC104").value = Util.checkDBNullValue(rs.Fields("Tel32").Value) '電話
+        oSheet.Range("BL104").value = Util.checkDBNullValue(rs.Fields("Tel33").Value) '電話
+        'Ⅳ
+        oSheet.Range("D109").value = Util.checkDBNullValue(rs.Fields("GTokki1").Value)
+        oSheet.Range("D110").value = Util.checkDBNullValue(rs.Fields("GTokki2").Value)
+        oSheet.Range("D111").value = Util.checkDBNullValue(rs.Fields("GTokki3").Value)
+        oSheet.Range("D112").value = Util.checkDBNullValue(rs.Fields("GTokki4").Value)
+
+        '基本調査タブ用値取得
         rs.Close()
-        
-        Dim printViewerForm As New 印刷フォーム(Parameters)
-        printViewerForm.Show()
+        sql = "select * from Auth2 where Nam='" & userName & "' and Ymd='" & ymd1 & "' order by Gyo"
+        rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockPessimistic)
+        Dim opt4(186) As String
+        Dim ch2(5) As String
+        Dim ch3(4) As String
+        Dim ch4(11) As String
+        For i = 0 To 186
+            If i <= 4 Then
+                opt4(i) = Util.checkDBNullValue(rs.Fields("Opt4").Value)
+                ch2(i) = Util.checkDBNullValue(rs.Fields("Ch2").Value)
+                ch3(i) = Util.checkDBNullValue(rs.Fields("Ch3").Value)
+                ch4(i) = Util.checkDBNullValue(rs.Fields("Ch4").Value)
+            ElseIf i <= 5 Then
+                opt4(i) = Util.checkDBNullValue(rs.Fields("Opt4").Value)
+                ch2(i) = Util.checkDBNullValue(rs.Fields("Ch2").Value)
+                ch4(i) = Util.checkDBNullValue(rs.Fields("Ch4").Value)
+            ElseIf i <= 11 Then
+                opt4(i) = Util.checkDBNullValue(rs.Fields("Opt4").Value)
+                ch4(i) = Util.checkDBNullValue(rs.Fields("Ch4").Value)
+            Else
+                opt4(i) = Util.checkDBNullValue(rs.Fields("Opt4").Value)
+            End If
+            rs.MoveNext()
+        Next
+        rs.Close()
 
+        '基本調査1
+        oSheet = objWorkBook.Worksheets("基本調査1")
+        '調査日番号
+        oSheet.Range("B5").value = gDay(0)
+        oSheet.Range("D5").value = gDay(1)
+        oSheet.Range("F5").value = gDay(2)
+        oSheet.Range("G5").value = gDay(3)
+        oSheet.Range("J5").value = gDay(4)
+        oSheet.Range("L5").value = gDay(5)
+        '被保険者番号
+        oSheet.Range("X5").value = gNum(0)
+        oSheet.Range("Z5").value = gNum(1)
+        oSheet.Range("AB5").value = gNum(2)
+        oSheet.Range("AC5").value = gNum(3)
+        oSheet.Range("AE5").value = gNum(4)
+        oSheet.Range("AG5").value = gNum(5)
+        oSheet.Range("AI5").value = gNum(6)
+        oSheet.Range("AJ5").value = gNum(7)
+        oSheet.Range("AK5").value = gNum(8)
+        oSheet.Range("AL5").value = gNum(9)
+        '1-1
+        oSheet.Range("C11").value = If(ch2(0) = "1", "①", "1.")
+        oSheet.Range("G11").value = If(ch2(1) = "1", "②", "2.")
+        oSheet.Range("M11").value = If(ch2(2) = "1", "③", "3.")
+        oSheet.Range("T11").value = If(ch2(3) = "1", "④", "4.")
+        oSheet.Range("AA11").value = If(ch2(4) = "1", "⑤", "5.")
+        oSheet.Range("AF11").value = If(ch2(5) = "1", "⑥", "6.")
+        '1-2
+        oSheet.Range("C15").value = If(ch3(0) = "1", "①", "1.")
+        oSheet.Range("I15").value = If(ch3(1) = "1", "②", "2.")
+        oSheet.Range("P15").value = If(ch3(2) = "1", "③", "3.")
+        oSheet.Range("V15").value = If(ch3(3) = "1", "④", "4.")
+        oSheet.Range("AC15").value = If(ch3(4) = "1", "⑤", "5.")
+        '1-3
+        oSheet.Range("C19").value = If(opt4(0) = "1", "①", "1.")
+        oSheet.Range("R19").value = If(opt4(1) = "1", "②", "2.")
+        oSheet.Range("AH19").value = If(opt4(2) = "1", "③", "3.")
+        '1-4
+        oSheet.Range("C23").value = If(opt4(3) = "1", "①", "1.")
+        oSheet.Range("R23").value = If(opt4(4) = "1", "②", "2.")
+        oSheet.Range("AH23").value = If(opt4(5) = "1", "③", "3.")
+        '1-5
+        oSheet.Range("C27").value = If(opt4(6) = "1", "①", "1.")
+        oSheet.Range("I27").value = If(opt4(7) = "1", "②", "2.")
+        oSheet.Range("V27").value = If(opt4(8) = "1", "③", "3.")
+        oSheet.Range("AH27").value = If(opt4(9) = "1", "④", "4.")
+        '1-6
+        oSheet.Range("C31").value = If(opt4(10) = "1", "①", "1.")
+        oSheet.Range("R31").value = If(opt4(11) = "1", "②", "2.")
+        oSheet.Range("AH31").value = If(opt4(12) = "1", "③", "3.")
+        '1-7
+        oSheet.Range("C35").value = If(opt4(13) = "1", "①", "1.")
+        oSheet.Range("R35").value = If(opt4(14) = "1", "②", "2.")
+        oSheet.Range("AH35").value = If(opt4(15) = "1", "③", "3.")
+        '1-8
+        oSheet.Range("C39").value = If(opt4(16) = "1", "①", "1.")
+        oSheet.Range("R39").value = If(opt4(17) = "1", "②", "2.")
+        oSheet.Range("AH39").value = If(opt4(18) = "1", "③", "3.")
+        '1-9
+        oSheet.Range("C43").value = If(opt4(19) = "1", "①", "1.")
+        oSheet.Range("R43").value = If(opt4(20) = "1", "②", "2.")
+        oSheet.Range("AH43").value = If(opt4(21) = "1", "③", "3.")
+        '1-10
+        oSheet.Range("C47").value = If(opt4(22) = "1", "①", "1.")
+        oSheet.Range("O47").value = If(opt4(23) = "1", "②", "2.")
+        oSheet.Range("X47").value = If(opt4(24) = "1", "③", "3.")
+        oSheet.Range("AH47").value = If(opt4(25) = "1", "④", "4.")
+        '1-11
+        oSheet.Range("C51").value = If(opt4(26) = "1", "①", "1.")
+        oSheet.Range("S51").value = If(opt4(27) = "1", "②", "2.")
+        oSheet.Range("AH51").value = If(opt4(28) = "1", "③", "3.")
 
+        '基本調査2
+        oSheet = objWorkBook.Worksheets("基本調査2")
+        '調査日番号
+        oSheet.Range("B5").value = gDay(0)
+        oSheet.Range("D5").value = gDay(1)
+        oSheet.Range("F5").value = gDay(2)
+        oSheet.Range("G5").value = gDay(3)
+        oSheet.Range("J5").value = gDay(4)
+        oSheet.Range("L5").value = gDay(5)
+        '被保険者番号
+        oSheet.Range("X5").value = gNum(0)
+        oSheet.Range("Z5").value = gNum(1)
+        oSheet.Range("AB5").value = gNum(2)
+        oSheet.Range("AC5").value = gNum(3)
+        oSheet.Range("AE5").value = gNum(4)
+        oSheet.Range("AG5").value = gNum(5)
+        oSheet.Range("AI5").value = gNum(6)
+        oSheet.Range("AJ5").value = gNum(7)
+        oSheet.Range("AK5").value = gNum(8)
+        oSheet.Range("AL5").value = gNum(9)
+        '1-12
+        oSheet.Range("C10").value = If(opt4(29) = "1", "①", "1.")
+        oSheet.Range("C11").value = If(opt4(30) = "1", "②", "2.")
+        oSheet.Range("C12").value = If(opt4(31) = "1", "③", "3.")
+        oSheet.Range("C13").value = If(opt4(32) = "1", "④", "4.")
+        oSheet.Range("C14").value = If(opt4(33) = "1", "⑤", "5.")
+        '1-13
+        oSheet.Range("C19").value = If(opt4(34) = "1", "①", "1.")
+        oSheet.Range("C20").value = If(opt4(35) = "1", "②", "2.")
+        oSheet.Range("C21").value = If(opt4(36) = "1", "③", "3.")
+        oSheet.Range("C22").value = If(opt4(37) = "1", "④", "4.")
+        oSheet.Range("C23").value = If(opt4(38) = "1", "⑤", "5.")
+        '2-1
+        oSheet.Range("C28").value = If(opt4(39) = "1", "①", "1.")
+        oSheet.Range("O28").value = If(opt4(40) = "1", "②", "2.")
+        oSheet.Range("X28").value = If(opt4(41) = "1", "③", "3.")
+        oSheet.Range("AH28").value = If(opt4(42) = "1", "④", "4.")
+        '2-2
+        oSheet.Range("C32").value = If(opt4(43) = "1", "①", "1.")
+        oSheet.Range("O32").value = If(opt4(44) = "1", "②", "2.")
+        oSheet.Range("X32").value = If(opt4(45) = "1", "③", "3.")
+        oSheet.Range("AH32").value = If(opt4(46) = "1", "④", "4.")
+        '2-3
+        oSheet.Range("C36").value = If(opt4(47) = "1", "①", "1.")
+        oSheet.Range("R36").value = If(opt4(48) = "1", "②", "2.")
+        oSheet.Range("AH36").value = If(opt4(49) = "1", "③", "3.")
+        '2-4
+        oSheet.Range("C40").value = If(opt4(50) = "1", "①", "1.")
+        oSheet.Range("O40").value = If(opt4(51) = "1", "②", "2.")
+        oSheet.Range("X40").value = If(opt4(52) = "1", "③", "3.")
+        oSheet.Range("AH40").value = If(opt4(53) = "1", "④", "4.")
+        '2-5
+        oSheet.Range("C44").value = If(opt4(54) = "1", "①", "1.")
+        oSheet.Range("O44").value = If(opt4(55) = "1", "②", "2.")
+        oSheet.Range("X44").value = If(opt4(56) = "1", "③", "3.")
+        oSheet.Range("AH44").value = If(opt4(57) = "1", "④", "4.")
+        '2-6
+        oSheet.Range("C48").value = If(opt4(58) = "1", "①", "1.")
+        oSheet.Range("O48").value = If(opt4(59) = "1", "②", "2.")
+        oSheet.Range("X48").value = If(opt4(60) = "1", "③", "3.")
+        oSheet.Range("AH48").value = If(opt4(61) = "1", "④", "4.")
+        '2-7
+        oSheet.Range("C52").value = If(opt4(62) = "1", "①", "1.")
+        oSheet.Range("S52").value = If(opt4(63) = "1", "②", "2.")
+        oSheet.Range("AH52").value = If(opt4(64) = "1", "③", "3.")
+        '2-8
+        oSheet.Range("C56").value = If(opt4(65) = "1", "①", "1.")
+        oSheet.Range("S56").value = If(opt4(66) = "1", "②", "2.")
+        oSheet.Range("AH56").value = If(opt4(67) = "1", "③", "3.")
+        '2-9
+        oSheet.Range("C60").value = If(opt4(68) = "1", "①", "1.")
+        oSheet.Range("S60").value = If(opt4(69) = "1", "②", "2.")
+        oSheet.Range("AH60").value = If(opt4(70) = "1", "③", "3.")
 
+        '基本調査3
+        oSheet = objWorkBook.Worksheets("基本調査3")
+        '調査日番号
+        oSheet.Range("B5").value = gDay(0)
+        oSheet.Range("D5").value = gDay(1)
+        oSheet.Range("F5").value = gDay(2)
+        oSheet.Range("G5").value = gDay(3)
+        oSheet.Range("J5").value = gDay(4)
+        oSheet.Range("L5").value = gDay(5)
+        '被保険者番号
+        oSheet.Range("X5").value = gNum(0)
+        oSheet.Range("Z5").value = gNum(1)
+        oSheet.Range("AB5").value = gNum(2)
+        oSheet.Range("AC5").value = gNum(3)
+        oSheet.Range("AE5").value = gNum(4)
+        oSheet.Range("AG5").value = gNum(5)
+        oSheet.Range("AI5").value = gNum(6)
+        oSheet.Range("AJ5").value = gNum(7)
+        oSheet.Range("AK5").value = gNum(8)
+        oSheet.Range("AL5").value = gNum(9)
+        '2-10
+        oSheet.Range("C10").value = If(opt4(71) = "1", "①", "1.")
+        oSheet.Range("O10").value = If(opt4(72) = "1", "②", "2.")
+        oSheet.Range("X10").value = If(opt4(73) = "1", "③", "3.")
+        oSheet.Range("AH10").value = If(opt4(74) = "1", "④", "4.")
+        '2-11
+        oSheet.Range("C14").value = If(opt4(75) = "1", "①", "1.")
+        oSheet.Range("O14").value = If(opt4(76) = "1", "②", "2.")
+        oSheet.Range("X14").value = If(opt4(77) = "1", "③", "3.")
+        oSheet.Range("AH14").value = If(opt4(78) = "1", "④", "4.")
+        '2-12
+        oSheet.Range("C18").value = If(opt4(79) = "1", "①", "1.")
+        oSheet.Range("R18").value = If(opt4(80) = "1", "②", "2.")
+        oSheet.Range("AH18").value = If(opt4(81) = "1", "③", "3.")
+        '3-1
+        oSheet.Range("C22").value = If(opt4(82) = "1", "①", "1.")
+        oSheet.Range("C23").value = If(opt4(83) = "1", "②", "2.")
+        oSheet.Range("C24").value = If(opt4(84) = "1", "③", "3.")
+        oSheet.Range("C25").value = If(opt4(85) = "1", "④", "4.")
+        '3-2
+        oSheet.Range("C30").value = If(opt4(86) = "1", "①", "1.")
+        oSheet.Range("R30").value = If(opt4(87) = "1", "②", "2.")
+        '3-3
+        oSheet.Range("C34").value = If(opt4(88) = "1", "①", "1.")
+        oSheet.Range("R34").value = If(opt4(89) = "1", "②", "2.")
+        '3-4
+        oSheet.Range("C38").value = If(opt4(90) = "1", "①", "1.")
+        oSheet.Range("R38").value = If(opt4(91) = "1", "②", "2.")
+        '3-5
+        oSheet.Range("C42").value = If(opt4(92) = "1", "①", "1.")
+        oSheet.Range("R42").value = If(opt4(93) = "1", "②", "2.")
+        '3-6
+        oSheet.Range("C46").value = If(opt4(94) = "1", "①", "1.")
+        oSheet.Range("R46").value = If(opt4(95) = "1", "②", "2.")
+        '3-7
+        oSheet.Range("C50").value = If(opt4(96) = "1", "①", "1.")
+        oSheet.Range("R50").value = If(opt4(97) = "1", "②", "2.")
+        '3-8
+        oSheet.Range("C54").value = If(opt4(98) = "1", "①", "1.")
+        oSheet.Range("S54").value = If(opt4(99) = "1", "②", "2.")
+        oSheet.Range("AH54").value = If(opt4(100) = "1", "③", "3.")
+        '3-9
+        oSheet.Range("C58").value = If(opt4(101) = "1", "①", "1.")
+        oSheet.Range("S58").value = If(opt4(102) = "1", "②", "2.")
+        oSheet.Range("AH58").value = If(opt4(103) = "1", "③", "3.")
 
+        '基本調査4
+        oSheet = objWorkBook.Worksheets("基本調査4")
+        '調査日番号
+        oSheet.Range("B5").value = gDay(0)
+        oSheet.Range("D5").value = gDay(1)
+        oSheet.Range("F5").value = gDay(2)
+        oSheet.Range("G5").value = gDay(3)
+        oSheet.Range("J5").value = gDay(4)
+        oSheet.Range("L5").value = gDay(5)
+        '被保険者番号
+        oSheet.Range("X5").value = gNum(0)
+        oSheet.Range("Z5").value = gNum(1)
+        oSheet.Range("AB5").value = gNum(2)
+        oSheet.Range("AC5").value = gNum(3)
+        oSheet.Range("AE5").value = gNum(4)
+        oSheet.Range("AG5").value = gNum(5)
+        oSheet.Range("AI5").value = gNum(6)
+        oSheet.Range("AJ5").value = gNum(7)
+        oSheet.Range("AK5").value = gNum(8)
+        oSheet.Range("AL5").value = gNum(9)
+        '4-1
+        oSheet.Range("C10").value = If(opt4(104) = "1", "①", "1.")
+        oSheet.Range("S10").value = If(opt4(105) = "1", "②", "2.")
+        oSheet.Range("AH10").value = If(opt4(106) = "1", "③", "3.")
+        '4-2
+        oSheet.Range("C14").value = If(opt4(107) = "1", "①", "1.")
+        oSheet.Range("S14").value = If(opt4(108) = "1", "②", "2.")
+        oSheet.Range("AH14").value = If(opt4(109) = "1", "③", "3.")
+        '4-3
+        oSheet.Range("C18").value = If(opt4(110) = "1", "①", "1.")
+        oSheet.Range("S18").value = If(opt4(111) = "1", "②", "2.")
+        oSheet.Range("AH18").value = If(opt4(112) = "1", "③", "3.")
+        '4-4
+        oSheet.Range("C22").value = If(opt4(113) = "1", "①", "1.")
+        oSheet.Range("S22").value = If(opt4(114) = "1", "②", "2.")
+        oSheet.Range("AH22").value = If(opt4(115) = "1", "③", "3.")
+        '4-5
+        oSheet.Range("C26").value = If(opt4(116) = "1", "①", "1.")
+        oSheet.Range("S26").value = If(opt4(117) = "1", "②", "2.")
+        oSheet.Range("AH26").value = If(opt4(118) = "1", "③", "3.")
+        '4-6
+        oSheet.Range("C30").value = If(opt4(119) = "1", "①", "1.")
+        oSheet.Range("S30").value = If(opt4(120) = "1", "②", "2.")
+        oSheet.Range("AH30").value = If(opt4(121) = "1", "③", "3.")
+        '4-7
+        oSheet.Range("C34").value = If(opt4(122) = "1", "①", "1.")
+        oSheet.Range("S34").value = If(opt4(123) = "1", "②", "2.")
+        oSheet.Range("AH34").value = If(opt4(124) = "1", "③", "3.")
+        '4-8
+        oSheet.Range("C38").value = If(opt4(125) = "1", "①", "1.")
+        oSheet.Range("S38").value = If(opt4(126) = "1", "②", "2.")
+        oSheet.Range("AH38").value = If(opt4(127) = "1", "③", "3.")
+        '4-9
+        oSheet.Range("C42").value = If(opt4(128) = "1", "①", "1.")
+        oSheet.Range("S42").value = If(opt4(129) = "1", "②", "2.")
+        oSheet.Range("AH42").value = If(opt4(130) = "1", "③", "3.")
+        '4-10
+        oSheet.Range("C46").value = If(opt4(131) = "1", "①", "1.")
+        oSheet.Range("S46").value = If(opt4(132) = "1", "②", "2.")
+        oSheet.Range("AH46").value = If(opt4(133) = "1", "③", "3.")
+        '4-11
+        oSheet.Range("C50").value = If(opt4(134) = "1", "①", "1.")
+        oSheet.Range("S50").value = If(opt4(135) = "1", "②", "2.")
+        oSheet.Range("AH50").value = If(opt4(136) = "1", "③", "3.")
+        '4-12
+        oSheet.Range("C54").value = If(opt4(137) = "1", "①", "1.")
+        oSheet.Range("S54").value = If(opt4(138) = "1", "②", "2.")
+        oSheet.Range("AH54").value = If(opt4(139) = "1", "③", "3.")
+        '4-13
+        oSheet.Range("C58").value = If(opt4(140) = "1", "①", "1.")
+        oSheet.Range("S58").value = If(opt4(141) = "1", "②", "2.")
+        oSheet.Range("AH58").value = If(opt4(142) = "1", "③", "3.")
 
-        'Dim objExcel As Object
-        'Dim objWorkBooks As Object
-        'Dim objWorkBook As Object
-        'Dim oSheet As Object
-        'Dim border As Object
+        '基本調査5
+        oSheet = objWorkBook.Worksheets("基本調査5")
+        '調査日番号
+        oSheet.Range("B5").value = gDay(0)
+        oSheet.Range("D5").value = gDay(1)
+        oSheet.Range("F5").value = gDay(2)
+        oSheet.Range("G5").value = gDay(3)
+        oSheet.Range("J5").value = gDay(4)
+        oSheet.Range("L5").value = gDay(5)
+        '被保険者番号
+        oSheet.Range("AA5").value = gNum(0)
+        oSheet.Range("AC5").value = gNum(1)
+        oSheet.Range("AG5").value = gNum(2)
+        oSheet.Range("AI5").value = gNum(3)
+        oSheet.Range("AK5").value = gNum(4)
+        oSheet.Range("AN5").value = gNum(5)
+        oSheet.Range("AP5").value = gNum(6)
+        oSheet.Range("AR5").value = gNum(7)
+        oSheet.Range("AT5").value = gNum(8)
+        oSheet.Range("AU5").value = gNum(9)
+        '4-14
+        oSheet.Range("C10").value = If(opt4(143) = "1", "①", "1.")
+        oSheet.Range("T10").value = If(opt4(144) = "1", "②", "2.")
+        oSheet.Range("AO10").value = If(opt4(145) = "1", "③", "3.")
+        '4-15
+        oSheet.Range("C14").value = If(opt4(146) = "1", "①", "1.")
+        oSheet.Range("T14").value = If(opt4(147) = "1", "②", "2.")
+        oSheet.Range("AO14").value = If(opt4(148) = "1", "③", "3.")
+        '5-1
+        oSheet.Range("C18").value = If(opt4(149) = "1", "①", "1.")
+        oSheet.Range("T18").value = If(opt4(150) = "1", "②", "2.")
+        oSheet.Range("AO18").value = If(opt4(151) = "1", "③", "3.")
+        '5-2
+        oSheet.Range("C22").value = If(opt4(152) = "1", "①", "1.")
+        oSheet.Range("T22").value = If(opt4(153) = "1", "②", "2.")
+        oSheet.Range("AO22").value = If(opt4(154) = "1", "③", "3.")
+        '5-3
+        oSheet.Range("C26").value = If(opt4(155) = "1", "①", "1.")
+        oSheet.Range("O26").value = If(opt4(156) = "1", "②", "2.")
+        oSheet.Range("AF26").value = If(opt4(157) = "1", "③", "3.")
+        oSheet.Range("AO26").value = If(opt4(158) = "1", "④", "4.")
+        '5-4
+        oSheet.Range("C30").value = If(opt4(159) = "1", "①", "1.")
+        oSheet.Range("T30").value = If(opt4(160) = "1", "②", "2.")
+        oSheet.Range("AO30").value = If(opt4(161) = "1", "③", "3.")
+        '5-5
+        oSheet.Range("C34").value = If(opt4(162) = "1", "①", "1.")
+        oSheet.Range("O34").value = If(opt4(163) = "1", "②", "2.")
+        oSheet.Range("AA34").value = If(opt4(164) = "1", "③", "3.")
+        oSheet.Range("AO34").value = If(opt4(165) = "1", "④", "4.")
+        '5-6
+        oSheet.Range("C38").value = If(opt4(166) = "1", "①", "1.")
+        oSheet.Range("O38").value = If(opt4(167) = "1", "②", "2.")
+        oSheet.Range("AA38").value = If(opt4(168) = "1", "③", "3.")
+        oSheet.Range("AO38").value = If(opt4(169) = "1", "④", "4.")
+        '6
+        oSheet.Range("K44").value = If(ch4(0) = "1", "①", "1.")
+        oSheet.Range("R44").value = If(ch4(1) = "1", "②", "2.")
+        oSheet.Range("AE44").value = If(ch4(2) = "1", "③", "3.")
+        oSheet.Range("AK44").value = If(ch4(3) = "1", "④", "4.")
+        oSheet.Range("K45").value = If(ch4(4) = "1", "⑤", "5.")
+        oSheet.Range("R45").value = If(ch4(5) = "1", "⑥", "6.")
+        oSheet.Range("AK45").value = If(ch4(6) = "1", "⑦", "7.")
+        oSheet.Range("K46").value = If(ch4(7) = "1", "⑧", "8.")
+        oSheet.Range("R46").value = If(ch4(8) = "1", "⑨", "9.")
+        oSheet.Range("J47").value = If(ch4(9) = "1", "⑩", "10.")
+        oSheet.Range("AK47").value = If(ch4(10) = "1", "⑪", "11.")
+        oSheet.Range("J48").value = If(ch4(11) = "1", "⑫", "12.")
+        '7
+        oSheet.Range("S53").value = "自立"
+        oSheet.Range("V53").value = "J1"
+        oSheet.Range("Z53").value = "J2"
+        oSheet.Range("AC53").value = "A1"
+        oSheet.Range("AH53").value = "A2"
+        oSheet.Range("AJ53").value = "B1"
+        oSheet.Range("AM53").value = "B2"
+        oSheet.Range("AP53").value = "C1"
+        oSheet.Range("AS53").value = "C2"
+        oSheet.Range("S54").value = "自立"
+        oSheet.Range("V54").value = "Ⅰ"
+        oSheet.Range("Z54").value = "Ⅱa"
+        oSheet.Range("AC54").value = "Ⅱb"
+        oSheet.Range("AH54").value = "Ⅲa"
+        oSheet.Range("AJ54").value = "Ⅲb"
+        oSheet.Range("AM54").value = "Ⅳ"
+        oSheet.Range("AP54").value = "M"
+        If opt4(170) = "1" Then
+            border = oSheet.Range("S53", "T53").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("S53", "T53").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("S53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("U53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(171) = "1" Then
+            border = oSheet.Range("V53", "W53").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("V53", "W53").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("V53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("X53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(172) = "1" Then
+            border = oSheet.Range("Z53", "AA53").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("Z53", "AA53").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("Z53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AB53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(173) = "1" Then
+            border = oSheet.Range("AC53", "AE53").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AC53", "AE53").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AC53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AF53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(174) = "1" Then
+            border = oSheet.Range("AH53", "AH53").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AH53", "AH53").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AH53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AI53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(175) = "1" Then
+            border = oSheet.Range("AJ53", "AK53").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AJ53", "AK53").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AJ53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AL53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(176) = "1" Then
+            border = oSheet.Range("AM53", "AN53").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AM53", "AN53").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AM53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AO53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(177) = "1" Then
+            border = oSheet.Range("AP53", "AP53").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AP53", "AP53").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AP53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AQ53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(178) = "1" Then
+            border = oSheet.Range("AS53", "AS53").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AS53", "AS53").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AS53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AT53").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        End If
 
-        'objExcel = CreateObject("Excel.Application")
-        'objWorkBooks = objExcel.Workbooks
-        'objWorkBook = objWorkBooks.Open(topForm.excelFilePass)
+        If opt4(179) = "1" Then
+            border = oSheet.Range("S54", "T54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("S54", "T54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("S54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("U54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(180) = "1" Then
+            border = oSheet.Range("V54", "W54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("V54", "W54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("V54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("X54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(181) = "1" Then
+            border = oSheet.Range("Z54", "AA54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("Z54", "AA54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("Z54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AB54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(182) = "1" Then
+            border = oSheet.Range("AC54", "AE54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AC54", "AE54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AC54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AF54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(183) = "1" Then
+            border = oSheet.Range("AH54", "AH54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AH54", "AH54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AH54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AI54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(184) = "1" Then
+            border = oSheet.Range("AJ54", "AK54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AJ54", "AK54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AJ54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AL54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(185) = "1" Then
+            border = oSheet.Range("AM54", "AN54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AM54", "AN54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AM54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AO54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        ElseIf opt4(186) = "1" Then
+            border = oSheet.Range("AP54", "AP54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AP54", "AP54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AP54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+            border = oSheet.Range("AQ54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border.LineStyle = Excel.XlLineStyle.xlDot
+            border.Weight = Excel.XlBorderWeight.xlHairline
+        End If
 
-        ''概況調査シート
-        'oSheet = objWorkBook.Worksheets("概況調査")
-        ''調査日番号
-        'oSheet.Range("B4").value = Util.checkDBNullValue(rs.Fields("GDay1").Value)
-        'oSheet.Range("D4").value = Util.checkDBNullValue(rs.Fields("GDay2").Value)
-        'oSheet.Range("F4").value = Util.checkDBNullValue(rs.Fields("GDay3").Value)
-        'oSheet.Range("G4").value = Util.checkDBNullValue(rs.Fields("GDay4").Value)
-        'oSheet.Range("I4").value = Util.checkDBNullValue(rs.Fields("GDay5").Value)
-        'oSheet.Range("L4").value = Util.checkDBNullValue(rs.Fields("GDay6").Value)
-        ''被保険者番号
-        'oSheet.Range("AJ4").value = Util.checkDBNullValue(rs.Fields("GNum1").Value)
-        'oSheet.Range("AO4").value = Util.checkDBNullValue(rs.Fields("GNum2").Value)
-        'oSheet.Range("AR4").value = Util.checkDBNullValue(rs.Fields("GNum3").Value)
-        'oSheet.Range("AV4").value = Util.checkDBNullValue(rs.Fields("GNum4").Value)
-        'oSheet.Range("AX4").value = Util.checkDBNullValue(rs.Fields("GNum5").Value)
-        'oSheet.Range("BB4").value = Util.checkDBNullValue(rs.Fields("GNum6").Value)
-        'oSheet.Range("BG4").value = Util.checkDBNullValue(rs.Fields("GNum7").Value)
-        'oSheet.Range("BL4").value = Util.checkDBNullValue(rs.Fields("GNum8").Value)
-        'oSheet.Range("BP4").value = Util.checkDBNullValue(rs.Fields("GNum9").Value)
-        'oSheet.Range("BV4").value = Util.checkDBNullValue(rs.Fields("GNum10").Value)
-        ''実施日時
-        'oSheet.Range("H10").value = dateYmdBox.getWarekiKanji()
-        'oSheet.Range("J10").value = CInt(dateYmdBox.EraText.Substring(1, 2))
-        'oSheet.Range("N10").value = CInt(dateYmdBox.MonthText)
-        'oSheet.Range("T10").value = CInt(dateYmdBox.DateText)
-        ''実施場所
-        'oSheet.Range("AF11").value = "自宅内"
-        'oSheet.Range("AO11").value = "自宅外"
-        'If Util.checkDBNullValue(rs.Fields("Home").Value) = "0" Then
-        '    border = oSheet.Range("AF11", "AK11").Borders(Excel.XlBordersIndex.xlEdgeTop)
-        '    border.LineStyle = Excel.XlLineStyle.xlDot
-        '    border.Weight = Excel.XlBorderWeight.xlHairline
-        '    border = oSheet.Range("AF11", "AK11").Borders(Excel.XlBordersIndex.xlEdgeBottom)
-        '    border.LineStyle = Excel.XlLineStyle.xlDot
-        '    border.Weight = Excel.XlBorderWeight.xlHairline
-        '    border = oSheet.Range("AF11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
-        '    border.LineStyle = Excel.XlLineStyle.xlDot
-        '    border.Weight = Excel.XlBorderWeight.xlHairline
-        '    border = oSheet.Range("AL11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
-        '    border.LineStyle = Excel.XlLineStyle.xlDot
-        '    border.Weight = Excel.XlBorderWeight.xlHairline
-        'ElseIf Util.checkDBNullValue(rs.Fields("Home").Value) = "1" Then
-        '    border = oSheet.Range("AO11", "AS11").Borders(Excel.XlBordersIndex.xlEdgeTop)
-        '    border.LineStyle = Excel.XlLineStyle.xlDot
-        '    border.Weight = Excel.XlBorderWeight.xlHairline
-        '    border = oSheet.Range("AO11", "AS11").Borders(Excel.XlBordersIndex.xlEdgeBottom)
-        '    border.LineStyle = Excel.XlLineStyle.xlDot
-        '    border.Weight = Excel.XlBorderWeight.xlHairline
-        '    border = oSheet.Range("AO11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
-        '    border.LineStyle = Excel.XlLineStyle.xlDot
-        '    border.Weight = Excel.XlBorderWeight.xlHairline
-        '    border = oSheet.Range("AT11").Borders(Excel.XlBordersIndex.xlEdgeLeft)
-        '    border.LineStyle = Excel.XlLineStyle.xlDot
-        '    border.Weight = Excel.XlBorderWeight.xlHairline
-        'End If
-        'oSheet.Range("AU11").value = Util.checkDBNullValue(rs.Fields("Nonhm").Value)
-        'oSheet.Range("I14").value = Util.checkDBNullValue(rs.Fields("Tanto").Value) '記入者氏名
-        'oSheet.Range("AR13").value = Util.checkDBNullValue(rs.Fields("Kikan").Value) '所属機関
+        '特記事項
+        oSheet = objWorkBook.Worksheets("特記事項改")
+        '調査日番号
+        oSheet.Range("B5").value = gDay(0)
+        oSheet.Range("E5").value = gDay(1)
+        oSheet.Range("H5").value = gDay(2)
+        oSheet.Range("I5").value = gDay(3)
+        oSheet.Range("J5").value = gDay(4)
+        oSheet.Range("K5").value = gDay(5)
+        '真ん中の数字の
+        oSheet.Range("P5").value = "1"
+        '被保険者番号
+        oSheet.Range("R5").value = gNum(0)
+        oSheet.Range("S5").value = gNum(1)
+        oSheet.Range("T5").value = gNum(2)
+        oSheet.Range("U5").value = gNum(3)
+        oSheet.Range("V5").value = gNum(4)
+        oSheet.Range("W5").value = gNum(5)
+        oSheet.Range("X5").value = gNum(6)
+        oSheet.Range("Y5").value = gNum(7)
+        oSheet.Range("Z5").value = gNum(8)
+        oSheet.Range("AA5").value = gNum(9)
 
+        Dim sp As Integer = 0
+        Dim insertCount As Integer = 0
+        Dim startIndexArray() As Integer = {13, 17, 21, 26, 30, 33, 36}
+        Dim index As Integer = startIndexArray(0)
+        oSheet.Range("7:7").rows.hidden = False
+        sql = "select * from Auth1 where Nam='" & userName & "' and Ymd1='" & ymd1 & "' order by Sp, Gyo"
+        rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockPessimistic)
+        While Not rs.EOF
+            If Util.checkDBNullValue(rs.Fields("Sp").Value) <> sp Then
+                sp = Util.checkDBNullValue(rs.Fields("Sp").Value)
+                index = startIndexArray(sp)
+            End If
+            If Util.checkDBNullValue(rs.Fields("Txt").Value) <> "" Then
+                oSheet.Range("C7").value = Util.checkDBNullValue(rs.Fields("Crr").Value)
+                oSheet.Range("H7").value = Util.checkDBNullValue(rs.Fields("Txt").Value)
 
-        ''変更保存確認ダイアログ非表示
-        'objExcel.DisplayAlerts = False
+                '行追加
+                oSheet.Range((index + insertCount) & ":" & (index + insertCount)).insert()
 
-        ''印刷
+                'コピペ
+                Dim xlRange As Excel.Range = oSheet.Range("7:7")
+                xlRange.Copy()
+                Dim xlPasteRange As Excel.Range = oSheet.Range((index + insertCount) & ":" & (index + insertCount))
+                oSheet.Paste(xlPasteRange)
+
+                insertCount += 1
+            End If
+            rs.MoveNext()
+        End While
+        oSheet.Range("7:7").rows.hidden = True
+
+        '変更保存確認ダイアログ非表示
+        objExcel.DisplayAlerts = False
+
+        '印刷1
         'If topForm.rbtnPrint.Checked = True Then
-        '    objWorkBook.Worksheets({"概況調査", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).printOut()
+        '    objWorkBook.Worksheets({"概況調査改", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).printOut()
         'ElseIf topForm.rbtnPreview.Checked = True Then
         '    objExcel.Visible = True
-        '    objWorkBook.Worksheets({"概況調査", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).PrintPreview(1)
+        '    objWorkBook.Worksheets({"概況調査改", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).PrintPreview(1)
         'End If
 
-        '' EXCEL解放
-        'objExcel.Quit()
-        'Marshal.ReleaseComObject(objWorkBook)
-        'Marshal.ReleaseComObject(objExcel)
-        'oSheet = Nothing
-        'objWorkBook = Nothing
-        'objExcel = Nothing
+        '印刷2
+        If topForm.rbtnPrint.Checked = True Then
+            objWorkBook.Worksheets({"特記事項改"}).printOut()
+        ElseIf topForm.rbtnPreview.Checked = True Then
+            objExcel.Visible = True
+            objWorkBook.Worksheets({"特記事項改"}).PrintPreview(1)
+        End If
+
+        ' EXCEL解放
+        objExcel.Quit()
+        Marshal.ReleaseComObject(objWorkBook)
+        Marshal.ReleaseComObject(objExcel)
+        oSheet = Nothing
+        objWorkBook = Nothing
+        objExcel = Nothing
     End Sub
+
 End Class
