@@ -52,12 +52,10 @@ Partial Class topForm
         'rbtnPreview
         '
         Me.rbtnPreview.AutoSize = True
-        Me.rbtnPreview.Checked = True
         Me.rbtnPreview.Location = New System.Drawing.Point(144, 231)
         Me.rbtnPreview.Name = "rbtnPreview"
         Me.rbtnPreview.Size = New System.Drawing.Size(63, 16)
         Me.rbtnPreview.TabIndex = 2
-        Me.rbtnPreview.TabStop = True
         Me.rbtnPreview.Text = "ﾌﾟﾚﾋﾞｭｰ"
         Me.rbtnPreview.UseVisualStyleBackColor = True
         '

@@ -21,6 +21,7 @@
         Me.MaximizeBox = False
         Me.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
         btnTarget.Visible = False
+        initPrintState()
     End Sub
 
     Private Sub topForm_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
@@ -61,6 +62,27 @@
             surveySlipForm = New 認定調査票()
             surveySlipForm.Owner = Me
             surveySlipForm.Show()
+        End If
+    End Sub
+
+    Private Sub initPrintState()
+        Dim state As String = Util.getIniString("System", "Printer", iniFilePath)
+        If state = "Y" Then
+            rbtnPrint.Checked = True
+        Else
+            rbtnPreview.Checked = True
+        End If
+    End Sub
+
+    Private Sub rbtnPreview_CheckedChanged(sender As Object, e As System.EventArgs) Handles rbtnPreview.CheckedChanged
+        If rbtnPreview.Checked = True Then
+            Util.putIniString("System", "Printer", "N", iniFilePath)
+        End If
+    End Sub
+
+    Private Sub rbtnPrint_CheckedChanged(sender As Object, e As System.EventArgs) Handles rbtnPrint.CheckedChanged
+        If rbtnPrint.Checked = True Then
+            Util.putIniString("System", "Printer", "Y", iniFilePath)
         End If
     End Sub
 End Class
