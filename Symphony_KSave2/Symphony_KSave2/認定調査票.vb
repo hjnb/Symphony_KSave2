@@ -2153,159 +2153,6 @@ Public Class 認定調査票
         Dim ymd3Month As String = If(ymd3Wareki <> "", CInt(ymd3Wareki.Substring(4, 2)).ToString, "")
         Dim ymd3Day As String = If(ymd3Wareki <> "", CInt(ymd3Wareki.Substring(7, 2)).ToString, "")
 
-
-        'エクセル使わないver
-        'Dim Parameters As New List(Of ReportParameter)
-        'With Parameters
-        '    '1ページ目
-        '    .Add(New ReportParameter("GDay1", Util.checkDBNullValue(rs.Fields("GDay1").Value)))
-        '    .Add(New ReportParameter("GDay2", Util.checkDBNullValue(rs.Fields("GDay2").Value)))
-        '    .Add(New ReportParameter("GDay3", Util.checkDBNullValue(rs.Fields("GDay3").Value)))
-        '    .Add(New ReportParameter("GDay4", Util.checkDBNullValue(rs.Fields("GDay4").Value)))
-        '    .Add(New ReportParameter("GDay5", Util.checkDBNullValue(rs.Fields("GDay5").Value)))
-        '    .Add(New ReportParameter("GDay6", Util.checkDBNullValue(rs.Fields("GDay6").Value)))
-        '    .Add(New ReportParameter("GNum1", Util.checkDBNullValue(rs.Fields("GNum1").Value)))
-        '    .Add(New ReportParameter("GNum2", Util.checkDBNullValue(rs.Fields("GNum2").Value)))
-        '    .Add(New ReportParameter("GNum3", Util.checkDBNullValue(rs.Fields("GNum3").Value)))
-        '    .Add(New ReportParameter("GNum4", Util.checkDBNullValue(rs.Fields("GNum4").Value)))
-        '    .Add(New ReportParameter("GNum5", Util.checkDBNullValue(rs.Fields("GNum5").Value)))
-        '    .Add(New ReportParameter("GNum6", Util.checkDBNullValue(rs.Fields("GNum6").Value)))
-        '    .Add(New ReportParameter("GNum7", Util.checkDBNullValue(rs.Fields("GNum7").Value)))
-        '    .Add(New ReportParameter("GNum8", Util.checkDBNullValue(rs.Fields("GNum8").Value)))
-        '    .Add(New ReportParameter("GNum9", Util.checkDBNullValue(rs.Fields("GNum9").Value)))
-        '    .Add(New ReportParameter("GNum10", Util.checkDBNullValue(rs.Fields("GNum10").Value)))
-        '    .Add(New ReportParameter("Tanto", Util.checkDBNullValue(rs.Fields("Tanto").Value)))
-        '    .Add(New ReportParameter("Kikan", Util.checkDBNullValue(rs.Fields("Kikan").Value)))
-        '    .Add(New ReportParameter("Home", Util.checkDBNullValue(rs.Fields("Home").Value)))
-        '    .Add(New ReportParameter("Nonhm", Util.checkDBNullValue(rs.Fields("Nonhm").Value)))
-        '    .Add(New ReportParameter("Kako", Util.checkDBNullValue(rs.Fields("Kako").Value)))
-        '    .Add(New ReportParameter("Kai", Util.checkDBNullValue(rs.Fields("Kai").Value)))
-        '    .Add(New ReportParameter("Kana", Util.checkDBNullValue(rs.Fields("Kana").Value)))
-        '    .Add(New ReportParameter("Nam", Util.checkDBNullValue(rs.Fields("Nam").Value)))
-        '    .Add(New ReportParameter("Sex", Util.checkDBNullValue(rs.Fields("Sex").Value)))
-        '    .Add(New ReportParameter("Age", Util.checkDBNullValue(rs.Fields("Age").Value)))
-        '    .Add(New ReportParameter("Pn11", Util.checkDBNullValue(rs.Fields("Pn11").Value)))
-        '    .Add(New ReportParameter("Pn12", Util.checkDBNullValue(rs.Fields("Pn12").Value)))
-        '    .Add(New ReportParameter("Ad1", Util.checkDBNullValue(rs.Fields("Ad1").Value)))
-        '    .Add(New ReportParameter("Tel11", Util.checkDBNullValue(rs.Fields("Tel11").Value)))
-        '    .Add(New ReportParameter("Tel12", Util.checkDBNullValue(rs.Fields("Tel12").Value)))
-        '    .Add(New ReportParameter("Tel13", Util.checkDBNullValue(rs.Fields("Tel13").Value)))
-        '    .Add(New ReportParameter("Pn21", Util.checkDBNullValue(rs.Fields("Pn21").Value)))
-        '    .Add(New ReportParameter("Pn22", Util.checkDBNullValue(rs.Fields("Pn22").Value)))
-        '    .Add(New ReportParameter("Ad2", Util.checkDBNullValue(rs.Fields("Ad2").Value)))
-        '    .Add(New ReportParameter("Tel21", Util.checkDBNullValue(rs.Fields("Tel21").Value)))
-        '    .Add(New ReportParameter("Tel22", Util.checkDBNullValue(rs.Fields("Tel22").Value)))
-        '    .Add(New ReportParameter("Tel23", Util.checkDBNullValue(rs.Fields("Tel23").Value)))
-        '    .Add(New ReportParameter("Fa", Util.checkDBNullValue(rs.Fields("Fa").Value)))
-        '    .Add(New ReportParameter("Far", Util.checkDBNullValue(rs.Fields("Far").Value)))
-        '    .Add(New ReportParameter("Gen1", Util.checkDBNullValue(rs.Fields("Gen1").Value)))
-        '    .Add(New ReportParameter("Gen2", Util.checkDBNullValue(rs.Fields("Gen2").Value)))
-        '    .Add(New ReportParameter("Gen3", Util.checkDBNullValue(rs.Fields("Gen3").Value)))
-        '    .Add(New ReportParameter("Gen4", Util.checkDBNullValue(rs.Fields("Gen4").Value)))
-        '    .Add(New ReportParameter("Gen5", Util.checkDBNullValue(rs.Fields("Gen5").Value)))
-        '    .Add(New ReportParameter("Gen6", Util.checkDBNullValue(rs.Fields("Gen6").Value)))
-        '    .Add(New ReportParameter("Gen7", Util.checkDBNullValue(rs.Fields("Gen7").Value)))
-        '    .Add(New ReportParameter("Gen8", Util.checkDBNullValue(rs.Fields("Gen8").Value)))
-        '    .Add(New ReportParameter("Gen9", Util.checkDBNullValue(rs.Fields("Gen9").Value)))
-        '    .Add(New ReportParameter("Gen10", Util.checkDBNullValue(rs.Fields("Gen10").Value)))
-        '    .Add(New ReportParameter("Gen11", Util.checkDBNullValue(rs.Fields("Gen11").Value)))
-        '    .Add(New ReportParameter("Gen12", Util.checkDBNullValue(rs.Fields("Gen12").Value)))
-        '    .Add(New ReportParameter("Gen13", Util.checkDBNullValue(rs.Fields("Gen13").Value)))
-        '    .Add(New ReportParameter("Gen14", Util.checkDBNullValue(rs.Fields("Gen14").Value)))
-        '    .Add(New ReportParameter("Gen15", Util.checkDBNullValue(rs.Fields("Gen15").Value)))
-        '    .Add(New ReportParameter("Gen16", Util.checkDBNullValue(rs.Fields("Gen16").Value)))
-        '    .Add(New ReportParameter("Gen17", Util.checkDBNullValue(rs.Fields("Gen17").Value)))
-        '    .Add(New ReportParameter("Gen18", Util.checkDBNullValue(rs.Fields("Gen18").Value)))
-        '    .Add(New ReportParameter("Gen19", Util.checkDBNullValue(rs.Fields("Gen19").Value)))
-        '    .Add(New ReportParameter("Gen20", Util.checkDBNullValue(rs.Fields("Gen20").Value)))
-        '    .Add(New ReportParameter("Gen21", Util.checkDBNullValue(rs.Fields("Gen21").Value)))
-        '    .Add(New ReportParameter("Gen22", Util.checkDBNullValue(rs.Fields("Gen22").Value)))
-        '    .Add(New ReportParameter("Gen23", Util.checkDBNullValue(rs.Fields("Gen23").Value)))
-        '    .Add(New ReportParameter("Num1", Util.checkDBNullValue(rs.Fields("Num1").Value)))
-        '    .Add(New ReportParameter("Num2", Util.checkDBNullValue(rs.Fields("Num2").Value)))
-        '    .Add(New ReportParameter("Num3", Util.checkDBNullValue(rs.Fields("Num3").Value)))
-        '    .Add(New ReportParameter("Num4", Util.checkDBNullValue(rs.Fields("Num4").Value)))
-        '    .Add(New ReportParameter("Num5", Util.checkDBNullValue(rs.Fields("Num5").Value)))
-        '    .Add(New ReportParameter("Num6", Util.checkDBNullValue(rs.Fields("Num6").Value)))
-        '    .Add(New ReportParameter("Num7", Util.checkDBNullValue(rs.Fields("Num7").Value)))
-        '    .Add(New ReportParameter("Num8", Util.checkDBNullValue(rs.Fields("Num8").Value)))
-        '    .Add(New ReportParameter("Num9", Util.checkDBNullValue(rs.Fields("Num9").Value)))
-        '    .Add(New ReportParameter("Num10", Util.checkDBNullValue(rs.Fields("Num10").Value)))
-        '    .Add(New ReportParameter("Num11", Util.checkDBNullValue(rs.Fields("Num11").Value)))
-        '    .Add(New ReportParameter("Num12", Util.checkDBNullValue(rs.Fields("Num12").Value)))
-        '    .Add(New ReportParameter("Num13", Util.checkDBNullValue(rs.Fields("Num13").Value)))
-        '    .Add(New ReportParameter("Num14", Util.checkDBNullValue(rs.Fields("Num14").Value)))
-        '    .Add(New ReportParameter("Num15", Util.checkDBNullValue(rs.Fields("Num15").Value)))
-        '    .Add(New ReportParameter("Num16", Util.checkDBNullValue(rs.Fields("Num16").Value)))
-        '    .Add(New ReportParameter("Num17", Util.checkDBNullValue(rs.Fields("Num17").Value)))
-        '    .Add(New ReportParameter("Num18", Util.checkDBNullValue(rs.Fields("Num18").Value)))
-        '    .Add(New ReportParameter("Num19", Util.checkDBNullValue(rs.Fields("Num19").Value)))
-        '    .Add(New ReportParameter("Num20", Util.checkDBNullValue(rs.Fields("Num20").Value)))
-        '    .Add(New ReportParameter("Num21", Util.checkDBNullValue(rs.Fields("Num21").Value)))
-        '    .Add(New ReportParameter("Gentxt1", Util.checkDBNullValue(rs.Fields("Gentxt1").Value)))
-        '    .Add(New ReportParameter("Gentxt2", Util.checkDBNullValue(rs.Fields("Gentxt2").Value)))
-        '    .Add(New ReportParameter("Name", Util.checkDBNullValue(rs.Fields("Name").Value)))
-        '    .Add(New ReportParameter("Pn31", Util.checkDBNullValue(rs.Fields("Pn31").Value)))
-        '    .Add(New ReportParameter("Pn32", Util.checkDBNullValue(rs.Fields("Pn32").Value)))
-        '    .Add(New ReportParameter("Ad3", Util.checkDBNullValue(rs.Fields("Ad3").Value)))
-        '    .Add(New ReportParameter("Tel31", Util.checkDBNullValue(rs.Fields("Tel31").Value)))
-        '    .Add(New ReportParameter("Tel32", Util.checkDBNullValue(rs.Fields("Tel32").Value)))
-        '    .Add(New ReportParameter("Tel33", Util.checkDBNullValue(rs.Fields("Tel33").Value)))
-        '    .Add(New ReportParameter("Stay1", Util.checkDBNullValue(rs.Fields("Stay1").Value)))
-        '    .Add(New ReportParameter("Stay2", Util.checkDBNullValue(rs.Fields("Stay2").Value)))
-        '    .Add(New ReportParameter("Stay3", Util.checkDBNullValue(rs.Fields("Stay3").Value)))
-        '    .Add(New ReportParameter("Stay4", Util.checkDBNullValue(rs.Fields("Stay4").Value)))
-        '    .Add(New ReportParameter("Stay5", Util.checkDBNullValue(rs.Fields("Stay5").Value)))
-        '    .Add(New ReportParameter("Stay6", Util.checkDBNullValue(rs.Fields("Stay6").Value)))
-        '    .Add(New ReportParameter("Stay7", Util.checkDBNullValue(rs.Fields("Stay7").Value)))
-        '    .Add(New ReportParameter("Stay8", Util.checkDBNullValue(rs.Fields("Stay8").Value)))
-        '    .Add(New ReportParameter("GTokki1", Util.checkDBNullValue(rs.Fields("GTokki1").Value)))
-        '    .Add(New ReportParameter("GTokki2", Util.checkDBNullValue(rs.Fields("GTokki2").Value)))
-        '    .Add(New ReportParameter("GTokki3", Util.checkDBNullValue(rs.Fields("GTokki3").Value)))
-        '    .Add(New ReportParameter("GTokki4", Util.checkDBNullValue(rs.Fields("GTokki4").Value)))
-        '    .Add(New ReportParameter("Ymd1Era", ymd1Era))
-        '    .Add(New ReportParameter("Ymd1Month", ymd1Month))
-        '    .Add(New ReportParameter("Ymd1Day", ymd1Day))
-        '    .Add(New ReportParameter("Ymd1Kanji", ymd1Kanji))
-        '    .Add(New ReportParameter("Ymd2Era", ymd2Era))
-        '    .Add(New ReportParameter("Ymd2Month", ymd2Month))
-        '    .Add(New ReportParameter("Ymd2Day", ymd2Day))
-        '    .Add(New ReportParameter("Ymd2Kanji", ymd2Kanji))
-        '    .Add(New ReportParameter("Ymd3Era", ymd3Era))
-        '    .Add(New ReportParameter("Ymd3Month", ymd3Month))
-        '    .Add(New ReportParameter("Ymd3Day", ymd3Day))
-        '    .Add(New ReportParameter("Ymd3Kanji", ymd3Kanji))
-
-        '    '2ページ目以降のデータ
-        '    rs.Close()
-        '    sql = "select * from Auth2 where Nam='" & userName & "' and Ymd='" & ymd1 & "' order by Gyo"
-        '    rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockPessimistic)
-        '    For i = 0 To 186
-        '        If i <= 4 Then
-        '            .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
-        '            .Add(New ReportParameter("Gyo_" & i & "_Ch2", Util.checkDBNullValue(rs.Fields("Ch2").Value)))
-        '            .Add(New ReportParameter("Gyo_" & i & "_Ch3", Util.checkDBNullValue(rs.Fields("Ch3").Value)))
-        '            .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
-        '        ElseIf i <= 5 Then
-        '            .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
-        '            .Add(New ReportParameter("Gyo_" & i & "_Ch2", Util.checkDBNullValue(rs.Fields("Ch2").Value)))
-        '            .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
-        '        ElseIf i <= 11 Then
-        '            .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
-        '            .Add(New ReportParameter("Gyo_" & i & "_Ch4", Util.checkDBNullValue(rs.Fields("Ch4").Value)))
-        '        Else
-        '            .Add(New ReportParameter("Gyo_" & i & "_Opt4", Util.checkDBNullValue(rs.Fields("Opt4").Value)))
-        '        End If
-        '        rs.MoveNext()
-        '    Next
-        'End With
-        'rs.Close()
-
-        'Dim printViewerForm As New 印刷フォーム(Parameters)
-        'printViewerForm.Show()
-
-
-
         Dim gDay(5) As String
         Dim gNum(9) As String
 
@@ -2619,7 +2466,7 @@ Public Class 認定調査票
         oSheet.Range("AB68").value = Util.checkDBNullValue(rs.Fields("Num10").Value)
         oSheet.Range("BN41").value = Util.checkDBNullValue(rs.Fields("Num11").Value)
         oSheet.Range("BN44").value = Util.checkDBNullValue(rs.Fields("Num12").Value)
-        oSheet.Range("BO47").value = "ある"
+        oSheet.Range("BO47").value = "あり"
         oSheet.Range("BU47").value = "なし"
         If Util.checkDBNullValue(rs.Fields("Num13").Value) = "1" Then
             border = oSheet.Range("BO47", "BR47").Borders(Excel.XlBordersIndex.xlEdgeTop)
@@ -3360,16 +3207,41 @@ Public Class 認定調査票
         End While
         oSheet.Range("7:7").rows.hidden = True
 
+        '枚数が2枚になるときの処理
+        If insertCount > 20 Then
+
+            '行追加
+            oSheet.Range("56:63").insert()
+
+            'コピペ
+            '上の番号部分
+            Dim xlRange As Excel.Range = oSheet.Range("1:6")
+            xlRange.Copy()
+            Dim xlPasteRange As Excel.Range = oSheet.Range("56:62")
+            oSheet.Paste(xlPasteRange)
+            oSheet.Range("P60").value = "2"
+            '頭の空白行分
+            xlRange = oSheet.Range("8:9")
+            xlRange.Copy()
+            xlPasteRange = oSheet.Range("62:63")
+            oSheet.Paste(xlPasteRange)
+            oSheet.Range("B62").value = ""
+
+            '改ページ
+            oSheet.HpageBreaks.add(oSheet.Range("A56"))
+        End If
+
+
         '変更保存確認ダイアログ非表示
         objExcel.DisplayAlerts = False
 
         '印刷1
-        'If topForm.rbtnPrint.Checked = True Then
-        '    objWorkBook.Worksheets({"概況調査改", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).printOut()
-        'ElseIf topForm.rbtnPreview.Checked = True Then
-        '    objExcel.Visible = True
-        '    objWorkBook.Worksheets({"概況調査改", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).PrintPreview(1)
-        'End If
+        If topForm.rbtnPrint.Checked = True Then
+            objWorkBook.Worksheets({"概況調査改", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).printOut()
+        ElseIf topForm.rbtnPreview.Checked = True Then
+            objExcel.Visible = True
+            objWorkBook.Worksheets({"概況調査改", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).PrintPreview(1)
+        End If
 
         '印刷2
         If topForm.rbtnPrint.Checked = True Then

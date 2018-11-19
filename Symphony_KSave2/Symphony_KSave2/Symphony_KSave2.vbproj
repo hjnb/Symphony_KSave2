@@ -125,12 +125,6 @@
     <Compile Include="マスタ.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="印刷フォーム.Designer.vb">
-      <DependentUpon>印刷フォーム.vb</DependentUpon>
-    </Compile>
-    <Compile Include="印刷フォーム.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="認定調査票.Designer.vb">
       <DependentUpon>認定調査票.vb</DependentUpon>
     </Compile>
@@ -145,24 +139,11 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="基本調査2.rdlc" />
-    <EmbeddedResource Include="レポート.rdlc" />
-    <EmbeddedResource Include="基本調査1.rdlc" />
-    <EmbeddedResource Include="基本調査3.rdlc" />
-    <EmbeddedResource Include="基本調査4.rdlc" />
-    <EmbeddedResource Include="基本調査5.rdlc" />
-    <EmbeddedResource Include="基本調査6.rdlc" />
-    <EmbeddedResource Include="概況調査.rdlc">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="topForm.resx">
       <DependentUpon>topForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="マスタ.resx">
       <DependentUpon>マスタ.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="印刷フォーム.resx">
-      <DependentUpon>印刷フォーム.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="認定調査票.resx">
       <DependentUpon>認定調査票.vb</DependentUpon>
