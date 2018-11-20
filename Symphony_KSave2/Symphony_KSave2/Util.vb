@@ -51,6 +51,9 @@ Public Class Util
     End Function
 
     Public Shared Function putIniString(ByVal lpSection As String, lpKeyName As String, ByVal lpValue As String, ByVal lpFileName As String) As Boolean
+        If Not System.IO.File.Exists(lpFileName) Then
+            Return False
+        End If
         Dim result As Long = WritePrivateProfileString(lpSection, lpKeyName, lpValue, lpFileName)
         Return result <> 0
     End Function

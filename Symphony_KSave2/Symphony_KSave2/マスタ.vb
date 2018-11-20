@@ -208,7 +208,7 @@ Public Class マスタ
                 cn.Close()
             End If
         Else
-            MsgBox("選択して下さい。")
+            MsgBox("選択されていません。")
             Return
         End If
     End Sub
