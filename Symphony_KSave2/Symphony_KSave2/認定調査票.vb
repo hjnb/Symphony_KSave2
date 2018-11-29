@@ -649,8 +649,8 @@ Public Class 認定調査票
             rbtnHouseIn.Checked = True '自宅内
         ElseIf Util.checkDBNullValue(rs.Fields("Home").Value) = "1" Then
             rbtnHouseOut.Checked = True '自宅外
-            houseTextBox.Text = Util.checkDBNullValue(rs.Fields("Nonhm").Value) '自宅外の詳細
         End If
+        houseTextBox.Text = Util.checkDBNullValue(rs.Fields("Nonhm").Value) '自宅外の詳細
         '過去の認定
         If Util.checkDBNullValue(rs.Fields("Kako").Value) = "0" Then
             rbtnFirstCount.Checked = True '初回
@@ -3206,29 +3206,28 @@ Public Class 認定調査票
         oSheet.Range("7:7").rows.hidden = True
 
         '枚数が2枚になるときの処理
-        If insertCount > 20 Then
+        If insertCount > 21 Then
 
             '行追加
-            oSheet.Range("56:63").insert()
+            oSheet.Range("57:64").insert()
 
             'コピペ
             '上の番号部分
             Dim xlRange As Excel.Range = oSheet.Range("1:6")
             xlRange.Copy()
-            Dim xlPasteRange As Excel.Range = oSheet.Range("56:62")
+            Dim xlPasteRange As Excel.Range = oSheet.Range("57:63")
             oSheet.Paste(xlPasteRange)
-            oSheet.Range("P60").value = "2"
+            oSheet.Range("P61").value = "2"
             '頭の空白行分
             xlRange = oSheet.Range("8:9")
             xlRange.Copy()
-            xlPasteRange = oSheet.Range("62:63")
+            xlPasteRange = oSheet.Range("63:64")
             oSheet.Paste(xlPasteRange)
-            oSheet.Range("B62").value = ""
+            oSheet.Range("B63").value = ""
 
             '改ページ
-            oSheet.HpageBreaks.add(oSheet.Range("A56"))
+            oSheet.HpageBreaks.add(oSheet.Range("A57"))
         End If
-
 
         '変更保存確認ダイアログ非表示
         objExcel.DisplayAlerts = False
