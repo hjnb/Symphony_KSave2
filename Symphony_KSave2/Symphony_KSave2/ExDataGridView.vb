@@ -3,6 +3,18 @@
 
     Private editingColumnIndex As Integer = 0
 
+    Private _targetTextBox As ymdBox.ymdBox
+
+    Public Property targetTextBox() As ymdBox.ymdBox
+        Get
+            Return _targetTextBox
+        End Get
+
+        Set(ByVal value As ymdBox.ymdBox)
+            _targetTextBox = value
+        End Set
+    End Property
+
     Protected Overrides Function ProcessDialogKey(keyData As System.Windows.Forms.Keys) As Boolean
         If keyData = Keys.Enter OrElse keyData = Keys.Tab Then
             If editingColumnIndex = 5 Then
@@ -19,6 +31,11 @@
         If Not IsNothing(tb) AndAlso ((e.KeyCode = Keys.Left AndAlso tb.SelectionStart = 0) OrElse (e.KeyCode = Keys.Right AndAlso tb.SelectionStart = tb.TextLength)) Then
             Return False
         Else
+            If editingColumnIndex = 21 Then
+                If Not IsNothing(_targetTextBox) Then
+                    _targetTextBox.Focus()
+                End If
+            End If
             Return MyBase.ProcessDataGridViewKey(e)
         End If
     End Function

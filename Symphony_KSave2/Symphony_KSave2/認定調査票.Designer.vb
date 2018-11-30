@@ -932,7 +932,7 @@ Partial Class 認定調査票
         Me.Panel12.Location = New System.Drawing.Point(110, 597)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(734, 21)
-        Me.Panel12.TabIndex = 18
+        Me.Panel12.TabIndex = 19
         '
         'Label64
         '
@@ -987,7 +987,7 @@ Partial Class 認定調査票
         Me.Panel11.Location = New System.Drawing.Point(110, 571)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(308, 21)
-        Me.Panel11.TabIndex = 17
+        Me.Panel11.TabIndex = 18
         '
         'Label75
         '
@@ -1122,7 +1122,7 @@ Partial Class 認定調査票
         Me.Panel9.Location = New System.Drawing.Point(37, 471)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(653, 18)
-        Me.Panel9.TabIndex = 16
+        Me.Panel9.TabIndex = 17
         '
         'checkGen22
         '
@@ -1141,7 +1141,7 @@ Partial Class 認定調査票
         Me.Panel8.Location = New System.Drawing.Point(37, 453)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(653, 18)
-        Me.Panel8.TabIndex = 15
+        Me.Panel8.TabIndex = 16
         '
         'checkGen21
         '
@@ -1240,7 +1240,7 @@ Partial Class 認定調査票
         Me.overview3Panel.Location = New System.Drawing.Point(37, 273)
         Me.overview3Panel.Name = "overview3Panel"
         Me.overview3Panel.Size = New System.Drawing.Size(728, 180)
-        Me.overview3Panel.TabIndex = 14
+        Me.overview3Panel.TabIndex = 15
         '
         'CheckNum13None
         '
@@ -1842,7 +1842,7 @@ Partial Class 認定調査票
         Me.relationBox.Location = New System.Drawing.Point(367, 242)
         Me.relationBox.Name = "relationBox"
         Me.relationBox.Size = New System.Drawing.Size(75, 20)
-        Me.relationBox.TabIndex = 13
+        Me.relationBox.TabIndex = 14
         '
         'Label30
         '
@@ -1861,7 +1861,7 @@ Partial Class 認定調査票
         Me.Panel6.Location = New System.Drawing.Point(88, 243)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(148, 21)
-        Me.Panel6.TabIndex = 12
+        Me.Panel6.TabIndex = 13
         '
         'Label29
         '
@@ -1898,7 +1898,7 @@ Partial Class 認定調査票
         Me.Panel5.Location = New System.Drawing.Point(98, 214)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(734, 21)
-        Me.Panel5.TabIndex = 11
+        Me.Panel5.TabIndex = 12
         '
         'Label18
         '
@@ -1962,7 +1962,7 @@ Partial Class 認定調査票
         Me.Panel4.Location = New System.Drawing.Point(98, 186)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(734, 21)
-        Me.Panel4.TabIndex = 10
+        Me.Panel4.TabIndex = 11
         '
         'Label23
         '
@@ -2053,7 +2053,7 @@ Partial Class 認定調査票
         Me.btnCalcAge.Location = New System.Drawing.Point(406, 155)
         Me.btnCalcAge.Name = "btnCalcAge"
         Me.btnCalcAge.Size = New System.Drawing.Size(53, 20)
-        Me.btnCalcAge.TabIndex = 25
+        Me.btnCalcAge.TabIndex = 90
         Me.btnCalcAge.Text = "年齢算出"
         Me.btnCalcAge.UseVisualStyleBackColor = True
         '
@@ -2064,11 +2064,11 @@ Partial Class 認定調査票
         Me.birthYmdBox.EraLabelText = "H30"
         Me.birthYmdBox.EraText = ""
         Me.birthYmdBox.Location = New System.Drawing.Point(280, 149)
-        Me.birthYmdBox.MonthLabelText = "09"
+        Me.birthYmdBox.MonthLabelText = "11"
         Me.birthYmdBox.MonthText = ""
         Me.birthYmdBox.Name = "birthYmdBox"
         Me.birthYmdBox.Size = New System.Drawing.Size(110, 34)
-        Me.birthYmdBox.TabIndex = 9
+        Me.birthYmdBox.TabIndex = 10
         '
         'Label14
         '
@@ -2087,7 +2087,7 @@ Partial Class 認定調査票
         Me.Panel3.Location = New System.Drawing.Point(86, 153)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(102, 25)
-        Me.Panel3.TabIndex = 8
+        Me.Panel3.TabIndex = 9
         '
         'rbtnWoman
         '
@@ -2127,7 +2127,7 @@ Partial Class 認定調査票
         Me.certifiedResultBox.Location = New System.Drawing.Point(629, 120)
         Me.certifiedResultBox.Name = "certifiedResultBox"
         Me.certifiedResultBox.Size = New System.Drawing.Size(116, 20)
-        Me.certifiedResultBox.TabIndex = 7
+        Me.certifiedResultBox.TabIndex = 8
         '
         'Label12
         '
@@ -2146,11 +2146,11 @@ Partial Class 認定調査票
         Me.lastCertifiedYmdBox.EraLabelText = "H30"
         Me.lastCertifiedYmdBox.EraText = ""
         Me.lastCertifiedYmdBox.Location = New System.Drawing.Point(379, 114)
-        Me.lastCertifiedYmdBox.MonthLabelText = "09"
+        Me.lastCertifiedYmdBox.MonthLabelText = "11"
         Me.lastCertifiedYmdBox.MonthText = ""
         Me.lastCertifiedYmdBox.Name = "lastCertifiedYmdBox"
         Me.lastCertifiedYmdBox.Size = New System.Drawing.Size(110, 34)
-        Me.lastCertifiedYmdBox.TabIndex = 19
+        Me.lastCertifiedYmdBox.TabIndex = 7
         Me.lastCertifiedYmdBox.Visible = False
         '
         'lastCertifiedCheckBox
@@ -2159,7 +2159,7 @@ Partial Class 認定調査票
         Me.lastCertifiedCheckBox.Location = New System.Drawing.Point(302, 124)
         Me.lastCertifiedCheckBox.Name = "lastCertifiedCheckBox"
         Me.lastCertifiedCheckBox.Size = New System.Drawing.Size(72, 16)
-        Me.lastCertifiedCheckBox.TabIndex = 18
+        Me.lastCertifiedCheckBox.TabIndex = 180
         Me.lastCertifiedCheckBox.Text = "前回認定"
         Me.lastCertifiedCheckBox.UseVisualStyleBackColor = True
         '
@@ -2333,7 +2333,7 @@ Partial Class 認定調査票
         Me.dateYmdBox.EraLabelText = "H30"
         Me.dateYmdBox.EraText = ""
         Me.dateYmdBox.Location = New System.Drawing.Point(110, 48)
-        Me.dateYmdBox.MonthLabelText = "09"
+        Me.dateYmdBox.MonthLabelText = "11"
         Me.dateYmdBox.MonthText = ""
         Me.dateYmdBox.Name = "dateYmdBox"
         Me.dateYmdBox.Size = New System.Drawing.Size(145, 34)
@@ -4969,7 +4969,7 @@ Partial Class 認定調査票
         Me.spText4.Location = New System.Drawing.Point(37, 685)
         Me.spText4.Name = "spText4"
         Me.spText4.Size = New System.Drawing.Size(733, 19)
-        Me.spText4.TabIndex = 22
+        Me.spText4.TabIndex = 23
         '
         'spText3
         '
@@ -4978,7 +4978,7 @@ Partial Class 認定調査票
         Me.spText3.Location = New System.Drawing.Point(37, 666)
         Me.spText3.Name = "spText3"
         Me.spText3.Size = New System.Drawing.Size(733, 19)
-        Me.spText3.TabIndex = 21
+        Me.spText3.TabIndex = 22
         '
         'spText2
         '
@@ -4987,7 +4987,7 @@ Partial Class 認定調査票
         Me.spText2.Location = New System.Drawing.Point(37, 647)
         Me.spText2.Name = "spText2"
         Me.spText2.Size = New System.Drawing.Size(733, 19)
-        Me.spText2.TabIndex = 20
+        Me.spText2.TabIndex = 21
         '
         'spText1
         '
@@ -4996,7 +4996,7 @@ Partial Class 認定調査票
         Me.spText1.Location = New System.Drawing.Point(37, 628)
         Me.spText1.Name = "spText1"
         Me.spText1.Size = New System.Drawing.Size(733, 19)
-        Me.spText1.TabIndex = 19
+        Me.spText1.TabIndex = 20
         '
         'txtGentxt1
         '
@@ -5007,7 +5007,7 @@ Partial Class 認定調査票
         Me.txtGentxt1.Location = New System.Drawing.Point(161, 455)
         Me.txtGentxt1.Name = "txtGentxt1"
         Me.txtGentxt1.Size = New System.Drawing.Size(528, 14)
-        Me.txtGentxt1.TabIndex = 206
+        Me.txtGentxt1.TabIndex = 0
         '
         'houseTextBox
         '
@@ -5093,7 +5093,7 @@ Partial Class 認定調査票
         Me.txtGentxt2.Location = New System.Drawing.Point(192, 1)
         Me.txtGentxt2.Name = "txtGentxt2"
         Me.txtGentxt2.Size = New System.Drawing.Size(460, 14)
-        Me.txtGentxt2.TabIndex = 207
+        Me.txtGentxt2.TabIndex = 0
         '
         'txtNum20
         '
@@ -5104,7 +5104,7 @@ Partial Class 認定調査票
         Me.txtNum20.Location = New System.Drawing.Point(657, 147)
         Me.txtNum20.Name = "txtNum20"
         Me.txtNum20.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum20.TabIndex = 215
+        Me.txtNum20.TabIndex = 19
         '
         'txtNum19
         '
@@ -5115,7 +5115,7 @@ Partial Class 認定調査票
         Me.txtNum19.Location = New System.Drawing.Point(657, 131)
         Me.txtNum19.Name = "txtNum19"
         Me.txtNum19.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum19.TabIndex = 214
+        Me.txtNum19.TabIndex = 18
         '
         'txtNum18
         '
@@ -5126,7 +5126,7 @@ Partial Class 認定調査票
         Me.txtNum18.Location = New System.Drawing.Point(657, 115)
         Me.txtNum18.Name = "txtNum18"
         Me.txtNum18.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum18.TabIndex = 213
+        Me.txtNum18.TabIndex = 17
         '
         'txtNum17
         '
@@ -5137,7 +5137,7 @@ Partial Class 認定調査票
         Me.txtNum17.Location = New System.Drawing.Point(657, 99)
         Me.txtNum17.Name = "txtNum17"
         Me.txtNum17.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum17.TabIndex = 212
+        Me.txtNum17.TabIndex = 16
         '
         'txtNum16
         '
@@ -5148,7 +5148,7 @@ Partial Class 認定調査票
         Me.txtNum16.Location = New System.Drawing.Point(657, 83)
         Me.txtNum16.Name = "txtNum16"
         Me.txtNum16.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum16.TabIndex = 211
+        Me.txtNum16.TabIndex = 15
         '
         'txtNum15
         '
@@ -5159,7 +5159,7 @@ Partial Class 認定調査票
         Me.txtNum15.Location = New System.Drawing.Point(657, 67)
         Me.txtNum15.Name = "txtNum15"
         Me.txtNum15.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum15.TabIndex = 210
+        Me.txtNum15.TabIndex = 14
         '
         'txtNum14
         '
@@ -5170,7 +5170,7 @@ Partial Class 認定調査票
         Me.txtNum14.Location = New System.Drawing.Point(657, 51)
         Me.txtNum14.Name = "txtNum14"
         Me.txtNum14.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum14.TabIndex = 209
+        Me.txtNum14.TabIndex = 13
         '
         'txtNum12
         '
@@ -5181,7 +5181,7 @@ Partial Class 認定調査票
         Me.txtNum12.Location = New System.Drawing.Point(657, 19)
         Me.txtNum12.Name = "txtNum12"
         Me.txtNum12.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum12.TabIndex = 208
+        Me.txtNum12.TabIndex = 12
         '
         'txtNum11
         '
@@ -5192,7 +5192,7 @@ Partial Class 認定調査票
         Me.txtNum11.Location = New System.Drawing.Point(657, 3)
         Me.txtNum11.Name = "txtNum11"
         Me.txtNum11.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum11.TabIndex = 207
+        Me.txtNum11.TabIndex = 11
         '
         'txtNum21
         '
@@ -5203,7 +5203,7 @@ Partial Class 認定調査票
         Me.txtNum21.Location = New System.Drawing.Point(285, 163)
         Me.txtNum21.Name = "txtNum21"
         Me.txtNum21.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum21.TabIndex = 206
+        Me.txtNum21.TabIndex = 10
         '
         'txtNum10
         '
@@ -5214,7 +5214,7 @@ Partial Class 認定調査票
         Me.txtNum10.Location = New System.Drawing.Point(285, 147)
         Me.txtNum10.Name = "txtNum10"
         Me.txtNum10.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum10.TabIndex = 205
+        Me.txtNum10.TabIndex = 9
         '
         'txtNum9
         '
@@ -5225,7 +5225,7 @@ Partial Class 認定調査票
         Me.txtNum9.Location = New System.Drawing.Point(285, 131)
         Me.txtNum9.Name = "txtNum9"
         Me.txtNum9.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum9.TabIndex = 204
+        Me.txtNum9.TabIndex = 8
         '
         'txtNum8
         '
@@ -5236,7 +5236,7 @@ Partial Class 認定調査票
         Me.txtNum8.Location = New System.Drawing.Point(285, 115)
         Me.txtNum8.Name = "txtNum8"
         Me.txtNum8.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum8.TabIndex = 203
+        Me.txtNum8.TabIndex = 7
         '
         'txtNum7
         '
@@ -5247,7 +5247,7 @@ Partial Class 認定調査票
         Me.txtNum7.Location = New System.Drawing.Point(285, 99)
         Me.txtNum7.Name = "txtNum7"
         Me.txtNum7.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum7.TabIndex = 202
+        Me.txtNum7.TabIndex = 6
         '
         'txtNum6
         '
@@ -5258,7 +5258,7 @@ Partial Class 認定調査票
         Me.txtNum6.Location = New System.Drawing.Point(285, 83)
         Me.txtNum6.Name = "txtNum6"
         Me.txtNum6.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum6.TabIndex = 201
+        Me.txtNum6.TabIndex = 5
         '
         'txtNum5
         '
@@ -5269,7 +5269,7 @@ Partial Class 認定調査票
         Me.txtNum5.Location = New System.Drawing.Point(285, 67)
         Me.txtNum5.Name = "txtNum5"
         Me.txtNum5.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum5.TabIndex = 200
+        Me.txtNum5.TabIndex = 4
         '
         'txtNum4
         '
@@ -5280,7 +5280,7 @@ Partial Class 認定調査票
         Me.txtNum4.Location = New System.Drawing.Point(285, 51)
         Me.txtNum4.Name = "txtNum4"
         Me.txtNum4.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum4.TabIndex = 199
+        Me.txtNum4.TabIndex = 3
         '
         'txtNum3
         '
@@ -5291,7 +5291,7 @@ Partial Class 認定調査票
         Me.txtNum3.Location = New System.Drawing.Point(285, 35)
         Me.txtNum3.Name = "txtNum3"
         Me.txtNum3.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum3.TabIndex = 198
+        Me.txtNum3.TabIndex = 2
         '
         'txtNum2
         '
@@ -5302,7 +5302,7 @@ Partial Class 認定調査票
         Me.txtNum2.Location = New System.Drawing.Point(285, 19)
         Me.txtNum2.Name = "txtNum2"
         Me.txtNum2.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum2.TabIndex = 197
+        Me.txtNum2.TabIndex = 1
         '
         'txtNum1
         '
@@ -5313,7 +5313,7 @@ Partial Class 認定調査票
         Me.txtNum1.Location = New System.Drawing.Point(285, 3)
         Me.txtNum1.Name = "txtNum1"
         Me.txtNum1.Size = New System.Drawing.Size(35, 13)
-        Me.txtNum1.TabIndex = 196
+        Me.txtNum1.TabIndex = 0
         '
         'namBox
         '

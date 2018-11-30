@@ -46,6 +46,9 @@ Public Class 認定調査票
         settingInputBox()
         clearOverviewPageInputBox()
 
+        'エンターキーでの処理用設定
+        dgvNumInput.targetTextBox = dateYmdBox
+
     End Sub
 
     Private Sub settingUserList()
@@ -1367,6 +1370,24 @@ Public Class 認定調査票
         ageLabel.Text = age
     End Sub
 
+    Private Sub txtNum20_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txtNum20.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            txtGentxt1.Focus()
+        End If
+    End Sub
+
+    Private Sub txtGentxt1_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txtGentxt1.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            txtGentxt2.Focus()
+        End If
+    End Sub
+
+    Private Sub txtGentxt2_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txtGentxt2.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            facilityNameBox.Focus()
+        End If
+    End Sub
+
     Private Sub spText1_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles spText1.KeyDown
         If e.KeyCode = Keys.Down Then
             spText2.Focus()
@@ -1392,6 +1413,8 @@ Public Class 認定調査票
     Private Sub spText4_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles spText4.KeyDown
         If e.KeyCode = Keys.Up Then
             spText3.Focus()
+        ElseIf e.KeyCode = Keys.Enter Then
+            btnRegist.Focus()
         End If
     End Sub
 
@@ -3256,5 +3279,4 @@ Public Class 認定調査票
         objWorkBook = Nothing
         objExcel = Nothing
     End Sub
-
 End Class
