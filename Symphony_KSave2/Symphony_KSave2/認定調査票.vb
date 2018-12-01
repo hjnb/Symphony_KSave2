@@ -1370,12 +1370,6 @@ Public Class 認定調査票
         ageLabel.Text = age
     End Sub
 
-    Private Sub txtNum20_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txtNum20.KeyDown
-        If e.KeyCode = Keys.Enter Then
-            txtGentxt1.Focus()
-        End If
-    End Sub
-
     Private Sub txtGentxt1_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txtGentxt1.KeyDown
         If e.KeyCode = Keys.Enter Then
             txtGentxt2.Focus()
@@ -3278,5 +3272,34 @@ Public Class 認定調査票
         oSheet = Nothing
         objWorkBook = Nothing
         objExcel = Nothing
+    End Sub
+
+    Private Sub txtNum_KeyDown(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles txtNum1.KeyDown, txtNum2.KeyDown, txtNum3.KeyDown, txtNum4.KeyDown, txtNum5.KeyDown, txtNum6.KeyDown, txtNum7.KeyDown, txtNum8.KeyDown, txtNum9.KeyDown, txtNum10.KeyDown, txtNum11.KeyDown, txtNum12.KeyDown, txtNum14.KeyDown, txtNum15.KeyDown, txtNum16.KeyDown, txtNum17.KeyDown, txtNum18.KeyDown, txtNum19.KeyDown, txtNum20.KeyDown, txtNum21.KeyDown
+        Dim tb As TextBox = CType(sender, TextBox)
+        Dim index As Integer = CInt(tb.Name.Substring(6, tb.Name.Length - 6))
+
+        If e.KeyCode = Keys.Down Then '↓キー処理
+            If index < 20 Then
+                If index = 10 Then
+                    txtNum21.Focus()
+                ElseIf index = 12 Then
+                    txtNum14.Focus()
+                Else
+                    overview3Panel.Controls("txtNum" & (index + 1)).Focus()
+                End If
+            End If
+        ElseIf e.KeyCode = Keys.Up Then '↑キー処理
+            If index <> 1 AndAlso index <> 11 Then
+                If index = 21 Then
+                    txtNum10.Focus()
+                ElseIf index = 14 Then
+                    txtNum12.Focus()
+                Else
+                    overview3Panel.Controls("txtNum" & (index - 1)).Focus()
+                End If
+            End If
+        ElseIf e.KeyCode = Keys.Enter AndAlso index = 20 Then 'txtNum20のエンターキー処理
+            txtGentxt1.Focus()
+        End If
     End Sub
 End Class
