@@ -16,7 +16,7 @@ Public Class SpDgv
                 Me.EndEdit()
                 Dim inputStr As String = StrConv(CurrentCell.Value.ToString(), VbStrConv.Narrow) '半角に変換
 
-                If System.Text.RegularExpressions.Regex.IsMatch(inputStr, "^\d+(,\d+|\-\d+)*$") Then
+                If System.Text.RegularExpressions.Regex.IsMatch(inputStr, "^\d+(,\d+|\-\d+|\.\d+)*$") Then
                     CurrentCell.Value = inputStr
                 Else
                     CurrentCell.Value = ""
