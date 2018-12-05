@@ -6,7 +6,7 @@ Public Class SpDgv
     Private cellEnterFlg As Boolean = False
     Private selectedRowIndex As Integer = 0
     Private CRR_LIMIT_LENGTHBYTE As Integer = 6
-    Private TXT_LIMIT_LENGTHBYTE As Integer = 98
+    Private TXT_LIMIT_LENGTHBYTE As Integer = 100
 
     Public dt As New DataTable()
 
