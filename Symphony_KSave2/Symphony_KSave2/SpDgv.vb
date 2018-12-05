@@ -12,6 +12,16 @@ Public Class SpDgv
 
     Protected Overrides Function ProcessDialogKey(keyData As System.Windows.Forms.Keys) As Boolean
         If keyData = Keys.Enter Then
+            If Me.Columns(CurrentCell.ColumnIndex).Name = "Crr" Then
+                Me.EndEdit()
+                Dim inputStr As String = StrConv(CurrentCell.Value.ToString(), VbStrConv.Narrow) '半角に変換
+
+                If System.Text.RegularExpressions.Regex.IsMatch(inputStr, "^\d+(,\d+|\-\d+)*$") Then
+                    CurrentCell.Value = inputStr
+                Else
+                    CurrentCell.Value = ""
+                End If
+            End If
             Return Me.ProcessTabKey(keyData)
         Else
             Return MyBase.ProcessDialogKey(keyData)
@@ -71,7 +81,7 @@ Public Class SpDgv
         Dim text As String = CType(sender, DataGridViewTextBoxEditingControl).Text
         Dim lengthByte As Integer = Encoding.GetEncoding("Shift_JIS").GetByteCount(text)
         Dim limitLengthByte As Integer = If(Me.Columns(Me.CurrentCell.ColumnIndex).Name = "Crr", CRR_LIMIT_LENGTHBYTE, TXT_LIMIT_LENGTHBYTE)
-        
+
         If lengthByte >= limitLengthByte Then '設定されているバイト数以上の時
             If e.KeyChar = ChrW(Keys.Back) Then
                 'Backspaceは入力可能
@@ -85,7 +95,7 @@ Public Class SpDgv
 
     Private Sub SpDgv_EditingControlShowing(sender As Object, e As System.Windows.Forms.DataGridViewEditingControlShowingEventArgs) Handles Me.EditingControlShowing
         Dim editTextBox As DataGridViewTextBoxEditingControl = CType(e.Control, DataGridViewTextBoxEditingControl)
-        editTextBox.ImeMode = If(Me.Columns(Me.CurrentCell.ColumnIndex).Name = "Crr", Windows.Forms.ImeMode.Disable, Windows.Forms.ImeMode.Hiragana)
+        editTextBox.ImeMode = If(Me.Columns(Me.CurrentCell.ColumnIndex).Name = "Crr", Windows.Forms.ImeMode.NoControl, Windows.Forms.ImeMode.Hiragana)
 
         'イベントハンドラを削除、追加
         RemoveHandler editTextBox.KeyPress, AddressOf SpDgvTextBox_KeyPress

@@ -257,6 +257,7 @@ Public Class 認定調査票
         End While
         rs.Close()
         cnn.Close()
+        etcBox.ImeMode = Windows.Forms.ImeMode.Hiragana
 
         '所属機関ボックス
         companyBox.Items.AddRange({"特別養護老人ホーム シンフォニー", "居宅介護支援事業所 シンフォニー"})
