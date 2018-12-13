@@ -241,6 +241,11 @@ Public Class 認定調査票
             End With
         End With
 
+        '並び替えができないようにする
+        For Each c As DataGridViewColumn In dgv.Columns
+            c.SortMode = DataGridViewColumnSortMode.NotSortable
+        Next
+
     End Sub
 
     Private Sub settingInputBox()
