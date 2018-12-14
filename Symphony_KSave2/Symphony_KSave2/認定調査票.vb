@@ -3228,13 +3228,11 @@ Public Class 認定調査票
         End While
         oSheet.Range("7:7").rows.hidden = True
 
-        '枚数が2枚になるときの処理
-        If insertCount > 21 Then
-
+        If 22 <= insertCount AndAlso insertCount <= 68 Then '枚数が2枚になるときの処理
             '行追加
             oSheet.Range("57:64").insert()
 
-            'コピペ
+            '行のコピペ処理
             '上の番号部分
             Dim xlRange As Excel.Range = oSheet.Range("1:6")
             xlRange.Copy()
@@ -3250,6 +3248,43 @@ Public Class 認定調査票
 
             '改ページ
             oSheet.HpageBreaks.add(oSheet.Range("A57"))
+
+        ElseIf 69 <= insertCount Then '枚数が3枚になるときの処理
+            '2枚目部分
+            oSheet.Range("57:64").insert() '行追加
+            '行のコピペ処理
+            '上の番号部分
+            Dim xlRange As Excel.Range = oSheet.Range("1:6")
+            xlRange.Copy()
+            Dim xlPasteRange As Excel.Range = oSheet.Range("57:63")
+            oSheet.Paste(xlPasteRange)
+            oSheet.Range("P61").value = "2"
+            '頭の空白行分
+            xlRange = oSheet.Range("8:9")
+            xlRange.Copy()
+            xlPasteRange = oSheet.Range("63:64")
+            oSheet.Paste(xlPasteRange)
+            oSheet.Range("B63").value = ""
+            '改ページ
+            oSheet.HpageBreaks.add(oSheet.Range("A57"))
+
+            '3枚目部分
+            oSheet.Range("112:119").insert() '行追加
+            '行のコピペ処理
+            '上の番号部分
+            xlRange = oSheet.Range("1:6")
+            xlRange.Copy()
+            xlPasteRange = oSheet.Range("112:118")
+            oSheet.Paste(xlPasteRange)
+            oSheet.Range("P116").value = "3"
+            '頭の空白行分
+            xlRange = oSheet.Range("8:9")
+            xlRange.Copy()
+            xlPasteRange = oSheet.Range("118:119")
+            oSheet.Paste(xlPasteRange)
+            oSheet.Range("B118").value = ""
+            '改ページ
+            oSheet.HpageBreaks.add(oSheet.Range("A112"))
         End If
 
         '変更保存確認ダイアログ非表示
