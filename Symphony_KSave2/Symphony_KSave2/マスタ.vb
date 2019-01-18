@@ -221,9 +221,6 @@ Public Class マスタ
 
             namBox.Text = nam
             kanaBox.Text = kana
-
-            namBox.Focus()
-            namBox.SelectionLength = 0
         End If
     End Sub
 
