@@ -2533,10 +2533,10 @@ Partial Class 認定調査票
         '
         Me.birthYmdBox.boxType = 2
         Me.birthYmdBox.DateText = ""
-        Me.birthYmdBox.EraLabelText = "H30"
+        Me.birthYmdBox.EraLabelText = "H31"
         Me.birthYmdBox.EraText = ""
         Me.birthYmdBox.Location = New System.Drawing.Point(280, 144)
-        Me.birthYmdBox.MonthLabelText = "12"
+        Me.birthYmdBox.MonthLabelText = "02"
         Me.birthYmdBox.MonthText = ""
         Me.birthYmdBox.Name = "birthYmdBox"
         Me.birthYmdBox.Size = New System.Drawing.Size(110, 34)
@@ -2615,10 +2615,10 @@ Partial Class 認定調査票
         '
         Me.lastCertifiedYmdBox.boxType = 2
         Me.lastCertifiedYmdBox.DateText = ""
-        Me.lastCertifiedYmdBox.EraLabelText = "H30"
+        Me.lastCertifiedYmdBox.EraLabelText = "H31"
         Me.lastCertifiedYmdBox.EraText = ""
         Me.lastCertifiedYmdBox.Location = New System.Drawing.Point(379, 110)
-        Me.lastCertifiedYmdBox.MonthLabelText = "12"
+        Me.lastCertifiedYmdBox.MonthLabelText = "02"
         Me.lastCertifiedYmdBox.MonthText = ""
         Me.lastCertifiedYmdBox.Name = "lastCertifiedYmdBox"
         Me.lastCertifiedYmdBox.Size = New System.Drawing.Size(110, 34)
@@ -2802,10 +2802,10 @@ Partial Class 認定調査票
         '
         Me.dateYmdBox.boxType = 4
         Me.dateYmdBox.DateText = ""
-        Me.dateYmdBox.EraLabelText = "H30"
+        Me.dateYmdBox.EraLabelText = "H31"
         Me.dateYmdBox.EraText = ""
         Me.dateYmdBox.Location = New System.Drawing.Point(110, 46)
-        Me.dateYmdBox.MonthLabelText = "12"
+        Me.dateYmdBox.MonthLabelText = "02"
         Me.dateYmdBox.MonthText = ""
         Me.dateYmdBox.Name = "dateYmdBox"
         Me.dateYmdBox.Size = New System.Drawing.Size(145, 34)
