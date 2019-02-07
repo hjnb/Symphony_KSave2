@@ -2579,597 +2579,592 @@ Public Class 認定調査票
         rs.Close()
 
         '基本調査1
-        oSheet = objWorkBook.Worksheets("基本調査1")
         '調査日番号
-        oSheet.Range("B5").value = gDay(0)
-        oSheet.Range("D5").value = gDay(1)
-        oSheet.Range("F5").value = gDay(2)
-        oSheet.Range("G5").value = gDay(3)
-        oSheet.Range("J5").value = gDay(4)
-        oSheet.Range("L5").value = gDay(5)
+        oSheet.Range("B118").value = gDay(0)
+        oSheet.Range("D118").value = gDay(1)
+        oSheet.Range("F118").value = gDay(2)
+        oSheet.Range("G118").value = gDay(3)
+        oSheet.Range("I118").value = gDay(4)
+        oSheet.Range("L118").value = gDay(5)
         '被保険者番号
-        oSheet.Range("X5").value = gNum(0)
-        oSheet.Range("Z5").value = gNum(1)
-        oSheet.Range("AB5").value = gNum(2)
-        oSheet.Range("AC5").value = gNum(3)
-        oSheet.Range("AE5").value = gNum(4)
-        oSheet.Range("AG5").value = gNum(5)
-        oSheet.Range("AI5").value = gNum(6)
-        oSheet.Range("AJ5").value = gNum(7)
-        oSheet.Range("AK5").value = gNum(8)
-        oSheet.Range("AL5").value = gNum(9)
+        oSheet.Range("AJ118").value = gNum(0)
+        oSheet.Range("AO118").value = gNum(1)
+        oSheet.Range("AR118").value = gNum(2)
+        oSheet.Range("AV118").value = gNum(3)
+        oSheet.Range("AX118").value = gNum(4)
+        oSheet.Range("BB118").value = gNum(5)
+        oSheet.Range("BG118").value = gNum(6)
+        oSheet.Range("BL118").value = gNum(7)
+        oSheet.Range("BP118").value = gNum(8)
+        oSheet.Range("BV118").value = gNum(9)
         '1-1
-        oSheet.Range("C11").value = If(ch2(0) = "1", "①", "1.")
-        oSheet.Range("G11").value = If(ch2(1) = "1", "②", "2.")
-        oSheet.Range("M11").value = If(ch2(2) = "1", "③", "3.")
-        oSheet.Range("T11").value = If(ch2(3) = "1", "④", "4.")
-        oSheet.Range("AA11").value = If(ch2(4) = "1", "⑤", "5.")
-        oSheet.Range("AF11").value = If(ch2(5) = "1", "⑥", "6.")
+        oSheet.Range("C124").value = If(ch2(0) = "1", "①", "1.")
+        oSheet.Range("G124").value = If(ch2(1) = "1", "②", "2.")
+        oSheet.Range("P124").value = If(ch2(2) = "1", "③", "3.")
+        oSheet.Range("AB124").value = If(ch2(3) = "1", "④", "4.")
+        oSheet.Range("AP124").value = If(ch2(4) = "1", "⑤", "5.")
+        oSheet.Range("AZ124").value = If(ch2(5) = "1", "⑥", "6.")
         '1-2
-        oSheet.Range("C15").value = If(ch3(0) = "1", "①", "1.")
-        oSheet.Range("I15").value = If(ch3(1) = "1", "②", "2.")
-        oSheet.Range("P15").value = If(ch3(2) = "1", "③", "3.")
-        oSheet.Range("V15").value = If(ch3(3) = "1", "④", "4.")
-        oSheet.Range("AC15").value = If(ch3(4) = "1", "⑤", "5.")
+        oSheet.Range("C128").value = If(ch3(0) = "1", "①", "1.")
+        oSheet.Range("H128").value = If(ch3(1) = "1", "②", "2.")
+        oSheet.Range("T128").value = If(ch3(2) = "1", "③", "3.")
+        oSheet.Range("AG128").value = If(ch3(3) = "1", "④", "4.")
+        oSheet.Range("AV128").value = If(ch3(4) = "1", "⑤", "5.")
         '1-3
-        oSheet.Range("C19").value = If(opt4(0) = "1", "①", "1.")
-        oSheet.Range("R19").value = If(opt4(1) = "1", "②", "2.")
-        oSheet.Range("AH19").value = If(opt4(2) = "1", "③", "3.")
+        oSheet.Range("C132").value = If(opt4(0) = "1", "①", "1.")
+        oSheet.Range("W132").value = If(opt4(1) = "1", "②", "2.")
+        oSheet.Range("BD132").value = If(opt4(2) = "1", "③", "3.")
         '1-4
-        oSheet.Range("C23").value = If(opt4(3) = "1", "①", "1.")
-        oSheet.Range("R23").value = If(opt4(4) = "1", "②", "2.")
-        oSheet.Range("AH23").value = If(opt4(5) = "1", "③", "3.")
+        oSheet.Range("C136").value = If(opt4(3) = "1", "①", "1.")
+        oSheet.Range("W136").value = If(opt4(4) = "1", "②", "2.")
+        oSheet.Range("BD136").value = If(opt4(5) = "1", "③", "3.")
         '1-5
-        oSheet.Range("C27").value = If(opt4(6) = "1", "①", "1.")
-        oSheet.Range("I27").value = If(opt4(7) = "1", "②", "2.")
-        oSheet.Range("V27").value = If(opt4(8) = "1", "③", "3.")
-        oSheet.Range("AH27").value = If(opt4(9) = "1", "④", "4.")
+        oSheet.Range("C140").value = If(opt4(6) = "1", "①", "1.")
+        oSheet.Range("I140").value = If(opt4(7) = "1", "②", "2.")
+        oSheet.Range("AD140").value = If(opt4(8) = "1", "③", "3.")
+        oSheet.Range("BD140").value = If(opt4(9) = "1", "④", "4.")
         '1-6
-        oSheet.Range("C31").value = If(opt4(10) = "1", "①", "1.")
-        oSheet.Range("R31").value = If(opt4(11) = "1", "②", "2.")
-        oSheet.Range("AH31").value = If(opt4(12) = "1", "③", "3.")
+        oSheet.Range("C144").value = If(opt4(10) = "1", "①", "1.")
+        oSheet.Range("W144").value = If(opt4(11) = "1", "②", "2.")
+        oSheet.Range("BD144").value = If(opt4(12) = "1", "③", "3.")
         '1-7
-        oSheet.Range("C35").value = If(opt4(13) = "1", "①", "1.")
-        oSheet.Range("R35").value = If(opt4(14) = "1", "②", "2.")
-        oSheet.Range("AH35").value = If(opt4(15) = "1", "③", "3.")
+        oSheet.Range("C148").value = If(opt4(13) = "1", "①", "1.")
+        oSheet.Range("W148").value = If(opt4(14) = "1", "②", "2.")
+        oSheet.Range("BD148").value = If(opt4(15) = "1", "③", "3.")
         '1-8
-        oSheet.Range("C39").value = If(opt4(16) = "1", "①", "1.")
-        oSheet.Range("R39").value = If(opt4(17) = "1", "②", "2.")
-        oSheet.Range("AH39").value = If(opt4(18) = "1", "③", "3.")
+        oSheet.Range("C152").value = If(opt4(16) = "1", "①", "1.")
+        oSheet.Range("W152").value = If(opt4(17) = "1", "②", "2.")
+        oSheet.Range("BD152").value = If(opt4(18) = "1", "③", "3.")
         '1-9
-        oSheet.Range("C43").value = If(opt4(19) = "1", "①", "1.")
-        oSheet.Range("R43").value = If(opt4(20) = "1", "②", "2.")
-        oSheet.Range("AH43").value = If(opt4(21) = "1", "③", "3.")
+        oSheet.Range("C156").value = If(opt4(19) = "1", "①", "1.")
+        oSheet.Range("W156").value = If(opt4(20) = "1", "②", "2.")
+        oSheet.Range("BD156").value = If(opt4(21) = "1", "③", "3.")
         '1-10
-        oSheet.Range("C47").value = If(opt4(22) = "1", "①", "1.")
-        oSheet.Range("O47").value = If(opt4(23) = "1", "②", "2.")
-        oSheet.Range("X47").value = If(opt4(24) = "1", "③", "3.")
-        oSheet.Range("AH47").value = If(opt4(25) = "1", "④", "4.")
+        oSheet.Range("C160").value = If(opt4(22) = "1", "①", "1.")
+        oSheet.Range("R160").value = If(opt4(23) = "1", "②", "2.")
+        oSheet.Range("AK160").value = If(opt4(24) = "1", "③", "3.")
+        oSheet.Range("BD160").value = If(opt4(25) = "1", "④", "4.")
         '1-11
-        oSheet.Range("C51").value = If(opt4(26) = "1", "①", "1.")
-        oSheet.Range("S51").value = If(opt4(27) = "1", "②", "2.")
-        oSheet.Range("AH51").value = If(opt4(28) = "1", "③", "3.")
+        oSheet.Range("C164").value = If(opt4(26) = "1", "①", "1.")
+        oSheet.Range("W164").value = If(opt4(27) = "1", "②", "2.")
+        oSheet.Range("BD164").value = If(opt4(28) = "1", "③", "3.")
 
         '基本調査2
-        oSheet = objWorkBook.Worksheets("基本調査2")
         '調査日番号
-        oSheet.Range("B5").value = gDay(0)
-        oSheet.Range("D5").value = gDay(1)
-        oSheet.Range("F5").value = gDay(2)
-        oSheet.Range("G5").value = gDay(3)
-        oSheet.Range("J5").value = gDay(4)
-        oSheet.Range("L5").value = gDay(5)
+        oSheet.Range("B174").value = gDay(0)
+        oSheet.Range("D174").value = gDay(1)
+        oSheet.Range("F174").value = gDay(2)
+        oSheet.Range("G174").value = gDay(3)
+        oSheet.Range("I174").value = gDay(4)
+        oSheet.Range("L174").value = gDay(5)
         '被保険者番号
-        oSheet.Range("X5").value = gNum(0)
-        oSheet.Range("Z5").value = gNum(1)
-        oSheet.Range("AB5").value = gNum(2)
-        oSheet.Range("AC5").value = gNum(3)
-        oSheet.Range("AE5").value = gNum(4)
-        oSheet.Range("AG5").value = gNum(5)
-        oSheet.Range("AI5").value = gNum(6)
-        oSheet.Range("AJ5").value = gNum(7)
-        oSheet.Range("AK5").value = gNum(8)
-        oSheet.Range("AL5").value = gNum(9)
+        oSheet.Range("AJ174").value = gNum(0)
+        oSheet.Range("AO174").value = gNum(1)
+        oSheet.Range("AR174").value = gNum(2)
+        oSheet.Range("AV174").value = gNum(3)
+        oSheet.Range("AX174").value = gNum(4)
+        oSheet.Range("BB174").value = gNum(5)
+        oSheet.Range("BG174").value = gNum(6)
+        oSheet.Range("BL174").value = gNum(7)
+        oSheet.Range("BP174").value = gNum(8)
+        oSheet.Range("BV174").value = gNum(9)
         '1-12
-        oSheet.Range("C10").value = If(opt4(29) = "1", "①", "1.")
-        oSheet.Range("C11").value = If(opt4(30) = "1", "②", "2.")
-        oSheet.Range("C12").value = If(opt4(31) = "1", "③", "3.")
-        oSheet.Range("C13").value = If(opt4(32) = "1", "④", "4.")
-        oSheet.Range("C14").value = If(opt4(33) = "1", "⑤", "5.")
+        oSheet.Range("C179").value = If(opt4(29) = "1", "①", "1.")
+        oSheet.Range("C180").value = If(opt4(30) = "1", "②", "2.")
+        oSheet.Range("C181").value = If(opt4(31) = "1", "③", "3.")
+        oSheet.Range("C182").value = If(opt4(32) = "1", "④", "4.")
+        oSheet.Range("C183").value = If(opt4(33) = "1", "⑤", "5.")
         '1-13
-        oSheet.Range("C19").value = If(opt4(34) = "1", "①", "1.")
-        oSheet.Range("C20").value = If(opt4(35) = "1", "②", "2.")
-        oSheet.Range("C21").value = If(opt4(36) = "1", "③", "3.")
-        oSheet.Range("C22").value = If(opt4(37) = "1", "④", "4.")
-        oSheet.Range("C23").value = If(opt4(38) = "1", "⑤", "5.")
+        oSheet.Range("C188").value = If(opt4(34) = "1", "①", "1.")
+        oSheet.Range("C189").value = If(opt4(35) = "1", "②", "2.")
+        oSheet.Range("C190").value = If(opt4(36) = "1", "③", "3.")
+        oSheet.Range("C191").value = If(opt4(37) = "1", "④", "4.")
+        oSheet.Range("C192").value = If(opt4(38) = "1", "⑤", "5.")
         '2-1
-        oSheet.Range("C28").value = If(opt4(39) = "1", "①", "1.")
-        oSheet.Range("O28").value = If(opt4(40) = "1", "②", "2.")
-        oSheet.Range("X28").value = If(opt4(41) = "1", "③", "3.")
-        oSheet.Range("AH28").value = If(opt4(42) = "1", "④", "4.")
+        oSheet.Range("C197").value = If(opt4(39) = "1", "①", "1.")
+        oSheet.Range("T197").value = If(opt4(40) = "1", "②", "2.")
+        oSheet.Range("AJ197").value = If(opt4(41) = "1", "③", "3.")
+        oSheet.Range("BD197").value = If(opt4(42) = "1", "④", "4.")
         '2-2
-        oSheet.Range("C32").value = If(opt4(43) = "1", "①", "1.")
-        oSheet.Range("O32").value = If(opt4(44) = "1", "②", "2.")
-        oSheet.Range("X32").value = If(opt4(45) = "1", "③", "3.")
-        oSheet.Range("AH32").value = If(opt4(46) = "1", "④", "4.")
+        oSheet.Range("C201").value = If(opt4(43) = "1", "①", "1.")
+        oSheet.Range("T201").value = If(opt4(44) = "1", "②", "2.")
+        oSheet.Range("AJ201").value = If(opt4(45) = "1", "③", "3.")
+        oSheet.Range("BD201").value = If(opt4(46) = "1", "④", "4.")
         '2-3
-        oSheet.Range("C36").value = If(opt4(47) = "1", "①", "1.")
-        oSheet.Range("R36").value = If(opt4(48) = "1", "②", "2.")
-        oSheet.Range("AH36").value = If(opt4(49) = "1", "③", "3.")
+        oSheet.Range("C205").value = If(opt4(47) = "1", "①", "1.")
+        oSheet.Range("V205").value = If(opt4(48) = "1", "②", "2.")
+        oSheet.Range("BD205").value = If(opt4(49) = "1", "③", "3.")
         '2-4
-        oSheet.Range("C40").value = If(opt4(50) = "1", "①", "1.")
-        oSheet.Range("O40").value = If(opt4(51) = "1", "②", "2.")
-        oSheet.Range("X40").value = If(opt4(52) = "1", "③", "3.")
-        oSheet.Range("AH40").value = If(opt4(53) = "1", "④", "4.")
+        oSheet.Range("C209").value = If(opt4(50) = "1", "①", "1.")
+        oSheet.Range("T209").value = If(opt4(51) = "1", "②", "2.")
+        oSheet.Range("AJ209").value = If(opt4(52) = "1", "③", "3.")
+        oSheet.Range("BD209").value = If(opt4(53) = "1", "④", "4.")
         '2-5
-        oSheet.Range("C44").value = If(opt4(54) = "1", "①", "1.")
-        oSheet.Range("O44").value = If(opt4(55) = "1", "②", "2.")
-        oSheet.Range("X44").value = If(opt4(56) = "1", "③", "3.")
-        oSheet.Range("AH44").value = If(opt4(57) = "1", "④", "4.")
+        oSheet.Range("C213").value = If(opt4(54) = "1", "①", "1.")
+        oSheet.Range("T213").value = If(opt4(55) = "1", "②", "2.")
+        oSheet.Range("AJ213").value = If(opt4(56) = "1", "③", "3.")
+        oSheet.Range("BD213").value = If(opt4(57) = "1", "④", "4.")
         '2-6
-        oSheet.Range("C48").value = If(opt4(58) = "1", "①", "1.")
-        oSheet.Range("O48").value = If(opt4(59) = "1", "②", "2.")
-        oSheet.Range("X48").value = If(opt4(60) = "1", "③", "3.")
-        oSheet.Range("AH48").value = If(opt4(61) = "1", "④", "4.")
+        oSheet.Range("C217").value = If(opt4(58) = "1", "①", "1.")
+        oSheet.Range("T217").value = If(opt4(59) = "1", "②", "2.")
+        oSheet.Range("AJ217").value = If(opt4(60) = "1", "③", "3.")
+        oSheet.Range("BD217").value = If(opt4(61) = "1", "④", "4.")
         '2-7
-        oSheet.Range("C52").value = If(opt4(62) = "1", "①", "1.")
-        oSheet.Range("S52").value = If(opt4(63) = "1", "②", "2.")
-        oSheet.Range("AH52").value = If(opt4(64) = "1", "③", "3.")
+        oSheet.Range("C221").value = If(opt4(62) = "1", "①", "1.")
+        oSheet.Range("Z221").value = If(opt4(63) = "1", "②", "2.")
+        oSheet.Range("BD221").value = If(opt4(64) = "1", "③", "3.")
         '2-8
-        oSheet.Range("C56").value = If(opt4(65) = "1", "①", "1.")
-        oSheet.Range("S56").value = If(opt4(66) = "1", "②", "2.")
-        oSheet.Range("AH56").value = If(opt4(67) = "1", "③", "3.")
+        oSheet.Range("C225").value = If(opt4(65) = "1", "①", "1.")
+        oSheet.Range("Z225").value = If(opt4(66) = "1", "②", "2.")
+        oSheet.Range("BD225").value = If(opt4(67) = "1", "③", "3.")
         '2-9
-        oSheet.Range("C60").value = If(opt4(68) = "1", "①", "1.")
-        oSheet.Range("S60").value = If(opt4(69) = "1", "②", "2.")
-        oSheet.Range("AH60").value = If(opt4(70) = "1", "③", "3.")
+        oSheet.Range("C229").value = If(opt4(68) = "1", "①", "1.")
+        oSheet.Range("Z229").value = If(opt4(69) = "1", "②", "2.")
+        oSheet.Range("BD229").value = If(opt4(70) = "1", "③", "3.")
 
         '基本調査3
-        oSheet = objWorkBook.Worksheets("基本調査3")
         '調査日番号
-        oSheet.Range("B5").value = gDay(0)
-        oSheet.Range("D5").value = gDay(1)
-        oSheet.Range("F5").value = gDay(2)
-        oSheet.Range("G5").value = gDay(3)
-        oSheet.Range("J5").value = gDay(4)
-        oSheet.Range("L5").value = gDay(5)
+        oSheet.Range("B233").value = gDay(0)
+        oSheet.Range("D233").value = gDay(1)
+        oSheet.Range("F233").value = gDay(2)
+        oSheet.Range("G233").value = gDay(3)
+        oSheet.Range("I233").value = gDay(4)
+        oSheet.Range("L233").value = gDay(5)
         '被保険者番号
-        oSheet.Range("X5").value = gNum(0)
-        oSheet.Range("Z5").value = gNum(1)
-        oSheet.Range("AB5").value = gNum(2)
-        oSheet.Range("AC5").value = gNum(3)
-        oSheet.Range("AE5").value = gNum(4)
-        oSheet.Range("AG5").value = gNum(5)
-        oSheet.Range("AI5").value = gNum(6)
-        oSheet.Range("AJ5").value = gNum(7)
-        oSheet.Range("AK5").value = gNum(8)
-        oSheet.Range("AL5").value = gNum(9)
+        oSheet.Range("AJ233").value = gNum(0)
+        oSheet.Range("AO233").value = gNum(1)
+        oSheet.Range("AR233").value = gNum(2)
+        oSheet.Range("AV233").value = gNum(3)
+        oSheet.Range("AX233").value = gNum(4)
+        oSheet.Range("BB233").value = gNum(5)
+        oSheet.Range("BG233").value = gNum(6)
+        oSheet.Range("BL233").value = gNum(7)
+        oSheet.Range("BP233").value = gNum(8)
+        oSheet.Range("BV233").value = gNum(9)
         '2-10
-        oSheet.Range("C10").value = If(opt4(71) = "1", "①", "1.")
-        oSheet.Range("O10").value = If(opt4(72) = "1", "②", "2.")
-        oSheet.Range("X10").value = If(opt4(73) = "1", "③", "3.")
-        oSheet.Range("AH10").value = If(opt4(74) = "1", "④", "4.")
+        oSheet.Range("C238").value = If(opt4(71) = "1", "①", "1.")
+        oSheet.Range("S238").value = If(opt4(72) = "1", "②", "2.")
+        oSheet.Range("AJ238").value = If(opt4(73) = "1", "③", "3.")
+        oSheet.Range("BD238").value = If(opt4(74) = "1", "④", "4.")
         '2-11
-        oSheet.Range("C14").value = If(opt4(75) = "1", "①", "1.")
-        oSheet.Range("O14").value = If(opt4(76) = "1", "②", "2.")
-        oSheet.Range("X14").value = If(opt4(77) = "1", "③", "3.")
-        oSheet.Range("AH14").value = If(opt4(78) = "1", "④", "4.")
+        oSheet.Range("C242").value = If(opt4(75) = "1", "①", "1.")
+        oSheet.Range("S242").value = If(opt4(76) = "1", "②", "2.")
+        oSheet.Range("AJ242").value = If(opt4(77) = "1", "③", "3.")
+        oSheet.Range("BD242").value = If(opt4(78) = "1", "④", "4.")
         '2-12
-        oSheet.Range("C18").value = If(opt4(79) = "1", "①", "1.")
-        oSheet.Range("R18").value = If(opt4(80) = "1", "②", "2.")
-        oSheet.Range("AH18").value = If(opt4(81) = "1", "③", "3.")
+        oSheet.Range("C246").value = If(opt4(79) = "1", "①", "1.")
+        oSheet.Range("W246").value = If(opt4(80) = "1", "②", "2.")
+        oSheet.Range("BD246").value = If(opt4(81) = "1", "③", "3.")
         '3-1
-        oSheet.Range("C22").value = If(opt4(82) = "1", "①", "1.")
-        oSheet.Range("C23").value = If(opt4(83) = "1", "②", "2.")
-        oSheet.Range("C24").value = If(opt4(84) = "1", "③", "3.")
-        oSheet.Range("C25").value = If(opt4(85) = "1", "④", "4.")
+        oSheet.Range("C250").value = If(opt4(82) = "1", "①", "1.")
+        oSheet.Range("C251").value = If(opt4(83) = "1", "②", "2.")
+        oSheet.Range("C252").value = If(opt4(84) = "1", "③", "3.")
+        oSheet.Range("C253").value = If(opt4(85) = "1", "④", "4.")
         '3-2
-        oSheet.Range("C30").value = If(opt4(86) = "1", "①", "1.")
-        oSheet.Range("R30").value = If(opt4(87) = "1", "②", "2.")
+        oSheet.Range("C258").value = If(opt4(86) = "1", "①", "1.")
+        oSheet.Range("W258").value = If(opt4(87) = "1", "②", "2.")
         '3-3
-        oSheet.Range("C34").value = If(opt4(88) = "1", "①", "1.")
-        oSheet.Range("R34").value = If(opt4(89) = "1", "②", "2.")
+        oSheet.Range("C262").value = If(opt4(88) = "1", "①", "1.")
+        oSheet.Range("W262").value = If(opt4(89) = "1", "②", "2.")
         '3-4
-        oSheet.Range("C38").value = If(opt4(90) = "1", "①", "1.")
-        oSheet.Range("R38").value = If(opt4(91) = "1", "②", "2.")
+        oSheet.Range("C266").value = If(opt4(90) = "1", "①", "1.")
+        oSheet.Range("W266").value = If(opt4(91) = "1", "②", "2.")
         '3-5
-        oSheet.Range("C42").value = If(opt4(92) = "1", "①", "1.")
-        oSheet.Range("R42").value = If(opt4(93) = "1", "②", "2.")
+        oSheet.Range("C270").value = If(opt4(92) = "1", "①", "1.")
+        oSheet.Range("W270").value = If(opt4(93) = "1", "②", "2.")
         '3-6
-        oSheet.Range("C46").value = If(opt4(94) = "1", "①", "1.")
-        oSheet.Range("R46").value = If(opt4(95) = "1", "②", "2.")
+        oSheet.Range("C274").value = If(opt4(94) = "1", "①", "1.")
+        oSheet.Range("W274").value = If(opt4(95) = "1", "②", "2.")
         '3-7
-        oSheet.Range("C50").value = If(opt4(96) = "1", "①", "1.")
-        oSheet.Range("R50").value = If(opt4(97) = "1", "②", "2.")
+        oSheet.Range("C278").value = If(opt4(96) = "1", "①", "1.")
+        oSheet.Range("W278").value = If(opt4(97) = "1", "②", "2.")
         '3-8
-        oSheet.Range("C54").value = If(opt4(98) = "1", "①", "1.")
-        oSheet.Range("S54").value = If(opt4(99) = "1", "②", "2.")
-        oSheet.Range("AH54").value = If(opt4(100) = "1", "③", "3.")
+        oSheet.Range("C282").value = If(opt4(98) = "1", "①", "1.")
+        oSheet.Range("Z282").value = If(opt4(99) = "1", "②", "2.")
+        oSheet.Range("BD282").value = If(opt4(100) = "1", "③", "3.")
         '3-9
-        oSheet.Range("C58").value = If(opt4(101) = "1", "①", "1.")
-        oSheet.Range("S58").value = If(opt4(102) = "1", "②", "2.")
-        oSheet.Range("AH58").value = If(opt4(103) = "1", "③", "3.")
+        oSheet.Range("C286").value = If(opt4(101) = "1", "①", "1.")
+        oSheet.Range("Z286").value = If(opt4(102) = "1", "②", "2.")
+        oSheet.Range("BD286").value = If(opt4(103) = "1", "③", "3.")
 
         '基本調査4
-        oSheet = objWorkBook.Worksheets("基本調査4")
         '調査日番号
-        oSheet.Range("B5").value = gDay(0)
-        oSheet.Range("D5").value = gDay(1)
-        oSheet.Range("F5").value = gDay(2)
-        oSheet.Range("G5").value = gDay(3)
-        oSheet.Range("J5").value = gDay(4)
-        oSheet.Range("L5").value = gDay(5)
+        oSheet.Range("B292").value = gDay(0)
+        oSheet.Range("D292").value = gDay(1)
+        oSheet.Range("F292").value = gDay(2)
+        oSheet.Range("G292").value = gDay(3)
+        oSheet.Range("I292").value = gDay(4)
+        oSheet.Range("L292").value = gDay(5)
         '被保険者番号
-        oSheet.Range("X5").value = gNum(0)
-        oSheet.Range("Z5").value = gNum(1)
-        oSheet.Range("AB5").value = gNum(2)
-        oSheet.Range("AC5").value = gNum(3)
-        oSheet.Range("AE5").value = gNum(4)
-        oSheet.Range("AG5").value = gNum(5)
-        oSheet.Range("AI5").value = gNum(6)
-        oSheet.Range("AJ5").value = gNum(7)
-        oSheet.Range("AK5").value = gNum(8)
-        oSheet.Range("AL5").value = gNum(9)
+        oSheet.Range("AJ292").value = gNum(0)
+        oSheet.Range("AO292").value = gNum(1)
+        oSheet.Range("AR292").value = gNum(2)
+        oSheet.Range("AV292").value = gNum(3)
+        oSheet.Range("AX292").value = gNum(4)
+        oSheet.Range("BB292").value = gNum(5)
+        oSheet.Range("BG292").value = gNum(6)
+        oSheet.Range("BL292").value = gNum(7)
+        oSheet.Range("BP292").value = gNum(8)
+        oSheet.Range("BV292").value = gNum(9)
         '4-1
-        oSheet.Range("C10").value = If(opt4(104) = "1", "①", "1.")
-        oSheet.Range("S10").value = If(opt4(105) = "1", "②", "2.")
-        oSheet.Range("AH10").value = If(opt4(106) = "1", "③", "3.")
+        oSheet.Range("C297").value = If(opt4(104) = "1", "①", "1.")
+        oSheet.Range("Z297").value = If(opt4(105) = "1", "②", "2.")
+        oSheet.Range("BD297").value = If(opt4(106) = "1", "③", "3.")
         '4-2
-        oSheet.Range("C14").value = If(opt4(107) = "1", "①", "1.")
-        oSheet.Range("S14").value = If(opt4(108) = "1", "②", "2.")
-        oSheet.Range("AH14").value = If(opt4(109) = "1", "③", "3.")
+        oSheet.Range("C301").value = If(opt4(107) = "1", "①", "1.")
+        oSheet.Range("Z301").value = If(opt4(108) = "1", "②", "2.")
+        oSheet.Range("BD301").value = If(opt4(109) = "1", "③", "3.")
         '4-3
-        oSheet.Range("C18").value = If(opt4(110) = "1", "①", "1.")
-        oSheet.Range("S18").value = If(opt4(111) = "1", "②", "2.")
-        oSheet.Range("AH18").value = If(opt4(112) = "1", "③", "3.")
+        oSheet.Range("C305").value = If(opt4(110) = "1", "①", "1.")
+        oSheet.Range("Z305").value = If(opt4(111) = "1", "②", "2.")
+        oSheet.Range("BD305").value = If(opt4(112) = "1", "③", "3.")
         '4-4
-        oSheet.Range("C22").value = If(opt4(113) = "1", "①", "1.")
-        oSheet.Range("S22").value = If(opt4(114) = "1", "②", "2.")
-        oSheet.Range("AH22").value = If(opt4(115) = "1", "③", "3.")
+        oSheet.Range("C309").value = If(opt4(113) = "1", "①", "1.")
+        oSheet.Range("Z309").value = If(opt4(114) = "1", "②", "2.")
+        oSheet.Range("BD309").value = If(opt4(115) = "1", "③", "3.")
         '4-5
-        oSheet.Range("C26").value = If(opt4(116) = "1", "①", "1.")
-        oSheet.Range("S26").value = If(opt4(117) = "1", "②", "2.")
-        oSheet.Range("AH26").value = If(opt4(118) = "1", "③", "3.")
+        oSheet.Range("C313").value = If(opt4(116) = "1", "①", "1.")
+        oSheet.Range("Z313").value = If(opt4(117) = "1", "②", "2.")
+        oSheet.Range("BD313").value = If(opt4(118) = "1", "③", "3.")
         '4-6
-        oSheet.Range("C30").value = If(opt4(119) = "1", "①", "1.")
-        oSheet.Range("S30").value = If(opt4(120) = "1", "②", "2.")
-        oSheet.Range("AH30").value = If(opt4(121) = "1", "③", "3.")
+        oSheet.Range("C317").value = If(opt4(119) = "1", "①", "1.")
+        oSheet.Range("Z317").value = If(opt4(120) = "1", "②", "2.")
+        oSheet.Range("BD317").value = If(opt4(121) = "1", "③", "3.")
         '4-7
-        oSheet.Range("C34").value = If(opt4(122) = "1", "①", "1.")
-        oSheet.Range("S34").value = If(opt4(123) = "1", "②", "2.")
-        oSheet.Range("AH34").value = If(opt4(124) = "1", "③", "3.")
+        oSheet.Range("C321").value = If(opt4(122) = "1", "①", "1.")
+        oSheet.Range("Z321").value = If(opt4(123) = "1", "②", "2.")
+        oSheet.Range("BD321").value = If(opt4(124) = "1", "③", "3.")
         '4-8
-        oSheet.Range("C38").value = If(opt4(125) = "1", "①", "1.")
-        oSheet.Range("S38").value = If(opt4(126) = "1", "②", "2.")
-        oSheet.Range("AH38").value = If(opt4(127) = "1", "③", "3.")
+        oSheet.Range("C325").value = If(opt4(125) = "1", "①", "1.")
+        oSheet.Range("Z325").value = If(opt4(126) = "1", "②", "2.")
+        oSheet.Range("BD325").value = If(opt4(127) = "1", "③", "3.")
         '4-9
-        oSheet.Range("C42").value = If(opt4(128) = "1", "①", "1.")
-        oSheet.Range("S42").value = If(opt4(129) = "1", "②", "2.")
-        oSheet.Range("AH42").value = If(opt4(130) = "1", "③", "3.")
+        oSheet.Range("C329").value = If(opt4(128) = "1", "①", "1.")
+        oSheet.Range("Z329").value = If(opt4(129) = "1", "②", "2.")
+        oSheet.Range("BD329").value = If(opt4(130) = "1", "③", "3.")
         '4-10
-        oSheet.Range("C46").value = If(opt4(131) = "1", "①", "1.")
-        oSheet.Range("S46").value = If(opt4(132) = "1", "②", "2.")
-        oSheet.Range("AH46").value = If(opt4(133) = "1", "③", "3.")
+        oSheet.Range("C333").value = If(opt4(131) = "1", "①", "1.")
+        oSheet.Range("Z333").value = If(opt4(132) = "1", "②", "2.")
+        oSheet.Range("BD333").value = If(opt4(133) = "1", "③", "3.")
         '4-11
-        oSheet.Range("C50").value = If(opt4(134) = "1", "①", "1.")
-        oSheet.Range("S50").value = If(opt4(135) = "1", "②", "2.")
-        oSheet.Range("AH50").value = If(opt4(136) = "1", "③", "3.")
+        oSheet.Range("C337").value = If(opt4(134) = "1", "①", "1.")
+        oSheet.Range("Z337").value = If(opt4(135) = "1", "②", "2.")
+        oSheet.Range("BD337").value = If(opt4(136) = "1", "③", "3.")
         '4-12
-        oSheet.Range("C54").value = If(opt4(137) = "1", "①", "1.")
-        oSheet.Range("S54").value = If(opt4(138) = "1", "②", "2.")
-        oSheet.Range("AH54").value = If(opt4(139) = "1", "③", "3.")
+        oSheet.Range("C341").value = If(opt4(137) = "1", "①", "1.")
+        oSheet.Range("Z341").value = If(opt4(138) = "1", "②", "2.")
+        oSheet.Range("BD341").value = If(opt4(139) = "1", "③", "3.")
         '4-13
-        oSheet.Range("C58").value = If(opt4(140) = "1", "①", "1.")
-        oSheet.Range("S58").value = If(opt4(141) = "1", "②", "2.")
-        oSheet.Range("AH58").value = If(opt4(142) = "1", "③", "3.")
+        oSheet.Range("C345").value = If(opt4(140) = "1", "①", "1.")
+        oSheet.Range("Z345").value = If(opt4(141) = "1", "②", "2.")
+        oSheet.Range("BD345").value = If(opt4(142) = "1", "③", "3.")
 
         '基本調査5
-        oSheet = objWorkBook.Worksheets("基本調査5")
         '調査日番号
-        oSheet.Range("B5").value = gDay(0)
-        oSheet.Range("D5").value = gDay(1)
-        oSheet.Range("F5").value = gDay(2)
-        oSheet.Range("G5").value = gDay(3)
-        oSheet.Range("J5").value = gDay(4)
-        oSheet.Range("L5").value = gDay(5)
+        oSheet.Range("B351").value = gDay(0)
+        oSheet.Range("D351").value = gDay(1)
+        oSheet.Range("F351").value = gDay(2)
+        oSheet.Range("G351").value = gDay(3)
+        oSheet.Range("I351").value = gDay(4)
+        oSheet.Range("L351").value = gDay(5)
         '被保険者番号
-        oSheet.Range("AA5").value = gNum(0)
-        oSheet.Range("AC5").value = gNum(1)
-        oSheet.Range("AG5").value = gNum(2)
-        oSheet.Range("AI5").value = gNum(3)
-        oSheet.Range("AK5").value = gNum(4)
-        oSheet.Range("AN5").value = gNum(5)
-        oSheet.Range("AP5").value = gNum(6)
-        oSheet.Range("AR5").value = gNum(7)
-        oSheet.Range("AT5").value = gNum(8)
-        oSheet.Range("AU5").value = gNum(9)
+        oSheet.Range("AJ351").value = gNum(0)
+        oSheet.Range("AO351").value = gNum(1)
+        oSheet.Range("AR351").value = gNum(2)
+        oSheet.Range("AV351").value = gNum(3)
+        oSheet.Range("AX351").value = gNum(4)
+        oSheet.Range("BB351").value = gNum(5)
+        oSheet.Range("BG351").value = gNum(6)
+        oSheet.Range("BL351").value = gNum(7)
+        oSheet.Range("BP351").value = gNum(8)
+        oSheet.Range("BV351").value = gNum(9)
         '4-14
-        oSheet.Range("C10").value = If(opt4(143) = "1", "①", "1.")
-        oSheet.Range("T10").value = If(opt4(144) = "1", "②", "2.")
-        oSheet.Range("AO10").value = If(opt4(145) = "1", "③", "3.")
+        oSheet.Range("C356").value = If(opt4(143) = "1", "①", "1.")
+        oSheet.Range("Z356").value = If(opt4(144) = "1", "②", "2.")
+        oSheet.Range("BD356").value = If(opt4(145) = "1", "③", "3.")
         '4-15
-        oSheet.Range("C14").value = If(opt4(146) = "1", "①", "1.")
-        oSheet.Range("T14").value = If(opt4(147) = "1", "②", "2.")
-        oSheet.Range("AO14").value = If(opt4(148) = "1", "③", "3.")
+        oSheet.Range("C360").value = If(opt4(146) = "1", "①", "1.")
+        oSheet.Range("Z360").value = If(opt4(147) = "1", "②", "2.")
+        oSheet.Range("BD360").value = If(opt4(148) = "1", "③", "3.")
         '5-1
-        oSheet.Range("C18").value = If(opt4(149) = "1", "①", "1.")
-        oSheet.Range("T18").value = If(opt4(150) = "1", "②", "2.")
-        oSheet.Range("AO18").value = If(opt4(151) = "1", "③", "3.")
+        oSheet.Range("C364").value = If(opt4(149) = "1", "①", "1.")
+        oSheet.Range("Z364").value = If(opt4(150) = "1", "②", "2.")
+        oSheet.Range("BD364").value = If(opt4(151) = "1", "③", "3.")
         '5-2
-        oSheet.Range("C22").value = If(opt4(152) = "1", "①", "1.")
-        oSheet.Range("T22").value = If(opt4(153) = "1", "②", "2.")
-        oSheet.Range("AO22").value = If(opt4(154) = "1", "③", "3.")
+        oSheet.Range("C368").value = If(opt4(152) = "1", "①", "1.")
+        oSheet.Range("Z368").value = If(opt4(153) = "1", "②", "2.")
+        oSheet.Range("BD368").value = If(opt4(154) = "1", "③", "3.")
         '5-3
-        oSheet.Range("C26").value = If(opt4(155) = "1", "①", "1.")
-        oSheet.Range("O26").value = If(opt4(156) = "1", "②", "2.")
-        oSheet.Range("AF26").value = If(opt4(157) = "1", "③", "3.")
-        oSheet.Range("AO26").value = If(opt4(158) = "1", "④", "4.")
+        oSheet.Range("C372").value = If(opt4(155) = "1", "①", "1.")
+        oSheet.Range("S372").value = If(opt4(156) = "1", "②", "2.")
+        oSheet.Range("AP372").value = If(opt4(157) = "1", "③", "3.")
+        oSheet.Range("BD372").value = If(opt4(158) = "1", "④", "4.")
         '5-4
-        oSheet.Range("C30").value = If(opt4(159) = "1", "①", "1.")
-        oSheet.Range("T30").value = If(opt4(160) = "1", "②", "2.")
-        oSheet.Range("AO30").value = If(opt4(161) = "1", "③", "3.")
+        oSheet.Range("C376").value = If(opt4(159) = "1", "①", "1.")
+        oSheet.Range("Z376").value = If(opt4(160) = "1", "②", "2.")
+        oSheet.Range("BD376").value = If(opt4(161) = "1", "③", "3.")
         '5-5
-        oSheet.Range("C34").value = If(opt4(162) = "1", "①", "1.")
-        oSheet.Range("O34").value = If(opt4(163) = "1", "②", "2.")
-        oSheet.Range("AA34").value = If(opt4(164) = "1", "③", "3.")
-        oSheet.Range("AO34").value = If(opt4(165) = "1", "④", "4.")
+        oSheet.Range("C380").value = If(opt4(162) = "1", "①", "1.")
+        oSheet.Range("S380").value = If(opt4(163) = "1", "②", "2.")
+        oSheet.Range("AJ380").value = If(opt4(164) = "1", "③", "3.")
+        oSheet.Range("BD380").value = If(opt4(165) = "1", "④", "4.")
         '5-6
-        oSheet.Range("C38").value = If(opt4(166) = "1", "①", "1.")
-        oSheet.Range("O38").value = If(opt4(167) = "1", "②", "2.")
-        oSheet.Range("AA38").value = If(opt4(168) = "1", "③", "3.")
-        oSheet.Range("AO38").value = If(opt4(169) = "1", "④", "4.")
+        oSheet.Range("C384").value = If(opt4(166) = "1", "①", "1.")
+        oSheet.Range("S384").value = If(opt4(167) = "1", "②", "2.")
+        oSheet.Range("AJ384").value = If(opt4(168) = "1", "③", "3.")
+        oSheet.Range("BD384").value = If(opt4(169) = "1", "④", "4.")
         '6
-        oSheet.Range("K44").value = If(ch4(0) = "1", "①", "1.")
-        oSheet.Range("R44").value = If(ch4(1) = "1", "②", "2.")
-        oSheet.Range("AE44").value = If(ch4(2) = "1", "③", "3.")
-        oSheet.Range("AK44").value = If(ch4(3) = "1", "④", "4.")
-        oSheet.Range("K45").value = If(ch4(4) = "1", "⑤", "5.")
-        oSheet.Range("R45").value = If(ch4(5) = "1", "⑥", "6.")
-        oSheet.Range("AK45").value = If(ch4(6) = "1", "⑦", "7.")
-        oSheet.Range("K46").value = If(ch4(7) = "1", "⑧", "8.")
-        oSheet.Range("R46").value = If(ch4(8) = "1", "⑨", "9.")
-        oSheet.Range("J47").value = If(ch4(9) = "1", "⑩", "10.")
-        oSheet.Range("AK47").value = If(ch4(10) = "1", "⑪", "11.")
-        oSheet.Range("J48").value = If(ch4(11) = "1", "⑫", "12.")
+        oSheet.Range("I390").value = If(ch4(0) = "1", "①", "1.")
+        oSheet.Range("W390").value = If(ch4(1) = "1", "②", "2.")
+        oSheet.Range("AO390").value = If(ch4(2) = "1", "③", "3.")
+        oSheet.Range("AX390").value = If(ch4(3) = "1", "④", "4.")
+        oSheet.Range("I391").value = If(ch4(4) = "1", "⑤", "5.")
+        oSheet.Range("W391").value = If(ch4(5) = "1", "⑥", "6.")
+        oSheet.Range("AX391").value = If(ch4(6) = "1", "⑦", "7.")
+        oSheet.Range("I392").value = If(ch4(7) = "1", "⑧", "8.")
+        oSheet.Range("W392").value = If(ch4(8) = "1", "⑨", "9.")
+        oSheet.Range("I393").value = If(ch4(9) = "1", "⑩", "10.")
+        oSheet.Range("AX393").value = If(ch4(10) = "1", "⑪", "11.")
+        oSheet.Range("I394").value = If(ch4(11) = "1", "⑫", "12.")
         '7
-        oSheet.Range("S54").value = "自立"
-        oSheet.Range("V54").value = "J1"
-        oSheet.Range("Z54").value = "J2"
-        oSheet.Range("AC54").value = "A1"
-        oSheet.Range("AH54").value = "A2"
-        oSheet.Range("AJ54").value = "B1"
-        oSheet.Range("AM54").value = "B2"
-        oSheet.Range("AP54").value = "C1"
-        oSheet.Range("AS54").value = "C2"
-        oSheet.Range("S57").value = "自立"
-        oSheet.Range("V57").value = "Ⅰ"
-        oSheet.Range("Z57").value = "Ⅱa"
-        oSheet.Range("AC57").value = "Ⅱb"
-        oSheet.Range("AH57").value = "Ⅲa"
-        oSheet.Range("AJ57").value = "Ⅲb"
-        oSheet.Range("AM57").value = "Ⅳ"
-        oSheet.Range("AP57").value = "M"
+        oSheet.Range("Y400").value = "自立"
+        oSheet.Range("AC400").value = "J1"
+        oSheet.Range("AI400").value = "J2"
+        oSheet.Range("AP400").value = "A1"
+        oSheet.Range("AU400").value = "A2"
+        oSheet.Range("AY400").value = "B1"
+        oSheet.Range("BE400").value = "B2"
+        oSheet.Range("BL400").value = "C1"
+        oSheet.Range("BR400").value = "C2"
+        oSheet.Range("Y403").value = "自立"
+        oSheet.Range("AC403").value = "Ⅰ"
+        oSheet.Range("AI403").value = "Ⅱa"
+        oSheet.Range("AP403").value = "Ⅱb"
+        oSheet.Range("AU403").value = "Ⅲa"
+        oSheet.Range("AY403").value = "Ⅲb"
+        oSheet.Range("BE403").value = "Ⅳ"
+        oSheet.Range("BL403").value = "M"
         If opt4(170) = "1" Then
-            border = oSheet.Range("S54", "T54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("Y400", "AA400").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("S54", "T54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("Y400", "AA400").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("S54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("Y400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("U54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AB400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(171) = "1" Then
-            border = oSheet.Range("V54", "W54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("AC400", "AF400").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("V54", "W54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("AC400", "AF400").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("V54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AC400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("X54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AG400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(172) = "1" Then
-            border = oSheet.Range("Z54", "AA54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("AI400", "AM400").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("Z54", "AA54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("AI400", "AM400").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("Z54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AI400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AB54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AN400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(173) = "1" Then
-            border = oSheet.Range("AC54", "AE54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("AP400", "AR400").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AC54", "AE54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("AP400", "AR400").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AC54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AP400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AF54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AS400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(174) = "1" Then
-            border = oSheet.Range("AH54", "AH54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("AU400", "AV400").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AH54", "AH54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("AU400", "AV400").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AH54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AU400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AI54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AW400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(175) = "1" Then
-            border = oSheet.Range("AJ54", "AK54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("AY400", "BB400").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AJ54", "AK54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("AY400", "BB400").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AJ54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AY400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AL54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BC400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(176) = "1" Then
-            border = oSheet.Range("AM54", "AN54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("BE400", "BI400").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AM54", "AN54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("BE400", "BI400").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AM54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BE400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AO54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BJ400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(177) = "1" Then
-            border = oSheet.Range("AP54", "AP54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("BL400", "BO400").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AP54", "AP54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("BL400", "BO400").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AP54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BL400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AQ54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BP400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(178) = "1" Then
-            border = oSheet.Range("AS54", "AS54").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("BR400", "BV400").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AS54", "AS54").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("BR400", "BV400").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AS54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BR400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AT54").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BW400").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         End If
 
         If opt4(179) = "1" Then
-            border = oSheet.Range("S57", "T57").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("Y403", "AA403").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("S57", "T57").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("Y403", "AA403").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("S57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("Y403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("U57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AB403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(180) = "1" Then
-            border = oSheet.Range("V57", "W57").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("AC403", "AF403").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("V57", "W57").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("AC403", "AF403").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("V57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AC403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("X57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AG403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(181) = "1" Then
-            border = oSheet.Range("Z57", "AA57").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("AI403", "AM403").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("Z57", "AA57").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("AI403", "AM403").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("Z57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AI403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AB57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AN403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(182) = "1" Then
-            border = oSheet.Range("AC57", "AE57").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("AP403", "AR403").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AC57", "AE57").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("AP403", "AR403").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AC57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AP403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AF57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AS403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(183) = "1" Then
-            border = oSheet.Range("AH57", "AH57").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("AU403", "AV403").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AH57", "AH57").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("AU403", "AV403").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AH57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AU403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AI57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AW403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(184) = "1" Then
-            border = oSheet.Range("AJ57", "AK57").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("AY403", "BB403").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AJ57", "AK57").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("AY403", "BB403").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AJ57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("AY403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AL57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BC403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(185) = "1" Then
-            border = oSheet.Range("AM57", "AN57").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("BE403", "BI403").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AM57", "AN57").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("BE403", "BI403").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AM57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BE403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AO57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BJ403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         ElseIf opt4(186) = "1" Then
-            border = oSheet.Range("AP57", "AP57").Borders(Excel.XlBordersIndex.xlEdgeTop)
+            border = oSheet.Range("BL403", "BO403").Borders(Excel.XlBordersIndex.xlEdgeTop)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AP57", "AP57").Borders(Excel.XlBordersIndex.xlEdgeBottom)
+            border = oSheet.Range("BL403", "BO403").Borders(Excel.XlBordersIndex.xlEdgeBottom)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AP57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BL403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
-            border = oSheet.Range("AQ57").Borders(Excel.XlBordersIndex.xlEdgeLeft)
+            border = oSheet.Range("BP403").Borders(Excel.XlBordersIndex.xlEdgeLeft)
             border.LineStyle = Excel.XlLineStyle.xlDot
             border.Weight = Excel.XlBorderWeight.xlHairline
         End If
@@ -3292,10 +3287,10 @@ Public Class 認定調査票
 
         '印刷1
         If topForm.rbtnPrint.Checked = True Then
-            objWorkBook.Worksheets({"概況調査改", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).printOut()
+            objWorkBook.Worksheets({"概況調査改"}).printOut()
         ElseIf topForm.rbtnPreview.Checked = True Then
             objExcel.Visible = True
-            objWorkBook.Worksheets({"概況調査改", "基本調査1", "基本調査2", "基本調査3", "基本調査4", "基本調査5"}).PrintPreview(1)
+            objWorkBook.Worksheets({"概況調査改"}).PrintPreview(1)
         End If
 
         '印刷2
