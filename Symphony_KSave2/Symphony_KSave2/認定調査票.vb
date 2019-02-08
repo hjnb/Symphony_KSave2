@@ -3169,6 +3169,13 @@ Public Class 認定調査票
             border.Weight = Excel.XlBorderWeight.xlHairline
         End If
 
+        '改ページ
+        oSheet.HpageBreaks.add(oSheet.Range("A116"))
+        oSheet.HpageBreaks.add(oSheet.Range("A172"))
+        oSheet.HpageBreaks.add(oSheet.Range("A231"))
+        oSheet.HpageBreaks.add(oSheet.Range("A290"))
+        oSheet.HpageBreaks.add(oSheet.Range("A349"))
+
         '特記事項
         oSheet = objWorkBook.Worksheets("特記事項改")
         '調査日番号
