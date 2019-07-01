@@ -125,6 +125,12 @@
     <Compile Include="マスタ.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="記入者マスタ.Designer.vb">
+      <DependentUpon>記入者マスタ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="記入者マスタ.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="認定調査票.Designer.vb">
       <DependentUpon>認定調査票.vb</DependentUpon>
     </Compile>
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="マスタ.resx">
       <DependentUpon>マスタ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="記入者マスタ.resx">
+      <DependentUpon>記入者マスタ.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="認定調査票.resx">
       <DependentUpon>認定調査票.vb</DependentUpon>

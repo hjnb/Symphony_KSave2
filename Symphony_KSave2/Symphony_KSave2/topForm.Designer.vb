@@ -27,6 +27,7 @@ Partial Class topForm
         Me.rbtnPreview = New System.Windows.Forms.RadioButton()
         Me.rbtnPrint = New System.Windows.Forms.RadioButton()
         Me.btnTarget = New System.Windows.Forms.Button()
+        Me.btnWriter = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnSurveySlip
@@ -78,11 +79,22 @@ Partial Class topForm
         Me.btnTarget.Text = "対象者"
         Me.btnTarget.UseVisualStyleBackColor = True
         '
+        'btnWriter
+        '
+        Me.btnWriter.Location = New System.Drawing.Point(116, 176)
+        Me.btnWriter.Name = "btnWriter"
+        Me.btnWriter.Size = New System.Drawing.Size(59, 23)
+        Me.btnWriter.TabIndex = 5
+        Me.btnWriter.Text = "記入者"
+        Me.btnWriter.UseVisualStyleBackColor = True
+        Me.btnWriter.Visible = False
+        '
         'topForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 294)
+        Me.Controls.Add(Me.btnWriter)
         Me.Controls.Add(Me.btnTarget)
         Me.Controls.Add(Me.rbtnPrint)
         Me.Controls.Add(Me.rbtnPreview)
@@ -99,5 +111,6 @@ Partial Class topForm
     Friend WithEvents rbtnPreview As System.Windows.Forms.RadioButton
     Friend WithEvents rbtnPrint As System.Windows.Forms.RadioButton
     Friend WithEvents btnTarget As System.Windows.Forms.Button
+    Friend WithEvents btnWriter As System.Windows.Forms.Button
 
 End Class

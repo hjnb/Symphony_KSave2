@@ -13,6 +13,7 @@
     'フォーム
     Private surveySlipForm As 認定調査票
     Private masterForm As マスタ
+    Private writerMFrom As 記入者マスタ
 
     Public Sub New()
         InitializeComponent()
@@ -47,6 +48,7 @@
 
     Private Sub btnMaster_Click(sender As System.Object, e As System.EventArgs) Handles btnMaster.Click
         btnTarget.Visible = True
+        btnWriter.Visible = True
     End Sub
 
     Private Sub btnTarget_Click(sender As System.Object, e As System.EventArgs) Handles btnTarget.Click
@@ -54,6 +56,14 @@
             masterForm = New マスタ()
             masterForm.Owner = Me
             masterForm.Show()
+        End If
+    End Sub
+
+    Private Sub btnWriter_Click(sender As System.Object, e As System.EventArgs) Handles btnWriter.Click
+        If IsNothing(writerMFrom) OrElse writerMFrom.IsDisposed Then
+            writerMFrom = New 記入者マスタ()
+            writerMFrom.Owner = Me
+            writerMFrom.Show()
         End If
     End Sub
 
