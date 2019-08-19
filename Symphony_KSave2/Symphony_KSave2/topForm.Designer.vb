@@ -28,6 +28,7 @@ Partial Class topForm
         Me.rbtnPrint = New System.Windows.Forms.RadioButton()
         Me.btnTarget = New System.Windows.Forms.Button()
         Me.btnWriter = New System.Windows.Forms.Button()
+        Me.btnReadOnly = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnSurveySlip
@@ -37,13 +38,13 @@ Partial Class topForm
         Me.btnSurveySlip.Name = "btnSurveySlip"
         Me.btnSurveySlip.Size = New System.Drawing.Size(228, 45)
         Me.btnSurveySlip.TabIndex = 0
-        Me.btnSurveySlip.Text = "認　定　調　査　票"
+        Me.btnSurveySlip.Text = "認　定　調　査　票 （登録用）"
         Me.btnSurveySlip.UseVisualStyleBackColor = True
         '
         'btnMaster
         '
         Me.btnMaster.Font = New System.Drawing.Font("MS UI Gothic", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.btnMaster.Location = New System.Drawing.Point(26, 139)
+        Me.btnMaster.Location = New System.Drawing.Point(26, 101)
         Me.btnMaster.Name = "btnMaster"
         Me.btnMaster.Size = New System.Drawing.Size(73, 60)
         Me.btnMaster.TabIndex = 1
@@ -53,7 +54,7 @@ Partial Class topForm
         'rbtnPreview
         '
         Me.rbtnPreview.AutoSize = True
-        Me.rbtnPreview.Location = New System.Drawing.Point(144, 231)
+        Me.rbtnPreview.Location = New System.Drawing.Point(144, 187)
         Me.rbtnPreview.Name = "rbtnPreview"
         Me.rbtnPreview.Size = New System.Drawing.Size(63, 16)
         Me.rbtnPreview.TabIndex = 2
@@ -63,7 +64,7 @@ Partial Class topForm
         'rbtnPrint
         '
         Me.rbtnPrint.AutoSize = True
-        Me.rbtnPrint.Location = New System.Drawing.Point(213, 231)
+        Me.rbtnPrint.Location = New System.Drawing.Point(213, 187)
         Me.rbtnPrint.Name = "rbtnPrint"
         Me.rbtnPrint.Size = New System.Drawing.Size(47, 16)
         Me.rbtnPrint.TabIndex = 3
@@ -72,7 +73,7 @@ Partial Class topForm
         '
         'btnTarget
         '
-        Me.btnTarget.Location = New System.Drawing.Point(116, 139)
+        Me.btnTarget.Location = New System.Drawing.Point(116, 101)
         Me.btnTarget.Name = "btnTarget"
         Me.btnTarget.Size = New System.Drawing.Size(59, 23)
         Me.btnTarget.TabIndex = 4
@@ -81,7 +82,7 @@ Partial Class topForm
         '
         'btnWriter
         '
-        Me.btnWriter.Location = New System.Drawing.Point(116, 176)
+        Me.btnWriter.Location = New System.Drawing.Point(116, 138)
         Me.btnWriter.Name = "btnWriter"
         Me.btnWriter.Size = New System.Drawing.Size(59, 23)
         Me.btnWriter.TabIndex = 5
@@ -89,11 +90,23 @@ Partial Class topForm
         Me.btnWriter.UseVisualStyleBackColor = True
         Me.btnWriter.Visible = False
         '
+        'btnReadOnly
+        '
+        Me.btnReadOnly.Font = New System.Drawing.Font("MS UI Gothic", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnReadOnly.ForeColor = System.Drawing.Color.Blue
+        Me.btnReadOnly.Location = New System.Drawing.Point(26, 229)
+        Me.btnReadOnly.Name = "btnReadOnly"
+        Me.btnReadOnly.Size = New System.Drawing.Size(228, 45)
+        Me.btnReadOnly.TabIndex = 6
+        Me.btnReadOnly.Text = "認　定　調　査　票 （閲覧用）"
+        Me.btnReadOnly.UseVisualStyleBackColor = True
+        '
         'topForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 294)
+        Me.ClientSize = New System.Drawing.Size(284, 302)
+        Me.Controls.Add(Me.btnReadOnly)
         Me.Controls.Add(Me.btnWriter)
         Me.Controls.Add(Me.btnTarget)
         Me.Controls.Add(Me.rbtnPrint)
@@ -112,5 +125,6 @@ Partial Class topForm
     Friend WithEvents rbtnPrint As System.Windows.Forms.RadioButton
     Friend WithEvents btnTarget As System.Windows.Forms.Button
     Friend WithEvents btnWriter As System.Windows.Forms.Button
+    Friend WithEvents btnReadOnly As System.Windows.Forms.Button
 
 End Class

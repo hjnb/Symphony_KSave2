@@ -137,6 +137,12 @@
     <Compile Include="認定調査票.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="認定調査票閲覧.Designer.vb">
+      <DependentUpon>認定調査票閲覧.vb</DependentUpon>
+    </Compile>
+    <Compile Include="認定調査票閲覧.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -156,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="認定調査票.resx">
       <DependentUpon>認定調査票.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="認定調査票閲覧.resx">
+      <DependentUpon>認定調査票閲覧.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
