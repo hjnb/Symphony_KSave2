@@ -46,7 +46,7 @@ Public Class 記入者マスタ
         dgvWriter.DataSource = Nothing
         Dim cnn As New ADODB.Connection
         Dim rs As New ADODB.Recordset
-        Dim sql As String = "select Nam, Num from EtcM order by Num"
+        Dim sql As String = "select Nam, Num, Kana from EtcM order by Kana"
         cnn.Open(topForm.DB_KSave2)
         rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly)
         Dim da As OleDbDataAdapter = New OleDbDataAdapter()
@@ -66,8 +66,12 @@ Public Class 記入者マスタ
             .Columns("Num").Visible = False
 
             With .Columns("Nam")
-                .Width = 150
+                .Width = 110
                 .HeaderText = "記入者名"
+            End With
+            With .Columns("Kana")
+                .Width = 110
+                .HeaderText = "カナ"
             End With
 
         End With
@@ -119,6 +123,13 @@ Public Class 記入者マスタ
             namBox.Focus()
             Return
         End If
+        Dim kana As String = StrConv(kanaBox.Text, VbStrConv.Katakana) 'カタカナに変換
+        kana = StrConv(kana, VbStrConv.Narrow) '半角に変換
+        If kana = "" Then
+            MsgBox("カナを入力して下さい。")
+            kanaBox.Focus()
+            Return
+        End If
 
         'Numの最大値取得
         Dim numMax As Integer = 0
@@ -126,28 +137,38 @@ Public Class 記入者マスタ
             numMax = dgvWriter("Num", dgvWriter.Rows.Count - 1).Value
         End If
 
+        Dim selectedNum As Integer = -1
+        If Not IsNothing(dgvWriter.CurrentCell) AndAlso dgvWriter.CurrentCell.Selected Then
+            selectedNum = dgvWriter("Num", dgvWriter.CurrentCell.RowIndex).Value
+        End If
+
         Dim cn As New ADODB.Connection()
         cn.Open(topForm.DB_KSave2)
-        Dim sql As String = "select * from EtcM where Nam = '" & nam & "'"
+        Dim sql As String = "select Num, Nam, Kana from EtcM where Num = " & selectedNum
         Dim rs As New ADODB.Recordset
         rs.Open(sql, cn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockOptimistic)
-        If rs.RecordCount > 0 Then
-            MsgBox("既に登録されています。", MsgBoxStyle.Exclamation)
-            rs.Close()
-            cn.Close()
-            Return
+        If rs.RecordCount <= 0 Then
+            '新規
+            rs.AddNew()
+            rs.Fields("Num").Value = numMax + 1
+        Else
+            '変更
+            Dim result As DialogResult = MessageBox.Show("変更登録してよろしいですか？", "登録", MessageBoxButtons.YesNo)
+            If result <> Windows.Forms.DialogResult.Yes Then
+                rs.Close()
+                cn.Close()
+                Return
+            End If
+            rs.Fields("Num").Value = selectedNum
         End If
-        rs.AddNew()
         rs.Fields("Nam").Value = nam
-        rs.Fields("Num").Value = numMax + 1
+        rs.Fields("Kana").Value = kana
         rs.Update()
         rs.Close()
         cn.Close()
 
         '再表示
         displayDgvWriter()
-
-
     End Sub
 
     Private Sub btnDelete_Click(sender As System.Object, e As System.EventArgs) Handles btnDelete.Click
@@ -177,7 +198,9 @@ Public Class 記入者マスタ
     Private Sub dgvUser_CellMouseClick(sender As Object, e As System.Windows.Forms.DataGridViewCellMouseEventArgs) Handles dgvWriter.CellMouseClick
         If e.RowIndex >= 0 Then
             Dim nam As String = Util.checkDBNullValue(dgvWriter("Nam", e.RowIndex).Value)
+            Dim kana As String = Util.checkDBNullValue(dgvWriter("Kana", e.RowIndex).Value)
             namBox.Text = nam
+            kanaBox.Text = kana
         End If
     End Sub
 

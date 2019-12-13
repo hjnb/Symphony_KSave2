@@ -35,10 +35,10 @@ Partial Class 記入者マスタ
         'dgvWriter
         '
         Me.dgvWriter.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvWriter.Location = New System.Drawing.Point(56, 118)
+        Me.dgvWriter.Location = New System.Drawing.Point(41, 109)
         Me.dgvWriter.Name = "dgvWriter"
         Me.dgvWriter.RowTemplate.Height = 21
-        Me.dgvWriter.Size = New System.Drawing.Size(188, 340)
+        Me.dgvWriter.Size = New System.Drawing.Size(258, 340)
         Me.dgvWriter.TabIndex = 13
         '
         'Label2
@@ -46,10 +46,9 @@ Partial Class 記入者マスタ
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(27, 65)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(25, 12)
+        Me.Label2.Size = New System.Drawing.Size(24, 12)
         Me.Label2.TabIndex = 12
-        Me.Label2.Text = "かな"
-        Me.Label2.Visible = False
+        Me.Label2.Text = "カナ"
         '
         'Label1
         '
@@ -84,7 +83,6 @@ Partial Class 記入者マスタ
         Me.kanaBox.Name = "kanaBox"
         Me.kanaBox.Size = New System.Drawing.Size(127, 19)
         Me.kanaBox.TabIndex = 8
-        Me.kanaBox.Visible = False
         '
         'namBox
         '
@@ -97,7 +95,7 @@ Partial Class 記入者マスタ
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(352, 469)
+        Me.ClientSize = New System.Drawing.Size(344, 469)
         Me.Controls.Add(Me.dgvWriter)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
