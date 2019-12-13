@@ -2155,6 +2155,18 @@ Public Class 認定調査票
             MsgBox("対象の日付のデータが存在しません。")
             Return
         End If
+        '記入者マスタ読み込み
+        Dim writerDic As New Dictionary(Of String, String)
+        Dim rs2 As New ADODB.Recordset
+        Dim sql2 = "select Nam, Kana from EtcM"
+        rs2.Open(sql2, cnn, ADODB.CursorTypeEnum.adOpenKeyset, ADODB.LockTypeEnum.adLockPessimistic)
+        While Not rs2.EOF
+            Dim nam As String = Util.checkDBNullValue(rs2.Fields("Nam").Value)
+            Dim kana As String = Util.checkDBNullValue(rs2.Fields("Kana").Value)
+            writerDic.Add(nam, kana)
+            rs2.MoveNext()
+        End While
+        rs2.Close()
 
         '日付変換(西暦→和暦)
         Dim ymd1Wareki As String = convADStrToWarekiStr(Util.checkDBNullValue(rs.Fields("Ymd1").Value))
@@ -2249,7 +2261,12 @@ Public Class 認定調査票
             border.Weight = Excel.XlBorderWeight.xlHairline
         End If
         oSheet.Range("AU11").value = Util.checkDBNullValue(rs.Fields("Nonhm").Value) '自宅外テキスト
-        oSheet.Range("I13").value = If(Util.checkDBNullValue(rs.Fields("Tanto").Value) = "河合　哲也", "ｶﾜｲ ﾃﾂﾔ", "") '記入者フリガナ
+        Dim tanto As String = Util.checkDBNullValue(rs.Fields("Tanto").Value)
+        Dim tantoKana As String = ""
+        If writerDic.ContainsKey(tanto) Then
+            tantoKana = writerDic(tanto)
+        End If
+        oSheet.Range("I13").value = tantoKana '記入者フリガナ
         oSheet.Range("I14").value = Util.checkDBNullValue(rs.Fields("Tanto").Value) '記入者氏名
         oSheet.Range("AR13").value = Util.checkDBNullValue(rs.Fields("Kikan").Value) '所属機関
         '過去の認定

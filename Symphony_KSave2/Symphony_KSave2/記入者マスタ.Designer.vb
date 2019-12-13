@@ -46,9 +46,9 @@ Partial Class 記入者マスタ
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(27, 65)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(24, 12)
+        Me.Label2.Size = New System.Drawing.Size(25, 12)
         Me.Label2.TabIndex = 12
-        Me.Label2.Text = "カナ"
+        Me.Label2.Text = "かな"
         '
         'Label1
         '

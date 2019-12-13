@@ -71,7 +71,7 @@ Public Class 記入者マスタ
             End With
             With .Columns("Kana")
                 .Width = 110
-                .HeaderText = "カナ"
+                .HeaderText = "かな"
             End With
 
         End With
@@ -123,10 +123,9 @@ Public Class 記入者マスタ
             namBox.Focus()
             Return
         End If
-        Dim kana As String = StrConv(kanaBox.Text, VbStrConv.Katakana) 'カタカナに変換
-        kana = StrConv(kana, VbStrConv.Narrow) '半角に変換
+        Dim kana As String = StrConv(kanaBox.Text, VbStrConv.Hiragana) 'ひらがなに変換
         If kana = "" Then
-            MsgBox("カナを入力して下さい。")
+            MsgBox("かなを入力して下さい。")
             kanaBox.Focus()
             Return
         End If
