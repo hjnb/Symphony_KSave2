@@ -93,10 +93,10 @@ Public Class 認定調査票
         userList.CurrentCell.Selected = False
     End Sub
 
-    Private Sub displayRecordList(userNam As String)
+    Private Sub displayRecordList(userKana As String)
         Dim cnn As New ADODB.Connection
         Dim rs As New ADODB.Recordset
-        Dim sql As String = "select distinct Ymd1 from Auth1 where Nam='" & userNam & "' order by Ymd1 Desc"
+        Dim sql As String = "select distinct Ymd1 from Auth1 where Kana='" & userKana & "' order by Ymd1 Desc"
         cnn.Open(topForm.DB_KSave2)
         rs.Open(sql, cnn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly)
         recordList.Items.Clear()
@@ -114,7 +114,7 @@ Public Class 認定調査票
         Dim userKana As String = userList("Kana", e.RowIndex).Value
         kanaLabel.Text = userKana
         userLabel.Text = userNam
-        displayRecordList(userNam)
+        displayRecordList(userKana)
     End Sub
 
     Private Sub initDgvNumInput()
