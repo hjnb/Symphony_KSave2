@@ -2169,11 +2169,10 @@ Public Class 認定調査票
         rs2.Close()
 
         '日付変換(西暦→和暦)
-        Dim ymd1Wareki As String = convADStrToWarekiStr(Util.checkDBNullValue(rs.Fields("Ymd1").Value))
-        Dim ymd1Kanji As String = getKanji(ymd1Wareki)
-        Dim ymd1Era As String = CInt(ymd1Wareki.Substring(1, 2)).ToString
-        Dim ymd1Month As String = CInt(ymd1Wareki.Substring(4, 2)).ToString
-        Dim ymd1Day As String = CInt(ymd1Wareki.Substring(7, 2)).ToString
+        Dim ymd1AD As String = Util.checkDBNullValue(rs.Fields("Ymd1").Value)
+        Dim ymd1Era As String = CInt(ymd1AD.Split("/")(0)).ToString
+        Dim ymd1Month As String = CInt(ymd1AD.Split("/")(1)).ToString
+        Dim ymd1Day As String = CInt(ymd1AD.Split("/")(2)).ToString
         Dim ymd2Wareki As String = convADStrToWarekiStr(Util.checkDBNullValue(rs.Fields("Ymd2").Value))
         Dim ymd2Kanji As String = getKanji(ymd2Wareki)
         Dim ymd2Char As String = If(ymd2Wareki <> "", ymd2Wareki.Substring(0, 1), "")
@@ -2226,8 +2225,8 @@ Public Class 認定調査票
         oSheet.Range("BP4").value = gNum(8)
         oSheet.Range("BV4").value = gNum(9)
         '実施日時
-        oSheet.Range("H10").value = ymd1Kanji
-        oSheet.Range("J10").value = ymd1Era
+        oSheet.Range("H10").value = ymd1Era
+        oSheet.Range("J10").value = ""
         oSheet.Range("N10").value = ymd1Month
         oSheet.Range("T10").value = ymd1Day
         '実施場所

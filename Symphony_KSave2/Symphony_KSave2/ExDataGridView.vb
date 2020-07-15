@@ -3,14 +3,14 @@
 
     Private editingColumnIndex As Integer = 0
 
-    Private _targetTextBox As ymdBox.ymdBox
+    Private _targetTextBox As ADBox2.ADBox2
 
-    Public Property targetTextBox() As ymdBox.ymdBox
+    Public Property targetTextBox() As ADBox2.ADBox2
         Get
             Return _targetTextBox
         End Get
 
-        Set(ByVal value As ymdBox.ymdBox)
+        Set(ByVal value As ADBox2.ADBox2)
             _targetTextBox = value
         End Set
     End Property

@@ -166,7 +166,6 @@ Partial Class 認定調査票
         Me.Label4 = New System.Windows.Forms.Label()
         Me.etcBox = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.dateYmdBox = New ymdBox.ymdBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnClear = New System.Windows.Forms.Button()
@@ -401,6 +400,7 @@ Partial Class 認定調査票
         Me.Label210 = New System.Windows.Forms.Label()
         Me.ListingDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ContentDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dateYmdBox = New ADBox2.ADBox2()
         Me.spText4 = New Symphony_KSave2.ExTextBox()
         Me.spText3 = New Symphony_KSave2.ExTextBox()
         Me.spText2 = New Symphony_KSave2.ExTextBox()
@@ -847,6 +847,7 @@ Partial Class 認定調査票
         'overviewPage
         '
         Me.overviewPage.BackColor = System.Drawing.SystemColors.Control
+        Me.overviewPage.Controls.Add(Me.dateYmdBox)
         Me.overviewPage.Controls.Add(Me.spText4)
         Me.overviewPage.Controls.Add(Me.spText3)
         Me.overviewPage.Controls.Add(Me.spText2)
@@ -894,7 +895,6 @@ Partial Class 認定調査票
         Me.overviewPage.Controls.Add(Me.Label4)
         Me.overviewPage.Controls.Add(Me.etcBox)
         Me.overviewPage.Controls.Add(Me.Label3)
-        Me.overviewPage.Controls.Add(Me.dateYmdBox)
         Me.overviewPage.Controls.Add(Me.Label2)
         Me.overviewPage.Controls.Add(Me.Label1)
         Me.overviewPage.Controls.Add(Me.btnClear)
@@ -2061,14 +2061,15 @@ Partial Class 認定調査票
         '
         Me.birthYmdBox.boxType = 2
         Me.birthYmdBox.DateText = ""
-        Me.birthYmdBox.EraLabelText = "H31"
+        Me.birthYmdBox.EraLabelText = "R02"
         Me.birthYmdBox.EraText = ""
         Me.birthYmdBox.Location = New System.Drawing.Point(280, 134)
-        Me.birthYmdBox.MonthLabelText = "02"
+        Me.birthYmdBox.MonthLabelText = "07"
         Me.birthYmdBox.MonthText = ""
         Me.birthYmdBox.Name = "birthYmdBox"
         Me.birthYmdBox.Size = New System.Drawing.Size(110, 34)
         Me.birthYmdBox.TabIndex = 10
+        Me.birthYmdBox.textReadOnly = False
         '
         'Label14
         '
@@ -2143,14 +2144,15 @@ Partial Class 認定調査票
         '
         Me.lastCertifiedYmdBox.boxType = 2
         Me.lastCertifiedYmdBox.DateText = ""
-        Me.lastCertifiedYmdBox.EraLabelText = "H31"
+        Me.lastCertifiedYmdBox.EraLabelText = "R02"
         Me.lastCertifiedYmdBox.EraText = ""
         Me.lastCertifiedYmdBox.Location = New System.Drawing.Point(379, 102)
-        Me.lastCertifiedYmdBox.MonthLabelText = "02"
+        Me.lastCertifiedYmdBox.MonthLabelText = "07"
         Me.lastCertifiedYmdBox.MonthText = ""
         Me.lastCertifiedYmdBox.Name = "lastCertifiedYmdBox"
         Me.lastCertifiedYmdBox.Size = New System.Drawing.Size(110, 34)
         Me.lastCertifiedYmdBox.TabIndex = 7
+        Me.lastCertifiedYmdBox.textReadOnly = False
         Me.lastCertifiedYmdBox.Visible = False
         '
         'lastCertifiedCheckBox
@@ -2325,19 +2327,6 @@ Partial Class 認定調査票
         Me.Label3.Size = New System.Drawing.Size(53, 12)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "2. 実施者"
-        '
-        'dateYmdBox
-        '
-        Me.dateYmdBox.boxType = 4
-        Me.dateYmdBox.DateText = ""
-        Me.dateYmdBox.EraLabelText = "H31"
-        Me.dateYmdBox.EraText = ""
-        Me.dateYmdBox.Location = New System.Drawing.Point(110, 41)
-        Me.dateYmdBox.MonthLabelText = "02"
-        Me.dateYmdBox.MonthText = ""
-        Me.dateYmdBox.Name = "dateYmdBox"
-        Me.dateYmdBox.Size = New System.Drawing.Size(145, 34)
-        Me.dateYmdBox.TabIndex = 1
         '
         'Label2
         '
@@ -4961,6 +4950,18 @@ Partial Class 認定調査票
         Me.ContentDataGridViewTextBoxColumn.DataPropertyName = "Content"
         Me.ContentDataGridViewTextBoxColumn.HeaderText = "Content"
         Me.ContentDataGridViewTextBoxColumn.Name = "ContentDataGridViewTextBoxColumn"
+        '
+        'dateYmdBox
+        '
+        Me.dateYmdBox.dateText = ""
+        Me.dateYmdBox.Location = New System.Drawing.Point(105, 41)
+        Me.dateYmdBox.Mode = 0
+        Me.dateYmdBox.monthText = ""
+        Me.dateYmdBox.Name = "dateYmdBox"
+        Me.dateYmdBox.Size = New System.Drawing.Size(160, 32)
+        Me.dateYmdBox.TabIndex = 1
+        Me.dateYmdBox.textReadOnly = False
+        Me.dateYmdBox.yearText = ""
         '
         'spText4
         '
@@ -8010,7 +8011,6 @@ Partial Class 認定調査票
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents btnClear As System.Windows.Forms.Button
-    Friend WithEvents dateYmdBox As ymdBox.ymdBox
     Friend WithEvents etcBox As System.Windows.Forms.ComboBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents companyBox As System.Windows.Forms.ComboBox
@@ -8639,4 +8639,5 @@ Partial Class 認定調査票
     Friend WithEvents spText1 As Symphony_KSave2.ExTextBox
     Friend WithEvents GroupBox59 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox58 As System.Windows.Forms.GroupBox
+    Friend WithEvents dateYmdBox As ADBox2.ADBox2
 End Class
