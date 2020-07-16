@@ -31,6 +31,8 @@ Partial Class 認定調査票
         Me.btnPrint = New System.Windows.Forms.Button()
         Me.inputTab = New System.Windows.Forms.TabControl()
         Me.overviewPage = New System.Windows.Forms.TabPage()
+        Me.lastCertifiedYmdBox = New ADBox2.ADBox2()
+        Me.dateYmdBox = New ADBox2.ADBox2()
         Me.Label77 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.Label64 = New System.Windows.Forms.Label()
@@ -139,7 +141,6 @@ Partial Class 認定調査票
         Me.ageLabel = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.btnCalcAge = New System.Windows.Forms.Button()
-        Me.birthYmdBox = New ymdBox.ymdBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.rbtnWoman = New System.Windows.Forms.RadioButton()
@@ -147,7 +148,6 @@ Partial Class 認定調査票
         Me.Label13 = New System.Windows.Forms.Label()
         Me.certifiedResultBox = New System.Windows.Forms.ComboBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.lastCertifiedYmdBox = New ymdBox.ymdBox()
         Me.lastCertifiedCheckBox = New System.Windows.Forms.CheckBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -400,7 +400,6 @@ Partial Class 認定調査票
         Me.Label210 = New System.Windows.Forms.Label()
         Me.ListingDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ContentDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dateYmdBox = New ADBox2.ADBox2()
         Me.spText4 = New Symphony_KSave2.ExTextBox()
         Me.spText3 = New Symphony_KSave2.ExTextBox()
         Me.spText2 = New Symphony_KSave2.ExTextBox()
@@ -666,6 +665,7 @@ Partial Class 認定調査票
         Me.rb7_1_3 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_1_2 = New Symphony_KSave2.ExRadioButton()
         Me.rb7_1_1 = New Symphony_KSave2.ExRadioButton()
+        Me.birthYmdBox = New ADBox2.ADBox2()
         CType(Me.userList, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.inputTab.SuspendLayout()
         Me.overviewPage.SuspendLayout()
@@ -847,6 +847,8 @@ Partial Class 認定調査票
         'overviewPage
         '
         Me.overviewPage.BackColor = System.Drawing.SystemColors.Control
+        Me.overviewPage.Controls.Add(Me.birthYmdBox)
+        Me.overviewPage.Controls.Add(Me.lastCertifiedYmdBox)
         Me.overviewPage.Controls.Add(Me.dateYmdBox)
         Me.overviewPage.Controls.Add(Me.spText4)
         Me.overviewPage.Controls.Add(Me.spText3)
@@ -874,13 +876,11 @@ Partial Class 認定調査票
         Me.overviewPage.Controls.Add(Me.ageLabel)
         Me.overviewPage.Controls.Add(Me.Label15)
         Me.overviewPage.Controls.Add(Me.btnCalcAge)
-        Me.overviewPage.Controls.Add(Me.birthYmdBox)
         Me.overviewPage.Controls.Add(Me.Label14)
         Me.overviewPage.Controls.Add(Me.Panel3)
         Me.overviewPage.Controls.Add(Me.Label13)
         Me.overviewPage.Controls.Add(Me.certifiedResultBox)
         Me.overviewPage.Controls.Add(Me.Label12)
-        Me.overviewPage.Controls.Add(Me.lastCertifiedYmdBox)
         Me.overviewPage.Controls.Add(Me.lastCertifiedCheckBox)
         Me.overviewPage.Controls.Add(Me.Label11)
         Me.overviewPage.Controls.Add(Me.Label10)
@@ -905,6 +905,31 @@ Partial Class 認定調査票
         Me.overviewPage.Size = New System.Drawing.Size(844, 735)
         Me.overviewPage.TabIndex = 0
         Me.overviewPage.Text = "概　況　調　査"
+        '
+        'lastCertifiedYmdBox
+        '
+        Me.lastCertifiedYmdBox.dateText = ""
+        Me.lastCertifiedYmdBox.Location = New System.Drawing.Point(374, 101)
+        Me.lastCertifiedYmdBox.Mode = 1
+        Me.lastCertifiedYmdBox.monthText = ""
+        Me.lastCertifiedYmdBox.Name = "lastCertifiedYmdBox"
+        Me.lastCertifiedYmdBox.Size = New System.Drawing.Size(125, 32)
+        Me.lastCertifiedYmdBox.TabIndex = 7
+        Me.lastCertifiedYmdBox.textReadOnly = False
+        Me.lastCertifiedYmdBox.Visible = False
+        Me.lastCertifiedYmdBox.yearText = ""
+        '
+        'dateYmdBox
+        '
+        Me.dateYmdBox.dateText = ""
+        Me.dateYmdBox.Location = New System.Drawing.Point(105, 41)
+        Me.dateYmdBox.Mode = 0
+        Me.dateYmdBox.monthText = ""
+        Me.dateYmdBox.Name = "dateYmdBox"
+        Me.dateYmdBox.Size = New System.Drawing.Size(160, 32)
+        Me.dateYmdBox.TabIndex = 1
+        Me.dateYmdBox.textReadOnly = False
+        Me.dateYmdBox.yearText = ""
         '
         'Label77
         '
@@ -2057,20 +2082,6 @@ Partial Class 認定調査票
         Me.btnCalcAge.Text = "年齢算出"
         Me.btnCalcAge.UseVisualStyleBackColor = True
         '
-        'birthYmdBox
-        '
-        Me.birthYmdBox.boxType = 2
-        Me.birthYmdBox.DateText = ""
-        Me.birthYmdBox.EraLabelText = "R02"
-        Me.birthYmdBox.EraText = ""
-        Me.birthYmdBox.Location = New System.Drawing.Point(280, 134)
-        Me.birthYmdBox.MonthLabelText = "07"
-        Me.birthYmdBox.MonthText = ""
-        Me.birthYmdBox.Name = "birthYmdBox"
-        Me.birthYmdBox.Size = New System.Drawing.Size(110, 34)
-        Me.birthYmdBox.TabIndex = 10
-        Me.birthYmdBox.textReadOnly = False
-        '
         'Label14
         '
         Me.Label14.AutoSize = True
@@ -2139,21 +2150,6 @@ Partial Class 認定調査票
         Me.Label12.Size = New System.Drawing.Size(89, 12)
         Me.Label12.TabIndex = 20
         Me.Label12.Text = "2. 前回認定結果"
-        '
-        'lastCertifiedYmdBox
-        '
-        Me.lastCertifiedYmdBox.boxType = 2
-        Me.lastCertifiedYmdBox.DateText = ""
-        Me.lastCertifiedYmdBox.EraLabelText = "R02"
-        Me.lastCertifiedYmdBox.EraText = ""
-        Me.lastCertifiedYmdBox.Location = New System.Drawing.Point(379, 102)
-        Me.lastCertifiedYmdBox.MonthLabelText = "07"
-        Me.lastCertifiedYmdBox.MonthText = ""
-        Me.lastCertifiedYmdBox.Name = "lastCertifiedYmdBox"
-        Me.lastCertifiedYmdBox.Size = New System.Drawing.Size(110, 34)
-        Me.lastCertifiedYmdBox.TabIndex = 7
-        Me.lastCertifiedYmdBox.textReadOnly = False
-        Me.lastCertifiedYmdBox.Visible = False
         '
         'lastCertifiedCheckBox
         '
@@ -4950,18 +4946,6 @@ Partial Class 認定調査票
         Me.ContentDataGridViewTextBoxColumn.DataPropertyName = "Content"
         Me.ContentDataGridViewTextBoxColumn.HeaderText = "Content"
         Me.ContentDataGridViewTextBoxColumn.Name = "ContentDataGridViewTextBoxColumn"
-        '
-        'dateYmdBox
-        '
-        Me.dateYmdBox.dateText = ""
-        Me.dateYmdBox.Location = New System.Drawing.Point(105, 41)
-        Me.dateYmdBox.Mode = 0
-        Me.dateYmdBox.monthText = ""
-        Me.dateYmdBox.Name = "dateYmdBox"
-        Me.dateYmdBox.Size = New System.Drawing.Size(160, 32)
-        Me.dateYmdBox.TabIndex = 1
-        Me.dateYmdBox.textReadOnly = False
-        Me.dateYmdBox.yearText = ""
         '
         'spText4
         '
@@ -7795,6 +7779,18 @@ Partial Class 認定調査票
         Me.rb7_1_1.Text = "自立"
         Me.rb7_1_1.UseVisualStyleBackColor = True
         '
+        'birthYmdBox
+        '
+        Me.birthYmdBox.dateText = ""
+        Me.birthYmdBox.Location = New System.Drawing.Point(275, 133)
+        Me.birthYmdBox.Mode = 1
+        Me.birthYmdBox.monthText = ""
+        Me.birthYmdBox.Name = "birthYmdBox"
+        Me.birthYmdBox.Size = New System.Drawing.Size(125, 32)
+        Me.birthYmdBox.TabIndex = 10
+        Me.birthYmdBox.textReadOnly = False
+        Me.birthYmdBox.yearText = ""
+        '
         '認定調査票
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -8029,7 +8025,6 @@ Partial Class 認定調査票
     Friend WithEvents rbtnFirstCount As System.Windows.Forms.RadioButton
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents lastCertifiedYmdBox As ymdBox.ymdBox
     Friend WithEvents certifiedResultBox As System.Windows.Forms.ComboBox
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
@@ -8040,7 +8035,6 @@ Partial Class 認定調査票
     Friend WithEvents ageLabel As System.Windows.Forms.Label
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents btnCalcAge As System.Windows.Forms.Button
-    Friend WithEvents birthYmdBox As ymdBox.ymdBox
     Friend WithEvents Panel4 As System.Windows.Forms.Panel
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
@@ -8640,4 +8634,6 @@ Partial Class 認定調査票
     Friend WithEvents GroupBox59 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox58 As System.Windows.Forms.GroupBox
     Friend WithEvents dateYmdBox As ADBox2.ADBox2
+    Friend WithEvents lastCertifiedYmdBox As ADBox2.ADBox2
+    Friend WithEvents birthYmdBox As ADBox2.ADBox2
 End Class
